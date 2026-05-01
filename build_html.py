@@ -9,18 +9,18 @@ import html as _html
 import json
 import re
 from collections import defaultdict
-from itertools import groupby
 from datetime import datetime
+from itertools import groupby
 from pathlib import Path
 
 RESULTS_DIR = Path(__file__).parent / "spie_query_results"
 OUTPUT_DIR = Path(__file__).parent / "output"
 
-PX_MIN = 4        # pixels per minute of conference time
+PX_MIN = 4  # pixels per minute of conference time
 ROOM_COL_W = 180  # pixels per room column
 
 POSTER_START_MIN = 17 * 60 + 30  # 17:30 in minutes from midnight
-POSTER_END_MIN = 19 * 60          # 19:00
+POSTER_END_MIN = 19 * 60  # 19:00
 
 CONFERENCES_OF_INTEREST = {
     "14145",
@@ -289,7 +289,9 @@ def render_cal_card(talk: dict, top: int, height: int) -> str:
     card_id = e(talk["paper"] if talk["paper"] else f"PLENARY-{talk['title']}")
 
     if talk["conf"] == "PLENARY":
-        card_style = f"background:#1a1a2e;border-left-color:#fff;top:{top}px;height:{height}px"
+        card_style = (
+            f"background:#1a1a2e;border-left-color:#fff;top:{top}px;height:{height}px"
+        )
         conf_color = "color:#fff"
         title_color = "color:#fff"
     else:
@@ -351,8 +353,9 @@ def render_session_item(talk: dict) -> str:
     )
 
 
-def render_session_block(talks: list[dict], top: int, height: int,
-                         talk_start: int, talk_end: int) -> str:
+def render_session_block(
+    talks: list[dict], top: int, height: int, talk_start: int, talk_end: int
+) -> str:
     label = (
         f"{talk_start // 60:02d}:{talk_start % 60:02d}"
         f"–{talk_end // 60:02d}:{talk_end % 60:02d} CEST"
@@ -361,8 +364,8 @@ def render_session_block(talks: list[dict], top: int, height: int,
     return (
         f'<div class="cal-session" style="top:{top}px;height:{height}px">'
         f'<div class="session-header">'
-        f'<span>{e(label)}</span>'
-        f'<span>{len(talks)} talks</span>'
+        f"<span>{e(label)}</span>"
+        f"<span>{len(talks)} talks</span>"
         f"</div>"
         f'<div class="session-list">{items}</div>'
         f"</div>"
@@ -387,26 +390,31 @@ def render_agenda_day(day: dict) -> str:
             last_hour = hour
             rows.append(
                 f'<div class="agenda-hour-sep" style="top:var(--tabs-h,0)">'
-                f'<span>{hour:02d}:00</span>'
-                f'</div>'
+                f"<span>{hour:02d}:00</span>"
+                f"</div>"
             )
 
         end_str = slot_end(talk["time_slot"])
         color = CONF_COLOR.get(talk["conf"], "#999")
         short = CONF_SHORT.get(talk["conf"], talk["conf"])
-        search = e(f"{talk['title']} {talk['paper']} {talk['author']} {talk['abstract']}")
+        search = e(
+            f"{talk['title']} {talk['paper']} {talk['author']} {talk['abstract']}"
+        )
         tooltip = e(talk["abstract"] or "No abstract available.")
         href = f"https://spie.org{talk['url']}" if talk.get("url") else ""
         card_id = e(talk["paper"] if talk["paper"] else f"PLENARY-{talk['title']}")
 
         title_html = (
             f'<a class="talk-link" href="{e(href)}" target="_blank" rel="noopener">{e(talk["title"])}</a>'
-            if href else e(talk["title"])
+            if href
+            else e(talk["title"])
         )
         end_html = (
             f'<span class="agenda-time-end">{e(end_str)}</span>' if end_str else ""
         )
-        meta_parts = [p for p in [talk["room"], talk["author"]] if p and p != "Room TBC"]
+        meta_parts = [
+            p for p in [talk["room"], talk["author"]] if p and p != "Room TBC"
+        ]
         meta_html = " · ".join(e(p) for p in meta_parts)
 
         plenary = talk["conf"] == "PLENARY"
@@ -419,19 +427,19 @@ def render_agenda_day(day: dict) -> str:
             f'title="{tooltip}" style="border-left-color:{color}">'
             f'<div class="agenda-time-col">'
             f'<span class="agenda-time-start">{start_min // 60:02d}:{start_min % 60:02d}</span>'
-            f'{end_html}'
-            f'</div>'
+            f"{end_html}"
+            f"</div>"
             f'<div class="agenda-event-col">'
             f'<span class="agenda-conf" style="color:{color}">{e(short)}</span>'
             f'<div class="agenda-title">{title_html}</div>'
-            f'{"<div class=\"agenda-meta\">" + meta_html + "</div>" if meta_html else ""}'
-            f'</div>'
+            f"{'<div class="agenda-meta">' + meta_html + '</div>' if meta_html else ''}"
+            f"</div>"
             f'<button class="star-btn" onclick="toggleBookmark(this)" '
             f'title="Save to My Schedule" style="{star_color}">&#9734;</button>'
-            f'</div>'
+            f"</div>"
         )
 
-    return f'<div class="cal-agenda">{"" .join(rows)}</div>'
+    return f'<div class="cal-agenda">{"".join(rows)}</div>'
 
 
 def render_calendar_day(day: dict) -> str:
@@ -450,7 +458,7 @@ def render_calendar_day(day: dict) -> str:
         abs_min = start_min + offset
         label = f"{abs_min // 60:02d}:{abs_min % 60:02d}"
         # First mark: don't pull up with translateY(-50%) or it clips behind the header
-        extra = ' first-mark' if offset == 0 else ''
+        extra = " first-mark" if offset == 0 else ""
         marks.append(f'<div class="cal-mark{extra}" style="top:{top}px">{label}</div>')
         cls = "cal-hour-line" if abs_min % 60 == 0 else "cal-half-line"
         lines.append(f'<div class="{cls}" style="top:{top}px"></div>')
@@ -491,7 +499,7 @@ def render_calendar_day(day: dict) -> str:
         f'<div class="cal-body">'
         f'<div class="cal-gutter" style="height:{total_px}px">{"".join(marks)}</div>'
         f'<div class="cal-timeline" style="height:{total_px}px;width:{timeline_w}px">'
-        f'{"".join(lines)}'
+        f"{''.join(lines)}"
         f'<div class="cal-cols">{"".join(cols)}</div>'
         f"</div>"
         f"</div>"
@@ -1874,23 +1882,26 @@ def render_poster_page(poster_days: list[dict]) -> str:
                 href = f"https://spie.org{t['url']}" if t.get("url") else ""
                 title_html = (
                     f'<a href="{e(href)}" target="_blank" rel="noopener">{e(t["title"])}</a>'
-                    if href else e(t["title"])
+                    if href
+                    else e(t["title"])
                 )
-                search_text = e(f"{t['title']} {t['paper']} {t['author']} {t['abstract']}")
+                search_text = e(
+                    f"{t['title']} {t['paper']} {t['author']} {t['abstract']}"
+                )
                 item = (
                     f'<div class="poster-item" data-id="{card_id}" data-search="{search_text}">'
                     f'<div class="poster-item-body">'
                     f'<div class="poster-item-title">{title_html}</div>'
                     f'<div class="poster-item-meta">'
                     f'<span class="poster-item-conf" style="color:{color}">{e(short)}</span>'
-                    f' &middot; [{e(t["paper"])}] {e(t["author"])}'
-                    f'</div>'
-                    f'</div>'
+                    f" &middot; [{e(t['paper'])}] {e(t['author'])}"
+                    f"</div>"
+                    f"</div>"
                     f'<div class="poster-actions">'
                     f'<button class="poster-skip-btn" onclick="togglePosterSkip(this)" title="Not interested">&#10005;</button>'
                     f'<button class="poster-star-btn" onclick="togglePosterBookmark(this)" title="Save to My Schedule">&#9734;</button>'
-                    f'</div>'
-                    f'</div>'
+                    f"</div>"
+                    f"</div>"
                 )
                 day_list.append(item)
                 all_items.append(item)
@@ -1915,7 +1926,7 @@ def render_poster_page(poster_days: list[dict]) -> str:
         '<button id="poster-clear-btn" onclick="clearPosterSearch()">Clear</button>'
         '<span id="poster-match-count"></span>'
         '<span id="poster-star-count" style="font-size:11px;color:#f5a623;margin-left:8px;white-space:nowrap"></span>'
-        '</div>'
+        "</div>"
     )
 
     all_panel = (
@@ -1930,12 +1941,7 @@ def render_poster_page(poster_days: list[dict]) -> str:
         for d in poster_days
     )
 
-    return (
-        f'<div class="tabs">{tabs}</div>'
-        + search_bar
-        + all_panel
-        + day_panels
-    )
+    return f'<div class="tabs">{tabs}</div>' + search_bar + all_panel + day_panels
 
 
 def render_swipe_data(poster_days: list[dict]) -> str:
@@ -1964,8 +1970,7 @@ def render_swipe_data(poster_days: list[dict]) -> str:
 
 def render_swipe_page(poster_days: list[dict]) -> str:
     day_opts = "".join(
-        f'<option value="{d["date_iso"]}">{e(d["label"])}</option>'
-        for d in poster_days
+        f'<option value="{d["date_iso"]}">{e(d["label"])}</option>' for d in poster_days
     )
     conf_opts = "".join(
         f'<option value="{conf}">{e(CONF_SHORT.get(conf, conf))}</option>'
@@ -1981,13 +1986,13 @@ def render_swipe_page(poster_days: list[dict]) -> str:
         f'<option value="all">All tracks</option>{conf_opts}</select>'
         f'<button class="swipe-reset-btn" onclick="resetSwipe()">Reset</button>'
         f'<span class="swipe-counter" id="swipe-counter"></span>'
-        f'</div>'
+        f"</div>"
         f'<div class="swipe-arena" id="swipe-arena"></div>'
         f'<div class="swipe-btn-row">'
         f'<button class="swipe-action-btn skip-btn" onclick="applySwipeAction(\'skip\')">&#10005;</button>'
         f'<button class="swipe-action-btn undo-btn" onclick="undoSwipe()">&#8630;</button>'
         f'<button class="swipe-action-btn save-btn" onclick="applySwipeAction(\'save\')">&#9733;</button>'
-        f'</div>'
+        f"</div>"
         f'<div class="swipe-keys">&#8592; skip &nbsp;|&nbsp; &#8594; save &nbsp;|&nbsp; &#8593; undo</div>'
     )
 
@@ -2005,7 +2010,7 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
         '<button class="view-btn active" data-view="schedule" onclick="switchView(\'schedule\')">Schedule</button>'
         '<button class="view-btn" data-view="posters" onclick="switchView(\'posters\')">Posters</button>'
         '<button class="view-btn" data-view="swipe" onclick="switchView(\'swipe\')">&#127183; Poster Swipe</button>'
-        '</nav>'
+        "</nav>"
     )
 
     tabs = "".join(
@@ -2110,7 +2115,9 @@ def main() -> None:
     for d in days:
         total = sum(len(v) for v in d["rooms_map"].values())
         print(f"  {d['label']}: {total} talks across {len(d['rooms'])} rooms")
-    total_posters = sum(sum(len(v) for v in d["confs_map"].values()) for d in poster_days)
+    total_posters = sum(
+        sum(len(v) for v in d["confs_map"].values()) for d in poster_days
+    )
     print(f"  {total_posters} poster entries across {len(poster_days)} days")
 
 
