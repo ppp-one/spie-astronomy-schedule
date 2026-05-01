@@ -2044,7 +2044,7 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
 <div class="topbar">
   <h1>SPIE AS26 · Schedule</h1>
   <div class="search-wrap">
-    <input id="search" type="search" placeholder="Search title, author, paper #, keyword…" autocomplete="off">
+    <input id="search" type="search" placeholder="Search talk title, author, paper #, keyword…" autocomplete="off">
     <button id="clear-btn" onclick="clearSearch()">Clear</button>
   </div>
   <button id="my-schedule-btn" onclick="toggleMySchedule()">&#9733; My Schedule</button>
