@@ -1036,38 +1036,7 @@ a.talk-link:hover { text-decoration: underline; }
   background: #f0f2f5;
   padding: 10px 16px 0;
 }
-/* ── Poster search bar ── */
-.poster-search-bar {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 16px;
-  background: #fff;
-  border-bottom: 1px solid #dde0e6;
-  position: sticky;
-  top: var(--poster-tabs-h, 0);
-  z-index: 50;
-}
-#poster-search {
-  flex: 1;
-  padding: 5px 10px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-  font-size: 13px;
-  outline: none;
-}
-#poster-search:focus { box-shadow: 0 0 0 2px #7eb8f7; border-color: transparent; }
-#poster-clear-btn {
-  background: none;
-  border: 1px solid #7eb8f7;
-  color: #7eb8f7;
-  border-radius: 4px;
-  padding: 4px 9px;
-  cursor: pointer;
-  font-size: 12px;
-}
-#poster-clear-btn:hover { background: rgba(126,184,247,.15); }
-#poster-match-count { font-size: 11px; color: #aaa; min-width: 80px; }
+#poster-star-count { font-size: 11px; color: #f5a623; padding: 4px 16px 6px; display: block; }
 /* ── Poster panels & items ── */
 .poster-day-panel { display: none; padding: 16px; }
 .poster-day-panel.active { display: block; }
@@ -1141,6 +1110,48 @@ a.talk-link:hover { text-decoration: underline; }
 }
 .poster-skip-btn:hover { color: #e15759; }
 .poster-item.skipped .poster-skip-btn { color: #e15759; }
+/* ── Talk list ── */
+#talklist-body {
+  height: calc(100vh - var(--topbar-h, 44px));
+  overflow-y: auto;
+  padding: 0 0 32px;
+}
+#talklist-body .tabs {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #f0f2f5;
+  padding: 10px 16px 0;
+}
+.talk-list-day-panel { display: none; padding: 0 16px 16px; }
+.talk-list-day-panel.active { display: block; }
+.talk-list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 4px;
+  border-bottom: 1px solid #eee;
+}
+.talk-list-item:last-child { border-bottom: none; }
+.talk-list-item:hover { background: #fafafa; }
+.talk-list-item.bookmarked { box-shadow: inset 3px 0 0 #f5a623; }
+.talk-list-time {
+  font-size: 11px;
+  color: #666;
+  white-space: nowrap;
+  min-width: 120px;
+  padding-top: 2px;
+}
+.talk-list-body { flex: 1; min-width: 0; }
+.talk-list-conf { font-size: 11px; font-weight: 600; }
+.talk-list-title {
+  font-size: 13px;
+  font-weight: 500;
+  margin: 2px 0;
+}
+.talk-list-title a { color: inherit; text-decoration: none; }
+.talk-list-title a:hover { text-decoration: underline; }
+.talk-list-meta { font-size: 11px; color: #666; }
 /* ── Swipe game ── */
 #swipe-body {
   height: calc(100vh - var(--topbar-h, 44px));
@@ -1368,22 +1379,24 @@ function updateBookmarkCount() {
 }
 
 function toggleBookmark(btn) {
-  const card = btn.closest('.talk');
+  const card = btn.closest('[data-id]');
   const id = card.dataset.id;
-  if (bookmarks.has(id)) {
+  const wasBookmarked = bookmarks.has(id);
+  if (wasBookmarked) {
     bookmarks.delete(id);
-    card.classList.remove('bookmarked');
-    btn.textContent = '☆';
   } else {
     bookmarks.add(id);
-    card.classList.add('bookmarked');
-    btn.textContent = '★';
   }
+  document.querySelectorAll('[data-id="' + CSS.escape(id) + '"]').forEach(el => {
+    el.classList.toggle('bookmarked', !wasBookmarked);
+    const star = el.querySelector('.star-btn');
+    if (star) star.textContent = wasBookmarked ? '☆' : '★';
+  });
   saveBookmarks();
 }
 
 function restoreBookmarks() {
-  document.querySelectorAll('.talk').forEach(card => {
+  document.querySelectorAll('.talk, .talk-list-item').forEach(card => {
     if (bookmarks.has(card.dataset.id)) {
       card.classList.add('bookmarked');
       card.querySelector('.star-btn').textContent = '★';
@@ -1402,6 +1415,7 @@ function toggleMySchedule() {
     document.querySelectorAll('.talk').forEach(t => t.classList.remove('dim', 'match'));
     document.getElementById('match-count').textContent = '';
   }
+  applySearch();
   applyPosterSearch();
 }
 
@@ -1415,9 +1429,32 @@ function switchDay(iso) {
 
 function applySearch() {
   const q = document.getElementById('search').value.toLowerCase().trim();
+  let n = 0;
+
+  if (document.getElementById('page-talklist').classList.contains('active')) {
+    const panel = document.querySelector('.talk-list-day-panel.active');
+    if (panel) {
+      panel.querySelectorAll('.talk-list-item').forEach(t => {
+        const searchOk = !q || t.dataset.search.toLowerCase().includes(q);
+        const scheduleOk = !myScheduleActive || t.classList.contains('bookmarked');
+        const visible = searchOk && scheduleOk;
+        t.style.display = visible ? '' : 'none';
+        if (visible && q) n++;
+      });
+    }
+    document.getElementById('match-count').textContent =
+      q ? n + ' match' + (n !== 1 ? 'es' : '') : '';
+    return;
+  }
+
+  if (document.getElementById('page-posters').classList.contains('active')) {
+    applyPosterSearch();
+    return;
+  }
+
+  // Schedule view
   const panel = document.querySelector('.day-panel[style*="block"]');
   if (!panel) return;
-  let n = 0;
   panel.querySelectorAll('.talk').forEach(t => {
     const text = t.dataset.search.toLowerCase();
     if (!q) {
@@ -1539,6 +1576,23 @@ function switchView(view) {
   document.querySelector('[data-view="' + view + '"]').classList.add('active');
   updateStickyOffset();
   if (view === 'swipe') initSwipe();
+  const placeholders = {
+    schedule:  'Search talks: title, author, paper…',
+    talklist:  'Search talks: title, author, paper…',
+    posters:   'Search posters: title, author, paper…',
+    swipe:     '',
+  };
+  document.getElementById('search').placeholder = placeholders[view] || 'Search…';
+  document.getElementById('match-count').textContent = '';
+  applySearch();
+}
+
+function switchTalkListDay(iso) {
+  document.querySelectorAll('.talk-list-day-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('#talklist-body .tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('talklist-day-' + iso).classList.add('active');
+  document.querySelector('#talklist-body [data-day="' + iso + '"]').classList.add('active');
+  applySearch();
 }
 
 // ── Poster page ──
@@ -1603,7 +1657,7 @@ function switchPosterDay(iso) {
 }
 
 function applyPosterSearch() {
-  const q = document.getElementById('poster-search').value.toLowerCase().trim();
+  const q = document.getElementById('search').value.toLowerCase().trim();
   const panel = document.querySelector('.poster-day-panel.active');
   if (!panel) return;
   let matchCount = 0, total = 0, starred = 0;
@@ -1620,21 +1674,11 @@ function applyPosterSearch() {
     total++;
     if (item.classList.contains('bookmarked')) starred++;
   });
-  document.getElementById('poster-match-count').textContent =
+  document.getElementById('match-count').textContent =
     q ? matchCount + ' match' + (matchCount !== 1 ? 'es' : '') : '';
   const countEl = document.getElementById('poster-star-count');
   if (countEl) countEl.textContent = starred ? starred + ' ★ / ' + total : total + ' posters';
 }
-
-function clearPosterSearch() {
-  document.getElementById('poster-search').value = '';
-  applyPosterSearch();
-}
-
-document.getElementById('poster-search').addEventListener('input', applyPosterSearch);
-document.getElementById('poster-search').addEventListener('keydown', ev => {
-  if (ev.key === 'Escape') clearPosterSearch();
-});
 
 function restorePosterStates() {
   document.querySelectorAll('.poster-item').forEach(item => {
@@ -1919,15 +1963,6 @@ def render_poster_page(poster_days: list[dict]) -> str:
         for d in poster_days
     )
 
-    search_bar = (
-        '<div class="poster-search-bar">'
-        '<input id="poster-search" type="search" '
-        'placeholder="Search posters: title, author, paper \u00b7 keyword\u2026" autocomplete="off">'
-        '<button id="poster-clear-btn" onclick="clearPosterSearch()">Clear</button>'
-        '<span id="poster-match-count"></span>'
-        '<span id="poster-star-count" style="font-size:11px;color:#f5a623;margin-left:8px;white-space:nowrap"></span>'
-        "</div>"
-    )
 
     all_panel = (
         '<div class="poster-day-panel active" id="poster-day-all">'
@@ -1941,7 +1976,8 @@ def render_poster_page(poster_days: list[dict]) -> str:
         for d in poster_days
     )
 
-    return f'<div class="tabs">{tabs}</div>' + search_bar + all_panel + day_panels
+    star_count = '<span id="poster-star-count"></span>'
+    return f'<div class="tabs">{tabs}</div>' + star_count + all_panel + day_panels
 
 
 def render_swipe_data(poster_days: list[dict]) -> str:
@@ -1997,6 +2033,87 @@ def render_swipe_page(poster_days: list[dict]) -> str:
     )
 
 
+def render_talk_list_page(days: list[dict]) -> str:
+    """Flat chronological talk list, similar in layout to the poster page."""
+    day_items: dict[str, list[str]] = {}
+    all_items: list[str] = []
+
+    for d in days:
+        all_talks: list[dict] = []
+        for talks in d["rooms_map"].values():
+            all_talks.extend(talks)
+        all_talks.sort(key=lambda t: (to_minutes(t["time_sort"]), t["room"], t["title"]))
+
+        items: list[str] = []
+        for talk in all_talks:
+            color = CONF_COLOR.get(talk["conf"], "#999")
+            short = CONF_SHORT.get(talk["conf"], talk["conf"])
+            search_str = e(
+                f"{talk['title']} {talk['paper']} {talk['author']} {talk['abstract']}"
+            )
+            href = f"https://spie.org{talk['url']}" if talk.get("url") else ""
+            card_id = e(
+                talk["paper"] if talk["paper"] else f"PLENARY-{talk['title']}"
+            )
+            start_min = to_minutes(talk["time_sort"])
+            time_str = f"{start_min // 60:02d}:{start_min % 60:02d}"
+            end_str = slot_end(talk["time_slot"])
+            time_label = f"{time_str}–{end_str}" if end_str else time_str
+            title_html = (
+                f'<a href="{e(href)}" target="_blank" rel="noopener">'
+                f"{e(talk['title'])}</a>"
+                if href
+                else e(talk["title"])
+            )
+            meta = (
+                f'[{e(talk["paper"])}] {e(talk["author"])}'
+                if talk["conf"] != "PLENARY"
+                else ""
+            )
+            item = (
+                f'<div class="talk-list-item" data-search="{search_str}" data-id="{card_id}">'
+                f'<div class="talk-list-time">{time_label}<br>{e(talk["room"])}</div>'
+                f'<div class="talk-list-body">'
+                f'<span class="talk-list-conf" style="color:{color}">{e(short)}</span>'
+                f'<div class="talk-list-title">{title_html}</div>'
+                f'{"<div class=\"talk-list-meta\">" + meta + "</div>" if meta else ""}'
+                f"</div>"
+                f'<button class="star-btn" onclick="toggleBookmark(this)" '
+                f'title="Save to My Schedule">&#9734;</button>'
+                f"</div>"
+            )
+            items.append(item)
+            all_items.append(item)
+
+        day_items[d["date_iso"]] = items
+
+    tabs = (
+        '<button class="tab-btn active" data-day="all" '
+        'onclick="switchTalkListDay(\'all\')" style="font-size:12px;padding:5px 14px">'
+        "All days</button>"
+    )
+    tabs += "".join(
+        f'<button class="tab-btn" data-day="{d["date_iso"]}" '
+        f'onclick="switchTalkListDay(\'{d["date_iso"]}\')" '
+        f'style="font-size:12px;padding:5px 14px">{e(d["label"])}</button>'
+        for d in days
+    )
+
+    all_panel = (
+        '<div class="talk-list-day-panel active" id="talklist-day-all">'
+        + "".join(all_items)
+        + "</div>"
+    )
+    day_panels = "".join(
+        f'<div class="talk-list-day-panel" id="talklist-day-{d["date_iso"]}">'
+        + "".join(day_items[d["date_iso"]])
+        + "</div>"
+        for d in days
+    )
+
+    return f'<div class="tabs">{tabs}</div>' + all_panel + day_panels
+
+
 def build_html(days: list[dict], poster_days: list[dict]) -> str:
     legend = "".join(
         f'<span class="legend-item">'
@@ -2008,6 +2125,7 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
     view_nav = (
         '<nav class="view-nav">'
         '<button class="view-btn active" data-view="schedule" onclick="switchView(\'schedule\')">Schedule</button>'
+        '<button class="view-btn" data-view="talklist" onclick="switchView(\'talklist\')">Talk List</button>'
         '<button class="view-btn" data-view="posters" onclick="switchView(\'posters\')">Posters</button>'
         '<button class="view-btn" data-view="swipe" onclick="switchView(\'swipe\')">&#127183; Poster Swipe</button>'
         "</nav>"
@@ -2027,6 +2145,7 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
         for i, d in enumerate(days)
     )
 
+    talklist_html = render_talk_list_page(days)
     poster_html = render_poster_page(poster_days)
     swipe_html = render_swipe_page(poster_days)
     swipe_data = render_swipe_data(poster_days)
@@ -2044,7 +2163,7 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
 <div class="topbar">
   <h1>SPIE AS26 · Schedule</h1>
   <div class="search-wrap">
-    <input id="search" type="search" placeholder="Search talk title, author, paper #, keyword…" autocomplete="off">
+    <input id="search" type="search" placeholder="Search talks: title, author, paper…" autocomplete="off">
     <button id="clear-btn" onclick="clearSearch()">Clear</button>
   </div>
   <button id="my-schedule-btn" onclick="toggleMySchedule()">&#9733; My Schedule</button>
@@ -2062,6 +2181,11 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
 <div id="schedule-body">
 <div class="tabs">{tabs}</div>
 {schedule_panels}
+</div>
+</div>
+<div class="page" id="page-talklist">
+<div id="talklist-body">
+{talklist_html}
 </div>
 </div>
 <div class="page" id="page-posters">
