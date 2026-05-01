@@ -1,6 +1,19 @@
 # SPIE AS26 Schedule Viewer
 
+**Live site: [spie2026.netlify.app](https://spie2026.netlify.app/)**
+
 A self-contained HTML schedule for [SPIE Astronomical Telescopes + Instrumentation 2026](https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation) (Copenhagen, Sun 5 to Fri 10 July 2026).
+
+3191 records across 13 conferences.
+- Sun 5 Jul: 160 talks across 9 rooms
+- Mon 6 Jul: 181 talks across 13 rooms
+- Tue 7 Jul: 214 talks across 14 rooms
+- Wed 8 Jul: 187 talks across 14 rooms
+- Thu 9 Jul: 152 talks across 12 rooms
+- Fri 10 Jul: 157 talks across 9 rooms
+
+2140 poster entries across 5 days
+
 
 ## Files
 
