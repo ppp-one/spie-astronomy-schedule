@@ -9,11 +9,18 @@ import html as _html
 import json
 import re
 from collections import defaultdict
+from itertools import groupby
 from datetime import datetime
 from pathlib import Path
 
 RESULTS_DIR = Path(__file__).parent / "spie_query_results"
 OUTPUT_DIR = Path(__file__).parent / "output"
+
+PX_MIN = 4        # pixels per minute of conference time
+ROOM_COL_W = 180  # pixels per room column
+
+POSTER_START_MIN = 17 * 60 + 30  # 17:30 in minutes from midnight
+POSTER_END_MIN = 19 * 60          # 19:00
 
 CONFERENCES_OF_INTEREST = {
     "14145",
@@ -112,9 +119,62 @@ def slot_sort_key(ts: str) -> datetime:
     return datetime.strptime(ts.split("-")[0].strip().split()[0], "%H:%M")
 
 
+def slot_end(ts: str) -> str:
+    """Return end time 'HH:MM' from 'HH:MM - HH:MM CEST', or '' if unparseable."""
+    parts = ts.split(" - ")
+    if len(parts) < 2:
+        return ""
+    return parts[1].split()[0]
+
+
+def to_minutes(dt: datetime) -> int:
+    return dt.hour * 60 + dt.minute
+
+
+def talk_time_bounds(r: dict) -> tuple[int, int]:
+    """Return (start_min, end_min) for a record."""
+    s = to_minutes(r["time_sort"])
+    end_str = slot_end(r["time_slot"])
+    if end_str:
+        try:
+            return s, to_minutes(datetime.strptime(end_str, "%H:%M"))
+        except ValueError:
+            pass
+    return s, s + 20
+
+
 def day_label(iso: str) -> str:
     dt = datetime.strptime(iso, "%Y-%m-%d")
     return dt.strftime("%a %-d %b")
+
+
+def is_poster(r: dict) -> bool:
+    """True if the record is a 17:30–19:00 poster session entry."""
+    return r["time_slot"].startswith("17:30") and "19:00" in r["time_slot"]
+
+
+def build_poster_days(records: list[dict]) -> list[dict]:
+    """Return per-day poster data grouped by conference."""
+    by_day: dict[str, dict[str, list]] = defaultdict(lambda: defaultdict(list))
+    for r in records:
+        if not is_poster(r):
+            continue
+        by_day[r["date_iso"]][r["conf"]].append(r)
+
+    days = []
+    for date_iso in sorted(by_day.keys()):
+        confs_map = by_day[date_iso]
+        days.append(
+            {
+                "date_iso": date_iso,
+                "label": day_label(date_iso),
+                "confs_map": {
+                    conf: sorted(confs_map[conf], key=lambda r: r["title"])
+                    for conf in sorted(confs_map.keys())
+                },
+            }
+        )
+    return days
 
 
 def load_records() -> list[dict]:
@@ -147,7 +207,6 @@ def load_records() -> list[dict]:
                     }
                 )
 
-    # Load plenary events
     plenary_file = RESULTS_DIR / "plenary.json"
     if plenary_file.exists():
         with plenary_file.open(encoding="utf-8") as f:
@@ -176,106 +235,269 @@ def load_records() -> list[dict]:
     return records
 
 
-def build_schedule(records: list[dict]) -> list[dict]:
-    grid: dict[str, dict[str, dict[str, list]]] = defaultdict(
-        lambda: defaultdict(lambda: defaultdict(list))
-    )
-    sort_map: dict[str, dict[str, datetime]] = defaultdict(dict)
-
+def build_days(records: list[dict]) -> list[dict]:
+    by_day: dict[str, dict[str, list]] = defaultdict(lambda: defaultdict(list))
     for r in records:
-        d, ts, room = r["date_iso"], r["time_slot"], r["room"]
-        grid[d][ts][room].append(r)
-        sort_map[d][ts] = r["time_sort"]
+        if is_poster(r):
+            continue
+        by_day[r["date_iso"]][r["room"]].append(r)
 
     days = []
-    for date_iso in sorted(grid.keys()):
-        day_grid = grid[date_iso]
-        time_slots = sorted(day_grid.keys(), key=lambda s: sort_map[date_iso][s])
-        rooms = sorted({rm for ts_data in day_grid.values() for rm in ts_data})
+    for date_iso in sorted(by_day.keys()):
+        rooms_map = by_day[date_iso]
+        rooms = sorted(rooms_map.keys())
 
-        slots_list = []
-        for ts in time_slots:
-            cells: dict[str, list] = {}
-            for room in rooms:
-                talks = day_grid[ts].get(room, [])
-                if talks:
-                    cells[room] = talks
-            slots_list.append({"time": ts, "cells": cells})
+        all_starts, all_ends = [], []
+        for rm_talks in rooms_map.values():
+            for r in rm_talks:
+                s = to_minutes(r["time_sort"])
+                all_starts.append(s)
+                end_str = slot_end(r["time_slot"])
+                if end_str:
+                    try:
+                        all_ends.append(to_minutes(datetime.strptime(end_str, "%H:%M")))
+                    except ValueError:
+                        all_ends.append(s + 20)
+                else:
+                    all_ends.append(s + 20)
+
+        day_start = (min(all_starts) // 30) * 30
+        day_end = ((max(all_ends) + 29) // 30) * 30
 
         days.append(
             {
                 "date_iso": date_iso,
                 "label": day_label(date_iso),
                 "rooms": rooms,
-                "slots": slots_list,
+                "rooms_map": {
+                    rm: sorted(rooms_map[rm], key=lambda r: r["time_sort"])
+                    for rm in rooms
+                },
+                "day_start_min": day_start,
+                "day_end_min": day_end,
             }
         )
     return days
 
 
-def render_card(talk: dict) -> str:
+def render_cal_card(talk: dict, top: int, height: int) -> str:
     color = CONF_COLOR.get(talk["conf"], "#999")
     short = CONF_SHORT.get(talk["conf"], talk["conf"])
     search = e(f"{talk['title']} {talk['paper']} {talk['author']} {talk['abstract']}")
     tooltip = e(talk["abstract"] or "No abstract available.")
     href = f"https://spie.org{talk['url']}" if talk.get("url") else ""
-    # Unique ID for bookmarking
     card_id = e(talk["paper"] if talk["paper"] else f"PLENARY-{talk['title']}")
+
     if talk["conf"] == "PLENARY":
-        meta = ""
-        extra_style = "background:#1a1a2e; border-left-color:#fff;"
+        card_style = f"background:#1a1a2e;border-left-color:#fff;top:{top}px;height:{height}px"
+        conf_color = "color:#fff"
         title_color = "color:#fff"
     else:
-        meta = f'<div class="talk-meta">[{e(talk["paper"])}] {e(talk["author"])}</div>'
-        extra_style = f"border-left-color:{color}"
+        card_style = f"border-left-color:{color};top:{top}px;height:{height}px"
+        conf_color = f"color:{color}"
         title_color = ""
+
     title_html = (
         f'<a class="talk-link" href="{e(href)}" target="_blank" rel="noopener">{e(talk["title"])}</a>'
         if href
         else e(talk["title"])
     )
+    meta = (
+        f'<div class="talk-meta">[{e(talk["paper"])}] {e(talk["author"])}</div>'
+        if talk["conf"] != "PLENARY"
+        else ""
+    )
+
     return (
-        f'<div class="talk" data-search="{search}" data-id="{card_id}" title="{tooltip}" '
-        f'style="{extra_style}">'
+        f'<div class="talk cal-talk" data-search="{search}" data-id="{card_id}" '
+        f'title="{tooltip}" style="{card_style}">'
         f'<div class="talk-header">'
-        f'<span class="talk-conf" style="color:{color}">{e(short)}</span>'
+        f'<span class="talk-conf" style="{conf_color}">{e(short)}</span>'
         f'<button class="star-btn" onclick="toggleBookmark(this)" title="Save to My Schedule">☆</button>'
         f"</div>"
-        f'<div class="talk-title" style="{title_color}">'
-        f"{title_html}</div>"
+        f'<div class="talk-title" style="{title_color}">{title_html}</div>'
         f"{meta}"
         f"</div>"
     )
 
 
-def render_table(day: dict) -> str:
-    rooms = day["rooms"]
-    header = '<th class="time-col">Time (CEST)</th>' + "".join(
-        f"<th>{e(r)}</th>" for r in rooms
+def render_session_item(talk: dict) -> str:
+    color = CONF_COLOR.get(talk["conf"], "#999")
+    short = CONF_SHORT.get(talk["conf"], talk["conf"])
+    search = e(f"{talk['title']} {talk['paper']} {talk['author']} {talk['abstract']}")
+    tooltip = e(talk["abstract"] or "No abstract available.")
+    href = f"https://spie.org{talk['url']}" if talk.get("url") else ""
+    card_id = e(talk["paper"] if talk["paper"] else f"PLENARY-{talk['title']}")
+    title_html = (
+        f'<a class="talk-link" href="{e(href)}" target="_blank" rel="noopener">{e(talk["title"])}</a>'
+        if href
+        else e(talk["title"])
     )
-    rows = []
-    for slot in day["slots"]:
-        ts = slot["time"]
-        is_poster = ts.startswith("17:30")
-        cls = "poster-row" if is_poster else "slot-row"
-        tds = [f'<td class="time-cell">{e(ts)}</td>']
-        for room in rooms:
-            talks = slot["cells"].get(room, [])
-            if talks:
-                tds.append(
-                    f'<td class="talk-cell">{"".join(render_card(t) for t in talks)}</td>'
-                )
-            else:
-                tds.append('<td class="empty-cell"></td>')
-        rows.append(f'<tr class="{cls}">{"".join(tds)}</tr>')
-
+    meta = (
+        f'<div class="talk-meta">[{e(talk["paper"])}] {e(talk["author"])}</div>'
+        if talk["conf"] != "PLENARY"
+        else ""
+    )
     return (
-        '<div class="table-wrap">'
-        '<table class="schedule-table">'
-        f"<thead><tr>{header}</tr></thead>"
-        f"<tbody>{''.join(rows)}</tbody>"
-        "</table></div>"
+        f'<div class="talk session-item" data-search="{search}" data-id="{card_id}" '
+        f'title="{tooltip}" style="border-left-color:{color}">'
+        f'<div class="talk-header">'
+        f'<span class="talk-conf" style="color:{color}">{e(short)}</span>'
+        f'<button class="star-btn" onclick="toggleBookmark(this)" title="Save to My Schedule">☆</button>'
+        f"</div>"
+        f'<div class="talk-title">{title_html}</div>'
+        f"{meta}"
+        f"</div>"
     )
+
+
+def render_session_block(talks: list[dict], top: int, height: int,
+                         talk_start: int, talk_end: int) -> str:
+    label = (
+        f"{talk_start // 60:02d}:{talk_start % 60:02d}"
+        f"–{talk_end // 60:02d}:{talk_end % 60:02d} CEST"
+    )
+    items = "".join(render_session_item(t) for t in talks)
+    return (
+        f'<div class="cal-session" style="top:{top}px;height:{height}px">'
+        f'<div class="session-header">'
+        f'<span>{e(label)}</span>'
+        f'<span>{len(talks)} talks</span>'
+        f"</div>"
+        f'<div class="session-list">{items}</div>'
+        f"</div>"
+    )
+
+
+def render_agenda_day(day: dict) -> str:
+    """Flat chronological agenda list used in the mobile calendar view."""
+    all_talks: list[dict] = []
+    for talks in day["rooms_map"].values():
+        all_talks.extend(talks)
+    all_talks.sort(key=lambda t: (to_minutes(t["time_sort"]), t["room"], t["title"]))
+
+    rows: list[str] = []
+    last_hour = -1
+
+    for talk in all_talks:
+        start_min = to_minutes(talk["time_sort"])
+        hour = start_min // 60
+
+        if hour != last_hour:
+            last_hour = hour
+            rows.append(
+                f'<div class="agenda-hour-sep" style="top:var(--tabs-h,0)">'
+                f'<span>{hour:02d}:00</span>'
+                f'</div>'
+            )
+
+        end_str = slot_end(talk["time_slot"])
+        color = CONF_COLOR.get(talk["conf"], "#999")
+        short = CONF_SHORT.get(talk["conf"], talk["conf"])
+        search = e(f"{talk['title']} {talk['paper']} {talk['author']} {talk['abstract']}")
+        tooltip = e(talk["abstract"] or "No abstract available.")
+        href = f"https://spie.org{talk['url']}" if talk.get("url") else ""
+        card_id = e(talk["paper"] if talk["paper"] else f"PLENARY-{talk['title']}")
+
+        title_html = (
+            f'<a class="talk-link" href="{e(href)}" target="_blank" rel="noopener">{e(talk["title"])}</a>'
+            if href else e(talk["title"])
+        )
+        end_html = (
+            f'<span class="agenda-time-end">{e(end_str)}</span>' if end_str else ""
+        )
+        meta_parts = [p for p in [talk["room"], talk["author"]] if p and p != "Room TBC"]
+        meta_html = " · ".join(e(p) for p in meta_parts)
+
+        plenary = talk["conf"] == "PLENARY"
+        row_cls = " agenda-row--plenary" if plenary else ""
+        star_color = "color:#7eb8f7" if plenary else ""
+
+        rows.append(
+            f'<div class="agenda-row talk{row_cls}" '
+            f'data-search="{search}" data-id="{card_id}" '
+            f'title="{tooltip}" style="border-left-color:{color}">'
+            f'<div class="agenda-time-col">'
+            f'<span class="agenda-time-start">{start_min // 60:02d}:{start_min % 60:02d}</span>'
+            f'{end_html}'
+            f'</div>'
+            f'<div class="agenda-event-col">'
+            f'<span class="agenda-conf" style="color:{color}">{e(short)}</span>'
+            f'<div class="agenda-title">{title_html}</div>'
+            f'{"<div class=\"agenda-meta\">" + meta_html + "</div>" if meta_html else ""}'
+            f'</div>'
+            f'<button class="star-btn" onclick="toggleBookmark(this)" '
+            f'title="Save to My Schedule" style="{star_color}">&#9734;</button>'
+            f'</div>'
+        )
+
+    return f'<div class="cal-agenda">{"" .join(rows)}</div>'
+
+
+def render_calendar_day(day: dict) -> str:
+    start_min = day["day_start_min"]
+    end_min = day["day_end_min"]
+    total_min = end_min - start_min
+    total_px = total_min * PX_MIN
+    rooms = day["rooms"]
+    rooms_map = day["rooms_map"]
+
+    # Time gutter labels and grid lines every 30 minutes
+    marks = []
+    lines = []
+    for offset in range(0, total_min + 1, 30):
+        top = offset * PX_MIN
+        abs_min = start_min + offset
+        label = f"{abs_min // 60:02d}:{abs_min % 60:02d}"
+        # First mark: don't pull up with translateY(-50%) or it clips behind the header
+        extra = ' first-mark' if offset == 0 else ''
+        marks.append(f'<div class="cal-mark{extra}" style="top:{top}px">{label}</div>')
+        cls = "cal-hour-line" if abs_min % 60 == 0 else "cal-half-line"
+        lines.append(f'<div class="{cls}" style="top:{top}px"></div>')
+
+    # Poster session background band
+    if POSTER_START_MIN >= start_min and POSTER_START_MIN < end_min:
+        p_top = (POSTER_START_MIN - start_min) * PX_MIN
+        p_h = (min(POSTER_END_MIN, end_min) - POSTER_START_MIN) * PX_MIN
+        lines.append(
+            f'<div class="cal-poster-band" style="top:{p_top}px;height:{p_h}px"></div>'
+        )
+
+    # Room columns — group talks by identical time bounds so concurrent talks
+    # (e.g. poster sessions) are rendered as a scrollable block, not stacked cards.
+    cols = []
+    for room in rooms:
+        cards = []
+        sorted_talks = sorted(rooms_map[room], key=talk_time_bounds)
+        for (ts, te), grp in groupby(sorted_talks, key=talk_time_bounds):
+            group = list(grp)
+            top = (ts - start_min) * PX_MIN
+            height = max(te - ts, 5) * PX_MIN
+            if len(group) == 1:
+                cards.append(render_cal_card(group[0], top, height))
+            else:
+                cards.append(render_session_block(group, top, height, ts, te))
+        cols.append(f'<div class="cal-col">{"".join(cards)}</div>')
+
+    timeline_w = len(rooms) * ROOM_COL_W
+    room_heads = "".join(f'<div class="cal-room-head">{e(r)}</div>' for r in rooms)
+
+    grid = (
+        f'<div class="cal-wrap">'
+        f'<div class="cal-header-row">'
+        f'<div class="cal-gutter-ph"></div>'
+        f"{room_heads}"
+        f"</div>"
+        f'<div class="cal-body">'
+        f'<div class="cal-gutter" style="height:{total_px}px">{"".join(marks)}</div>'
+        f'<div class="cal-timeline" style="height:{total_px}px;width:{timeline_w}px">'
+        f'{"".join(lines)}'
+        f'<div class="cal-cols">{"".join(cols)}</div>'
+        f"</div>"
+        f"</div>"
+        f"</div>"
+    )
+    return grid + render_agenda_day(day)
 
 
 CSS = """
@@ -399,77 +621,158 @@ body {
   z-index: 100;
   background: #f0f2f5;
 }
-/* ── Schedule grid ── */
-.day-panel { padding: 0 16px 32px; }
-.table-wrap {
-  border: 1px solid #ccc;
-  border-top: none;
-  background: #fff;
-  border-radius: 0 6px 6px 6px;
-}
-.schedule-table {
-  border-collapse: collapse;
-  width: 100%;
-  min-width: 700px;
-}
-.schedule-table thead th {
+/* ── Day panel ── */
+.day-panel { padding-bottom: 32px; }
+/* ── Calendar grid ── */
+.cal-wrap { background: #f0f2f5; }
+.cal-header-row {
+  display: flex;
   position: sticky;
-  top: var(--tabs-h, 0px);
+  top: var(--tabs-h, 0);
+  z-index: 12;
   background: #1a1a2e;
-  color: #d0d8ff;
-  padding: 7px 10px;
-  text-align: left;
+  min-width: fit-content;
+  border-bottom: 1px solid #2c2c4e;
+}
+.cal-gutter-ph {
+  width: 52px;
+  flex-shrink: 0;
+  border-right: 1px solid #2c2c4e;
+}
+.cal-room-head {
+  width: 180px;
+  flex-shrink: 0;
+  padding: 6px 8px;
   font-size: 11px;
   font-weight: 600;
+  color: #d0d8ff;
   border-right: 1px solid #2c2c4e;
   white-space: nowrap;
-  z-index: 10;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.schedule-table thead th.time-col {
-  min-width: 120px;
+.cal-body {
+  display: flex;
+  min-width: fit-content;
+}
+.cal-gutter {
+  width: 52px;
+  flex-shrink: 0;
   position: sticky;
   left: 0;
   z-index: 11;
-  background: #111128;
-  top: var(--tabs-h, 0px);
+  background: #f0f2f5;
+  border-right: 1px solid #ccc;
 }
-.schedule-table td {
-  vertical-align: top;
-  padding: 3px;
-  border: 1px solid #e8eaee;
-  min-width: 150px;
-}
-.time-cell {
-  font-size: 11px;
+.cal-mark {
+  position: absolute;
+  right: 5px;
+  font-size: 9px;
+  color: #888;
   font-weight: 600;
-  color: #555;
+  transform: translateY(-50%);
   white-space: nowrap;
-  background: #f8f9fb;
-  position: sticky;
-  left: 0;
-  z-index: 5;
-  border-right: 2px solid #ddd !important;
-  padding: 6px 8px;
+  user-select: none;
 }
-.empty-cell { background: #fafbfc; }
-.slot-row:hover .time-cell,
-.slot-row:hover .empty-cell { background: #f0f4ff; }
-.poster-row td { background: #fffaf2; }
-.poster-row .time-cell { background: #fff3e0; color: #a05000; }
-.poster-row:hover .time-cell { background: #ffe0b2; }
+.cal-mark.first-mark {
+  transform: none;
+  top: 4px !important;
+}
+.cal-timeline {
+  position: relative;
+  flex-shrink: 0;
+  background: #fff;
+}
+.cal-hour-line {
+  position: absolute;
+  left: 0; right: 0;
+  border-top: 1px solid #dde0e6;
+  z-index: 1;
+  pointer-events: none;
+}
+.cal-half-line {
+  position: absolute;
+  left: 0; right: 0;
+  border-top: 1px dashed #eaecf0;
+  z-index: 1;
+  pointer-events: none;
+}
+.cal-poster-band {
+  position: absolute;
+  left: 0; right: 0;
+  background: rgba(255, 243, 220, 0.6);
+  z-index: 1;
+  pointer-events: none;
+}
+.cal-cols {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  display: flex;
+  z-index: 2;
+}
+.cal-col {
+  width: 180px;
+  flex-shrink: 0;
+  position: relative;
+  border-right: 1px solid #e0e2e8;
+}
+/* ── Session blocks (concurrent talks, e.g. poster sessions) ── */
+.cal-session {
+  position: absolute;
+  left: 2px; right: 2px;
+  display: flex;
+  flex-direction: column;
+  border-left: 3px solid #888;
+  border-top: 1px solid #e0e2e8;
+  border-bottom: 1px solid #e0e2e8;
+  border-right: 1px solid #e0e2e8;
+  border-radius: 0 3px 3px 0;
+  background: #fff;
+  overflow: hidden;
+}
+.session-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 8px;
+  background: #f0f2f5;
+  border-bottom: 1px solid #dde0e6;
+  font-size: 10px;
+  font-weight: 700;
+  color: #555;
+  flex-shrink: 0;
+  white-space: nowrap;
+  gap: 8px;
+}
+.session-list {
+  overflow-y: auto;
+  flex: 1;
+  min-height: 0;
+}
+.session-item {
+  border-radius: 0;
+  border-bottom: 1px solid #f0f2f5;
+  margin: 0;
+}
+.session-item:last-child { border-bottom: none; }
 /* ── Talk cards ── */
 .talk {
   border-left: 3px solid #999;
-  padding: 4px 7px;
-  margin-bottom: 3px;
+  padding: 4px 6px;
   background: #fff;
   border-radius: 0 3px 3px 0;
   cursor: default;
   transition: opacity .18s;
-  position: relative;
 }
-.talk:last-child { margin-bottom: 0; }
-.talk:hover { box-shadow: 0 1px 5px rgba(0,0,0,.12); }
+.talk:hover { box-shadow: 0 2px 8px rgba(0,0,0,.15); z-index: 5; }
+.cal-talk {
+  position: absolute;
+  left: 2px; right: 2px;
+  overflow: hidden;
+  border-top: 1px solid #e0e2e8;
+  border-bottom: 1px solid #e0e2e8;
+  border-right: 1px solid #e0e2e8;
+}
 .talk-header {
   display: flex;
   justify-content: space-between;
@@ -482,8 +785,11 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .05em;
-  margin-bottom: 2px;
+  margin-bottom: 1px;
   flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 /* ── Star / bookmark button ── */
 .star-btn {
@@ -501,20 +807,25 @@ body {
 .talk.bookmarked .star-btn { color: #f5a623; }
 .talk.bookmarked { box-shadow: inset 3px 0 0 #f5a623; }
 .talk-title {
-  font-size: 12px;
-  line-height: 1.35;
+  font-size: 11px;
+  line-height: 1.3;
   font-weight: 500;
   color: #111;
-  margin-bottom: 2px;
+  margin-bottom: 1px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 }
 .talk-meta {
   font-size: 10px;
   color: #888;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 /* ── My Schedule mode ── */
 body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
-body.my-schedule-mode tr.slot-row:not(:has(.bookmarked)),
-body.my-schedule-mode tr.poster-row:not(:has(.bookmarked)) { display: none; }
 #my-schedule-btn {
   background: none;
   border: 1px solid #f5a623;
@@ -596,8 +907,440 @@ a.talk-link {
 a.talk-link:hover { text-decoration: underline; }
 /* ── Search states ── */
 .talk.dim { opacity: 0.07; pointer-events: none; }
-.talk.match { box-shadow: 0 0 0 2px #f5a623; }
-tr.hidden-row { display: none; }
+.talk.match { box-shadow: 0 0 0 2px #f5a623 !important; }
+/* ── Agenda view (mobile calendar) ── */
+.cal-agenda { display: none; background: #fff; }
+.agenda-hour-sep {
+  position: sticky;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+  height: 28px;
+  background: #f0f2f5;
+  border-top: 1px solid #dde0e6;
+  border-bottom: 1px solid #dde0e6;
+}
+.agenda-hour-sep span {
+  font-size: 11px;
+  font-weight: 700;
+  color: #777;
+  letter-spacing: .06em;
+}
+.agenda-row {
+  display: flex;
+  align-items: flex-start;
+  border-left: 3px solid #999;
+  border-bottom: 1px solid #f0f2f5;
+  background: #fff;
+  padding: 10px 6px 10px 0;
+  min-height: 54px;
+  transition: background .1s;
+  cursor: default;
+}
+.agenda-row:hover { background: #f7f9ff; }
+.agenda-row.bookmarked { box-shadow: inset 3px 0 0 #f5a623, 0 0 0 0 transparent; }
+.agenda-row--plenary { background: #0d0d1e; }
+.agenda-row--plenary:hover { background: #131326; }
+.agenda-row--plenary .agenda-title { color: #d0d8ff; }
+.agenda-row--plenary .agenda-meta  { color: #7a82aa; }
+.agenda-time-col {
+  width: 58px;
+  flex-shrink: 0;
+  padding: 2px 10px 0;
+  text-align: right;
+}
+.agenda-time-start {
+  font-size: 12px;
+  font-weight: 600;
+  color: #555;
+  display: block;
+  line-height: 1.25;
+}
+.agenda-time-end {
+  font-size: 10px;
+  color: #aaa;
+  display: block;
+  line-height: 1.25;
+}
+.agenda-event-col {
+  flex: 1;
+  min-width: 0;
+  padding-right: 4px;
+}
+.agenda-conf {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  display: block;
+  margin-bottom: 2px;
+}
+.agenda-title {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.35;
+  color: #111;
+  margin-bottom: 3px;
+}
+.agenda-meta {
+  font-size: 11px;
+  color: #888;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* ── Top-level view switcher ── */
+.view-nav {
+  display: flex;
+  gap: 0;
+  background: #1a1a2e;
+  border-bottom: 1px solid #2c2c4e;
+  padding: 0 16px;
+}
+.view-btn {
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: #aab;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: color .12s, border-color .12s;
+  white-space: nowrap;
+}
+.view-btn:hover { color: #d0d8ff; }
+.view-btn.active { color: #fff; border-bottom-color: #7eb8f7; }
+/* ── Page containers ── */
+.page { display: none; }
+.page.active { display: block; }
+/* ── Poster page ── */
+#poster-body {
+  height: calc(100vh - var(--topbar-h, 44px));
+  overflow-y: auto;
+  padding: 0 0 32px;
+}
+#poster-body .tabs {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #f0f2f5;
+  padding: 10px 16px 0;
+}
+/* ── Poster search bar ── */
+.poster-search-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: #fff;
+  border-bottom: 1px solid #dde0e6;
+  position: sticky;
+  top: var(--poster-tabs-h, 0);
+  z-index: 50;
+}
+#poster-search {
+  flex: 1;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  outline: none;
+}
+#poster-search:focus { box-shadow: 0 0 0 2px #7eb8f7; border-color: transparent; }
+#poster-clear-btn {
+  background: none;
+  border: 1px solid #7eb8f7;
+  color: #7eb8f7;
+  border-radius: 4px;
+  padding: 4px 9px;
+  cursor: pointer;
+  font-size: 12px;
+}
+#poster-clear-btn:hover { background: rgba(126,184,247,.15); }
+#poster-match-count { font-size: 11px; color: #aaa; min-width: 80px; }
+/* ── Poster panels & items ── */
+.poster-day-panel { display: none; padding: 16px; }
+.poster-day-panel.active { display: block; }
+.poster-item-conf {
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+.poster-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px 12px;
+  border-bottom: 1px solid #f0f2f5;
+  transition: background .1s;
+}
+.poster-item:last-child { border-bottom: none; }
+.poster-item:hover { background: #fafafa; }
+.poster-item.bookmarked { box-shadow: inset 3px 0 0 #f5a623; }
+.poster-item.skipped { opacity: 0.35; }
+.poster-item-body { flex: 1; min-width: 0; }
+.poster-item-title {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #111;
+}
+.poster-item-title a { color: inherit; text-decoration: none; }
+.poster-item-title a:hover { text-decoration: underline; }
+.poster-item-meta {
+  font-size: 10px;
+  color: #888;
+  margin-top: 2px;
+}
+.poster-actions {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+  align-items: center;
+}
+.poster-star-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #bbb;
+  padding: 0;
+  min-width: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color .15s, transform .15s;
+}
+.poster-star-btn:hover { color: #f5a623; transform: scale(1.15); }
+.poster-item.bookmarked .poster-star-btn { color: #f5a623; }
+.poster-skip-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #bbb;
+  padding: 0;
+  min-width: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color .15s;
+}
+.poster-skip-btn:hover { color: #e15759; }
+.poster-item.skipped .poster-skip-btn { color: #e15759; }
+/* ── Swipe game ── */
+#swipe-body {
+  height: calc(100vh - var(--topbar-h, 44px));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #0e0e1c;
+  overflow: hidden;
+}
+.swipe-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  width: 100%;
+  background: #1a1a2e;
+  border-bottom: 1px solid #2c2c4e;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+.swipe-filter-label {
+  font-size: 12px;
+  color: #aab;
+  white-space: nowrap;
+}
+.swipe-filter-select {
+  background: #0e0e1c;
+  color: #d0d8ff;
+  border: 1px solid #2c2c4e;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 12px;
+}
+.swipe-counter {
+  font-size: 12px;
+  color: #aab;
+  margin-left: auto;
+}
+.swipe-reset-btn {
+  background: none;
+  border: 1px solid #aab;
+  color: #aab;
+  border-radius: 4px;
+  padding: 3px 10px;
+  cursor: pointer;
+  font-size: 11px;
+}
+.swipe-reset-btn:hover { border-color: #fff; color: #fff; }
+.swipe-arena {
+  flex: 1;
+  width: 100%;
+  max-width: 520px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 20px 16px;
+}
+.swipe-card {
+  position: absolute;
+  width: calc(100% - 32px);
+  max-width: 480px;
+  background: #1a1a2e;
+  border: 1px solid #2c2c4e;
+  border-radius: 12px;
+  padding: 20px 20px 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,.6);
+  cursor: grab;
+  user-select: none;
+  will-change: transform;
+  transition: box-shadow .15s;
+  touch-action: none;
+}
+.swipe-card:active { cursor: grabbing; }
+.swipe-card.dragging { transition: none; }
+.swipe-card.fly-left  { transition: transform .35s ease-in, opacity .35s; transform: translateX(-140%) rotate(-18deg) !important; opacity: 0; pointer-events: none; }
+.swipe-card.fly-right { transition: transform .35s ease-in, opacity .35s; transform: translateX(140%) rotate(18deg) !important; opacity: 0; pointer-events: none; }
+.swipe-card.fly-up    { transition: transform .35s ease-in, opacity .35s; transform: translateY(-120%) !important; opacity: 0; pointer-events: none; }
+.swipe-hint-skip {
+  position: absolute;
+  top: 16px; left: 16px;
+  background: rgba(225,87,89,.85);
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 4px 12px;
+  border-radius: 6px;
+  opacity: 0;
+  transition: opacity .12s;
+  pointer-events: none;
+  transform: rotate(-10deg);
+}
+.swipe-hint-save {
+  position: absolute;
+  top: 16px; right: 16px;
+  background: rgba(245,166,35,.85);
+  color: #1a1a2e;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 4px 12px;
+  border-radius: 6px;
+  opacity: 0;
+  transition: opacity .12s;
+  pointer-events: none;
+  transform: rotate(10deg);
+}
+.swipe-card-conf {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-bottom: 8px;
+}
+.swipe-card-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #e8ecff;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+.swipe-card-title a { color: inherit; text-decoration: none; }
+.swipe-card-title a:hover { text-decoration: underline; }
+.swipe-card-meta {
+  font-size: 11px;
+  color: #7a82aa;
+  margin-bottom: 10px;
+}
+.swipe-card-abstract {
+  font-size: 12px;
+  color: #9da5c8;
+  line-height: 1.5;
+  max-height: 160px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+.swipe-btn-row {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 12px 0 16px;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 520px;
+}
+.swipe-action-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid;
+  background: #1a1a2e;
+  font-size: 26px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform .12s, background .12s;
+  flex-shrink: 0;
+}
+.swipe-action-btn:hover { transform: scale(1.12); }
+.swipe-action-btn.skip-btn  { border-color: #e15759; color: #e15759; }
+.swipe-action-btn.skip-btn:hover  { background: rgba(225,87,89,.15); }
+.swipe-action-btn.save-btn  { border-color: #f5a623; color: #f5a623; }
+.swipe-action-btn.save-btn:hover  { background: rgba(245,166,35,.15); }
+.swipe-action-btn.undo-btn  { width: 44px; height: 44px; border-width: 1px; border-style: dashed; border-color: #556; color: #7eb8f7; font-size: 20px; }
+.swipe-action-btn.undo-btn:hover  { border-color: #7eb8f7; background: rgba(126,184,247,.15); }
+.swipe-done {
+  color: #aab;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.swipe-done strong { color: #d0d8ff; }
+.swipe-keys {
+  font-size: 11px;
+  color: #555;
+  text-align: center;
+  padding: 4px 0 8px;
+  flex-shrink: 0;
+}
+/* ── Mobile ── */
+@media (max-width: 680px) {
+  body { font-size: 14px; }
+  .topbar { padding: 8px 12px; gap: 6px; }
+  .topbar h1 { display: none; }
+  .search-wrap { max-width: unset; flex: 1 1 auto; }
+  #search { font-size: 16px; }
+  .legend { display: none; }
+  .view-nav { padding: 0 8px; }
+  .view-btn { font-size: 12px; padding: 7px 10px; }
+  .tabs { padding: 6px 10px 0; gap: 3px; }
+  .tab-btn { padding: 7px 12px; font-size: 12px; }
+  /* Calendar: hide grid, show agenda */
+  .cal-wrap { display: none; }
+  .cal-agenda { display: block; }
+  .agenda-title { font-size: 14px; }
+  .agenda-meta { font-size: 12px; }
+  .star-btn { font-size: 20px; min-height: 44px; min-width: 44px; padding: 0 6px; }
+  /* Swipe */
+  .swipe-card { padding: 14px 14px 12px; }
+  .swipe-card-title { font-size: 14px; }
+  .swipe-card-abstract { max-height: 100px; font-size: 12px; }
+  .swipe-action-btn { width: 54px; height: 54px; font-size: 22px; }
+  .swipe-action-btn.undo-btn { width: 38px; height: 38px; font-size: 18px; }
+  .swipe-keys { display: none; }
+  .swipe-btn-row { gap: 20px; }
+}
 """
 
 JS = """
@@ -622,29 +1365,21 @@ function toggleBookmark(btn) {
   if (bookmarks.has(id)) {
     bookmarks.delete(id);
     card.classList.remove('bookmarked');
-    btn.textContent = '\u2606';
+    btn.textContent = '☆';
   } else {
     bookmarks.add(id);
     card.classList.add('bookmarked');
-    btn.textContent = '\u2605';
+    btn.textContent = '★';
   }
   saveBookmarks();
-  if (myScheduleActive) applyMySchedule();
 }
 
 function restoreBookmarks() {
   document.querySelectorAll('.talk').forEach(card => {
     if (bookmarks.has(card.dataset.id)) {
       card.classList.add('bookmarked');
-      card.querySelector('.star-btn').textContent = '\u2605';
+      card.querySelector('.star-btn').textContent = '★';
     }
-  });
-}
-
-function applyMySchedule() {
-  // :has() handles row hiding via CSS; just ensure hidden-row doesn't conflict
-  document.querySelectorAll('tr.hidden-row').forEach(r => {
-    r.classList.toggle('hidden-row', !myScheduleActive);
   });
 }
 
@@ -653,14 +1388,13 @@ function toggleMySchedule() {
   document.body.classList.toggle('my-schedule-mode', myScheduleActive);
   const btn = document.getElementById('my-schedule-btn');
   btn.classList.toggle('active', myScheduleActive);
-  btn.textContent = myScheduleActive ? '\u2605 All talks' : '\u2605 My Schedule';
-  // Clear search when entering My Schedule mode
+  btn.textContent = myScheduleActive ? '★ All talks' : '★ My Schedule';
   if (myScheduleActive) {
     document.getElementById('search').value = '';
     document.querySelectorAll('.talk').forEach(t => t.classList.remove('dim', 'match'));
-    document.querySelectorAll('tr').forEach(r => r.classList.remove('hidden-row'));
     document.getElementById('match-count').textContent = '';
   }
+  applyPosterSearch();
 }
 
 function switchDay(iso) {
@@ -689,9 +1423,6 @@ function applySearch() {
       t.classList.remove('match');
     }
   });
-  panel.querySelectorAll('tr.slot-row, tr.poster-row').forEach(row => {
-    row.classList.toggle('hidden-row', q && !row.querySelector('.talk.match'));
-  });
   document.getElementById('match-count').textContent =
     q ? n + ' match' + (n !== 1 ? 'es' : '') : '';
 }
@@ -702,7 +1433,7 @@ function clearSearch() {
 }
 
 document.getElementById('search').addEventListener('input', () => {
-  if (myScheduleActive) toggleMySchedule(); // exit My Schedule mode on search
+  if (myScheduleActive) toggleMySchedule();
   applySearch();
 });
 document.getElementById('search').addEventListener('keydown', ev => {
@@ -716,8 +1447,16 @@ function updateStickyOffset() {
   if (tabsEl) {
     document.documentElement.style.setProperty('--tabs-h', tabsEl.offsetHeight + 'px');
   }
+  const posterTabsEl = document.querySelector('#poster-body .tabs');
+  if (posterTabsEl) {
+    document.documentElement.style.setProperty('--poster-tabs-h', posterTabsEl.offsetHeight + 'px');
+  }
   const body = document.getElementById('schedule-body');
   if (body) body.style.height = (window.innerHeight - topbarH) + 'px';
+  const posterBody = document.getElementById('poster-body');
+  if (posterBody) posterBody.style.height = (window.innerHeight - topbarH) + 'px';
+  const swipeBody = document.getElementById('swipe-body');
+  if (swipeBody) swipeBody.style.height = (window.innerHeight - topbarH) + 'px';
 }
 updateStickyOffset();
 window.addEventListener('resize', updateStickyOffset);
@@ -726,12 +1465,9 @@ restoreBookmarks();
 updateBookmarkCount();
 
 // ── Export / Import ──
-function encodeBookmarks() {
-  return JSON.stringify([...bookmarks], null, 2);
-}
-
 function openShareModal() {
-  document.getElementById('export-code').value = encodeBookmarks() || '';
+  document.getElementById('export-code').value =
+    JSON.stringify([...bookmarks], null, 2) || '';
   document.getElementById('import-code').value = '';
   document.getElementById('share-notice').textContent = '';
   document.getElementById('share-modal').classList.add('open');
@@ -777,7 +1513,7 @@ function clearAllBookmarks() {
   saveBookmarks();
   document.querySelectorAll('.talk.bookmarked').forEach(c => {
     c.classList.remove('bookmarked');
-    c.querySelector('.star-btn').textContent = '\u2606';
+    c.querySelector('.star-btn').textContent = '☆';
   });
   document.getElementById('export-code').value = '';
   document.getElementById('share-notice').textContent = 'All bookmarks cleared.';
@@ -786,15 +1522,490 @@ function clearAllBookmarks() {
 document.getElementById('share-modal').addEventListener('click', ev => {
   if (ev.target === ev.currentTarget) closeShareModal();
 });
+
+// ── View switcher ──
+function switchView(view) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('page-' + view).classList.add('active');
+  document.querySelector('[data-view="' + view + '"]').classList.add('active');
+  updateStickyOffset();
+  if (view === 'swipe') initSwipe();
+}
+
+// ── Poster page ──
+const LS_SKIP = 'spie_as26_skipped';
+let skipped = new Set(JSON.parse(localStorage.getItem(LS_SKIP) || '[]'));
+
+function saveSkipped() {
+  localStorage.setItem(LS_SKIP, JSON.stringify([...skipped]));
+}
+
+function togglePosterBookmark(btn) {
+  const item = btn.closest('.poster-item');
+  const id = item.dataset.id;
+  if (bookmarks.has(id)) {
+    bookmarks.delete(id);
+    item.classList.remove('bookmarked');
+    btn.textContent = '☆';
+  } else {
+    bookmarks.add(id);
+    item.classList.add('bookmarked');
+    btn.textContent = '★';
+    // un-skip if previously skipped
+    if (skipped.has(id)) {
+      skipped.delete(id);
+      saveSkipped();
+      item.classList.remove('skipped');
+      item.querySelector('.poster-skip-btn').textContent = '✕';
+    }
+  }
+  saveBookmarks();
+  applyPosterSearch();
+}
+
+function togglePosterSkip(btn) {
+  const item = btn.closest('.poster-item');
+  const id = item.dataset.id;
+  if (skipped.has(id)) {
+    skipped.delete(id);
+    item.classList.remove('skipped');
+    btn.textContent = '✕';
+  } else {
+    skipped.add(id);
+    item.classList.add('skipped');
+    btn.textContent = '↩';
+    // un-bookmark if previously bookmarked
+    if (bookmarks.has(id)) {
+      bookmarks.delete(id);
+      item.classList.remove('bookmarked');
+      item.querySelector('.poster-star-btn').textContent = '☆';
+      saveBookmarks();
+    }
+  }
+  saveSkipped();
+}
+
+function switchPosterDay(iso) {
+  document.querySelectorAll('.poster-day-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('#poster-body .tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('poster-day-' + iso).classList.add('active');
+  document.querySelector('#poster-body [data-day="' + iso + '"]').classList.add('active');
+  applyPosterSearch();
+}
+
+function applyPosterSearch() {
+  const q = document.getElementById('poster-search').value.toLowerCase().trim();
+  const panel = document.querySelector('.poster-day-panel.active');
+  if (!panel) return;
+  let matchCount = 0, total = 0, starred = 0;
+  panel.querySelectorAll('.poster-item').forEach(item => {
+    const text = item.dataset.search.toLowerCase();
+    const searchOk = !q || text.includes(q);
+    const scheduleOk = !myScheduleActive || item.classList.contains('bookmarked');
+    if (searchOk && scheduleOk) {
+      item.style.display = '';
+      if (q) matchCount++;
+    } else {
+      item.style.display = 'none';
+    }
+    total++;
+    if (item.classList.contains('bookmarked')) starred++;
+  });
+  document.getElementById('poster-match-count').textContent =
+    q ? matchCount + ' match' + (matchCount !== 1 ? 'es' : '') : '';
+  const countEl = document.getElementById('poster-star-count');
+  if (countEl) countEl.textContent = starred ? starred + ' ★ / ' + total : total + ' posters';
+}
+
+function clearPosterSearch() {
+  document.getElementById('poster-search').value = '';
+  applyPosterSearch();
+}
+
+document.getElementById('poster-search').addEventListener('input', applyPosterSearch);
+document.getElementById('poster-search').addEventListener('keydown', ev => {
+  if (ev.key === 'Escape') clearPosterSearch();
+});
+
+function restorePosterStates() {
+  document.querySelectorAll('.poster-item').forEach(item => {
+    const id = item.dataset.id;
+    if (bookmarks.has(id)) {
+      item.classList.add('bookmarked');
+      item.querySelector('.poster-star-btn').textContent = '★';
+    }
+    if (skipped.has(id)) {
+      item.classList.add('skipped');
+      item.querySelector('.poster-skip-btn').textContent = '↩';
+    }
+  });
+}
+restorePosterStates();
+
+// ── Swipe game ──
+let swipeQueue = [];
+let swipeIdx = 0;
+let swipeHistory = [];
+let swipeInitialized = false;
+let swipeFilterDay = 'all';
+let swipeFilterConf = 'all';
+
+function buildSwipeQueue() {
+  const allCards = Array.from(document.querySelectorAll('.swipe-card-data'));
+  swipeQueue = allCards
+    .filter(el => {
+      if (swipeFilterDay !== 'all' && el.dataset.day !== swipeFilterDay) return false;
+      if (swipeFilterConf !== 'all' && el.dataset.conf !== swipeFilterConf) return false;
+      return !bookmarks.has(el.dataset.id) && !skipped.has(el.dataset.id);
+    })
+    .map(el => ({
+      id: el.dataset.id,
+      conf: el.dataset.conf,
+      day: el.dataset.day,
+      title: el.dataset.title,
+      paper: el.dataset.paper,
+      author: el.dataset.author,
+      abstract: el.dataset.abstract,
+      url: el.dataset.url,
+      color: el.dataset.color,
+      short: el.dataset.short,
+    }));
+  swipeIdx = 0;
+  swipeHistory = [];
+}
+
+function swipeEscape(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function renderSwipeCard(talk, stackPos) {
+  const offset = stackPos * 4;
+  const scale = 1 - stackPos * 0.04;
+  const style = `transform: translateY(${offset}px) scale(${scale}); z-index: ${10 - stackPos};`;
+  const href = talk.url ? `https://spie.org${talk.url}` : '';
+  const titleHtml = href
+    ? `<a class="swipe-card-title-link" href="${swipeEscape(href)}" target="_blank" rel="noopener">${swipeEscape(talk.title)}</a>`
+    : swipeEscape(talk.title);
+  const metaParts = [talk.paper, talk.author].filter(Boolean);
+  return `<div class="swipe-card" data-id="${swipeEscape(talk.id)}" style="${style}">
+  <div class="swipe-hint-skip">SKIP</div>
+  <div class="swipe-hint-save">SAVE ★</div>
+  <div class="swipe-card-conf" style="color:${talk.color}">${swipeEscape(talk.short)}</div>
+  <div class="swipe-card-title">${titleHtml}</div>
+  ${ metaParts.length ? `<div class="swipe-card-meta">${swipeEscape(metaParts.join(' · '))}</div>` : '' }
+  ${ talk.abstract ? `<div class="swipe-card-abstract">${swipeEscape(talk.abstract)}</div>` : '' }
+</div>`;
+}
+
+function updateSwipeArena() {
+  const arena = document.getElementById('swipe-arena');
+  const counter = document.getElementById('swipe-counter');
+  arena.innerHTML = '';
+  const remaining = swipeQueue.length - swipeIdx;
+  counter.textContent = remaining + ' remaining';
+  if (remaining === 0) {
+    arena.innerHTML = '<div class="swipe-done"><strong>All done!</strong><br>Every poster in this filter has been reviewed.<br>Use the filters above or Reset to start again.</div>';
+    return;
+  }
+  // render up to 3 cards (back to front)
+  const preview = Math.min(3, remaining);
+  for (let i = preview - 1; i >= 0; i--) {
+    arena.innerHTML += renderSwipeCard(swipeQueue[swipeIdx + i], i);
+  }
+  attachDragToTop();
+}
+
+function applySwipeAction(action) {
+  if (swipeIdx >= swipeQueue.length) return;
+  const talk = swipeQueue[swipeIdx];
+  const topCard = document.querySelector('#swipe-arena .swipe-card');
+  swipeHistory.push({ talk, action });
+
+  const flyClass = action === 'save' ? 'fly-right' : action === 'skip' ? 'fly-left' : 'fly-left';
+  if (topCard) {
+    topCard.classList.add(flyClass);
+    setTimeout(() => { topCard.remove(); }, 380);
+  }
+
+  if (action === 'save') {
+    bookmarks.add(talk.id);
+    saveBookmarks();
+    // sync poster page
+    const pItem = document.querySelector(`.poster-item[data-id="${CSS.escape(talk.id)}"]`);
+    if (pItem) {
+      pItem.classList.add('bookmarked');
+      pItem.querySelector('.poster-star-btn').textContent = '★';
+    }
+    // sync schedule page
+    document.querySelectorAll(`.talk[data-id="${CSS.escape(talk.id)}"]`).forEach(c => {
+      c.classList.add('bookmarked');
+      c.querySelector('.star-btn').textContent = '★';
+    });
+  } else {
+    skipped.add(talk.id);
+    saveSkipped();
+    const pItem = document.querySelector(`.poster-item[data-id="${CSS.escape(talk.id)}"]`);
+    if (pItem) {
+      pItem.classList.add('skipped');
+      pItem.querySelector('.poster-skip-btn').textContent = '↩';
+    }
+  }
+
+  swipeIdx++;
+  // slight delay so fly animation plays
+  setTimeout(updateSwipeArena, 80);
+}
+
+function undoSwipe() {
+  if (!swipeHistory.length) return;
+  const { talk, action } = swipeHistory.pop();
+  if (action === 'save') {
+    bookmarks.delete(talk.id);
+    saveBookmarks();
+    const pItem = document.querySelector(`.poster-item[data-id="${CSS.escape(talk.id)}"]`);
+    if (pItem) { pItem.classList.remove('bookmarked'); pItem.querySelector('.poster-star-btn').textContent = '☆'; }
+    document.querySelectorAll(`.talk[data-id="${CSS.escape(talk.id)}"]`).forEach(c => {
+      c.classList.remove('bookmarked'); c.querySelector('.star-btn').textContent = '☆';
+    });
+  } else {
+    skipped.delete(talk.id);
+    saveSkipped();
+    const pItem = document.querySelector(`.poster-item[data-id="${CSS.escape(talk.id)}"]`);
+    if (pItem) { pItem.classList.remove('skipped'); pItem.querySelector('.poster-skip-btn').textContent = '✕'; }
+  }
+  swipeIdx--;
+  updateSwipeArena();
+}
+
+function resetSwipe() {
+  buildSwipeQueue();
+  updateSwipeArena();
+}
+
+function initSwipe() {
+  if (!swipeInitialized) {
+    swipeInitialized = true;
+    document.getElementById('swipe-filter-day').addEventListener('change', function() {
+      swipeFilterDay = this.value;
+      resetSwipe();
+    });
+    document.getElementById('swipe-filter-conf').addEventListener('change', function() {
+      swipeFilterConf = this.value;
+      resetSwipe();
+    });
+  }
+  resetSwipe();
+}
+
+// Drag / touch on swipe card
+function attachDragToTop() {
+  const card = document.querySelector('#swipe-arena .swipe-card');
+  if (!card) return;
+  let startX = 0, startY = 0, curX = 0, curY = 0;
+
+  function onStart(x, y) {
+    startX = x; startY = y; curX = x; curY = y;
+    card.classList.add('dragging');
+  }
+  function onMove(x, y) {
+    if (!card.classList.contains('dragging')) return;
+    curX = x; curY = y;
+    const dx = curX - startX;
+    const dy = curY - startY;
+    const rot = dx * 0.08;
+    card.style.transform = `translate(${dx}px, ${dy}px) rotate(${rot}deg)`;
+    const skipHint = card.querySelector('.swipe-hint-skip');
+    const saveHint = card.querySelector('.swipe-hint-save');
+    skipHint.style.opacity = Math.max(0, Math.min(1, -dx / 80));
+    saveHint.style.opacity = Math.max(0, Math.min(1, dx / 80));
+  }
+  function onEnd() {
+    if (!card.classList.contains('dragging')) return;
+    card.classList.remove('dragging');
+    const dx = curX - startX;
+    const dy = curY - startY;
+    if (dx > 80) applySwipeAction('save');
+    else if (dx < -80) applySwipeAction('skip');
+    else {
+      card.style.transform = '';
+      card.querySelector('.swipe-hint-skip').style.opacity = 0;
+      card.querySelector('.swipe-hint-save').style.opacity = 0;
+    }
+  }
+
+  card.addEventListener('mousedown', ev => { ev.preventDefault(); onStart(ev.clientX, ev.clientY); });
+  window.addEventListener('mousemove', ev => onMove(ev.clientX, ev.clientY));
+  window.addEventListener('mouseup', () => onEnd());
+
+  card.addEventListener('touchstart', ev => { const t = ev.touches[0]; onStart(t.clientX, t.clientY); }, { passive: true });
+  card.addEventListener('touchmove', ev => {
+    const t = ev.touches[0];
+    if (card.classList.contains('dragging')) ev.preventDefault();
+    onMove(t.clientX, t.clientY);
+  }, { passive: false });
+  card.addEventListener('touchend', () => onEnd());
+}
+
+document.addEventListener('keydown', ev => {
+  if (!document.getElementById('page-swipe').classList.contains('active')) return;
+  if (ev.key === 'ArrowRight' || ev.key === 'l') applySwipeAction('save');
+  else if (ev.key === 'ArrowLeft' || ev.key === 'h') applySwipeAction('skip');
+  else if (ev.key === 'ArrowUp' || ev.key === 'u') undoSwipe();
+  else if (ev.key === 'ArrowDown' || ev.key === 'j') applySwipeAction('skip');
+});
 """
 
 
-def build_html(days: list[dict]) -> str:
+def render_poster_page(poster_days: list[dict]) -> str:
+    if not poster_days:
+        return '<div style="padding:32px;color:#888">No poster sessions found.</div>'
+
+    # Build all items once; day panels are subsets
+    all_items: list[str] = []
+    day_items: dict[str, list[str]] = {}
+    for d in poster_days:
+        day_list: list[str] = []
+        for conf, talks in d["confs_map"].items():
+            color = CONF_COLOR.get(conf, "#999")
+            short = CONF_SHORT.get(conf, conf)
+            for t in talks:
+                card_id = e(t["paper"])
+                href = f"https://spie.org{t['url']}" if t.get("url") else ""
+                title_html = (
+                    f'<a href="{e(href)}" target="_blank" rel="noopener">{e(t["title"])}</a>'
+                    if href else e(t["title"])
+                )
+                search_text = e(f"{t['title']} {t['paper']} {t['author']} {t['abstract']}")
+                item = (
+                    f'<div class="poster-item" data-id="{card_id}" data-search="{search_text}">'
+                    f'<div class="poster-item-body">'
+                    f'<div class="poster-item-title">{title_html}</div>'
+                    f'<div class="poster-item-meta">'
+                    f'<span class="poster-item-conf" style="color:{color}">{e(short)}</span>'
+                    f' &middot; [{e(t["paper"])}] {e(t["author"])}'
+                    f'</div>'
+                    f'</div>'
+                    f'<div class="poster-actions">'
+                    f'<button class="poster-skip-btn" onclick="togglePosterSkip(this)" title="Not interested">&#10005;</button>'
+                    f'<button class="poster-star-btn" onclick="togglePosterBookmark(this)" title="Save to My Schedule">&#9734;</button>'
+                    f'</div>'
+                    f'</div>'
+                )
+                day_list.append(item)
+                all_items.append(item)
+        day_items[d["date_iso"]] = day_list
+
+    tabs = (
+        '<button class="tab-btn active" data-day="all" onclick="switchPosterDay(\'all\')" '
+        'style="font-size:12px;padding:5px 14px">All days</button>'
+    )
+    tabs += "".join(
+        f'<button class="tab-btn" '
+        f'data-day="{d["date_iso"]}" onclick="switchPosterDay(\'{d["date_iso"]}\')" '
+        f'style="font-size:12px;padding:5px 14px">'
+        f"{e(d['label'])}</button>"
+        for d in poster_days
+    )
+
+    search_bar = (
+        '<div class="poster-search-bar">'
+        '<input id="poster-search" type="search" '
+        'placeholder="Search posters: title, author, paper \u00b7 keyword\u2026" autocomplete="off">'
+        '<button id="poster-clear-btn" onclick="clearPosterSearch()">Clear</button>'
+        '<span id="poster-match-count"></span>'
+        '<span id="poster-star-count" style="font-size:11px;color:#f5a623;margin-left:8px;white-space:nowrap"></span>'
+        '</div>'
+    )
+
+    all_panel = (
+        '<div class="poster-day-panel active" id="poster-day-all">'
+        + "".join(all_items)
+        + "</div>"
+    )
+    day_panels = "".join(
+        f'<div class="poster-day-panel" id="poster-day-{d["date_iso"]}">'
+        + "".join(day_items[d["date_iso"]])
+        + "</div>"
+        for d in poster_days
+    )
+
+    return (
+        f'<div class="tabs">{tabs}</div>'
+        + search_bar
+        + all_panel
+        + day_panels
+    )
+
+
+def render_swipe_data(poster_days: list[dict]) -> str:
+    """Hidden elements carrying poster metadata for the swipe game JS."""
+    parts = []
+    for d in poster_days:
+        for conf, talks in d["confs_map"].items():
+            color = CONF_COLOR.get(conf, "#999")
+            short = CONF_SHORT.get(conf, conf)
+            for t in talks:
+                parts.append(
+                    f'<span class="swipe-card-data" '
+                    f'data-id="{e(t["paper"])}" '
+                    f'data-day="{e(d["date_iso"])}" '
+                    f'data-conf="{e(conf)}" '
+                    f'data-title="{e(t["title"])}" '
+                    f'data-paper="{e(t["paper"])}" '
+                    f'data-author="{e(t["author"])}" '
+                    f'data-abstract="{e(t["abstract"])}" '
+                    f'data-url="{e(t["url"])}" '
+                    f'data-color="{color}" '
+                    f'data-short="{e(short)}"></span>'
+                )
+    return '<div id="swipe-data" style="display:none">' + "".join(parts) + "</div>"
+
+
+def render_swipe_page(poster_days: list[dict]) -> str:
+    day_opts = "".join(
+        f'<option value="{d["date_iso"]}">{e(d["label"])}</option>'
+        for d in poster_days
+    )
+    conf_opts = "".join(
+        f'<option value="{conf}">{e(CONF_SHORT.get(conf, conf))}</option>'
+        for conf in sorted(CONFERENCES_OF_INTEREST)
+    )
+    return (
+        f'<div class="swipe-controls">'
+        f'<span class="swipe-filter-label">Day:</span>'
+        f'<select class="swipe-filter-select" id="swipe-filter-day">'
+        f'<option value="all">All days</option>{day_opts}</select>'
+        f'<span class="swipe-filter-label">Track:</span>'
+        f'<select class="swipe-filter-select" id="swipe-filter-conf">'
+        f'<option value="all">All tracks</option>{conf_opts}</select>'
+        f'<button class="swipe-reset-btn" onclick="resetSwipe()">Reset</button>'
+        f'<span class="swipe-counter" id="swipe-counter"></span>'
+        f'</div>'
+        f'<div class="swipe-arena" id="swipe-arena"></div>'
+        f'<div class="swipe-btn-row">'
+        f'<button class="swipe-action-btn skip-btn" onclick="applySwipeAction(\'skip\')">&#10005;</button>'
+        f'<button class="swipe-action-btn undo-btn" onclick="undoSwipe()">&#8630;</button>'
+        f'<button class="swipe-action-btn save-btn" onclick="applySwipeAction(\'save\')">&#9733;</button>'
+        f'</div>'
+        f'<div class="swipe-keys">&#8592; skip &nbsp;|&nbsp; &#8594; save &nbsp;|&nbsp; &#8593; undo</div>'
+    )
+
+
+def build_html(days: list[dict], poster_days: list[dict]) -> str:
     legend = "".join(
         f'<span class="legend-item">'
         f'<span class="legend-dot" style="background:{CONF_COLOR.get(c, "#999")}"></span>'
         f"{e(CONF_SHORT.get(c, c))}</span>"
         for c in sorted(CONF_SHORT)
+    )
+
+    view_nav = (
+        '<nav class="view-nav">'
+        '<button class="view-btn active" data-view="schedule" onclick="switchView(\'schedule\')">Schedule</button>'
+        '<button class="view-btn" data-view="posters" onclick="switchView(\'posters\')">Posters</button>'
+        '<button class="view-btn" data-view="swipe" onclick="switchView(\'swipe\')">&#127183; Poster Swipe</button>'
+        '</nav>'
     )
 
     tabs = "".join(
@@ -804,12 +2015,16 @@ def build_html(days: list[dict]) -> str:
         for i, d in enumerate(days)
     )
 
-    panels = "".join(
+    schedule_panels = "".join(
         f'<div class="day-panel" id="day-{d["date_iso"]}" '
         f'style="display:{"block" if i == 0 else "none"}">'
-        f"{render_table(d)}</div>"
+        f"{render_calendar_day(d)}</div>"
         for i, d in enumerate(days)
     )
+
+    poster_html = render_poster_page(poster_days)
+    swipe_html = render_swipe_page(poster_days)
+    swipe_data = render_swipe_data(poster_days)
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -834,10 +2049,24 @@ def build_html(days: list[dict]) -> str:
 </div>
 
 <div class="legend">{legend}</div>
+{view_nav}
+<div class="page active" id="page-schedule">
 <div id="schedule-body">
 <div class="tabs">{tabs}</div>
-{panels}
+{schedule_panels}
 </div>
+</div>
+<div class="page" id="page-posters">
+<div id="poster-body">
+{poster_html}
+</div>
+</div>
+<div class="page" id="page-swipe">
+<div id="swipe-body">
+{swipe_html}
+</div>
+</div>
+{swipe_data}
 
 <div class="modal-backdrop" id="share-modal">
   <div class="modal">
@@ -872,13 +2101,17 @@ def main() -> None:
     print(
         f"  {len(records)} records across {len(CONFERENCES_OF_INTEREST)} conferences."
     )
-    days = build_schedule(records)
-    html = build_html(days)
+    days = build_days(records)
+    poster_days = build_poster_days(records)
+    html = build_html(days, poster_days)
     out = OUTPUT_DIR / "index.html"
     out.write_text(html, encoding="utf-8")
     print(f"Written → {out}")
     for d in days:
-        print(f"  {d['label']}: {len(d['slots'])} time slots, {len(d['rooms'])} rooms")
+        total = sum(len(v) for v in d["rooms_map"].values())
+        print(f"  {d['label']}: {total} talks across {len(d['rooms'])} rooms")
+    total_posters = sum(sum(len(v) for v in d["confs_map"].values()) for d in poster_days)
+    print(f"  {total_posters} poster entries across {len(poster_days)} days")
 
 
 if __name__ == "__main__":
