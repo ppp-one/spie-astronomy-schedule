@@ -2079,7 +2079,7 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
 <div class="modal-backdrop" id="share-modal">
   <div class="modal">
     <h2>&#8645; Export / Import bookmarks</h2>
-    <p>Copy the code below and paste it on another device to transfer your saved talks.</p>
+    <p>Copy the list below and paste it on another device to transfer your saved talks.</p>
     <label style="font-size:11px;font-weight:600;color:#555">Your code</label>
     <textarea id="export-code" readonly placeholder="(no bookmarks saved yet)"></textarea>
     <div class="modal-row">
@@ -2087,8 +2087,8 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
       <button class="modal-btn danger" onclick="clearAllBookmarks()">Clear all</button>
       <button class="modal-btn secondary" onclick="closeShareModal()">Close</button>
     </div>
-    <p style="margin-top:16px;margin-bottom:4px">Paste a code from another device:</p>
-    <textarea id="import-code" placeholder="Paste code here…"></textarea>
+    <p style="margin-top:16px;margin-bottom:4px">Paste a list from another device:</p>
+    <textarea id="import-code" placeholder="Paste list here…"></textarea>
     <div class="modal-row">
       <button class="modal-btn primary" onclick="importBookmarks()">Import</button>
     </div>
