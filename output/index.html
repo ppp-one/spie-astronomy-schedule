@@ -852,7 +852,7 @@ a.talk-link:hover { text-decoration: underline; }
 <div class="topbar">
   <h1>SPIE AS26 · Schedule</h1>
   <div class="search-wrap">
-    <input id="search" type="search" placeholder="Search title, author, paper #, keyword…" autocomplete="off">
+    <input id="search" type="search" placeholder="Search talk title, author, paper #, keyword…" autocomplete="off">
     <button id="clear-btn" onclick="clearSearch()">Clear</button>
   </div>
   <button id="my-schedule-btn" onclick="toggleMySchedule()">&#9733; My Schedule</button>
@@ -887,7 +887,7 @@ a.talk-link:hover { text-decoration: underline; }
 <div class="modal-backdrop" id="share-modal">
   <div class="modal">
     <h2>&#8645; Export / Import bookmarks</h2>
-    <p>Copy the code below and paste it on another device to transfer your saved talks.</p>
+    <p>Copy the list below and paste it on another device to transfer your saved talks.</p>
     <label style="font-size:11px;font-weight:600;color:#555">Your code</label>
     <textarea id="export-code" readonly placeholder="(no bookmarks saved yet)"></textarea>
     <div class="modal-row">
@@ -895,8 +895,8 @@ a.talk-link:hover { text-decoration: underline; }
       <button class="modal-btn danger" onclick="clearAllBookmarks()">Clear all</button>
       <button class="modal-btn secondary" onclick="closeShareModal()">Close</button>
     </div>
-    <p style="margin-top:16px;margin-bottom:4px">Paste a code from another device:</p>
-    <textarea id="import-code" placeholder="Paste code here…"></textarea>
+    <p style="margin-top:16px;margin-bottom:4px">Paste a list from another device:</p>
+    <textarea id="import-code" placeholder="Paste list here…"></textarea>
     <div class="modal-row">
       <button class="modal-btn primary" onclick="importBookmarks()">Import</button>
     </div>

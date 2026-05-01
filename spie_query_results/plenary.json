@@ -1,0 +1,212 @@
+{
+    "Query": {
+        "BaseMatchFragmentSize": 0,
+        "DebugLevel": 0,
+        "DebugOnly": false,
+        "Facets": {},
+        "DisplayFilter": "",
+        "ExhibitionCode": "",
+        "ExhibitionName": "",
+        "GetFacetCount": true,
+        "GetSearchResults": true,
+        "HashString": "01450DateAscAS26BrowseProgramPlenary_Event",
+        "HighlightTerms": [],
+        "LiveNowDateTime": null,
+        "Page": 1,
+        "PageSize": 450,
+        "SortBy": "DateAsc",
+        "SymposiumCode": "AS26",
+        "Terms": "",
+        "Time": "",
+        "TimeLowerBound": null,
+        "TimeUpperBound": null,
+        "Type": "BrowseProgram",
+        "TypeSecondary": "Plenary_Event",
+        "IncludeSuperSymposiumInSubSymposium": true
+    },
+    "Items": [
+        {
+            "DisplayRoles": null,
+            "EventName": null,
+            "EventType": "Special Event",
+            "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+            "SymposiumSeriesCode": "AS",
+            "SuperSymposiumSeriesCode": "",
+            "DateTimeLocationDataList": [
+                {
+                    "date_time_location": "6 July 2026 • 08:30 - 10:00 CEST | Hall A",
+                    "badge_icon": null,
+                    "format_icon": null,
+                    "show_tz_converter": false
+                }
+            ],
+            "XID": null,
+            "MatchingFrag": "",
+            "UniqueId": "52c6ce74-6201-f111-a9ae-005056914f1c_AS26---crmrecord",
+            "GUID": "52c6ce74-6201-f111-a9ae-005056914f1c",
+            "RecordType": "Event",
+            "RecordLabel": "Plenary",
+            "Score": "NaN",
+            "RecordWeight": "Default:10 Category:800 Date:497.28 RecordSize:200 EventStatus:240 Total:1747.28",
+            "HTMLTitle": "",
+            "Title": "Monday Plenary",
+            "Description": "Speakers: Unveiling Our Dynamic Infrared Sky with Roman RAPID and Cryoscope Mansi Kasliwal California Institute of Technology (United States) Many astronomical events shine the brightest in the infrared (IR) due to atomic opacity, self enshrouding,...",
+            "Abstract": "",
+            "ImagePath": null,
+            "URL": "/astronomical-telescopes-instrumentation/event/monday-plenary/7101540",
+            "ModifiedOn": "0001-01-01T00:00:00",
+            "PublicationDate": null,
+            "PublicationDateTime": "0001-01-01T00:00:00",
+            "DisplayDateTime": "6 July 2026 • 08:30 - 10:00 CEST | Hall A",
+            "ErrorMessage": null
+        },
+        {
+            "DisplayRoles": null,
+            "EventName": null,
+            "EventType": "Special Event",
+            "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+            "SymposiumSeriesCode": "AS",
+            "SuperSymposiumSeriesCode": "",
+            "DateTimeLocationDataList": [
+                {
+                    "date_time_location": "7 July 2026 • 08:30 - 10:00 CEST | Hall A",
+                    "badge_icon": null,
+                    "format_icon": null,
+                    "show_tz_converter": false
+                }
+            ],
+            "XID": null,
+            "MatchingFrag": "",
+            "UniqueId": "4a5405c3-6201-f111-a9ae-005056914f1c_AS26---crmrecord",
+            "GUID": "4a5405c3-6201-f111-a9ae-005056914f1c",
+            "RecordType": "Event",
+            "RecordLabel": "Plenary",
+            "Score": "NaN",
+            "RecordWeight": "Default:10 Category:800 Date:497.28 RecordSize:200 EventStatus:240 Total:1747.28",
+            "HTMLTitle": "",
+            "Title": "Tuesday Plenary",
+            "Description": "Speakers: Big Telescopes, Real Communities: Maintaining a “social licence to operate” through MeerKAT to SKA Pontsho Maruping South African Radio Astronomy Observatory (South Africa) World-class telescopes don’t succeed on engineering alone. For...",
+            "Abstract": "",
+            "ImagePath": null,
+            "URL": "/astronomical-telescopes-instrumentation/event/tuesday-plenary/7101541",
+            "ModifiedOn": "0001-01-01T00:00:00",
+            "PublicationDate": null,
+            "PublicationDateTime": "0001-01-01T00:00:00",
+            "DisplayDateTime": "7 July 2026 • 08:30 - 10:00 CEST | Hall A",
+            "ErrorMessage": null
+        },
+        {
+            "DisplayRoles": null,
+            "EventName": null,
+            "EventType": "Special Event",
+            "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+            "SymposiumSeriesCode": "AS",
+            "SuperSymposiumSeriesCode": "",
+            "DateTimeLocationDataList": [
+                {
+                    "date_time_location": "8 July 2026 • 08:30 - 10:00 CEST | Hall A",
+                    "badge_icon": null,
+                    "format_icon": null,
+                    "show_tz_converter": false
+                }
+            ],
+            "XID": null,
+            "MatchingFrag": "",
+            "UniqueId": "e9f64c26-6301-f111-a9ae-005056914f1c_AS26---crmrecord",
+            "GUID": "e9f64c26-6301-f111-a9ae-005056914f1c",
+            "RecordType": "Event",
+            "RecordLabel": "Plenary",
+            "Score": "NaN",
+            "RecordWeight": "Default:10 Category:800 Date:497.28 RecordSize:200 EventStatus:240 Total:1747.28",
+            "HTMLTitle": "",
+            "Title": "Wednesday Plenary",
+            "Description": "Speakers: Driving Cosmic Discovery Science at the Frontiers of Engineering and Technology Innovation Carole Mundell European Space Agency (Spain) The European Space Agency Space Science programme aims to answer fundamental questions about the nature...",
+            "Abstract": "",
+            "ImagePath": null,
+            "URL": "/astronomical-telescopes-instrumentation/event/wednesday-plenary/7101542",
+            "ModifiedOn": "0001-01-01T00:00:00",
+            "PublicationDate": null,
+            "PublicationDateTime": "0001-01-01T00:00:00",
+            "DisplayDateTime": "8 July 2026 • 08:30 - 10:00 CEST | Hall A",
+            "ErrorMessage": null
+        },
+        {
+            "DisplayRoles": null,
+            "EventName": null,
+            "EventType": "Special Event",
+            "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+            "SymposiumSeriesCode": "AS",
+            "SuperSymposiumSeriesCode": "",
+            "DateTimeLocationDataList": [
+                {
+                    "date_time_location": "9 July 2026 • 08:30 - 10:00 CEST | Hall A",
+                    "badge_icon": null,
+                    "format_icon": null,
+                    "show_tz_converter": false
+                }
+            ],
+            "XID": null,
+            "MatchingFrag": "",
+            "UniqueId": "cb35d1eb-6301-f111-a9af-00505691c5e1_AS26---crmrecord",
+            "GUID": "cb35d1eb-6301-f111-a9af-00505691c5e1",
+            "RecordType": "Event",
+            "RecordLabel": "Plenary",
+            "Score": "NaN",
+            "RecordWeight": "Default:10 Category:800 Date:497.28 RecordSize:200 EventStatus:240 Total:1747.28",
+            "HTMLTitle": "",
+            "Title": "Thursday Plenary",
+            "Description": "Speakers: The SKA Telescopes in Construction: Building a Next-Generation Observatory André van Es SKA Observatory (United Kingdom) The SKA Observatory (SKAO) is an intergovernmental organisation currently constructing the world’s two largest...",
+            "Abstract": "",
+            "ImagePath": null,
+            "URL": "/astronomical-telescopes-instrumentation/event/thursday-plenary/7101543",
+            "ModifiedOn": "0001-01-01T00:00:00",
+            "PublicationDate": null,
+            "PublicationDateTime": "0001-01-01T00:00:00",
+            "DisplayDateTime": "9 July 2026 • 08:30 - 10:00 CEST | Hall A",
+            "ErrorMessage": null
+        }
+    ],
+    "Facets": [
+        {
+            "Values": [
+                {
+                    "Name": "Monday, 06 July",
+                    "Count": 1,
+                    "QueryValue": "20260706",
+                    "Selected": false
+                },
+                {
+                    "Name": "Tuesday, 07 July",
+                    "Count": 1,
+                    "QueryValue": "20260707",
+                    "Selected": false
+                },
+                {
+                    "Name": "Wednesday, 08 July",
+                    "Count": 1,
+                    "QueryValue": "20260708",
+                    "Selected": false
+                },
+                {
+                    "Name": "Thursday, 09 July",
+                    "Count": 1,
+                    "QueryValue": "20260709",
+                    "Selected": false
+                }
+            ],
+            "Name": "Date",
+            "QueryParameter": "date"
+        },
+        {
+            "Values": [],
+            "Name": "Time",
+            "QueryParameter": "time"
+        }
+    ],
+    "Count": 4,
+    "Success": true,
+    "Error": null,
+    "ContainsFacets": true,
+    "SearchServerName": "PRODSPSEARCH01",
+    "DLCount": 689687
+}
