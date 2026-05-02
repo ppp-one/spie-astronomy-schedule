@@ -1,8 +1,10 @@
 # SPIE AS26 Schedule Viewer
 
-**Live site: [spie2026.netlify.app](https://spie2026.netlify.app/)**
+## [→ spie2026.netlify.app](https://spie2026.netlify.app/)
 
-A self-contained HTML schedule for [SPIE Astronomical Telescopes + Instrumentation 2026](https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation) (Copenhagen, Sun 5 to Fri 10 July 2026).
+An unofficial schedule viewer for [SPIE Astronomical Telescopes + Instrumentation 2026](https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation) (Copenhagen, Sun 5 – Fri 10 July 2026), covering 3191 talks and 2140 posters across 13 conferences.
+
+**Entirely client-side** — no server, no login, no tracking. The page is a single self-contained HTML file. Your bookmarks and personal schedule are saved in your browser's `localStorage` and never leave your device. Use the **Export / Import** button to copy them as a plain-text list and paste on another device.
 
 3191 records across 13 conferences.
 - Sun 5 Jul: 160 talks across 9 rooms
@@ -47,14 +49,16 @@ open output/index.html
 
 ## HTML schedule features
 
+- **Views** — Schedule grid, flat Talk List, Posters, and a Poster Swipe game
 - **Day tabs** — switch between Sun 5 Jul through Fri 10 Jul
-- **Live search** — type in the topbar to filter by title, author, paper number, or keyword; `Escape` clears
-- **Colour-coded conferences** — each of the 13 included conferences has a distinct colour; legend shown above the grid
-- **Poster sessions** — rows for 17:30–19:00 are highlighted amber
-- **Talk links** — titles link directly to the SPIE abstract page
-- **Bookmarks** — click the ☆ on any card to save a talk; bookmarks persist in `localStorage`
-- **My Schedule** — toggle in the topbar to show only bookmarked talks
-- **Export / Import** — copies bookmarks as a plain JSON array of paper IDs, for transferring between devices
+- **Live search** — single search bar adapts to the active view (talks or posters); `Escape` clears
+- **Track filter** — click any conference in the legend to show only that track; multi-select supported
+- **Talk detail modal** — click any title for the full abstract and a link to the SPIE page
+- **Colour-coded conferences** — 13 conferences, each with a distinct colour
+- **Poster sessions** — 17:30–19:00 rows highlighted; poster swipe game for quick bookmark/skip triage
+- **Bookmarks** — click ☆ on any talk or poster; state persists in browser `localStorage`
+- **My Schedule** — toggle in the topbar to show only bookmarked items across all views
+- **Export / Import** — one click copies bookmarks as a plain-text list to paste on another device
 
 ## Conferences included
 
