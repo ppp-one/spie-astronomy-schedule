@@ -280,11 +280,29 @@ def build_days(records: list[dict]) -> list[dict]:
     return days
 
 
+def _modal_data(talk: dict, href: str, short: str, color: str) -> str:
+    """Returns data-* attribute string carrying everything the talk modal needs."""
+    end_str = slot_end(talk["time_slot"])
+    start_min = to_minutes(talk["time_sort"])
+    time_str = f"{start_min // 60:02d}:{start_min % 60:02d}"
+    time_label = f"{time_str}–{end_str} CEST" if end_str else time_str
+    return (
+        f'data-title="{e(talk["title"])}" '
+        f'data-paper="{e(talk["paper"])}" '
+        f'data-author="{e(talk["author"])}" '
+        f'data-abstract="{e(talk["abstract"] or "")}" '
+        f'data-url="{e(href)}" '
+        f'data-short="{e(short)}" '
+        f'data-color="{color}" '
+        f'data-time="{e(time_label)}" '
+        f'data-room="{e(talk["room"])}"'
+    )
+
+
 def render_cal_card(talk: dict, top: int, height: int) -> str:
     color = CONF_COLOR.get(talk["conf"], "#999")
     short = CONF_SHORT.get(talk["conf"], talk["conf"])
     search = e(f"{talk['title']} {talk['paper']} {talk['author']} {talk['abstract']}")
-    tooltip = e(talk["abstract"] or "No abstract available.")
     href = f"https://spie.org{talk['url']}" if talk.get("url") else ""
     card_id = e(talk["paper"] if talk["paper"] else f"PLENARY-{talk['title']}")
 
@@ -299,11 +317,7 @@ def render_cal_card(talk: dict, top: int, height: int) -> str:
         conf_color = f"color:{color}"
         title_color = ""
 
-    title_html = (
-        f'<a class="talk-link" href="{e(href)}" target="_blank" rel="noopener">{e(talk["title"])}</a>'
-        if href
-        else e(talk["title"])
-    )
+    title_html = f'<span class="talk-link" onclick="openTalkModal(this)">{e(talk["title"])}</span>'
     meta = (
         f'<div class="talk-meta">[{e(talk["paper"])}] {e(talk["author"])}</div>'
         if talk["conf"] != "PLENARY"
@@ -312,7 +326,7 @@ def render_cal_card(talk: dict, top: int, height: int) -> str:
 
     return (
         f'<div class="talk cal-talk" data-search="{search}" data-id="{card_id}" '
-        f'title="{tooltip}" style="{card_style}">'
+        f'{_modal_data(talk, href, short, color)} style="{card_style}">'
         f'<div class="talk-header">'
         f'<span class="talk-conf" style="{conf_color}">{e(short)}</span>'
         f'<button class="star-btn" onclick="toggleBookmark(this)" title="Save to My Schedule">☆</button>'
@@ -327,14 +341,9 @@ def render_session_item(talk: dict) -> str:
     color = CONF_COLOR.get(talk["conf"], "#999")
     short = CONF_SHORT.get(talk["conf"], talk["conf"])
     search = e(f"{talk['title']} {talk['paper']} {talk['author']} {talk['abstract']}")
-    tooltip = e(talk["abstract"] or "No abstract available.")
     href = f"https://spie.org{talk['url']}" if talk.get("url") else ""
     card_id = e(talk["paper"] if talk["paper"] else f"PLENARY-{talk['title']}")
-    title_html = (
-        f'<a class="talk-link" href="{e(href)}" target="_blank" rel="noopener">{e(talk["title"])}</a>'
-        if href
-        else e(talk["title"])
-    )
+    title_html = f'<span class="talk-link" onclick="openTalkModal(this)">{e(talk["title"])}</span>'
     meta = (
         f'<div class="talk-meta">[{e(talk["paper"])}] {e(talk["author"])}</div>'
         if talk["conf"] != "PLENARY"
@@ -342,7 +351,7 @@ def render_session_item(talk: dict) -> str:
     )
     return (
         f'<div class="talk session-item" data-search="{search}" data-id="{card_id}" '
-        f'title="{tooltip}" style="border-left-color:{color}">'
+        f'{_modal_data(talk, href, short, color)} style="border-left-color:{color}">'
         f'<div class="talk-header">'
         f'<span class="talk-conf" style="color:{color}">{e(short)}</span>'
         f'<button class="star-btn" onclick="toggleBookmark(this)" title="Save to My Schedule">☆</button>'
@@ -400,15 +409,10 @@ def render_agenda_day(day: dict) -> str:
         search = e(
             f"{talk['title']} {talk['paper']} {talk['author']} {talk['abstract']}"
         )
-        tooltip = e(talk["abstract"] or "No abstract available.")
         href = f"https://spie.org{talk['url']}" if talk.get("url") else ""
         card_id = e(talk["paper"] if talk["paper"] else f"PLENARY-{talk['title']}")
 
-        title_html = (
-            f'<a class="talk-link" href="{e(href)}" target="_blank" rel="noopener">{e(talk["title"])}</a>'
-            if href
-            else e(talk["title"])
-        )
+        title_html = f'<span class="talk-link" onclick="openTalkModal(this)">{e(talk["title"])}</span>'
         end_html = (
             f'<span class="agenda-time-end">{e(end_str)}</span>' if end_str else ""
         )
@@ -424,7 +428,7 @@ def render_agenda_day(day: dict) -> str:
         rows.append(
             f'<div class="agenda-row talk{row_cls}" '
             f'data-search="{search}" data-id="{card_id}" '
-            f'title="{tooltip}" style="border-left-color:{color}">'
+            f'{_modal_data(talk, href, short, color)} style="border-left-color:{color}">'
             f'<div class="agenda-time-col">'
             f'<span class="agenda-time-start">{start_min // 60:02d}:{start_min % 60:02d}</span>'
             f"{end_html}"
@@ -432,7 +436,7 @@ def render_agenda_day(day: dict) -> str:
             f'<div class="agenda-event-col">'
             f'<span class="agenda-conf" style="color:{color}">{e(short)}</span>'
             f'<div class="agenda-title">{title_html}</div>'
-            f"{'<div class="agenda-meta">' + meta_html + '</div>' if meta_html else ''}"
+            f"{'<div class=\"agenda-meta\">' + meta_html + '</div>' if meta_html else ''}"
             f"</div>"
             f'<button class="star-btn" onclick="toggleBookmark(this)" '
             f'title="Save to My Schedule" style="{star_color}">&#9734;</button>'
@@ -908,11 +912,50 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 .modal-btn.danger:hover { background: #c0393b; }
 .modal-notice { font-size: 11px; color: #3aaa8c; margin-top: 6px; min-height: 16px; }
 /* ── Talk links ── */
-a.talk-link {
+.talk-link {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
-a.talk-link:hover { text-decoration: underline; }
+.talk-link:hover { text-decoration: underline; }
+/* ── Talk detail modal ── */
+#talk-modal .modal { max-width: 640px; }
+#talk-modal-conf {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  display: block;
+}
+#talk-modal h2 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0 0 8px;
+  padding-right: 24px;
+}
+#talk-modal-meta {
+  font-size: 12px;
+  color: #666;
+  margin: 0 0 14px;
+}
+#talk-modal-abstract {
+  font-size: 13px;
+  line-height: 1.7;
+  white-space: pre-wrap;
+  margin: 0 0 16px;
+  color: #333;
+}
+#talk-modal-ext {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: #7eb8f7;
+  text-decoration: none;
+}
+#talk-modal-ext:hover { text-decoration: underline; }
 /* ── Search states ── */
 .talk.dim { opacity: 0.07; pointer-events: none; }
 .talk.match { box-shadow: 0 0 0 2px #f5a623 !important; }
@@ -1906,6 +1949,39 @@ document.addEventListener('keydown', ev => {
   else if (ev.key === 'ArrowUp' || ev.key === 'u') undoSwipe();
   else if (ev.key === 'ArrowDown' || ev.key === 'j') applySwipeAction('skip');
 });
+
+// ── Talk detail modal ──
+function openTalkModal(el) {
+  const card = el.closest('[data-id]');
+  const d = card.dataset;
+  document.getElementById('talk-modal-conf').textContent = d.short || '';
+  document.getElementById('talk-modal-conf').style.color = d.color || '#999';
+  document.getElementById('talk-modal-title').textContent = d.title || '';
+  const meta = [];
+  if (d.paper) meta.push('[' + d.paper + ']');
+  if (d.author) meta.push(d.author);
+  if (d.time) meta.push(d.time);
+  if (d.room && d.room !== 'Room TBC') meta.push(d.room);
+  document.getElementById('talk-modal-meta').textContent = meta.join(' · ');
+  document.getElementById('talk-modal-abstract').textContent =
+    d.abstract || 'No abstract available.';
+  const ext = document.getElementById('talk-modal-ext');
+  ext.href = d.url || '#';
+  ext.style.display = d.url ? '' : 'none';
+  document.getElementById('talk-modal').classList.add('open');
+}
+
+function closeTalkModal() {
+  document.getElementById('talk-modal').classList.remove('open');
+}
+
+document.getElementById('talk-modal').addEventListener('click', ev => {
+  if (ev.target === document.getElementById('talk-modal')) closeTalkModal();
+});
+
+document.addEventListener('keydown', ev => {
+  if (ev.key === 'Escape') closeTalkModal();
+});
 """
 
 
@@ -1924,16 +2000,13 @@ def render_poster_page(poster_days: list[dict]) -> str:
             for t in talks:
                 card_id = e(t["paper"])
                 href = f"https://spie.org{t['url']}" if t.get("url") else ""
-                title_html = (
-                    f'<a href="{e(href)}" target="_blank" rel="noopener">{e(t["title"])}</a>'
-                    if href
-                    else e(t["title"])
-                )
+                title_html = f'<span class="talk-link" onclick="openTalkModal(this)">{e(t["title"])}</span>'
                 search_text = e(
                     f"{t['title']} {t['paper']} {t['author']} {t['abstract']}"
                 )
                 item = (
-                    f'<div class="poster-item" data-id="{card_id}" data-search="{search_text}">'
+                    f'<div class="poster-item" data-id="{card_id}" data-search="{search_text}" '
+                    f'{_modal_data(t, href, short, color)}>'
                     f'<div class="poster-item-body">'
                     f'<div class="poster-item-title">{title_html}</div>'
                     f'<div class="poster-item-meta">'
@@ -2059,19 +2132,15 @@ def render_talk_list_page(days: list[dict]) -> str:
             time_str = f"{start_min // 60:02d}:{start_min % 60:02d}"
             end_str = slot_end(talk["time_slot"])
             time_label = f"{time_str}–{end_str}" if end_str else time_str
-            title_html = (
-                f'<a href="{e(href)}" target="_blank" rel="noopener">'
-                f"{e(talk['title'])}</a>"
-                if href
-                else e(talk["title"])
-            )
+            title_html = f'<span class="talk-link" onclick="openTalkModal(this)">{e(talk["title"])}</span>'
             meta = (
                 f'[{e(talk["paper"])}] {e(talk["author"])}'
                 if talk["conf"] != "PLENARY"
                 else ""
             )
             item = (
-                f'<div class="talk-list-item" data-search="{search_str}" data-id="{card_id}">'
+                f'<div class="talk-list-item" data-search="{search_str}" data-id="{card_id}" '
+                f'{_modal_data(talk, href, short, color)}>'
                 f'<div class="talk-list-time">{time_label}<br>{e(talk["room"])}</div>'
                 f'<div class="talk-list-body">'
                 f'<span class="talk-list-conf" style="color:{color}">{e(short)}</span>'
@@ -2217,6 +2286,17 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
       <button class="modal-btn primary" onclick="importBookmarks()">Import</button>
     </div>
     <div class="modal-notice" id="share-notice"></div>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="talk-modal">
+  <div class="modal" style="max-width:640px">
+    <button class="modal-close" onclick="closeTalkModal()">&#10005;</button>
+    <span id="talk-modal-conf"></span>
+    <h2 id="talk-modal-title"></h2>
+    <p id="talk-modal-meta"></p>
+    <p id="talk-modal-abstract"></p>
+    <a id="talk-modal-ext" href="#" target="_blank" rel="noopener">Open on SPIE &#8599;</a>
   </div>
 </div>
 
