@@ -620,6 +620,17 @@ body {
 }
 .legend-item:hover { opacity: 0.7; }
 .legend-item.inactive { opacity: 0.2; }
+#clear-conf-btn {
+  background: none;
+  border: 1px solid #bbb;
+  color: #666;
+  border-radius: 4px;
+  padding: 2px 8px;
+  cursor: pointer;
+  font-size: 11px;
+  margin-left: 4px;
+}
+#clear-conf-btn:hover { border-color: #e15759; color: #e15759; }
 .conf-hidden { display: none !important; }
 .legend-dot {
   width: 10px;
@@ -1474,6 +1485,15 @@ function toggleConfFilter(conf) {
     item.classList.toggle('inactive',
       confFilters.size > 0 && !confFilters.has(item.dataset.conf));
   });
+  document.getElementById('clear-conf-btn').style.display = confFilters.size > 0 ? '' : 'none';
+  applyConfFilter();
+  applySearch();
+}
+
+function clearConfFilters() {
+  confFilters.clear();
+  document.querySelectorAll('.legend-item[data-conf]').forEach(item => item.classList.remove('inactive'));
+  document.getElementById('clear-conf-btn').style.display = 'none';
   applyConfFilter();
   applySearch();
 }
@@ -1633,8 +1653,8 @@ updateBookmarkCount();
 
 // ── Export / Import ──
 function openShareModal() {
-  document.getElementById('export-code').value =
-    JSON.stringify([...bookmarks], null, 2) || '';
+  const data = { bookmarks: [...bookmarks], skipped: [...skipped] };
+  document.getElementById('export-code').value = JSON.stringify(data, null, 2);
   document.getElementById('import-code').value = '';
   document.getElementById('share-notice').textContent = '';
   document.getElementById('share-modal').classList.add('open');
@@ -1664,28 +1684,54 @@ function importBookmarks() {
     return;
   }
   try {
-    const ids = JSON.parse(raw);
-    if (!Array.isArray(ids)) throw new Error();
-    bookmarks = new Set(ids);
+    const parsed = JSON.parse(raw);
+    let bIds, sIds;
+    if (Array.isArray(parsed)) {
+      bIds = parsed; sIds = [];
+    } else {
+      bIds = parsed.bookmarks || [];
+      sIds = parsed.skipped || [];
+    }
+    bookmarks = new Set(bIds);
+    skipped = new Set(sIds);
     saveBookmarks();
+    saveSkipped();
     restoreBookmarks();
-    document.getElementById('share-notice').textContent =
-      ids.length + ' bookmark' + (ids.length !== 1 ? 's' : '') + ' imported.';
+    restorePosterStates();
+    restoreTalkListSkipped();
+    const msg = bIds.length + ' bookmark' + (bIds.length !== 1 ? 's' : '') +
+      (sIds.length ? ', ' + sIds.length + ' skipped' : '') + ' imported.';
+    document.getElementById('share-notice').textContent = msg;
   } catch {
     document.getElementById('share-notice').textContent = 'Invalid code — please try again.';
   }
 }
 
 function clearAllBookmarks() {
-  if (!confirm('Remove all saved talks?')) return;
+  if (!confirm('Remove all saved and skipped talks?')) return;
   bookmarks = new Set();
+  skipped = new Set();
   saveBookmarks();
-  document.querySelectorAll('.talk.bookmarked').forEach(c => {
+  saveSkipped();
+  document.querySelectorAll('.talk.bookmarked, .talk-list-item.bookmarked').forEach(c => {
     c.classList.remove('bookmarked');
-    c.querySelector('.star-btn').textContent = '☆';
+    const star = c.querySelector('.star-btn');
+    if (star) star.textContent = '☆';
+  });
+  document.querySelectorAll('.talk-list-item.skipped').forEach(c => {
+    c.classList.remove('skipped');
+    const btn = c.querySelector('.talk-skip-btn');
+    if (btn) btn.textContent = '✕';
+  });
+  document.querySelectorAll('.poster-item.bookmarked, .poster-item.skipped').forEach(c => {
+    c.classList.remove('bookmarked', 'skipped');
+    const star = c.querySelector('.poster-star-btn');
+    if (star) star.textContent = '☆';
+    const skip = c.querySelector('.poster-skip-btn');
+    if (skip) skip.textContent = '✕';
   });
   document.getElementById('export-code').value = '';
-  document.getElementById('share-notice').textContent = 'All bookmarks cleared.';
+  document.getElementById('share-notice').textContent = 'All bookmarks and skipped cleared.';
 }
 
 document.getElementById('share-modal').addEventListener('click', ev => {
@@ -1701,6 +1747,8 @@ function switchView(view) {
   updateStickyOffset();
   if (view === 'swipe') initSwipe();
   if (view === 'talkswipe') initTalkSwipe();
+  const isSwipe = view === 'swipe' || view === 'talkswipe';
+  document.querySelector('.search-wrap').style.display = isSwipe ? 'none' : '';
   const placeholders = {
     schedule:   'Search talks: title, author, abstract…',
     talklist:   'Search talks: title, author, abstract…',
@@ -1874,6 +1922,7 @@ function buildSwipeQueue() {
       id: el.dataset.id,
       conf: el.dataset.conf,
       day: el.dataset.day,
+      dayLabel: el.dataset.dayLabel || '',
       title: el.dataset.title,
       paper: el.dataset.paper,
       author: el.dataset.author,
@@ -1896,6 +1945,7 @@ function renderSwipeCard(talk, stackPos) {
   const style = `transform: translateY(${offset}px) scale(${scale}); z-index: ${10 - stackPos};`;
   const href = talk.url ? `https://spie.org${talk.url}` : '';
   const metaParts = [talk.paper, talk.author].filter(Boolean);
+  const dayMeta = swipeFilterDay === 'all' && talk.dayLabel ? `<div class="swipe-card-meta" style="font-size:10px;opacity:.7">${swipeEscape(talk.dayLabel)}</div>` : '';
   return `<div class="swipe-card" data-id="${swipeEscape(talk.id)}"
   data-title="${swipeEscape(talk.title)}" data-paper="${swipeEscape(talk.paper)}"
   data-author="${swipeEscape(talk.author)}" data-abstract="${swipeEscape(talk.abstract || '')}"
@@ -1906,6 +1956,7 @@ function renderSwipeCard(talk, stackPos) {
   <div class="swipe-card-conf" style="color:${talk.color}">${swipeEscape(talk.short)}</div>
   <div class="swipe-card-title"><span class="talk-link" onclick="openTalkModal(this)">${swipeEscape(talk.title)}</span></div>
   ${ metaParts.length ? `<div class="swipe-card-meta">${swipeEscape(metaParts.join(' · '))}</div>` : '' }
+  ${dayMeta}
   ${ talk.abstract ? `<div class="swipe-card-abstract">${swipeEscape(talk.abstract)}</div>` : '' }
 </div>`;
 }
@@ -2090,6 +2141,7 @@ function buildTalkSwipeQueue() {
       id: el.dataset.id,
       conf: el.dataset.conf,
       day: el.dataset.day,
+      dayLabel: el.dataset.dayLabel || '',
       title: el.dataset.title,
       paper: el.dataset.paper,
       author: el.dataset.author,
@@ -2111,6 +2163,8 @@ function renderTalkSwipeCard(talk, stackPos) {
   const href = talk.url ? `https://spie.org${talk.url}` : '';
   const metaParts = [talk.paper, talk.author].filter(Boolean);
   const timeMeta = [talk.time, talk.room].filter(s => s && s !== 'Room TBC').join(' · ');
+  const dayMeta = talkSwipeFilterDay === 'all' && talk.dayLabel ? talk.dayLabel : '';
+  const locationLine = [dayMeta, timeMeta].filter(Boolean).join(' · ');
   return `<div class="swipe-card" data-id="${swipeEscape(talk.id)}"
   data-title="${swipeEscape(talk.title)}" data-paper="${swipeEscape(talk.paper)}"
   data-author="${swipeEscape(talk.author)}" data-abstract="${swipeEscape(talk.abstract || '')}"
@@ -2122,7 +2176,7 @@ function renderTalkSwipeCard(talk, stackPos) {
   <div class="swipe-card-conf" style="color:${talk.color}">${swipeEscape(talk.short)}</div>
   <div class="swipe-card-title"><span class="talk-link" onclick="openTalkModal(this)">${swipeEscape(talk.title)}</span></div>
   ${ metaParts.length ? `<div class="swipe-card-meta">${swipeEscape(metaParts.join(' · '))}</div>` : '' }
-  ${ timeMeta ? `<div class="swipe-card-meta" style="font-size:10px;opacity:.7">${swipeEscape(timeMeta)}</div>` : '' }
+  ${ locationLine ? `<div class="swipe-card-meta" style="font-size:10px;opacity:.7">${swipeEscape(locationLine)}</div>` : '' }
   ${ talk.abstract ? `<div class="swipe-card-abstract">${swipeEscape(talk.abstract)}</div>` : '' }
 </div>`;
 }
@@ -2419,6 +2473,7 @@ def render_swipe_data(poster_days: list[dict]) -> str:
                     f'<span class="swipe-card-data" '
                     f'data-id="{e(t["paper"])}" '
                     f'data-day="{e(d["date_iso"])}" '
+                    f'data-day-label="{e(d["label"])}" '
                     f'data-conf="{e(conf)}" '
                     f'data-title="{e(t["title"])}" '
                     f'data-paper="{e(t["paper"])}" '
@@ -2476,6 +2531,7 @@ def render_talk_swipe_data(days: list[dict]) -> str:
                     f'<span class="talk-swipe-card-data" '
                     f'data-id="{e(card_id)}" '
                     f'data-day="{e(d["date_iso"])}" '
+                    f'data-day-label="{e(d["label"])}" '
                     f'data-conf="{e(t["conf"])}" '
                     f'data-title="{e(t["title"])}" '
                     f'data-paper="{e(t["paper"])}" '
@@ -2603,6 +2659,7 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
         f"{e(CONF_SHORT.get(c, c))}</span>"
         for c in sorted(CONF_SHORT)
     )
+    legend += '<button id="clear-conf-btn" onclick="clearConfFilters()" style="display:none">&#10005; Clear filters</button>'
 
     view_nav = (
         '<nav class="view-nav">'
@@ -2694,8 +2751,8 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
 
 <div class="modal-backdrop" id="share-modal">
   <div class="modal">
-    <h2>&#8645; Export / Import bookmarks</h2>
-    <p>Copy the list below and paste it on another device to transfer your saved talks.</p>
+    <h2>&#8645; Export / Import</h2>
+    <p>Copy the list below and paste it on another device to transfer your saved and skipped talks.</p>
     <label style="font-size:11px;font-weight:600;color:#555">Your code</label>
     <textarea id="export-code" readonly placeholder="(no bookmarks saved yet)"></textarea>
     <div class="modal-row">
