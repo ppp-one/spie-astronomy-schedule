@@ -931,7 +931,7 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 }
 .talk-link:hover { text-decoration: underline; }
 /* ── Talk detail modal ── */
-#talk-modal .modal { max-width: 640px; }
+#talk-modal .modal { max-width: 640px; max-height: 90vh; overflow-y: auto; }
 #talk-modal-conf {
   font-size: 11px;
   font-weight: 700;
@@ -1209,7 +1209,7 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 .talk-list-title a:hover { text-decoration: underline; }
 .talk-list-meta { font-size: 11px; color: #666; }
 /* ── Swipe game ── */
-#swipe-body {
+#swipe-body, #talkswipe-body {
   height: calc(100vh - var(--topbar-h, 44px));
   display: flex;
   flex-direction: column;
@@ -1582,6 +1582,8 @@ function updateStickyOffset() {
   if (posterBody) posterBody.style.height = (window.innerHeight - topbarH) + 'px';
   const swipeBody = document.getElementById('swipe-body');
   if (swipeBody) swipeBody.style.height = (window.innerHeight - topbarH) + 'px';
+  const talkswipeBody = document.getElementById('talkswipe-body');
+  if (talkswipeBody) talkswipeBody.style.height = (window.innerHeight - topbarH) + 'px';
 }
 updateStickyOffset();
 window.addEventListener('resize', updateStickyOffset);
@@ -1658,11 +1660,13 @@ function switchView(view) {
   document.querySelector('[data-view="' + view + '"]').classList.add('active');
   updateStickyOffset();
   if (view === 'swipe') initSwipe();
+  if (view === 'talkswipe') initTalkSwipe();
   const placeholders = {
-    schedule:  'Search talks: title, author, paper…',
-    talklist:  'Search talks: title, author, paper…',
-    posters:   'Search posters: title, author, paper…',
-    swipe:     '',
+    schedule:   'Search talks: title, author, paper…',
+    talklist:   'Search talks: title, author, paper…',
+    talkswipe:  '',
+    posters:    'Search posters: title, author, paper…',
+    swipe:      '',
   };
   document.getElementById('search').placeholder = placeholders[view] || 'Search…';
   document.getElementById('match-count').textContent = '';
@@ -1818,15 +1822,16 @@ function renderSwipeCard(talk, stackPos) {
   const scale = 1 - stackPos * 0.04;
   const style = `transform: translateY(${offset}px) scale(${scale}); z-index: ${10 - stackPos};`;
   const href = talk.url ? `https://spie.org${talk.url}` : '';
-  const titleHtml = href
-    ? `<a class="swipe-card-title-link" href="${swipeEscape(href)}" target="_blank" rel="noopener">${swipeEscape(talk.title)}</a>`
-    : swipeEscape(talk.title);
   const metaParts = [talk.paper, talk.author].filter(Boolean);
-  return `<div class="swipe-card" data-id="${swipeEscape(talk.id)}" style="${style}">
+  return `<div class="swipe-card" data-id="${swipeEscape(talk.id)}"
+  data-title="${swipeEscape(talk.title)}" data-paper="${swipeEscape(talk.paper)}"
+  data-author="${swipeEscape(talk.author)}" data-abstract="${swipeEscape(talk.abstract || '')}"
+  data-url="${swipeEscape(href)}" data-short="${swipeEscape(talk.short)}" data-color="${swipeEscape(talk.color)}"
+  style="${style}">
   <div class="swipe-hint-skip">SKIP</div>
   <div class="swipe-hint-save">SAVE ★</div>
   <div class="swipe-card-conf" style="color:${talk.color}">${swipeEscape(talk.short)}</div>
-  <div class="swipe-card-title">${titleHtml}</div>
+  <div class="swipe-card-title"><span class="talk-link" onclick="openTalkModal(this)">${swipeEscape(talk.title)}</span></div>
   ${ metaParts.length ? `<div class="swipe-card-meta">${swipeEscape(metaParts.join(' · '))}</div>` : '' }
   ${ talk.abstract ? `<div class="swipe-card-abstract">${swipeEscape(talk.abstract)}</div>` : '' }
 </div>`;
@@ -1987,6 +1992,198 @@ document.addEventListener('keydown', ev => {
   else if (ev.key === 'ArrowLeft' || ev.key === 'h') applySwipeAction('skip');
   else if (ev.key === 'ArrowUp' || ev.key === 'u') undoSwipe();
   else if (ev.key === 'ArrowDown' || ev.key === 'j') applySwipeAction('skip');
+});
+
+// ── Talk Swipe game ──
+let talkSwipeQueue = [];
+let talkSwipeIdx = 0;
+let talkSwipeHistory = [];
+let talkSwipeInitialized = false;
+let talkSwipeFilterDay = 'all';
+let talkSwipeFilterConf = 'all';
+
+function buildTalkSwipeQueue() {
+  const allCards = Array.from(document.querySelectorAll('.talk-swipe-card-data'));
+  const seen = new Set();
+  talkSwipeQueue = allCards
+    .filter(el => {
+      if (seen.has(el.dataset.id)) return false;
+      seen.add(el.dataset.id);
+      if (talkSwipeFilterDay !== 'all' && el.dataset.day !== talkSwipeFilterDay) return false;
+      if (talkSwipeFilterConf !== 'all' && el.dataset.conf !== talkSwipeFilterConf) return false;
+      return !bookmarks.has(el.dataset.id);
+    })
+    .map(el => ({
+      id: el.dataset.id,
+      conf: el.dataset.conf,
+      day: el.dataset.day,
+      title: el.dataset.title,
+      paper: el.dataset.paper,
+      author: el.dataset.author,
+      abstract: el.dataset.abstract,
+      url: el.dataset.url,
+      color: el.dataset.color,
+      short: el.dataset.short,
+      time: el.dataset.time,
+      room: el.dataset.room,
+    }));
+  talkSwipeIdx = 0;
+  talkSwipeHistory = [];
+}
+
+function renderTalkSwipeCard(talk, stackPos) {
+  const offset = stackPos * 4;
+  const scale = 1 - stackPos * 0.04;
+  const style = `transform: translateY(${offset}px) scale(${scale}); z-index: ${10 - stackPos};`;
+  const href = talk.url ? `https://spie.org${talk.url}` : '';
+  const metaParts = [talk.paper, talk.author].filter(Boolean);
+  const timeMeta = [talk.time, talk.room].filter(s => s && s !== 'Room TBC').join(' · ');
+  return `<div class="swipe-card" data-id="${swipeEscape(talk.id)}"
+  data-title="${swipeEscape(talk.title)}" data-paper="${swipeEscape(talk.paper)}"
+  data-author="${swipeEscape(talk.author)}" data-abstract="${swipeEscape(talk.abstract || '')}"
+  data-url="${swipeEscape(href)}" data-short="${swipeEscape(talk.short)}" data-color="${swipeEscape(talk.color)}"
+  data-time="${swipeEscape(talk.time || '')}" data-room="${swipeEscape(talk.room || '')}"
+  style="${style}">
+  <div class="swipe-hint-skip">SKIP</div>
+  <div class="swipe-hint-save">SAVE ★</div>
+  <div class="swipe-card-conf" style="color:${talk.color}">${swipeEscape(talk.short)}</div>
+  <div class="swipe-card-title"><span class="talk-link" onclick="openTalkModal(this)">${swipeEscape(talk.title)}</span></div>
+  ${ metaParts.length ? `<div class="swipe-card-meta">${swipeEscape(metaParts.join(' · '))}</div>` : '' }
+  ${ timeMeta ? `<div class="swipe-card-meta" style="font-size:10px;opacity:.7">${swipeEscape(timeMeta)}</div>` : '' }
+  ${ talk.abstract ? `<div class="swipe-card-abstract">${swipeEscape(talk.abstract)}</div>` : '' }
+</div>`;
+}
+
+function updateTalkSwipeArena() {
+  const arena = document.getElementById('talkswipe-arena');
+  const counter = document.getElementById('talkswipe-counter');
+  arena.innerHTML = '';
+  const remaining = talkSwipeQueue.length - talkSwipeIdx;
+  counter.textContent = remaining + ' remaining';
+  if (remaining === 0) {
+    arena.innerHTML = '<div class="swipe-done"><strong>All done!</strong><br>Every talk in this filter has been reviewed.<br>Use the filters above or Reset to start again.</div>';
+    return;
+  }
+  const preview = Math.min(3, remaining);
+  for (let i = 0; i < preview; i++) {
+    arena.innerHTML += renderTalkSwipeCard(talkSwipeQueue[talkSwipeIdx + i], i);
+  }
+  attachDragToTalkTop();
+}
+
+function applyTalkSwipeAction(action) {
+  if (talkSwipeIdx >= talkSwipeQueue.length) return;
+  const talk = talkSwipeQueue[talkSwipeIdx];
+  const topCard = document.querySelector('#talkswipe-arena .swipe-card');
+  talkSwipeHistory.push({ talk, action });
+
+  const flyClass = action === 'save' ? 'fly-right' : 'fly-left';
+  if (topCard) {
+    topCard.classList.add(flyClass);
+    setTimeout(() => { topCard.remove(); }, 380);
+  }
+
+  if (action === 'save') {
+    bookmarks.add(talk.id);
+    saveBookmarks();
+    document.querySelectorAll('[data-id="' + CSS.escape(talk.id) + '"]').forEach(el => {
+      el.classList.add('bookmarked');
+      const star = el.querySelector('.star-btn, .poster-star-btn');
+      if (star) star.textContent = '★';
+    });
+  }
+
+  talkSwipeIdx++;
+  setTimeout(updateTalkSwipeArena, 80);
+}
+
+function undoTalkSwipe() {
+  if (!talkSwipeHistory.length) return;
+  const { talk, action } = talkSwipeHistory.pop();
+  if (action === 'save') {
+    bookmarks.delete(talk.id);
+    saveBookmarks();
+    document.querySelectorAll('[data-id="' + CSS.escape(talk.id) + '"]').forEach(el => {
+      el.classList.remove('bookmarked');
+      const star = el.querySelector('.star-btn, .poster-star-btn');
+      if (star) star.textContent = '☆';
+    });
+  }
+  talkSwipeIdx--;
+  updateTalkSwipeArena();
+}
+
+function resetTalkSwipe() {
+  buildTalkSwipeQueue();
+  updateTalkSwipeArena();
+}
+
+function initTalkSwipe() {
+  if (!talkSwipeInitialized) {
+    talkSwipeInitialized = true;
+    document.getElementById('talkswipe-filter-day').addEventListener('change', function() {
+      talkSwipeFilterDay = this.value;
+      resetTalkSwipe();
+    });
+    document.getElementById('talkswipe-filter-conf').addEventListener('change', function() {
+      talkSwipeFilterConf = this.value;
+      resetTalkSwipe();
+    });
+  }
+  resetTalkSwipe();
+}
+
+function attachDragToTalkTop() {
+  const card = document.querySelector('#talkswipe-arena .swipe-card');
+  if (!card) return;
+  let startX = 0, startY = 0, curX = 0, curY = 0;
+
+  function onStart(x, y) {
+    startX = x; startY = y; curX = x; curY = y;
+    card.classList.add('dragging');
+  }
+  function onMove(x, y) {
+    if (!card.classList.contains('dragging')) return;
+    curX = x; curY = y;
+    const dx = curX - startX;
+    const dy = curY - startY;
+    const rot = dx * 0.08;
+    card.style.transform = `translate(${dx}px, ${dy}px) rotate(${rot}deg)`;
+    card.querySelector('.swipe-hint-skip').style.opacity = Math.max(0, Math.min(1, -dx / 80));
+    card.querySelector('.swipe-hint-save').style.opacity = Math.max(0, Math.min(1, dx / 80));
+  }
+  function onEnd() {
+    if (!card.classList.contains('dragging')) return;
+    card.classList.remove('dragging');
+    const dx = curX - startX;
+    if (dx > 80) applyTalkSwipeAction('save');
+    else if (dx < -80) applyTalkSwipeAction('skip');
+    else {
+      card.style.transform = '';
+      card.querySelector('.swipe-hint-skip').style.opacity = 0;
+      card.querySelector('.swipe-hint-save').style.opacity = 0;
+    }
+  }
+
+  card.addEventListener('mousedown', ev => { ev.preventDefault(); onStart(ev.clientX, ev.clientY); });
+  window.addEventListener('mousemove', ev => onMove(ev.clientX, ev.clientY));
+  window.addEventListener('mouseup', () => onEnd());
+
+  card.addEventListener('touchstart', ev => { const t = ev.touches[0]; onStart(t.clientX, t.clientY); }, { passive: true });
+  card.addEventListener('touchmove', ev => {
+    const t = ev.touches[0];
+    if (card.classList.contains('dragging')) ev.preventDefault();
+    onMove(t.clientX, t.clientY);
+  }, { passive: false });
+  card.addEventListener('touchend', () => onEnd());
+}
+
+document.addEventListener('keydown', ev => {
+  if (!document.getElementById('page-talkswipe').classList.contains('active')) return;
+  if (ev.key === 'ArrowRight' || ev.key === 'l') applyTalkSwipeAction('save');
+  else if (ev.key === 'ArrowLeft' || ev.key === 'h') applyTalkSwipeAction('skip');
+  else if (ev.key === 'ArrowUp' || ev.key === 'u') undoTalkSwipe();
+  else if (ev.key === 'ArrowDown' || ev.key === 'j') applyTalkSwipeAction('skip');
 });
 
 // ── Talk detail modal ──
@@ -2162,7 +2359,6 @@ def render_swipe_page(poster_days: list[dict]) -> str:
         f'<span class="swipe-filter-label">Track:</span>'
         f'<select class="swipe-filter-select" id="swipe-filter-conf">'
         f'<option value="all">All tracks</option>{conf_opts}</select>'
-        f'<button class="swipe-reset-btn" onclick="resetSwipe()">Reset</button>'
         f'<span class="swipe-counter" id="swipe-counter"></span>'
         f"</div>"
         f'<div class="swipe-arena" id="swipe-arena"></div>'
@@ -2170,6 +2366,65 @@ def render_swipe_page(poster_days: list[dict]) -> str:
         f'<button class="swipe-action-btn skip-btn" onclick="applySwipeAction(\'skip\')">&#10005;</button>'
         f'<button class="swipe-action-btn undo-btn" onclick="undoSwipe()">&#8630;</button>'
         f'<button class="swipe-action-btn save-btn" onclick="applySwipeAction(\'save\')">&#9733;</button>'
+        f"</div>"
+        f'<div class="swipe-keys">&#8592; skip &nbsp;|&nbsp; &#8594; save &nbsp;|&nbsp; &#8593; undo</div>'
+    )
+
+
+def render_talk_swipe_data(days: list[dict]) -> str:
+    """Hidden spans carrying talk metadata for the talk swipe game."""
+    parts = []
+    for d in days:
+        for talks in d["rooms_map"].values():
+            for t in talks:
+                color = CONF_COLOR.get(t["conf"], "#999")
+                short = CONF_SHORT.get(t["conf"], t["conf"])
+                card_id = t["paper"] if t["paper"] else f"PLENARY-{t['title']}"
+                start_min = to_minutes(t["time_sort"])
+                end_str = slot_end(t["time_slot"])
+                time_str = f"{start_min // 60:02d}:{start_min % 60:02d}"
+                time_label = f"{time_str}–{end_str} CEST" if end_str else time_str
+                parts.append(
+                    f'<span class="talk-swipe-card-data" '
+                    f'data-id="{e(card_id)}" '
+                    f'data-day="{e(d["date_iso"])}" '
+                    f'data-conf="{e(t["conf"])}" '
+                    f'data-title="{e(t["title"])}" '
+                    f'data-paper="{e(t["paper"])}" '
+                    f'data-author="{e(t["author"])}" '
+                    f'data-abstract="{e(t["abstract"] or "")}" '
+                    f'data-url="{e(t["url"] or "")}" '
+                    f'data-color="{color}" '
+                    f'data-short="{e(short)}" '
+                    f'data-time="{e(time_label)}" '
+                    f'data-room="{e(t["room"])}"></span>'
+                )
+    return '<div id="talk-swipe-data" style="display:none">' + "".join(parts) + "</div>"
+
+
+def render_talk_swipe_page(days: list[dict]) -> str:
+    day_opts = "".join(
+        f'<option value="{d["date_iso"]}">{e(d["label"])}</option>' for d in days
+    )
+    conf_opts = "".join(
+        f'<option value="{conf}">{e(CONF_SHORT.get(conf, conf))}</option>'
+        for conf in sorted(CONF_SHORT)
+    )
+    return (
+        f'<div class="swipe-controls">'
+        f'<span class="swipe-filter-label">Day:</span>'
+        f'<select class="swipe-filter-select" id="talkswipe-filter-day">'
+        f'<option value="all">All days</option>{day_opts}</select>'
+        f'<span class="swipe-filter-label">Track:</span>'
+        f'<select class="swipe-filter-select" id="talkswipe-filter-conf">'
+        f'<option value="all">All tracks</option>{conf_opts}</select>'
+        f'<span class="swipe-counter" id="talkswipe-counter"></span>'
+        f"</div>"
+        f'<div class="swipe-arena" id="talkswipe-arena"></div>'
+        f'<div class="swipe-btn-row">'
+        f'<button class="swipe-action-btn skip-btn" onclick="applyTalkSwipeAction(\'skip\')">&#10005;</button>'
+        f'<button class="swipe-action-btn undo-btn" onclick="undoTalkSwipe()">&#8630;</button>'
+        f'<button class="swipe-action-btn save-btn" onclick="applyTalkSwipeAction(\'save\')">&#9733;</button>'
         f"</div>"
         f'<div class="swipe-keys">&#8592; skip &nbsp;|&nbsp; &#8594; save &nbsp;|&nbsp; &#8593; undo</div>'
     )
@@ -2262,9 +2517,10 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
 
     view_nav = (
         '<nav class="view-nav">'
-        '<button class="view-btn active" data-view="schedule" onclick="switchView(\'schedule\')">Schedule</button>'
+        '<button class="view-btn active" data-view="schedule" onclick="switchView(\'schedule\')">Talk Schedule</button>'
         '<button class="view-btn" data-view="talklist" onclick="switchView(\'talklist\')">Talk List</button>'
-        '<button class="view-btn" data-view="posters" onclick="switchView(\'posters\')">Posters</button>'
+        '<button class="view-btn" data-view="talkswipe" onclick="switchView(\'talkswipe\')">&#127183; Talk Swipe</button>'
+        '<button class="view-btn" data-view="posters" onclick="switchView(\'posters\')">Poster List</button>'
         '<button class="view-btn" data-view="swipe" onclick="switchView(\'swipe\')">&#127183; Poster Swipe</button>'
         "</nav>"
     )
@@ -2284,6 +2540,8 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
     )
 
     talklist_html = render_talk_list_page(days)
+    talkswipe_html = render_talk_swipe_page(days)
+    talk_swipe_data = render_talk_swipe_data(days)
     poster_html = render_poster_page(poster_days)
     swipe_html = render_swipe_page(poster_days)
     swipe_data = render_swipe_data(poster_days)
@@ -2331,6 +2589,12 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
 {poster_html}
 </div>
 </div>
+<div class="page" id="page-talkswipe">
+<div id="talkswipe-body">
+{talkswipe_html}
+</div>
+</div>
+{talk_swipe_data}
 <div class="page" id="page-swipe">
 <div id="swipe-body">
 {swipe_html}
