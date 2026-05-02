@@ -69,7 +69,7 @@ CONF_COLOR = {
     "14155": "#3aaa8c",
     "14156": "#6b9e78",
     "14157": "#59a14f",
-    "PLENARY": "#ffffff",
+    "PLENARY": "#9467bd",
 }
 
 MONTH_MAP = {
@@ -292,6 +292,7 @@ def _modal_data(talk: dict, href: str, short: str, color: str) -> str:
         f'data-author="{e(talk["author"])}" '
         f'data-abstract="{e(talk["abstract"] or "")}" '
         f'data-url="{e(href)}" '
+        f'data-conf="{e(talk["conf"])}" '
         f'data-short="{e(short)}" '
         f'data-color="{color}" '
         f'data-time="{e(time_label)}" '
@@ -587,7 +588,15 @@ body {
   gap: 5px;
   font-size: 11px;
   color: #444;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity .15s;
+  border-radius: 4px;
+  padding: 2px 4px;
 }
+.legend-item:hover { opacity: 0.7; }
+.legend-item.inactive { opacity: 0.2; }
+.conf-hidden { display: none !important; }
 .legend-dot {
   width: 10px;
   height: 10px;
@@ -1409,6 +1418,28 @@ JS = """
 const LS_KEY = 'spie_as26_bookmarks';
 let bookmarks = new Set(JSON.parse(localStorage.getItem(LS_KEY) || '[]'));
 let myScheduleActive = false;
+let confFilters = new Set();
+
+function toggleConfFilter(conf) {
+  if (confFilters.has(conf)) {
+    confFilters.delete(conf);
+  } else {
+    confFilters.add(conf);
+  }
+  document.querySelectorAll('.legend-item[data-conf]').forEach(item => {
+    item.classList.toggle('inactive',
+      confFilters.size > 0 && !confFilters.has(item.dataset.conf));
+  });
+  applyConfFilter();
+  applySearch();
+}
+
+function applyConfFilter() {
+  document.querySelectorAll('.talk, .talk-list-item, .poster-item').forEach(el => {
+    el.classList.toggle('conf-hidden',
+      confFilters.size > 0 && !confFilters.has(el.dataset.conf));
+  });
+}
 
 function saveBookmarks() {
   localStorage.setItem(LS_KEY, JSON.stringify([...bookmarks]));
@@ -1458,6 +1489,7 @@ function toggleMySchedule() {
     document.querySelectorAll('.talk').forEach(t => t.classList.remove('dim', 'match'));
     document.getElementById('match-count').textContent = '';
   }
+  applyConfFilter();
   applySearch();
   applyPosterSearch();
 }
@@ -1482,7 +1514,7 @@ function applySearch() {
         const scheduleOk = !myScheduleActive || t.classList.contains('bookmarked');
         const visible = searchOk && scheduleOk;
         t.style.display = visible ? '' : 'none';
-        if (visible && q) n++;
+        if (visible && q && !t.classList.contains('conf-hidden')) n++;
       });
     }
     document.getElementById('match-count').textContent =
@@ -1499,6 +1531,7 @@ function applySearch() {
   const panel = document.querySelector('.day-panel[style*="block"]');
   if (!panel) return;
   panel.querySelectorAll('.talk').forEach(t => {
+    if (t.classList.contains('conf-hidden')) { t.classList.remove('dim', 'match'); return; }
     const text = t.dataset.search.toLowerCase();
     if (!q) {
       t.classList.remove('dim', 'match');
@@ -1710,12 +1743,12 @@ function applyPosterSearch() {
     const scheduleOk = !myScheduleActive || item.classList.contains('bookmarked');
     if (searchOk && scheduleOk) {
       item.style.display = '';
-      if (q) matchCount++;
+      if (q && !item.classList.contains('conf-hidden')) matchCount++;
     } else {
       item.style.display = 'none';
     }
-    total++;
-    if (item.classList.contains('bookmarked')) starred++;
+    if (!item.classList.contains('conf-hidden')) total++;
+    if (item.classList.contains('bookmarked') && !item.classList.contains('conf-hidden')) starred++;
   });
   document.getElementById('match-count').textContent =
     q ? matchCount + ' match' + (matchCount !== 1 ? 'es' : '') : '';
@@ -2185,7 +2218,7 @@ def render_talk_list_page(days: list[dict]) -> str:
 
 def build_html(days: list[dict], poster_days: list[dict]) -> str:
     legend = "".join(
-        f'<span class="legend-item">'
+        f'<span class="legend-item" data-conf="{e(c)}" onclick="toggleConfFilter(\'{e(c)}\')">'
         f'<span class="legend-dot" style="background:{CONF_COLOR.get(c, "#999")}"></span>'
         f"{e(CONF_SHORT.get(c, c))}</span>"
         for c in sorted(CONF_SHORT)
