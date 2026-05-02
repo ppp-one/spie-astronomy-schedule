@@ -203,6 +203,7 @@ def load_records() -> list[dict]:
                         "abstract": item.get("Abstract") or "",
                         "paper": pn,
                         "author": item.get("Authors", "").split(",")[0].strip(),
+                        "authors": item.get("Authors", "").strip(),
                         "url": item.get("URL") or "",
                     }
                 )
@@ -228,6 +229,7 @@ def load_records() -> list[dict]:
                         "abstract": item.get("Description") or "",
                         "paper": "",
                         "author": "",
+                        "authors": "",
                         "url": item.get("URL") or "",
                     }
                 )
@@ -290,6 +292,7 @@ def _modal_data(talk: dict, href: str, short: str, color: str) -> str:
         f'data-title="{e(talk["title"])}" '
         f'data-paper="{e(talk["paper"])}" '
         f'data-author="{e(talk["author"])}" '
+        f'data-authors="{e(talk.get("authors", talk["author"]))}" '
         f'data-abstract="{e(talk["abstract"] or "")}" '
         f'data-url="{e(href)}" '
         f'data-conf="{e(talk["conf"])}" '
@@ -1187,6 +1190,7 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 .talk-list-item:last-child { border-bottom: none; }
 .talk-list-item:hover { background: #fafafa; }
 .talk-list-item.bookmarked { box-shadow: inset 3px 0 0 #f5a623; }
+.talk-list-item.bookmarked .star-btn { color: #f5a623; }
 .talk-list-time {
   font-size: 11px;
   color: #666;
@@ -1592,10 +1596,12 @@ function openShareModal() {
   document.getElementById('import-code').value = '';
   document.getElementById('share-notice').textContent = '';
   document.getElementById('share-modal').classList.add('open');
+  document.body.style.overflow = 'hidden';
 }
 
 function closeShareModal() {
   document.getElementById('share-modal').classList.remove('open');
+  document.body.style.overflow = '';
 }
 
 function copyExport() {
@@ -1984,28 +1990,58 @@ document.addEventListener('keydown', ev => {
 });
 
 // ── Talk detail modal ──
+let talkModalId = null;
+
 function openTalkModal(el) {
   const card = el.closest('[data-id]');
   const d = card.dataset;
+  talkModalId = d.id;
   document.getElementById('talk-modal-conf').textContent = d.short || '';
   document.getElementById('talk-modal-conf').style.color = d.color || '#999';
   document.getElementById('talk-modal-title').textContent = d.title || '';
   const meta = [];
   if (d.paper) meta.push('[' + d.paper + ']');
-  if (d.author) meta.push(d.author);
   if (d.time) meta.push(d.time);
   if (d.room && d.room !== 'Room TBC') meta.push(d.room);
   document.getElementById('talk-modal-meta').textContent = meta.join(' · ');
+  document.getElementById('talk-modal-authors').textContent = d.authors || d.author || '';
   document.getElementById('talk-modal-abstract').textContent =
     d.abstract || 'No abstract available.';
   const ext = document.getElementById('talk-modal-ext');
   ext.href = d.url || '#';
   ext.style.display = d.url ? '' : 'none';
+  updateModalBookmarkBtn();
   document.getElementById('talk-modal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function updateModalBookmarkBtn() {
+  const btn = document.getElementById('talk-modal-star');
+  if (!btn || !talkModalId) return;
+  const saved = bookmarks.has(talkModalId);
+  btn.innerHTML = saved ? '&#9733; Saved' : '&#9734; Save to schedule';
+  btn.style.color = saved ? '#f5a623' : '';
+  btn.style.borderColor = saved ? '#f5a623' : '#ccc';
+}
+
+function toggleModalBookmark() {
+  if (!talkModalId) return;
+  const wasBookmarked = bookmarks.has(talkModalId);
+  if (wasBookmarked) { bookmarks.delete(talkModalId); } else { bookmarks.add(talkModalId); }
+  document.querySelectorAll('[data-id="' + CSS.escape(talkModalId) + '"]').forEach(el => {
+    el.classList.toggle('bookmarked', !wasBookmarked);
+    const star = el.querySelector('.star-btn, .poster-star-btn');
+    if (star) star.textContent = wasBookmarked ? '☆' : '★';
+  });
+  saveBookmarks();
+  updateBookmarkCount();
+  updateModalBookmarkBtn();
 }
 
 function closeTalkModal() {
   document.getElementById('talk-modal').classList.remove('open');
+  document.body.style.overflow = '';
+  talkModalId = null;
 }
 
 document.getElementById('talk-modal').addEventListener('click', ev => {
@@ -2327,9 +2363,16 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
     <button class="modal-close" onclick="closeTalkModal()">&#10005;</button>
     <span id="talk-modal-conf"></span>
     <h2 id="talk-modal-title"></h2>
-    <p id="talk-modal-meta"></p>
+    <p id="talk-modal-meta" style="margin:0 0 4px"></p>
+    <p id="talk-modal-authors" style="font-size:12px;color:#555;margin:0 0 14px;line-height:1.5"></p>
     <p id="talk-modal-abstract"></p>
-    <a id="talk-modal-ext" href="#" target="_blank" rel="noopener">Open on SPIE &#8599;</a>
+    <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+      <button id="talk-modal-star" onclick="toggleModalBookmark()"
+        style="background:none;border:1px solid #ccc;border-radius:4px;padding:5px 12px;cursor:pointer;font-size:13px;display:flex;align-items:center;gap:5px">
+        &#9734; Save to schedule
+      </button>
+      <a id="talk-modal-ext" href="#" target="_blank" rel="noopener">Open on SPIE &#8599;</a>
+    </div>
   </div>
 </div>
 
