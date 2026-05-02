@@ -1191,6 +1191,19 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 .talk-list-item:hover { background: #fafafa; }
 .talk-list-item.bookmarked { box-shadow: inset 3px 0 0 #f5a623; }
 .talk-list-item.bookmarked .star-btn { color: #f5a623; }
+.talk-list-item.skipped { opacity: 0.35; }
+.talk-list-item.skipped .talk-skip-btn { color: #e15759; }
+.talk-skip-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #bbb;
+  padding: 0 2px;
+  flex-shrink: 0;
+  transition: color .15s;
+}
+.talk-skip-btn:hover { color: #e15759; }
 .talk-list-time {
   font-size: 11px;
   color: #666;
@@ -1766,6 +1779,39 @@ function applyPosterSearch() {
   if (countEl) countEl.textContent = starred ? starred + ' ★ / ' + total : total + ' posters';
 }
 
+function toggleTalkSkip(btn) {
+  const item = btn.closest('.talk-list-item');
+  const id = item.dataset.id;
+  if (skipped.has(id)) {
+    skipped.delete(id);
+    item.classList.remove('skipped');
+    btn.textContent = '✕';
+  } else {
+    skipped.add(id);
+    item.classList.add('skipped');
+    btn.textContent = '↩';
+    if (bookmarks.has(id)) {
+      bookmarks.delete(id);
+      item.classList.remove('bookmarked');
+      const star = item.querySelector('.star-btn');
+      if (star) star.textContent = '☆';
+      saveBookmarks();
+    }
+  }
+  saveSkipped();
+}
+
+function restoreTalkListSkipped() {
+  document.querySelectorAll('.talk-list-item').forEach(item => {
+    if (skipped.has(item.dataset.id)) {
+      item.classList.add('skipped');
+      const btn = item.querySelector('.talk-skip-btn');
+      if (btn) btn.textContent = '↩';
+    }
+  });
+}
+restoreTalkListSkipped();
+
 function restorePosterStates() {
   document.querySelectorAll('.poster-item').forEach(item => {
     const id = item.dataset.id;
@@ -2011,7 +2057,7 @@ function buildTalkSwipeQueue() {
       seen.add(el.dataset.id);
       if (talkSwipeFilterDay !== 'all' && el.dataset.day !== talkSwipeFilterDay) return false;
       if (talkSwipeFilterConf !== 'all' && el.dataset.conf !== talkSwipeFilterConf) return false;
-      return !bookmarks.has(el.dataset.id);
+      return !bookmarks.has(el.dataset.id) && !skipped.has(el.dataset.id);
     })
     .map(el => ({
       id: el.dataset.id,
@@ -2091,6 +2137,14 @@ function applyTalkSwipeAction(action) {
       const star = el.querySelector('.star-btn, .poster-star-btn');
       if (star) star.textContent = '★';
     });
+  } else {
+    skipped.add(talk.id);
+    saveSkipped();
+    document.querySelectorAll('.talk-list-item[data-id="' + CSS.escape(talk.id) + '"]').forEach(el => {
+      el.classList.add('skipped');
+      const btn = el.querySelector('.talk-skip-btn');
+      if (btn) btn.textContent = '↩';
+    });
   }
 
   talkSwipeIdx++;
@@ -2107,6 +2161,14 @@ function undoTalkSwipe() {
       el.classList.remove('bookmarked');
       const star = el.querySelector('.star-btn, .poster-star-btn');
       if (star) star.textContent = '☆';
+    });
+  } else {
+    skipped.delete(talk.id);
+    saveSkipped();
+    document.querySelectorAll('.talk-list-item[data-id="' + CSS.escape(talk.id) + '"]').forEach(el => {
+      el.classList.remove('skipped');
+      const btn = el.querySelector('.talk-skip-btn');
+      if (btn) btn.textContent = '✕';
     });
   }
   talkSwipeIdx--;
@@ -2471,6 +2533,7 @@ def render_talk_list_page(days: list[dict]) -> str:
                 f'<div class="talk-list-title">{title_html}</div>'
                 f'{"<div class=\"talk-list-meta\">" + meta + "</div>" if meta else ""}'
                 f"</div>"
+                f'<button class="talk-skip-btn" onclick="toggleTalkSkip(this)" title="Not interested">&#10005;</button>'
                 f'<button class="star-btn" onclick="toggleBookmark(this)" '
                 f'title="Save to My Schedule">&#9734;</button>'
                 f"</div>"
