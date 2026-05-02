@@ -72,6 +72,27 @@ CONF_COLOR = {
     "PLENARY": "#9467bd",
 }
 
+TINDER_SVG = (
+    '<svg width="13" height="13" viewBox="0 0 512 512"'
+    ' style="vertical-align:-1px;margin-right:4px"'
+    ' xmlns="http://www.w3.org/2000/svg">'
+    '<path fill="#FF6647" d="M379.663,107.423C341.154,55.603,296.385,23.775,274.87,8.48'
+    "c-2.876-2.045-5.711-4.149-8.592-6.184c-2.314-1.635-4.832-2.737-7.712-2.124"
+    "c-4.877,1.038-8,6.313-6.511,11.081c21.208,67.867,8.505,133.558-40.027,205.744"
+    "c-13.849-28.726-21.115-55.53-21.115-78.159c0-5.216-4.78-9.347-9.945-8.585"
+    "c-2.525,0.373-4.193,1.883-6.052,3.47c-2.149,1.833-4.363,3.591-6.564,5.361"
+    "c-29.431,23.681-107.611,86.582-107.611,190.674c0,48.29,20.572,94.126,57.925,129.065"
+    "c36.128,33.794,84.603,53.177,132.995,53.177c63.426,0,115.435-18.456,150.406-53.373"
+    'c32.182-32.13,49.192-76.692,49.192-128.869C451.259,246.159,427.17,171.355,379.663,107.423z"/>'
+    '<path fill="#E35336" d="M153.378,458.824c-37.354-34.941-57.925-80.777-57.925-129.065'
+    "c0-92.296,61.46-152.202,95.907-181.104c-0.286-3.348-0.447-6.627-0.447-9.816"
+    "c0-5.216-4.78-9.349-9.945-8.585c-2.525,0.373-4.193,1.883-6.053,3.47"
+    "c-2.149,1.833-4.363,3.591-6.564,5.361C138.92,162.765,60.74,225.667,60.74,329.758"
+    "c0,48.29,20.572,94.126,57.925,129.065C154.794,492.618,203.268,512,251.661,512"
+    'c6.702,0,13.268-0.219,19.708-0.628C228.085,507.824,185.769,489.122,153.378,458.824z"/>'
+    "</svg>"
+)
+
 MONTH_MAP = {
     m: i
     for i, m in enumerate(
@@ -440,7 +461,7 @@ def render_agenda_day(day: dict) -> str:
             f'<div class="agenda-event-col">'
             f'<span class="agenda-conf" style="color:{color}">{e(short)}</span>'
             f'<div class="agenda-title">{title_html}</div>'
-            f"{'<div class=\"agenda-meta\">' + meta_html + '</div>' if meta_html else ''}"
+            f"{'<div class="agenda-meta">' + meta_html + '</div>' if meta_html else ''}"
             f"</div>"
             f'<button class="star-btn" onclick="toggleBookmark(this)" '
             f'title="Save to My Schedule" style="{star_color}">&#9734;</button>'
@@ -1075,6 +1096,12 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 }
 .view-btn:hover { color: #d0d8ff; }
 .view-btn.active { color: #fff; border-bottom-color: #7eb8f7; }
+.view-nav-divider {
+  width: 1px;
+  background: #2c2c4e;
+  margin: 6px 4px;
+  align-self: stretch;
+}
 /* ── Page containers ── */
 .page { display: none; }
 .page.active { display: block; }
@@ -1675,10 +1702,10 @@ function switchView(view) {
   if (view === 'swipe') initSwipe();
   if (view === 'talkswipe') initTalkSwipe();
   const placeholders = {
-    schedule:   'Search talks: title, author, paper…',
-    talklist:   'Search talks: title, author, paper…',
+    schedule:   'Search talks: title, author, abstract…',
+    talklist:   'Search talks: title, author, abstract…',
     talkswipe:  '',
-    posters:    'Search posters: title, author, paper…',
+    posters:    'Search posters: title, author, abstract…',
     swipe:      '',
   };
   document.getElementById('search').placeholder = placeholders[view] || 'Search…';
@@ -2334,7 +2361,7 @@ def render_poster_page(poster_days: list[dict]) -> str:
                 )
                 item = (
                     f'<div class="poster-item" data-id="{card_id}" data-search="{search_text}" '
-                    f'{_modal_data(t, href, short, color)}>'
+                    f"{_modal_data(t, href, short, color)}>"
                     f'<div class="poster-item-body">'
                     f'<div class="poster-item-title">{title_html}</div>'
                     f'<div class="poster-item-meta">'
@@ -2363,7 +2390,6 @@ def render_poster_page(poster_days: list[dict]) -> str:
         f"{e(d['label'])}</button>"
         for d in poster_days
     )
-
 
     all_panel = (
         '<div class="poster-day-panel active" id="poster-day-all">'
@@ -2501,7 +2527,9 @@ def render_talk_list_page(days: list[dict]) -> str:
         all_talks: list[dict] = []
         for talks in d["rooms_map"].values():
             all_talks.extend(talks)
-        all_talks.sort(key=lambda t: (to_minutes(t["time_sort"]), t["room"], t["title"]))
+        all_talks.sort(
+            key=lambda t: (to_minutes(t["time_sort"]), t["room"], t["title"])
+        )
 
         items: list[str] = []
         for talk in all_talks:
@@ -2511,27 +2539,25 @@ def render_talk_list_page(days: list[dict]) -> str:
                 f"{talk['title']} {talk['paper']} {talk['author']} {talk['abstract']}"
             )
             href = f"https://spie.org{talk['url']}" if talk.get("url") else ""
-            card_id = e(
-                talk["paper"] if talk["paper"] else f"PLENARY-{talk['title']}"
-            )
+            card_id = e(talk["paper"] if talk["paper"] else f"PLENARY-{talk['title']}")
             start_min = to_minutes(talk["time_sort"])
             time_str = f"{start_min // 60:02d}:{start_min % 60:02d}"
             end_str = slot_end(talk["time_slot"])
             time_label = f"{time_str}–{end_str}" if end_str else time_str
             title_html = f'<span class="talk-link" onclick="openTalkModal(this)">{e(talk["title"])}</span>'
             meta = (
-                f'[{e(talk["paper"])}] {e(talk["author"])}'
+                f"[{e(talk['paper'])}] {e(talk['author'])}"
                 if talk["conf"] != "PLENARY"
                 else ""
             )
             item = (
                 f'<div class="talk-list-item" data-search="{search_str}" data-id="{card_id}" '
-                f'{_modal_data(talk, href, short, color)}>'
+                f"{_modal_data(talk, href, short, color)}>"
                 f'<div class="talk-list-time">{time_label}<br>{e(talk["room"])}</div>'
                 f'<div class="talk-list-body">'
                 f'<span class="talk-list-conf" style="color:{color}">{e(short)}</span>'
                 f'<div class="talk-list-title">{title_html}</div>'
-                f'{"<div class=\"talk-list-meta\">" + meta + "</div>" if meta else ""}'
+                f"{'<div class="talk-list-meta">' + meta + '</div>' if meta else ''}"
                 f"</div>"
                 f'<button class="talk-skip-btn" onclick="toggleTalkSkip(this)" title="Not interested">&#10005;</button>'
                 f'<button class="star-btn" onclick="toggleBookmark(this)" '
@@ -2550,7 +2576,7 @@ def render_talk_list_page(days: list[dict]) -> str:
     )
     tabs += "".join(
         f'<button class="tab-btn" data-day="{d["date_iso"]}" '
-        f'onclick="switchTalkListDay(\'{d["date_iso"]}\')" '
+        f"onclick=\"switchTalkListDay('{d['date_iso']}')\" "
         f'style="font-size:12px;padding:5px 14px">{e(d["label"])}</button>'
         for d in days
     )
@@ -2582,9 +2608,10 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
         '<nav class="view-nav">'
         '<button class="view-btn active" data-view="schedule" onclick="switchView(\'schedule\')">Talk Schedule</button>'
         '<button class="view-btn" data-view="talklist" onclick="switchView(\'talklist\')">Talk List</button>'
-        '<button class="view-btn" data-view="talkswipe" onclick="switchView(\'talkswipe\')">&#127183; Talk Swipe</button>'
+        f'<button class="view-btn" data-view="talkswipe" onclick="switchView(\'talkswipe\')">{TINDER_SVG}Talk Swipe</button>'
+        '<span class="view-nav-divider"></span>'
         '<button class="view-btn" data-view="posters" onclick="switchView(\'posters\')">Poster List</button>'
-        '<button class="view-btn" data-view="swipe" onclick="switchView(\'swipe\')">&#127183; Poster Swipe</button>'
+        f'<button class="view-btn" data-view="swipe" onclick="switchView(\'swipe\')">{TINDER_SVG}Poster Swipe</button>'
         "</nav>"
     )
 
