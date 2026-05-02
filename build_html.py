@@ -1842,9 +1842,9 @@ function updateSwipeArena() {
     arena.innerHTML = '<div class="swipe-done"><strong>All done!</strong><br>Every poster in this filter has been reviewed.<br>Use the filters above or Reset to start again.</div>';
     return;
   }
-  // render up to 3 cards (back to front)
+  // render up to 3 cards (front to back — querySelector returns front card first)
   const preview = Math.min(3, remaining);
-  for (let i = preview - 1; i >= 0; i--) {
+  for (let i = 0; i < preview; i++) {
     arena.innerHTML += renderSwipeCard(swipeQueue[swipeIdx + i], i);
   }
   attachDragToTop();
