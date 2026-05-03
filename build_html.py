@@ -97,9 +97,9 @@ UNDO_SVG = (
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"'
     ' width="22" height="22" style="display:block">'
     '<path fill-rule="evenodd" d="M9.53 2.47a.75.75 0 0 1 0 1.06L4.81 8.25H15a6.75 6.75 0 0 1 0'
-    ' 13.5h-3a.75.75 0 0 1 0-1.5h3a5.25 5.25 0 1 0 0-10.5H4.81l4.72 4.72a.75.75 0 1 1-1.06'
+    " 13.5h-3a.75.75 0 0 1 0-1.5h3a5.25 5.25 0 1 0 0-10.5H4.81l4.72 4.72a.75.75 0 1 1-1.06"
     ' 1.06l-6-6a.75.75 0 0 1 0-1.06l6-6a.75.75 0 0 1 1.06 0Z" clip-rule="evenodd"/>'
-    '</svg>'
+    "</svg>"
 )
 
 MONTH_MAP = {
@@ -2713,7 +2713,11 @@ def render_talk_list_page(days: list[dict]) -> str:
         for d in days
     )
 
-    return f'<div class="tabs">{tabs}</div><span id="talklist-star-count"></span>' + all_panel + day_panels
+    return (
+        f'<div class="tabs">{tabs}</div><span id="talklist-star-count"></span>'
+        + all_panel
+        + day_panels
+    )
 
 
 def build_html(days: list[dict], poster_days: list[dict]) -> str:
@@ -2730,7 +2734,7 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
         '<button class="view-nav-toggle" onclick="toggleViewMenu()">'
         '<span id="view-current-label">Talk Schedule</span>'
         '<span class="view-nav-arrow">&#9660;</span>'
-        '</button>'
+        "</button>"
         '<button class="view-btn active" data-view="schedule" onclick="switchView(\'schedule\')">Talk Schedule</button>'
         '<button class="view-btn" data-view="talklist" onclick="switchView(\'talklist\')">Talk List</button>'
         f'<button class="view-btn" data-view="talkswipe" onclick="switchView(\'talkswipe\')">{TINDER_SVG}Talk Swipe</button>'
@@ -2820,15 +2824,15 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
 <div class="modal-backdrop" id="share-modal">
   <div class="modal">
     <h2>&#8645; Export / Import</h2>
-    <p>Copy the list below and paste it on another device to transfer your saved and skipped talks.</p>
-    <label style="font-size:11px;font-weight:600;color:#555">Your code</label>
+    <p>Copy the lists below and paste it on another device to transfer your saved and skipped talks.</p>
+    <label style="font-size:11px;font-weight:600;color:#555">Your lists</label>
     <textarea id="export-code" readonly placeholder="(no bookmarks saved yet)"></textarea>
     <div class="modal-row">
       <button class="modal-btn primary" onclick="copyExport()">Copy to clipboard</button>
       <button class="modal-btn danger" onclick="clearAllBookmarks()">Clear all</button>
       <button class="modal-btn secondary" onclick="closeShareModal()">Close</button>
     </div>
-    <p style="margin-top:16px;margin-bottom:4px">Paste a list from another device:</p>
+    <p style="margin-top:16px;margin-bottom:4px">Paste lists from another device:</p>
     <textarea id="import-code" placeholder="Paste list here…"></textarea>
     <div class="modal-row">
       <button class="modal-btn primary" onclick="importBookmarks()">Import</button>
