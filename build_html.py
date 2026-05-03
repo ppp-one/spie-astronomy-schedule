@@ -72,6 +72,8 @@ CONF_COLOR = {
     "PLENARY": "#9467bd",
 }
 
+SYNC_API_URL = "https://spie-sync.peterpihlmannpedersen-cloudflare.workers.dev"  # e.g. "https://spie-sync.yourname.workers.dev"
+
 TINDER_SVG = (
     '<svg width="13" height="13" viewBox="0 0 512 512"'
     ' style="vertical-align:-1px;margin-right:4px"'
@@ -97,9 +99,9 @@ UNDO_SVG = (
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"'
     ' width="22" height="22" style="display:block">'
     '<path fill-rule="evenodd" d="M9.53 2.47a.75.75 0 0 1 0 1.06L4.81 8.25H15a6.75 6.75 0 0 1 0'
-    ' 13.5h-3a.75.75 0 0 1 0-1.5h3a5.25 5.25 0 1 0 0-10.5H4.81l4.72 4.72a.75.75 0 1 1-1.06'
+    " 13.5h-3a.75.75 0 0 1 0-1.5h3a5.25 5.25 0 1 0 0-10.5H4.81l4.72 4.72a.75.75 0 1 1-1.06"
     ' 1.06l-6-6a.75.75 0 0 1 0-1.06l6-6a.75.75 0 0 1 1.06 0Z" clip-rule="evenodd"/>'
-    '</svg>'
+    "</svg>"
 )
 
 MONTH_MAP = {
@@ -1539,10 +1541,11 @@ function applyConfFilter() {
   });
 }
 
-function saveBookmarks() {
+function saveBookmarks(sync = true) {
   localStorage.setItem(LS_KEY, JSON.stringify([...bookmarks]));
   updateBookmarkCount();
   updateTalkListCount();
+  if (sync) schedulePush();
 }
 
 function updateTalkListCount() {
@@ -1585,10 +1588,9 @@ function toggleBookmark(btn) {
 
 function restoreBookmarks() {
   document.querySelectorAll('.talk, .talk-list-item').forEach(card => {
-    if (bookmarks.has(card.dataset.id)) {
-      card.classList.add('bookmarked');
-      card.querySelector('.star-btn').textContent = '★';
-    }
+    const on = bookmarks.has(card.dataset.id);
+    card.classList.toggle('bookmarked', on);
+    card.querySelector('.star-btn').textContent = on ? '★' : '☆';
   });
 }
 
@@ -1703,6 +1705,9 @@ updateBookmarkCount();
 
 // ── Export / Import ──
 function openShareModal() {
+  updateSyncCodeDisplay();
+  document.getElementById('sync-notice').textContent = '';
+  document.getElementById('link-code-input').value = '';
   const data = { bookmarks: [...bookmarks], skipped: [...skipped] };
   document.getElementById('export-code').value = JSON.stringify(data, null, 2);
   document.getElementById('import-code').value = '';
@@ -1837,8 +1842,9 @@ function switchTalkListDay(iso) {
 const LS_SKIP = 'spie_as26_skipped';
 let skipped = new Set(JSON.parse(localStorage.getItem(LS_SKIP) || '[]'));
 
-function saveSkipped() {
+function saveSkipped(sync = true) {
   localStorage.setItem(LS_SKIP, JSON.stringify([...skipped]));
+  if (sync) schedulePush();
 }
 
 function togglePosterBookmark(btn) {
@@ -1942,11 +1948,10 @@ function toggleTalkSkip(btn) {
 
 function restoreTalkListSkipped() {
   document.querySelectorAll('.talk-list-item').forEach(item => {
-    if (skipped.has(item.dataset.id)) {
-      item.classList.add('skipped');
-      const btn = item.querySelector('.talk-skip-btn');
-      if (btn) btn.innerHTML = UNDO_ICON;
-    }
+    const on = skipped.has(item.dataset.id);
+    item.classList.toggle('skipped', on);
+    const btn = item.querySelector('.talk-skip-btn');
+    if (btn) btn.innerHTML = on ? UNDO_ICON : '&#10005;';
   });
 }
 restoreTalkListSkipped();
@@ -1954,14 +1959,12 @@ restoreTalkListSkipped();
 function restorePosterStates() {
   document.querySelectorAll('.poster-item').forEach(item => {
     const id = item.dataset.id;
-    if (bookmarks.has(id)) {
-      item.classList.add('bookmarked');
-      item.querySelector('.poster-star-btn').textContent = '★';
-    }
-    if (skipped.has(id)) {
-      item.classList.add('skipped');
-      item.querySelector('.poster-skip-btn').innerHTML = UNDO_ICON;
-    }
+    const starred = bookmarks.has(id);
+    const skip    = skipped.has(id);
+    item.classList.toggle('bookmarked', starred);
+    item.querySelector('.poster-star-btn').textContent = starred ? '★' : '☆';
+    item.classList.toggle('skipped', skip);
+    item.querySelector('.poster-skip-btn').innerHTML = skip ? UNDO_ICON : '&#10005;';
   });
 }
 restorePosterStates();
@@ -2393,6 +2396,168 @@ document.addEventListener('keydown', ev => {
   else if (ev.key === 'ArrowDown' || ev.key === 'j') applyTalkSwipeAction('skip');
 });
 
+// ── Sync ──
+const LS_SYNC_CODE = 'spie_as26_sync_code';
+let syncCode = localStorage.getItem(LS_SYNC_CODE);
+if (!syncCode) {
+  const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+  const raw = Array.from({length: 12}, () => chars[Math.floor(Math.random() * chars.length)]).join('');
+  syncCode = raw.slice(0,4) + '-' + raw.slice(4,8) + '-' + raw.slice(8,12);
+  localStorage.setItem(LS_SYNC_CODE, syncCode);
+}
+let syncTimer = null;
+let syncReady = false;
+let lastPushTime = 0;
+
+function setSyncStatus(status) {
+  const icons  = {syncing:'↻', synced:'✓', error:'✕', idle:''};
+  const colors = {syncing:'#7eb8f7', synced:'#3aaa8c', error:'#e15759', idle:'#888'};
+  const titles = {syncing:'Syncing…', synced:'Synced', error:'Sync failed — check connection', idle:''};
+  ['sync-status', 'sync-status-modal'].forEach(id => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.textContent = icons[status] ?? '';
+    el.style.color  = colors[status] ?? '';
+    el.title = titles[status] ?? '';
+  });
+}
+
+async function pushSync() {
+  if (!SYNC_API) return;
+  setSyncStatus('syncing');
+  try {
+    const res = await fetch(SYNC_API + '/sync/' + syncCode.replace(/-/g,''), {
+      method: 'PUT',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({bookmarks:[...bookmarks], skipped:[...skipped]}),
+    });
+    if (!res.ok) throw new Error();
+    lastPushTime = Date.now();
+    setSyncStatus('synced');
+  } catch { setSyncStatus('error'); }
+}
+
+function schedulePush() {
+  if (!syncReady || !SYNC_API) return;
+  setSyncStatus('syncing');
+  clearTimeout(syncTimer);
+  syncTimer = setTimeout(pushSync, 1500);
+}
+
+async function pullAndMerge(code) {
+  const res = await fetch(SYNC_API + '/sync/' + code.replace(/-/g,''));
+  if (!res.ok) throw new Error('HTTP ' + res.status);
+  const remote = await res.json();
+  (remote.bookmarks || []).forEach(id => bookmarks.add(id));
+  (remote.skipped   || []).forEach(id => skipped.add(id));
+}
+
+function updateSyncCodeDisplay() {
+  const el = document.getElementById('sync-code-display');
+  if (el) el.textContent = syncCode;
+}
+
+async function initSync() {
+  if (!SYNC_API) { syncReady = true; updateSyncCodeDisplay(); return; }
+  // Auto-link from ?sync=CODE URL parameter (shared link)
+  const urlParam = new URLSearchParams(window.location.search).get('sync');
+  if (urlParam) {
+    const raw = urlParam.toUpperCase().replace(/-/g, '');
+    if (/^[A-Z0-9]{12}$/.test(raw)) {
+      const formatted = raw.slice(0,4) + '-' + raw.slice(4,8) + '-' + raw.slice(8,12);
+      if (formatted !== syncCode) {
+        syncCode = formatted;
+        localStorage.setItem(LS_SYNC_CODE, syncCode);
+      }
+    }
+    const clean = new URL(window.location);
+    clean.searchParams.delete('sync');
+    window.history.replaceState({}, '', clean);
+  }
+  updateSyncCodeDisplay();
+  try {
+    setSyncStatus('syncing');
+    await pullAndMerge(syncCode);  // union-merge to preserve any offline local data
+    saveBookmarks(false);
+    saveSkipped(false);
+    await pushSync();              // push merged state so lastPushTime is set correctly
+    restoreBookmarks();
+    restorePosterStates();
+    restoreTalkListSkipped();
+  } catch { setSyncStatus('idle'); }
+  syncReady = true;
+  startSyncPoll();
+}
+initSync();
+
+async function bgPull() {
+  if (!syncReady || !SYNC_API) return;
+  try {
+    const res = await fetch(SYNC_API + '/sync/' + syncCode.replace(/-/g,''));
+    if (!res.ok) return;
+    const remote = await res.json();
+    if (!remote.updated_at || remote.updated_at <= lastPushTime) return;
+    // Remote is newer than our last push — replace local state entirely
+    bookmarks = new Set(remote.bookmarks || []);
+    skipped   = new Set(remote.skipped   || []);
+    saveBookmarks(false);
+    saveSkipped(false);
+    restoreBookmarks();
+    restorePosterStates();
+    restoreTalkListSkipped();
+  } catch {}
+}
+
+function startSyncPoll() {
+  if (!SYNC_API) return;
+  setInterval(bgPull, 30000);
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') bgPull();
+  });
+}
+
+function copySyncCode() {
+  navigator.clipboard.writeText(syncCode).then(() => {
+    document.getElementById('sync-notice').textContent = 'Code copied!';
+  });
+}
+
+function copySyncLink() {
+  const url = new URL(window.location.href);
+  url.searchParams.set('sync', syncCode);
+  navigator.clipboard.writeText(url.toString()).then(() => {
+    document.getElementById('sync-notice').textContent = 'Link copied — open it on another device to sync!';
+  });
+}
+
+async function linkDevice() {
+  const raw = document.getElementById('link-code-input').value.trim().toUpperCase().replace(/-/g,'');
+  if (!/^[A-Z0-9]{12}$/.test(raw)) {
+    document.getElementById('sync-notice').textContent = 'Invalid code — should be XXXX-XXXX-XXXX.';
+    return;
+  }
+  const formatted = raw.slice(0,4) + '-' + raw.slice(4,8) + '-' + raw.slice(8,12);
+  document.getElementById('sync-notice').textContent = 'Linking…';
+  try {
+    setSyncStatus('syncing');
+    await pullAndMerge(formatted);
+    syncCode = formatted;
+    localStorage.setItem(LS_SYNC_CODE, syncCode);
+    updateSyncCodeDisplay();
+    saveBookmarks(false);
+    saveSkipped(false);
+    restoreBookmarks();
+    restorePosterStates();
+    restoreTalkListSkipped();
+    await pushSync();
+    document.getElementById('sync-notice').textContent = 'Linked! Both devices now share this code.';
+    document.getElementById('link-code-input').value = '';
+  } catch {
+    document.getElementById('sync-notice').textContent = 'Could not reach the server — try again.';
+    setSyncStatus('error');
+  }
+}
+
 // ── Talk detail modal ──
 let talkModalId = null;
 
@@ -2713,7 +2878,11 @@ def render_talk_list_page(days: list[dict]) -> str:
         for d in days
     )
 
-    return f'<div class="tabs">{tabs}</div><span id="talklist-star-count"></span>' + all_panel + day_panels
+    return (
+        f'<div class="tabs">{tabs}</div><span id="talklist-star-count"></span>'
+        + all_panel
+        + day_panels
+    )
 
 
 def build_html(days: list[dict], poster_days: list[dict]) -> str:
@@ -2730,7 +2899,7 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
         '<button class="view-nav-toggle" onclick="toggleViewMenu()">'
         '<span id="view-current-label">Talk Schedule</span>'
         '<span class="view-nav-arrow">&#9660;</span>'
-        '</button>'
+        "</button>"
         '<button class="view-btn active" data-view="schedule" onclick="switchView(\'schedule\')">Talk Schedule</button>'
         '<button class="view-btn" data-view="talklist" onclick="switchView(\'talklist\')">Talk List</button>'
         f'<button class="view-btn" data-view="talkswipe" onclick="switchView(\'talkswipe\')">{TINDER_SVG}Talk Swipe</button>'
@@ -2753,6 +2922,8 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
         f"{render_calendar_day(d)}</div>"
         for i, d in enumerate(days)
     )
+
+    full_js = f"const SYNC_API = {repr(SYNC_API_URL)};\n" + JS
 
     talklist_html = render_talk_list_page(days)
     talkswipe_html = render_talk_swipe_page(days)
@@ -2779,7 +2950,8 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
   </div>
   <button id="my-schedule-btn" onclick="toggleMySchedule()">&#9733; My Schedule</button>
   <span id="bookmark-count"></span>
-  <button id="share-btn" onclick="openShareModal()">&#8645; Export / Import</button>
+  <button id="share-btn" onclick="openShareModal()">&#8645; Sync &amp; Backup</button>
+  <span id="sync-status" style="font-size:13px;min-width:16px;text-align:center;cursor:default;transition:color .3s" title=""></span>
   <span id="match-count"></span>
   <a href="https://github.com/ppp-one/spie-astronomy-schedule" target="_blank" rel="noopener" class="github-link" title="View on GitHub" style="margin-left:auto;color:#7eb8f7;display:flex;align-items:center;text-decoration:none;">
     <svg height="20" width="20" viewBox="0 0 16 16" aria-hidden="true" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
@@ -2819,19 +2991,40 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
 
 <div class="modal-backdrop" id="share-modal">
   <div class="modal">
-    <h2>&#8645; Export / Import</h2>
-    <p>Copy the list below and paste it on another device to transfer your saved and skipped talks.</p>
-    <label style="font-size:11px;font-weight:600;color:#555">Your code</label>
+    <h2>&#8645; Sync &amp; Backup</h2>
+
+    <p style="font-size:11px;font-weight:700;color:#888;letter-spacing:.05em;margin:0 0 6px">CROSS-DEVICE SYNC</p>
+    <p style="font-size:12px;color:#555;margin:0 0 8px;line-height:1.5">Share this link with another device — opening it will instantly sync your bookmarks and skipped items:</p>
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
+      <code id="sync-code-display" style="font-size:20px;font-weight:700;letter-spacing:.12em;color:#1a1a2e;background:#f0f2f5;padding:7px 14px;border-radius:6px;flex:1;text-align:center">····-····-····</code>
+      <span id="sync-status-modal" style="font-size:14px;min-width:18px;text-align:center"></span>
+    </div>
+    <div style="display:flex;gap:8px;margin-bottom:12px">
+      <button class="modal-btn primary" onclick="copySyncLink()">Copy Link</button>
+      <button class="modal-btn secondary" onclick="copySyncCode()">Copy Code</button>
+    </div>
+    <p style="font-size:12px;color:#555;margin:0 0 6px">Or link by entering another device's code manually:</p>
+    <div style="display:flex;gap:8px;margin-bottom:4px">
+      <input id="link-code-input" placeholder="XXXX-XXXX-XXXX" maxlength="14"
+        style="flex:1;padding:6px 10px;border:1px solid #ccc;border-radius:4px;font-size:14px;font-family:monospace;text-transform:uppercase;letter-spacing:.08em">
+      <button class="modal-btn primary" onclick="linkDevice()">Link</button>
+    </div>
+    <div class="modal-notice" id="sync-notice"></div>
+
+    <hr style="margin:16px 0;border:none;border-top:1px solid #eee">
+
+    <p style="font-size:11px;font-weight:700;color:#888;letter-spacing:.05em;margin:0 0 6px">MANUAL BACKUP</p>
+    <p style="font-size:12px;color:#555;margin:0 0 8px;line-height:1.5">Copy as a plain-text backup in case you lose your sync code:</p>
     <textarea id="export-code" readonly placeholder="(no bookmarks saved yet)"></textarea>
     <div class="modal-row">
       <button class="modal-btn primary" onclick="copyExport()">Copy to clipboard</button>
       <button class="modal-btn danger" onclick="clearAllBookmarks()">Clear all</button>
       <button class="modal-btn secondary" onclick="closeShareModal()">Close</button>
     </div>
-    <p style="margin-top:16px;margin-bottom:4px">Paste a list from another device:</p>
-    <textarea id="import-code" placeholder="Paste list here…"></textarea>
+    <p style="margin-top:16px;margin-bottom:4px;font-size:12px;color:#555">Restore from a backup:</p>
+    <textarea id="import-code" placeholder="Paste backup here…"></textarea>
     <div class="modal-row">
-      <button class="modal-btn primary" onclick="importBookmarks()">Import</button>
+      <button class="modal-btn primary" onclick="importBookmarks()">Restore</button>
     </div>
     <div class="modal-notice" id="share-notice"></div>
   </div>
@@ -2855,7 +3048,7 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
   </div>
 </div>
 
-<script>{JS}</script>
+<script>{full_js}</script>
 </body>
 </html>
 """

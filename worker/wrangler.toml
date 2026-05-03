@@ -1,0 +1,7 @@
+name = "spie-sync"
+main = "index.js"
+compatibility_date = "2025-01-01"
+
+[[kv_namespaces]]
+binding = "SYNC_KV"
+id = "7cda539a5a5d4c06bf31d5a7b1426c5c"
