@@ -93,6 +93,15 @@ TINDER_SVG = (
     "</svg>"
 )
 
+UNDO_SVG = (
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"'
+    ' width="22" height="22" style="display:block">'
+    '<path fill-rule="evenodd" d="M9.53 2.47a.75.75 0 0 1 0 1.06L4.81 8.25H15a6.75 6.75 0 0 1 0'
+    ' 13.5h-3a.75.75 0 0 1 0-1.5h3a5.25 5.25 0 1 0 0-10.5H4.81l4.72 4.72a.75.75 0 1 1-1.06'
+    ' 1.06l-6-6a.75.75 0 0 1 0-1.06l6-6a.75.75 0 0 1 1.06 0Z" clip-rule="evenodd"/>'
+    '</svg>'
+)
+
 MONTH_MAP = {
     m: i
     for i, m in enumerate(
@@ -884,18 +893,19 @@ body {
 body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 #my-schedule-btn {
   background: none;
-  border: 1px solid #f5a623;
-  color: #f5a623;
+  border: 1px solid #556;
+  color: #aab;
   border-radius: 4px;
   padding: 4px 10px;
   cursor: pointer;
   font-size: 12px;
   font-weight: 600;
   white-space: nowrap;
-  transition: background .15s;
+  min-width: 120px;
+  transition: background .15s, border-color .15s, color .15s;
 }
-#my-schedule-btn:hover { background: rgba(245,166,35,.15); }
-#my-schedule-btn.active { background: #f5a623; color: #1a1a2e; }
+#my-schedule-btn:hover { border-color: #f5a623; color: #f5a623; }
+#my-schedule-btn.active { background: #f5a623; color: #1a1a2e; border-color: #f5a623; }
 #bookmark-count { font-size: 11px; color: #f5a623; min-width: 60px; }
 #share-btn {
   background: none;
@@ -1107,6 +1117,9 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 }
 .view-btn:hover { color: #d0d8ff; }
 .view-btn.active { color: #fff; border-bottom-color: #7eb8f7; }
+.view-nav-toggle {
+  display: none;
+}
 .view-nav-divider {
   width: 1px;
   background: #2c2c4e;
@@ -1129,7 +1142,7 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   background: #f0f2f5;
   padding: 10px 16px 0;
 }
-#poster-star-count { font-size: 11px; color: #f5a623; padding: 4px 16px 6px; display: block; }
+#poster-star-count, #talklist-star-count { font-size: 11px; color: #f5a623; padding: 4px 16px 6px; display: block; }
 /* ── Poster panels & items ── */
 .poster-day-panel { display: none; padding: 16px; }
 .poster-day-panel.active { display: block; }
@@ -1423,8 +1436,8 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 .swipe-action-btn.skip-btn:hover  { background: rgba(225,87,89,.15); }
 .swipe-action-btn.save-btn  { border-color: #f5a623; color: #f5a623; }
 .swipe-action-btn.save-btn:hover  { background: rgba(245,166,35,.15); }
-.swipe-action-btn.undo-btn  { width: 44px; height: 44px; border-width: 1px; border-style: dashed; border-color: #556; color: #7eb8f7; font-size: 20px; }
-.swipe-action-btn.undo-btn:hover  { border-color: #7eb8f7; background: rgba(126,184,247,.15); }
+.swipe-action-btn.undo-btn  { width: 50px; height: 50px; border-color: #7eb8f7; color: #7eb8f7; }
+.swipe-action-btn.undo-btn:hover  { background: rgba(126,184,247,.15); }
 .swipe-done {
   color: #aab;
   text-align: center;
@@ -1448,8 +1461,27 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   .search-wrap { max-width: unset; flex: 1 1 auto; }
   #search { font-size: 16px; }
   .legend { display: none; }
-  .view-nav { padding: 0 8px; }
-  .view-btn { font-size: 12px; padding: 7px 10px; }
+  .view-nav { padding: 0; flex-wrap: wrap; position: relative; }
+  .view-btn { display: none; font-size: 13px; padding: 11px 20px; width: 100%; text-align: left; border-bottom: none; border-top: 1px solid #2c2c4e; }
+  .view-btn.active { border-bottom: none; border-left: 3px solid #7eb8f7; }
+  .view-nav.open .view-btn { display: block; }
+  .view-nav-divider { display: none; }
+  .view-nav.open .view-nav-divider { display: block; width: 100%; height: 1px; margin: 0; background: #3a3a5e; }
+  .view-nav-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: none;
+    border: none;
+    color: #d0d8ff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 16px;
+    cursor: pointer;
+  }
+  .view-nav-arrow { font-size: 10px; color: #7eb8f7; transition: transform .15s; }
+  .view-nav.open .view-nav-arrow { transform: rotate(180deg); }
   .tabs { padding: 6px 10px 0; gap: 3px; }
   .tab-btn { padding: 7px 12px; font-size: 12px; }
   /* Calendar: hide grid, show agenda */
@@ -1463,13 +1495,15 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   .swipe-card-title { font-size: 14px; }
   .swipe-card-abstract { max-height: 100px; font-size: 12px; }
   .swipe-action-btn { width: 54px; height: 54px; font-size: 22px; }
-  .swipe-action-btn.undo-btn { width: 38px; height: 38px; font-size: 18px; }
+  .swipe-action-btn.undo-btn { width: 44px; height: 44px; font-size: 19px; }
   .swipe-keys { display: none; }
   .swipe-btn-row { gap: 20px; }
 }
 """
 
 JS = """
+const UNDO_ICON = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" style="display:block"><path fill-rule="evenodd" d="M9.53 2.47a.75.75 0 0 1 0 1.06L4.81 8.25H15a6.75 6.75 0 0 1 0 13.5h-3a.75.75 0 0 1 0-1.5h3a5.25 5.25 0 1 0 0-10.5H4.81l4.72 4.72a.75.75 0 1 1-1.06 1.06l-6-6a.75.75 0 0 1 0-1.06l6-6a.75.75 0 0 1 1.06 0Z" clip-rule="evenodd"/></svg>`;
+
 const LS_KEY = 'spie_as26_bookmarks';
 let bookmarks = new Set(JSON.parse(localStorage.getItem(LS_KEY) || '[]'));
 let myScheduleActive = false;
@@ -1508,6 +1542,22 @@ function applyConfFilter() {
 function saveBookmarks() {
   localStorage.setItem(LS_KEY, JSON.stringify([...bookmarks]));
   updateBookmarkCount();
+  updateTalkListCount();
+}
+
+function updateTalkListCount() {
+  const countEl = document.getElementById('talklist-star-count');
+  if (!countEl) return;
+  const panel = document.querySelector('.talk-list-day-panel.active');
+  if (!panel) return;
+  let starred = 0, total = 0;
+  panel.querySelectorAll('.talk-list-item').forEach(t => {
+    if (!t.classList.contains('conf-hidden')) {
+      total++;
+      if (t.classList.contains('bookmarked')) starred++;
+    }
+  });
+  countEl.textContent = starred ? starred + ' ★ / ' + total + ' talks' : total + ' talks';
 }
 
 function updateBookmarkCount() {
@@ -1547,7 +1597,6 @@ function toggleMySchedule() {
   document.body.classList.toggle('my-schedule-mode', myScheduleActive);
   const btn = document.getElementById('my-schedule-btn');
   btn.classList.toggle('active', myScheduleActive);
-  btn.textContent = myScheduleActive ? '★ All talks' : '★ My Schedule';
   if (myScheduleActive) {
     document.getElementById('search').value = '';
     document.querySelectorAll('.talk').forEach(t => t.classList.remove('dim', 'match'));
@@ -1583,6 +1632,7 @@ function applySearch() {
     }
     document.getElementById('match-count').textContent =
       q ? n + ' match' + (n !== 1 ? 'es' : '') : '';
+    updateTalkListCount();
     return;
   }
 
@@ -1627,6 +1677,9 @@ document.getElementById('search').addEventListener('keydown', ev => {
 
 function updateStickyOffset() {
   const topbarH = document.querySelector('.topbar').offsetHeight;
+  const legendH = document.querySelector('.legend').offsetHeight;
+  const viewNavH = document.querySelector('.view-nav').offsetHeight;
+  const totalH = topbarH + legendH + viewNavH;
   document.documentElement.style.setProperty('--topbar-h', topbarH + 'px');
   const tabsEl = document.querySelector('#schedule-body .tabs');
   if (tabsEl) {
@@ -1636,14 +1689,11 @@ function updateStickyOffset() {
   if (posterTabsEl) {
     document.documentElement.style.setProperty('--poster-tabs-h', posterTabsEl.offsetHeight + 'px');
   }
-  const body = document.getElementById('schedule-body');
-  if (body) body.style.height = (window.innerHeight - topbarH) + 'px';
-  const posterBody = document.getElementById('poster-body');
-  if (posterBody) posterBody.style.height = (window.innerHeight - topbarH) + 'px';
-  const swipeBody = document.getElementById('swipe-body');
-  if (swipeBody) swipeBody.style.height = (window.innerHeight - topbarH) + 'px';
-  const talkswipeBody = document.getElementById('talkswipe-body');
-  if (talkswipeBody) talkswipeBody.style.height = (window.innerHeight - topbarH) + 'px';
+  const contentH = window.innerHeight - totalH;
+  ['schedule-body', 'poster-body', 'talklist-body', 'swipe-body', 'talkswipe-body'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.style.height = contentH + 'px';
+  });
 }
 updateStickyOffset();
 window.addEventListener('resize', updateStickyOffset);
@@ -1739,16 +1789,29 @@ document.getElementById('share-modal').addEventListener('click', ev => {
 });
 
 // ── View switcher ──
+function toggleViewMenu() {
+  document.querySelector('.view-nav').classList.toggle('open');
+}
+document.addEventListener('click', ev => {
+  const nav = document.querySelector('.view-nav');
+  if (nav.classList.contains('open') && !nav.contains(ev.target)) nav.classList.remove('open');
+});
+
 function switchView(view) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
   document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
   document.getElementById('page-' + view).classList.add('active');
   document.querySelector('[data-view="' + view + '"]').classList.add('active');
+  const label = document.getElementById('view-current-label');
+  if (label) label.textContent = document.querySelector('.view-btn[data-view="' + view + '"]').textContent.trim();
+  document.querySelector('.view-nav').classList.remove('open');
   updateStickyOffset();
   if (view === 'swipe') initSwipe();
   if (view === 'talkswipe') initTalkSwipe();
   const isSwipe = view === 'swipe' || view === 'talkswipe';
-  document.querySelector('.search-wrap').style.display = isSwipe ? 'none' : '';
+  const sw = document.querySelector('.search-wrap');
+  sw.style.opacity = isSwipe ? '0.35' : '';
+  sw.style.pointerEvents = isSwipe ? 'none' : '';
   const placeholders = {
     schedule:   'Search talks: title, author, abstract…',
     talklist:   'Search talks: title, author, abstract…',
@@ -1767,6 +1830,7 @@ function switchTalkListDay(iso) {
   document.getElementById('talklist-day-' + iso).classList.add('active');
   document.querySelector('#talklist-body [data-day="' + iso + '"]').classList.add('active');
   applySearch();
+  updateTalkListCount();
 }
 
 // ── Poster page ──
@@ -1810,7 +1874,7 @@ function togglePosterSkip(btn) {
   } else {
     skipped.add(id);
     item.classList.add('skipped');
-    btn.textContent = '↩';
+    btn.innerHTML = UNDO_ICON;
     // un-bookmark if previously bookmarked
     if (bookmarks.has(id)) {
       bookmarks.delete(id);
@@ -1864,7 +1928,7 @@ function toggleTalkSkip(btn) {
   } else {
     skipped.add(id);
     item.classList.add('skipped');
-    btn.textContent = '↩';
+    btn.innerHTML = UNDO_ICON;
     if (bookmarks.has(id)) {
       bookmarks.delete(id);
       item.classList.remove('bookmarked');
@@ -1881,7 +1945,7 @@ function restoreTalkListSkipped() {
     if (skipped.has(item.dataset.id)) {
       item.classList.add('skipped');
       const btn = item.querySelector('.talk-skip-btn');
-      if (btn) btn.textContent = '↩';
+      if (btn) btn.innerHTML = UNDO_ICON;
     }
   });
 }
@@ -1896,7 +1960,7 @@ function restorePosterStates() {
     }
     if (skipped.has(id)) {
       item.classList.add('skipped');
-      item.querySelector('.poster-skip-btn').textContent = '↩';
+      item.querySelector('.poster-skip-btn').innerHTML = UNDO_ICON;
     }
   });
 }
@@ -2011,7 +2075,7 @@ function applySwipeAction(action) {
     const pItem = document.querySelector(`.poster-item[data-id="${CSS.escape(talk.id)}"]`);
     if (pItem) {
       pItem.classList.add('skipped');
-      pItem.querySelector('.poster-skip-btn').textContent = '↩';
+      pItem.querySelector('.poster-skip-btn').innerHTML = UNDO_ICON;
     }
   }
 
@@ -2224,7 +2288,7 @@ function applyTalkSwipeAction(action) {
     document.querySelectorAll('.talk-list-item[data-id="' + CSS.escape(talk.id) + '"]').forEach(el => {
       el.classList.add('skipped');
       const btn = el.querySelector('.talk-skip-btn');
-      if (btn) btn.textContent = '↩';
+      if (btn) btn.innerHTML = UNDO_ICON;
     });
   }
 
@@ -2507,7 +2571,7 @@ def render_swipe_page(poster_days: list[dict]) -> str:
         f'<div class="swipe-arena" id="swipe-arena"></div>'
         f'<div class="swipe-btn-row">'
         f'<button class="swipe-action-btn skip-btn" onclick="applySwipeAction(\'skip\')">&#10005;</button>'
-        f'<button class="swipe-action-btn undo-btn" onclick="undoSwipe()">&#8630;</button>'
+        f'<button class="swipe-action-btn undo-btn" onclick="undoSwipe()">{UNDO_SVG}</button>'
         f'<button class="swipe-action-btn save-btn" onclick="applySwipeAction(\'save\')">&#9733;</button>'
         f"</div>"
         f'<div class="swipe-keys">&#8592; skip &nbsp;|&nbsp; &#8594; save &nbsp;|&nbsp; &#8593; undo</div>'
@@ -2567,7 +2631,7 @@ def render_talk_swipe_page(days: list[dict]) -> str:
         f'<div class="swipe-arena" id="talkswipe-arena"></div>'
         f'<div class="swipe-btn-row">'
         f'<button class="swipe-action-btn skip-btn" onclick="applyTalkSwipeAction(\'skip\')">&#10005;</button>'
-        f'<button class="swipe-action-btn undo-btn" onclick="undoTalkSwipe()">&#8630;</button>'
+        f'<button class="swipe-action-btn undo-btn" onclick="undoTalkSwipe()">{UNDO_SVG}</button>'
         f'<button class="swipe-action-btn save-btn" onclick="applyTalkSwipeAction(\'save\')">&#9733;</button>'
         f"</div>"
         f'<div class="swipe-keys">&#8592; skip &nbsp;|&nbsp; &#8594; save &nbsp;|&nbsp; &#8593; undo</div>'
@@ -2649,7 +2713,7 @@ def render_talk_list_page(days: list[dict]) -> str:
         for d in days
     )
 
-    return f'<div class="tabs">{tabs}</div>' + all_panel + day_panels
+    return f'<div class="tabs">{tabs}</div><span id="talklist-star-count"></span>' + all_panel + day_panels
 
 
 def build_html(days: list[dict], poster_days: list[dict]) -> str:
@@ -2663,6 +2727,10 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
 
     view_nav = (
         '<nav class="view-nav">'
+        '<button class="view-nav-toggle" onclick="toggleViewMenu()">'
+        '<span id="view-current-label">Talk Schedule</span>'
+        '<span class="view-nav-arrow">&#9660;</span>'
+        '</button>'
         '<button class="view-btn active" data-view="schedule" onclick="switchView(\'schedule\')">Talk Schedule</button>'
         '<button class="view-btn" data-view="talklist" onclick="switchView(\'talklist\')">Talk List</button>'
         f'<button class="view-btn" data-view="talkswipe" onclick="switchView(\'talkswipe\')">{TINDER_SVG}Talk Swipe</button>'
