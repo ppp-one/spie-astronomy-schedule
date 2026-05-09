@@ -871,9 +871,9 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 /* ── Swipe tip banner ── */
 #swipe-tip {
   position: fixed;
-  bottom: -120px;
+  bottom: 24px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(calc(100% + 40px));
   background: #1a1a2e;
   color: #fff;
   border-radius: 12px;
@@ -883,11 +883,11 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   gap: 10px;
   box-shadow: 0 4px 24px rgba(0,0,0,.45);
   z-index: 500;
-  transition: bottom .4s cubic-bezier(.2,.8,.4,1);
+  transition: transform .4s cubic-bezier(.2,.8,.4,1);
   max-width: min(480px, calc(100vw - 32px));
   font-size: 13px;
 }
-#swipe-tip.visible { bottom: 24px; }
+#swipe-tip.visible { transform: translateX(-50%) translateY(0); }
 #swipe-tip-text { flex: 1; line-height: 1.4; }
 #swipe-tip-text strong { color: #d0d8ff; display: block; margin-bottom: 2px; }
 .swipe-tip-try {
@@ -3138,7 +3138,8 @@ def build_html(days: list[dict], poster_days: list[dict], records: list[dict]) -
 </div>
 
 <div class="modal-backdrop" id="share-modal">
-  <div class="modal">
+  <div class="modal" style="position:relative">
+    <button class="modal-close" onclick="closeShareModal()">&#10005;</button>
     <h2>&#8645; Sync &amp; Backup</h2>
 
     <p style="font-size:11px;font-weight:700;color:#888;letter-spacing:.05em;margin:0 0 6px">CROSS-DEVICE SYNC</p>
@@ -3198,7 +3199,7 @@ def build_html(days: list[dict], poster_days: list[dict], records: list[dict]) -
 </div>
 
 <div id="swipe-tip">
-  <div id="swipe-tip-text"><strong>&#129309; Swipe to sort talks</strong>Use Talk Swipe or Poster Swipe to quickly save or skip sessions — Tinder-style.</div>
+  <div id="swipe-tip-text"><strong>&#129309; Swipe to sort talks</strong>Use Talk Swipe or Poster Swipe to quickly save or skip sessions.</div>
   <button class="swipe-tip-try" onclick="goSwipe()">Try it &#8594;</button>
   <button class="swipe-tip-close" onclick="dismissSwipeTip()">&#10005;</button>
 </div>
