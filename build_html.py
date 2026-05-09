@@ -868,6 +868,76 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   text-decoration: none;
 }
 #talk-modal-ext:hover { text-decoration: underline; }
+/* ── Swipe tip banner ── */
+#swipe-tip {
+  position: fixed;
+  bottom: -120px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1a1a2e;
+  color: #fff;
+  border-radius: 12px;
+  padding: 12px 14px 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 24px rgba(0,0,0,.45);
+  z-index: 500;
+  transition: bottom .4s cubic-bezier(.2,.8,.4,1);
+  max-width: min(480px, calc(100vw - 32px));
+  font-size: 13px;
+}
+#swipe-tip.visible { bottom: 24px; }
+#swipe-tip-text { flex: 1; line-height: 1.4; }
+#swipe-tip-text strong { color: #d0d8ff; display: block; margin-bottom: 2px; }
+.swipe-tip-try {
+  background: #f5a623;
+  color: #1a1a2e;
+  border: none;
+  border-radius: 6px;
+  padding: 7px 12px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.swipe-tip-try:hover { background: #e09510; }
+.swipe-tip-close {
+  background: none;
+  border: none;
+  color: #777;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 2px 4px;
+  flex-shrink: 0;
+}
+.swipe-tip-close:hover { color: #fff; }
+/* ── Back to top button ── */
+#back-to-top {
+  position: fixed;
+  bottom: 24px;
+  right: 20px;
+  width: 38px;
+  height: 38px;
+  background: #1a1a2e;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 2px 12px rgba(0,0,0,.35);
+  z-index: 400;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#back-to-top.visible { opacity: 1; pointer-events: auto; }
+#back-to-top:hover { background: #2c2c5e; }
 /* ── Search states ── */
 .talk.dim { opacity: 0.07; pointer-events: none; }
 .talk.match { box-shadow: 0 0 0 2px #f5a623 !important; }
@@ -1994,6 +2064,7 @@ function switchView(view) {
   };
   document.getElementById('search').placeholder = placeholders[view] || 'Search…';
   document.getElementById('match-count').textContent = '';
+  document.getElementById('back-to-top').classList.remove('visible');
   applySearch();
 }
 
@@ -2807,6 +2878,114 @@ document.getElementById('talk-modal').addEventListener('click', ev => {
 document.addEventListener('keydown', ev => {
   if (ev.key === 'Escape') closeTalkModal();
 });
+
+// ── Swipe tip banner ──────────────────────────────────────────────────────
+const LS_SWIPE_TIP = 'spie_as26_swipe_tip';
+let _swipeTipTimer = null;
+
+function initSwipeTip() {
+  if (localStorage.getItem(LS_SWIPE_TIP)) return;
+  const tip = document.getElementById('swipe-tip');
+  setTimeout(() => tip.classList.add('visible'), 600);
+  _swipeTipTimer = setTimeout(dismissSwipeTip, 9000);
+}
+
+function dismissSwipeTip() {
+  clearTimeout(_swipeTipTimer);
+  document.getElementById('swipe-tip').classList.remove('visible');
+  localStorage.setItem(LS_SWIPE_TIP, '1');
+}
+
+function goSwipe() {
+  dismissSwipeTip();
+  switchView('talkswipe');
+}
+
+// ── Back to top ───────────────────────────────────────────────────────────
+function initBackToTop() {
+  ['talklist-body', 'poster-body'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.addEventListener('scroll', _updateBackToTop, { passive: true });
+  });
+}
+
+function _updateBackToTop() {
+  const active = document.querySelector('#page-talklist.active, #page-posters.active');
+  const scroller = active && active.querySelector('#talklist-body, #poster-body');
+  document.getElementById('back-to-top').classList.toggle(
+    'visible', !!(scroller && scroller.scrollTop > 300));
+}
+
+function backToTop() {
+  const active = document.querySelector('#page-talklist.active, #page-posters.active');
+  const scroller = active && active.querySelector('#talklist-body, #poster-body');
+  if (scroller) scroller.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ── iCal export ───────────────────────────────────────────────────────────
+function _icalEsc(s) {
+  return String(s).replace(/\\\\/g, '\\\\\\\\').replace(/;/g, '\\\\;').replace(/,/g, '\\\\,').replace(/\\n/g, '\\\\n');
+}
+
+function _icalDt(dateIso, cestMin) {
+  const utcMin = cestMin - 120;
+  const d = dateIso.replace(/-/g, '');
+  const h = String(Math.floor(((utcMin % 1440) + 1440) % 1440 / 60)).padStart(2, '0');
+  const m = String(((utcMin % 60) + 60) % 60).padStart(2, '0');
+  return d + 'T' + h + m + '00Z';
+}
+
+function downloadIcal() {
+  const lines = [
+    'BEGIN:VCALENDAR', 'VERSION:2.0',
+    'PRODID:-//SPIE Astronomy 2026//Schedule//EN',
+    'CALSCALE:GREGORIAN', 'METHOD:PUBLISH',
+  ];
+
+  function addEvent(t, dateIso) {
+    const id = t.paper || ('PLENARY-' + t.title);
+    if (!bookmarks.has(id)) return;
+    const startMin = t.start_min;
+    let endMin = startMin + 20;
+    if (t.end_str) {
+      const p = t.end_str.split(':');
+      const e = parseInt(p[0]) * 60 + parseInt(p[1]);
+      if (!isNaN(e)) endMin = e;
+    }
+    const td = TALK_DATA[id] || {};
+    const descParts = [t.author, td.abstract].filter(Boolean);
+    lines.push('BEGIN:VEVENT');
+    lines.push('UID:' + id.replace(/[^A-Za-z0-9]/g, '-') + '@spie-as26');
+    lines.push('DTSTART:' + _icalDt(dateIso, startMin));
+    lines.push('DTEND:' + _icalDt(dateIso, endMin));
+    lines.push('SUMMARY:' + _icalEsc(t.title));
+    if (t.room && t.room !== 'Room TBC') lines.push('LOCATION:' + _icalEsc(t.room));
+    if (descParts.length) lines.push('DESCRIPTION:' + _icalEsc(descParts.join('\\n\\n')));
+    if (t.url) lines.push('URL:https://spie.org' + t.url);
+    lines.push('END:VEVENT');
+  }
+
+  for (const day of ALL_DAYS)
+    for (const rm of day.rooms)
+      for (const t of (day.rooms_map[rm] || [])) addEvent(t, day.date_iso);
+
+  for (const day of ALL_POSTER_DAYS)
+    for (const [conf, talks] of Object.entries(day.confs_map))
+      for (const t of talks) addEvent({...t, conf}, day.date_iso);
+
+  lines.push('END:VCALENDAR');
+  const blob = new Blob([lines.join('\\r\\n')], { type: 'text/calendar;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'spie-as26-schedule.ics';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(a.href);
+}
+
+initSwipeTip();
+initBackToTop();
 """
 
 
@@ -2987,6 +3166,7 @@ def build_html(days: list[dict], poster_days: list[dict], records: list[dict]) -
     <textarea id="export-code" readonly placeholder="(no bookmarks saved yet)"></textarea>
     <div class="modal-row">
       <button class="modal-btn primary" onclick="copyExport()">Copy to clipboard</button>
+      <button class="modal-btn secondary" onclick="downloadIcal()">Export iCal</button>
       <button class="modal-btn danger" onclick="clearAllBookmarks()">Clear all</button>
       <button class="modal-btn secondary" onclick="closeShareModal()">Close</button>
     </div>
@@ -3017,6 +3197,12 @@ def build_html(days: list[dict], poster_days: list[dict], records: list[dict]) -
   </div>
 </div>
 
+<div id="swipe-tip">
+  <div id="swipe-tip-text"><strong>&#129309; Swipe to sort talks</strong>Use Talk Swipe or Poster Swipe to quickly save or skip sessions — Tinder-style.</div>
+  <button class="swipe-tip-try" onclick="goSwipe()">Try it &#8594;</button>
+  <button class="swipe-tip-close" onclick="dismissSwipeTip()">&#10005;</button>
+</div>
+<button id="back-to-top" onclick="backToTop()" title="Back to top">&#8679;</button>
 <script>{full_js}</script>
 </body>
 </html>
