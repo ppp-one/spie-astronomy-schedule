@@ -10,7 +10,6 @@ import json
 import re
 from collections import defaultdict
 from datetime import datetime
-from itertools import groupby
 from pathlib import Path
 
 RESULTS_DIR = Path(__file__).parent / "spie_query_results"
@@ -269,6 +268,64 @@ def load_records() -> list[dict]:
     return records
 
 
+def serialize_talk(t: dict) -> dict:
+    """Compact JSON-serializable form of a talk record (no datetime objects)."""
+    return {
+        "conf": t["conf"],
+        "title": t["title"],
+        "paper": t["paper"],
+        "author": t["author"],
+        "room": t["room"],
+        "start_min": to_minutes(t["time_sort"]),
+        "end_str": slot_end(t["time_slot"]),
+        "url": t.get("url") or "",
+    }
+
+
+def serialize_days(days: list[dict]) -> list:
+    return [
+        {
+            "date_iso": d["date_iso"],
+            "label": d["label"],
+            "rooms": d["rooms"],
+            "day_start_min": d["day_start_min"],
+            "day_end_min": d["day_end_min"],
+            "rooms_map": {
+                room: [serialize_talk(t) for t in talks]
+                for room, talks in d["rooms_map"].items()
+            },
+        }
+        for d in days
+    ]
+
+
+def serialize_poster_days(poster_days: list[dict]) -> list:
+    return [
+        {
+            "date_iso": d["date_iso"],
+            "label": d["label"],
+            "confs_map": {
+                conf: [serialize_talk(t) for t in talks]
+                for conf, talks in d["confs_map"].items()
+            },
+        }
+        for d in poster_days
+    ]
+
+
+def build_talk_data(records: list[dict]) -> dict:
+    """Map card-id → {abstract, authors} for the single JS TALK_DATA lookup table."""
+    data: dict[str, dict] = {}
+    for r in records:
+        key = r["paper"] if r["paper"] else f"PLENARY-{r['title']}"
+        if key not in data:
+            data[key] = {
+                "abstract": r.get("abstract") or "",
+                "authors": r.get("authors") or "",
+            }
+    return data
+
+
 def build_days(records: list[dict]) -> list[dict]:
     by_day: dict[str, dict[str, list]] = defaultdict(lambda: defaultdict(list))
     for r in records:
@@ -324,8 +381,6 @@ def _modal_data(talk: dict, href: str, short: str, color: str) -> str:
         f'data-title="{e(talk["title"])}" '
         f'data-paper="{e(talk["paper"])}" '
         f'data-author="{e(talk["author"])}" '
-        f'data-authors="{e(talk.get("authors", talk["author"]))}" '
-        f'data-abstract="{e(talk["abstract"] or "")}" '
         f'data-url="{e(href)}" '
         f'data-conf="{e(talk["conf"])}" '
         f'data-short="{e(short)}" '
@@ -333,219 +388,6 @@ def _modal_data(talk: dict, href: str, short: str, color: str) -> str:
         f'data-time="{e(time_label)}" '
         f'data-room="{e(talk["room"])}"'
     )
-
-
-def render_cal_card(talk: dict, top: int, height: int) -> str:
-    color = CONF_COLOR.get(talk["conf"], "#999")
-    short = CONF_SHORT.get(talk["conf"], talk["conf"])
-    search = e(f"{talk['title']} {talk['paper']} {talk['author']} {talk['abstract']}")
-    href = f"https://spie.org{talk['url']}" if talk.get("url") else ""
-    card_id = e(talk["paper"] if talk["paper"] else f"PLENARY-{talk['title']}")
-
-    if talk["conf"] == "PLENARY":
-        card_style = (
-            f"background:#1a1a2e;border-left-color:#fff;top:{top}px;height:{height}px"
-        )
-        conf_color = "color:#fff"
-        title_color = "color:#fff"
-    else:
-        card_style = f"border-left-color:{color};top:{top}px;height:{height}px"
-        conf_color = f"color:{color}"
-        title_color = ""
-
-    title_html = f'<span class="talk-link" onclick="openTalkModal(this)">{e(talk["title"])}</span>'
-    meta = (
-        f'<div class="talk-meta">[{e(talk["paper"])}] {e(talk["author"])}</div>'
-        if talk["conf"] != "PLENARY"
-        else ""
-    )
-
-    return (
-        f'<div class="talk cal-talk" data-search="{search}" data-id="{card_id}" '
-        f'{_modal_data(talk, href, short, color)} style="{card_style}">'
-        f'<div class="talk-header">'
-        f'<span class="talk-conf" style="{conf_color}">{e(short)}</span>'
-        f'<button class="star-btn" onclick="toggleBookmark(this)" title="Save to My Schedule">☆</button>'
-        f"</div>"
-        f'<div class="talk-title" style="{title_color}">{title_html}</div>'
-        f"{meta}"
-        f"</div>"
-    )
-
-
-def render_session_item(talk: dict) -> str:
-    color = CONF_COLOR.get(talk["conf"], "#999")
-    short = CONF_SHORT.get(talk["conf"], talk["conf"])
-    search = e(f"{talk['title']} {talk['paper']} {talk['author']} {talk['abstract']}")
-    href = f"https://spie.org{talk['url']}" if talk.get("url") else ""
-    card_id = e(talk["paper"] if talk["paper"] else f"PLENARY-{talk['title']}")
-    title_html = f'<span class="talk-link" onclick="openTalkModal(this)">{e(talk["title"])}</span>'
-    meta = (
-        f'<div class="talk-meta">[{e(talk["paper"])}] {e(talk["author"])}</div>'
-        if talk["conf"] != "PLENARY"
-        else ""
-    )
-    return (
-        f'<div class="talk session-item" data-search="{search}" data-id="{card_id}" '
-        f'{_modal_data(talk, href, short, color)} style="border-left-color:{color}">'
-        f'<div class="talk-header">'
-        f'<span class="talk-conf" style="color:{color}">{e(short)}</span>'
-        f'<button class="star-btn" onclick="toggleBookmark(this)" title="Save to My Schedule">☆</button>'
-        f"</div>"
-        f'<div class="talk-title">{title_html}</div>'
-        f"{meta}"
-        f"</div>"
-    )
-
-
-def render_session_block(
-    talks: list[dict], top: int, height: int, talk_start: int, talk_end: int
-) -> str:
-    label = (
-        f"{talk_start // 60:02d}:{talk_start % 60:02d}"
-        f"–{talk_end // 60:02d}:{talk_end % 60:02d} CEST"
-    )
-    items = "".join(render_session_item(t) for t in talks)
-    return (
-        f'<div class="cal-session" style="top:{top}px;height:{height}px">'
-        f'<div class="session-header">'
-        f"<span>{e(label)}</span>"
-        f"<span>{len(talks)} talks</span>"
-        f"</div>"
-        f'<div class="session-list">{items}</div>'
-        f"</div>"
-    )
-
-
-def render_agenda_day(day: dict) -> str:
-    """Flat chronological agenda list used in the mobile calendar view."""
-    all_talks: list[dict] = []
-    for talks in day["rooms_map"].values():
-        all_talks.extend(talks)
-    all_talks.sort(key=lambda t: (to_minutes(t["time_sort"]), t["room"], t["title"]))
-
-    rows: list[str] = []
-    last_hour = -1
-
-    for talk in all_talks:
-        start_min = to_minutes(talk["time_sort"])
-        hour = start_min // 60
-
-        if hour != last_hour:
-            last_hour = hour
-            rows.append(
-                f'<div class="agenda-hour-sep" style="top:var(--tabs-h,0)">'
-                f"<span>{hour:02d}:00</span>"
-                f"</div>"
-            )
-
-        end_str = slot_end(talk["time_slot"])
-        color = CONF_COLOR.get(talk["conf"], "#999")
-        short = CONF_SHORT.get(talk["conf"], talk["conf"])
-        search = e(
-            f"{talk['title']} {talk['paper']} {talk['author']} {talk['abstract']}"
-        )
-        href = f"https://spie.org{talk['url']}" if talk.get("url") else ""
-        card_id = e(talk["paper"] if talk["paper"] else f"PLENARY-{talk['title']}")
-
-        title_html = f'<span class="talk-link" onclick="openTalkModal(this)">{e(talk["title"])}</span>'
-        end_html = (
-            f'<span class="agenda-time-end">{e(end_str)}</span>' if end_str else ""
-        )
-        meta_parts = [
-            p for p in [talk["room"], talk["author"]] if p and p != "Room TBC"
-        ]
-        meta_html = " · ".join(e(p) for p in meta_parts)
-
-        plenary = talk["conf"] == "PLENARY"
-        row_cls = " agenda-row--plenary" if plenary else ""
-        star_color = "color:#7eb8f7" if plenary else ""
-
-        rows.append(
-            f'<div class="agenda-row talk{row_cls}" '
-            f'data-search="{search}" data-id="{card_id}" '
-            f'{_modal_data(talk, href, short, color)} style="border-left-color:{color}">'
-            f'<div class="agenda-time-col">'
-            f'<span class="agenda-time-start">{start_min // 60:02d}:{start_min % 60:02d}</span>'
-            f"{end_html}"
-            f"</div>"
-            f'<div class="agenda-event-col">'
-            f'<span class="agenda-conf" style="color:{color}">{e(short)}</span>'
-            f'<div class="agenda-title">{title_html}</div>'
-            f"{'<div class="agenda-meta">' + meta_html + '</div>' if meta_html else ''}"
-            f"</div>"
-            f'<button class="star-btn" onclick="toggleBookmark(this)" '
-            f'title="Save to My Schedule" style="{star_color}">&#9734;</button>'
-            f"</div>"
-        )
-
-    return f'<div class="cal-agenda">{"".join(rows)}</div>'
-
-
-def render_calendar_day(day: dict) -> str:
-    start_min = day["day_start_min"]
-    end_min = day["day_end_min"]
-    total_min = end_min - start_min
-    total_px = total_min * PX_MIN
-    rooms = day["rooms"]
-    rooms_map = day["rooms_map"]
-
-    # Time gutter labels and grid lines every 30 minutes
-    marks = []
-    lines = []
-    for offset in range(0, total_min + 1, 30):
-        top = offset * PX_MIN
-        abs_min = start_min + offset
-        label = f"{abs_min // 60:02d}:{abs_min % 60:02d}"
-        # First mark: don't pull up with translateY(-50%) or it clips behind the header
-        extra = " first-mark" if offset == 0 else ""
-        marks.append(f'<div class="cal-mark{extra}" style="top:{top}px">{label}</div>')
-        cls = "cal-hour-line" if abs_min % 60 == 0 else "cal-half-line"
-        lines.append(f'<div class="{cls}" style="top:{top}px"></div>')
-
-    # Poster session background band
-    if POSTER_START_MIN >= start_min and POSTER_START_MIN < end_min:
-        p_top = (POSTER_START_MIN - start_min) * PX_MIN
-        p_h = (min(POSTER_END_MIN, end_min) - POSTER_START_MIN) * PX_MIN
-        lines.append(
-            f'<div class="cal-poster-band" style="top:{p_top}px;height:{p_h}px"></div>'
-        )
-
-    # Room columns — group talks by identical time bounds so concurrent talks
-    # (e.g. poster sessions) are rendered as a scrollable block, not stacked cards.
-    cols = []
-    for room in rooms:
-        cards = []
-        sorted_talks = sorted(rooms_map[room], key=talk_time_bounds)
-        for (ts, te), grp in groupby(sorted_talks, key=talk_time_bounds):
-            group = list(grp)
-            top = (ts - start_min) * PX_MIN
-            height = max(te - ts, 5) * PX_MIN
-            if len(group) == 1:
-                cards.append(render_cal_card(group[0], top, height))
-            else:
-                cards.append(render_session_block(group, top, height, ts, te))
-        cols.append(f'<div class="cal-col">{"".join(cards)}</div>')
-
-    timeline_w = len(rooms) * ROOM_COL_W
-    room_heads = "".join(f'<div class="cal-room-head">{e(r)}</div>' for r in rooms)
-
-    grid = (
-        f'<div class="cal-wrap">'
-        f'<div class="cal-header-row">'
-        f'<div class="cal-gutter-ph"></div>'
-        f"{room_heads}"
-        f"</div>"
-        f'<div class="cal-body">'
-        f'<div class="cal-gutter" style="height:{total_px}px">{"".join(marks)}</div>'
-        f'<div class="cal-timeline" style="height:{total_px}px;width:{timeline_w}px">'
-        f"{''.join(lines)}"
-        f'<div class="cal-cols">{"".join(cols)}</div>'
-        f"</div>"
-        f"</div>"
-        f"</div>"
-    )
-    return grid + render_agenda_day(day)
 
 
 CSS = """
@@ -975,7 +817,21 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 }
 .talk-link:hover { text-decoration: underline; }
 /* ── Talk detail modal ── */
-#talk-modal .modal { max-width: 640px; max-height: 90vh; overflow-y: auto; }
+#talk-modal .modal { max-width: 640px; max-height: 90vh; overflow-y: auto; position: relative; }
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #888;
+  line-height: 1;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+.modal-close:hover { background: #f0f0f0; color: #333; }
 #talk-modal-conf {
   font-size: 11px;
   font-weight: 700;
@@ -989,7 +845,7 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   font-weight: 600;
   line-height: 1.4;
   margin: 0 0 8px;
-  padding-right: 24px;
+  padding-right: 32px;
 }
 #talk-modal-meta {
   font-size: 12px;
@@ -1012,6 +868,76 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   text-decoration: none;
 }
 #talk-modal-ext:hover { text-decoration: underline; }
+/* ── Swipe tip banner ── */
+#swipe-tip {
+  position: fixed;
+  bottom: -120px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1a1a2e;
+  color: #fff;
+  border-radius: 12px;
+  padding: 12px 14px 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 24px rgba(0,0,0,.45);
+  z-index: 500;
+  transition: bottom .4s cubic-bezier(.2,.8,.4,1);
+  max-width: min(480px, calc(100vw - 32px));
+  font-size: 13px;
+}
+#swipe-tip.visible { bottom: 24px; }
+#swipe-tip-text { flex: 1; line-height: 1.4; }
+#swipe-tip-text strong { color: #d0d8ff; display: block; margin-bottom: 2px; }
+.swipe-tip-try {
+  background: #f5a623;
+  color: #1a1a2e;
+  border: none;
+  border-radius: 6px;
+  padding: 7px 12px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.swipe-tip-try:hover { background: #e09510; }
+.swipe-tip-close {
+  background: none;
+  border: none;
+  color: #777;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 2px 4px;
+  flex-shrink: 0;
+}
+.swipe-tip-close:hover { color: #fff; }
+/* ── Back to top button ── */
+#back-to-top {
+  position: fixed;
+  bottom: 24px;
+  right: 20px;
+  width: 38px;
+  height: 38px;
+  background: #1a1a2e;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 2px 12px rgba(0,0,0,.35);
+  z-index: 400;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#back-to-top.visible { opacity: 1; pointer-events: auto; }
+#back-to-top:hover { background: #2c2c5e; }
 /* ── Search states ── */
 .talk.dim { opacity: 0.07; pointer-events: none; }
 .talk.match { box-shadow: 0 0 0 2px #f5a623 !important; }
@@ -1503,6 +1429,310 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 }
 """
 
+RENDER_JS = """
+// ── Lazy-rendering helpers ──────────────────────────────────────────────────
+// Track which views have been built so we only render once.
+const _builtScheduleDays = new Set();
+let _talkListBuilt = false;
+let _posterBuilt   = false;
+
+function he(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function _talkId(t) { return t.paper || ('PLENARY-' + t.title); }
+function _talkHref(t) { return t.url ? 'https://spie.org' + t.url : ''; }
+
+function _modalAttrs(t, dayLabel='') {
+  const id    = _talkId(t);
+  const href  = _talkHref(t);
+  const short = CONF_SHORT[t.conf] || t.conf;
+  const color = CONF_COLOR[t.conf] || '#999';
+  const ts    = String(Math.floor(t.start_min/60)).padStart(2,'0') + ':' + String(t.start_min%60).padStart(2,'0');
+  const tl    = t.end_str ? ts + '\\u2013' + t.end_str + ' CEST' : ts;
+  return `data-title="${he(t.title)}" data-paper="${he(t.paper)}" data-author="${he(t.author)}" ` +
+         `data-url="${he(href)}" data-conf="${he(t.conf)}" data-short="${he(short)}" ` +
+         `data-color="${he(color)}" data-time="${he(tl)}" data-room="${he(t.room)}" data-day-label="${he(dayLabel)}"`;
+}
+
+function _timeBounds(t) {
+  const s = t.start_min;
+  if (t.end_str) {
+    const p = t.end_str.split(':');
+    const e = parseInt(p[0]) * 60 + parseInt(p[1]);
+    if (!isNaN(e)) return [s, e];
+  }
+  return [s, s + 20];
+}
+
+// ── Calendar card ──────────────────────────────────────────────────────────
+function _renderCalCard(t, top, height, dayLabel) {
+  const id      = _talkId(t);
+  const color   = CONF_COLOR[t.conf] || '#999';
+  const short   = CONF_SHORT[t.conf] || t.conf;
+  const search  = he(t.title + ' ' + t.paper + ' ' + t.author);
+  const plenary = t.conf === 'PLENARY';
+  const cardSt  = plenary
+    ? `background:#1a1a2e;border-left-color:#fff;top:${top}px;height:${height}px`
+    : `border-left-color:${color};top:${top}px;height:${height}px`;
+  const confSt  = plenary ? 'color:#fff' : `color:${color}`;
+  const titlSt  = plenary ? 'color:#fff' : '';
+  const meta    = t.conf !== 'PLENARY'
+    ? `<div class="talk-meta">[${he(t.paper)}] ${he(t.author)}</div>` : '';
+  return `<div class="talk cal-talk" data-search="${search}" data-id="${he(id)}" ${_modalAttrs(t, dayLabel)} style="${cardSt}">` +
+    `<div class="talk-header"><span class="talk-conf" style="${confSt}">${he(short)}</span>` +
+    `<button class="star-btn" onclick="toggleBookmark(this)" title="Save to My Schedule">☆</button></div>` +
+    `<div class="talk-title" style="${titlSt}"><span class="talk-link" onclick="openTalkModal(this)">${he(t.title)}</span></div>` +
+    meta + `</div>`;
+}
+
+// ── Session item (inside concurrent-talks block) ───────────────────────────
+function _renderSessionItem(t, dayLabel) {
+  const id     = _talkId(t);
+  const color  = CONF_COLOR[t.conf] || '#999';
+  const short  = CONF_SHORT[t.conf] || t.conf;
+  const search = he(t.title + ' ' + t.paper + ' ' + t.author);
+  const meta   = t.conf !== 'PLENARY'
+    ? `<div class="talk-meta">[${he(t.paper)}] ${he(t.author)}</div>` : '';
+  return `<div class="talk session-item" data-search="${search}" data-id="${he(id)}" ${_modalAttrs(t, dayLabel)} style="border-left-color:${color}">` +
+    `<div class="talk-header"><span class="talk-conf" style="color:${color}">${he(short)}</span>` +
+    `<button class="star-btn" onclick="toggleBookmark(this)" title="Save to My Schedule">☆</button></div>` +
+    `<div class="talk-title"><span class="talk-link" onclick="openTalkModal(this)">${he(t.title)}</span></div>` +
+    meta + `</div>`;
+}
+
+// ── Session block (group of concurrent talks) ──────────────────────────────
+function _renderSessionBlock(talks, top, height, ts, te, dayLabel) {
+  const fmt = m => String(Math.floor(m/60)).padStart(2,'0') + ':' + String(m%60).padStart(2,'0');
+  const label = `${fmt(ts)}\\u2013${fmt(te)} CEST`;
+  return `<div class="cal-session" style="top:${top}px;height:${height}px">` +
+    `<div class="session-header"><span>${label}</span><span>${talks.length} talks</span></div>` +
+    `<div class="session-list">${talks.map(t => _renderSessionItem(t, dayLabel)).join('')}</div></div>`;
+}
+
+// ── Full calendar grid for one day ─────────────────────────────────────────
+function _renderCalendarDay(day) {
+  const { day_start_min: ds, day_end_min: de, rooms, rooms_map } = day;
+  const total_min = de - ds;
+  const PX = 4, COL_W = 180;
+  const PST = 17*60+30, PET = 19*60;
+
+  let marks = '', lines = '';
+  for (let off = 0; off <= total_min; off += 30) {
+    const top = off * PX;
+    const am  = ds + off;
+    const lbl = String(Math.floor(am/60)).padStart(2,'0') + ':' + String(am%60).padStart(2,'0');
+    marks += `<div class="cal-mark${off===0?' first-mark':''}" style="top:${top}px">${lbl}</div>`;
+    lines += `<div class="${am%60===0?'cal-hour-line':'cal-half-line'}" style="top:${top}px"></div>`;
+  }
+  if (PST >= ds && PST < de) {
+    const pt = (PST-ds)*PX, ph = (Math.min(PET,de)-PST)*PX;
+    lines += `<div class="cal-poster-band" style="top:${pt}px;height:${ph}px"></div>`;
+  }
+
+  let cols = '';
+  for (const room of rooms) {
+    const sorted = [...(rooms_map[room]||[])].sort((a,b) => {
+      const [as] = _timeBounds(a); const [bs] = _timeBounds(b); return as-bs;
+    });
+    // group by identical time bounds
+    const groups = []; const gmap = new Map();
+    for (const t of sorted) {
+      const [s,e] = _timeBounds(t); const k = `${s}-${e}`;
+      if (!gmap.has(k)) { gmap.set(k, groups.length); groups.push({s,e,talks:[]}); }
+      groups[gmap.get(k)].talks.push(t);
+    }
+    let cards = '';
+    for (const {s:ts, e:te, talks:grp} of groups) {
+      const top = (ts-ds)*PX, h = Math.max(te-ts,5)*PX;
+      cards += grp.length===1 ? _renderCalCard(grp[0],top,h,day.label) : _renderSessionBlock(grp,top,h,ts,te,day.label);
+    }
+    cols += `<div class="cal-col">${cards}</div>`;
+  }
+
+  const tw = rooms.length * COL_W;
+  const rh = rooms.map(r=>`<div class="cal-room-head">${he(r)}</div>`).join('');
+  const tp = total_min * PX;
+  return `<div class="cal-wrap">` +
+    `<div class="cal-header-row"><div class="cal-gutter-ph"></div>${rh}</div>` +
+    `<div class="cal-body">` +
+    `<div class="cal-gutter" style="height:${tp}px">${marks}</div>` +
+    `<div class="cal-timeline" style="height:${tp}px;width:${tw}px">${lines}<div class="cal-cols">${cols}</div></div>` +
+    `</div></div>`;
+}
+
+// ── Agenda (mobile flat list) for one day ──────────────────────────────────
+function _renderAgendaDay(day) {
+  const talks = [];
+  for (const rm of day.rooms) for (const t of (day.rooms_map[rm]||[])) talks.push(t);
+  talks.sort((a,b) => a.start_min-b.start_min || a.room.localeCompare(b.room) || a.title.localeCompare(b.title));
+  let rows = '', lastHour = -1;
+  for (const t of talks) {
+    const h = Math.floor(t.start_min/60);
+    if (h !== lastHour) {
+      lastHour = h;
+      rows += `<div class="agenda-hour-sep" style="top:var(--tabs-h,0)"><span>${String(h).padStart(2,'0')}:00</span></div>`;
+    }
+    const id      = _talkId(t);
+    const color   = CONF_COLOR[t.conf] || '#999';
+    const short   = CONF_SHORT[t.conf] || t.conf;
+    const search  = he(t.title + ' ' + t.paper + ' ' + t.author);
+    const plenary = t.conf === 'PLENARY';
+    const ts      = String(Math.floor(t.start_min/60)).padStart(2,'0') + ':' + String(t.start_min%60).padStart(2,'0');
+    const endH    = t.end_str ? `<span class="agenda-time-end">${he(t.end_str)}</span>` : '';
+    const meta    = [t.room, t.author].filter(p=>p&&p!=='Room TBC').map(p=>he(p)).join(' · ');
+    rows += `<div class="agenda-row talk${plenary?' agenda-row--plenary':''}" data-search="${search}" data-id="${he(id)}" ${_modalAttrs(t, day.label)} style="border-left-color:${color}">` +
+      `<div class="agenda-time-col"><span class="agenda-time-start">${ts}</span>${endH}</div>` +
+      `<div class="agenda-event-col"><span class="agenda-conf" style="color:${color}">${he(short)}</span>` +
+      `<div class="agenda-title"><span class="talk-link" onclick="openTalkModal(this)">${he(t.title)}</span></div>` +
+      (meta ? `<div class="agenda-meta">${meta}</div>` : '') + `</div>` +
+      `<button class="star-btn" onclick="toggleBookmark(this)" title="Save to My Schedule"${plenary?' style="color:#7eb8f7"':''}>&#9734;</button>` +
+      `</div>`;
+  }
+  return `<div class="cal-agenda">${rows}</div>`;
+}
+
+// ── Build one schedule day on demand ───────────────────────────────────────
+function _buildScheduleDay(day) {
+  if (_builtScheduleDays.has(day.date_iso)) return;
+  _builtScheduleDays.add(day.date_iso);
+  const panel = document.getElementById('day-' + day.date_iso);
+  if (!panel) return;
+  panel.innerHTML = _renderCalendarDay(day) + _renderAgendaDay(day);
+  _applyState(panel);
+}
+
+// ── Talk list ──────────────────────────────────────────────────────────────
+function _renderTalkListItem(t, date_iso, dayLabel) {
+  const id    = _talkId(t);
+  const color = CONF_COLOR[t.conf] || '#999';
+  const short = CONF_SHORT[t.conf] || t.conf;
+  const search = he(t.title + ' ' + t.paper + ' ' + t.author);
+  const ts    = String(Math.floor(t.start_min/60)).padStart(2,'0') + ':' + String(t.start_min%60).padStart(2,'0');
+  const tl    = t.end_str ? ts + '\\u2013' + t.end_str : ts;
+  const meta  = t.conf !== 'PLENARY' ? `[${he(t.paper)}] ${he(t.author)}` : '';
+  return `<div class="talk-list-item" data-search="${search}" data-id="${he(id)}" ` +
+    `data-day="${he(date_iso)}" data-day-label="${he(dayLabel)}" ${_modalAttrs(t)}>` +
+    `<div class="talk-list-time">${tl}<br>${he(t.room)}</div>` +
+    `<div class="talk-list-body"><span class="talk-list-conf" style="color:${color}">${he(short)}</span>` +
+    `<div class="talk-list-title"><span class="talk-link" onclick="openTalkModal(this)">${he(t.title)}</span></div>` +
+    (meta ? `<div class="talk-list-meta">${meta}</div>` : '') + `</div>` +
+    `<button class="talk-skip-btn" onclick="toggleTalkSkip(this)" title="Not interested">&#10005;</button>` +
+    `<button class="star-btn" onclick="toggleBookmark(this)" title="Save to My Schedule">&#9734;</button>` +
+    `</div>`;
+}
+
+function _ensureTalkListBuilt() {
+  if (_talkListBuilt) return;
+  _talkListBuilt = true;
+  const body = document.getElementById('talklist-body');
+  if (!body) return;
+  let tabs = `<button class="tab-btn active" data-day="all" onclick="switchTalkListDay('all')" style="font-size:12px;padding:5px 14px">All days</button>`;
+  let panels = '<span id="talklist-star-count"></span>';
+  for (const day of ALL_DAYS) {
+    tabs += `<button class="tab-btn" data-day="${day.date_iso}" onclick="switchTalkListDay('${day.date_iso}')" style="font-size:12px;padding:5px 14px">${he(day.label)}</button>`;
+    const talks = [];
+    for (const rm of day.rooms) for (const t of (day.rooms_map[rm]||[])) talks.push(t);
+    talks.sort((a,b) => a.start_min-b.start_min || a.room.localeCompare(b.room) || a.title.localeCompare(b.title));
+    panels += `<div class="talk-list-day-panel active" id="talklist-day-${day.date_iso}">` +
+      talks.map(t => _renderTalkListItem(t, day.date_iso, day.label)).join('') + `</div>`;
+  }
+  body.innerHTML = `<div class="tabs">${tabs}</div>` + panels;
+  _applyState(body);
+  updateTalkListCount();
+}
+
+// ── Poster list ────────────────────────────────────────────────────────────
+function _renderPosterItem(t, conf, date_iso, dayLabel) {
+  const id    = he(t.paper);
+  const color = CONF_COLOR[conf] || '#999';
+  const short = CONF_SHORT[conf] || conf;
+  const search = he(t.title + ' ' + t.paper + ' ' + t.author);
+  const tc    = {...t, conf};
+  return `<div class="poster-item" data-id="${id}" data-search="${search}" ` +
+    `data-day="${he(date_iso)}" data-day-label="${he(dayLabel)}" ${_modalAttrs(tc)}>` +
+    `<div class="poster-item-body">` +
+    `<div class="poster-item-title"><span class="talk-link" onclick="openTalkModal(this)">${he(t.title)}</span></div>` +
+    `<div class="poster-item-meta"><span class="poster-item-conf" style="color:${color}">${he(short)}</span>` +
+    ` &middot; [${id}] ${he(t.author)}</div></div>` +
+    `<div class="poster-actions">` +
+    `<button class="poster-skip-btn" onclick="togglePosterSkip(this)" title="Not interested">&#10005;</button>` +
+    `<button class="poster-star-btn" onclick="togglePosterBookmark(this)" title="Save to My Schedule">&#9734;</button>` +
+    `</div></div>`;
+}
+
+function _ensurePosterBuilt() {
+  if (_posterBuilt) return;
+  _posterBuilt = true;
+  const body = document.getElementById('poster-body');
+  if (!body) return;
+  let tabs = `<button class="tab-btn active" data-day="all" onclick="switchPosterDay('all')" style="font-size:12px;padding:5px 14px">All days</button>`;
+  let panels = '<span id="poster-star-count"></span>';
+  for (const day of ALL_POSTER_DAYS) {
+    tabs += `<button class="tab-btn" data-day="${day.date_iso}" onclick="switchPosterDay('${day.date_iso}')" style="font-size:12px;padding:5px 14px">${he(day.label)}</button>`;
+    let items = '';
+    for (const [conf, talks] of Object.entries(day.confs_map))
+      for (const t of talks) items += _renderPosterItem(t, conf, day.date_iso, day.label);
+    panels += `<div class="poster-day-panel active" id="poster-day-${day.date_iso}">${items}</div>`;
+  }
+  body.innerHTML = `<div class="tabs">${tabs}</div>` + panels;
+  _applyState(body);
+  applyPosterSearch();
+}
+
+// ── Apply bookmarks/skipped/filters to a freshly-built container ───────────
+function _applyState(el) {
+  el.querySelectorAll('.talk, .talk-list-item').forEach(c => {
+    const on = bookmarks.has(c.dataset.id);
+    c.classList.toggle('bookmarked', on);
+    const star = c.querySelector('.star-btn');
+    if (star) star.textContent = on ? '\\u2605' : '\\u2606';
+  });
+  el.querySelectorAll('.talk-list-item').forEach(c => {
+    const on = skipped.has(c.dataset.id);
+    c.classList.toggle('skipped', on);
+    const btn = c.querySelector('.talk-skip-btn');
+    if (btn) btn.innerHTML = on ? UNDO_ICON : '&#10005;';
+  });
+  el.querySelectorAll('.poster-item').forEach(c => {
+    const id = c.dataset.id;
+    const bk = bookmarks.has(id), sk = skipped.has(id);
+    c.classList.toggle('bookmarked', bk);
+    c.classList.toggle('skipped', sk);
+    const star = c.querySelector('.poster-star-btn');
+    if (star) star.textContent = bk ? '\\u2605' : '\\u2606';
+    const skip = c.querySelector('.poster-skip-btn');
+    if (skip) skip.innerHTML = sk ? UNDO_ICON : '&#10005;';
+  });
+  if (confFilters.size > 0)
+    el.querySelectorAll('.talk,.talk-list-item,.poster-item').forEach(c =>
+      c.classList.toggle('conf-hidden', !confFilters.has(c.dataset.conf)));
+}
+
+// ── Schedule initialisation (runs after all JS is defined) ─────────────────
+(function initSchedule() {
+  const body   = document.getElementById('schedule-body');
+  const tabsEl = document.getElementById('schedule-tabs');
+  if (!body || !tabsEl || !ALL_DAYS.length) return;
+  ALL_DAYS.forEach((day, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'tab-btn' + (i === 0 ? ' active' : '');
+    btn.dataset.day = day.date_iso;
+    btn.textContent = day.label;
+    btn.onclick = () => switchDay(day.date_iso);
+    tabsEl.appendChild(btn);
+    const panel = document.createElement('div');
+    panel.className = 'day-panel';
+    panel.id = 'day-' + day.date_iso;
+    panel.style.display = i === 0 ? 'block' : 'none';
+    body.appendChild(panel);
+  });
+  _buildScheduleDay(ALL_DAYS[0]);
+  updateStickyOffset();
+})();
+"""
+
 JS = """
 const UNDO_ICON = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" style="display:block"><path fill-rule="evenodd" d="M9.53 2.47a.75.75 0 0 1 0 1.06L4.81 8.25H15a6.75 6.75 0 0 1 0 13.5h-3a.75.75 0 0 1 0-1.5h3a5.25 5.25 0 1 0 0-10.5H4.81l4.72 4.72a.75.75 0 1 1-1.06 1.06l-6-6a.75.75 0 0 1 0-1.06l6-6a.75.75 0 0 1 1.06 0Z" clip-rule="evenodd"/></svg>`;
 
@@ -1551,14 +1781,14 @@ function saveBookmarks(sync = true) {
 function updateTalkListCount() {
   const countEl = document.getElementById('talklist-star-count');
   if (!countEl) return;
-  const panel = document.querySelector('.talk-list-day-panel.active');
-  if (!panel) return;
   let starred = 0, total = 0;
-  panel.querySelectorAll('.talk-list-item').forEach(t => {
-    if (!t.classList.contains('conf-hidden')) {
-      total++;
-      if (t.classList.contains('bookmarked')) starred++;
-    }
+  document.querySelectorAll('.talk-list-day-panel.active').forEach(panel => {
+    panel.querySelectorAll('.talk-list-item').forEach(t => {
+      if (!t.classList.contains('conf-hidden')) {
+        total++;
+        if (t.classList.contains('bookmarked')) starred++;
+      }
+    });
   });
   countEl.textContent = starred ? starred + ' ★ / ' + total + ' talks' : total + ' talks';
 }
@@ -1610,10 +1840,12 @@ function toggleMySchedule() {
 }
 
 function switchDay(iso) {
+  const day = ALL_DAYS.find(d => d.date_iso === iso);
+  if (day) _buildScheduleDay(day);
   document.querySelectorAll('.day-panel').forEach(p => p.style.display = 'none');
-  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('#schedule-body .tab-btn').forEach(b => b.classList.remove('active'));
   document.getElementById('day-' + iso).style.display = 'block';
-  document.querySelector('[data-day="' + iso + '"]').classList.add('active');
+  document.querySelector('#schedule-body [data-day="' + iso + '"]').classList.add('active');
   applySearch();
 }
 
@@ -1622,16 +1854,19 @@ function applySearch() {
   let n = 0;
 
   if (document.getElementById('page-talklist').classList.contains('active')) {
-    const panel = document.querySelector('.talk-list-day-panel.active');
-    if (panel) {
+    document.querySelectorAll('.talk-list-day-panel.active').forEach(panel => {
       panel.querySelectorAll('.talk-list-item').forEach(t => {
-        const searchOk = !q || t.dataset.search.toLowerCase().includes(q);
+        const searchOk = !q || t.dataset.search.toLowerCase().includes(q) ||
+          (TALK_DATA[t.dataset.id]?.abstract || '').toLowerCase().includes(q);
         const scheduleOk = !myScheduleActive || t.classList.contains('bookmarked');
         const visible = searchOk && scheduleOk;
         t.style.display = visible ? '' : 'none';
         if (visible && q && !t.classList.contains('conf-hidden')) n++;
       });
-    }
+      const anyVisible = [...panel.querySelectorAll('.talk-list-item')].some(
+        t => t.style.display !== 'none' && !t.classList.contains('conf-hidden'));
+      panel.style.display = anyVisible ? '' : 'none';
+    });
     document.getElementById('match-count').textContent =
       q ? n + ' match' + (n !== 1 ? 'es' : '') : '';
     updateTalkListCount();
@@ -1649,9 +1884,10 @@ function applySearch() {
   panel.querySelectorAll('.talk').forEach(t => {
     if (t.classList.contains('conf-hidden')) { t.classList.remove('dim', 'match'); return; }
     const text = t.dataset.search.toLowerCase();
+    const abstract = (TALK_DATA[t.dataset.id]?.abstract || '').toLowerCase();
     if (!q) {
       t.classList.remove('dim', 'match');
-    } else if (text.includes(q)) {
+    } else if (text.includes(q) || abstract.includes(q)) {
       t.classList.remove('dim');
       t.classList.add('match');
       n++;
@@ -1811,8 +2047,10 @@ function switchView(view) {
   if (label) label.textContent = document.querySelector('.view-btn[data-view="' + view + '"]').textContent.trim();
   document.querySelector('.view-nav').classList.remove('open');
   updateStickyOffset();
-  if (view === 'swipe') initSwipe();
-  if (view === 'talkswipe') initTalkSwipe();
+  if (view === 'talklist') _ensureTalkListBuilt();
+  if (view === 'posters')  _ensurePosterBuilt();
+  if (view === 'swipe')    { _ensurePosterBuilt(); initSwipe(); }
+  if (view === 'talkswipe') { _ensureTalkListBuilt(); initTalkSwipe(); }
   const isSwipe = view === 'swipe' || view === 'talkswipe';
   const sw = document.querySelector('.search-wrap');
   sw.style.opacity = isSwipe ? '0.35' : '';
@@ -1826,13 +2064,18 @@ function switchView(view) {
   };
   document.getElementById('search').placeholder = placeholders[view] || 'Search…';
   document.getElementById('match-count').textContent = '';
+  document.getElementById('back-to-top').classList.remove('visible');
   applySearch();
 }
 
 function switchTalkListDay(iso) {
-  document.querySelectorAll('.talk-list-day-panel').forEach(p => p.classList.remove('active'));
+  if (iso === 'all') {
+    document.querySelectorAll('.talk-list-day-panel').forEach(p => p.classList.add('active'));
+  } else {
+    document.querySelectorAll('.talk-list-day-panel').forEach(p => p.classList.remove('active'));
+    document.getElementById('talklist-day-' + iso).classList.add('active');
+  }
   document.querySelectorAll('#talklist-body .tab-btn').forEach(b => b.classList.remove('active'));
-  document.getElementById('talklist-day-' + iso).classList.add('active');
   document.querySelector('#talklist-body [data-day="' + iso + '"]').classList.add('active');
   applySearch();
   updateTalkListCount();
@@ -1893,30 +2136,40 @@ function togglePosterSkip(btn) {
 }
 
 function switchPosterDay(iso) {
-  document.querySelectorAll('.poster-day-panel').forEach(p => p.classList.remove('active'));
+  if (iso === 'all') {
+    document.querySelectorAll('.poster-day-panel').forEach(p => p.classList.add('active'));
+  } else {
+    document.querySelectorAll('.poster-day-panel').forEach(p => p.classList.remove('active'));
+    document.getElementById('poster-day-' + iso).classList.add('active');
+  }
   document.querySelectorAll('#poster-body .tab-btn').forEach(b => b.classList.remove('active'));
-  document.getElementById('poster-day-' + iso).classList.add('active');
   document.querySelector('#poster-body [data-day="' + iso + '"]').classList.add('active');
   applyPosterSearch();
 }
 
 function applyPosterSearch() {
   const q = document.getElementById('search').value.toLowerCase().trim();
-  const panel = document.querySelector('.poster-day-panel.active');
-  if (!panel) return;
+  const panels = document.querySelectorAll('.poster-day-panel.active');
+  if (!panels.length) return;
   let matchCount = 0, total = 0, starred = 0;
-  panel.querySelectorAll('.poster-item').forEach(item => {
-    const text = item.dataset.search.toLowerCase();
-    const searchOk = !q || text.includes(q);
-    const scheduleOk = !myScheduleActive || item.classList.contains('bookmarked');
-    if (searchOk && scheduleOk) {
-      item.style.display = '';
-      if (q && !item.classList.contains('conf-hidden')) matchCount++;
-    } else {
-      item.style.display = 'none';
-    }
-    if (!item.classList.contains('conf-hidden')) total++;
-    if (item.classList.contains('bookmarked') && !item.classList.contains('conf-hidden')) starred++;
+  panels.forEach(panel => {
+    panel.querySelectorAll('.poster-item').forEach(item => {
+      const text = item.dataset.search.toLowerCase();
+      const abstract = (TALK_DATA[item.dataset.id]?.abstract || '').toLowerCase();
+      const searchOk = !q || text.includes(q) || abstract.includes(q);
+      const scheduleOk = !myScheduleActive || item.classList.contains('bookmarked');
+      if (searchOk && scheduleOk) {
+        item.style.display = '';
+        if (q && !item.classList.contains('conf-hidden')) matchCount++;
+      } else {
+        item.style.display = 'none';
+      }
+      if (!item.classList.contains('conf-hidden')) total++;
+      if (item.classList.contains('bookmarked') && !item.classList.contains('conf-hidden')) starred++;
+    });
+    const anyVisible = [...panel.querySelectorAll('.poster-item')].some(
+      item => item.style.display !== 'none' && !item.classList.contains('conf-hidden'));
+    panel.style.display = anyVisible ? '' : 'none';
   });
   document.getElementById('match-count').textContent =
     q ? matchCount + ' match' + (matchCount !== 1 ? 'es' : '') : '';
@@ -1978,9 +2231,12 @@ let swipeFilterDay = 'all';
 let swipeFilterConf = 'all';
 
 function buildSwipeQueue() {
-  const allCards = Array.from(document.querySelectorAll('.swipe-card-data'));
-  swipeQueue = allCards
+  _ensurePosterBuilt();
+  const seen = new Set();
+  swipeQueue = Array.from(document.querySelectorAll('.poster-item'))
     .filter(el => {
+      if (seen.has(el.dataset.id)) return false;
+      seen.add(el.dataset.id);
       if (swipeFilterDay !== 'all' && el.dataset.day !== swipeFilterDay) return false;
       if (swipeFilterConf !== 'all' && el.dataset.conf !== swipeFilterConf) return false;
       return !bookmarks.has(el.dataset.id) && !skipped.has(el.dataset.id);
@@ -1993,7 +2249,7 @@ function buildSwipeQueue() {
       title: el.dataset.title,
       paper: el.dataset.paper,
       author: el.dataset.author,
-      abstract: el.dataset.abstract,
+      abstract: TALK_DATA[el.dataset.id]?.abstract || '',
       url: el.dataset.url,
       color: el.dataset.color,
       short: el.dataset.short,
@@ -2194,9 +2450,9 @@ let talkSwipeFilterDay = 'all';
 let talkSwipeFilterConf = 'all';
 
 function buildTalkSwipeQueue() {
-  const allCards = Array.from(document.querySelectorAll('.talk-swipe-card-data'));
+  _ensureTalkListBuilt();
   const seen = new Set();
-  talkSwipeQueue = allCards
+  talkSwipeQueue = Array.from(document.querySelectorAll('.talk-list-item'))
     .filter(el => {
       if (seen.has(el.dataset.id)) return false;
       seen.add(el.dataset.id);
@@ -2212,12 +2468,12 @@ function buildTalkSwipeQueue() {
       title: el.dataset.title,
       paper: el.dataset.paper,
       author: el.dataset.author,
-      abstract: el.dataset.abstract,
+      abstract: TALK_DATA[el.dataset.id]?.abstract || '',
       url: el.dataset.url,
       color: el.dataset.color,
       short: el.dataset.short,
-      time: el.dataset.time,
-      room: el.dataset.room,
+      time: el.dataset.time || '',
+      room: el.dataset.room || '',
     }));
   talkSwipeIdx = 0;
   talkSwipeHistory = [];
@@ -2569,13 +2825,15 @@ function openTalkModal(el) {
   document.getElementById('talk-modal-conf').style.color = d.color || '#999';
   document.getElementById('talk-modal-title').textContent = d.title || '';
   const meta = [];
+  if (d.dayLabel) meta.push(d.dayLabel);
   if (d.paper) meta.push('[' + d.paper + ']');
   if (d.time) meta.push(d.time);
   if (d.room && d.room !== 'Room TBC') meta.push(d.room);
   document.getElementById('talk-modal-meta').textContent = meta.join(' · ');
-  document.getElementById('talk-modal-authors').textContent = d.authors || d.author || '';
+  const td = TALK_DATA[d.id] || {};
+  document.getElementById('talk-modal-authors').textContent = td.authors || d.author || '';
   document.getElementById('talk-modal-abstract').textContent =
-    d.abstract || 'No abstract available.';
+    td.abstract || 'No abstract available.';
   const ext = document.getElementById('talk-modal-ext');
   ext.href = d.url || '#';
   ext.style.display = d.url ? '' : 'none';
@@ -2620,99 +2878,117 @@ document.getElementById('talk-modal').addEventListener('click', ev => {
 document.addEventListener('keydown', ev => {
   if (ev.key === 'Escape') closeTalkModal();
 });
+
+// ── Swipe tip banner ──────────────────────────────────────────────────────
+const LS_SWIPE_TIP = 'spie_as26_swipe_tip';
+let _swipeTipTimer = null;
+
+function initSwipeTip() {
+  if (localStorage.getItem(LS_SWIPE_TIP)) return;
+  const tip = document.getElementById('swipe-tip');
+  setTimeout(() => tip.classList.add('visible'), 600);
+  _swipeTipTimer = setTimeout(dismissSwipeTip, 9000);
+}
+
+function dismissSwipeTip() {
+  clearTimeout(_swipeTipTimer);
+  document.getElementById('swipe-tip').classList.remove('visible');
+  localStorage.setItem(LS_SWIPE_TIP, '1');
+}
+
+function goSwipe() {
+  dismissSwipeTip();
+  switchView('talkswipe');
+}
+
+// ── Back to top ───────────────────────────────────────────────────────────
+function initBackToTop() {
+  ['talklist-body', 'poster-body'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.addEventListener('scroll', _updateBackToTop, { passive: true });
+  });
+}
+
+function _updateBackToTop() {
+  const active = document.querySelector('#page-talklist.active, #page-posters.active');
+  const scroller = active && active.querySelector('#talklist-body, #poster-body');
+  document.getElementById('back-to-top').classList.toggle(
+    'visible', !!(scroller && scroller.scrollTop > 300));
+}
+
+function backToTop() {
+  const active = document.querySelector('#page-talklist.active, #page-posters.active');
+  const scroller = active && active.querySelector('#talklist-body, #poster-body');
+  if (scroller) scroller.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ── iCal export ───────────────────────────────────────────────────────────
+function _icalEsc(s) {
+  return String(s).replace(/\\\\/g, '\\\\\\\\').replace(/;/g, '\\\\;').replace(/,/g, '\\\\,').replace(/\\n/g, '\\\\n');
+}
+
+function _icalDt(dateIso, cestMin) {
+  const utcMin = cestMin - 120;
+  const d = dateIso.replace(/-/g, '');
+  const h = String(Math.floor(((utcMin % 1440) + 1440) % 1440 / 60)).padStart(2, '0');
+  const m = String(((utcMin % 60) + 60) % 60).padStart(2, '0');
+  return d + 'T' + h + m + '00Z';
+}
+
+function downloadIcal() {
+  const lines = [
+    'BEGIN:VCALENDAR', 'VERSION:2.0',
+    'PRODID:-//SPIE Astronomy 2026//Schedule//EN',
+    'CALSCALE:GREGORIAN', 'METHOD:PUBLISH',
+  ];
+
+  function addEvent(t, dateIso) {
+    const id = t.paper || ('PLENARY-' + t.title);
+    if (!bookmarks.has(id)) return;
+    const startMin = t.start_min;
+    let endMin = startMin + 20;
+    if (t.end_str) {
+      const p = t.end_str.split(':');
+      const e = parseInt(p[0]) * 60 + parseInt(p[1]);
+      if (!isNaN(e)) endMin = e;
+    }
+    const td = TALK_DATA[id] || {};
+    const descParts = [t.author, td.abstract].filter(Boolean);
+    lines.push('BEGIN:VEVENT');
+    lines.push('UID:' + id.replace(/[^A-Za-z0-9]/g, '-') + '@spie-as26');
+    lines.push('DTSTART:' + _icalDt(dateIso, startMin));
+    lines.push('DTEND:' + _icalDt(dateIso, endMin));
+    lines.push('SUMMARY:' + _icalEsc(t.title));
+    if (t.room && t.room !== 'Room TBC') lines.push('LOCATION:' + _icalEsc(t.room));
+    if (descParts.length) lines.push('DESCRIPTION:' + _icalEsc(descParts.join('\\n\\n')));
+    if (t.url) lines.push('URL:https://spie.org' + t.url);
+    lines.push('END:VEVENT');
+  }
+
+  for (const day of ALL_DAYS)
+    for (const rm of day.rooms)
+      for (const t of (day.rooms_map[rm] || [])) addEvent(t, day.date_iso);
+
+  for (const day of ALL_POSTER_DAYS)
+    for (const [conf, talks] of Object.entries(day.confs_map))
+      for (const t of talks) addEvent({...t, conf}, day.date_iso);
+
+  lines.push('END:VCALENDAR');
+  const blob = new Blob([lines.join('\\r\\n')], { type: 'text/calendar;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'spie-as26-schedule.ics';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(a.href);
+}
+
+initSwipeTip();
+initBackToTop();
 """
 
 
-def render_poster_page(poster_days: list[dict]) -> str:
-    if not poster_days:
-        return '<div style="padding:32px;color:#888">No poster sessions found.</div>'
-
-    # Build all items once; day panels are subsets
-    all_items: list[str] = []
-    day_items: dict[str, list[str]] = {}
-    for d in poster_days:
-        day_list: list[str] = []
-        for conf, talks in d["confs_map"].items():
-            color = CONF_COLOR.get(conf, "#999")
-            short = CONF_SHORT.get(conf, conf)
-            for t in talks:
-                card_id = e(t["paper"])
-                href = f"https://spie.org{t['url']}" if t.get("url") else ""
-                title_html = f'<span class="talk-link" onclick="openTalkModal(this)">{e(t["title"])}</span>'
-                search_text = e(
-                    f"{t['title']} {t['paper']} {t['author']} {t['abstract']}"
-                )
-                item = (
-                    f'<div class="poster-item" data-id="{card_id}" data-search="{search_text}" '
-                    f"{_modal_data(t, href, short, color)}>"
-                    f'<div class="poster-item-body">'
-                    f'<div class="poster-item-title">{title_html}</div>'
-                    f'<div class="poster-item-meta">'
-                    f'<span class="poster-item-conf" style="color:{color}">{e(short)}</span>'
-                    f" &middot; [{e(t['paper'])}] {e(t['author'])}"
-                    f"</div>"
-                    f"</div>"
-                    f'<div class="poster-actions">'
-                    f'<button class="poster-skip-btn" onclick="togglePosterSkip(this)" title="Not interested">&#10005;</button>'
-                    f'<button class="poster-star-btn" onclick="togglePosterBookmark(this)" title="Save to My Schedule">&#9734;</button>'
-                    f"</div>"
-                    f"</div>"
-                )
-                day_list.append(item)
-                all_items.append(item)
-        day_items[d["date_iso"]] = day_list
-
-    tabs = (
-        '<button class="tab-btn active" data-day="all" onclick="switchPosterDay(\'all\')" '
-        'style="font-size:12px;padding:5px 14px">All days</button>'
-    )
-    tabs += "".join(
-        f'<button class="tab-btn" '
-        f'data-day="{d["date_iso"]}" onclick="switchPosterDay(\'{d["date_iso"]}\')" '
-        f'style="font-size:12px;padding:5px 14px">'
-        f"{e(d['label'])}</button>"
-        for d in poster_days
-    )
-
-    all_panel = (
-        '<div class="poster-day-panel active" id="poster-day-all">'
-        + "".join(all_items)
-        + "</div>"
-    )
-    day_panels = "".join(
-        f'<div class="poster-day-panel" id="poster-day-{d["date_iso"]}">'
-        + "".join(day_items[d["date_iso"]])
-        + "</div>"
-        for d in poster_days
-    )
-
-    star_count = '<span id="poster-star-count"></span>'
-    return f'<div class="tabs">{tabs}</div>' + star_count + all_panel + day_panels
-
-
-def render_swipe_data(poster_days: list[dict]) -> str:
-    """Hidden elements carrying poster metadata for the swipe game JS."""
-    parts = []
-    for d in poster_days:
-        for conf, talks in d["confs_map"].items():
-            color = CONF_COLOR.get(conf, "#999")
-            short = CONF_SHORT.get(conf, conf)
-            for t in talks:
-                parts.append(
-                    f'<span class="swipe-card-data" '
-                    f'data-id="{e(t["paper"])}" '
-                    f'data-day="{e(d["date_iso"])}" '
-                    f'data-day-label="{e(d["label"])}" '
-                    f'data-conf="{e(conf)}" '
-                    f'data-title="{e(t["title"])}" '
-                    f'data-paper="{e(t["paper"])}" '
-                    f'data-author="{e(t["author"])}" '
-                    f'data-abstract="{e(t["abstract"])}" '
-                    f'data-url="{e(t["url"])}" '
-                    f'data-color="{color}" '
-                    f'data-short="{e(short)}"></span>'
-                )
-    return '<div id="swipe-data" style="display:none">' + "".join(parts) + "</div>"
 
 
 def render_swipe_page(poster_days: list[dict]) -> str:
@@ -2743,37 +3019,6 @@ def render_swipe_page(poster_days: list[dict]) -> str:
     )
 
 
-def render_talk_swipe_data(days: list[dict]) -> str:
-    """Hidden spans carrying talk metadata for the talk swipe game."""
-    parts = []
-    for d in days:
-        for talks in d["rooms_map"].values():
-            for t in talks:
-                color = CONF_COLOR.get(t["conf"], "#999")
-                short = CONF_SHORT.get(t["conf"], t["conf"])
-                card_id = t["paper"] if t["paper"] else f"PLENARY-{t['title']}"
-                start_min = to_minutes(t["time_sort"])
-                end_str = slot_end(t["time_slot"])
-                time_str = f"{start_min // 60:02d}:{start_min % 60:02d}"
-                time_label = f"{time_str}–{end_str} CEST" if end_str else time_str
-                parts.append(
-                    f'<span class="talk-swipe-card-data" '
-                    f'data-id="{e(card_id)}" '
-                    f'data-day="{e(d["date_iso"])}" '
-                    f'data-day-label="{e(d["label"])}" '
-                    f'data-conf="{e(t["conf"])}" '
-                    f'data-title="{e(t["title"])}" '
-                    f'data-paper="{e(t["paper"])}" '
-                    f'data-author="{e(t["author"])}" '
-                    f'data-abstract="{e(t["abstract"] or "")}" '
-                    f'data-url="{e(t["url"] or "")}" '
-                    f'data-color="{color}" '
-                    f'data-short="{e(short)}" '
-                    f'data-time="{e(time_label)}" '
-                    f'data-room="{e(t["room"])}"></span>'
-                )
-    return '<div id="talk-swipe-data" style="display:none">' + "".join(parts) + "</div>"
-
 
 def render_talk_swipe_page(days: list[dict]) -> str:
     day_opts = "".join(
@@ -2803,89 +3048,7 @@ def render_talk_swipe_page(days: list[dict]) -> str:
     )
 
 
-def render_talk_list_page(days: list[dict]) -> str:
-    """Flat chronological talk list, similar in layout to the poster page."""
-    day_items: dict[str, list[str]] = {}
-    all_items: list[str] = []
-
-    for d in days:
-        all_talks: list[dict] = []
-        for talks in d["rooms_map"].values():
-            all_talks.extend(talks)
-        all_talks.sort(
-            key=lambda t: (to_minutes(t["time_sort"]), t["room"], t["title"])
-        )
-
-        items: list[str] = []
-        for talk in all_talks:
-            color = CONF_COLOR.get(talk["conf"], "#999")
-            short = CONF_SHORT.get(talk["conf"], talk["conf"])
-            search_str = e(
-                f"{talk['title']} {talk['paper']} {talk['author']} {talk['abstract']}"
-            )
-            href = f"https://spie.org{talk['url']}" if talk.get("url") else ""
-            card_id = e(talk["paper"] if talk["paper"] else f"PLENARY-{talk['title']}")
-            start_min = to_minutes(talk["time_sort"])
-            time_str = f"{start_min // 60:02d}:{start_min % 60:02d}"
-            end_str = slot_end(talk["time_slot"])
-            time_label = f"{time_str}–{end_str}" if end_str else time_str
-            title_html = f'<span class="talk-link" onclick="openTalkModal(this)">{e(talk["title"])}</span>'
-            meta = (
-                f"[{e(talk['paper'])}] {e(talk['author'])}"
-                if talk["conf"] != "PLENARY"
-                else ""
-            )
-            item = (
-                f'<div class="talk-list-item" data-search="{search_str}" data-id="{card_id}" '
-                f"{_modal_data(talk, href, short, color)}>"
-                f'<div class="talk-list-time">{time_label}<br>{e(talk["room"])}</div>'
-                f'<div class="talk-list-body">'
-                f'<span class="talk-list-conf" style="color:{color}">{e(short)}</span>'
-                f'<div class="talk-list-title">{title_html}</div>'
-                f"{'<div class="talk-list-meta">' + meta + '</div>' if meta else ''}"
-                f"</div>"
-                f'<button class="talk-skip-btn" onclick="toggleTalkSkip(this)" title="Not interested">&#10005;</button>'
-                f'<button class="star-btn" onclick="toggleBookmark(this)" '
-                f'title="Save to My Schedule">&#9734;</button>'
-                f"</div>"
-            )
-            items.append(item)
-            all_items.append(item)
-
-        day_items[d["date_iso"]] = items
-
-    tabs = (
-        '<button class="tab-btn active" data-day="all" '
-        'onclick="switchTalkListDay(\'all\')" style="font-size:12px;padding:5px 14px">'
-        "All days</button>"
-    )
-    tabs += "".join(
-        f'<button class="tab-btn" data-day="{d["date_iso"]}" '
-        f"onclick=\"switchTalkListDay('{d['date_iso']}')\" "
-        f'style="font-size:12px;padding:5px 14px">{e(d["label"])}</button>'
-        for d in days
-    )
-
-    all_panel = (
-        '<div class="talk-list-day-panel active" id="talklist-day-all">'
-        + "".join(all_items)
-        + "</div>"
-    )
-    day_panels = "".join(
-        f'<div class="talk-list-day-panel" id="talklist-day-{d["date_iso"]}">'
-        + "".join(day_items[d["date_iso"]])
-        + "</div>"
-        for d in days
-    )
-
-    return (
-        f'<div class="tabs">{tabs}</div><span id="talklist-star-count"></span>'
-        + all_panel
-        + day_panels
-    )
-
-
-def build_html(days: list[dict], poster_days: list[dict]) -> str:
+def build_html(days: list[dict], poster_days: list[dict], records: list[dict]) -> str:
     legend = "".join(
         f'<span class="legend-item" data-conf="{e(c)}" onclick="toggleConfFilter(\'{e(c)}\')">'
         f'<span class="legend-dot" style="background:{CONF_COLOR.get(c, "#999")}"></span>'
@@ -2909,28 +3072,20 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
         "</nav>"
     )
 
-    tabs = "".join(
-        f'<button class="tab-btn{" active" if i == 0 else ""}" '
-        f'data-day="{d["date_iso"]}" onclick="switchDay(\'{d["date_iso"]}\')">'
-        f"{e(d['label'])}</button>"
-        for i, d in enumerate(days)
-    )
-
-    schedule_panels = "".join(
-        f'<div class="day-panel" id="day-{d["date_iso"]}" '
-        f'style="display:{"block" if i == 0 else "none"}">'
-        f"{render_calendar_day(d)}</div>"
-        for i, d in enumerate(days)
-    )
-
-    full_js = f"const SYNC_API = {repr(SYNC_API_URL)};\n" + JS
-
-    talklist_html = render_talk_list_page(days)
     talkswipe_html = render_talk_swipe_page(days)
-    talk_swipe_data = render_talk_swipe_data(days)
-    poster_html = render_poster_page(poster_days)
     swipe_html = render_swipe_page(poster_days)
-    swipe_data = render_swipe_data(poster_days)
+
+    _dumps = lambda obj: json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
+    full_js = (
+        f"const SYNC_API = {repr(SYNC_API_URL)};\n"
+        f"const TALK_DATA = {_dumps(build_talk_data(records))};\n"
+        f"const ALL_DAYS = {_dumps(serialize_days(days))};\n"
+        f"const ALL_POSTER_DAYS = {_dumps(serialize_poster_days(poster_days))};\n"
+        f"const CONF_COLOR = {_dumps(CONF_COLOR)};\n"
+        f"const CONF_SHORT = {_dumps(CONF_SHORT)};\n"
+        + JS
+        + RENDER_JS
+    )
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -2962,32 +3117,25 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
 {view_nav}
 <div class="page active" id="page-schedule">
 <div id="schedule-body">
-<div class="tabs">{tabs}</div>
-{schedule_panels}
+<div class="tabs" id="schedule-tabs"></div>
 </div>
 </div>
 <div class="page" id="page-talklist">
-<div id="talklist-body">
-{talklist_html}
-</div>
+<div id="talklist-body"></div>
 </div>
 <div class="page" id="page-posters">
-<div id="poster-body">
-{poster_html}
-</div>
+<div id="poster-body"></div>
 </div>
 <div class="page" id="page-talkswipe">
 <div id="talkswipe-body">
 {talkswipe_html}
 </div>
 </div>
-{talk_swipe_data}
 <div class="page" id="page-swipe">
 <div id="swipe-body">
 {swipe_html}
 </div>
 </div>
-{swipe_data}
 
 <div class="modal-backdrop" id="share-modal">
   <div class="modal">
@@ -3018,6 +3166,7 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
     <textarea id="export-code" readonly placeholder="(no bookmarks saved yet)"></textarea>
     <div class="modal-row">
       <button class="modal-btn primary" onclick="copyExport()">Copy to clipboard</button>
+      <button class="modal-btn secondary" onclick="downloadIcal()">Export iCal</button>
       <button class="modal-btn danger" onclick="clearAllBookmarks()">Clear all</button>
       <button class="modal-btn secondary" onclick="closeShareModal()">Close</button>
     </div>
@@ -3048,6 +3197,12 @@ def build_html(days: list[dict], poster_days: list[dict]) -> str:
   </div>
 </div>
 
+<div id="swipe-tip">
+  <div id="swipe-tip-text"><strong>&#129309; Swipe to sort talks</strong>Use Talk Swipe or Poster Swipe to quickly save or skip sessions — Tinder-style.</div>
+  <button class="swipe-tip-try" onclick="goSwipe()">Try it &#8594;</button>
+  <button class="swipe-tip-close" onclick="dismissSwipeTip()">&#10005;</button>
+</div>
+<button id="back-to-top" onclick="backToTop()" title="Back to top">&#8679;</button>
 <script>{full_js}</script>
 </body>
 </html>
@@ -3063,7 +3218,7 @@ def main() -> None:
     )
     days = build_days(records)
     poster_days = build_poster_days(records)
-    html = build_html(days, poster_days)
+    html = build_html(days, poster_days, records)
     out = OUTPUT_DIR / "index.html"
     out.write_text(html, encoding="utf-8")
     print(f"Written → {out}")
