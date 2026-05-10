@@ -103,6 +103,65 @@ UNDO_SVG = (
     "</svg>"
 )
 
+ICON_SVG = """\
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#1e293b"/>
+  <polygon points="16,5 18.6,12.4 26.5,12.6 20.3,17.4 22.5,24.9 16,20.5 9.5,24.9 11.7,17.4 5.5,12.6 13.4,12.4" fill="#f59e0b"/>
+</svg>"""
+
+MANIFEST = """\
+{
+  "name": "SPIE AS26 Schedule",
+  "short_name": "SPIE AS26",
+  "description": "Unofficial schedule viewer for SPIE Astronomical Telescopes + Instrumentation 2026",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e293b",
+  "theme_color": "#1e293b",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}"""
+
+SW_JS = """\
+const CACHE = 'spie-as26-v1';
+const ASSETS = ['/', '/index.html', '/manifest.json', '/icon.svg'];
+
+self.addEventListener('install', e => {
+  e.waitUntil(
+    caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting())
+  );
+});
+
+self.addEventListener('activate', e => {
+  e.waitUntil(
+    caches.keys()
+      .then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k))))
+      .then(() => self.clients.claim())
+  );
+});
+
+self.addEventListener('fetch', e => {
+  if (e.request.method !== 'GET') return;
+  e.respondWith(
+    caches.match(e.request).then(cached => {
+      const network = fetch(e.request).then(resp => {
+        if (resp && resp.status === 200 && resp.type === 'basic') {
+          caches.open(CACHE).then(c => c.put(e.request, resp.clone()));
+        }
+        return resp;
+      }).catch(() => cached || caches.match('/index.html'));
+      return cached || network;
+    })
+  );
+});
+"""
+
 MONTH_MAP = {
     m: i
     for i, m in enumerate(
@@ -3093,6 +3152,12 @@ def build_html(days: list[dict], poster_days: list[dict], records: list[dict]) -
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SPIE AS26 · Schedule</title>
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1e293b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="SPIE AS26">
 <style>{CSS}</style>
 </head>
 <body>
@@ -3205,6 +3270,11 @@ def build_html(days: list[dict], poster_days: list[dict], records: list[dict]) -
 </div>
 <button id="back-to-top" onclick="backToTop()" title="Back to top">&#8679;</button>
 <script>{full_js}</script>
+<script>
+if ('serviceWorker' in navigator) {{
+  window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(() => {{}}));
+}}
+</script>
 </body>
 </html>
 """
@@ -3223,6 +3293,10 @@ def main() -> None:
     out = OUTPUT_DIR / "index.html"
     out.write_text(html, encoding="utf-8")
     print(f"Written → {out}")
+    (OUTPUT_DIR / "icon.svg").write_text(ICON_SVG, encoding="utf-8")
+    (OUTPUT_DIR / "manifest.json").write_text(MANIFEST, encoding="utf-8")
+    (OUTPUT_DIR / "sw.js").write_text(SW_JS, encoding="utf-8")
+    print("Written → icon.svg, manifest.json, sw.js")
     for d in days:
         total = sum(len(v) for v in d["rooms_map"].values())
         print(f"  {d['label']}: {total} talks across {len(d['rooms'])} rooms")
