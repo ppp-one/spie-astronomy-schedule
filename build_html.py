@@ -8,6 +8,8 @@
 import html as _html
 import json
 import re
+import struct
+import zlib
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
@@ -103,6 +105,60 @@ UNDO_SVG = (
     "</svg>"
 )
 
+def generate_png_icon(size: int) -> bytes:
+    """Generate a PNG matching the SVG icon: dark rounded rect + amber star."""
+    bg = (30, 41, 59)
+    star_color = (245, 158, 11)
+    s = size / 32
+    rx = 6 * s
+    star_pts = [
+        (16*s, 5*s), (18.6*s, 12.4*s), (26.5*s, 12.6*s),
+        (20.3*s, 17.4*s), (22.5*s, 24.9*s), (16*s, 20.5*s),
+        (9.5*s, 24.9*s), (11.7*s, 17.4*s), (5.5*s, 12.6*s),
+        (13.4*s, 12.4*s),
+    ]
+
+    def in_rounded_rect(x, y):
+        cx = max(rx, min(x, size - rx))
+        cy = max(rx, min(y, size - rx))
+        return (x - cx) ** 2 + (y - cy) ** 2 <= rx ** 2
+
+    def in_polygon(px, py):
+        inside = False
+        j = len(star_pts) - 1
+        for i, (xi, yi) in enumerate(star_pts):
+            xj, yj = star_pts[j]
+            if (yi > py) != (yj > py) and px < (xj - xi) * (py - yi) / (yj - yi) + xi:
+                inside = not inside
+            j = i
+        return inside
+
+    rows = []
+    for y in range(size):
+        row = bytearray([0])  # filter byte
+        for x in range(size):
+            px, py = x + 0.5, y + 0.5
+            if not in_rounded_rect(px, py):
+                row += b'\x00\x00\x00\x00'
+            elif in_polygon(px, py):
+                row += bytes([*star_color, 255])
+            else:
+                row += bytes([*bg, 255])
+        rows.append(bytes(row))
+
+    def png_chunk(name, data):
+        c = name + data
+        return struct.pack('>I', len(data)) + c + struct.pack('>I', zlib.crc32(c) & 0xFFFFFFFF)
+
+    ihdr = struct.pack('>II', size, size) + bytes([8, 6, 0, 0, 0])
+    return (
+        b'\x89PNG\r\n\x1a\n'
+        + png_chunk(b'IHDR', ihdr)
+        + png_chunk(b'IDAT', zlib.compress(b''.join(rows), 9))
+        + png_chunk(b'IEND', b'')
+    )
+
+
 ICON_SVG = """\
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <rect width="32" height="32" rx="6" fill="#1e293b"/>
@@ -120,6 +176,18 @@ MANIFEST = """\
   "theme_color": "#1e293b",
   "icons": [
     {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
       "src": "icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
@@ -130,7 +198,7 @@ MANIFEST = """\
 
 SW_JS = """\
 const CACHE = 'spie-as26-v1';
-const ASSETS = ['/', '/index.html', '/manifest.json', '/icon.svg'];
+const ASSETS = ['/', '/index.html', '/manifest.json', '/icon.svg', '/icon-192.png', '/icon-512.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(
@@ -3153,7 +3221,7 @@ def build_html(days: list[dict], poster_days: list[dict], records: list[dict]) -
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SPIE AS26 · Schedule</title>
 <link rel="icon" href="icon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="icon.svg">
+<link rel="apple-touch-icon" href="icon-192.png">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#1e293b">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -3294,9 +3362,11 @@ def main() -> None:
     out.write_text(html, encoding="utf-8")
     print(f"Written → {out}")
     (OUTPUT_DIR / "icon.svg").write_text(ICON_SVG, encoding="utf-8")
+    (OUTPUT_DIR / "icon-192.png").write_bytes(generate_png_icon(192))
+    (OUTPUT_DIR / "icon-512.png").write_bytes(generate_png_icon(512))
     (OUTPUT_DIR / "manifest.json").write_text(MANIFEST, encoding="utf-8")
     (OUTPUT_DIR / "sw.js").write_text(SW_JS, encoding="utf-8")
-    print("Written → icon.svg, manifest.json, sw.js")
+    print("Written → icon.svg, icon-192.png, icon-512.png, manifest.json, sw.js")
     for d in days:
         total = sum(len(v) for v in d["rooms_map"].values())
         print(f"  {d['label']}: {total} talks across {len(d['rooms'])} rooms")
