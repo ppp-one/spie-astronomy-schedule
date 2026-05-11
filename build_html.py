@@ -8,6 +8,8 @@
 import html as _html
 import json
 import re
+import struct
+import zlib
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
@@ -103,6 +105,60 @@ UNDO_SVG = (
     "</svg>"
 )
 
+def generate_png_icon(size: int) -> bytes:
+    """Generate a PNG matching the SVG icon: dark rounded rect + amber star."""
+    bg = (30, 41, 59)
+    star_color = (245, 158, 11)
+    s = size / 32
+    rx = 6 * s
+    star_pts = [
+        (16*s, 5*s), (18.6*s, 12.4*s), (26.5*s, 12.6*s),
+        (20.3*s, 17.4*s), (22.5*s, 24.9*s), (16*s, 20.5*s),
+        (9.5*s, 24.9*s), (11.7*s, 17.4*s), (5.5*s, 12.6*s),
+        (13.4*s, 12.4*s),
+    ]
+
+    def in_rounded_rect(x, y):
+        cx = max(rx, min(x, size - rx))
+        cy = max(rx, min(y, size - rx))
+        return (x - cx) ** 2 + (y - cy) ** 2 <= rx ** 2
+
+    def in_polygon(px, py):
+        inside = False
+        j = len(star_pts) - 1
+        for i, (xi, yi) in enumerate(star_pts):
+            xj, yj = star_pts[j]
+            if (yi > py) != (yj > py) and px < (xj - xi) * (py - yi) / (yj - yi) + xi:
+                inside = not inside
+            j = i
+        return inside
+
+    rows = []
+    for y in range(size):
+        row = bytearray([0])  # filter byte
+        for x in range(size):
+            px, py = x + 0.5, y + 0.5
+            if not in_rounded_rect(px, py):
+                row += b'\x00\x00\x00\x00'
+            elif in_polygon(px, py):
+                row += bytes([*star_color, 255])
+            else:
+                row += bytes([*bg, 255])
+        rows.append(bytes(row))
+
+    def png_chunk(name, data):
+        c = name + data
+        return struct.pack('>I', len(data)) + c + struct.pack('>I', zlib.crc32(c) & 0xFFFFFFFF)
+
+    ihdr = struct.pack('>II', size, size) + bytes([8, 6, 0, 0, 0])
+    return (
+        b'\x89PNG\r\n\x1a\n'
+        + png_chunk(b'IHDR', ihdr)
+        + png_chunk(b'IDAT', zlib.compress(b''.join(rows), 9))
+        + png_chunk(b'IEND', b'')
+    )
+
+
 ICON_SVG = """\
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <rect width="32" height="32" rx="6" fill="#1e293b"/>
@@ -120,6 +176,18 @@ MANIFEST = """\
   "theme_color": "#1e293b",
   "icons": [
     {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
       "src": "icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
@@ -130,7 +198,7 @@ MANIFEST = """\
 
 SW_JS = """\
 const CACHE = 'spie-as26-v1';
-const ASSETS = ['/', '/index.html', '/manifest.json', '/icon.svg'];
+const ASSETS = ['/', '/index.html', '/manifest.json', '/icon.svg', '/icon-192.png', '/icon-512.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(
@@ -529,6 +597,7 @@ body {
   transition: opacity .15s;
   border-radius: 4px;
   padding: 2px 4px;
+  border: 1px solid transparent;
 }
 .legend-item:hover { opacity: 0.7; }
 .legend-item.inactive { opacity: 0.2; }
@@ -541,6 +610,8 @@ body {
   cursor: pointer;
   font-size: 11px;
   margin-left: 4px;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 #clear-conf-btn:hover { border-color: #e15759; color: #e15759; }
 .conf-hidden { display: none !important; }
@@ -1265,7 +1336,7 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #0e0e1c;
+  background: #f0f2f5;
   overflow: hidden;
 }
 .swipe-controls {
@@ -1274,39 +1345,39 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   gap: 12px;
   padding: 10px 16px;
   width: 100%;
-  background: #1a1a2e;
-  border-bottom: 1px solid #2c2c4e;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
   flex-shrink: 0;
   flex-wrap: wrap;
 }
 .swipe-filter-label {
   font-size: 12px;
-  color: #aab;
+  color: #666;
   white-space: nowrap;
 }
 .swipe-filter-select {
-  background: #0e0e1c;
-  color: #d0d8ff;
-  border: 1px solid #2c2c4e;
+  background: #fff;
+  color: #222;
+  border: 1px solid #ccc;
   border-radius: 4px;
   padding: 4px 8px;
   font-size: 12px;
 }
 .swipe-counter {
   font-size: 12px;
-  color: #aab;
+  color: #666;
   margin-left: auto;
 }
 .swipe-reset-btn {
   background: none;
-  border: 1px solid #aab;
-  color: #aab;
+  border: 1px solid #bbb;
+  color: #666;
   border-radius: 4px;
   padding: 3px 10px;
   cursor: pointer;
   font-size: 11px;
 }
-.swipe-reset-btn:hover { border-color: #fff; color: #fff; }
+.swipe-reset-btn:hover { border-color: #333; color: #333; }
 .swipe-arena {
   flex: 1;
   width: 100%;
@@ -1322,11 +1393,11 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   position: absolute;
   width: calc(100% - 32px);
   max-width: 480px;
-  background: #1a1a2e;
-  border: 1px solid #2c2c4e;
+  background: #fff;
+  border: 1px solid #ddd;
   border-radius: 12px;
   padding: 20px 20px 16px;
-  box-shadow: 0 8px 32px rgba(0,0,0,.6);
+  box-shadow: 0 4px 16px rgba(0,0,0,.10);
   cursor: grab;
   user-select: none;
   will-change: transform;
@@ -1376,7 +1447,7 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 .swipe-card-title {
   font-size: 15px;
   font-weight: 600;
-  color: #e8ecff;
+  color: #1a1a2e;
   line-height: 1.4;
   margin-bottom: 8px;
 }
@@ -1384,12 +1455,12 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 .swipe-card-title a:hover { text-decoration: underline; }
 .swipe-card-meta {
   font-size: 11px;
-  color: #7a82aa;
+  color: #888;
   margin-bottom: 10px;
 }
 .swipe-card-abstract {
   font-size: 12px;
-  color: #9da5c8;
+  color: #555;
   line-height: 1.5;
   max-height: 160px;
   overflow-y: auto;
@@ -1409,7 +1480,7 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   height: 60px;
   border-radius: 50%;
   border: 2px solid;
-  background: #1a1a2e;
+  background: #fff;
   font-size: 26px;
   cursor: pointer;
   display: flex;
@@ -1426,13 +1497,13 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 .swipe-action-btn.undo-btn  { width: 50px; height: 50px; border-color: #7eb8f7; color: #7eb8f7; }
 .swipe-action-btn.undo-btn:hover  { background: rgba(126,184,247,.15); }
 .swipe-done {
-  color: #aab;
+  color: #666;
   text-align: center;
   padding: 40px 20px;
   font-size: 14px;
   line-height: 1.8;
 }
-.swipe-done strong { color: #d0d8ff; }
+.swipe-done strong { color: #1a1a2e; }
 .swipe-keys {
   font-size: 11px;
   color: #555;
@@ -1447,7 +1518,19 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   .topbar h1 { display: none; }
   .search-wrap { max-width: unset; flex: 1 1 auto; }
   #search { font-size: 16px; }
-  .legend { display: none; }
+  .legend {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding: 6px 12px;
+    gap: 6px 10px;
+    background: #1a1a2e;
+    border-bottom-color: #2c2c4e;
+  }
+  .legend::-webkit-scrollbar { display: none; }
+  .legend-item { white-space: nowrap; flex-shrink: 0; color: #aab; }
+  #clear-conf-btn { border-color: #4a4a7e; color: #aab; }
   .view-nav { padding: 0; flex-wrap: wrap; position: relative; }
   .view-btn { display: none; font-size: 13px; padding: 11px 20px; width: 100%; text-align: left; border-bottom: none; border-top: 1px solid #2c2c4e; }
   .view-btn.active { border-bottom: none; border-left: 3px solid #7eb8f7; }
@@ -1485,6 +1568,9 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   .swipe-action-btn.undo-btn { width: 44px; height: 44px; font-size: 19px; }
   .swipe-keys { display: none; }
   .swipe-btn-row { gap: 20px; }
+  /* Swipe tip */
+  #swipe-tip { flex-direction: column; align-items: flex-start; gap: 8px; padding-right: 40px; bottom: 16px; }
+  .swipe-tip-close { position: absolute; top: 8px; right: 8px; }
 }
 """
 
@@ -1811,16 +1897,22 @@ function toggleConfFilter(conf) {
       confFilters.size > 0 && !confFilters.has(item.dataset.conf));
   });
   document.getElementById('clear-conf-btn').style.display = confFilters.size > 0 ? '' : 'none';
+  updateStickyOffset();
   applyConfFilter();
   applySearch();
+  if (swipeInitialized) resetSwipe();
+  if (talkSwipeInitialized) resetTalkSwipe();
 }
 
 function clearConfFilters() {
   confFilters.clear();
   document.querySelectorAll('.legend-item[data-conf]').forEach(item => item.classList.remove('inactive'));
   document.getElementById('clear-conf-btn').style.display = 'none';
+  updateStickyOffset();
   applyConfFilter();
   applySearch();
+  if (swipeInitialized) resetSwipe();
+  if (talkSwipeInitialized) resetTalkSwipe();
 }
 
 function applyConfFilter() {
@@ -2287,7 +2379,6 @@ let swipeIdx = 0;
 let swipeHistory = [];
 let swipeInitialized = false;
 let swipeFilterDay = 'all';
-let swipeFilterConf = 'all';
 
 function buildSwipeQueue() {
   _ensurePosterBuilt();
@@ -2297,7 +2388,7 @@ function buildSwipeQueue() {
       if (seen.has(el.dataset.id)) return false;
       seen.add(el.dataset.id);
       if (swipeFilterDay !== 'all' && el.dataset.day !== swipeFilterDay) return false;
-      if (swipeFilterConf !== 'all' && el.dataset.conf !== swipeFilterConf) return false;
+      if (confFilters.size > 0 && !confFilters.has(el.dataset.conf)) return false;
       return !bookmarks.has(el.dataset.id) && !skipped.has(el.dataset.id);
     })
     .map(el => ({
@@ -2435,10 +2526,6 @@ function initSwipe() {
       swipeFilterDay = this.value;
       resetSwipe();
     });
-    document.getElementById('swipe-filter-conf').addEventListener('change', function() {
-      swipeFilterConf = this.value;
-      resetSwipe();
-    });
   }
   resetSwipe();
 }
@@ -2506,7 +2593,6 @@ let talkSwipeIdx = 0;
 let talkSwipeHistory = [];
 let talkSwipeInitialized = false;
 let talkSwipeFilterDay = 'all';
-let talkSwipeFilterConf = 'all';
 
 function buildTalkSwipeQueue() {
   _ensureTalkListBuilt();
@@ -2516,7 +2602,7 @@ function buildTalkSwipeQueue() {
       if (seen.has(el.dataset.id)) return false;
       seen.add(el.dataset.id);
       if (talkSwipeFilterDay !== 'all' && el.dataset.day !== talkSwipeFilterDay) return false;
-      if (talkSwipeFilterConf !== 'all' && el.dataset.conf !== talkSwipeFilterConf) return false;
+      if (confFilters.size > 0 && !confFilters.has(el.dataset.conf)) return false;
       return !bookmarks.has(el.dataset.id) && !skipped.has(el.dataset.id);
     })
     .map(el => ({
@@ -2648,10 +2734,6 @@ function initTalkSwipe() {
     talkSwipeInitialized = true;
     document.getElementById('talkswipe-filter-day').addEventListener('change', function() {
       talkSwipeFilterDay = this.value;
-      resetTalkSwipe();
-    });
-    document.getElementById('talkswipe-filter-conf').addEventListener('change', function() {
-      talkSwipeFilterConf = this.value;
       resetTalkSwipe();
     });
   }
@@ -3054,18 +3136,11 @@ def render_swipe_page(poster_days: list[dict]) -> str:
     day_opts = "".join(
         f'<option value="{d["date_iso"]}">{e(d["label"])}</option>' for d in poster_days
     )
-    conf_opts = "".join(
-        f'<option value="{conf}">{e(CONF_SHORT.get(conf, conf))}</option>'
-        for conf in sorted(CONFERENCES_OF_INTEREST)
-    )
     return (
         f'<div class="swipe-controls">'
         f'<span class="swipe-filter-label">Day:</span>'
         f'<select class="swipe-filter-select" id="swipe-filter-day">'
         f'<option value="all">All days</option>{day_opts}</select>'
-        f'<span class="swipe-filter-label">Track:</span>'
-        f'<select class="swipe-filter-select" id="swipe-filter-conf">'
-        f'<option value="all">All tracks</option>{conf_opts}</select>'
         f'<span class="swipe-counter" id="swipe-counter"></span>'
         f"</div>"
         f'<div class="swipe-arena" id="swipe-arena"></div>'
@@ -3083,18 +3158,11 @@ def render_talk_swipe_page(days: list[dict]) -> str:
     day_opts = "".join(
         f'<option value="{d["date_iso"]}">{e(d["label"])}</option>' for d in days
     )
-    conf_opts = "".join(
-        f'<option value="{conf}">{e(CONF_SHORT.get(conf, conf))}</option>'
-        for conf in sorted(CONF_SHORT)
-    )
     return (
         f'<div class="swipe-controls">'
         f'<span class="swipe-filter-label">Day:</span>'
         f'<select class="swipe-filter-select" id="talkswipe-filter-day">'
         f'<option value="all">All days</option>{day_opts}</select>'
-        f'<span class="swipe-filter-label">Track:</span>'
-        f'<select class="swipe-filter-select" id="talkswipe-filter-conf">'
-        f'<option value="all">All tracks</option>{conf_opts}</select>'
         f'<span class="swipe-counter" id="talkswipe-counter"></span>'
         f"</div>"
         f'<div class="swipe-arena" id="talkswipe-arena"></div>'
@@ -3153,7 +3221,7 @@ def build_html(days: list[dict], poster_days: list[dict], records: list[dict]) -
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SPIE AS26 · Schedule</title>
 <link rel="icon" href="icon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="icon.svg">
+<link rel="apple-touch-icon" href="icon-192.png">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#1e293b">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -3170,7 +3238,7 @@ def build_html(days: list[dict], poster_days: list[dict], records: list[dict]) -
   </div>
   <button id="my-schedule-btn" onclick="toggleMySchedule()">&#9733; My Schedule</button>
   <span id="bookmark-count"></span>
-  <button id="share-btn" onclick="openShareModal()">&#8645; Sync &amp; Backup</button>
+  <button id="share-btn" onclick="openShareModal()">&#9881; Sync &amp; Backup</button>
   <span id="sync-status" style="font-size:13px;min-width:16px;text-align:center;cursor:default;transition:color .3s" title=""></span>
   <span id="match-count"></span>
   <a href="https://github.com/ppp-one/spie-astronomy-schedule" target="_blank" rel="noopener" class="github-link" title="View on GitHub" style="margin-left:auto;color:#7eb8f7;display:flex;align-items:center;text-decoration:none;">
@@ -3205,7 +3273,7 @@ def build_html(days: list[dict], poster_days: list[dict], records: list[dict]) -
 <div class="modal-backdrop" id="share-modal">
   <div class="modal" style="position:relative">
     <button class="modal-close" onclick="closeShareModal()">&#10005;</button>
-    <h2>&#8645; Sync &amp; Backup</h2>
+    <h2>&#9881; Sync &amp; Backup</h2>
 
     <p style="font-size:11px;font-weight:700;color:#888;letter-spacing:.05em;margin:0 0 6px">CROSS-DEVICE SYNC</p>
     <p style="font-size:12px;color:#555;margin:0 0 8px;line-height:1.5">Share this link with another device — opening it will instantly sync your bookmarks and skipped items:</p>
@@ -3294,9 +3362,11 @@ def main() -> None:
     out.write_text(html, encoding="utf-8")
     print(f"Written → {out}")
     (OUTPUT_DIR / "icon.svg").write_text(ICON_SVG, encoding="utf-8")
+    (OUTPUT_DIR / "icon-192.png").write_bytes(generate_png_icon(192))
+    (OUTPUT_DIR / "icon-512.png").write_bytes(generate_png_icon(512))
     (OUTPUT_DIR / "manifest.json").write_text(MANIFEST, encoding="utf-8")
     (OUTPUT_DIR / "sw.js").write_text(SW_JS, encoding="utf-8")
-    print("Written → icon.svg, manifest.json, sw.js")
+    print("Written → icon.svg, icon-192.png, icon-512.png, manifest.json, sw.js")
     for d in days:
         total = sum(len(v) for v in d["rooms_map"].values())
         print(f"  {d['label']}: {total} talks across {len(d['rooms'])} rooms")
