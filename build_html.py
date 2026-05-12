@@ -568,16 +568,33 @@ body {
   flex: 1 1 120px;
   min-width: 120px;
   max-width: 360px;
+  position: relative;
 }
 #search {
   flex: 1;
-  padding: 5px 10px;
+  padding: 5px 28px 5px 10px;
   border-radius: 4px;
   border: none;
   font-size: 13px;
   outline: none;
+  width: 100%;
 }
 #search:focus { box-shadow: 0 0 0 2px #7eb8f7; }
+#search-clear-btn {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 15px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 2px 3px;
+  display: none;
+}
+#search-clear-btn:hover { color: #ccc; }
 #clear-btn {
   background: none;
   border: 1px solid #7eb8f7;
@@ -2074,6 +2091,23 @@ function applySearch() {
     return;
   }
 
+  if (document.getElementById('page-swipe').classList.contains('active')) {
+    const remaining = swipeQueue.length - swipeIdx;
+    buildSwipeQueue();
+    document.getElementById('match-count').textContent =
+      q ? swipeQueue.length + ' match' + (swipeQueue.length !== 1 ? 'es' : '') : '';
+    updateSwipeArena();
+    return;
+  }
+
+  if (document.getElementById('page-talkswipe').classList.contains('active')) {
+    buildTalkSwipeQueue();
+    document.getElementById('match-count').textContent =
+      q ? talkSwipeQueue.length + ' match' + (talkSwipeQueue.length !== 1 ? 'es' : '') : '';
+    updateTalkSwipeArena();
+    return;
+  }
+
   // Schedule view
   const panel = document.querySelector('.day-panel[style*="block"]');
   if (!panel) return;
@@ -2098,11 +2132,14 @@ function applySearch() {
 
 function clearSearch() {
   document.getElementById('search').value = '';
+  document.getElementById('search-clear-btn').style.display = 'none';
   applySearch();
 }
 
 document.getElementById('search').addEventListener('input', () => {
   if (myScheduleActive) toggleMySchedule();
+  document.getElementById('search-clear-btn').style.display =
+    document.getElementById('search').value ? 'block' : 'none';
   applySearch();
 });
 document.getElementById('search').addEventListener('keydown', ev => {
@@ -2243,16 +2280,12 @@ function switchView(view) {
   if (view === 'posters')  _ensurePosterBuilt();
   if (view === 'swipe')    { _ensurePosterBuilt(); initSwipe(); }
   if (view === 'talkswipe') { _ensureTalkListBuilt(); initTalkSwipe(); }
-  const isSwipe = view === 'swipe' || view === 'talkswipe';
-  const sw = document.querySelector('.search-wrap');
-  sw.style.opacity = isSwipe ? '0.35' : '';
-  sw.style.pointerEvents = isSwipe ? 'none' : '';
   const placeholders = {
     schedule:   'Search talks: title, author, abstract…',
     talklist:   'Search talks: title, author, abstract…',
-    talkswipe:  '',
+    talkswipe:  'Search talks: title, author, abstract…',
     posters:    'Search posters: title, author, abstract…',
-    swipe:      '',
+    swipe:      'Search posters: title, author, abstract…',
   };
   document.getElementById('search').placeholder = placeholders[view] || 'Search…';
   document.getElementById('match-count').textContent = '';
@@ -2423,6 +2456,7 @@ let swipeFilterDay = 'all';
 
 function buildSwipeQueue() {
   _ensurePosterBuilt();
+  const q = document.getElementById('search').value.toLowerCase().trim();
   const seen = new Set();
   swipeQueue = Array.from(document.querySelectorAll('.poster-item'))
     .filter(el => {
@@ -2430,6 +2464,8 @@ function buildSwipeQueue() {
       seen.add(el.dataset.id);
       if (swipeFilterDay !== 'all' && el.dataset.day !== swipeFilterDay) return false;
       if (confFilters.size > 0 && !confFilters.has(el.dataset.conf)) return false;
+      if (q && !(el.dataset.search || '').toLowerCase().includes(q) &&
+          !(TALK_DATA[el.dataset.id]?.abstract || '').toLowerCase().includes(q)) return false;
       return !bookmarks.has(el.dataset.id) && !skipped.has(el.dataset.id);
     })
     .map(el => ({
@@ -2637,6 +2673,7 @@ let talkSwipeFilterDay = 'all';
 
 function buildTalkSwipeQueue() {
   _ensureTalkListBuilt();
+  const q = document.getElementById('search').value.toLowerCase().trim();
   const seen = new Set();
   talkSwipeQueue = Array.from(document.querySelectorAll('.talk-list-item'))
     .filter(el => {
@@ -2644,6 +2681,8 @@ function buildTalkSwipeQueue() {
       seen.add(el.dataset.id);
       if (talkSwipeFilterDay !== 'all' && el.dataset.day !== talkSwipeFilterDay) return false;
       if (confFilters.size > 0 && !confFilters.has(el.dataset.conf)) return false;
+      if (q && !(el.dataset.search || '').toLowerCase().includes(q) &&
+          !(TALK_DATA[el.dataset.id]?.abstract || '').toLowerCase().includes(q)) return false;
       return !bookmarks.has(el.dataset.id) && !skipped.has(el.dataset.id);
     })
     .map(el => ({
@@ -3270,6 +3309,7 @@ def build_html(days: list[dict], poster_days: list[dict], records: list[dict]) -
   <h1>SPIE AS26 · Schedule</h1>
   <div class="search-wrap">
     <input id="search" type="search" placeholder="Search talks: title, author, paper…" autocomplete="off">
+    <button id="search-clear-btn" onclick="clearSearch()" title="Clear search">&#10005;</button>
   </div>
   <span id="match-count"></span>
   <div class="topbar-right">
