@@ -31,7 +31,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 12px;
+  gap: 8px 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,.5);
 }
 .topbar h1 {
@@ -46,7 +46,8 @@ body {
   display: flex;
   align-items: center;
   gap: 6px;
-  flex: 1 1 180px;
+  flex: 1 1 120px;
+  min-width: 120px;
   max-width: 360px;
 }
 #search {
@@ -68,36 +69,44 @@ body {
   font-size: 12px;
 }
 #clear-btn:hover { background: rgba(126,184,247,.15); }
-#match-count { font-size: 11px; color: #aaa; min-width: 80px; }
+#match-count { font-size: 11px; color: #aaa; flex-shrink: 0; min-width: 50px; text-align: right; padding-right: 8px; }
+.topbar-right { flex-shrink: 0; margin-left: auto; }
 /* ── Legend ── */
 .legend {
   padding: 7px 16px;
-  background: #fff;
-  border-bottom: 1px solid #ddd;
+  background: #1a1a2e;
+  border-bottom: 1px solid #2c2c4e;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
   gap: 10px 16px;
   align-items: center;
 }
+.legend::-webkit-scrollbar { display: none; }
+.legend { cursor: grab; }
+.legend.dragging { cursor: grabbing; user-select: none; }
 .legend-item {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 8px;
   font-size: 11px;
-  color: #444;
+  color: #aab;
   cursor: pointer;
   user-select: none;
   transition: opacity .15s;
   border-radius: 4px;
   padding: 2px 4px;
   border: 1px solid transparent;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 .legend-item:hover { opacity: 0.7; }
 .legend-item.inactive { opacity: 0.2; }
 #clear-conf-btn {
   background: none;
-  border: 1px solid #bbb;
-  color: #666;
+  border: 1px solid #4a4a7e;
+  color: #aab;
   border-radius: 4px;
   padding: 2px 8px;
   cursor: pointer;
@@ -368,21 +377,22 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   font-size: 12px;
   font-weight: 600;
   white-space: nowrap;
-  min-width: 120px;
   transition: background .15s, border-color .15s, color .15s;
 }
 #my-schedule-btn:hover { border-color: #f5a623; color: #f5a623; }
 #my-schedule-btn.active { background: #f5a623; color: #1a1a2e; border-color: #f5a623; }
-#bookmark-count { font-size: 11px; color: #f5a623; min-width: 60px; }
+#bookmark-count { font-size: 11px; color: #f5a623; padding-right: 8px; text-align: right; }
 #share-btn {
   background: none;
-  border: 1px solid #7eb8f7;
-  color: #7eb8f7;
+  border: 1px solid #556;
+  color: #aab;
   border-radius: 4px;
   padding: 4px 10px;
   cursor: pointer;
   font-size: 12px;
+  font-weight: 600;
   white-space: nowrap;
+  transition: background .15s, border-color .15s, color .15s;
 }
 #share-btn:hover { background: rgba(126,184,247,.15); }
 /* ── Export/import modal ── */
@@ -441,6 +451,8 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 .talk-link:hover { text-decoration: underline; }
 /* ── Talk detail modal ── */
 #talk-modal .modal { max-width: 640px; max-height: 90vh; overflow-y: auto; position: relative; }
+/* ── Sync & Backup modal ── */
+#share-modal .modal { max-height: 90vh; overflow-y: auto; }
 .modal-close {
   position: absolute;
   top: 12px;
@@ -596,10 +608,7 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 }
 .agenda-row:hover { background: #f7f9ff; }
 .agenda-row.bookmarked { box-shadow: inset 3px 0 0 #f5a623, 0 0 0 0 transparent; }
-.agenda-row--plenary { background: #0d0d1e; }
-.agenda-row--plenary:hover { background: #131326; }
-.agenda-row--plenary .agenda-title { color: #d0d8ff; }
-.agenda-row--plenary .agenda-meta  { color: #7a82aa; }
+
 .agenda-time-col {
   width: 58px;
   flex-shrink: 0;
@@ -904,7 +913,7 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 .swipe-card.fly-up    { transition: transform .35s ease-in, opacity .35s; transform: translateY(-120%) !important; opacity: 0; pointer-events: none; }
 .swipe-hint-skip {
   position: absolute;
-  top: 16px; left: 16px;
+  top: 16px; left: 32px;
   background: rgba(225,87,89,.85);
   color: #fff;
   font-weight: 700;
@@ -918,7 +927,7 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 }
 .swipe-hint-save {
   position: absolute;
-  top: 16px; right: 16px;
+  top: 16px; right: 32px;
   background: rgba(245,166,35,.85);
   color: #1a1a2e;
   font-weight: 700;
@@ -1009,21 +1018,14 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   body { font-size: 14px; }
   .topbar { padding: 8px 12px; gap: 6px; }
   .topbar h1 { display: none; }
-  .search-wrap { max-width: unset; flex: 1 1 auto; }
+  .search-wrap { order: -1; flex: 0 0 100%; max-width: unset; }
+  .topbar-right { margin-left: auto; }
   #search { font-size: 16px; }
   .legend {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
     padding: 6px 12px;
     gap: 6px 10px;
-    background: #1a1a2e;
-    border-bottom-color: #2c2c4e;
   }
-  .legend::-webkit-scrollbar { display: none; }
-  .legend-item { white-space: nowrap; flex-shrink: 0; color: #aab; }
-  #clear-conf-btn { border-color: #4a4a7e; color: #aab; }
+  .legend-item { white-space: nowrap; flex-shrink: 0; }
   .view-nav { padding: 0; flex-wrap: wrap; position: relative; }
   .view-btn { display: none; font-size: 13px; padding: 11px 20px; width: 100%; text-align: left; border-bottom: none; border-top: 1px solid #2c2c4e; }
   .view-btn.active { border-bottom: none; border-left: 3px solid #7eb8f7; }
@@ -1073,20 +1075,18 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   <h1>SPIE AS26 · Schedule</h1>
   <div class="search-wrap">
     <input id="search" type="search" placeholder="Search talks: title, author, paper…" autocomplete="off">
-    <button id="clear-btn" onclick="clearSearch()">Clear</button>
   </div>
-  <button id="my-schedule-btn" onclick="toggleMySchedule()">&#9733; My Schedule</button>
-  <span id="bookmark-count"></span>
-  <button id="share-btn" onclick="openShareModal()">&#9881; Sync &amp; Backup</button>
-  <span id="sync-status" style="font-size:13px;min-width:16px;text-align:center;cursor:default;transition:color .3s" title=""></span>
   <span id="match-count"></span>
-  <a href="https://github.com/ppp-one/spie-astronomy-schedule" target="_blank" rel="noopener" class="github-link" title="View on GitHub" style="margin-left:auto;color:#7eb8f7;display:flex;align-items:center;text-decoration:none;">
-    <svg height="20" width="20" viewBox="0 0 16 16" aria-hidden="true" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-  </a>
+  <div class="topbar-right">
+    <span id="bookmark-count"></span>
+    <button id="my-schedule-btn" onclick="toggleMySchedule()" title="My Schedule">&#9733;</button>
+    <button id="share-btn" onclick="openShareModal()" title="Sync &amp; Backup">&#9881;</button>
+    <span id="sync-status" style="font-size:12px;min-width:16px;text-align:center;cursor:default;transition:color .3s" title=""></span>
+  </div>
 </div>
 
 <div class="legend"><span class="legend-item" data-conf="14145" onclick="toggleConfFilter('14145')"><span class="legend-dot" style="background:#b07aa1"></span>Space Tel: Opt/IR/mm</span><span class="legend-item" data-conf="14146" onclick="toggleConfFilter('14146')"><span class="legend-dot" style="background:#c9a800"></span>Space Tel: UV–γ</span><span class="legend-item" data-conf="14147" onclick="toggleConfFilter('14147')"><span class="legend-dot" style="background:#d4606a"></span>Ground/Airborne Tel</span><span class="legend-item" data-conf="14148" onclick="toggleConfFilter('14148')"><span class="legend-dot" style="background:#7fb3d3"></span>Interferometry</span><span class="legend-item" data-conf="14149" onclick="toggleConfFilter('14149')"><span class="legend-dot" style="background:#f28e2b"></span>Ground/Airborne Instr</span><span class="legend-item" data-conf="14150" onclick="toggleConfFilter('14150')"><span class="legend-dot" style="background:#17becf"></span>Adaptive Optics</span><span class="legend-item" data-conf="14151" onclick="toggleConfFilter('14151')"><span class="legend-dot" style="background:#9c755f"></span>Observatory Ops</span><span class="legend-item" data-conf="14152" onclick="toggleConfFilter('14152')"><span class="legend-dot" style="background:#e15759"></span>Sys Eng &amp; PM</span><span class="legend-item" data-conf="14153" onclick="toggleConfFilter('14153')"><span class="legend-dot" style="background:#aec7e8"></span>Radio Telescopes</span><span class="legend-item" data-conf="14154" onclick="toggleConfFilter('14154')"><span class="legend-dot" style="background:#4e79a7"></span>Opt/Mech Tech</span><span class="legend-item" data-conf="14155" onclick="toggleConfFilter('14155')"><span class="legend-dot" style="background:#3aaa8c"></span>Software &amp; Cyber</span><span class="legend-item" data-conf="14156" onclick="toggleConfFilter('14156')"><span class="legend-dot" style="background:#6b9e78"></span>mm/Submm/FIR Det</span><span class="legend-item" data-conf="14157" onclick="toggleConfFilter('14157')"><span class="legend-dot" style="background:#59a14f"></span>Detectors (X/Opt/IR)</span><span class="legend-item" data-conf="PLENARY" onclick="toggleConfFilter('PLENARY')"><span class="legend-dot" style="background:#9467bd"></span>Plenary</span><button id="clear-conf-btn" onclick="clearConfFilters()" style="display:none">&#10005; Clear filters</button></div>
-<nav class="view-nav"><button class="view-nav-toggle" onclick="toggleViewMenu()"><span id="view-current-label">Talk Schedule</span><span class="view-nav-arrow">&#9660;</span></button><button class="view-btn active" data-view="schedule" onclick="switchView('schedule')">Talk Schedule</button><button class="view-btn" data-view="talklist" onclick="switchView('talklist')">Talk List</button><button class="view-btn" data-view="talkswipe" onclick="switchView('talkswipe')"><svg width="13" height="13" viewBox="0 0 512 512" style="vertical-align:-1px;margin-right:4px" xmlns="http://www.w3.org/2000/svg"><path fill="#FF6647" d="M379.663,107.423C341.154,55.603,296.385,23.775,274.87,8.48c-2.876-2.045-5.711-4.149-8.592-6.184c-2.314-1.635-4.832-2.737-7.712-2.124c-4.877,1.038-8,6.313-6.511,11.081c21.208,67.867,8.505,133.558-40.027,205.744c-13.849-28.726-21.115-55.53-21.115-78.159c0-5.216-4.78-9.347-9.945-8.585c-2.525,0.373-4.193,1.883-6.052,3.47c-2.149,1.833-4.363,3.591-6.564,5.361c-29.431,23.681-107.611,86.582-107.611,190.674c0,48.29,20.572,94.126,57.925,129.065c36.128,33.794,84.603,53.177,132.995,53.177c63.426,0,115.435-18.456,150.406-53.373c32.182-32.13,49.192-76.692,49.192-128.869C451.259,246.159,427.17,171.355,379.663,107.423z"/><path fill="#E35336" d="M153.378,458.824c-37.354-34.941-57.925-80.777-57.925-129.065c0-92.296,61.46-152.202,95.907-181.104c-0.286-3.348-0.447-6.627-0.447-9.816c0-5.216-4.78-9.349-9.945-8.585c-2.525,0.373-4.193,1.883-6.053,3.47c-2.149,1.833-4.363,3.591-6.564,5.361C138.92,162.765,60.74,225.667,60.74,329.758c0,48.29,20.572,94.126,57.925,129.065C154.794,492.618,203.268,512,251.661,512c6.702,0,13.268-0.219,19.708-0.628C228.085,507.824,185.769,489.122,153.378,458.824z"/></svg>Talk Swipe</button><span class="view-nav-divider"></span><button class="view-btn" data-view="posters" onclick="switchView('posters')">Poster List</button><button class="view-btn" data-view="swipe" onclick="switchView('swipe')"><svg width="13" height="13" viewBox="0 0 512 512" style="vertical-align:-1px;margin-right:4px" xmlns="http://www.w3.org/2000/svg"><path fill="#FF6647" d="M379.663,107.423C341.154,55.603,296.385,23.775,274.87,8.48c-2.876-2.045-5.711-4.149-8.592-6.184c-2.314-1.635-4.832-2.737-7.712-2.124c-4.877,1.038-8,6.313-6.511,11.081c21.208,67.867,8.505,133.558-40.027,205.744c-13.849-28.726-21.115-55.53-21.115-78.159c0-5.216-4.78-9.347-9.945-8.585c-2.525,0.373-4.193,1.883-6.052,3.47c-2.149,1.833-4.363,3.591-6.564,5.361c-29.431,23.681-107.611,86.582-107.611,190.674c0,48.29,20.572,94.126,57.925,129.065c36.128,33.794,84.603,53.177,132.995,53.177c63.426,0,115.435-18.456,150.406-53.373c32.182-32.13,49.192-76.692,49.192-128.869C451.259,246.159,427.17,171.355,379.663,107.423z"/><path fill="#E35336" d="M153.378,458.824c-37.354-34.941-57.925-80.777-57.925-129.065c0-92.296,61.46-152.202,95.907-181.104c-0.286-3.348-0.447-6.627-0.447-9.816c0-5.216-4.78-9.349-9.945-8.585c-2.525,0.373-4.193,1.883-6.053,3.47c-2.149,1.833-4.363,3.591-6.564,5.361C138.92,162.765,60.74,225.667,60.74,329.758c0,48.29,20.572,94.126,57.925,129.065C154.794,492.618,203.268,512,251.661,512c6.702,0,13.268-0.219,19.708-0.628C228.085,507.824,185.769,489.122,153.378,458.824z"/></svg>Poster Swipe</button></nav>
+<nav class="view-nav"><button class="view-nav-toggle" onclick="toggleViewMenu()"><span id="view-current-label">Talk Schedule</span><span class="view-nav-arrow">&#9660;</span></button><button class="view-btn active" data-view="schedule" onclick="switchView('schedule')">Talk Schedule</button><button class="view-btn" data-view="talklist" onclick="switchView('talklist')">Talk List</button><button class="view-btn" data-view="posters" onclick="switchView('posters')">Poster List</button><span class="view-nav-divider"></span><button class="view-btn" data-view="talkswipe" onclick="switchView('talkswipe')"><svg width="13" height="13" viewBox="0 0 512 512" style="vertical-align:-1px;margin-right:4px" xmlns="http://www.w3.org/2000/svg"><path fill="#FF6647" d="M379.663,107.423C341.154,55.603,296.385,23.775,274.87,8.48c-2.876-2.045-5.711-4.149-8.592-6.184c-2.314-1.635-4.832-2.737-7.712-2.124c-4.877,1.038-8,6.313-6.511,11.081c21.208,67.867,8.505,133.558-40.027,205.744c-13.849-28.726-21.115-55.53-21.115-78.159c0-5.216-4.78-9.347-9.945-8.585c-2.525,0.373-4.193,1.883-6.052,3.47c-2.149,1.833-4.363,3.591-6.564,5.361c-29.431,23.681-107.611,86.582-107.611,190.674c0,48.29,20.572,94.126,57.925,129.065c36.128,33.794,84.603,53.177,132.995,53.177c63.426,0,115.435-18.456,150.406-53.373c32.182-32.13,49.192-76.692,49.192-128.869C451.259,246.159,427.17,171.355,379.663,107.423z"/><path fill="#E35336" d="M153.378,458.824c-37.354-34.941-57.925-80.777-57.925-129.065c0-92.296,61.46-152.202,95.907-181.104c-0.286-3.348-0.447-6.627-0.447-9.816c0-5.216-4.78-9.349-9.945-8.585c-2.525,0.373-4.193,1.883-6.053,3.47c-2.149,1.833-4.363,3.591-6.564,5.361C138.92,162.765,60.74,225.667,60.74,329.758c0,48.29,20.572,94.126,57.925,129.065C154.794,492.618,203.268,512,251.661,512c6.702,0,13.268-0.219,19.708-0.628C228.085,507.824,185.769,489.122,153.378,458.824z"/></svg>Talk Swipe</button><button class="view-btn" data-view="swipe" onclick="switchView('swipe')"><svg width="13" height="13" viewBox="0 0 512 512" style="vertical-align:-1px;margin-right:4px" xmlns="http://www.w3.org/2000/svg"><path fill="#FF6647" d="M379.663,107.423C341.154,55.603,296.385,23.775,274.87,8.48c-2.876-2.045-5.711-4.149-8.592-6.184c-2.314-1.635-4.832-2.737-7.712-2.124c-4.877,1.038-8,6.313-6.511,11.081c21.208,67.867,8.505,133.558-40.027,205.744c-13.849-28.726-21.115-55.53-21.115-78.159c0-5.216-4.78-9.347-9.945-8.585c-2.525,0.373-4.193,1.883-6.052,3.47c-2.149,1.833-4.363,3.591-6.564,5.361c-29.431,23.681-107.611,86.582-107.611,190.674c0,48.29,20.572,94.126,57.925,129.065c36.128,33.794,84.603,53.177,132.995,53.177c63.426,0,115.435-18.456,150.406-53.373c32.182-32.13,49.192-76.692,49.192-128.869C451.259,246.159,427.17,171.355,379.663,107.423z"/><path fill="#E35336" d="M153.378,458.824c-37.354-34.941-57.925-80.777-57.925-129.065c0-92.296,61.46-152.202,95.907-181.104c-0.286-3.348-0.447-6.627-0.447-9.816c0-5.216-4.78-9.349-9.945-8.585c-2.525,0.373-4.193,1.883-6.053,3.47c-2.149,1.833-4.363,3.591-6.564,5.361C138.92,162.765,60.74,225.667,60.74,329.758c0,48.29,20.572,94.126,57.925,129.065C154.794,492.618,203.268,512,251.661,512c6.702,0,13.268-0.219,19.708-0.628C228.085,507.824,185.769,489.122,153.378,458.824z"/></svg>Poster Swipe</button></nav>
 <div class="page active" id="page-schedule">
 <div id="schedule-body">
 <div class="tabs" id="schedule-tabs"></div>
@@ -1149,6 +1149,11 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
       <button class="modal-btn primary" onclick="importBookmarks()">Restore</button>
     </div>
     <div class="modal-notice" id="share-notice"></div>
+    <hr style="margin:16px 0;border:none;border-top:1px solid #eee">
+    <a href="https://github.com/ppp-one/spie-astronomy-schedule" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:6px;color:#000000;font-size:12px;text-decoration:none;">
+      <svg height="16" width="16" viewBox="0 0 16 16" aria-hidden="true" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+      View source on GitHub
+    </a>
   </div>
 </div>
 
@@ -1720,7 +1725,7 @@ function renderSwipeCard(talk, stackPos) {
   const offset = stackPos * 4;
   const scale = 1 - stackPos * 0.04;
   const style = `transform: translateY(${offset}px) scale(${scale}); z-index: ${10 - stackPos};`;
-  const href = talk.url ? `https://spie.org${talk.url}` : '';
+  const href = talk.url ? `${talk.url}` : '';
   const metaParts = [talk.paper, talk.author].filter(Boolean);
   const dayMeta = swipeFilterDay === 'all' && talk.dayLabel ? `<div class="swipe-card-meta" style="font-size:10px;opacity:.7">${swipeEscape(talk.dayLabel)}</div>` : '';
   return `<div class="swipe-card" data-id="${swipeEscape(talk.id)}"
@@ -1932,7 +1937,7 @@ function renderTalkSwipeCard(talk, stackPos) {
   const offset = stackPos * 4;
   const scale = 1 - stackPos * 0.04;
   const style = `transform: translateY(${offset}px) scale(${scale}); z-index: ${10 - stackPos};`;
-  const href = talk.url ? `https://spie.org${talk.url}` : '';
+  const href = talk.url ? `${talk.url}` : '';
   const metaParts = [talk.paper, talk.author].filter(Boolean);
   const timeMeta = [talk.time, talk.room].filter(s => s && s !== 'Room TBC').join(' · ');
   const dayMeta = talkSwipeFilterDay === 'all' && talk.dayLabel ? talk.dayLabel : '';
@@ -2475,11 +2480,9 @@ function _renderCalCard(t, top, height, dayLabel) {
   const short   = CONF_SHORT[t.conf] || t.conf;
   const search  = he(t.title + ' ' + t.paper + ' ' + t.author);
   const plenary = t.conf === 'PLENARY';
-  const cardSt  = plenary
-    ? `background:#1a1a2e;border-left-color:#fff;top:${top}px;height:${height}px`
-    : `border-left-color:${color};top:${top}px;height:${height}px`;
-  const confSt  = plenary ? 'color:#fff' : `color:${color}`;
-  const titlSt  = plenary ? 'color:#fff' : '';
+  const cardSt  = `border-left-color:${color};top:${top}px;height:${height}px`;
+  const confSt  = `color:${color}`;
+  const titlSt  = '';
   const meta    = t.conf !== 'PLENARY'
     ? `<div class="talk-meta">[${he(t.paper)}] ${he(t.author)}</div>` : '';
   return `<div class="talk cal-talk" data-search="${search}" data-id="${he(id)}" ${_modalAttrs(t, dayLabel)} style="${cardSt}">` +
@@ -2589,7 +2592,7 @@ function _renderAgendaDay(day) {
       `<div class="agenda-event-col"><span class="agenda-conf" style="color:${color}">${he(short)}</span>` +
       `<div class="agenda-title"><span class="talk-link" onclick="openTalkModal(this)">${he(t.title)}</span></div>` +
       (meta ? `<div class="agenda-meta">${meta}</div>` : '') + `</div>` +
-      `<button class="star-btn" onclick="toggleBookmark(this)" title="Save to My Schedule"${plenary?' style="color:#7eb8f7"':''}>&#9734;</button>` +
+      `<button class="star-btn" onclick="toggleBookmark(this)" title="Save to My Schedule">&#9734;</button>` +
       `</div>`;
   }
   return `<div class="cal-agenda">${rows}</div>`;
@@ -2732,6 +2735,32 @@ function _applyState(el) {
   });
   _buildScheduleDay(ALL_DAYS[0]);
   updateStickyOffset();
+
+  // ── Drag-to-scroll on legend ──
+  const legend = document.querySelector('.legend');
+  if (legend) {
+    let isDown = false, didDrag = false, startX, scrollLeft;
+    legend.addEventListener('mousedown', e => {
+      isDown = true;
+      didDrag = false;
+      legend.classList.add('dragging');
+      startX = e.pageX - legend.offsetLeft;
+      scrollLeft = legend.scrollLeft;
+    });
+    const stop = () => { isDown = false; legend.classList.remove('dragging'); };
+    legend.addEventListener('mouseleave', stop);
+    legend.addEventListener('mouseup', stop);
+    legend.addEventListener('mousemove', e => {
+      if (!isDown) return;
+      const dx = e.pageX - legend.offsetLeft - startX;
+      if (Math.abs(dx) > 4) didDrag = true;
+      e.preventDefault();
+      legend.scrollLeft = scrollLeft - dx;
+    });
+    legend.addEventListener('click', e => {
+      if (didDrag) { e.stopPropagation(); e.preventDefault(); didDrag = false; }
+    }, true);
+  }
 })();
 </script>
 <script>

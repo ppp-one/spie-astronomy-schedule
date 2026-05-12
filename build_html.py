@@ -105,6 +105,7 @@ UNDO_SVG = (
     "</svg>"
 )
 
+
 def generate_png_icon(size: int) -> bytes:
     """Generate a PNG matching the SVG icon: dark rounded rect + amber star."""
     bg = (30, 41, 59)
@@ -112,16 +113,22 @@ def generate_png_icon(size: int) -> bytes:
     s = size / 32
     rx = 6 * s
     star_pts = [
-        (16*s, 5*s), (18.6*s, 12.4*s), (26.5*s, 12.6*s),
-        (20.3*s, 17.4*s), (22.5*s, 24.9*s), (16*s, 20.5*s),
-        (9.5*s, 24.9*s), (11.7*s, 17.4*s), (5.5*s, 12.6*s),
-        (13.4*s, 12.4*s),
+        (16 * s, 5 * s),
+        (18.6 * s, 12.4 * s),
+        (26.5 * s, 12.6 * s),
+        (20.3 * s, 17.4 * s),
+        (22.5 * s, 24.9 * s),
+        (16 * s, 20.5 * s),
+        (9.5 * s, 24.9 * s),
+        (11.7 * s, 17.4 * s),
+        (5.5 * s, 12.6 * s),
+        (13.4 * s, 12.4 * s),
     ]
 
     def in_rounded_rect(x, y):
         cx = max(rx, min(x, size - rx))
         cy = max(rx, min(y, size - rx))
-        return (x - cx) ** 2 + (y - cy) ** 2 <= rx ** 2
+        return (x - cx) ** 2 + (y - cy) ** 2 <= rx**2
 
     def in_polygon(px, py):
         inside = False
@@ -139,7 +146,7 @@ def generate_png_icon(size: int) -> bytes:
         for x in range(size):
             px, py = x + 0.5, y + 0.5
             if not in_rounded_rect(px, py):
-                row += b'\x00\x00\x00\x00'
+                row += b"\x00\x00\x00\x00"
             elif in_polygon(px, py):
                 row += bytes([*star_color, 255])
             else:
@@ -148,14 +155,18 @@ def generate_png_icon(size: int) -> bytes:
 
     def png_chunk(name, data):
         c = name + data
-        return struct.pack('>I', len(data)) + c + struct.pack('>I', zlib.crc32(c) & 0xFFFFFFFF)
+        return (
+            struct.pack(">I", len(data))
+            + c
+            + struct.pack(">I", zlib.crc32(c) & 0xFFFFFFFF)
+        )
 
-    ihdr = struct.pack('>II', size, size) + bytes([8, 6, 0, 0, 0])
+    ihdr = struct.pack(">II", size, size) + bytes([8, 6, 0, 0, 0])
     return (
-        b'\x89PNG\r\n\x1a\n'
-        + png_chunk(b'IHDR', ihdr)
-        + png_chunk(b'IDAT', zlib.compress(b''.join(rows), 9))
-        + png_chunk(b'IEND', b'')
+        b"\x89PNG\r\n\x1a\n"
+        + png_chunk(b"IHDR", ihdr)
+        + png_chunk(b"IDAT", zlib.compress(b"".join(rows), 9))
+        + png_chunk(b"IEND", b"")
     )
 
 
@@ -538,7 +549,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 12px;
+  gap: 8px 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,.5);
 }
 .topbar h1 {
@@ -553,7 +564,8 @@ body {
   display: flex;
   align-items: center;
   gap: 6px;
-  flex: 1 1 180px;
+  flex: 1 1 120px;
+  min-width: 120px;
   max-width: 360px;
 }
 #search {
@@ -575,36 +587,44 @@ body {
   font-size: 12px;
 }
 #clear-btn:hover { background: rgba(126,184,247,.15); }
-#match-count { font-size: 11px; color: #aaa; min-width: 80px; }
+#match-count { font-size: 11px; color: #aaa; flex-shrink: 0; min-width: 50px; text-align: right; padding-right: 8px; }
+.topbar-right { flex-shrink: 0; margin-left: auto; }
 /* ── Legend ── */
 .legend {
   padding: 7px 16px;
-  background: #fff;
-  border-bottom: 1px solid #ddd;
+  background: #1a1a2e;
+  border-bottom: 1px solid #2c2c4e;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
   gap: 10px 16px;
   align-items: center;
 }
+.legend::-webkit-scrollbar { display: none; }
+.legend { cursor: grab; }
+.legend.dragging { cursor: grabbing; user-select: none; }
 .legend-item {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 8px;
   font-size: 11px;
-  color: #444;
+  color: #aab;
   cursor: pointer;
   user-select: none;
   transition: opacity .15s;
   border-radius: 4px;
   padding: 2px 4px;
   border: 1px solid transparent;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 .legend-item:hover { opacity: 0.7; }
 .legend-item.inactive { opacity: 0.2; }
 #clear-conf-btn {
   background: none;
-  border: 1px solid #bbb;
-  color: #666;
+  border: 1px solid #4a4a7e;
+  color: #aab;
   border-radius: 4px;
   padding: 2px 8px;
   cursor: pointer;
@@ -875,21 +895,22 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   font-size: 12px;
   font-weight: 600;
   white-space: nowrap;
-  min-width: 120px;
   transition: background .15s, border-color .15s, color .15s;
 }
 #my-schedule-btn:hover { border-color: #f5a623; color: #f5a623; }
 #my-schedule-btn.active { background: #f5a623; color: #1a1a2e; border-color: #f5a623; }
-#bookmark-count { font-size: 11px; color: #f5a623; min-width: 60px; }
+#bookmark-count { font-size: 11px; color: #f5a623; padding-right: 8px; text-align: right; }
 #share-btn {
   background: none;
-  border: 1px solid #7eb8f7;
-  color: #7eb8f7;
+  border: 1px solid #556;
+  color: #aab;
   border-radius: 4px;
   padding: 4px 10px;
   cursor: pointer;
   font-size: 12px;
+  font-weight: 600;
   white-space: nowrap;
+  transition: background .15s, border-color .15s, color .15s;
 }
 #share-btn:hover { background: rgba(126,184,247,.15); }
 /* ── Export/import modal ── */
@@ -948,6 +969,8 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 .talk-link:hover { text-decoration: underline; }
 /* ── Talk detail modal ── */
 #talk-modal .modal { max-width: 640px; max-height: 90vh; overflow-y: auto; position: relative; }
+/* ── Sync & Backup modal ── */
+#share-modal .modal { max-height: 90vh; overflow-y: auto; }
 .modal-close {
   position: absolute;
   top: 12px;
@@ -1103,10 +1126,7 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 }
 .agenda-row:hover { background: #f7f9ff; }
 .agenda-row.bookmarked { box-shadow: inset 3px 0 0 #f5a623, 0 0 0 0 transparent; }
-.agenda-row--plenary { background: #0d0d1e; }
-.agenda-row--plenary:hover { background: #131326; }
-.agenda-row--plenary .agenda-title { color: #d0d8ff; }
-.agenda-row--plenary .agenda-meta  { color: #7a82aa; }
+
 .agenda-time-col {
   width: 58px;
   flex-shrink: 0;
@@ -1411,7 +1431,7 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 .swipe-card.fly-up    { transition: transform .35s ease-in, opacity .35s; transform: translateY(-120%) !important; opacity: 0; pointer-events: none; }
 .swipe-hint-skip {
   position: absolute;
-  top: 16px; left: 16px;
+  top: 16px; left: 32px;
   background: rgba(225,87,89,.85);
   color: #fff;
   font-weight: 700;
@@ -1425,7 +1445,7 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 }
 .swipe-hint-save {
   position: absolute;
-  top: 16px; right: 16px;
+  top: 16px; right: 32px;
   background: rgba(245,166,35,.85);
   color: #1a1a2e;
   font-weight: 700;
@@ -1516,21 +1536,14 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   body { font-size: 14px; }
   .topbar { padding: 8px 12px; gap: 6px; }
   .topbar h1 { display: none; }
-  .search-wrap { max-width: unset; flex: 1 1 auto; }
+  .search-wrap { order: -1; flex: 0 0 100%; max-width: unset; }
+  .topbar-right { margin-left: auto; }
   #search { font-size: 16px; }
   .legend {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
     padding: 6px 12px;
     gap: 6px 10px;
-    background: #1a1a2e;
-    border-bottom-color: #2c2c4e;
   }
-  .legend::-webkit-scrollbar { display: none; }
-  .legend-item { white-space: nowrap; flex-shrink: 0; color: #aab; }
-  #clear-conf-btn { border-color: #4a4a7e; color: #aab; }
+  .legend-item { white-space: nowrap; flex-shrink: 0; }
   .view-nav { padding: 0; flex-wrap: wrap; position: relative; }
   .view-btn { display: none; font-size: 13px; padding: 11px 20px; width: 100%; text-align: left; border-bottom: none; border-top: 1px solid #2c2c4e; }
   .view-btn.active { border-bottom: none; border-left: 3px solid #7eb8f7; }
@@ -1618,11 +1631,9 @@ function _renderCalCard(t, top, height, dayLabel) {
   const short   = CONF_SHORT[t.conf] || t.conf;
   const search  = he(t.title + ' ' + t.paper + ' ' + t.author);
   const plenary = t.conf === 'PLENARY';
-  const cardSt  = plenary
-    ? `background:#1a1a2e;border-left-color:#fff;top:${top}px;height:${height}px`
-    : `border-left-color:${color};top:${top}px;height:${height}px`;
-  const confSt  = plenary ? 'color:#fff' : `color:${color}`;
-  const titlSt  = plenary ? 'color:#fff' : '';
+  const cardSt  = `border-left-color:${color};top:${top}px;height:${height}px`;
+  const confSt  = `color:${color}`;
+  const titlSt  = '';
   const meta    = t.conf !== 'PLENARY'
     ? `<div class="talk-meta">[${he(t.paper)}] ${he(t.author)}</div>` : '';
   return `<div class="talk cal-talk" data-search="${search}" data-id="${he(id)}" ${_modalAttrs(t, dayLabel)} style="${cardSt}">` +
@@ -1732,7 +1743,7 @@ function _renderAgendaDay(day) {
       `<div class="agenda-event-col"><span class="agenda-conf" style="color:${color}">${he(short)}</span>` +
       `<div class="agenda-title"><span class="talk-link" onclick="openTalkModal(this)">${he(t.title)}</span></div>` +
       (meta ? `<div class="agenda-meta">${meta}</div>` : '') + `</div>` +
-      `<button class="star-btn" onclick="toggleBookmark(this)" title="Save to My Schedule"${plenary?' style="color:#7eb8f7"':''}>&#9734;</button>` +
+      `<button class="star-btn" onclick="toggleBookmark(this)" title="Save to My Schedule">&#9734;</button>` +
       `</div>`;
   }
   return `<div class="cal-agenda">${rows}</div>`;
@@ -1875,6 +1886,32 @@ function _applyState(el) {
   });
   _buildScheduleDay(ALL_DAYS[0]);
   updateStickyOffset();
+
+  // ── Drag-to-scroll on legend ──
+  const legend = document.querySelector('.legend');
+  if (legend) {
+    let isDown = false, didDrag = false, startX, scrollLeft;
+    legend.addEventListener('mousedown', e => {
+      isDown = true;
+      didDrag = false;
+      legend.classList.add('dragging');
+      startX = e.pageX - legend.offsetLeft;
+      scrollLeft = legend.scrollLeft;
+    });
+    const stop = () => { isDown = false; legend.classList.remove('dragging'); };
+    legend.addEventListener('mouseleave', stop);
+    legend.addEventListener('mouseup', stop);
+    legend.addEventListener('mousemove', e => {
+      if (!isDown) return;
+      const dx = e.pageX - legend.offsetLeft - startX;
+      if (Math.abs(dx) > 4) didDrag = true;
+      e.preventDefault();
+      legend.scrollLeft = scrollLeft - dx;
+    });
+    legend.addEventListener('click', e => {
+      if (didDrag) { e.stopPropagation(); e.preventDefault(); didDrag = false; }
+    }, true);
+  }
 })();
 """
 
@@ -2416,7 +2453,7 @@ function renderSwipeCard(talk, stackPos) {
   const offset = stackPos * 4;
   const scale = 1 - stackPos * 0.04;
   const style = `transform: translateY(${offset}px) scale(${scale}); z-index: ${10 - stackPos};`;
-  const href = talk.url ? `https://spie.org${talk.url}` : '';
+  const href = talk.url ? `${talk.url}` : '';
   const metaParts = [talk.paper, talk.author].filter(Boolean);
   const dayMeta = swipeFilterDay === 'all' && talk.dayLabel ? `<div class="swipe-card-meta" style="font-size:10px;opacity:.7">${swipeEscape(talk.dayLabel)}</div>` : '';
   return `<div class="swipe-card" data-id="${swipeEscape(talk.id)}"
@@ -2628,7 +2665,7 @@ function renderTalkSwipeCard(talk, stackPos) {
   const offset = stackPos * 4;
   const scale = 1 - stackPos * 0.04;
   const style = `transform: translateY(${offset}px) scale(${scale}); z-index: ${10 - stackPos};`;
-  const href = talk.url ? `https://spie.org${talk.url}` : '';
+  const href = talk.url ? `${talk.url}` : '';
   const metaParts = [talk.paper, talk.author].filter(Boolean);
   const timeMeta = [talk.time, talk.room].filter(s => s && s !== 'Room TBC').join(' · ');
   const dayMeta = talkSwipeFilterDay === 'all' && talk.dayLabel ? talk.dayLabel : '';
@@ -3130,8 +3167,6 @@ initBackToTop();
 """
 
 
-
-
 def render_swipe_page(poster_days: list[dict]) -> str:
     day_opts = "".join(
         f'<option value="{d["date_iso"]}">{e(d["label"])}</option>' for d in poster_days
@@ -3151,7 +3186,6 @@ def render_swipe_page(poster_days: list[dict]) -> str:
         f"</div>"
         f'<div class="swipe-keys">&#8592; skip &nbsp;|&nbsp; &#8594; save &nbsp;|&nbsp; &#8593; undo</div>'
     )
-
 
 
 def render_talk_swipe_page(days: list[dict]) -> str:
@@ -3192,9 +3226,9 @@ def build_html(days: list[dict], poster_days: list[dict], records: list[dict]) -
         "</button>"
         '<button class="view-btn active" data-view="schedule" onclick="switchView(\'schedule\')">Talk Schedule</button>'
         '<button class="view-btn" data-view="talklist" onclick="switchView(\'talklist\')">Talk List</button>'
-        f'<button class="view-btn" data-view="talkswipe" onclick="switchView(\'talkswipe\')">{TINDER_SVG}Talk Swipe</button>'
-        '<span class="view-nav-divider"></span>'
         '<button class="view-btn" data-view="posters" onclick="switchView(\'posters\')">Poster List</button>'
+        '<span class="view-nav-divider"></span>'
+        f'<button class="view-btn" data-view="talkswipe" onclick="switchView(\'talkswipe\')">{TINDER_SVG}Talk Swipe</button>'
         f'<button class="view-btn" data-view="swipe" onclick="switchView(\'swipe\')">{TINDER_SVG}Poster Swipe</button>'
         "</nav>"
     )
@@ -3209,9 +3243,7 @@ def build_html(days: list[dict], poster_days: list[dict], records: list[dict]) -
         f"const ALL_DAYS = {_dumps(serialize_days(days))};\n"
         f"const ALL_POSTER_DAYS = {_dumps(serialize_poster_days(poster_days))};\n"
         f"const CONF_COLOR = {_dumps(CONF_COLOR)};\n"
-        f"const CONF_SHORT = {_dumps(CONF_SHORT)};\n"
-        + JS
-        + RENDER_JS
+        f"const CONF_SHORT = {_dumps(CONF_SHORT)};\n" + JS + RENDER_JS
     )
 
     return f"""<!DOCTYPE html>
@@ -3234,16 +3266,14 @@ def build_html(days: list[dict], poster_days: list[dict], records: list[dict]) -
   <h1>SPIE AS26 · Schedule</h1>
   <div class="search-wrap">
     <input id="search" type="search" placeholder="Search talks: title, author, paper…" autocomplete="off">
-    <button id="clear-btn" onclick="clearSearch()">Clear</button>
   </div>
-  <button id="my-schedule-btn" onclick="toggleMySchedule()">&#9733; My Schedule</button>
-  <span id="bookmark-count"></span>
-  <button id="share-btn" onclick="openShareModal()">&#9881; Sync &amp; Backup</button>
-  <span id="sync-status" style="font-size:13px;min-width:16px;text-align:center;cursor:default;transition:color .3s" title=""></span>
   <span id="match-count"></span>
-  <a href="https://github.com/ppp-one/spie-astronomy-schedule" target="_blank" rel="noopener" class="github-link" title="View on GitHub" style="margin-left:auto;color:#7eb8f7;display:flex;align-items:center;text-decoration:none;">
-    <svg height="20" width="20" viewBox="0 0 16 16" aria-hidden="true" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-  </a>
+  <div class="topbar-right">
+    <span id="bookmark-count"></span>
+    <button id="my-schedule-btn" onclick="toggleMySchedule()" title="My Schedule">&#9733;</button>
+    <button id="share-btn" onclick="openShareModal()" title="Sync &amp; Backup">&#9881;</button>
+    <span id="sync-status" style="font-size:12px;min-width:16px;text-align:center;cursor:default;transition:color .3s" title=""></span>
+  </div>
 </div>
 
 <div class="legend">{legend}</div>
@@ -3310,6 +3340,11 @@ def build_html(days: list[dict], poster_days: list[dict], records: list[dict]) -
       <button class="modal-btn primary" onclick="importBookmarks()">Restore</button>
     </div>
     <div class="modal-notice" id="share-notice"></div>
+    <hr style="margin:16px 0;border:none;border-top:1px solid #eee">
+    <a href="https://github.com/ppp-one/spie-astronomy-schedule" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:6px;color:#000000;font-size:12px;text-decoration:none;">
+      <svg height="16" width="16" viewBox="0 0 16 16" aria-hidden="true" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+      View source on GitHub
+    </a>
   </div>
 </div>
 
