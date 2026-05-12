@@ -413,6 +413,7 @@ def serialize_talk(t: dict) -> dict:
         "title": t["title"],
         "paper": t["paper"],
         "author": t["author"],
+        "authors": t.get("authors") or "",
         "room": t["room"],
         "start_min": to_minutes(t["time_sort"]),
         "end_str": slot_end(t["time_slot"]),
@@ -1629,7 +1630,7 @@ function _renderCalCard(t, top, height, dayLabel) {
   const id      = _talkId(t);
   const color   = CONF_COLOR[t.conf] || '#999';
   const short   = CONF_SHORT[t.conf] || t.conf;
-  const search  = he(t.title + ' ' + t.paper + ' ' + t.author);
+  const search  = he(t.title + ' ' + t.paper + ' ' + (t.authors || t.author));
   const plenary = t.conf === 'PLENARY';
   const cardSt  = `border-left-color:${color};top:${top}px;height:${height}px`;
   const confSt  = `color:${color}`;
@@ -1648,7 +1649,7 @@ function _renderSessionItem(t, dayLabel) {
   const id     = _talkId(t);
   const color  = CONF_COLOR[t.conf] || '#999';
   const short  = CONF_SHORT[t.conf] || t.conf;
-  const search = he(t.title + ' ' + t.paper + ' ' + t.author);
+  const search = he(t.title + ' ' + t.paper + ' ' + (t.authors || t.author));
   const meta   = t.conf !== 'PLENARY'
     ? `<div class="talk-meta">[${he(t.paper)}] ${he(t.author)}</div>` : '';
   return `<div class="talk session-item" data-search="${search}" data-id="${he(id)}" ${_modalAttrs(t, dayLabel)} style="border-left-color:${color}">` +
@@ -1733,7 +1734,7 @@ function _renderAgendaDay(day) {
     const id      = _talkId(t);
     const color   = CONF_COLOR[t.conf] || '#999';
     const short   = CONF_SHORT[t.conf] || t.conf;
-    const search  = he(t.title + ' ' + t.paper + ' ' + t.author);
+    const search  = he(t.title + ' ' + t.paper + ' ' + (t.authors || t.author));
     const plenary = t.conf === 'PLENARY';
     const ts      = String(Math.floor(t.start_min/60)).padStart(2,'0') + ':' + String(t.start_min%60).padStart(2,'0');
     const endH    = t.end_str ? `<span class="agenda-time-end">${he(t.end_str)}</span>` : '';
@@ -1764,7 +1765,7 @@ function _renderTalkListItem(t, date_iso, dayLabel) {
   const id    = _talkId(t);
   const color = CONF_COLOR[t.conf] || '#999';
   const short = CONF_SHORT[t.conf] || t.conf;
-  const search = he(t.title + ' ' + t.paper + ' ' + t.author);
+  const search = he(t.title + ' ' + t.paper + ' ' + (t.authors || t.author));
   const ts    = String(Math.floor(t.start_min/60)).padStart(2,'0') + ':' + String(t.start_min%60).padStart(2,'0');
   const tl    = t.end_str ? ts + '\\u2013' + t.end_str : ts;
   const meta  = t.conf !== 'PLENARY' ? `[${he(t.paper)}] ${he(t.author)}` : '';
@@ -1804,7 +1805,7 @@ function _renderPosterItem(t, conf, date_iso, dayLabel) {
   const id    = he(t.paper);
   const color = CONF_COLOR[conf] || '#999';
   const short = CONF_SHORT[conf] || conf;
-  const search = he(t.title + ' ' + t.paper + ' ' + t.author);
+  const search = he(t.title + ' ' + t.paper + ' ' + (t.authors || t.author));
   const tc    = {...t, conf};
   return `<div class="poster-item" data-id="${id}" data-search="${search}" ` +
     `data-day="${he(date_iso)}" data-day-label="${he(dayLabel)}" ${_modalAttrs(tc)}>` +
