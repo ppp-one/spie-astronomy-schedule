@@ -669,17 +669,23 @@ body {
   font-weight: 700;
   border-color: #aab;
 }
-/* ── Schedule body (single scroll container) ── */
+/* ── Schedule body: flex column so tabs never scroll horizontally ── */
 #schedule-body {
   height: calc(100vh - var(--topbar-h, 44px));
-  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
-/* ── Tabs sticky within scroll container ── */
+/* ── Tabs: fixed header above the scroll area ── */
 #schedule-body .tabs {
-  position: sticky;
-  top: 0;
-  z-index: 100;
+  flex: none;
   background: #f0f2f5;
+}
+/* ── Scrollable calendar area ── */
+#schedule-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
 }
 /* ── Day panel ── */
 .day-panel { padding-bottom: 32px; }
@@ -688,7 +694,7 @@ body {
 .cal-header-row {
   display: flex;
   position: sticky;
-  top: var(--tabs-h, 0);
+  top: 0;
   z-index: 12;
   background: #1a1a2e;
   min-width: fit-content;
@@ -1729,7 +1735,7 @@ function _renderAgendaDay(day) {
     const h = Math.floor(t.start_min/60);
     if (h !== lastHour) {
       lastHour = h;
-      rows += `<div class="agenda-hour-sep" style="top:var(--tabs-h,0)"><span>${String(h).padStart(2,'0')}:00</span></div>`;
+      rows += `<div class="agenda-hour-sep" style="top:0"><span>${String(h).padStart(2,'0')}:00</span></div>`;
     }
     const id      = _talkId(t);
     const color   = CONF_COLOR[t.conf] || '#999';
@@ -1869,9 +1875,10 @@ function _applyState(el) {
 
 // ── Schedule initialisation (runs after all JS is defined) ─────────────────
 (function initSchedule() {
-  const body   = document.getElementById('schedule-body');
-  const tabsEl = document.getElementById('schedule-tabs');
-  if (!body || !tabsEl || !ALL_DAYS.length) return;
+  const body      = document.getElementById('schedule-body');
+  const tabsEl    = document.getElementById('schedule-tabs');
+  const scrollDiv = document.getElementById('schedule-scroll');
+  if (!body || !tabsEl || !scrollDiv || !ALL_DAYS.length) return;
   ALL_DAYS.forEach((day, i) => {
     const btn = document.createElement('button');
     btn.className = 'tab-btn' + (i === 0 ? ' active' : '');
@@ -1883,7 +1890,7 @@ function _applyState(el) {
     panel.className = 'day-panel';
     panel.id = 'day-' + day.date_iso;
     panel.style.display = i === 0 ? 'block' : 'none';
-    body.appendChild(panel);
+    scrollDiv.appendChild(panel);
   });
   _buildScheduleDay(ALL_DAYS[0]);
   updateStickyOffset();
@@ -2108,10 +2115,6 @@ function updateStickyOffset() {
   const viewNavH = document.querySelector('.view-nav').offsetHeight;
   const totalH = topbarH + legendH + viewNavH;
   document.documentElement.style.setProperty('--topbar-h', topbarH + 'px');
-  const tabsEl = document.querySelector('#schedule-body .tabs');
-  if (tabsEl) {
-    document.documentElement.style.setProperty('--tabs-h', tabsEl.offsetHeight + 'px');
-  }
   const posterTabsEl = document.querySelector('#poster-body .tabs');
   if (posterTabsEl) {
     document.documentElement.style.setProperty('--poster-tabs-h', posterTabsEl.offsetHeight + 'px');
@@ -3282,6 +3285,7 @@ def build_html(days: list[dict], poster_days: list[dict], records: list[dict]) -
 <div class="page active" id="page-schedule">
 <div id="schedule-body">
 <div class="tabs" id="schedule-tabs"></div>
+<div id="schedule-scroll"></div>
 </div>
 </div>
 <div class="page" id="page-talklist">
