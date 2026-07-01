@@ -54,6 +54,7 @@ CONF_SHORT = {
     "14156": "mm/Submm/FIR Det",
     "14157": "Detectors (X/Opt/IR)",
     "PLENARY": "Plenary",
+    "SPECIAL": "Special Event",
 }
 
 CONF_COLOR = {
@@ -71,7 +72,11 @@ CONF_COLOR = {
     "14156": "#6b9e78",
     "14157": "#59a14f",
     "PLENARY": "#9467bd",
+    "SPECIAL": "#e377c2",
 }
+
+# Confs rendered on their own "Special Events" tab instead of the main schedule.
+SPECIAL_TAB_CONFS = {"PLENARY", "SPECIAL"}
 
 SYNC_API_URL = "https://spie-sync.peterpihlmannpedersen-cloudflare.workers.dev"  # e.g. "https://spie-sync.yourname.workers.dev"
 
@@ -403,6 +408,36 @@ def load_records() -> list[dict]:
                     }
                 )
 
+    special_file = RESULTS_DIR / "special_events.json"
+    if special_file.exists():
+        with special_file.open(encoding="utf-8") as f:
+            data = json.load(f)
+        for item in data.get("Items", []):
+            title = item.get("Title", "")
+            if item.get("RecordLabel") == "Plenary" or title.endswith("Poster Session"):
+                # Already represented via plenary.json / per-paper poster records.
+                continue
+            for entry in item.get("DateTimeLocationDataList", []):
+                parsed = parse_dtl(entry.get("date_time_location", ""))
+                if not parsed:
+                    continue
+                date_str, time_slot, room = parsed
+                records.append(
+                    {
+                        "date_iso": date_to_iso(date_str),
+                        "time_slot": time_slot,
+                        "time_sort": slot_sort_key(time_slot),
+                        "room": room,
+                        "conf": "SPECIAL",
+                        "title": title,
+                        "abstract": item.get("Description") or "",
+                        "paper": "",
+                        "author": "",
+                        "authors": "",
+                        "url": item.get("URL") or "",
+                    }
+                )
+
     return records
 
 
@@ -452,11 +487,22 @@ def serialize_poster_days(poster_days: list[dict]) -> list:
     ]
 
 
+def serialize_special_days(special_days: list[dict]) -> list:
+    return [
+        {
+            "date_iso": d["date_iso"],
+            "label": d["label"],
+            "talks": [serialize_talk(t) for t in d["talks"]],
+        }
+        for d in special_days
+    ]
+
+
 def build_talk_data(records: list[dict]) -> dict:
     """Map card-id → {abstract, authors} for the single JS TALK_DATA lookup table."""
     data: dict[str, dict] = {}
     for r in records:
-        key = r["paper"] if r["paper"] else f"PLENARY-{r['title']}"
+        key = r["paper"] if r["paper"] else f"{r['conf']}-{r['title']}"
         if key not in data:
             data[key] = {
                 "abstract": r.get("abstract") or "",
@@ -468,7 +514,7 @@ def build_talk_data(records: list[dict]) -> dict:
 def build_days(records: list[dict]) -> list[dict]:
     by_day: dict[str, dict[str, list]] = defaultdict(lambda: defaultdict(list))
     for r in records:
-        if is_poster(r):
+        if is_poster(r) or r["conf"] in SPECIAL_TAB_CONFS:
             continue
         by_day[r["date_iso"]][r["room"]].append(r)
 
@@ -508,6 +554,24 @@ def build_days(records: list[dict]) -> list[dict]:
             }
         )
     return days
+
+
+def build_special_days(records: list[dict]) -> list[dict]:
+    """Return per-day flat lists of plenary/special-event records."""
+    by_day: dict[str, list] = defaultdict(list)
+    for r in records:
+        if r["conf"] not in SPECIAL_TAB_CONFS:
+            continue
+        by_day[r["date_iso"]].append(r)
+
+    return [
+        {
+            "date_iso": date_iso,
+            "label": day_label(date_iso),
+            "talks": sorted(by_day[date_iso], key=lambda r: (r["time_sort"], r["title"])),
+        }
+        for date_iso in sorted(by_day.keys())
+    ]
 
 
 def _modal_data(talk: dict, href: str, short: str, color: str) -> str:
@@ -1272,7 +1336,7 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   background: #f0f2f5;
   padding: 10px 16px 0;
 }
-#poster-star-count, #talklist-star-count { font-size: 11px; color: #f5a623; padding: 4px 16px 6px; display: block; }
+#poster-star-count, #talklist-star-count, #specials-star-count { font-size: 11px; color: #f5a623; padding: 4px 16px 6px; display: block; }
 /* ── Poster panels & items ── */
 .poster-day-panel { display: none; padding: 16px; }
 .poster-day-panel.active { display: block; }
@@ -1361,6 +1425,20 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 }
 .talk-list-day-panel { display: none; padding: 0 16px 16px; }
 .talk-list-day-panel.active { display: block; }
+#specials-body {
+  height: calc(100vh - var(--topbar-h, 44px));
+  overflow-y: auto;
+  padding: 0 0 32px;
+}
+#specials-body .tabs {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #f0f2f5;
+  padding: 10px 16px 0;
+}
+.specials-day-panel { display: none; padding: 0 16px 16px; }
+.specials-day-panel.active { display: block; }
 .talk-list-item {
   display: flex;
   align-items: flex-start;
@@ -1651,7 +1729,7 @@ function he(s) {
     .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
-function _talkId(t) { return t.paper || ('PLENARY-' + t.title); }
+function _talkId(t) { return t.paper || (t.conf + '-' + t.title); }
 function _talkHref(t) { return t.url ? 'https://spie.org' + t.url : ''; }
 
 function _modalAttrs(t, dayLabel='') {
@@ -1682,11 +1760,10 @@ function _renderCalCard(t, top, height, dayLabel) {
   const color   = CONF_COLOR[t.conf] || '#999';
   const short   = CONF_SHORT[t.conf] || t.conf;
   const search  = he(t.title + ' ' + t.paper + ' ' + (t.authors || t.author));
-  const plenary = t.conf === 'PLENARY';
   const cardSt  = `border-left-color:${color};top:${top}px;height:${height}px`;
   const confSt  = `color:${color}`;
   const titlSt  = '';
-  const meta    = t.conf !== 'PLENARY'
+  const meta    = t.paper
     ? `<div class="talk-meta">[${he(t.paper)}] ${he(t.author)}</div>` : '';
   return `<div class="talk cal-talk" data-search="${search}" data-id="${he(id)}" ${_modalAttrs(t, dayLabel)} style="${cardSt}">` +
     `<div class="talk-header"><span class="talk-conf" style="${confSt}">${he(short)}</span>` +
@@ -1701,7 +1778,7 @@ function _renderSessionItem(t, dayLabel) {
   const color  = CONF_COLOR[t.conf] || '#999';
   const short  = CONF_SHORT[t.conf] || t.conf;
   const search = he(t.title + ' ' + t.paper + ' ' + (t.authors || t.author));
-  const meta   = t.conf !== 'PLENARY'
+  const meta   = t.paper
     ? `<div class="talk-meta">[${he(t.paper)}] ${he(t.author)}</div>` : '';
   return `<div class="talk session-item" data-search="${search}" data-id="${he(id)}" ${_modalAttrs(t, dayLabel)} style="border-left-color:${color}">` +
     `<div class="talk-header"><span class="talk-conf" style="color:${color}">${he(short)}</span>` +
@@ -1851,7 +1928,7 @@ function _renderTalkListItem(t, date_iso, dayLabel) {
   const search = he(t.title + ' ' + t.paper + ' ' + (t.authors || t.author));
   const ts    = String(Math.floor(t.start_min/60)).padStart(2,'0') + ':' + String(t.start_min%60).padStart(2,'0');
   const tl    = t.end_str ? ts + '\\u2013' + t.end_str : ts;
-  const meta  = t.conf !== 'PLENARY' ? `[${he(t.paper)}] ${he(t.author)}` : '';
+  const meta  = t.paper ? `[${he(t.paper)}] ${he(t.author)}` : '';
   return `<div class="talk-list-item" data-search="${search}" data-id="${he(id)}" ` +
     `data-day="${he(date_iso)}" data-day-label="${he(dayLabel)}" ${_modalAttrs(t)}>` +
     `<div class="talk-list-time">${tl}<br>${he(t.room)}</div>` +
@@ -1881,6 +1958,26 @@ function _ensureTalkListBuilt() {
   body.innerHTML = `<div class="tabs">${tabs}</div>` + panels;
   _applyState(body);
   updateTalkListCount();
+}
+
+// ── Special events list (plenaries + special events) ───────────────────────
+let _specialsBuilt = false;
+function _ensureSpecialsBuilt() {
+  if (_specialsBuilt) return;
+  _specialsBuilt = true;
+  const body = document.getElementById('specials-body');
+  if (!body) return;
+  let tabs = `<button class="tab-btn active" data-day="all" onclick="switchSpecialsDay('all')" style="font-size:12px;padding:5px 14px">All days</button>`;
+  let panels = '<span id="specials-star-count"></span>';
+  for (const day of ALL_SPECIAL_DAYS) {
+    tabs += `<button class="tab-btn" data-day="${day.date_iso}" onclick="switchSpecialsDay('${day.date_iso}')" style="font-size:12px;padding:5px 14px">${he(day.label)}</button>`;
+    const talks = [...day.talks].sort((a,b) => a.start_min-b.start_min || a.title.localeCompare(b.title));
+    panels += `<div class="specials-day-panel active" id="specials-day-${day.date_iso}">` +
+      talks.map(t => _renderTalkListItem(t, day.date_iso, day.label)).join('') + `</div>`;
+  }
+  body.innerHTML = `<div class="tabs">${tabs}</div>` + panels;
+  _applyState(body);
+  updateSpecialsCount();
 }
 
 // ── Poster list ────────────────────────────────────────────────────────────
@@ -2053,6 +2150,7 @@ function saveBookmarks(sync = true) {
   localStorage.setItem(LS_KEY, JSON.stringify([...bookmarks]));
   updateBookmarkCount();
   updateTalkListCount();
+  updateSpecialsCount();
   if (sync) schedulePush();
 }
 
@@ -2069,6 +2167,21 @@ function updateTalkListCount() {
     });
   });
   countEl.textContent = starred ? starred + ' ★ / ' + total + ' talks' : total + ' talks';
+}
+
+function updateSpecialsCount() {
+  const countEl = document.getElementById('specials-star-count');
+  if (!countEl) return;
+  let starred = 0, total = 0;
+  document.querySelectorAll('.specials-day-panel.active').forEach(panel => {
+    panel.querySelectorAll('.talk-list-item').forEach(t => {
+      if (!t.classList.contains('conf-hidden')) {
+        total++;
+        if (t.classList.contains('bookmarked')) starred++;
+      }
+    });
+  });
+  countEl.textContent = starred ? starred + ' ★ / ' + total + ' events' : total + ' events';
 }
 
 function updateBookmarkCount() {
@@ -2156,6 +2269,26 @@ function applySearch() {
     return;
   }
 
+  if (document.getElementById('page-specials').classList.contains('active')) {
+    document.querySelectorAll('.specials-day-panel.active').forEach(panel => {
+      panel.querySelectorAll('.talk-list-item').forEach(t => {
+        const searchOk = !q || t.dataset.search.toLowerCase().includes(q) ||
+          (TALK_DATA[t.dataset.id]?.abstract || '').toLowerCase().includes(q);
+        const scheduleOk = !myScheduleActive || t.classList.contains('bookmarked');
+        const visible = searchOk && scheduleOk;
+        t.style.display = visible ? '' : 'none';
+        if (visible && q && !t.classList.contains('conf-hidden')) n++;
+      });
+      const anyVisible = [...panel.querySelectorAll('.talk-list-item')].some(
+        t => t.style.display !== 'none' && !t.classList.contains('conf-hidden'));
+      panel.style.display = anyVisible ? '' : 'none';
+    });
+    document.getElementById('match-count').textContent =
+      q ? n + ' match' + (n !== 1 ? 'es' : '') : '';
+    updateSpecialsCount();
+    return;
+  }
+
   if (document.getElementById('page-swipe').classList.contains('active')) {
     const remaining = swipeQueue.length - swipeIdx;
     buildSwipeQueue();
@@ -2222,7 +2355,7 @@ function updateStickyOffset() {
     document.documentElement.style.setProperty('--poster-tabs-h', posterTabsEl.offsetHeight + 'px');
   }
   const contentH = window.innerHeight - totalH;
-  ['schedule-body', 'poster-body', 'talklist-body', 'swipe-body', 'talkswipe-body'].forEach(id => {
+  ['schedule-body', 'poster-body', 'talklist-body', 'specials-body', 'swipe-body', 'talkswipe-body'].forEach(id => {
     const el = document.getElementById(id);
     if (el) el.style.height = contentH + 'px';
   });
@@ -2343,6 +2476,7 @@ function switchView(view) {
   updateStickyOffset();
   if (view === 'talklist') _ensureTalkListBuilt();
   if (view === 'posters')  _ensurePosterBuilt();
+  if (view === 'specials') _ensureSpecialsBuilt();
   if (view === 'swipe')    { _ensurePosterBuilt(); initSwipe(); }
   if (view === 'talkswipe') { _ensureTalkListBuilt(); initTalkSwipe(); }
   const placeholders = {
@@ -2351,6 +2485,7 @@ function switchView(view) {
     talkswipe:  'Search talks: title, author, abstract…',
     posters:    'Search posters: title, author, abstract…',
     swipe:      'Search posters: title, author, abstract…',
+    specials:   'Search special events: title…',
   };
   document.getElementById('search').placeholder = placeholders[view] || 'Search…';
   document.getElementById('match-count').textContent = '';
@@ -2369,6 +2504,19 @@ function switchTalkListDay(iso) {
   document.querySelector('#talklist-body [data-day="' + iso + '"]').classList.add('active');
   applySearch();
   updateTalkListCount();
+}
+
+function switchSpecialsDay(iso) {
+  if (iso === 'all') {
+    document.querySelectorAll('.specials-day-panel').forEach(p => p.classList.add('active'));
+  } else {
+    document.querySelectorAll('.specials-day-panel').forEach(p => p.classList.remove('active'));
+    document.getElementById('specials-day-' + iso).classList.add('active');
+  }
+  document.querySelectorAll('#specials-body .tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelector('#specials-body [data-day="' + iso + '"]').classList.add('active');
+  applySearch();
+  updateSpecialsCount();
 }
 
 // ── Poster page ──
@@ -2740,7 +2888,7 @@ function buildTalkSwipeQueue() {
   _ensureTalkListBuilt();
   const q = document.getElementById('search').value.toLowerCase().trim();
   const seen = new Set();
-  talkSwipeQueue = Array.from(document.querySelectorAll('.talk-list-item'))
+  talkSwipeQueue = Array.from(document.querySelectorAll('#talklist-body .talk-list-item'))
     .filter(el => {
       if (seen.has(el.dataset.id)) return false;
       seen.add(el.dataset.id);
@@ -3189,22 +3337,22 @@ function goSwipe() {
 
 // ── Back to top ───────────────────────────────────────────────────────────
 function initBackToTop() {
-  ['talklist-body', 'poster-body'].forEach(id => {
+  ['talklist-body', 'poster-body', 'specials-body'].forEach(id => {
     const el = document.getElementById(id);
     if (el) el.addEventListener('scroll', _updateBackToTop, { passive: true });
   });
 }
 
 function _updateBackToTop() {
-  const active = document.querySelector('#page-talklist.active, #page-posters.active');
-  const scroller = active && active.querySelector('#talklist-body, #poster-body');
+  const active = document.querySelector('#page-talklist.active, #page-posters.active, #page-specials.active');
+  const scroller = active && active.querySelector('#talklist-body, #poster-body, #specials-body');
   document.getElementById('back-to-top').classList.toggle(
     'visible', !!(scroller && scroller.scrollTop > 300));
 }
 
 function backToTop() {
-  const active = document.querySelector('#page-talklist.active, #page-posters.active');
-  const scroller = active && active.querySelector('#talklist-body, #poster-body');
+  const active = document.querySelector('#page-talklist.active, #page-posters.active, #page-specials.active');
+  const scroller = active && active.querySelector('#talklist-body, #poster-body, #specials-body');
   if (scroller) scroller.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -3229,7 +3377,7 @@ function downloadIcal() {
   ];
 
   function addEvent(t, dateIso) {
-    const id = t.paper || ('PLENARY-' + t.title);
+    const id = t.paper || (t.conf + '-' + t.title);
     if (!bookmarks.has(id)) return;
     const startMin = t.start_min;
     let endMin = startMin + 20;
@@ -3258,6 +3406,9 @@ function downloadIcal() {
   for (const day of ALL_POSTER_DAYS)
     for (const [conf, talks] of Object.entries(day.confs_map))
       for (const t of talks) addEvent({...t, conf}, day.date_iso);
+
+  for (const day of ALL_SPECIAL_DAYS)
+    for (const t of day.talks) addEvent(t, day.date_iso);
 
   lines.push('END:VCALENDAR');
   const blob = new Blob([lines.join('\\r\\n')], { type: 'text/calendar;charset=utf-8' });
@@ -3317,7 +3468,12 @@ def render_talk_swipe_page(days: list[dict]) -> str:
     )
 
 
-def build_html(days: list[dict], poster_days: list[dict], records: list[dict]) -> str:
+def build_html(
+    days: list[dict],
+    poster_days: list[dict],
+    special_days: list[dict],
+    records: list[dict],
+) -> str:
     legend = "".join(
         f'<span class="legend-item" data-conf="{e(c)}" onclick="toggleConfFilter(\'{e(c)}\')">'
         f'<span class="legend-dot" style="background:{CONF_COLOR.get(c, "#999")}"></span>'
@@ -3335,6 +3491,7 @@ def build_html(days: list[dict], poster_days: list[dict], records: list[dict]) -
         '<button class="view-btn active" data-view="schedule" onclick="switchView(\'schedule\')">Talk Schedule</button>'
         '<button class="view-btn" data-view="talklist" onclick="switchView(\'talklist\')">Talk List</button>'
         '<button class="view-btn" data-view="posters" onclick="switchView(\'posters\')">Poster List</button>'
+        '<button class="view-btn" data-view="specials" onclick="switchView(\'specials\')">Special Events</button>'
         '<span class="view-nav-divider"></span>'
         f'<button class="view-btn" data-view="talkswipe" onclick="switchView(\'talkswipe\')">{TINDER_SVG}Talk Swipe</button>'
         f'<button class="view-btn" data-view="swipe" onclick="switchView(\'swipe\')">{TINDER_SVG}Poster Swipe</button>'
@@ -3350,6 +3507,7 @@ def build_html(days: list[dict], poster_days: list[dict], records: list[dict]) -
         f"const TALK_DATA = {_dumps(build_talk_data(records))};\n"
         f"const ALL_DAYS = {_dumps(serialize_days(days))};\n"
         f"const ALL_POSTER_DAYS = {_dumps(serialize_poster_days(poster_days))};\n"
+        f"const ALL_SPECIAL_DAYS = {_dumps(serialize_special_days(special_days))};\n"
         f"const CONF_COLOR = {_dumps(CONF_COLOR)};\n"
         f"const CONF_SHORT = {_dumps(CONF_SHORT)};\n" + JS + RENDER_JS
     )
@@ -3398,6 +3556,9 @@ def build_html(days: list[dict], poster_days: list[dict], records: list[dict]) -
 </div>
 <div class="page" id="page-posters">
 <div id="poster-body"></div>
+</div>
+<div class="page" id="page-specials">
+<div id="specials-body"></div>
 </div>
 <div class="page" id="page-talkswipe">
 <div id="talkswipe-body">
@@ -3502,7 +3663,8 @@ def main() -> None:
     )
     days = build_days(records)
     poster_days = build_poster_days(records)
-    html = build_html(days, poster_days, records)
+    special_days = build_special_days(records)
+    html = build_html(days, poster_days, special_days, records)
     out = OUTPUT_DIR / "index.html"
     out.write_text(html, encoding="utf-8")
     print(f"Written → {out}")
@@ -3519,6 +3681,8 @@ def main() -> None:
         sum(len(v) for v in d["confs_map"].values()) for d in poster_days
     )
     print(f"  {total_posters} poster entries across {len(poster_days)} days")
+    total_specials = sum(len(d["talks"]) for d in special_days)
+    print(f"  {total_specials} special/plenary events across {len(special_days)} days")
 
 
 if __name__ == "__main__":
