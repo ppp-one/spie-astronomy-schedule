@@ -787,6 +787,34 @@ body {
   z-index: 1;
   pointer-events: none;
 }
+.cal-now-line {
+  position: absolute;
+  left: 0; right: 0;
+  border-top: 2px solid #e63946;
+  z-index: 5;
+  pointer-events: none;
+  display: none;
+}
+.cal-now-line::before {
+  content: '';
+  position: absolute;
+  left: -4px; top: -5px;
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: #e63946;
+}
+.cal-now-mark {
+  position: absolute;
+  right: 5px;
+  font-size: 9px;
+  font-weight: 700;
+  color: #e63946;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  user-select: none;
+  z-index: 5;
+  display: none;
+}
 .cal-cols {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
@@ -1692,10 +1720,11 @@ function _renderSessionBlock(talks, top, height, ts, te, dayLabel) {
 }
 
 // ── Full calendar grid for one day ─────────────────────────────────────────
+const CAL_PX_MIN = 4;
 function _renderCalendarDay(day) {
   const { day_start_min: ds, day_end_min: de, rooms, rooms_map } = day;
   const total_min = de - ds;
-  const PX = 4, COL_W = 180;
+  const PX = CAL_PX_MIN, COL_W = 180;
   const PST = 17*60+30, PET = 19*60;
 
   let marks = '', lines = '';
@@ -1710,6 +1739,8 @@ function _renderCalendarDay(day) {
     const pt = (PST-ds)*PX, ph = (Math.min(PET,de)-PST)*PX;
     lines += `<div class="cal-poster-band" style="top:${pt}px;height:${ph}px"></div>`;
   }
+  lines += `<div class="cal-now-line" data-day="${day.date_iso}"></div>`;
+  marks += `<div class="cal-now-mark" data-day="${day.date_iso}"></div>`;
 
   let cols = '';
   for (const room of rooms) {
@@ -1781,6 +1812,35 @@ function _buildScheduleDay(day) {
   if (!panel) return;
   panel.innerHTML = _renderCalendarDay(day) + _renderAgendaDay(day);
   _applyState(panel);
+  updateNowLine();
+}
+
+// ── Current time in Copenhagen (conference timezone) ───────────────────────
+function getCopenhagenParts() {
+  const parts = {};
+  for (const p of new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Europe/Copenhagen', year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', hour12: false,
+  }).formatToParts(new Date())) parts[p.type] = p.value;
+  return {
+    dateIso: `${parts.year}-${parts.month}-${parts.day}`,
+    minutes: (parseInt(parts.hour, 10) % 24) * 60 + parseInt(parts.minute, 10),
+  };
+}
+
+function updateNowLine() {
+  const { dateIso, minutes } = getCopenhagenParts();
+  document.querySelectorAll('.cal-now-line, .cal-now-mark').forEach(el => {
+    const day = ALL_DAYS.find(d => d.date_iso === el.dataset.day);
+    const inRange = day && el.dataset.day === dateIso &&
+      minutes >= day.day_start_min && minutes <= day.day_end_min;
+    if (!inRange) { el.style.display = 'none'; return; }
+    const top = (minutes - day.day_start_min) * CAL_PX_MIN;
+    el.style.top = top + 'px';
+    el.style.display = '';
+    if (el.classList.contains('cal-now-mark'))
+      el.textContent = String(Math.floor(minutes/60)).padStart(2,'0') + ':' + String(minutes%60).padStart(2,'0');
+  });
 }
 
 // ── Talk list ──────────────────────────────────────────────────────────────
@@ -1896,9 +1956,12 @@ function _applyState(el) {
   const tabsEl    = document.getElementById('schedule-tabs');
   const scrollDiv = document.getElementById('schedule-scroll');
   if (!body || !tabsEl || !scrollDiv || !ALL_DAYS.length) return;
+  const todayIso  = getCopenhagenParts().dateIso;
+  const todayIdx  = ALL_DAYS.findIndex(d => d.date_iso === todayIso);
+  const initIdx   = todayIdx >= 0 ? todayIdx : 0;
   ALL_DAYS.forEach((day, i) => {
     const btn = document.createElement('button');
-    btn.className = 'tab-btn' + (i === 0 ? ' active' : '');
+    btn.className = 'tab-btn' + (i === initIdx ? ' active' : '');
     btn.dataset.day = day.date_iso;
     btn.textContent = day.label;
     btn.onclick = () => switchDay(day.date_iso);
@@ -1906,11 +1969,13 @@ function _applyState(el) {
     const panel = document.createElement('div');
     panel.className = 'day-panel';
     panel.id = 'day-' + day.date_iso;
-    panel.style.display = i === 0 ? 'block' : 'none';
+    panel.style.display = i === initIdx ? 'block' : 'none';
     scrollDiv.appendChild(panel);
   });
-  _buildScheduleDay(ALL_DAYS[0]);
+  _buildScheduleDay(ALL_DAYS[initIdx]);
   updateStickyOffset();
+  updateNowLine();
+  setInterval(updateNowLine, 30000);
 
   // ── Drag-to-scroll on legend ──
   const legend = document.querySelector('.legend');

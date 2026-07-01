@@ -26,142 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Christophe S. Clergeon",
-      "PaperNumber": "14150-14",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 14:45 - 15:00 CEST | Room B3-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "1a98d1d1-e8d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "1a98d1d1-e8d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Gemini 2.0: Gemini ground layer adaptive secondary system (GLASS)",
-      "Description": null,
-      "Abstract": "Gemini Observatory has completed an initial feasibility study for a wide-field Ground-Layer Adaptive Optics (GLAO) facility at Gemini North, which will provide a factor of two improvement in delivered image quality over a field of view greater than 6 arcminutes, for all instruments and under most natural seeing conditions whenever laser propagation is possible. The resulting concept, the Ground Layer Adaptive Secondary System (GLASS), is centered on the deployment of a new adaptive secondary mirror (ASM) and leverages major infrastructure upgrades from the ongoing Gemini North Adaptive Optics (GNAO) program. In this contribution, we present the updated system concept and performance estimates, newly expanded science case development including opportunities across Gemini North and Gemini South instruments, and refined operational scenarios (CONOPS) optimized for wide-field survey productivity.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Gemini-20-Gemini-ground-layer-adaptive-secondary-system-GLASS/14150-14",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 14:45 - 15:00 CEST | Room B3-M2",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Oscar Gonzalez, Michele Cirasuolo",
-      "PaperNumber": "14149-11",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 14:45 - 15:05 CEST",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "2288eb94-c2cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "2288eb94-c2cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "MOONS: multi object spectroscopy for the VLT: overview, installation and commissioning update",
-      "Description": null,
-      "Abstract": "The Multi Object Optical and Near-infrared Spectrograph (MOONS) instrument is the next generation multi-object spectrograph for the Very Large Telescope (VLT). The instrument combines the high multiplexing capability offered by 1000 optical fibres deployed by individual robotic positioners with a novel spectrograph able to provide both low- and high-resolution spectroscopy simultaneously across the wavelength range 0.64μm - 1.8μm. Powered by the collecting area of the 8-m VLT, MOONS provides the astronomical community with a world-leading facility able to serve a wide range of Galactic, Extragalactic and Cosmological studies. This paper will provide an overview of the instrument, reporting on its installation and commissioning progress in Chile as it approaches the start of operations.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/MOONS--multi-object-spectroscopy-for-the-VLT--overview/14149-11",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 14:45 - 15:05 CEST",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Yi Zheng, Bo Li, Zhengyang Li, Chen Xu, Bin Liang, Ying Li, Xuefei Gong",
-      "PaperNumber": "14154-14",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 14:45 - 15:00 CEST | Room B2-M4",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "730484cb-78cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "730484cb-78cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Smart fabrication primary mirror for the 4.2m astrometric optical telescope",
-      "Description": null,
-      "Abstract": "In 2024, Nanjing Institute of Astronomical Optics & Technologies was awarded the manufacturing of the Primary Mirror of 4.2-meter Astrometric Telescope. The primary is the largest aspherical mirror ever made in China. The blank is ZERODUR. It was transported to China, and mounted on the large optical fabrication machine in January 2025. A new designed 650mm active stressed lap is applied in lapping and rough polishing. And the mirror is tested using a swing arm profilometer driven by a six-joint industry robot. Both high material removal rate and shape convergence were achieved. This mirror is currently in its final phase of polishing. It is regularly measured on a dedicated interferometric test bench specifically designed to achieve the best accuracy. It is put on the vertical test tower, directly above the machine to reduce the influence of air turbulence. A novel CCOS tool was integrated with above robot to do the final finishing. The primary is now close to its final shape.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Smart-fabrication-primary-mirror-for-the-42m-astrometric-optical-telescope/14154-14",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 14:45 - 15:00 CEST | Room B2-M4",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Coby Silayan, Suresh Sivanandam, Aaron Tohuvavohu, Albert Lau, Mark Barnet, Patrick Nkwari, Shaojie Chen, Gavin Hay, Jean Christophe Fronteddu, Norbert Werner, András Pál, Marianna Dafčíková, Emily Hu, Filip Munz, Jakub Ripa, Andy Gong",
-      "PaperNumber": "14146-15",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 14:50 - 15:10 CEST | Room B4-M1",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "860e7c04-5ad0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "860e7c04-5ad0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "A report on the First Technology Demonstration mission of the Little UV Camera (LUVCam1)",
-      "Description": null,
-      "Abstract": "We present an update on the first technology demonstration of the Little UV Camera (LUVCam1) that was launched in July 2024, a 0.4U payload aboard the 2U cubesat GRBBeta. A technology demonstration, the primary objective of the mission was to qualify the GSENSE4040 CMOS sensor and its readout electronics in preparation for the Quick UltraVIolet Kilonova Surveyor (QUVIK; Werner et al. 2023) satellite, where LUVCam will serve as its primary scientific camera. We also report on the performance of the GSENSE4040-FSI sensor used on LUVCam1, beginning with its in-lab characterization and followed by an assessment of its on-orbit performance using both laboratory calibration data and stellar flux measurements from Sirius. The camera remains operational more than a year later and has taken pictures of coastlines, the moon, and stars that we show here. Through LUVCam1, we demonstrated an approach leveraging new-space to qualify the latest COTS CMOS sensors for astronomy missions.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/A-report-on-the-First-Technology-Demonstration-mission-of-the/14146-15",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 14:50 - 15:10 CEST | Room B4-M1",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Gaurav Waratkar, Hiromasa Miyasaka, Brian W. Grefenstette, Fiona A. Harrison",
       "PaperNumber": "14157-15",
       "DateTimeLocationDataList": [
@@ -196,7 +60,41 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Fernando Rueda-Teruel",
+      "Authors": "Naoyuki Tamura, Yuki Moritani, Kiyoto Yabe, Shintaro Koshida, Masahiro Takada, Hitoshi Murayama, Masayuki Tanaka, Yukiko Kamata, Akira Arai, Miho N. Ishigaki, Wanqiu He, Sogo Mineo, Takahiro Morishima, Michitaro Koike, Makoto Tanaka, Matthew Wung, Kumiko Morihana, Sadman Ali, Takashi Hattori, Tae-Soo Pyo, Zhuoming Li, Wilfred T. Gee, Vera M. Passegger, James E. Gunn, Robert H. Lupton, Craig P. Loomis, Arnaud Le Fur, Paul Price, Michael A. Strauss, Shiang-Yu Wang, Chi-Hung Yan, Jennifer L. Karr, Stephen A. Smee, Randolph P. Hammond, Joshua Peebles, Timothy M. Heckman, Jared Siegel, Christian K. Jespersen",
+      "PaperNumber": "14149-12",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 14:50 - 15:10 CEST | Auditorium 15",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "6f10f8a2-eecf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "6f10f8a2-eecf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "ʻŌnohiʻula - Prime Focus Spectrograph (PFS) for the Subaru telescope: progresses and challenges towards and following the Science First Light",
+      "Description": null,
+      "Abstract": "Prime Focus Spectrograph (PFS) for the Subaru Telescope, which was recently given the Hawaiian name “ʻŌnohiʻula”, is now in the first year of its science operation. This instrument is an extremely wide-field (1.3 degree in diameter), fiber-fed multi-object (2,386 operating fibers), optical & near-infrared spectrometer (380-1260nm). All hardware components were installed on the Subaru Telescope in August 2024. While on-sky engineering tests and performance verifications have been continuously carried out since the fall of 2021 in parallel to hardware and software integration, the science operation began in the first semester of 2025 (S25A) with the first program from March 22 (i.e., Science First Light). We will report the progress of this instrument with resolved and continuing challenges.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/%ca%bb%c5%8cnohi%ca%bbula---Prime-Focus-Spectrograph-PFS-for-the-Subaru/14149-12",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 14:50 - 15:10 CEST | Auditorium 15",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Fernando Rueda-Teruel, Axel Yanes-Díaz, Sergio Rueda-Teruel, Rafael Bello, Jorge Ventura-Guillamón, Mikel Domínguez-Martínez, Nuria Martínez-Olivar, Juan Manuel Olivas-Galve, Guillermo López-Alegre, Sergio Chueca, Luis Alberto Rodríguez-García, Raúl Domínguez, Héctor de Paz, Manuel Huertas, César Iñiguez, Antonio Marín-Franch, Tamara Civera, José Javier Collado-Escusa, María Rosario Mayoral-Blasco, Jordi Albero-Gamir, David Garcés-Cubel, Said Farah-Amin, María Almarcegui-Gracia, A. Javier Cenarro, Romano Corradi, Mariano Moles, Carlos López-Sanjuan, Héctor Vázquez-Ramió, Javier Zaragoza-Cardiel, Luisa Valdivielso-Casas, Javier Lizaga-Villarroya, Stelios Pyrzas, Miguel Chioare Díaz-Martín, Ramón Iglesias-Marzoa, Clara Cabanillas-de-la-Casa, Natalio Maícas-Sacristán, José Luis Lamadrid-Gutiérrez, Fátima López-Martínez, Francisco José Galindo-Guil, Elvis Lacruz-Calderón, Juan Castillo, Ángel López-Sainz, Mohammad Akhlaghi, Javier Hernández-Fuertes, David José Muniesa-Gallardo, Alberto Moreno-Signes, Antonio Hernán-Caballero, Giacomo Lorenzetti, Alessandro Ederoclite, Juan Antonio Fernández-Ontiveros, Raúl Infante-Sainz, Sepideh Eskandarlou, David Fernández-Gil, Adrián Hidalgo-Pinilla, David Morate-González, Nischal Acharya, Borja Anguiano, Karla Ziboney Arellano-Cordova, Sayali Kulkarni, David Martínez-Delgado, Bojan Novakovic, Francisco Javier Sáez-Ruiz, Stefano Zarattini, Silvia Vaquero-Valer, Inés Muñoz-Igado, María Teresa Alegre-Sánchez, Gema María Julián-Caballero-de-España, Rosa Allueva-Gómez, Ana López-Colás",
       "PaperNumber": "14147-11",
       "DateTimeLocationDataList": [
         {
@@ -220,7 +118,7 @@
       "HTMLTitle": "",
       "Title": "OPTIMIA: an AI-enabled maintenance assistant for critical observatory infrastructure at the Javalambre Astrophysical Observatory",
       "Description": null,
-      "Abstract": "Artificial intelligence (AI) is poised to transform maintenance in astronomical observatories by moving from purely corrective and preventive routines towards predictive and condition-based strategies. We present OPTIMIA, an AI-enabled framework at the Javalambre Astrophysical Observatory (OAJ) that fuses sensor data, maintenance records, and a virtual assistant to support technicians and maintenance managers. Initial targets include diesel generators, glycol-water pumping groups, HVAC plants, electrical power distribution, and liquid-nitrogen supply. Using machine learning on this heterogeneous data, OPTIMIA detects early signs of degradation, proposes intervention windows, and prioritises work orders according to risk and scientific impact. The virtual maintenance agent delivers these capabilities through natural-language recommendations in the existing control and maintenance environment, reducing unplanned downtime and enabling data-driven decisions for observatory infrastructure.",
+      "Abstract": "Artificial intelligence (AI) is poised to transform maintenance in astronomical observatories by moving from corrective and fixed preventive routines towards predictive and condition-based strategies. We present OPTIMIA, an AI-enabled maintenance framework being developed at the Javalambre Astrophysical Observatory (OAJ) to support technicians and managers through sensor data, maintenance records and a virtual assistant. OPTIMIA acts as a multi-agent AI layer over the existing Global Observatory Control System, correlating telemetry, SCADA alarms, maintenance data and documented knowledge while leaving deterministic control and safety layers untouched. Initial targets include diesel generators, glycol-water pumps, HVAC plants, electrical distribution and liquid-nitrogen supply. Early prototypes are being deployed in supervised shadow-mode workflows to detect degradation, support intervention-window recommendations and improve documentation, prioritisation and data-driven decisions.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/OPTIMIA--an-AI-enabled-maintenance-assistant-for-critical-observatory/14147-11",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -298,40 +196,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Naoyuki Tamura, Yuki Moritani, Kiyoto Yabe, Shintaro Koshida, Masahiro Takada, Hitoshi Murayama, Masayuki Tanaka, Yukiko Kamata, Akira Arai, Miho N. Ishigaki, Wanqiu He, Sogo Mineo, Takahiro Morishima, Michitaro Koike, Makoto Tanaka, Matthew Wung, Kumiko Morihana, Sadman Ali, Takashi Hattori, Tae-Soo Pyo, Zhuoming Li, Wilfred T. Gee, Vera M. Passegger, James E. Gunn, Robert H. Lupton, Craig P. Loomis, Arnaud Le Fur, Paul Price, Michael A. Strauss, Shiang-Yu Wang, Chi-Hung Yan, Jennifer L. Karr, Stephen A. Smee, Randolph P. Hammond, Joshua Peebles, Timothy M. Heckman, Jared Siegel, Christian K. Jespersen",
-      "PaperNumber": "14149-12",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 15:05 - 15:25 CEST",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "6f10f8a2-eecf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "6f10f8a2-eecf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "ʻŌnohiʻula - Prime Focus Spectrograph (PFS) for the Subaru telescope: progresses and challenges towards and following the Science First Light",
-      "Description": null,
-      "Abstract": "Prime Focus Spectrograph (PFS) for the Subaru Telescope, which was recently given the Hawaiian name “ʻŌnohiʻula”, is now in the first year of its science operation. This instrument is an extremely wide-field (1.3 degree in diameter), fiber-fed multi-object (2,386 operating fibers), optical & near-infrared spectrometer (380-1260nm). All hardware components were installed on the Subaru Telescope in August 2024. While on-sky engineering tests and performance verifications have been continuously carried out since the fall of 2021 in parallel to hardware and software integration, the science operation began in the first semester of 2025 (S25A) with the first program from March 22 (i.e., Science First Light). We will report the progress of this instrument with resolved and continuing challenges.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/%ca%bb%c5%8cnohi%ca%bbula---Prime-Focus-Spectrograph-PFS-for-the-Subaru/14149-12",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 15:05 - 15:25 CEST",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Lukas R. Stone, Abraham D. Falcone, Joseph M. Colosimo, Mitchell Wages, Timothy Emeigh, Kadri M. Nizam, Md. Arman Hossen, Laurel ONeill, Ian T. Ashcroft, William A. Bevidas, Brynn Bortree, Zachary E. Catlin, Sierra Deppe, Killian Gremling, Abigail A. Raytsis",
       "PaperNumber": "14157-16",
       "DateTimeLocationDataList": [
@@ -366,7 +230,41 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Frank M. Groark, Peter Thompson, Hugo Chiquito, Glenn Brossus, John Spanos, Daniele Gallieni, Roberto Biasi, Mauro Manetti, Matteo Tintori, Pierluigi Fumi, Francesco Leonardi",
+      "Authors": "Christine Gregg, John C. Mather, Eliad Peretz, Othman Oudghiri-Idrissi, Omar M. Marey, Jamila Taaki, Stuart B. Shaklan, Ahmed Soliman",
+      "PaperNumber": "14146-20",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 15:10 - 15:25 CEST | Room B4-M1",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "4b646de1-c6d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "4b646de1-c6d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Hybrid observatory for earthlike exoplanets: concepts for dynamically stable constructed starshades",
+      "Description": null,
+      "Abstract": "The Hybrid Observatory for Earthlike Exoplanets (HOEE) is a mission concept that envisions imaging Earth-sized exoplanets around exoplanets using an earth-based telescope and orbiting starshade. To meet propulsion requirements, the starshade must meet stringent mass requirements while maintaining high levels of shape precision under station keeping loads during observation. In this paper, we describe robotic assembly concepts for a 100m starshade. We first characterize the anticipated dynamic structural requirements given anticipated station keeping loads required to keep the starshade aligned during an observation. We then analyze several structural designs suitable for robotic assem",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Hybrid-observatory-for-earthlike-exoplanets--concepts-for-dynamically-stable/14146-20",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 15:10 - 15:25 CEST | Room B4-M1",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Frank Groark, Peter Thompson, Mauro Manetti, Matteo Tintori, Pierluigi Fumi, Hugo Chiquito, John Spanos, Francesco Leonardi, Daniele Gallieni, Roberto Biasi, Glenn Brossus",
       "PaperNumber": "14150-16",
       "DateTimeLocationDataList": [
         {
@@ -390,7 +288,7 @@
       "HTMLTitle": "",
       "Title": "GMT ASM status and phasing test results",
       "Description": null,
-      "Abstract": "The Giant Magellan Telescope uses a 7 segment adaptive secondary mirror to correct atmospheric turbulence, wind-induced jitter, and alignment errors. Each 1.05 m off-axis segment has a 2 mm face sheet actuated by 675 magnetically coupled voice-coil motors, and a positioner hexapod maintaining 7 Hz alignment. Diffraction limited performance in NGS and LTAO modes requires phasing of the seven ASM and seven M1 sub-apertures at the image plane. Wavefront based phasing is augmented by edge sensors to maintain vertex alignment during latency, making phasing a key GMT performance risk. Under an NSF risk-reduction program, GMTO and AdOptica developed an ASM Phasing Testbed using one operational segment in a frame simulating three neighbors. Wind disturbances are injected via the hexapod, measured by edge sensors, and corrected through a 2 kHz face sheet control loop. Measured error-budget terms are used to correlate finite-element models, used to refine full-array phasing predictions.",
+      "Abstract": "The Giant Magellan Telescope uses a 7 segment adaptive secondary mirror array to correct atmospheric turbulence, wind-induced jitter, and alignment errors. Each 1.05 m off-axis segment has a 2 mm face sheet actuated by 675 magnetically coupled voice-coil motors, and a positioner hexapod maintaining 7 Hz alignment. Diffraction limited performance in NGS and LTAO modes requires phasing of the seven ASM and seven M1 sub-apertures at the image plane. Wavefront based phasing is augmented by edge sensors to maintain vertex alignment during latency, making phasing a key GMT performance risk. Under an NSF risk-reduction program, GMTO and AdOptica developed an ASM Phasing Testbed using one operational segment in a frame simulating three neighbors. Wind disturbances are injected via the hexapod, measured by edge sensors, and corrected through a 2 kHz face sheet control loop. Measured error-budget terms are used to correlate finite-element models, used to refine full-array phasing predictions.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/GMT-ASM-status-and-phasing-test-results/14150-16",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -404,7 +302,7 @@
       "PaperNumber": "14145-14",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 15:20 - 15:40 CEST | Room B4-M3",
+          "date_time_location": "5 July 2026 • 15:30 - 15:50 CEST | Room B4-M3",
           "badge_icon": null,
           "format_icon": null,
           "show_tz_converter": false
@@ -430,11 +328,11 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 15:20 - 15:40 CEST | Room B4-M3",
+      "DisplayDateTime": "5 July 2026 • 15:30 - 15:50 CEST | Room B4-M3",
       "ErrorMessage": null
     },
     {
-      "Authors": "Jun Kajihara, Yuji Ikeda, Koki Isoyama, Hidehito Himeno, Masao Asai, Makoto Ohsaki, Takato Honjou, Masatsugu Kamiura, Daisuke Yamanaka",
+      "Authors": "Jun Kajihara, Yuji Ikeda, Koki Isoyama, Hidehito Himeno, Masatsugu Kamiura, Daisuke Yamanaka",
       "PaperNumber": "14154-15",
       "DateTimeLocationDataList": [
         {
@@ -456,7 +354,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "FEM-based thermal deformation analysis of large Fine Cordierite mirrors induced by CTE inhomogeneity",
+      "Title": "FEM-based thermal deformation analysis of large Fine Cordierite mirrors induced by CTE   inhomogeneity",
       "Description": null,
       "Abstract": "Fine Cordierite® is a promising mirror material for large telescopes, offering ultra-low thermal expansion comparable to ULE® or ZERODUR®, with superior stiffness and thermal conductivity. However, spatial inhomogeneity in its coefficient of thermal expansion (CTE) can cause surface figure errors when temperature deviates from polishing conditions.  Isoyama et al. (2024) first measured Fine Cordierite's CTE inhomogeneity and characterized it as a structure function, but the impact on large mirrors and mitigation strategies remained unclear.  This study develops a design methodology to predict and suppress CTE inhomogeneity effects. We establish a simulation framework integrating statistically representative spatial CTE distributions into Finite Element Method models to compute thermal deformation and quantify surface figure errors. We then investigate backside rib structure optimization to minimize thermally induced deformation, demonstrating the approach's effectiveness.",
       "ImagePath": null,
@@ -468,7 +366,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Nikhil More",
+      "Authors": "Nikhil More, Kirpal Nandra, Walfried Raab, Hermine Schnetler, Hilda Kinter, Andreas von Kienlin, Sebastian Albrecht, Javier Veredas, Andreas Lederhuber, Astrid Mayr, Anirudh Saraf, Elif Kutdemir Öncü",
       "PaperNumber": "14152-7",
       "DateTimeLocationDataList": [
         {
@@ -492,7 +390,7 @@
       "HTMLTitle": "",
       "Title": "Quantifying model philosophy selection for instrument development",
       "Description": null,
-      "Abstract": "The selection of a model philosophy is a foundational decision in system development, directly shaping cost, schedule, technology maturation, and risk across the full lifecycle.    While the ECSS standards provide thorough guidance on the different types of system models, the process of selecting a specific model philosophy while quantitatively balancing programmatic constraints remains unique to each system and the organization responsible for its development, and continues to be a challenging task amid evolving programmatic and technical constraints.    This paper presents a mathematical trade-off methodology for comparing competing model philosophies for a representative scientific instrument. Two alternative model philosophies are evaluated: one emphasizing early risk reduction through additional physical models, and another prioritizing reduced cost and accelerated schedule at the expense of higher technology risk.",
+      "Abstract": "The selection of a model philosophy is a foundational decision in system development, directly shaping cost, schedule, technology maturation, and technical risk across the full lifecycle.    While the ECSS standards provide thorough guidance on the different types of system models, the process of selecting a specific model philosophy while quantitatively balancing programmatic constraints remains unique to each system and the organization responsible for its development, and continues to be a challenging task amid evolving programmatic and technical constraints.    This paper presents a mathematical trade-off methodology for comparing competing model philosophies for a representative scientific instrument. Two alternative model philosophies are evaluated: one emphasizing early risk reduction through additional physical models, and another prioritizing reduced cost and accelerated schedule at the expense of higher technology risk.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Quantifying-model-philosophy-selection-for-instrument-development/14152-7",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -536,11 +434,11 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Javier G. Del Hoyo, Luis Rodriguez de Marcos, Joshua Hancock, Andrew Howe, Mateo Batkis, Joshua Vawdrey, Manuel Quijada, Richard Vanfleet, David Allred",
-      "PaperNumber": "14146-16",
+      "Authors": "Massimo Robberto, Stephen A. Smee, Robert H. Barkhouser, Stephen C. Hope, John J. Piotrowski, Dana Koeppe, Mario Gennaro, Zoran Ninkov, Megan E. Donahue, Andrei Tokovinin, Randolph P. Hammond, Al Harding",
+      "PaperNumber": "14149-13",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 15:40 - 16:00 CEST | Room B4-M1",
+          "date_time_location": "5 July 2026 • 15:40 - 16:00 CEST | Auditorium 15",
           "badge_icon": null,
           "format_icon": null,
           "show_tz_converter": false
@@ -551,90 +449,22 @@
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
       "MatchingFrag": "",
-      "UniqueId": "da282681-3eeb-f011-a9ae-005056914f1c---crmrecord",
-      "GUID": "da282681-3eeb-f011-a9ae-005056914f1c",
+      "UniqueId": "fc46c4ef-81cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "fc46c4ef-81cf-f011-a9ae-00505691c5e1",
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Near perfect efficiency far-ultraviolet multilayer dielectric reflectors for astrophysics spectroscopy",
+      "Title": "Operational capabilities and performance of SAMOS at the end of Science Commissioning Phase",
       "Description": null,
-      "Abstract": "Spectral band-selecting far-ultraviolet (FUV) filters are pivotal optical components in spectrograph instruments allowing for isolated spectral line observations essential in the study of the warm-hot phase of the circumgalactic medium, electronic transitions and the structures of molecules, and the physical and analytical chemistries of the intergalactic medium. FUV Bragg reflectors have been demonstrated as viable band-selecting components in spectrographs exhibiting high spectral efficiency >95%, however, environmental instability of the components results in redshift of the peak efficiencies, structural coating failure due to high stresses, and reduced efficiency at the short end of the FUV spectrum. We present FUV Bragg reflectors produced utilizing reactive physical vapor deposition (rPVD) methods and novel lithium-based fluoride compounds. We demonstrate environmentally stable Bragg reflectors reaching peak FUV efficiencies of >99% at Lyman alpha (121.6 nm) and C IV (154.9 nm).",
+      "Abstract": "We present the operations and performance of the SOAR Adaptive-Module Optical Spectrograph (SAMOS) at the end of its science commissioning phase. SAMOS is a digital-micromirror-device (DMD) based multi-slit spectrograph and imager deployed at the SOAR ground-layer AO system SAM. SAMOS relays the full AO-corrected 3′×3′ field of view onto the central 1Kx1K section of a large-format DMD. Each DMD mirror projects a 0.18”x0.18” field to either a spectroscopic or parallel imaging channel. The DMD is thus used to generate a slit-mask pattern with near-instantaneous setup time. The spectrograph spectral range is covered by two low resolution gratings over the full 4,000-10,000A visible range at R ∼ 2500. High resolution spectroscopy, R~10,000, is provided over two limited spectral ranges, 4,500-5,150A in the blue, and 6,0000-7,000A in the red, for a 0.33′′ slit width. A fifth grating is being procured that will offer R~10,000 in the \"Gaia RVS\" Calcium-triplet 8,500-8,750A region.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Near-perfect-efficiency-far-ultraviolet-multilayer-dielectric-reflectors-for-astrophysics/14146-16",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Operational-capabilities-and-performance-of-SAMOS-at-the-end-of/14149-13",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 15:40 - 16:00 CEST | Room B4-M1",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Donghwan Hyun, Donggeun Tak, Gregory Paek, Myungshin Im, Ji Hoon Kim, Seo-won Chang, Hyeonho Choi, Won-hyeong Lee, Danhyeuk Seol, Jangho Bae",
-      "PaperNumber": "14155-12",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 15:40 - 16:00 CEST | Room B4-M7",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "354d9398-a6ce-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "354d9398-a6ce-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Py7DT: data reduction pipeline of the 7-Dimensional Telescope",
-      "Description": null,
-      "Abstract": "We present Py7DT, a comprehensive Python package for processing data from the 7-Dimensional Telescope (7DT), a medium-band telescope array located in Chile. With its 20 telescopes and 40 filters, 7DT performs both rapid follow-ups of targets of opportunity (ToO) and three-tier surveys of the southern sky. The pipeline uses a parallelized processing framework that can leverage both CPU and GPU resources and prioritize urgent ToO tasks. The code is modular and portable, serving as a standard tool for end users to reprocess 7DT data with custom configurations, supporting the  diverse scientific goals of 7DT – from pixel-based analysis of galaxies to exoplanet transits – while remaining flexible and easy to maintain. The pipeline also features multi-level logging, automatically generated quality-assurance statistics and flags, and web-based real-time status monitoring to reduce the workload on the small operations team.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Py7DT-data-reduction-pipeline-of-the-7-Dimensional-Telescope/14155-12",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 15:40 - 16:00 CEST | Room B4-M7",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Arika Egan, Laura Mayorga, Erin May",
-      "PaperNumber": "14145-15",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 15:40 - 16:00 CEST | Room B4-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "2944f021-a3d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "2944f021-a3d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The multi-telescope hot Jupiter survey: updated instrument design & performance",
-      "Description": null,
-      "Abstract": "Exoplanet atmospheric dynamics are best probed with spectroscopic phase curves, which measure how a planet’s flux changes with longitude and orbital position to reveal heat transport. Linked properties—temperature, pressure, winds, composition, and stellar irradiation—shape clouds, hazes, and the hottest and coldest regions. Hot Jupiters, with periods under ~10 days, provide ideal laboratories for atmospheric studies, but current missions cannot obtain full phase curves for planets with periods >5 days. The Multi Telescope Hot Jupiter Survey (MiTHOS), a SMEX-class concept, will address this gap using a constellation of small satellites carrying identical spectrometers spanning 0.5–5 μm. MiTHOS will gather phase curves for over 80 hot Jupiters and use shared calibration stars to remove instrument-specific systematics. Here, we present updated optical designs and throughput estimates demonstrating MiTHOS’s ability to resolve key questions in atmospheric dynamics.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-multi-telescope-hot-Jupiter-survey--updated-instrument-design/14145-15",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 15:40 - 16:00 CEST | Room B4-M3",
+      "DisplayDateTime": "5 July 2026 • 15:40 - 16:00 CEST | Auditorium 15",
       "ErrorMessage": null
     },
     {
@@ -672,7 +502,75 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Alondra Solá, Clement Hottier, Myriam Rodrigues, Cyril Pannetier, Jay Stephan, Timothy J. Morris, Polly Gill, Gauri Padalkar",
+      "Authors": "Donghwan Hyun, Donggeun Tak, Gregory Paek, Myungshin Im, Ji Hoon Kim, Seo-won Chang, Hyeonho Choi, Won-hyeong Lee, Danhyeuk Seol, Jangho Bae",
+      "PaperNumber": "14155-12",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 15:50 - 16:10 CEST | Room B4-M7",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "354d9398-a6ce-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "354d9398-a6ce-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Py7DT: data reduction pipeline of the 7-Dimensional Telescope",
+      "Description": null,
+      "Abstract": "We present Py7DT, a comprehensive Python package for processing data from the 7-Dimensional Telescope (7DT), a medium-band telescope array located in Chile. With its 20 telescopes and 40 filters, 7DT performs both rapid follow-ups of targets of opportunity (ToO) and three-tier surveys of the southern sky. The pipeline uses a parallelized processing framework that can leverage both CPU and GPU resources and prioritize urgent ToO tasks. The code is modular and portable, serving as a standard tool for end users to reprocess 7DT data with custom configurations, supporting the  diverse scientific goals of 7DT – from pixel-based analysis of galaxies to exoplanet transits – while remaining flexible and easy to maintain. The pipeline also features multi-level logging, automatically generated quality-assurance statistics and flags, and web-based real-time status monitoring to reduce the workload on the small operations team.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Py7DT-data-reduction-pipeline-of-the-7-Dimensional-Telescope/14155-12",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 15:50 - 16:10 CEST | Room B4-M7",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Arika Egan, Laura Mayorga, Erin May",
+      "PaperNumber": "14145-15",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 15:50 - 16:10 CEST | Room B4-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "2944f021-a3d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "2944f021-a3d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The multi-telescope hot Jupiter survey: updated instrument design & performance",
+      "Description": null,
+      "Abstract": "Exoplanet atmospheric dynamics are best probed with spectroscopic phase curves, which measure how a planet’s flux changes with longitude and orbital position to reveal heat transport. Linked properties—temperature, pressure, winds, composition, and stellar irradiation—shape clouds, hazes, and the hottest and coldest regions. Hot Jupiters, with periods under ~10 days, provide ideal laboratories for atmospheric studies, but current missions cannot obtain full phase curves for planets with periods >5 days. The Multi Telescope Hot Jupiter Survey (MiTHOS), a SMEX-class concept, will address this gap using a constellation of small satellites carrying identical spectrometers spanning 0.5–5 μm. MiTHOS will gather phase curves for over 80 hot Jupiters and use shared calibration stars to remove instrument-specific systematics. Here, we present updated optical designs and throughput estimates demonstrating MiTHOS’s ability to resolve key questions in atmospheric dynamics.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-multi-telescope-hot-Jupiter-survey--updated-instrument-design/14145-15",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 15:50 - 16:10 CEST | Room B4-M3",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Alondra Solá, Clement Hottier, Myriam Rodrigues, Cyril Pannetier, Jay Stephan, Timothy J. Morris, Polly Gill, Muhammad Shaheer Niazi, Sven Toucheboeuf, Gauri Padalkar, Roser Pello, Mathieu Puech, Gavin Dalton, Alessandro Meoli, Christian Surace, Marie Larrieu, María Luisa García-Vargas, Thomas Augusteijn, Kacem El Hadi, Ruben Sanchez-Janssen, Fatima De Frondat",
       "PaperNumber": "14152-8",
       "DateTimeLocationDataList": [
         {
@@ -706,11 +604,11 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Massimo Robberto, Stephen A. Smee, Stephen C. Hope, Robert H. Barkhouser, John J. Piotrowski, Dana Koeppe, Mario Gennaro, Zoran Ninkov, Megan E. Donahue, Andrei Tokovinin, Randolph P. Hammond, Al Harding",
-      "PaperNumber": "14149-13",
+      "Authors": "Javier G. Del Hoyo, Luis Rodriguez de Marcos, Joshua Hancock, Andrew Howe, Mateo Batkis, Joshua Vawdrey, Manuel Quijada, Richard Vanfleet, David Allred",
+      "PaperNumber": "14146-16",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 15:55 - 16:15 CEST",
+          "date_time_location": "5 July 2026 • 15:55 - 16:15 CEST | Room B4-M1",
           "badge_icon": null,
           "format_icon": null,
           "show_tz_converter": false
@@ -721,60 +619,26 @@
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
       "MatchingFrag": "",
-      "UniqueId": "fc46c4ef-81cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "fc46c4ef-81cf-f011-a9ae-00505691c5e1",
+      "UniqueId": "da282681-3eeb-f011-a9ae-005056914f1c---crmrecord",
+      "GUID": "da282681-3eeb-f011-a9ae-005056914f1c",
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Operational capabilities and performance of SAMOS at the end of Science Commissioning Phase",
+      "Title": "Near perfect efficiency far-ultraviolet multilayer dielectric reflectors for astrophysics spectroscopy",
       "Description": null,
-      "Abstract": "We present the operations and performance of the SOAR Adaptive-Module Optical Spectrograph (SAMOS) at the end of its science commissioning phase. SAMOS is a digital-micromirror-device (DMD) based multi-slit spectrograph and imager deployed at the SOAR ground-layer AO system SAM. SAMOS relays the full AO-corrected 3′×3′ field of view onto the central 1Kx1K section of a large-format DMD. Each DMD mirror projects a 0.18”x0.18” field to either a spectroscopic or parallel imaging channel. The DMD is thus used to generate a slit-mask pattern with near-instantaneous setup time. The spectrograph spectral range is covered by two low resolution gratings over the full 4,000-10,000A visible range at R ∼ 2500. High resolution spectroscopy, R~10,000, is provided over two limited spectral ranges, 4,500-5,150A in the blue, and 6,0000-7,000A in the red, for a 0.33′′ slit width. A fifth grating is being procured that will offer R~10,000 in the \"Gaia RVS\" Calcium-triplet 8,500-8,750A region.",
+      "Abstract": "Spectral band-selecting far-ultraviolet (FUV) filters are pivotal optical components in spectrograph instruments allowing for isolated spectral line observations essential in the study of the warm-hot phase of the circumgalactic medium, electronic transitions and the structures of molecules, and the physical and analytical chemistries of the intergalactic medium. FUV Bragg reflectors have been demonstrated as viable band-selecting components in spectrographs exhibiting high spectral efficiency >95%, however, environmental instability of the components results in redshift of the peak efficiencies, structural coating failure due to high stresses, and reduced efficiency at the short end of the FUV spectrum. We present FUV Bragg reflectors produced utilizing reactive physical vapor deposition (rPVD) methods and novel lithium-based fluoride compounds. We demonstrate environmentally stable Bragg reflectors reaching peak FUV efficiencies of >99% at Lyman alpha (121.6 nm) and C IV (154.9 nm).",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Operational-capabilities-and-performance-of-SAMOS-at-the-end-of/14149-13",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Near-perfect-efficiency-far-ultraviolet-multilayer-dielectric-reflectors-for-astrophysics/14146-16",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 15:55 - 16:15 CEST",
+      "DisplayDateTime": "5 July 2026 • 15:55 - 16:15 CEST | Room B4-M1",
       "ErrorMessage": null
     },
     {
-      "Authors": "Bart Vandenbussche, Sibo Van Gool, Leonardo Peri, Camille Pirat, Gert Raskin, Pierre Royer, Maddalena Reggiani, Hugues Sana, Julien Storm, Louis Storm, Dirk Vandepitte, Mathijs Arts, Tjorven Delabie, Wim De Munter, Jacob Pember, Bram Vandoren, Jorg Versluys, Nectarios Chari, Thomas Borel, Dominic Bowman",
-      "PaperNumber": "14145-16",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 16:00 - 16:20 CEST | Room B4-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "7d5a9f5d-25d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "7d5a9f5d-25d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Building the CubeSpec mission: in-orbit demonstration of high-resolution spectroscopy on a 12U CubeSat",
-      "Description": null,
-      "Abstract": "CubeSpec is an in-orbit demonstration CubeSat mission in the ESA technology programme, developed and funded in Belgium. The programme is now in phase C/D. Environmental qualification is finalising and building, testing and verification of the spacecraft and payload flight model has started. The project is on track for launch readiness end 2026. We present the final design of the mission and the results of test of engineering, qualification and flight models.  CubeSpec will measure high-resolution time series of spectral line profiles in massive stars to probe their internal structure. This requires a spectral resolution R > 50,000 (~0.01 nm) and SNR ≥ 200.   CubeSpec features several technological innovations: a 3-axis fine steering mirror bringing arcsecond level line-of-sight stability, a compact optical payload with fully ceramic 10x20cm cassegrain telescope, a cross-dispersed echelle spectrograph, compact FPGA CMOS sensor readout and a deployabe sun shade.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Building-the-CubeSpec-mission--in-orbit-demonstration-of-high/14145-16",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 16:00 - 16:20 CEST | Room B4-M3",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Hiromichi T. Fujii, Shingo Matsumura, Naoki Sakaguchi, Haruyasu Ohno, Kotaro Ona, Shin Utsunomiya, Naoki Isobe, Aoi Takahashi, Iona Kondo, Ryouhei Kano, Hirokazu Kataza, Fumihiko Usui",
+      "Authors": "Hiromichi T. Fujii, Shingo Matsumura, Naoki Sakaguchi, Haruyasu Ohno, Kotaro Ona, Shin Utsunomiya, Naoki Isobe, Aoi Takahashi, Iona Kondo, Hirokazu Kataza, Fumihiko Usui",
       "PaperNumber": "14154-17",
       "DateTimeLocationDataList": [
         {
@@ -798,7 +662,7 @@
       "HTMLTitle": "",
       "Title": "Custom-engineered super Invar: Exceptional dimensional stability and magnetic properties for space applications",
       "Description": null,
-      "Abstract": "The development of advanced materials with exceptional dimensional stability is crucial for next-generation space missions. This study presents a custom-engineered super Invar alloy designed to meet the stringent requirements of the JASMINE project, a space-based astronomical observation satellite by NAOJ and JAXA. The alloy achieves an ultra-low CTE, approximately 1/100 of conventional super Invar, through optimized composition and microstructural control. It suppresses martensitic transformation below −30°C, ensuring reliable performance in cryogenic environments. Dimensional changes due to magnetostriction remain negligibly small in low magnetic fields, enhancing its suitability for high-precision astrometric instruments. Long-term stability tests over five years confirmed the alloy’s ability to retain its dimensions, with reduced carbon content mitigating time-dependent changes.",
+      "Abstract": "Next-generation space observatories in Low Earth Orbit (LEO) demand unprecedented dimensional stability. We present IC-LTX, a custom-engineered Super Invar alloy developed to overcome conventional limitations: cryogenic phase instability, geomagnetic magnetostriction, and long-term secular drift. By optimizing the composition to 33 mass% Ni and 3 mass% Co, it suppresses martensitic transformation below -100°C while achieving a coefficient of thermal expansion below a few x 10^-7 /K near 0°C. Under LEO geomagnetic fields, IC-LTX exhibits a zero-strain plateau, keeping magnetostrictive strain below 10^-8. Furthermore, restricting carbon to 0.011 mass% and implementing an accelerated pre-aging treatment at 315°C confirmed a secular growth rate below 0.1 ppm/year during a 5-year study. By achieving this thermal, magnetic, and temporal \"trinity of stability,\" IC-LTX establishes a new standard for precision space structures, including missions such as JASMINE.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Custom-engineered-super-Invar--Exceptional-dimensional-stability-and-magnetic/14154-17",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -808,8 +672,8 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Simon M. Tulloch, Jean Louis Lizon",
-      "PaperNumber": "14157-17",
+      "Authors": "Shao-zhen Zhu, Hao-ran Ma, Yu Ning, Wen-qing Qu, Xin Luo, Baolong Chen, Hong-fei Zhang, Jian Wang",
+      "PaperNumber": "14157-18",
       "DateTimeLocationDataList": [
         {
           "date_time_location": "5 July 2026 • 16:00 - 16:20 CEST | Room B5-M1",
@@ -823,18 +687,18 @@
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
       "MatchingFrag": "",
-      "UniqueId": "2328a643-6ccc-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "2328a643-6ccc-f011-a9ad-005056914f1c",
+      "UniqueId": "d9e9b044-e7c8-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "d9e9b044-e7c8-f011-a9ae-00505691c5e1",
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Detector System for the CHORUS high-resolution spectrograph.",
+      "Title": "Design of a performance test system for MCT infrared detectors",
       "Description": null,
-      "Abstract": "The CHORUS detector system consists of two 9k x 9k 16-output CCD290-99s and two 4k x 4k 4-output CCD231-84s. These four detectors are read out using three STA Archon controllers with identical hardware configurations. Differential preamplifiers with active baseline restoration are used for low-crosstalk, low-noise performance with improved linearity. Preamplifier modules have been manufactured that mount directly onto the hermetic cryostat connectors. Rigiflex PCB technology is used for all vacuum-side cabling. This gives higher reliability as well as the opportunity to place ESD-protection and bias-decoupling components close to the detectors.",
+      "Abstract": "The Mercury Cadmium Telluride (MCT) detector is a cornerstone device for astronomical observations in the short-wave infrared (SWIR) band. The ongoing development towards large-format, multi-channel MCT detectors places stringent demands on test systems concerning noise, consistency, and readout speed. To address this, we have designed and implemented a dedicated high-speed, low-noise drive and readout system. This system is built around an FPGA core capable of generating customizable timing sequences, integrated with low-noise multi-channel bias supply modules and high-speed, high-precision readout paths. This architecture effectively ensures a low-noise test environment and high signal fidelity. It was demonstrated that the system's intrinsic channel-to-channel variation is significantly smaller than the inherent inter-channel differences of the MCT detector under test, guaranteeing the accuracy of characterization.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Detector-System-for-the-CHORUS-high-resolution-spectrograph/14157-17",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Design-of-a-performance-test-system-for-MCT-infrared-detectors/14157-18",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -842,11 +706,11 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Sebastian J. Diebold, Jürgen Barnstedt, Jörg Bayer, Lauro Conti, Hans Rudolf Elsener, Christoph Kalkuhl, Daniel M. Schaadt, Darleen J. Rau, Thomas Schanz, Beate Stelzer, Klaus Werner",
-      "PaperNumber": "14146-17",
+      "Authors": "Gaia Gaspar, Marcin Sawicki, Nelson Nunes, Rubén J. Díaz, James E. H. Turner",
+      "PaperNumber": "14149-14",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 16:00 - 16:20 CEST | Room B4-M1",
+          "date_time_location": "5 July 2026 • 16:00 - 16:20 CEST | Auditorium 15",
           "badge_icon": null,
           "format_icon": null,
           "show_tz_converter": false
@@ -857,60 +721,26 @@
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
       "MatchingFrag": "",
-      "UniqueId": "808e4aa3-81d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "808e4aa3-81d0-f011-a9ae-00505691c5e1",
+      "UniqueId": "6ff6ec82-7ad0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "6ff6ec82-7ad0-f011-a9ae-00505691c5e1",
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Microchannel plate detector development for ultraviolet astronomy",
+      "Title": "Feasibility of up-the-ramp sampling under variable sky for ground-based spectrographs",
       "Description": null,
-      "Abstract": "Observational data from the UV wavelength range is crucial to solve a number of astrophysical puzzles. Consequently, there is a number of upcoming UV missions from cubesats up to the future flagship Habitable Worlds Observatory. Besides novel instrument concepts and improved coatings, advanced detectors are key for the success of these missions. The microchannel plate (MCP) detector technology offers a unique asset in the UV: the combination of single-photon counting and visible-blindness.    The UV hardware group at IAAT develops a versatile MCP detector system that addresses the complete UV band. While a sealed-tube design is limited to wavelengths above 118 nm, an open-face variant covers also the whole far- and extreme-UV. Both use the same readout: a coplanar cross-strip anode and FPGA-based electronics.    In this contribution we report on the status of the detector development, present the latest characterization results, and give an outlook on the mission prospects.",
+      "Abstract": "Many modern near-infrared instruments employ HAWAII-2RG (H2RG) detectors with integration times that can reach 300-600s. Up-the-ramp (UTR) sampling offers advantages over Fowler sampling, including superior cosmic ray rejection and noise reduction, but requires fitting linear ramps from 30-60 reads. Ground-based K-band sky brightness has been reported to vary by 3-10\\% on timescales of minutes, potentially introducing systematic errors and compromising photometric accuracy. Additionally, UTR data formats involve higher-dimensional FITS files with larger file sizes impacting observatory operations.     We present a feasibility study using the GIRMOS Data Simulator with high-fidelity flux budgets and empirical K-band sky variations estimated, for Mauna Kea, from Gemini-NIRI at 10-20s cadence. Using a Monte Carlo approach we assess whether linear ramp fitting remains viable under variable sky conditions, quantify SNRs and systematic biases, and report nightly data volume estimates.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Microchannel-plate-detector-development-for-ultraviolet-astronomy/14146-17",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Feasibility-of-up-the-ramp-sampling-under-variable-sky-for/14149-14",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 16:00 - 16:20 CEST | Room B4-M1",
+      "DisplayDateTime": "5 July 2026 • 16:00 - 16:20 CEST | Auditorium 15",
       "ErrorMessage": null
     },
     {
-      "Authors": "Fabiola Norambuena, Justo Gonzalez, Jonathan Antognini",
-      "PaperNumber": "14155-13",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 16:00 - 16:20 CEST | Room B4-M7",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "3cc4b7cb-f5c6-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "3cc4b7cb-f5c6-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Off-Sky Processing Framework for Data-Model Validation and QA Integration in ALMA",
-      "Description": null,
-      "Abstract": "The Atacama Large Millimeter/submillimeter Array (ALMA) is undergoing a major transformation through the Wide Sensitivity Upgrade (WSU), including an evolution of the ALMA Science Data Model (ASDM). Key calibration tasks are being migrated from real-time operations to an asynchronous, offline domain, reducing operational risk and enabling scalable, robust workflows. We present an Off-sky Processing Framework that reprocesses archived observations to generate WSU-format ASDMs and subsequently trigger QA0 pipelines. Its automated end-to-end pipeline enables large-scale regression testing of software releases, providing continuous developer feedback while ensuring reproducibility, traceability, and consistent validation of both data-model and calibration changes, all without impacting operations. This approach exemplifies Data Lifecycle Engineering principles and supports reproducible, cost-effective calibration and validation practices for modern radio observatories.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Off-Sky-Processing-Framework-for-Data-Model-Validation-and-QA/14155-13",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 16:00 - 16:20 CEST | Room B4-M7",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Gianluca Lombardi, Naif AlMalik, Noorihan Deraz",
+      "Authors": "Naif AlMalik, Gianluca Lombardi, Noorihan Deraz",
       "PaperNumber": "14147-13",
       "DateTimeLocationDataList": [
         {
@@ -934,7 +764,7 @@
       "HTMLTitle": "",
       "Title": "The AlUla Manara Observatory Complex: an integrated concept for an advanced Multi-Aperture Scientific Platform and Visitor Centre",
       "Description": null,
-      "Abstract": "The AlUla Manara Observatory Complex is a new facility under development in AlUla, north-western Saudi Arabia, led by the Royal Commission for AlUla. Centred on an advanced research platform hosting a 4m-class and two 2m-class telescopes, and complemented by a unique public-engagement centre, the complex is designed to provide national access to modern observational astronomy, scientific training, and international collaboration. Its shared infrastructure supports both research and outreach through unified maintenance, technical services, and safety systems, alongside controlled access, low-impact circulation, and dark-sky-compliant lighting to preserve site integrity. The scientific platform is being developed around three telescopes, with the 4m aperture defined by comprehensive site assessment and designed for optical-IR astronomy with future AO capability, while the two 2m-class systems enable time-domain studies, and training to strengthen long-term national research capacity.",
+      "Abstract": "The AlUla Manara Observatory Complex is a new facility under development in AlUla, north-western Saudi Arabia, led by the Royal Commission for AlUla. Centered on an advanced research platform hosting a 4m-class and two 2m-class telescopes, and complemented by a unique public-engagement centre, the complex is designed to provide national access to modern observational astronomy, scientific training, and international collaboration. Its shared infrastructure supports both research and outreach through unified maintenance, technical services, and safety systems, alongside controlled access, low-impact circulation, and dark-sky-compliant lighting to preserve site integrity. The scientific platform is being developed around three telescopes, with the 4m aperture defined by comprehensive site assessment and designed for optical-IR astronomy with future AO capability, while the two 2m-class systems enable time-domain studies, and training to strengthen long-term national research capacity.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/The-AlUla-Manara-Observatory-Complex--an-integrated-concept-for/14147-13",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -975,6 +805,74 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "5 July 2026 • 16:00 - 16:15 CEST | Room B3-M2",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Fabiola Norambuena, Justo Gonzalez, Jonathan Antognini, Vicente Coopman, Matias Gonzalez, Camila Martinez",
+      "PaperNumber": "14155-13",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 16:10 - 16:30 CEST | Room B4-M7",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "3cc4b7cb-f5c6-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "3cc4b7cb-f5c6-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "An Off-Sky Calibration and Data-Model Validation Framework for ALMA in the Wide Sensitivity Upgrade Era",
+      "Description": null,
+      "Abstract": "The Atacama Large Millimeter/submillimeter Array (ALMA) is undergoing a major transformation through the Wide Sensitivity Upgrade (WSU), including an evolution of the ALMA Science Data Model (ASDM). Key calibration tasks are being migrated from real-time operations to an asynchronous, offline domain, reducing operational risk and enabling scalable, robust workflows. We present an Off-sky Processing Framework that reprocesses archived observations to generate WSU-format ASDMs and subsequently trigger QA0 pipelines. Its automated end-to-end pipeline enables large-scale regression testing of software releases, providing continuous developer feedback while ensuring reproducibility, traceability, and consistent validation of both data-model and calibration changes, all without impacting operations. This approach exemplifies Data Lifecycle Engineering principles and supports reproducible, cost-effective calibration and validation practices for modern radio observatories.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/An-Off-Sky-Calibration-and-Data-Model-Validation-Framework-for/14155-13",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 16:10 - 16:30 CEST | Room B4-M7",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Bart Vandenbussche, Sibo Van Gool, Leonardo Peri, Camille Pirat, Gert Raskin, Pierre Royer, Maddalena Reggiani, Hugues Sana, Julien Storm, Louis Storm, Dirk Vandepitte, Mathijs Arts, Tjorven Delabie, Wim De Munter, Jacob Pember, Bram Vandoren, Jorg Versluys, Nectarios Chari, Thomas Borel, Dominic Bowman",
+      "PaperNumber": "14145-16",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 16:10 - 16:30 CEST | Room B4-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "7d5a9f5d-25d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "7d5a9f5d-25d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Building the CubeSpec mission: in-orbit demonstration of high-resolution spectroscopy on a 12U CubeSat",
+      "Description": null,
+      "Abstract": "CubeSpec is an in-orbit demonstration CubeSat mission in the ESA technology programme, developed and funded in Belgium. The programme is now in phase C/D. Environmental qualification is finalising and building, testing and verification of the spacecraft and payload flight model has started. The project is on track for launch readiness end 2026. We present the final design of the mission and the results of test of engineering, qualification and flight models.  CubeSpec will measure high-resolution time series of spectral line profiles in massive stars to probe their internal structure. This requires a spectral resolution R > 50,000 (~0.01 nm) and SNR ≥ 200.   CubeSpec features several technological innovations: a 3-axis fine steering mirror bringing arcsecond level line-of-sight stability, a compact optical payload with fully ceramic 10x20cm cassegrain telescope, a cross-dispersed echelle spectrograph, compact FPGA CMOS sensor readout and a deployabe sun shade.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Building-the-CubeSpec-mission--in-orbit-demonstration-of-high/14145-16",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 16:10 - 16:30 CEST | Room B4-M3",
       "ErrorMessage": null
     },
     {
@@ -1046,7 +944,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Danilo Gonçalves, Vanessa Macanhan, Angelo de Souza, Márcio Vital de Arruda, Getulio C. Vasconcelos, Andersan Paula, Bruno V. Castilho",
+      "Authors": "Danilo Gonçalves, Vanessa Macanhan, Angelo de Souza, Márcio Vital de Arruda, Railson Falcão, Getulio C. Vasconcelos, Andersan Paula, Bruno V. Castilho",
       "PaperNumber": "14154-18",
       "DateTimeLocationDataList": [
         {
@@ -1070,7 +968,7 @@
       "HTMLTitle": "",
       "Title": "Development of NiTi Alloys by Selective Laser Melting from Elemental Ni and HDH Ti Powders",
       "Description": null,
-      "Abstract": "This paper investigates the effect of single melting and layer remelting on the homogeneity of NiTi parts produced via Selective Laser Melting (SLM) using elementally blended Ni (oxyreduction) and HDH Ti powders (<50 µm). Unlike plasma-atomized powders, these have irregular morphology and poor flowability for AM. The study evaluates the impact of one remelting cycle and final border scanning on printability and macro-defects such as pores and cracks. Results show that remelting improves density, chemical and phase homogenization, and reduces unreacted Ni/Ti particles and porosity.",
+      "Abstract": "NiTi shape memory alloys were produced by selective laser melting (SLM) using blended elemental oxyreduction Ni and HDH Ti powders as a low-cost alternative to pre-alloyed feedstocks. The study investigated the effect of a laser-remelting strategy on the consolidation of in-situ alloyed NiTi. Powder morphology, elemental distribution, and apparent porosity were evaluated by SEM, EDS, and digital image analysis. The remelting approach significantly reduced porosity and improved densification compared with conventional single-pass processing, demonstrating its potential for enhancing the fabrication of NiTi alloys from elemental powders.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-NiTi-Alloys-by-Selective-Laser-Melting-from-Elemental/14154-18",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1080,11 +978,11 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Gaia Gaspar, Marcin Sawicki, Nelson Nunes, Ruben J. Diaz",
-      "PaperNumber": "14149-14",
+      "Authors": "Sebastian J. Diebold, Jürgen Barnstedt, Jörg Bayer, Lauro Conti, Hans Rudolf Elsener, Christoph Kalkuhl, Daniel M. Schaadt, Darleen J. Rau, Thomas Schanz, Beate Stelzer, Klaus Werner",
+      "PaperNumber": "14146-17",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 16:15 - 16:35 CEST",
+          "date_time_location": "5 July 2026 • 16:15 - 16:35 CEST | Room B4-M1",
           "badge_icon": null,
           "format_icon": null,
           "show_tz_converter": false
@@ -1095,27 +993,27 @@
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
       "MatchingFrag": "",
-      "UniqueId": "6ff6ec82-7ad0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "6ff6ec82-7ad0-f011-a9ae-00505691c5e1",
+      "UniqueId": "808e4aa3-81d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "808e4aa3-81d0-f011-a9ae-00505691c5e1",
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Feasibility of up-the-ramp sampling for GIRMOS under variable sky conditions",
+      "Title": "Microchannel plate detector development for ultraviolet astronomy",
       "Description": null,
-      "Abstract": "The Gemini Infrared Multi-Object Spectrograph (GIRMOS) will employ H2RG detectors with 300-600s integrations. Up-the-ramp (UTR) sampling offers advantages over Fowler sampling, including superior cosmic ray rejection and extended dynamic range, but requires fitting linear ramps from 20-60 reads. Ground-based K-band sky brightness varies by 10-50% on comparable timescales, potentially introducing systematic errors and compromising photometric accuracy. Additionally, UTR data formats involve higher-dimensional FITS files with larger file sizes impacting observatory operations.     We present a feasibility study using the GIRMOS Data Simulator with high-fidelity flux budgets and realistic K-band sky variations estimated from Gemini-NIRI data at 10s cadence. We assess whether linear ramp fitting remains viable under variable sky conditions, quantify fit quality and systematic biases, and report nightly data volume estimates.",
+      "Abstract": "Observational data from the UV wavelength range is crucial to solve a number of astrophysical puzzles. Consequently, there is a number of upcoming UV missions from cubesats up to the future flagship Habitable Worlds Observatory. Besides novel instrument concepts and improved coatings, advanced detectors are key for the success of these missions. The microchannel plate (MCP) detector technology offers a unique asset in the UV: the combination of single-photon counting and visible-blindness.    The UV hardware group at IAAT develops a versatile MCP detector system that addresses the complete UV band. While a sealed-tube design is limited to wavelengths above 118 nm, an open-face variant covers also the whole far- and extreme-UV. Both use the same readout: a coplanar cross-strip anode and FPGA-based electronics.    In this contribution we report on the status of the detector development, present the latest characterization results, and give an outlook on the mission prospects.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Feasibility-of-up-the-ramp-sampling-for-GIRMOS-under-variable/14149-14",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Microchannel-plate-detector-development-for-ultraviolet-astronomy/14146-17",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 16:15 - 16:35 CEST",
+      "DisplayDateTime": "5 July 2026 • 16:15 - 16:35 CEST | Room B4-M1",
       "ErrorMessage": null
     },
     {
-      "Authors": "Shao-zhen Zhu, Hao-ran Ma, Yu Ning, Wen-qing Qu, Xin Luo, Baolong Chen, Hong-fei Zhang, Jian Wang",
-      "PaperNumber": "14157-18",
+      "Authors": "Sophia A. Sánchez-Maes",
+      "PaperNumber": "14157-19",
       "DateTimeLocationDataList": [
         {
           "date_time_location": "5 July 2026 • 16:20 - 16:40 CEST | Room B5-M1",
@@ -1129,18 +1027,18 @@
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
       "MatchingFrag": "",
-      "UniqueId": "d9e9b044-e7c8-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "d9e9b044-e7c8-f011-a9ae-00505691c5e1",
+      "UniqueId": "1946ad31-98d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "1946ad31-98d0-f011-a9ae-00505691c5e1",
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Design and Implementation of a performance Test System for MCT Infrared Detectors with Low-Noise readout electronics",
+      "Title": "Event-based solar imaging in the H-α wing at the Dunn Solar Telescope",
       "Description": null,
-      "Abstract": "The Mercury Cadmium Telluride (MCT) detector is a cornerstone device for astronomical observations in the short-wave infrared (SWIR) band. The ongoing development towards large-format, multi-channel MCT detectors places stringent demands on test systems concerning noise, consistency, and readout speed. To address this, we have designed and implemented a dedicated high-speed, low-noise readout system. This system is built around an FPGA core capable of generating customizable timing sequences, integrated with low-noise multi-channel bias supply modules and high-speed, high-precision readout paths. This architecture effectively ensures a low-noise test environment and high signal fidelity. It was demonstrated that the system's intrinsic channel-to-channel variation is significantly smaller than the inherent inter-channel differences of the MCT detector under test, guaranteeing the accuracy of characterization. Furthermore, the system offers flexibility through multiple data interfaces. I",
+      "Abstract": "We present the first demonstration of event-based solar imaging in the H-alpha wing at the Dunn Solar Telescope. A commercial event-sensing camera and a traditional frame-based imager observed the same small solar subfield simultaneously under adaptive-optics-corrected conditions. The event camera observed the H-alpha wing (known to exhibit fast chromospheric dynamics, including signatures associated with reconnection) using a universal birefringent filter. The resulting dataset includes active regions and flare-related activity. We describe the observational setup, the calibration and alignment steps used to prepare the data, and initial comparisons between the asynchronous event stream and the conventional images. These results provide the first on-sky evaluation of event-based sensing for resolving rapid solar fine structure in a ground-based environment.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Design-and-Implementation-of-a-performance-Test-System-for-MCT/14157-18",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Event-based-solar-imaging-in-the-H-%ce%b1-wing-at/14157-19",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1182,11 +1080,11 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Rain Naylor, Nicole Melso, David Schiminovich, Matthew Werneken, Meghna Sitaram, Ruimian Zheng, Nidhi Shah",
-      "PaperNumber": "14145-17",
+      "Authors": "Shaojie Chen, Mark Barnet, Sarik Jeram, Xuefeng Yao, Ting Li, Emma Jiayi Xu, Zain Azam, Aditya Khandelwal, Dhruv Pandya, Chris Cheng, Daksh Singh",
+      "PaperNumber": "14149-15",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 16:20 - 16:40 CEST | Room B4-M3",
+          "date_time_location": "5 July 2026 • 16:20 - 16:40 CEST | Auditorium 15",
           "badge_icon": null,
           "format_icon": null,
           "show_tz_converter": false
@@ -1197,94 +1095,26 @@
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
       "MatchingFrag": "",
-      "UniqueId": "d140276c-cbcf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "d140276c-cbcf-f011-a9ae-00505691c5e1",
+      "UniqueId": "d3145461-f8cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "d3145461-f8cf-f011-a9ae-00505691c5e1",
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "LIONESS science payload design and tolerancing: taming optical alignment",
+      "Title": "Prototyping the next-generation spectrograph for space exploration: DMD-Based Multi-Object Spectrograph Design and Production",
       "Description": null,
-      "Abstract": "The Line Imaging Orbiter for Nanosatellite-Enabled Spectrographic Surveys (LIONESS) is a 6U CubeSat carrying a microlens-based narrowband integral field spectrograph payload. LIONESS stands to greatly improve our understanding of the circumgalactic medium (CGM), conducting high signal-to-noise observations by leveraging the low sky background in orbit. LIONESS observes the prominent Hα emission line, dispersing narrowband spectra. It aims to locate the missing baryons surrounding galaxies and map the gas kinematics in the CGM. The LIONESS spectrograph utilizes a retro-reflective Offner relay design, with the convex mirror replaced with a convex grating operating near-Littrow. A crucial benefit of this design is its small footprint, keeping the optical components within the packaging of a nanosatellite, and decreasing reflective surfaces that could lose crucial photons. We will present modeling and lab testing to improve the alignment procedure for the telescope and spectrograph.",
+      "Abstract": "Digital Micromirror Devices (DMDs), with their compact form factor, programmability, and commercial availability, enable promising multi-object spectrographs (MOS) for both ground- and space-based telescopes. We are developing a DMD-based MOS for the PlaneWave 0.5-m telescope as a technology pathfinder for future spaceborne spectroscopic missions. The instrument includes dual imaging and spectroscopic channels and can obtain spectra for hundreds of targets simultaneously. Laboratory integration, calibration, and performance verification have confirmed that the system meets key optical and system-level requirements. The instrument is now undergoing full integration with the 0.5-m telescope, with first light expected in April 2026. This paper presents the DMD-MOS architecture, including optical design, system engineering, integration, and testing. The demonstrated performance and methodology provide a valuable reference for the development of future MOS instruments.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/LIONESS-science-payload-design-and-tolerancing-taming-optical-alignment/14145-17",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Prototyping-the-next-generation-spectrograph-for-space-exploration--DMD/14149-15",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 16:20 - 16:40 CEST | Room B4-M3",
+      "DisplayDateTime": "5 July 2026 • 16:20 - 16:40 CEST | Auditorium 15",
       "ErrorMessage": null
     },
     {
-      "Authors": "Michael Langmayr, Yashvi Sharma, James Don Neill, Elijah Anakalea-Buckley, Prakriti Gupta, Max Brodheim",
-      "PaperNumber": "14155-14",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 16:20 - 16:40 CEST | Room B4-M7",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "a220bbc9-9ed0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "a220bbc9-9ed0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Modern Orchestration for Astronomical Data Reduction",
-      "Description": null,
-      "Abstract": "Modern astronomical data reduction pipelines must handle growing data volumes, complex instrument configurations, and the need for reproducibility across varied computing environments. As part of developing the LRIS-2 pipeline for the W. M. Keck Observatory, we present a new architecture that applies mature data-engineering practices, particularly workflow orchestration using Prefect, to create a more transparent, modular, and resilient system. The pipeline represents each step as an observable task in a directed acyclic graph, enabling selective re-execution, real-time state visibility, and parallel processing. A dual-layer primitive model supports both clear, portable Python implementations and optional compiled C primitives that accelerate critical operations without changing scientific results. Designed for compatibility with the Astropy ecosystem, this approach promotes sustainability, community adoption, and a scalable template that other instruments and observatories can adapt.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Modern-Orchestration-for-Astronomical-Data-Reduction/14155-14",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 16:20 - 16:40 CEST | Room B4-M7",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Fabien Grisé, Nicholas Kruczek, Mélissa Alliguié, Kevin France, David Le Mignant, Randall McEntaffer, Jean-Claude Bouret, Kjetil Dohlen",
-      "PaperNumber": "14146-18",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 16:20 - 16:40 CEST | Room B4-M1",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "99edf5f0-67d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "99edf5f0-67d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "UV echelle grating development for the Pollux instrument",
-      "Description": null,
-      "Abstract": "Pollux is a UV spectrograph and spectropolarimeter under consideration for the Habitable Worlds Observatory (HWO). The instrument architecture includes three cross-dispersed, high resolution spectrograph channels (R>75,000–100,000) to cover its far-UV, mid-UV, and near-UV spectral range (101-472 nm).  We present our prototyping efforts for the mid-UV echelle grating including efficiency measurements and modeling results. Building on these results, we describe our approach to fabricate and characterize an improved Si-etched grating optimized for HWO's science requirements. While current prototype gratings demonstrate the fundamental feasibility of our fabrication approach and meet Pollux's MUV channel minimum efficiency requirements, continued improvements in lithography and wet etching processes will enhance overall performance while maintaining low scatter. These developments address key technology gaps as enabling technologies for future UV spectroscopy missions at all scales.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/UV-echelle-grating-development-for-the-Pollux-instrument/14146-18",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 16:20 - 16:40 CEST | Room B4-M1",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Ágnes Mika, Arno Schoenmakers, Carla Baldovin Saveedra, Ilse van Bemmel, Pieter Benthem",
+      "Authors": "Ágnes Mika, Arno Schoenmakers, Ilse van Bemmel, Pieter Benthem",
       "PaperNumber": "14152-10",
       "DateTimeLocationDataList": [
         {
@@ -1318,7 +1148,75 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Tayyaba Zafar, Simon Ellis, Dani Guzman, Anilkumar Mailvaganam",
+      "Authors": "Rain Naylor, Nicole Melso, David Schiminovich, Matthew Werneken, Meghna Sitaram, Ruimian Zheng, Nidhi Shah",
+      "PaperNumber": "14145-17",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 16:30 - 16:50 CEST | Room B4-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "d140276c-cbcf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "d140276c-cbcf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "LIONESS science payload design: taming nanosatellite packaging constraints for future science missions",
+      "Description": null,
+      "Abstract": "The Line Imaging Orbiter for Nanosatellite-Enabled Spectrographic Surveys (LIONESS) is a 6U CubeSat carrying a microlens-based narrowband integral field spectrograph payload. LIONESS stands to greatly improve our understanding of the circumgalactic medium (CGM), conducting high signal-to-noise observations by leveraging the low sky background in orbit. LIONESS observes the prominent Hα emission line, dispersing narrowband spectra. It aims to locate the missing baryons surrounding galaxies and map the gas kinematics in the CGM. The LIONESS spectrograph utilizes a retro-reflective Offner relay design, with the convex mirror replaced with a convex grating operating near-Littrow. A crucial benefit of this design is its small footprint, keeping the optical components within the packaging of a nanosatellite, and decreasing reflective surfaces that could lose crucial photons. We will discuss this design, the incorporation of new technologies, and its application to future space missions.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/LIONESS-science-payload-design--taming-nanosatellite-packaging-constraints-for/14145-17",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 16:30 - 16:50 CEST | Room B4-M3",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Michael Langmayr, Yashvi Sharma, James Don Neill, Elijah Anakalea-Buckley, Prakriti Gupta, Max Brodheim",
+      "PaperNumber": "14155-14",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 16:30 - 16:50 CEST | Room B4-M7",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "a220bbc9-9ed0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "a220bbc9-9ed0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Modern Orchestration for Astronomical Data Reduction",
+      "Description": null,
+      "Abstract": "Modern astronomical data reduction pipelines must handle growing data volumes, complex instrument configurations, and the need for reproducibility across varied computing environments. As part of developing the LRIS-2 pipeline for the W. M. Keck Observatory, we present a new architecture that applies mature data-engineering practices, particularly workflow orchestration using Prefect, to create a more transparent, modular, and resilient system. The pipeline represents each step as an observable task in a directed acyclic graph, enabling selective re-execution, real-time state visibility, and parallel processing. A dual-layer primitive model supports both clear, portable Python implementations and optional compiled C primitives that accelerate critical operations without changing scientific results. Designed for compatibility with the Astropy ecosystem, this approach promotes sustainability, community adoption, and a scalable template that other instruments and observatories can adapt.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Modern-Orchestration-for-Astronomical-Data-Reduction/14155-14",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 16:30 - 16:50 CEST | Room B4-M7",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Tayyaba Zafar, Simon Ellis, Dani Guzman, Anilkumar Mailvaganam, Benjamin Courtney-Barrer, Heike Ebendorff-Heidepriem, Tamal Mukherjee, Imam U. Aalia, Arihant Raidani, Samuel Carlson, Bahareh S. Salmasi, Xuanyi Lyu, Srivardini Ayyappan, Hubert A. Moser, Ka Wu, Andrija Djordjevic, Mustafa Al Arat, Agnieszka Botor-Probierz, Kai Baessler, Yunle Wei, Yosuke Minowa, Jose Luis Carrillo Martinez",
       "PaperNumber": "14154-19",
       "DateTimeLocationDataList": [
         {
@@ -1352,7 +1250,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Johann Kolb",
+      "Authors": "J. Kolb",
       "PaperNumber": "14150-19",
       "DateTimeLocationDataList": [
         {
@@ -1386,11 +1284,11 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Shaojie Chen, Mark Barnet, Sarik Jeram, Xuefeng Yao, Ting Li, Emma Jiayi Xu, Zain Azam, Aditya Khandelwal, Dhruv Pandya, Chris Cheng, Daksh Singh",
-      "PaperNumber": "14149-15",
+      "Authors": "Fabien Grisé, Nicholas Kruczek, Mélissa Alliguié, Kevin France, David Le Mignant, Randall McEntaffer, Jean-Claude Bouret, Kjetil Dohlen",
+      "PaperNumber": "14146-18",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 16:35 - 16:55 CEST",
+          "date_time_location": "5 July 2026 • 16:35 - 16:55 CEST | Room B4-M1",
           "badge_icon": null,
           "format_icon": null,
           "show_tz_converter": false
@@ -1401,60 +1299,26 @@
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
       "MatchingFrag": "",
-      "UniqueId": "d3145461-f8cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "d3145461-f8cf-f011-a9ae-00505691c5e1",
+      "UniqueId": "99edf5f0-67d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "99edf5f0-67d0-f011-a9ae-00505691c5e1",
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Prototyping the next-generation spectrograph for space exploration: DMD-Based Multi-Object Spectrograph Design and Production",
+      "Title": "UV echelle grating development for the Pollux instrument",
       "Description": null,
-      "Abstract": "Digital Micromirror Devices (DMDs), with their compact form factor, programmability, and commercial availability, enable promising multi-object spectrographs (MOS) for both ground- and space-based telescopes. We are developing a DMD-based MOS for the PlaneWave 0.5-m telescope as a technology pathfinder for future spaceborne spectroscopic missions. The instrument includes dual imaging and spectroscopic channels and can obtain spectra for hundreds of targets simultaneously. Laboratory integration, calibration, and performance verification have confirmed that the system meets key optical and system-level requirements. The instrument is now undergoing full integration with the 0.5-m telescope, with first light expected in April 2026. This paper presents the DMD-MOS architecture, including optical design, system engineering, integration, and testing. The demonstrated performance and methodology provide a valuable reference for the development of future MOS instruments.",
+      "Abstract": "Pollux is a UV spectrograph and spectropolarimeter under consideration for the Habitable Worlds Observatory (HWO). The instrument architecture includes three cross-dispersed, high resolution spectrograph channels (R>75,000–100,000) to cover its far-UV, mid-UV, and near-UV spectral range (101-472 nm).  We present our prototyping efforts for the mid-UV echelle grating including efficiency measurements and modeling results. Building on these results, we describe our approach to fabricate and characterize an improved Si-etched grating optimized for HWO's science requirements. While current prototype gratings demonstrate the fundamental feasibility of our fabrication approach and meet Pollux's MUV channel minimum efficiency requirements, continued improvements in lithography and wet etching processes will enhance overall performance while maintaining low scatter. These developments address key technology gaps as enabling technologies for future UV spectroscopy missions at all scales.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Prototyping-the-next-generation-spectrograph-for-space-exploration--DMD/14149-15",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/UV-echelle-grating-development-for-the-Pollux-instrument/14146-18",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 16:35 - 16:55 CEST",
+      "DisplayDateTime": "5 July 2026 • 16:35 - 16:55 CEST | Room B4-M1",
       "ErrorMessage": null
     },
     {
-      "Authors": "April D. Jewell, Nathan Bush, John Hennessy, Michael Hoenk, Todd Jones, Shouleh Nikzad, Charles Shapiro",
-      "PaperNumber": "14146-19",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 16:40 - 17:00 CEST | Room B4-M1",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "15397e3b-f2d6-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "15397e3b-f2d6-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Advanced ultraviolet silicon detector technologies enabling CubeSat, SmallSat, Explorer-class, and Flagship missions",
-      "Description": null,
-      "Abstract": "Advances in instrument technologies are enabling exciting new science in astrophysics, planetary science, and heliophysics. JPL’s delta doping technology yields ultrastability and record sensitivity in silicon-based detectors, which has enabled smaller spacecraft— including sounding rockets, suborbital balloons, and CubeSats—to perform sensitive science measurements previously only possible with larger satellite platforms. Here we discuss recent deployments and developments of JPL’s UV detector and coatings technologies, including on the recently launched astrophysics Star-Planet Activity Research Activity CubeSat (SPARCS), technology advancement with the Heterodyne OH Lunar Miniaturized Spectrometer (HOLMS) prototype, and the status of detector development for the astrophysics Ultraviolet Explorer (UVEX) mission. These advancements are critical to demonstrating readiness for future missions, including, the Habitable Worlds Observatory mission concept in development.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Advanced-ultraviolet-silicon-detector-technologies-enabling-CubeSat-SmallSat-Explorer-class/14146-19",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 16:40 - 17:00 CEST | Room B4-M1",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Xiangqun Cui, Dehua Yang, Hua Bai, Shouwei Hu, Dongsheng Niu, Zhe Chen, Jinfeng Wang",
+      "Authors": "Xiangqun Cui, Dehua Yang, Hua Bai, Haikun Wen, Fanghua Jiang, Shouwei Hu, Tingting Liu, Dongsheng Niu",
       "PaperNumber": "14147-15",
       "DateTimeLocationDataList": [
         {
@@ -1476,11 +1340,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Conceptual design of a 50-m telescope with large-aperture and wide-field for optical and infrared surveys",
+      "Title": "Conceptual design of a 50m telescope with large-aperture and wide-field for optical and infrared surveys",
       "Description": null,
-      "Abstract": "We present a conceptual design for a next-generation 50-m aperture telescope optimized for both wide-field spectroscopic surveys and high-precision photometric observations in the optical and infrared bands. To achieve a large field of view (FoV), the design incorporates an advanced array corrector system positioned before the primary focus, enabling high image quality across a broad focal plane. The primary mirror is segmented with considerations on segment geometry and size. We also explore innovative solutions to low overall construction cost per square meter of collecting area. This paper presents the conceptual design, engineering trade-offs, and preliminary feasibility studies for the 50-m telescope. The design highlights the balance between large aperture, wide-field capability, and cost-effective construction, paving pathway towards next-generation ground-based optical/infrared telescopes.",
+      "Abstract": "We present a conceptual design for a novel next-generation 50-m aperture telescope, the Spherical Wide-field Extremely Large Telescope (SWELT), optimized for both wide-field spectroscopic surveys and high-precision photometric observations in the optical and infrared bands. To achieve the very large aperture with a large field of view (FOV), a spherical primary mirror and with a set of array correctors positioned before the primary focus. The primary mirror is segmented to balance fabrication complexity, cost, and active correction performance. An innovative solution to the telescope mounting structure beyond the conventional alt-azimuth designs is considered to get a highly stiff structure with minimal mass, ensuring dynamic stability and low operational costs for the massive 50-m aperture. The design highlights the balance between large aperture, wide-field capability, and cost-effective construction, paving pathway towards next-generation ground-based optical/infrared telescopes.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Conceptual-design-of-a-50-m-telescope-with-large-aperture/14147-15",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Conceptual-design-of-a-50m-telescope-with-large-aperture-and/14147-15",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1488,11 +1352,11 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Sophia A. Sánchez-Maes",
-      "PaperNumber": "14157-19",
+      "Authors": "Shelley A. Wright, Aaron Brown, Shree Doshi, Benjamin Godfrey, Jerome Maire, Dan Werthimer, Jamie Holder, Nikolas Korzoun, Carolyn Heffner, Andrew Howard, Paul Horowitz, Alyssa Johnson, Wei Liu, Sophie Nathanson, Yuriy Popovych, Elisa Pueschel, Nicolas Rault-Wang, Sruthiranjani Ravikularaman",
+      "PaperNumber": "14149-85",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 16:40 - 17:00 CEST | Room B5-M1",
+          "date_time_location": "5 July 2026 • 16:40 - 17:00 CEST | Auditorium 15",
           "badge_icon": null,
           "format_icon": null,
           "show_tz_converter": false
@@ -1503,94 +1367,26 @@
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
       "MatchingFrag": "",
-      "UniqueId": "1946ad31-98d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "1946ad31-98d0-f011-a9ae-00505691c5e1",
+      "UniqueId": "58ef0a50-6dd1-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "58ef0a50-6dd1-f011-a9ad-005056914f1c",
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Event-based solar imaging in the H-α wing at the Dunn Solar Telescope",
+      "Title": "Panoramic SETI: science objectives and experimental setup",
       "Description": null,
-      "Abstract": "We present the first demonstration of event-based solar imaging in the H-alpha wing at the Dunn Solar Telescope. A commercial event-sensing camera and a traditional frame-based imager observed the same small solar subfield simultaneously under adaptive-optics-corrected conditions. The event camera observed the H-alpha wing (known to exhibit fast chromospheric dynamics, including signatures associated with reconnection) using a universal birefringent filter. The resulting dataset includes active regions and flare-related activity. We describe the observational setup, the calibration and alignment steps used to prepare the data, and initial comparisons between the asynchronous event stream and the conventional images. These results provide the first on-sky evaluation of event-based sensing for resolving rapid solar fine structure in a ground-based environment.",
+      "Abstract": "The Panoramic Search for Extraterrestrial Intelligence (PANOSETI) observatory is a multi-purpose experiment designed to explore fast optical phenomena—from nanoseconds to seconds—across wide fields of view. Over the past five years, PANOSETI has advanced through extensive R&D to optimize its telescopes, detector readout electronics, and data analysis software for remote, autonomous operation. Its science program spans optical technosignature (SETI) searches, ultra-high-energy (UHE) gamma-ray investigations, and time-domain astrophysics targeting rare, fast transients. PANOSETI also enables multi-messenger synergies with neutrino and gravitational-wave observatories, as well as solar system and near-Earth transient studies. The distributed array provides coincidence detection and all-sky monitoring of UHE Cherenkov events. We will present an overview of the major science cases, along with a technical update on the program and its future directions.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Event-based-solar-imaging-in-the-H-%ce%b1-wing-at/14157-19",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Panoramic-SETI-science-objectives-and-experimental-setup/14149-85",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 16:40 - 17:00 CEST | Room B5-M1",
+      "DisplayDateTime": "5 July 2026 • 16:40 - 17:00 CEST | Auditorium 15",
       "ErrorMessage": null
     },
     {
-      "Authors": "Kostas Valeckas, Arthur Matthew Kadela, Lise Bech Christensen, Joonas Viuho, Johan Peter Uldall Fynbo, Jacob Clasen, Michael I. Andersen, Anton Norup Sørensen, Bo Milvang-Jensen, Kasper Elm Heintz",
-      "PaperNumber": "14155-15",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 16:40 - 17:00 CEST | Room B4-M7",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "248860b2-eec9-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "248860b2-eec9-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Introducing the data-reduction pipeline for the Nordic Optical Telescope Transient Explorer spectrograph.",
-      "Description": null,
-      "Abstract": "The NOT Transient Explorer (NTE) is a new instrument for the Nordic Optical Telescope (NOT) that will provide both imaging and spectroscopic capabilities. In spectroscopic mode, NTE covers the wavelength range from 3200 Å to 2.2 μm in a single exposure through three independent arms. Designed to support rapid-response transient science, NTE requires observing tools that operate under strict time-critical constraints, including fast and reliable data reduction. In this talk, we present the current status of the NTE spectrograph data-reduction pipeline, including first results using simulated data. Our approach adapts the widely used and well-documented PypeIt package (Prochaska et al. 2020, JOSS) into a fully automated, rapid, and centralized data-reduction workflow. We also introduce new capabilities developed specifically for NTE that are not available in native PypeIt, such as echelle order rectification and order stitching across the full spectral range.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Introducing-the-data-reduction-pipeline-for-the-Nordic-Optical-Telescope/14155-15",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 16:40 - 17:00 CEST | Room B4-M7",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Oleg Djazovski, Denis Laurin, Stephane Roberge, Jason Rowe, Kelsey Hoffman, Stanimir Metchev, Frédéric Grandmont, Anne-Sophie Poulin-Girard, Marie-Eve Ducharme, Olivier Daigle",
-      "PaperNumber": "14145-18",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 16:40 - 17:00 CEST | Room B4-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "1e740773-afcf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "1e740773-afcf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Optical telescope assembly and detector systems for compact astronomy satellites",
-      "Description": null,
-      "Abstract": "This paper presents the advancement of the miniaturized optical telescope assembly (OTA) for exoplanetary astronomy and development of an ultra-sensitive detector system compatible with small satellite constraints. The test results have shown that the OTA achieves low PSF variations across wavelength and temperature ranges over a wide field enabling precision photometric observations of exoplanet transits candidates. The imaging performance and sensitivity of a compact detector compare favorably to that of ground-based Electron Multiplying CCD (EMCCD) and Complementary Metal-Oxide-Semiconductor (CMOS) imaging systems.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-telescope-assembly-and-detector-systems-for-compact-astronomy-satellites/14145-18",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 16:40 - 17:00 CEST | Room B4-M3",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Tony B. Hull, Janina Krieg, Thomas Westerhoff, Ralf Jedamzik, Florian Gollier",
+      "Authors": "Tony B. Hull, Esther del Pino Rosendo, Janina Krieg, Thomas Westerhoff, Ralf Jedamzik, Florian Gollier",
       "PaperNumber": "14154-20",
       "DateTimeLocationDataList": [
         {
@@ -1621,6 +1417,40 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "5 July 2026 • 16:45 - 17:00 CEST | Room B2-M4",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Kostas Valeckas, Arthur M. Kadela, Joonas K. M. Viuho, Lise B. Christensen, Johan P. U. Fynbo, Jacob Clasen, Michael I. Andersen, Anton Norup Sørensen, Bo Milvang-Jensen, Kasper E. Heintz",
+      "PaperNumber": "14155-15",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 16:50 - 17:10 CEST | Room B4-M7",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "248860b2-eec9-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "248860b2-eec9-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Introducing the data-reduction pipeline for the Nordic Optical Telescope Transient Explorer spectrograph",
+      "Description": null,
+      "Abstract": "The NOT Transient Explorer (NTE) is a new instrument for the Nordic Optical Telescope (NOT) that will provide both imaging and spectroscopic capabilities. In spectroscopic mode, NTE covers the wavelength range from 3200 Å to 2.2 μm in a single exposure through three independent arms. Designed to support rapid-response transient science, NTE requires observing tools that operate under strict time-critical constraints, including fast and reliable data reduction. In this talk, we present the current status of the NTE spectrograph data-reduction pipeline, including first results using simulated data. Our approach adapts the widely used and well-documented PypeIt package (Prochaska et al. 2020, JOSS) into a fully automated, rapid, and centralized data-reduction workflow. We also introduce new capabilities developed specifically for NTE that are not available in native PypeIt, such as echelle order stitching across the full spectral range.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Introducing-the-data-reduction-pipeline-for-the-Nordic-Optical-Telescope/14155-15",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 16:50 - 17:10 CEST | Room B4-M7",
       "ErrorMessage": null
     },
     {
@@ -1658,7 +1488,41 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Florian Kerber, Patrick Caillier, Sébastien Egner, Eric Emsellem, Markus Schöller",
+      "Authors": "Oleg Djazovski, Denis Laurin, Stephane Roberge, Jason Rowe, Kelsey Hoffman, Stanimir Metchev, Frederic Grandmont, Anne-Sophie Poulin-Girard, Marie-Eve Ducharme, Olivier Daigle",
+      "PaperNumber": "14145-18",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 16:50 - 17:10 CEST | Room B4-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "1e740773-afcf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "1e740773-afcf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Optical telescope assembly and detector systems for compact astronomy satellites",
+      "Description": null,
+      "Abstract": "This paper presents the advancement of the miniaturized optical telescope assembly (OTA) for exoplanetary astronomy and development of an ultra-sensitive detector system compatible with small satellite constraints. The test results have shown that the OTA achieves low PSF variations across wavelength and temperature ranges over a wide field enabling precision photometric observations of exoplanet transits candidates. The imaging performance and sensitivity of a compact detector compare favorably to that of ground-based Electron Multiplying CCD (EMCCD) and Complementary Metal-Oxide-Semiconductor (CMOS) imaging systems.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-telescope-assembly-and-detector-systems-for-compact-astronomy-satellites/14145-18",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 16:50 - 17:10 CEST | Room B4-M3",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Patrick Caillier, Florian Kerber, Sébastien Egner, Eric Emsellem, Markus Schöller",
       "PaperNumber": "14152-11",
       "DateTimeLocationDataList": [
         {
@@ -1692,11 +1556,113 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "April D. Jewell, Nathan Bush, John Hennessy, Michael Hoenk, Todd Jones, Shouleh Nikzad, Charles Shapiro",
+      "PaperNumber": "14146-19",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 16:55 - 17:15 CEST | Room B4-M1",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "15397e3b-f2d6-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "15397e3b-f2d6-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Advanced ultraviolet silicon detector technologies enabling CubeSat, SmallSat, Explorer-class, and Flagship missions",
+      "Description": null,
+      "Abstract": "Advances in instrument technologies are enabling exciting new science in astrophysics, planetary science, and heliophysics. JPL’s delta doping technology yields ultrastability and record sensitivity in silicon-based detectors, which has enabled smaller spacecraft— including sounding rockets, suborbital balloons, and CubeSats—to perform sensitive science measurements previously only possible with larger satellite platforms. Here we discuss recent deployments and developments of JPL’s UV detector and coatings technologies, including on the recently launched astrophysics Star-Planet Activity Research Activity CubeSat (SPARCS), technology advancement with the Heterodyne OH Lunar Miniaturized Spectrometer (HOLMS) prototype, and the status of detector development for the astrophysics Ultraviolet Explorer (UVEX) mission. These advancements are critical to demonstrating readiness for future missions, including, the Habitable Worlds Observatory mission concept in development.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Advanced-ultraviolet-silicon-detector-technologies-enabling-CubeSat-SmallSat-Explorer-class/14146-19",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 16:55 - 17:15 CEST | Room B4-M1",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Jean-François Sauvage, Pierre-Louis Mayeur, Cyril Petit, Nicolas Védrenne, Thierry Fusco",
+      "PaperNumber": "14147-16",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 17:00 - 17:20 CEST | Room B3-M6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "c21a06b1-3eca-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "c21a06b1-3eca-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "PROVIDENCE : a ground station for space observation",
+      "Description": null,
+      "Abstract": "PROVIDENCE will be an ambitious optical research platform primarily dedicated to the observation of. It is a 2.5m adaptive telescope optimized for High Angular Resolution. Installed at the Observatoire de Haute Provence, the project targets dual applications, covering satellite and debris observation, astronomical observation, innovative instrumentation and cross-disciplinary issues around environmental and atmospheric characterization, laser focusing and optical telecoms (QKD and deep space communications). In this presentation, we give technical details on this station, flowing down from its science objectives to the technical specifications and functionalities. PROVIDENCE will embed high-level tracking capacities, will propose 2 Nasmyth and 4 Coudé foci allowing operational and research instrumentation. Currently at the study and prototyping stage, the station will be ready for the observation of the near-Earth asteroid APOPHIS in April 2029.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/PROVIDENCE--a-ground-station-for-space-observation/14147-16",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 17:00 - 17:20 CEST | Room B3-M6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Sam Ragland, Guido Brusa, Alessandro Cavallaro, Daniel Caywood, Laird Close, Juan Carlos Guerra, Michael Lefebvre, Douglas Miller, Mark Smithwright, Gregory Taylor, Christian Veillet, Xianyu Zhang, Roberto Biasi, Marlène de Sepibus, Daniele Gallieni, Jared Males, Elena Masciadri, Brandon Mechtley, Fernando Pedichini, Camilo Weinberger, Heejoo Choi, Guido Agapito, Matthieu Bec, Maria Bergomi, Al Conrad, Steve Ertel, Simone Esposito, Jamison Noenickx, David Munoz, Chang Jin Oh, Eliad Peretz, Enrico Pinna, Roberto Ragazzoni, Fabio Rossi, Joseph Shields",
+      "PaperNumber": "14150-21",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 17:05 - 17:20 CEST | Room B3-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "37479d54-78d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "37479d54-78d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The path to agile extreme adaptive optics at the Large Binocular Telescope Observatory",
+      "Description": null,
+      "Abstract": "We highlight recent exciting AO science and discuss ongoing efforts to elevate the AO systems to facility-class status, along with strategies to transform them into Agile Extreme Adaptive Optics (AgXAO) systems to operate effectively under harsh and variable seeing conditions.  We share lessons learned from recent service missions, including the critical effort to recover from water intrusion in one of the ASMs, where the magnet side of the thin shell was recoated. Additionally, we present the status of refurbishing the Magellan ASM to serve as a compatible spare for the LBT, including upgrades to the Magellan reference body, along with long-term mitigation plans to replace the entire ASM or its electronics with next-generation hardware. We present LBTO’s AO operations and technological advancements in the context of Extremely Large Telescopes, highlighting its role as a testbed for advanced wavefront control algorithms, astrophotonics experiments, and machine learning applications.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-path-to-agile-extreme-adaptive-optics-at-the-Large/14150-21",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 17:05 - 17:20 CEST | Room B3-M2",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Paul Hirst",
       "PaperNumber": "14155-16",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:00 - 17:20 CEST | Room B4-M7",
+          "date_time_location": "5 July 2026 • 17:10 - 17:30 CEST | Room B4-M7",
           "badge_icon": null,
           "format_icon": null,
           "show_tz_converter": false
@@ -1716,21 +1682,55 @@
       "HTMLTitle": "",
       "Title": "Automatic DRAGONS data reduction within the Gemini Observatory Archive",
       "Description": null,
-      "Abstract": "Recent work incorporating the Gemini DRAGONS data reduction software into the Gemini Observatory Archive (GOA) has enabled the automatic reduction of science and calibration data within the archive system, as well as the monitoring of site characteristics, system performance, instrument health, and data quality.    The GOA stores and distributes both raw and reduced data to Gemini users. Until recently, only limited numbers of reduced data sets have been uploaded, both by the observatory and by visitor instrument teams. We have recently implemented infrastructure to automatically reduce data within the archive system from several observing modes of the facility instruments on both Gemini telescopes, vastly increasing the quantity of reduced data available. The large number of instrument configurations and observing modes present a significant challenge in automatic data processing, compared for example to survey-style observing.",
+      "Abstract": "The Gemini Observatory Archive stores and distributes both raw and reduced data to Gemini users. While all raw data is automatically transferred in near-real-time to the archive, until recently only limited numbers of reduced data sets have been uploaded by the observatory and visitor instrument teams. However, we have recently implemented infrastructure to automatically reduce data from several observing modes of the facility instruments on both Gemini telescopes within the archive system, vastly increasing the quantity of reduced data available. Incorporating the Gemini DRAGONS data reduction software into GOA enables the automatic reduction of science and calibration data within the archive system, as well as the monitoring of site characteristics, system performance, instrument health, and data quality. The large number of observing modes and instrument configurations present a significant challenge in automatic data processing, compared for example to survey-style observing.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Automatic-DRAGONS-data-reduction-within-the-Gemini-Observatory-Archive/14155-16",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:00 - 17:20 CEST | Room B4-M7",
+      "DisplayDateTime": "5 July 2026 • 17:10 - 17:30 CEST | Room B4-M7",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Cyril Pannetier, Rafa Nadhil, Nazim Ali Bharmal, Alondra Solá, Kacem El Hadi, Myriam Rodrigues, Hermine Schnetler, Clarysse Picard",
+      "PaperNumber": "14152-12",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 17:10 - 17:30 CEST | Room B2-M6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "d1188808-a3ce-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "d1188808-a3ce-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "MOSAIC on ELT: current assessment of the project environmental footprint, from cradle to grave",
+      "Description": null,
+      "Abstract": "MOSAIC, a multi-object spectrograph for the Extremely Large Telescope, is currently in its preliminary design phase (B2). In 2024, an initial carbon footprint estimate was conducted, offering rough CO₂eq emission figures but excluding key components like electronics, cryostats, and the AIT phase. In early 2026, a comprehensive life cycle analysis (LCA) was performed, aligning with ESA LCA Guidelines and covering all project phases—from early design to end-of-life. This updated study aims to provide the astrophysical community with robust environmental impact data, guide efforts to reduce the project’s ecological footprint, and establish a replicable methodology for future astronomical instruments. The analysis includes all recommended impact categories, ensuring a holistic assessment of MOSAIC’s environmental effects.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/MOSAIC-on-ELT--current-assessment-of-the-project-environmental/14152-12",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 17:10 - 17:30 CEST | Room B2-M6",
       "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 3187,
+  "Count": 2928,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 689687
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 695783
 }

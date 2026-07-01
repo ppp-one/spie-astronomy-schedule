@@ -89,7 +89,7 @@ def main():
     if COOKIES:
         session.cookies.update(COOKIES)
 
-    page = 11
+    page = 1
 
     while True:
         print(f"[*] Fetching page {page}")
