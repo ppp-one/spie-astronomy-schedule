@@ -357,6 +357,8 @@ def load_records() -> list[dict]:
         with pf.open(encoding="utf-8") as f:
             data = json.load(f)
         for item in data.get("Items", []):
+            if item.get("Status") == "Cancelled":
+                continue
             pn = item.get("PaperNumber", "")
             conf = pn.split("-")[0] if "-" in pn else pn
             if conf not in CONFERENCES_OF_INTEREST:
