@@ -26,108 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Yusufjon A. Tillayev, Azimjon Azimov, Miska Le Louarn, Aktam Hafizov, Shuhrat Ehgamberdiev",
-      "PaperNumber": "14151-114",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "769eee26-b6d9-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "769eee26-b6d9-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Impact of meteorological parameters to the observatory operation",
-      "Description": null,
-      "Abstract": "We present a comprehensive analysis of meteorological parameters measured at the Maidanak Astronomical  Observatory over the period 2012–2025, aimed at characterizing the site for the planned installation of a new 4 m  telescope. The study includes annual and monthly statistics of key variables such as wind speed and direction, air  temperature, and relative humidity, with more than 400,000 nighttime measurements analyzed for each parameter.  Long-term temperature trends are investigated, including a comparison with earlier (1996–2002) data to assess  potential signals of regional climate change. The results provide critical information on site stability and  atmospheric conditions, supporting both engineering specifications and long-term operational planning for future  astronomical observations.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Impact-of-meteorological-parameters-to-the-observatory-operation/14151-114",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Marcio Melendez, Laurent Pueyo, Nicolas Flagey, Randal Telfer, Matt Lallo, Jon Arenberg, Tiffany M. Glassman",
-      "PaperNumber": "14145-251",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "2d0efd27-40d1-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "2d0efd27-40d1-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Impact of micrometeoroids on Habitable Worlds Observatory contrast stability",
-      "Description": null,
-      "Abstract": "This paper presents ongoing investigations into the impact of micrometeoroid impacts on contrast stability for the coronagraph observations of the Habitable Worlds Observatory. We propagate properties of micrometeoroid impacts through precise coronagraph models that capture the spatial, diffractive properties of micrometeoroid-induced wavefront changes, as well as the temporal behavior of the spacecraft after impact. These calculations cover the case of micrometeoroid strikes on the telescope optics—primary or secondary. In the first case, the wavefront perturbation associated with the hypothetical impact will be localized on a primary segment or induce a secondary tilt, yielding a beam shear. In the second case, the observatory pointing will be perturbed.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Impact-of-micrometeoroids-on-Habitable-Worlds-Observatory-contrast-stability/14145-251",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "George Kosugi, Eisuke Morita, Hiroshi Yoshida, Kento Aida, Takeshi Nakazato, Kanako Sugimoto, Makoto Shizugami",
-      "PaperNumber": "14155-165",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "63591c85-20d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "63591c85-20d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Implementation and cost estimation of ALMA archive using cloud technology",
-      "Description": null,
-      "Abstract": "The Atacama Large Millimeter/submillimeter Array (ALMA) currently archives nearly 300 TB of observational and processed data annually, totaling 2.3 PB. These data are first stored in Chile main archive and then copied to each regional archives in North America, Europe, and East Asia for permanent storage and provision to the science community. With the upcoming Wideband Sensitivity Upgrade (WSU), the data rate is expected to increase by an order of magnitude, raising concerns about escalating archive costs. Our group has evaluated commercial cloud platforms for hosting ALMA archives over several years. This presentation provides cost estimates for operating NAOJ's full archive on cloud services under current and WSU conditions, proposes a unified global architecture to ensure equitable access from each region, and assesses its operational costs. These findings provide a basis for strategic decisions regarding future ALMA archive operations.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Implementation-and-cost-estimation-of-ALMA-archive-using-cloud-technology/14155-165",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Chris Waring",
       "PaperNumber": "14149-382",
       "DateTimeLocationDataList": [
@@ -400,7 +298,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Dominic F. Sanchez, Megan E. Eckart, Alex Geringer-Sameth, Benjamin Gerard, Waswa Waswa, Cesar Laguna, Alexx Perloff, Aditya Sengupta, Lisa Poyneer, Rebecca Jensen-Clem",
+      "Authors": "Dominic F. Sanchez, B. Gerard, W. Waswa, A. Geringer-Sameth, A. Sengupta, A. Perloff, M. Messerly, W. Moore, M. Cook, P. Pax, C. Laguna, M DeMartino, K. Bundy, R. Jensen-Clem, A. Lemmer, S. M. Ammons, M. Eckart, L. Poyneer, E. Strang",
       "PaperNumber": "14145-253",
       "DateTimeLocationDataList": [
         {
@@ -434,7 +332,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Neil T. Zimmerman, Tyler D. Groff, Guangjun Gao, Michael W. McElwain, Enrico Biancalani, Evan Bray, John Chambers, Roser Juanola-Parramon",
+      "Authors": "Neil T. Zimmerman, Tyler D. Groff, Guangjun Gao, Michael W. McElwain, Victor J. Chambers, Evan Bray, Enrico Biancalani",
       "PaperNumber": "14145-263",
       "DateTimeLocationDataList": [
         {
@@ -490,11 +388,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Integrating Grafana-Based visualization and collaborative toolchains to enhance scheduling and science operations in the Einstein Probe mission",
+      "Title": "Integrating Grafana-based visualization and collaborative toolchains to enhance scheduling and science operations in the Einstein Probe mission",
       "Description": null,
       "Abstract": "This poster introduces an integrated engineering toolchain designed to support the EP mission’s scheduling and duty operations. A customized Grafana monitoring layer, built on top of mission databases and real-time data streams, provides engineering visibility into scheduling logic and observation-segment execution. These dashboards enable rapid visualization of the current observation timeline and serve as a useful aid for ToO submissions.    Complementing the monitoring stack, Feishu (Lark) is used as an operational control and notification platform, supporting automated duty alerts and coordinated communication. In addition, YouTrack provides an engineering-grade issue-tracking environment for managing anomaly reports, software defects, service-integration tasks, and long-term operational improvements.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Integrating-Grafana-Based-visualization-and-collaborative-toolchains-to-enhance-scheduling/14151-127",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Integrating-Grafana-based-visualization-and-collaborative-toolchains-to-enhance-scheduling/14151-127",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -672,7 +570,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Reagen Leimbach, Shelley Wright, Jerome Maire, Aaron Brown, Bryson Cale, Man Yin Leo Lee, James Wiley, Maren Cosens, Chris Johnson, Renate Kupke, Evan Kress, James Larkin, Kenneth Magnone, Eric Wang",
+      "Authors": "Reagen Leimbach, Shelley Wright, Jerome Maire, Aaron Brown, Bryson Cale, Man Yin Leo Lee, James Wiley, Maren Cosens, Chris Johnson, Renate Kupke, Evan Kress, James Larkin, Kenneth Magnone, Eric Wang, Tucker Jones, Andrew Kramer, Nate Magari, Nicholas McDonald, Kanaka Warad",
       "PaperNumber": "14149-386",
       "DateTimeLocationDataList": [
         {
@@ -694,11 +592,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Liger at W.M. Keck Observatory: imager detector assembly and characterization",
+      "Title": "Liger at W.M. Keck Observatory: Imager Detector Assembly and Characterization",
       "Description": null,
       "Abstract": "Liger is a next generation imager and integral field spectroscoper that utilizes a hybrid design to enable simultaneous observations with both setups. In this paper, we present the detector assembly, characterization, and readout processing results of the Liger imager. The focus position and distance of the assembly and the detector, pick-off mirror apparatus will be finely adjusted and tested in both warm and cold environments.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Liger-at-WM-Keck-Observatory--imager-detector-assembly-and/14149-386",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Liger-at-WM-Keck-Observatory--Imager-Detector-Assembly-and/14149-386",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -910,7 +808,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jacob Pember, Ioannis Argyriou Tsikrikonis, Gerardo Ávila, Alexis Brandeker, Lars A. Buchhave, Heather Cegla, David W. Coutts, Wim De Meester, Joris De Ridder, Denis Defrère, Alistair Glasse, Manuel Güdel, Mariam Haidar, Kaustubh Hakim, Samuel P. Halverson, Joel Harman, Nicholas Jannsen, Markus Janson, Ailidh Kinney, Suzanne Kovacs, Romain Laugier, Christopher Miller, Kwinten Missiaen, Benjamin Montet, Johan Morren, Enric Pallé, Jesus Pérez Padilla, Wim Pessemier, Don Pollacco, Benjamin Pope, Saskia Prins, Andreas Quirrenbach, Gert Raskin, Maddalena Reggiani, Ignasi Ribas, Hugues Sana, Christian Schwab, Dries Seynaeve, Robyn Sharman, Julien Storm, Julian Stürmer, Giovanna Tinetti, Andrew Tkachenko, Hans Van Winckel, Bart Vandenbussche, Pieter Vuylsteke, Chris Waring, Rob Wittenmyer, Duncan Wright, Yanjun Zhou",
+      "Authors": "Jacob Pember, Ioannis Argyriou, Gerardo Avila, Alexis Brandeker, Lars A. Buchhave, Heather Cegla, David Coutts, Wim De Meester, Joris De Ridder, Denis Defrère, Alistair Glasse, Manuel Güdel, Mariam Haidar, Kaustubh Hakim, Samuel Halverson, Joel Harman, Nicholas Jannsen, Markus Janson, Ailidh Kinney, Suzanne Kovacs, Romain Laugier, Matteo Mallia, Christopher Miller, Kwinten Missiaen, Benjamin Montet, Johan Morren, Enric Pallé, Jesús Pérez Padilla, Wim Pessemier, Don Pollacco, Benjamin Pope, Saskia Prins, Andreas Quirrenbach, Alex Raskin, Gert Raskin, Maddalena Reggiani, Ignasi Ribas, Hugues Sana, Tommy Sandu, Christian Schwab, Dries Seynaeve, Robyn Sharman, Julien Storm, Julian Stürmer, Giovanna Tinetti, Andrew Tkachenko, Hans Van Winckel, Bart Vandenbussche, Pieter Vuylsteke, Chris Waring, Rob Wittenmyer, Duncan Wright, Yanjun Zhou, Nick Binos, Jurek Brzeski, Zhemin Cai, Timothy Chin, Simon Ellis, Tony Farrel, Tobias Feger, Ali Ghari Zadeh, Dani Guzman, Yevgen Kripak, Nirmala Kunwar, Celestina Lacombe, Jon Lawrence, Helen McGregor, David Robertson, Sana Syed, Lew Waller, Jahanzeb Zahoor, Ross Zhelem",
       "PaperNumber": "14149-376",
       "DateTimeLocationDataList": [
         {
@@ -934,7 +832,7 @@
       "HTMLTitle": "",
       "Title": "MARVEL: approaching instrument assembly and commissioning",
       "Description": null,
-      "Abstract": "MARVEL is an upcoming dedicated radial velocity facility that will soon be commissioned at the Mercator Observatory at La Palma, Spain. MARVEL comprises four 0.8m telescopes, each feeding starlight via optical fibres into a single high-resolution spectrograph tuned for precision radial velocity measurements. The four telescopes and their domes have been successfully installed at the observatory site, and are regularly being used for initial photometric observations. In this proceeding we provide a general status update of the facility, and report on the procurement, assembly, and laboratory testing of the spectrometer optics and mechanics. We also highlight a few of the lessons learned thus far during MARVEL’s development ahead of final commissioning and anticipated first light in 2026.",
+      "Abstract": "The MARVEL dedicated radial velocity facility will soon be commissioned at the Mercator Observatory at La Palma, Spain. MARVEL comprises four 0.8m telescopes, each feeding starlight via optical fibres into a single high-resolution spectrograph tuned for precision radial velocity measurements. The four telescopes and their domes have been successfully installed at the observatory site, and are regularly being used for initial photometric observations. In this proceeding we provide a general status update of the facility, covering the procurement, assembly, and laboratory testing of spectrometer optics, mechanics, and detector; developments in the calibration system; the PLC-based control software; the dedicated solar telescope; and a photometry programme that is already underway, making use of the MARVEL telescopes before the installation of the spectrograph.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/MARVEL-approaching-instrument-assembly-and-commissioning/14149-376",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1046,7 +944,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Dionne Haynes, Andrew Kruse, Antony Galla, Greg Jolley, Israel Vaughn, Trevor Mendel, David Brodrick, Jesse Cranney, Francois Rigaut, Gaston Gausachs, Annino Vaccarella, Hana Benhizia, Tristan Monnier, Roger Haynes, Elia Costa, Bernardo Salasnich, Kalyan Radhakrishnan, Enrico Pinna, Mirko Colapietro, Davide Greggio, Oleksandra Rebrysh, Luca Marafatto, Matteo Aliverti, Pierre Haguenauer, Ulf Seemann, Daniela Fantinel, Salvatore Savarese, Guido Agapito, Rosanna Sordo, Simonetta Chinellato, Nuria Lorente, Nuwanthika Fernando, Brent Miszalski, Lew Waller, Timothy Chin, Max Hewlett, Scott Smedley",
+      "Authors": "Dionne Haynes, Andrew Kruse, Antony Galla, Greg Jolley, Israel Vaughn, Trevor Mendel, David Brodrick, Jesse Cranney, Francois Rigaut, Gaston Gausachs, Annino Vaccarella, Hana Benhizia, Tristan Monnier, Roger Haynes, Elia Costa, Bernardo Salasnich, Kalyan Radhakrishnan, Enrico Pinna, Mirko Colapietro, Davide Greggio, Oleksandra Rebrysh, Luca Marafatto, Matteo Aliverti, Pierre Haguenauer, Ulf Seemann",
       "PaperNumber": "14150-322",
       "DateTimeLocationDataList": [
         {
@@ -1080,7 +978,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Kalyan Kumar Radhakrishnan Santhakumari, Valentina Viotto, Francois Rigaut, Davide Greggio, Luca Marafatto, Jesse Cranney, Guido Agapito, Maria Bergomi, Enrico Pinna, Andrea Baruffolo, Bernardo Salasnich, Daniela Fantinel, Mirko Colapietro, Elia Costa, Pierre Haguenauer, David Brodrick, Richard McDermid, Dionne Haynes, Antony Galla, Andrew Kruse",
+      "Authors": "Kalyan Kumar Radhakrishnan Santhakumari, Valentina Viotto, Francois Rigaut, Jesse Cranney, Davide Greggio, Luca Marafatto, Guido Agapito, Andrea Baruffolo, Bernardo Salasnich, Elia Costa, Daniela Fantinel, Mirko Colapietro, Maria Bergomi, Enrico Pinna, Pierre Haguenauer, David Brodrick, Richard McDermid, Dionne Haynes, Antony Galla, Andrew Kruse",
       "PaperNumber": "14150-320",
       "DateTimeLocationDataList": [
         {
@@ -1182,7 +1080,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Peter P. Pedersen, Lionel Garcia, David Degen, Didier Queloz, Mahshid Alimi",
+      "Authors": "Peter P. Pedersen, Lionel Garcia, Mahshid Alimi, David Degen, Didier Queloz, Florian Lienhard",
       "PaperNumber": "14151-125",
       "DateTimeLocationDataList": [
         {
@@ -1204,11 +1102,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "MIRA: Automating the observation lifecycle for educational access to robotic telescopes",
+      "Title": "MIRA: a data management and education platform connecting students to robotic telescopes",
       "Description": null,
       "Abstract": "We present the design of MIRA (Mentored Investigations using Robotic Astronomy), a data management and educational platform that connects Swiss secondary school and undergraduate students with operational robotic observatories.   MIRA structures the entire observation lifecycle: students submit proposals with scientific justifications, instructors moderate and approve proposals via a class view, and approved plans are automatically scheduled against weather and visibility constraints. Following execution, the platform automatically reduces raw FITS frames (including astrometric calibration and photometry) and serves them via a web-accessible archive accompanied by Python-based analysis tutorials.  By separating educational front-ends from low-level telescope controls through Astra and ASCOM Alpaca, MIRA delivers an authentic, scalable, and operationally safe scientific research workflow that bridges classroom learning with professional observatory operations.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/MIRA--Automating-the-observation-lifecycle-for-educational-access-to/14151-125",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/MIRA--a-data-management-and-education-platform-connecting-students/14151-125",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1284,7 +1182,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "I. Montilla, L. Montoya, D. Gómez, M. Reyes García-Talavera, P. Wizinowich, M. Troy, G. A. Chanan, J. Castro, H. de Paz, S. Fernández, M. Huertas, G. Lombardi, I. Álvarez, J. Miret",
+      "Authors": "I. Montilla, L. Montoya, D. Gómez, M. Reyes García-Talavera, P. Wizinowich, M. Troy, J. Castro, H. de Paz, S. Fernández, M. Huertas, G. Lombardi, I. Alvarez, J. Miret",
       "PaperNumber": "14150-316",
       "DateTimeLocationDataList": [
         {
@@ -1454,7 +1352,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Edoardo Maria Alberto Redaelli",
+      "Authors": "Edoardo Maria Alberto Redaelli, Marco Riva, Jacopo Farinato, Matteo Tintori, Daniele Galieni, Luca Marafatto, Andrea di Rocco, paolo ciliegi, ludovico teodori",
       "PaperNumber": "14154-365",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1622,115 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Julien Storm, Gert Raskin, Bart Vandenbussche, Christian Schwab, Jake Pember, Hugues Sana, Dirk Vandepitte, Leonardo Peri, Sibo Van Gool, Louis Storm, Pierre Royer, Maddalena Reggiani, Camille Pirat, Dominic Bowman",
+      "PaperNumber": "14154-360",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "225367ea-48d7-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "225367ea-48d7-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Onboard wavelength calibration of the CubeSpec spectrograph using a Fiber Fabry–Pérot Etalon",
+      "Description": null,
+      "Abstract": "CubeSpec is a 12U CubeSat mission designed to demonstrate high resolution spectroscopy from a compact platform, with launch readiness targeted for early 2027. Its cross dispersed echelle spectrograph requires an onboard calibration system that is very compact, mechanically robust, and sufficiently stable and precise to meet the mission’s spectral performance requirements. A fiber-based Fabry–Pérot (FFP) etalon provides an attractive solution due to its very small footprint and stable line spacing, though it demands careful thermal stabilization. CubeSpec employs a fiber-coupled LED continuum source to both illuminate the FFP etalon for wavelength calibration and to supply broadband light for order identification and flat-fielding. The light is injected into the spectrograph via optics mounted on the telescope’s secondary mirror. We describe here the design of the FFP calibration unit and its expected performance.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Onboard-wavelength-calibration-of-the-CubeSpec-spectrograph-using-a-Fiber/14154-360",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Shumei Jia, Liming Song, Chengkui Li, Haisheng Zhao, Juan Zhang, Ju Guan, Ge Ou, Jin Wang",
+      "PaperNumber": "14146-304",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "09c1f6a7-75cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "09c1f6a7-75cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Operations of the EP-FXT science data center",
+      "Description": null,
+      "Abstract": "The Einstein Probe (EP) carries two primary scientific payloads: the Wide-field X-ray Telescope (WXT) and the Follow-up X-ray Telescope (FXT). The EP-FXT Science Data Center (SDC), hosted at the Institute of High Energy Physics (IHEP), is responsible for the production, processing, and management of FXT data. Since the EP’s launch on January 9, 2024, the FXT SDC has maintained smooth operations, encompassing the production and publication of standard data products, the development and release of data analysis software and calibration databases, and the provision of support to scientific users. This paper provides an overview of the center's workflows, core tasks, and operational status.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Operations-of-the-EP-FXT-science-data-center/14146-304",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Eliad Peretz, Bert Pasquale, Guangjun Gao, Greg Aldering, Saul Prlmutter, Jerry Edelstein, Tim Miller",
+      "PaperNumber": "14149-400",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "1ebb75c6-64d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "1ebb75c6-64d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Optical and mechanical development of the ORKID-II multi-field integral field spectrograph using monolithic machined image slicers",
+      "Description": null,
+      "Abstract": "ORKID-II is a next-generation integral field spectrograph designed for high-resolution, multi-field imaging and spectroscopy on large ground-based telescopes and future space missions. Building on the ORCAS/ORKID program, the instrument uses monolithic machined image slicers manufactured with sub-micron precision to enable fine, coarse, and very coarse spatial sampling within a compact optical platform. We present the optical and mechanical development of the tri-field IFU, including telecentric, anamorphic, and magnification-optimized designs; Canon-fabricated slicer geometries; system-level packaging; and integration with the telescope relay and spectrograph. ORKID-II demonstrates a scalable approach to wide-field, high-throughput spectroscopy and provides a technology path for future flagship observatories.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-and-mechanical-development-of-the-ORKID-II-multi-field/14149-400",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

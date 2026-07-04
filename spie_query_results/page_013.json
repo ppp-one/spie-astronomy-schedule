@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "André Fehlmann, D. Christopher Berst, Bret Goodrich, Isabelle F. Scholl, Erik Starman, Richard Summers, Armando Fajardo, Stuart Farrell, Dino Mensa, Matthew J. Reason",
-      "PaperNumber": "14157-22",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 11:10 - 11:30 CEST | Room B5-M1",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "71b99f1b-fbcf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "71b99f1b-fbcf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "New digital infrared detectors for fast DKIST solar observations",
-      "Description": null,
-      "Abstract": "The National Science Foundation Daniel K Inouye Solar Telescope (DKIST) has purchased multiple 4k x 4k, short-wavelength infrared focal plane modules (HgCdTe detector on a Silicon substrate) from Raytheon Vision Systems to replace the existing analog Hawaii 2RG devices currently used by the DL-NIRSP and Cryo-NIRSP instruments.     These new sensors meet our requirement of short global shutter exposures and fast full frame rates (60 Hz), which makes them ideally suited for high-flux solar disk observations. The capability of achieving long exposure times via non-destructive reads expands the use cases to high dynamic range scenes at the solar limb and the faint solar corona.  We will present the key performance metrics established for our new infrared cameras during acceptance testing and show their fundamental impact on our high-flux and high-dynamic-range solar observations.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/New-digital-infrared-detectors-for-fast-DKIST-solar-observations/14157-22",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 11:10 - 11:30 CEST | Room B5-M1",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Vishambhar Nath Pandey, Bram Veenboer, Wilco Baan Hofman, Julian Kootstra, Jason Hessels, Ziggy Pleunis, Steven van der Vlugt, Jan David Mol",
       "PaperNumber": "14153-3",
       "DateTimeLocationDataList": [
@@ -536,7 +502,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Mary Joe Medlej, Aziz Ziad, Christophe Giordano, Simon Prunet, Rahul Srinivasan, Alohotsy Rafalimanana, Éric Aristidi",
+      "Authors": "Mary Joe Medlej, Rahul Srinivasan, Simon Prunet, Aziz Ziad, Christophe Giordano",
       "PaperNumber": "14152-17",
       "DateTimeLocationDataList": [
         {
@@ -558,11 +524,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Optimizing atmospheric turbulence prediction for optical links and astronomical observations",
+      "Title": "Probabilistic Machine Learning for Short-Term Atmospheric Seeing Forecasting",
       "Description": null,
       "Abstract": "Predicting atmospheric and turbulence conditions has become increasingly crucial for both the astronomical community and free-space optical communications. With the advent of the next generation of extremely large telescopes and sensitive optical links, accurate forecasts are needed to mitigate degradation caused by turbulence. To address these challenges, this work focuses on optimizing turbulence prediction across two complementary timescales: long-term ground-layer forecasts using numerical simulations constrained by in-situ drone measurements in the first 450 m, and short-term forecasts using machine learning with a focus on probabilistic models.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Optimizing-atmospheric-turbulence-prediction-for-optical-links-and-astronomical-observations/14152-17",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Probabilistic-Machine-Learning-for-Short-Term-Atmospheric-Seeing-Forecasting/14152-17",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1070,7 +1036,7 @@
       "HTMLTitle": "",
       "Title": "Design and evaluation of a white-LED ring for uniform CCD flat-field and contamination monitoring in HARPS3",
       "Description": null,
-      "Abstract": "The High Accuracy Radial velocity Planet Searcher – 3 (HARPS3) is being developed for the Terra Hunting Experiment. Achieving 10 cm s⁻¹ radial-velocity precision requires detailed knowledge of detector behaviour, and uniform flat-field frames are essential for identifying non-uniform pixels and surface defects that can imprint spurious features on extracted spectra. We present the new HARPS3 flat-field light source, an LED ring mounted between the camera objective and the CCD. The design uses white LEDs to better represent the full optical range and employs diffusion rings to lower flux and improve illumination uniformity. We also describe the electrical and software control of the system, enabling stable, low-flux operation for unsaturated flat fields. Laboratory results from multiple configurations are shown, and we identify the most uniform setup for calibration and CCD health monitoring.",
+      "Abstract": "he High Accuracy Radial velocity Planet Searcher–3 (HARPS3) is being developed for the 10-year Terra Hunting Experiment. Achieving 10 cm s⁻¹ radial-velocity precision requires detailed characterisation of detector behaviour, where uniform flat-field illumination is essential for identifying pixel-to-pixel variations and surface defects that can introduce spurious spectral features. We present the HARPS3 flat-field light source: an LED ring mounted between the camera objective and the CCD, designed to uniformly illuminate the full detector, including inter-order regions. The system uses white LEDs to better represent broadband optical throughput and incorporates interchangeable diffusion elements to reduce flux and improve spatial uniformity. Laboratory measurements across multiple configurations are presented, and we identify the optimal setup for calibration products and long-term CCD health monitoring.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Design-and-evaluation-of-a-white-LED-ring-for-uniform/14154-27",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1488,7 +1454,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Marcos Bavdaz, Sebastiaan Fransen, Ivo Ferreira, Pieter Smid, Marine Martin Lagarde, Habib Boualam, Frederic Safa, David Girou, Yvette Jenkins, Giuseppe Vacanti, Boris Landgraf, Maximilien J. Collon, Mark Olde Rieckerink, Jeroen Haneveld, Bart Schurink, Desiree Della Monica Ferreira, Sonny Massahi, Sara Svendsen, Diego Paredes Sanz, Michael Krumrey, Dieter Skroblin, Robert Fechner, Vadim Burwitz, Giovanni Pareschi, Bianca Salmaso, Alberto Moretti, Daniele Spiga, Stefano Basso, Giuseppe Valsecchi, Dervis Vernani, George Floros, Mirko Riede, Tapio Korhonen, Mikko Pasanen, Alejandro Sanchez Grueso, Dominique Heinis, Joan Torras, Riccardo Bressan, Norman Niewrzella, Richard Willingale, Finn Christensen",
+      "Authors": "Marcos Bavdaz, Sebastiaan Fransen, Ivo Ferreira, Pieter Smid, Marine Martin Lagarde, Habib Boualam, Alex McNamara, Frederic Safa, David Girou, Yvette Jenkins, Giuseppe Vacanti, Boris Landgraf, Maximilien J. Collon, Mark Olde Rieckerink, Jeroen Haneveld, Bart Schurink, Desiree Della Monica Ferreira, Sonny Massahi, Sara Svendsen, Diego Paredes Sanz, Michael Krumrey, Dieter Skroblin, Robert Fechner, Vadim Burwitz, Giovanni Pareschi, Bianca Salmaso, Alberto Moretti, Daniele Spiga, Stefano Basso, Giuseppe Valsecchi, Dervis Vernani, George Floros, Mirko Riede, Tapio Korhonen, Mikko Pasanen, Alejandro Sanchez Grueso, Dominique Heinis, Joan Torras, Riccardo Bressan, Norman Niewrzella, Richard Willingale, Finn Christensen",
       "PaperNumber": "14146-28",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "6 July 2026 • 13:40 - 14:00 CEST | Room B4-M7",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Matthew R. Bolcar, John Hagopian, Alice Liu, Tyler Groff, Bente Eegholm, Alden Jurling, Matthew Bergkoetter, Joseph Howard, Guangjun Gao, Margaret Dominguez, Patricia Lyons, Cathy Marx, Scott Rohrbach, Olha Asmolova, Nicholas Bond, Nicholas Collins, John Crooke, Boris Glebov, Joseph Hayden, Samantha Herath, Mingjun Li, Timothy Reichard, Drew Siedel, Kaitlyn Summey, Greg Wenzel, Brian Kern, Mark Colavita, Gary Kuan",
+      "PaperNumber": "14145-27",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 13:40 - 14:00 CEST | Room B4-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "4c87dbb6-57d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "4c87dbb6-57d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The Roman Space Telescope optical system: status, test, and verification - update",
+      "Description": null,
+      "Abstract": "The Nancy Grace Roman Space Telescope (“Roman”) is NASA’s next flagship observatory. Launching in 2026, Roman will explore the nature of dark energy as well as expand the census of exoplanets in our galaxy via microlensing. Roman’s large field of view, agile survey capabilities, and excellent stability enable these scientific objectives, yet present unique challenges for the design, test, and verification of its optical system. Roman recently completed a comprehensive thermal vacuum test of the Spacecraft bus + Integrated Payload Assembly (SCIPA), followed by integrating the Outer Barrel Assembly (OBA), Solar Array Sunshield (SASS), and Deployable Aperture Cover (DAC) with SCIPA to complete the Observatory. This paper will present an overview of the thermal vacuum optical testing as well as a status of the optical system performance and verification.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Roman-Space-Telescope-optical-system--status-test-and/14145-27",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 13:40 - 14:00 CEST | Room B4-M3",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

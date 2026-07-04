@@ -26,108 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Christopher Layden, John Piotrowski, Kevin B. Burdge, Jack T. Dinsmore, Gábor Furész, Juliana Garcia-Mejia, David Osip, Roger Romani",
-      "PaperNumber": "14149-89",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 14:45 - 15:05 CEST | Auditorium 15",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "d445882f-bfce-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "d445882f-bfce-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Lightspeed: ultra-fast multicolor imaging and polarimetry on the Magellan Clay Telescope",
-      "Description": null,
-      "Abstract": "Lightspeed will be a wide field (7'x4'), high-speed (>100Hz full frame, >10kHz windowed), multicolor (ugriz + future IR) imager and polarimeter. Employing Hamamatsu ORCA-Quest 2 cameras, Lightspeed will achieve deep sub-electron read noise (0.28 e-), making it incredibly powerful for high speed or ultra-faint observations. Lightspeed's VIS-POL channel will use a wedged double Wollaston prism, allowing linear polarization measurement in every frame. Lightspeed is currently under development and is planned to be a facility instrument on the Magellan Clay telescope. We recently commissioned proto-Lightspeed, a single channel prototype using off-the-shelf optical components which is now a PI instrument on Clay. I will discuss the design of Lightspeed and the performance of proto-Lightspeed, including characterization of the CMOS image sensors employed for both instruments.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Lightspeed--ultra-fast-multicolor-imaging-and-polarimetry-on-the/14149-89",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 14:45 - 15:05 CEST | Auditorium 15",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Laura Manuela Castañeda Medina, Yann Gutierrez, Baptiste Abeloos, Olivier Herscovici-Schiller, Johan Mazoyer, Laurent M. Mugnier",
-      "PaperNumber": "14145-98",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 14:50 - 15:10 CEST | Room B4-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "f349aa4d-97cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "f349aa4d-97cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Reinforcement learning for post-coronagraphic wavefront control",
-      "Description": null,
-      "Abstract": "Direct imaging of exoplanets is limited by the extreme contrast between the star and the planets, which is mitigated using a coronagraph.   However, optical aberrations cause starlight leakage through the coronagraph, producing speckles that obscure the planetary signal. Achieving the required contrast levels demands wavefront control with subnanometric precision.   Deep reinforcement learning, offers a promising alternative to traditional wavefront control approaches. In this work, we present a fully data-driven method for post-coronagraphic aberration correction from focal plane images using reinforcement learning. The agent directly controls a deformable mirror in the pupil plane using phase diversity images generated via single actuator probes. The method is validated on simplified simulations of a high-contrast imaging testbed, where it successfully created the first Dark Holes using reinforcement learning.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Reinforcement-learning-for-post-coronagraphic-wavefront-control/14145-98",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 14:50 - 15:10 CEST | Room B4-M3",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Parker Fagrelius, Elana Urbach, Roberto Tighe, Fritz Mueller, Douglas Neill, Brian Johnson, Antanasia Jones, Ron Harris, Anthony Tache, Anthony Borstad, Hernan Herrera, David Jiménez Mejías, Franco Colleoni, Ian Ordenes, Eric Coughlin, Eli Rykoff, Jérémy Neveu",
-      "PaperNumber": "14149-91",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 15:05 - 15:25 CEST | Auditorium 15",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "a0b64da7-becf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "a0b64da7-becf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Vera C. Rubin Observatory Flatfield Calibration System: Final Design and Early Performance",
-      "Description": null,
-      "Abstract": "The Vera C. Rubin Observatory Flatfield Calibration System provides the uniform, stable, and well characterized  illumination required to calibrate the LSST Camera and Simonyi Telescope. The fully installed system combines  broadband “whitelight” LEDs, a tunable-laser subsystem for monochromatic flats, and an f/4 projector with an  aspheric reflector that illuminates a 10-m Lambertian screen. A comprehensive monitoring suite, including a  NIST-calibrated photodiode with electrometer readout and fiber-fed spectrographs, tracks illumination stability  and spectral content. Key thermal and electrical considerations, such as laser temperature control and power  distribution for the distributed system, are incorporated into the final design. Early commissioning results indi-  cate that the flatfield calibration system performance meets the requirements for LSST Camera characterization  and early Rubin Observatory operations.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Vera-C-Rubin-Observatory-Flatfield-Calibration-System--Final-Design/14149-91",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 15:05 - 15:25 CEST | Auditorium 15",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Steven Li, Pablo Trujillo, Jason VazBrown, Javier Romualdez, John Hartley",
       "PaperNumber": "14149-92",
       "DateTimeLocationDataList": [
@@ -320,11 +218,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Addressing low-wind effect with the Lyot-stop low-order wavefront sensor on SCExAO",
+      "Title": "Addressing the low-wind effect with the Lyot-stop low-order wavefront sensor on SCExAO",
       "Description": null,
       "Abstract": "The Low-wind effect (LWE) affects coronagraphic instruments, especially those with segmented and obstructed pupils that have spider arms, causing phase discontinuities that lead to differential pistons and tip-tilt errors under low-wind conditions. Solutions to reduce the impact of LWE have been developed in both passive mode (by coating the spider arms with low-emissivity material) and active mode using wavefront sensors. We present LLOWFS's initial on-sky measurement and control of the low-order modes observed under LWE downstream of a Lyot coronagraph in SCExAO's infrared and visible arms. We also discuss the sensor fusion of LLOWFS with the high-order WFS of SCExAO and Subaru's upgraded AO3K system, as well as several control architectures that utilize the high-density actuator capabilities of SCExAO/AO3K. Preliminary LLOWFS corrections of LWE in the coronagraphic mode are promising and could improve SCExAO’s detection sensitivity of mature exoplanets at small angles.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Addressing-low-wind-effect-with-the-Lyot-stop-low-order/14150-106",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Addressing-the-low-wind-effect-with-the-Lyot-stop-low/14150-106",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -536,7 +434,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Costanza Bellucci, Paolo de Bernardis, Luca Lamagna, Vipul Prasad Maranchery, Silvia Masi, Alessandro Paiella, Giorgio Pettinari, Emanuele Catena, Martina Alla",
+      "Authors": "Costanza Bellucci, Martina Alla, Paolo de Bernardis, Emanuele Catena, Alessandro Coppolecchia, Alessandro Gaggero, Luca Lamagna, Vipul Prasad Maranchery, Silvia Masi, Alessandro Paiella, Giorgio Pettinari, Ajeethkumar Rengarajan",
       "PaperNumber": "14156-69",
       "DateTimeLocationDataList": [
         {
@@ -604,7 +502,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Pedro J. Amado González, Jesús Aceituno Castro, the Photonic EMARCOT collaboration, Miguel Andrés Sánchez-Carrasdo, Stefan Cikota, Marina Centenera Merino, Javier Flores, David Pérez Medialdea, María Isabel Ruiz-López, Kalaga Madhav, Julius Göhring, Abani Shankar Nayak, Francisco José Pozuelos-Romero, Sergio León-Saval, José Luis Ortiz Moreno, Martin Roth",
+      "Authors": "Pedro J. Amado González, Jesús Aceituno Castro, Miguel Andrés Sánchez-Carrasdo, Stefan Cikota, Marina Centenera Merino, Javier Flores, David Pérez Medialdea, María Isabel Ruiz-López, Kalaga Madhav, Julius Göhring, Abani Shankar Nayak, Francisco José Pozuelos-Romero, Sergio León-Saval, José Luis Ortiz Moreno, Martin Roth, Diego Suarez-Garcia",
       "PaperNumber": "14147-85",
       "DateTimeLocationDataList": [
         {
@@ -762,11 +660,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Architecture of the CHORD F-Engine and DSP validation with a fully FPGA-based F-X correlator",
+      "Title": "Architecture and validation of the CRS F-Engine for the CHORD radio telescope",
       "Description": null,
-      "Abstract": "The Canadian Hydrogen Observatory and Radio-transient Detector (CHORD) is achieving rapid progress in the construction of its first 64 dishes at the Dominion Radio Astrophysical Observatory (DRAO) in British Columbia, Canada. We present an overview of an RFSoC-based F-Engine implemented on the t0.CRS platform for CHORD and detail current commissioning efforts for the first CHORD dishes. We describe the installation of a single F-Engine crate connected to the first fully-instrumented CHORD dishes, enabling the collection of preliminary datasets for system-level performance testing. To validate the CHORD F-Engine, we have developed a complementary version of its firmware which implements a complete X-engine onboard the FPGA alongside the F-engine for a subset of the feeds. We demonstrate the initial success of the CHORD F-Engine by conducting an observation of a bright radio calibrator source using our fully FPGA-based single-board F-X correlator.",
+      "Abstract": "We introduce the design of the t0.technology Control and Readout System (CRS) F-Engine that will be used for the Canadian Hydrogen Observatory and Radio transient Detector (CHORD), a new radio interferometer currently being commissioned at the Dominion Radio Astrophysical Observatory (DRAO) in Canada. The CRS F-Engine will directly digitize and channelize 1024 individual RF signals from the 512 dual-polarized dishes of the CHORD core array using an array of 128 CRS boards, a multi-purpose microwave readout platform using an AMD Zynq Ultrascale+ RF-System-on-Chip (RFSoC) architecture. We provide an overview of the CRS F-Engine implementation for CHORD, describe the installation of a single CRS F-Engine crate for the CHORD \"Pathfinder\" array corresponding to the first 64 fully-instrumented CHORD dishes, and finally demonstrate the initial success of the CRS F-Engine using a complementary version of its firmware which implements a fully FPGA-based F-X correlator.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Architecture-of-the-CHORD-F-Engine-and-DSP-validation-with/14153-76",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Architecture-and-validation-of-the-CRS-F-Engine-for-the/14153-76",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -808,7 +706,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Valentina Viotto, Guido Agapito, Matteo Aliverti, Maria Bergomi, Julien Bernard, Marco Bonaglia, Luca Carbonaro, Elena Carolo, Paolo Cerpelloni, Simonetta Chinellato, Mirko Colapietro, Jesse Cranney, Simone Doniselli, Antony Galla, Davide Greggio, Luca Marafatto, Luca Oggioni, Cedric Plantet, Enrico Pinna, Oleksandra Rebrysh, Kalyan Kumar Radhakrishnan Santhakumari, Salvatore Savarese, Rosanna Sordo, Stefan Ströbele, Brian W. Taylor, Carmelo Arcidiacono, Jacopo Farinato, Demetrio Magrin, Andrea Baruffolo, Elia Costa, Daniela Fantinel, Fabio Rossi, Bernardo Salasnich, Pietro Schipani, Pierre Haguenauer, Jennifer Burgess, David Brodrick, Giovanni Cresci, Richard McDermid, Francois Rigaut",
+      "Authors": "Valentina Viotto, Guido Agapito, Matteo Aliverti, Maria Bergomi, Edoardo Bellone De Grecis, Julien Bernard, Marco Bonaglia, Luca Carbonaro, Elena Carolo, Paolo Cerpelloni, Simonetta Chinellato, Mirko Colapietro, Jesse Cranney, Simone Doniselli, Antony Galla, Davide Greggio, Luca Marafatto, Luca Oggioni, Cedric Plantet, Enrico Pinna, Oleksandra Rebrysh, Kalyan Kumar Radhakrishnan Santhakumari, Salvatore Savarese, Chiara Selmi, Rosanna Sordo, Stefan Ströbele, Brian W. Taylor, Daniele Vassallo, Carmelo Arcidiacono, Jacopo Farinato, Demetrio Magrin, Andrea Baruffolo, Elia Costa, Sergio D'orsi, Daniela Fantinel, Fabio Rossi, Bernardo Salasnich, Pierre Haguenauer, Jennifer Burgess, David Brodrick, Giovanni Cresci, Richard McDermid, Roger Haynes, Francois Rigaut",
       "PaperNumber": "14150-23",
       "DateTimeLocationDataList": [
         {
@@ -979,10 +877,10 @@
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

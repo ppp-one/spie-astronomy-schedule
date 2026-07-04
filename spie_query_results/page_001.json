@@ -230,7 +230,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Laird M. Close, Jialin Li, Jared R. Males, Sebastiaan Haffert, Olivier Guyon, Joseph Long, Alycia Weinberger, Katherine Follette, Joshua Liberman, Katie Twitchell, Jay Kueny, Daniel Apai, Laura Perez, Maggie Kautz, Eden McEwen, Logan Pearce, Kevin Wagner, Gabriel Weible, Rene Doyon, Alex Hedglen, Warren Foster, Victor Gasho, Kyle Van Gorkom, Avalon McLeod, Lauren Schatz, Judit Szulágyi, Ya-Lin Wu, Matthijs Mars, Elena Tonucci, Parker Johnson",
+      "Authors": "Laird M. Close, Jared R. Males, Jialin Li, Sebastiaan Haffert, Joseph Long, Alex Hedglen, Alycia Weinberger, Katherine Follette, Daniel Apai, Rene Doyon, Warren Foster, Victor Gasho, Kyle Van Gorkom, Olivier Guyon, Maggie Kautz, Jay Kueny, Avalon McLeod, Eden McEwen, Logan Pearce, Laura Perez, Lauren Schatz, Judit Szulágyi, Kevin Wagner, Ya-Lin Wu, Matthijs Mars, Elena Tonucci, Joshua Liberman, Katie Twitchell, Gabriel Weible, Parker Johnson",
       "PaperNumber": "14150-1",
       "DateTimeLocationDataList": [
         {
@@ -251,7 +251,7 @@
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
+      "HTMLTitle": "Review of high-contrast detection of accreting proto-planets with visible ExAO at H-&alpha;: the MagAO-X MaXProtoPlanetS survey results of evidence of strong protoplanet H-alpha variability and circumplanetary dust around PDS 70 and other systems",
       "Title": "Review of high-contrast detection of accreting proto-planets with visible ExAO at H-alpha: the MagAO-X MaXProtoPlanetS survey results of evidence of strong protoplanet H-alpha variability and circumplanetary dust around PDS 70 and other systems",
       "Description": null,
       "Abstract": "We will review the results of our multi-year program’s direct imaging at H-alpha (656.3 nm) of the young (~5 Myr old) accreting protoplanets PDS 70 b, PDS 70 c, 2MJ1612 b and WISPIT 2b with visible ExAO and the MaxProtoPlanetS survey in general. These are very high-contrast ~10^-5 observations of these planets with separations of 100-300 mas in the visible at H-alpha with the 6.5m Magellan Telescope and the 2040 actuator MagAO-X visible ExAO system. From this, admittedly small, sample of observed protoplanets we can now start to see some general trends newly emerge --which are exciting to explore in this review paper. We will review what we have recently learned about the spread of planet masses, accretion rates, H-alpha line fluxes/variability, and protoplanet inclinations. We will briefly highlight the exciting new 2025 and 2026 PDS 70 observations. General lessons learned about ExAO protoplanet science at H-alpha is reviewed.",
@@ -536,7 +536,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Kai Zhang, Jean-Louis Lizon, Sharon Xuesong Wang, Wei Xing",
+      "Authors": "Kai Zhang, Jean-Louis Lizon, Liang Wang, Qiqige Xin, Liang Tang, Huiqi Ye, Fujia Du, Huatao Zhang, Wei Xing, Bernard Delabre, Simon Tulloch, Bin Yu, Dinghao Feng, Jiajia Wu, Dejing Ni, Mingda Jiang, Shengrun Liu, Jing Chen, Mingyi Ding, Yuan Liang, Yue Wu, Junbo Zhang, Xuan Fang, Sharon Xuesong Wang, Jianrong Shi, Jifeng Liu",
       "PaperNumber": "14149-3",
       "DateTimeLocationDataList": [
         {
@@ -558,11 +558,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "CHORUS overview and status",
+      "Title": "CHORUS on GTC: Project overview and status",
       "Description": null,
-      "Abstract": "CHORUS (Canary Hybrid Optical high-Resolution Ultra-stable Spectrograph) is a powerful science instrument under development for the 10.4m Gran Telescopio Canarias (GTC) in La Palma. This instrument project was jointly proposed by the National Astronomical Observatories of the Chinese Academy of Sciences (CAS), Instituto de Astrofísica de Canarias (IAC), Nanjing Institute of Astronomical Optics and Technology (NIAOT), and GTC (GRANTECAN S. A.) under the cooperative framework in astronomy between China and Spain, and was kicked off in 2022 with the funding support by the Chinese Academy of Sciences (CAS) . The CHORUS aims to detect and study habitable exoplanets by extremely precision radial velocity measurement and extend the scientific research in some forefront areas such as galactic archeology, black holes, etc., for the decade to come. To reach this scientific goal, this spectrograph provides a spectral resolution of R≥120,000 in the visible wavelength region (420nm–780nm) and R≥25",
+      "Abstract": "CHORUS (Canary Hybrid Optical high-Resolution Ultra-stable Spectrograph) is a next-generation science instrument under development for the 10.4m Gran Telescopio Canarias (GTC) in La Palma. CHORUS aims to detect and characterize low-mass habitable exoplanets around solar-like stars with extreme radial velocity precision at sub-m s−1 level, and trace the oldest stars in the Milky Way. This instrument adopts a dual-band design, delivering a spectral resolution of R ≥ 120,000 in the visible band (425–780 nm), and R ≥ 25,000 in the near-UV band (310–425 nm). The project was jointly proposed by the Chinese and Spanish astronomy communities and kicked off in 2022. We present a detailed description and design of the instrument. The project has passed its final design review and has entered the construction phase.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/CHORUS-overview-and-status/14149-3",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/CHORUS-on-GTC-Project-overview-and-status/14149-3",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -592,11 +592,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Boosting exoplanet detection with VLTI/GRAVITY+ using dark hole techniques",
+      "Title": "High contrast at short separations with VLTI/GRAVITY+ Dark Hole",
       "Description": null,
-      "Abstract": "In this talk, we will provide an overview of our new dark hole operational procedure for high-contrast observations with GRAVITY+. By using a modulation injected with the deformable mirrors of the four GPAO systems, we can constrain the complex electric field at each Unit Telescope (UT) and apply a reference wavefront command which minimizes the residual stellar flux at the position of the science fiber in dual-field mode. This in turn amplifies the signal-to-noise ratio for the faint companion observed with the science fiber, delivering a better contrast performance especially at the smallest angular separations, where the coherent flux in the science fiber is dominated by residual host star flux. We will provide an estimate of the contrast performance gain as a function of the angular separation between the science fiber and the host star (fringe tracking target). Going forward, the dark hole will enable the detection of young giant planets at shorter separations.",
+      "Abstract": "The detection of faint planetary-mass companions at small angular separations from their host stars is typically impacted by the presence of quasi-static speckles introduced by modern high-order adaptive optics systems. Here, we introduce the use of Dark Hole (speckle nulling) techniques with the VLTI/GRAVITY+ instrument to reduce the contaminant flux from residual stellar speckles at the off-axis (companion) position in interferometric dual-field observations. This new GRAVITY+ Dark Hole observing mode has been shown to reduce the residual coherent flux from the host star by >80% at separations between 80-200 mas. It will be made available to the community in one of the upcoming calls for proposals and is expected to enable the detection of self-luminous exoplanets at shorter separations than what was possible before. Future work will focus on including higher-order speckle terms in the nulling algorithm to further improve the robustness of the mode.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Boosting-exoplanet-detection-with-VLTIGRAVITY-using-dark-hole-techniques/14150-4",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/High-contrast-at-short-separations-with-VLTIGRAVITY-Dark-Hole/14150-4",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -728,9 +728,9 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Infrared Instrumentation for Astronomical observation: Sky Background Measurements and the Development of H- and K-band Infrared Cameras",
+      "Title": "Infrared Instrumentation for Astronomical observation: Sky Background Measurements and the Development of Near Infrared Cameras",
       "Description": null,
-      "Abstract": "Over the past decade, infrared astronomy in China has progressed from site characterization and small-aperture demonstrations to the engineering development of medium-aperture near-infrared cameras. To address limitations associated with atmospheric thermal background and water vapor, infrared site testing and instrument deployments have been carried out at Dome A in Antarctica, Daocheng in Sichuan, and Lenghu in Qinghai. We will review the development of infrared astronomical instrumentation in China, with emphasis on three contributions from our team: (1) characterizing the J/H/Ks observing conditions at Dome A through dedicated near-infrared sky-background measurements; (2) developing and field-test an H-band infrared camera in Daocheng; and (3) constructing the K-band mosaic focal-plane instrument for the SYSU 80-cm infrared telescope.",
+      "Abstract": "Over the past decade, infrared astronomy in China has progressed from site characterization and small-aperture demonstrations to the engineering development of medium-aperture near-infrared cameras. To address limitations associated with atmospheric thermal background and water vapor, infrared site testing and instrument deployments have been carried out at Dome A in Antarctica, Daocheng in Sichuan, and Lenghu in Qinghai. We will review the development of infrared astronomical instrumentation in China, with emphasis on three contributions from our team: (1) characterizing the J/H/Ks observing conditions at Dome A through dedicated near-infrared sky-background measurements; (2) developing J-band and H-band infrared camera and field-test in Daocheng; and (3) constructing the K-band mosaic focal-plane instrument for the SYSU 80-cm infrared telescope.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Infrared-Instrumentation-for-Astronomical-observation--Sky-Background-Measurements-and/14157-5",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -774,7 +774,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Trevor O. Foote, Elisa V. Quintana, Jessie L. Dotson, Knicole D. Colón, Thomas Barclay, Pete Supsinskas, Jordan Karburn, Dániel Apai, Christina Louise Hedges, Benjamin V. Rackham, Jason F. Rowe, Emily A. Gilbert",
+      "Authors": "Trevor O. Foote, Elisa V. Quintana, Jessie L. Dotson, Knicole D. Colón, Thomas Barclay, Pete Supsinskas, Jordan Karburn, Dániel Apai, Christina Louise Hedges, Benjamin V. Rackham, Jason F. Rowe, David Ciardi, Emily A. Gilbert, Natalie H. Allen, Jessie Christiansen, Nestor Espinoza, Nguyen Fuda, Aylin Garcia Soto, Thomas Greene, Kelsey Hoffman, Rae Holcomb, Benjamin J. Hord, Aishwarya R. Iyer, Aurora Y. Kesseli, Veselin B. Kostov, Nikole Lewis, Sarah E. Logsdon, Andrew W. Mann, Megan Mansfield, James P. Mason, Peter McGill, Julie Moquin, Brett M. Morris, Gregory Mosby, Susan E. Mullally, Elisabeth Newton, Joe P. Renaud, Yoav Rotman, Suman Saha, Joshua Schlieder, Luis Welbanks, Lindsey S. Wiser, Allison Youngblood, Robert T. Zellem",
       "PaperNumber": "14145-4",
       "DateTimeLocationDataList": [
         {
@@ -798,7 +798,7 @@
       "HTMLTitle": "",
       "Title": "The Pandora SmallSat: post-launch operations and mission update",
       "Description": null,
-      "Abstract": "The Pandora SmallSat is a NASA Pioneers mission designed to disentangle stellar activity from planetary atmospheric signatures in transmission spectroscopy observations through simultaneous visible photometry and near-infrared spectroscopy. Pandora’s baseline mission lifetime includes a one-month commissioning period followed by a prime mission period of 12 months for science observations. Herein, we present a comprehensive post-launch mission update, detailing operational performance and current observational strategy. We will also highlight key operational milestones, challenges encountered during commissioning and early science operations, and solutions implemented. This information provides insight into Pandora's on-orbit capabilities for precision multiwavelength observations that enable reliable determination of exoplanet atmosphere compositions.",
+      "Abstract": "The Pandora SmallSat is a NASA Pioneers mission designed to disentangle stellar activity from exoplanetary at-  mospheric signatures in transmission spectroscopy observations by simultaneously performing visible photometry  and near-infrared spectroscopy. Pandora’s baseline mission lifetime planned for a one-month commissioning pe-  riod, followed by a 12-month prime mission period for science observations. Herein, we present a comprehensive  post-launch mission update, detailing operational performance and current observational strategy. We will also  highlight key operational milestones, challenges encountered during commissioning and early science operations,  and solutions implemented. This information provides insight into Pandora’s on-orbit capabilities for precision  multi-wavelength observations that enable reliable determination of exoplanet atmosphere compositions.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/The-Pandora-SmallSat-post-launch-operations-and-mission-update/14145-4",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -978,7 +978,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Luis Esteras Otal, Frédéric Gonté, Julien Woillez, Sylvain Oberti, Antoine Mérand, Frank Eisenhauer, Nicolas Schuhler, Johann Kolb, Jean-Baptiste Le Bouquin, Anthony Berdeu, Pavel Shchekaturov, Guillaume Bourdarot, Henri Bonnet, Vishaal Gopinath, Wolfgang Hackenberg, Felipe Pedreros Bustos, Christian Fruck, Emmanuel Aller-Carpentier, Miguel Riquelme, Jonas Graf, Christian Rau, Saúl Menéndez Mendoza, Ivan Maria Guidolin, Claudio Reinero, Diego Del Valle, Gérard Zins, Frank Haussmann, Françoise Delplancke-Ströbele, Pablo Gutierrez Cheetham, Malte Scherbarth, Stefan Huber, Peter Krempl, Helen Bedigan, Casper Rose, Ronald Holzlöhner, Dan Popovic, Taro Shimizu, Jens Kammerer, Stefan Gillessen, Thomas Ott, Roberto Abuter, Maximilian Fabricius Fabricius, Matthias Subroweit, Nuno Morujão, Helmut Feuchtgruber, Dieter Lutz, Ekki Wieprecht, Nikhil More, Sylvestre Lacour, Xavier Haubois, Quentin Fournier, Denis Defrère, Romain Laugier, Thibaut Paumard, Alain Delboulbé, Sylvain Rochat, Roderick Dembet, Rebeca Garcia Lopez, Joel Sánchez Bermúdez, Laurent Pallanca, Fatme Allouche, Juan Beltran, Eloy Fuenteseca, Pierre Bourget, Ivan Camara Mayorga, Leonardo Blanco, Yael Chich-Prunenec, Nicolas Dubost, Pascale Hibon, Daniel Gaytan, Jose Antonio Abad, Florentin Millour, Babak Sedghi, César Cárdenas, Cristian Elao, Juan Araneda, Cristian Herrera, Juan Pablo Gil, Pierre van der Heyden, Patricio Alarcon, Francisco Olivares, Marcus Pavez, Reinhard Genzel, Christian Straubmeier",
+      "Authors": "Luis Esteras Otal, Frédéric Gonté, Julien Woillez, Sylvain Oberti, Antoine Mérand, Frank Eisenhauer, Nicolas Schuhler, Johann Kolb, Jean-Baptiste Le Bouquin, Anthony Berdeu, Pavel Shchekaturov, Guillaume Bourdarot, Henri Bonnet, Vishaal Gopinath, Wolfgang Hackenberg, Felipe Pedreros Bustos, Christian Fruck, Emmanuel Aller-Carpentier, Miguel Riquelme, Jonas Graf, Christian Rau, Saúl Menéndez Mendoza, Ivan Maria Guidolin, Claudio Reinero, Diego Del Valle, Gérard Zins, Frank Haussmann, Françoise Delplancke-Ströbele, Pablo Gutierrez Cheetham, Malte Scherbarth, Stefan Huber, Peter Krempl, Helen Bedigan, Casper Rose, Ronald Holzlöhner, Dan Popovic, Taro Shimizu, Jens Kammerer, Stefan Gillessen, Thomas Ott, Roberto Abuter, Maximilian Fabricius Fabricius, Matthias Subroweit, Nuno Morujão, Helmut Feuchtgruber, Dieter Lutz, Ekki Wieprecht, Nikhil More, Sylvestre Lacour, Xavier Haubois, Quentin Fournier, Denis Defrère, Romain Laugier, Thibaut Paumard, Alain Delboulbé, Sylvain Rochat, Roderick Dembet, Rebeca Garcia Lopez, Joel Sánchez Bermúdez, Laurent Pallanca, Fatme Allouche, Juan Beltran, Eloy Fuenteseca, Pierre Bourget, Ivan Camara Mayorga, Leonardo Blanco, Yael Chich-Prunenec, Nicolas Dubost, Pascale Hibon, Daniel Gaytan, Jose Antonio Abad, Florentin Millour, Babak Sedghi, César Cárdenas, Cristian Elao, Juan Araneda, Cristian Herrera, Juan Pablo Gil, Pierre van der Heyden, Patricio Alarcon, Francisco Olivares, Marcus Pavez, Reinhard Genzel, Christian Straubmeier, Mario Tapia",
       "PaperNumber": "14147-2",
       "DateTimeLocationDataList": [
         {
@@ -1731,19 +1731,19 @@
       "Values": [
         {
           "Name": "Sunday, 05 July",
-          "Count": 570,
+          "Count": 569,
           "QueryValue": "20260705",
           "Selected": false
         },
         {
           "Name": "Monday, 06 July",
-          "Count": 533,
+          "Count": 534,
           "QueryValue": "20260706",
           "Selected": false
         },
         {
           "Name": "Tuesday, 07 July",
-          "Count": 650,
+          "Count": 647,
           "QueryValue": "20260707",
           "Selected": false
         },
@@ -1778,13 +1778,13 @@
       "Values": [
         {
           "Name": "Poster",
-          "Count": 1908,
+          "Count": 1906,
           "QueryValue": "Poster",
           "Selected": false
         },
         {
           "Name": "Oral",
-          "Count": 1012,
+          "Count": 1011,
           "QueryValue": "Oral",
           "Selected": false
         },
@@ -1802,13 +1802,13 @@
       "Values": [
         {
           "Name": "Astrophotonics",
-          "Count": 807,
+          "Count": 821,
           "QueryValue": "Astrophotonics",
           "Selected": false
         },
         {
           "Name": "AI/ML",
-          "Count": 201,
+          "Count": 205,
           "QueryValue": "AI%2fML",
           "Selected": false
         },
@@ -1826,13 +1826,13 @@
       "Values": [
         {
           "Name": "Telescopes and Systems",
-          "Count": 2050,
+          "Count": 2048,
           "QueryValue": "Telescopes_and_Systems",
           "Selected": false
         },
         {
           "Name": "Technology Advancements",
-          "Count": 886,
+          "Count": 885,
           "QueryValue": "Technology_Advancements",
           "Selected": false
         }
@@ -1841,10 +1841,10 @@
       "QueryParameter": "track"
     }
   ],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": true,
-  "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

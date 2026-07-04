@@ -26,142 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Yuta Miki",
-      "PaperNumber": "14154-400",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "7521d7ee-3dcf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "7521d7ee-3dcf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The Simons Observatory: development of a cryogenic lens mount with reduced mechanical lens stress in the small aperture telescopes",
-      "Description": null,
-      "Abstract": "The Simons Observatory (SO) aims to detect the primordial B-mode polarization of the CMB to constrain the tensor-to-scalar ratio. SO has begun observations with three small aperture telescopes (SATs) located on the high-altitude Atacama Plateau in Chile. Each telescope employs silicon lenses held by lens mounts within the cryogenic optics tube cooled to 1 K. However, during pre-deployment tests, several lenses cracked due to a design flaw in the lens mounts. To address this, we developed a modified lens mount to mitigate the risk. This presentation reports on the failure investigation, performance evaluation and installation of the new lens mounts into SATs.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Simons-Observatory--development-of-a-cryogenic-lens-mount/14154-400",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Berke V. Ricketti, Victoria Yankelevich, Ettore Pedretti, Andy Vick, Evelina Zubyte, Giorgio Savini, Locke Spencer, Gerard van Belle, Lee Mundy, David T. Leisawitz",
-      "PaperNumber": "14148-157",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "ec681ac7-6bd0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "ec681ac7-6bd0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The SPace-based InterFerometer Feasibility (SPIFF) Project: finding a path towards a technology demonstration mission for space-based interferometry in times of limited funding",
-      "Description": null,
-      "Abstract": "Space-based interferometry promises transformational angular resolution, yet no direct-detection synthetic-aperture interferometer has flown. Technical complexity, low system-level TRL, and community scepticism have stalled progress despite strong scientific demand. The SPIFF Project is a UK-led, internationally partnered effort to define a coherent, stepwise path toward a future space interferometer mission. SPIFF will build on UK strategic priorities, industrial capabilities, and recent progress on a thermal-IR spatio-spectral interferometer breadboard. A central element is an international consortium, including PIs from previous mission concepts, to capture lessons learned and avoid repeating past challenges. By uniting technology development, community engagement, and heritage expertise, SPIFF aims to deliver a credible roadmap for future space interferometry and inform the landscape ahead of the U.S. Astro2030 and ESA long-term planning cycles.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-SPace-based-InterFerometer-Feasibility-SPIFF-Project--finding-a/14148-157",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Mikhail Sachkov, Evgeniy A. Kopylov",
-      "PaperNumber": "14156-181",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "8881604d-cecf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "8881604d-cecf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The Spektr-UF mission: status 2026",
-      "Description": null,
-      "Abstract": "A general description of the project “Spektr-UF” (Spectrum-UV, World Space Observatory - Ultraviolet) aimed at creating a large space observatory for operation in the UV wavelengths (115 - 310 nm) is given.   Spectr-UF – is a multipurpose space observatory equipped with a telescope of 170 cm primary mirror diameter. The main task of the observatory is obtaining high-resolution spectra of cosmic objects and images of diffraction quality in the UV region (115–310 nm).  Hear we briefly describes the current status of the project, focusing on some new touches. The scientific program of the project has been clarified, a new project of the field camera has been prepared; more optimal orbit has been selected; a system for collecting applications has been developed and experimental collection of applications has begun.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Spektr-UF-mission-status-2026/14156-181",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Ivan di Antonio, Simone Lombardi",
-      "PaperNumber": "14148-165",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "6bacb9e0-68cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "6bacb9e0-68cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Thermal compensation in the Einstein Telescope: a preliminary study",
-      "Description": null,
-      "Abstract": "Thermal gradients in the mirrors of current and next-generation gravitational wave interferometers cause optical aberrations that can significantly affect their stability and sensitivity. In the future Einstein Telescope (ET) high-frequency arm, the high expected circulating power will induce a significant optical path difference in the Fabry-Perot (power) cavity, which would compromise the functionality of the interferometer unless properly compensated. In this paper the induced thermal aberrations (thermo-elastic and thermo-optic contributions) are assessed, both analytically and through finite-elements analyses. Actuation patterns are then introduced in the analyses, properly modeled in shape and magnitude to restore the nominal RoC of the mirrors and minimize the total optical path difference within the laser beam waist, thus compensating for the undesired thermal effects. Preliminary requirements for the future Thermal Compensation System of ET are finally given.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Thermal-compensation-in-the-Einstein-Telescope-a-preliminary-study/14148-165",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Viljon Sekseni, Freerk Schütt, Kersten Mumme, Dhruti Mavani, Tobias Brunken, Mohamed Shehata, Miriam Brandt, Philipp Huke",
       "PaperNumber": "14154-386",
       "DateTimeLocationDataList": [
@@ -390,7 +254,7 @@
       "HTMLTitle": "",
       "Title": "ULTIMATE-Subaru: Interface between Adaptive Secondary Mirror and the Telescope",
       "Description": null,
-      "Abstract": "ULTIMATE-Subaru is an on-going project at the Subaru Telescope for the next-generation wide-field infrared astronomy with adaptive optics (AO). The adaptive secondary mirror (ASM) is a key important subsystem of the ULTIMATE-Subaru to provide improved seeing by ground-layer adaptive optics. ASM is carefully designed to replace the existing non-adaptive infrared secondary mirror of the Subaru Telescope, with the minimum modification on the telescope and little impact on the existing instruments.   The Top Unit Exchange (TUE) work, which has been conducted at the Subaru Telescope every two weeks on average to change the top unit (secondary mirrors or prime focus units/instruments), is the biggest difference from other 8-m class telescopes. The Interface between the ASM and telescope has been carefully considered to accommodate this TUE work. In this paper, we will present the summary of the interface between the Subaru ASM and the telescope.",
+      "Abstract": "ULTIMATE-Subaru is an on-going project at the Subaru Telescope for the next-generation wide-field infrared astronomy with adaptive optics (AO). The adaptive secondary mirror (ASM) is one of the key components of the ULTIMATE-Subaru to provide improved seeing by ground-layer adaptive optics (GLAO). The ASM is carefully designed to replace the existing non-adaptive infrared secondary mirror (IR-M2) of the Subaru Telescope, with the minimum modification on the telescope and little impact on the existing instruments. The Top Unit Exchange (TUE) work, which has been conducted at the Subaru Telescope every two weeks on average to change the top unit(secondary mirrors or prime focus units/instruments), is the biggest difference from other 8-m class telescopes. The interface between the ASM and the telescope has been carefully considered to accommodate this TUE work. In this paper, we present the summary of the interface between the Subaru ASM and the telescope.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/ULTIMATE-Subaru--Interface-between-Adaptive-Secondary-Mirror-and-the/14147-176",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -422,11 +286,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Ultrafast laser stress figuring flat Flex Module prototypes",
+      "Title": "Ultrafast laser stress figuring flat flex module prototypes",
       "Description": null,
       "Abstract": "Building lightweight mirrors for X-ray telescopes is critical for future flagship-class NASA missions such as Lynx. Segmented X-ray mirror modules for such telescopes feature thin, tightly nested mirrors that are sensitive to coating and mounting processes. We have recently introduced Flex Modules, an X-ray mirror module design that allows for simultaneous figuring and aligning of X-ray mirror segments after coating and mounting. We have built flat Flex Module prototypes designed for testing simultaneous figuring and aligning of mirror areas using ultrafast laser stress figuring (ULSF), a non-contact figuring process that intentionally produces permanent and predictable stress in coated mirror substrates. In this paper we will focus on the ULSF process, including improvements made towards our finite element model for generating ULSF patterns. We present figuring and alignment results and show that ULSF has potential to meet requirements for future X-ray telescopes.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Ultrafast-laser-stress-figuring-flat-Flex-Module-prototypes/14146-349",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Ultrafast-laser-stress-figuring-flat-flex-module-prototypes/14146-349",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -604,7 +468,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Tânia Sofia Gomes Machado, Kalyan K. R. Santhakumari, Davide Greggio, Elisa Portaluri, Carmelo Arcidiacono, Alessandro Ballone, Federico Battaini, Maria Bergomi, Simone Di Filippo, Marco Dima, Jacopo Farinato, Luigi Lessio, Demetrio Magrin, Luca Marafatto, Oleksandra Rebrysh, Valentina Viotto, Roberto Ragazzoni",
+      "Authors": "Tânia Sofia Gomes Machado, Kalyan K. R. Santhakumari, Davide Greggio, Elisa Portaluri, Carmelo Arcidiacono, Alessandro Ballone, Federico Battaini, Maria Bergomi, Simone Di Filippo, Gianluca Di Rico, Marco Dima, Jacopo Farinato, Luigi Lessio, Demetrio Magrin, Luca Marafatto, Oleksandra Rebrysh, Valentina Viotto, Roberto Ragazzoni",
       "PaperNumber": "14150-367",
       "DateTimeLocationDataList": [
         {
@@ -628,7 +492,7 @@
       "HTMLTitle": "",
       "Title": "Validating and characterising the Ingot WFS in a new ELT-like test bench",
       "Description": null,
-      "Abstract": "The Ingot Wavefront Sensor (I-WFS) offers a novel strategy to optimize wavefront sensing with Laser Guide Stars (LGS) for Extremely Large Telescopes (ELTs) using a side laser launcher. Unlike classical WFSs, the Ingot design is specifically thought to address the challenges posed by the extended geometry of the LGS. We present results from the Ingot WFS's latest in-lab demonstration, conducted on a redesigned test bench that accurately replicates key ELT parameters. The setup includes an LGS-like source that incorporates real sodium concentration profiles and solves pupil gradient issues previously encountered. The inclusion of an ALPAO DM292 Deformable Mirror in the design enables the critical study of the WFS response to high-order aberrations. We detail the main results regarding its sensitivity, linearity, and quasi closed-loop performance, and present preliminary results using a new Real-Time Controller (RTC) as we move toward full real-time closed-loop operation.",
+      "Abstract": "The Ingot Wavefront Sensor (I-WFS) offers a novel strategy to optimize wavefront sensing with Laser Guide Stars (LGS) for Extremely Large Telescopes (ELTs) using a side laser launcher. Unlike classical WFSs, the Ingot design is specifically thought to address the challenges posed by the extended geometry of the LGS. We present results from the Ingot WFS's latest in-lab demonstration, conducted on a redesigned test bench that accurately replicates key ELT parameters. The setup includes an LGS-like source that incorporates real sodium concentration profiles and solves pupil gradient issues previously encountered. The inclusion of an ALPAO DM292 Deformable Mirror in the design enables the critical study of the WFS response to high-order aberrations. We detail the main characteristics of this bench and the next steps in order to study the I-WFS sensitivity, linearity, and quasi closed-loop performance.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Validating-and-characterising-the-Ingot-WFS-in-a-new-ELT/14150-367",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -733,6 +597,40 @@
       "Abstract": "BIFROST is soon to be part of the ASGARD visitor suite of instruments for the  Very Large Telescope Interferometer (VLTI). BIFROST will have two spectrographs that can be used together for fringe tracking and for different spectral resolutions. One of the most important measurements for an interferometer is the visibility. Instrumentation effects which result in uncertainties or systematic errors in the visibility must, therefore, be characterised. This report aims to address the issue by identifying sources of vibration and other visibility causing effects within BIFROST and also the wider instrument as a whole. This will identify the main limiting factors and mitigating measures that can be taken in the future including stability and pipeline work that will be needed.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Visibility-characterisation-and-reduction-of-the-BIFROST-instrument/14148-148",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Ross Robinson, Zoran Ninkov, Wyatt Robinson, Kevin Kearney",
+      "PaperNumber": "14146-354",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "aae7fcfa-7dd0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "aae7fcfa-7dd0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "VIS-VUV radiometric calibration facility for space-based instrumentation",
+      "Description": null,
+      "Abstract": "Rapid develop cycles enable SmallSat platforms to achieve low-cost1 UV access compared to the extended development timelines of flagship missions. However, radiometric verification of optics, coatings, filters and detector QE is still needed for mission success. This testing needs to be done efficiently with both schedule and cost to not compromise the SmallSat advantages.       The Laboratory for Advanced Instrumentation Research (LAIR) at Rochester Institute of Technology (RIT) is developing a radiometric calibration facility to compress instrument-level test timelines for emerging SmallSat UV programs. The facility supports characterization of astrophysical instrumentation as well as development of sensors and optics for defense and semiconductor manufacturing. The current configuration is a dual monochromator system for 120nm - 1100nm coverage.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/VIS-VUV-radiometric-calibration-facility-for-space-based-instrumentation/14146-354",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -886,7 +784,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -1012,7 +910,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Markus Wittkowski, Giacomo Beccari, Akke Corporaal, Abigail Frost, Olivier Hainaut, Xavier Haubois, Aaron Labdon, Antoine Mérand, Johan Olofsson, Anna Francesca Pala, Claudia Paladini, Isabelle Percheron, Monika Petr-Gotzens, John Pritchard, Marina Rejkuba, Miguel Vioque, Julien Woillez",
+      "Authors": "Markus Wittkowski, Giacomo Beccari, Akke Corporaal, Abigail Frost, Olivier Hainaut, Xavier Haubois, Jens Kammerer, Aaron Labdon, Antoine Mérand, Johan Olofsson, Anna Francesca Pala, Claudia Paladini, Isabelle Percheron, Monika Petr-Gotzens, John Pritchard, Marina Rejkuba, Miguel Vioque, Julien Woillez",
       "PaperNumber": "14148-53",
       "DateTimeLocationDataList": [
         {
@@ -1034,11 +932,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "ESO user support and observation preparation for the VLT Interferometer",
+      "Title": "ESO User Support and Observation Preparation for VLTI Operations",
       "Description": null,
-      "Abstract": "We present recent enhancements to VLTI observing capabilities from a user-oriented perspective, together with new developments in ESO's Observation Handling Tools. Key upgrades include the GRAVITY+ Coudé guiding with Laser Guide Stars at the UTs, improved limiting magnitudes for GRAVITY and MATISSE, and a new MATISSE narrow-field off-axis mode, all supported by a streamlined, uniform template structure. Phase 2 tools now enable finding-chart generation, selection of Coudé Guide Stars and fringe-tracking stars. We plan to include expanded preparation features and uv-coverage visualisation in the Phase 2 tool. We summarise usage statistics for snapshot, astrometric, imaging, and time-series observations, outline VLTI scheduling considerations, and present new video tutorials. From 2026 an open data stream of calibrated and uncalibrated GRAVITY dispersed visibilities will become available. Complementary community engagement in VLTI operations aspects continues to grow.",
+      "Abstract": "We present recent enhancements to VLTI observing capabilities from a user-oriented perspective, together with new  developments in ESO’s Observation Handling Tools and end-to-end operations model for VLTI. Key upgrades include  GRAVITY+ Coudé guiding with laser guide stars at the UTs, and improved limiting magnitudes for GRAVITY and  MATISSE, all supported by a streamlined, uniform template structure. Phase 2 tools now enable finding-chart generation and the selection of Coudé guide stars and fringe-tracker targets, and will soon offer expanded preparation features. We summarise usage statistics for snapshot, astrometric, imaging, and time-series observations, outline VLTI scheduling considerations, and present new video tutorials. Starting in 2026, an archive data stream of reduced GRAVITY dispersed visibilities has become available. Complementary community engagement in VLTI operations continues to grow. We close by identifying operational lessons for future interferometric facilities.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/ESO-user-support-and-observation-preparation-for-the-VLT-Interferometer/14148-53",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/ESO-User-Support-and-Observation-Preparation-for-VLTI-Operations/14148-53",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1172,7 +1070,7 @@
       "HTMLTitle": "",
       "Title": "The Keck Adaptive Secondary Mirror: a new prime focus capability for the Keck I Telescope",
       "Description": null,
-      "Abstract": "UCO is leading the development of a 1.5-meter-diameter Adaptive Secondary mirror that will use approximately 3000 Hybrid Variable Reluctance (HVR) actuators developed by the Netherlands Organization (TNO). KASM will provide ground-layer AO correction and improved throughput for the suite of instruments on the Keck 1 telescope. Focus and tip-tilt correction for KASM will be managed by a hexapod that will attach to a Top End Module (TEM) from the decommissioned F/25 secondary mirror.    This paper describes the challenges of improving the 35-year-old Keck 1 telescope by installing an Adaptive Secondary mirror at a focal station that hasn’t seen a new instrument in over 2 decades. We discuss progress on shell fabrication, integration with the facility, and operational plans, including heat management and recoating of the optic.",
+      "Abstract": "UCO is leading the development of a 1.5-meter-diameter Keck Adaptive Secondary Mirror (KASM) that will use approximately 3000 Hybrid Variable Reluctance (HVR) actuators developed by TNO (Netherlands Organization for Applied Research). KASM will provide ground-layer AO correction and improved throughput for the suite of instruments on the Keck I telescope. Focus and tip-tilt correction for KASM will be managed by a hexapod attached to a Top End Module (TEM) repurposed from the decommissioned F/25 secondary mirror.  This paper describes the challenges of improving the 35-year-old Keck I telescope by installing an adaptive secondary mirror at a focal station that hasn’t seen a new instrument in over 2 decades. We discuss important details and challenges related to the mechanical, optical, and thermal interfaces, all of which are critical to KASM's success.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/The-Keck-Adaptive-Secondary-Mirror--a-new-prime-focus/14147-69",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1724,13 +1622,115 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "10 July 2026 • 09:15 - 09:30 CEST | Room B2-M4",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Riku Sato, Michitoshi Yoshida, Takashi Moriya, Chihiro Tokoku, Shinobu Ozaki, Kenshi Yanagisawa, Kentaro Motohara, Tomoya Yukino, Kensho Tanaka, Yoshito Ono, Yosuke Minowa, Yusei Koyama, Yutaka Hayano, Kumiko Morihana, Masayuki Akiyama, Masaomi Tanaka, Masami Ouchi, Yuichi Harikane, Nanae Domoto, Yuki Moritani, Masayuki Tanaka, Nozomu Tominaga, Koki Terao, Kosuke Kushibiki, Tohru Nagao, Yoshiki Matsuoka, Toru Misawa, Tomoki Morokuma",
+      "PaperNumber": "14149-78",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 09:20 - 09:40 CEST | Auditorium 15",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "485cfe5e-70ce-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "485cfe5e-70ce-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Development of the NIR arm of the NINJA spectrograph on Subaru Telescope",
+      "Description": null,
+      "Abstract": "The Near-INfrared and optical Joint spectrograph with Adaptive optics (NINJA) is a  medium-resolution optical to near-infrared spectrograph designed to be optimized for  the Laser Tomography Adaptive Optics (LTAO) system at the Subaru Telescope.  Red-NINJA, the NIR arm of NINJA, is currently under development, with engineering first light targeted for 2026. The instrument covers 0.85 to 2.5 μm with nominal resolving power of R ~ 4000-5000. With the LTAO correction, the instrument is expected to reach a sensitivity of 22 AB mag (S/N = 10) in the J-band with a 2-hour exposure. The detector system, optics, and cryogenic mechanical assemblies have been installed inside the cryostat. Laboratory verification tests have been completed without significant issues, and Red-NINJA is now being prepared for transport to the summit and installation at the Subaru Telescope. We report the status of the instrument development, including results from the tests and a timeline toward on-sky commissioning.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-the-NIR-arm-of-the-NINJA-spectrograph-on/14149-78",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 09:20 - 09:40 CEST | Auditorium 15",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Aurelie Magniez, James Gill-Fleming, Deli Geng, James T. Wells, David Barr, John Connolly, Tom Davies, Sofia Dimoudi, Radhika Dharmadhikari, Charlotte Z. Bond, Noah Schwartz, Ben Buky, Pieter J. de Visser, Timothy J. Morris, Kieran O'Brien",
+      "PaperNumber": "14150-91",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 09:20 - 09:50 CEST | Room B3-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "5922f0ef-bece-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "5922f0ef-bece-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Polychromatic Pyramid WFS (PoPy) project overview",
+      "Description": null,
+      "Abstract": "Advanced adaptive optics (AO) systems are required for high-contrast imaging with ELT-scale telescopes. The pyramid wavefront sensor, selected for the first ELT instruments, offers high sensitivity. However, its performance varies significantly with wavelength. While the visible wavelength range provides greater sensitivity, it has a limited dynamic range and significant optical gain effects. Correcting these variations could improve temporal errors and extend the sensing waveband, enabling AO to be used with fainter targets.  Energy-resolving detectors, such as MKIDs, offer a way to measure the entire VIS-NIR spectrum without the need for multiple cameras. The PoPy project aims to demonstrate the benefits of using polychromatic measurements. Alongside simulations, we are developing a bench with an MKID array and a colour splitter for initial testing. Here, we present the initial demonstration results of a closed loop on a polychromatic WFS and provide an overview of our future plans.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Polychromatic-Pyramid-WFS-PoPy-project-overview/14150-91",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 09:20 - 09:50 CEST | Room B3-M2",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Gianalfredo Nicolini, Michela Uslenghi, Serena Farina, Vincenzo Andretta, Giampiero Naletto, Maurizio Pancrazzi, Marco Romoli, Luca Teriaca",
+      "PaperNumber": "14145-87",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 09:20 - 09:40 CEST | Room B4-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "0904ba1e-49d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "0904ba1e-49d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Time and frequency domain characterisation of the Metis: Solar Orbiter coronagraph",
+      "Description": null,
+      "Abstract": "Metis is the ultraviolet–visible coronagraph on board the ESA Solar Orbiter mission, designed to image the solar corona simultaneously in polarised visible light and in the Lyman-α ultraviolet emission. The instrument can acquire full-frame images on both channels at a very high rate, with a minimum cadence of one second. This capability enables detailed investigations of coronal variability and fluctuations, but also requires an accurate characterisation of the instrument response in both the time and frequency domains.  In this work, we present the methodology adopted to assess the temporal and spectral variability of the response of the Metis detectors. In particular, we identify and analyse the main sources of signal variability due to instrumental effects, with the aim of quantifying their impact on the measurements and decoupling them from the intrinsic physical fluctuations of the solar corona.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Time-and-frequency-domain-characterisation-of-the-Metis--Solar/14145-87",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 09:20 - 09:40 CEST | Room B4-M3",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

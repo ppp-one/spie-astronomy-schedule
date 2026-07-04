@@ -138,7 +138,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -230,7 +230,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Christine Gregg, John C. Mather, Eliad Peretz, Othman Oudghiri-Idrissi, Omar M. Marey, Jamila Taaki, Stuart B. Shaklan, Ahmed Soliman",
+      "Authors": "Christine Gregg, John C. Mather, Eliad Peretz, Othman Oudghiri-Idrissi, Omar M. Marey, Jamila Taaki, Stuart B. Shaklan, Ahmed Soliman, Rhonda M. Morgan",
       "PaperNumber": "14146-20",
       "DateTimeLocationDataList": [
         {
@@ -1080,7 +1080,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Shaojie Chen, Mark Barnet, Sarik Jeram, Xuefeng Yao, Ting Li, Emma Jiayi Xu, Zain Azam, Aditya Khandelwal, Dhruv Pandya, Chris Cheng, Daksh Singh",
+      "Authors": "Shaojie Chen, Sarik Jeram, Emma Jiayi Xu, Xuefeng Yao, Mark Barnet, Ting Li, Suresh Sivanandam, Zain Azam, Ziang Chen, Sarah He, Aditya Khandelwal, Chris Cheng, Daksh Singh, Coby Silayan, Laly Boyer",
       "PaperNumber": "14149-15",
       "DateTimeLocationDataList": [
         {
@@ -1104,7 +1104,7 @@
       "HTMLTitle": "",
       "Title": "Prototyping the next-generation spectrograph for space exploration: DMD-Based Multi-Object Spectrograph Design and Production",
       "Description": null,
-      "Abstract": "Digital Micromirror Devices (DMDs), with their compact form factor, programmability, and commercial availability, enable promising multi-object spectrographs (MOS) for both ground- and space-based telescopes. We are developing a DMD-based MOS for the PlaneWave 0.5-m telescope as a technology pathfinder for future spaceborne spectroscopic missions. The instrument includes dual imaging and spectroscopic channels and can obtain spectra for hundreds of targets simultaneously. Laboratory integration, calibration, and performance verification have confirmed that the system meets key optical and system-level requirements. The instrument is now undergoing full integration with the 0.5-m telescope, with first light expected in April 2026. This paper presents the DMD-MOS architecture, including optical design, system engineering, integration, and testing. The demonstrated performance and methodology provide a valuable reference for the development of future MOS instruments.",
+      "Abstract": "Digital Micromirror Devices (DMD) are compact, programmable, and commercially available devices that can be leveraged in multi-object spectrograph (MOS) designs for both ground- and space-based instruments. Our team is developing a DMD-based MOS spectrograph (DMD-MOS) for a Planewave 0.5m telescope, which serves as the pathfinder of next-generation spectrographs for space exploration. DMD-MOS is composed of imaging and spectrograph channels and can obtain hundreds of object spectra simultaneously. The complete system, including the core optical system, software, calibration subsystem, and telescope interface, was commissioned in early June 2026. This DMD-MOS prototype successfully achieved first light and obtained stellar spectra of Vega, and further testing is planned. The measured spectra reproduced the expected stellar absorption features and demonstrated successful end-to-end operation of the complete observing chain, reinforcing the viability of DMD-based MOS spectrographs.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Prototyping-the-next-generation-spectrograph-for-space-exploration--DMD/14149-15",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1318,7 +1318,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Xiangqun Cui, Dehua Yang, Hua Bai, Haikun Wen, Fanghua Jiang, Shouwei Hu, Tingting Liu, Dongsheng Niu",
+      "Authors": "Xiangqun Cui, Dehua Yang, Hua Bai, Haikun Wen, Fanghua Jiang, Shouwei Hu, Tingting Liu, Dongsheng Niu, Ding-qiang Su, Ya-nan Wang",
       "PaperNumber": "14147-15",
       "DateTimeLocationDataList": [
         {
@@ -1362,7 +1362,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -1727,10 +1727,10 @@
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

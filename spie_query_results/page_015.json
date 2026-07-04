@@ -50,7 +50,7 @@
       "HTMLTitle": "",
       "Title": "Sensitivity analysis and design of a segmented active M1 for the next-generation telescopes",
       "Description": null,
-      "Abstract": "In the current generation of Extremely Large Telescopes (ELTs), relatively thick segmented M1 mirror segments are applied. These mirror segments of significant mass have complex mechanical support structures that warp and co-phase each element such that a single mirror surface is achieved. TNO believes that with recent developments, the next-generation telescopes can be made possible by decreasing mass, making the M1 segments active (or even adaptive), and significantly decreasing the cost of the glass mirror segments.   In this publication we present a sensitivity analysis and concept design of a segmented active thin-shell M1 segment for the next-generation telescopes. Multiple applications are foreseen, from retrofitting existing telescopes such as a 15m Keck 2.0, application in the Wide-Field Spectroscopic Telescope (WST), or even a 60+ meter ELT.",
+      "Abstract": "In the current generation of Extremely Large Telescopes (ELTs), relatively thick segmented M1 mirror segments are applied. These mirror segments of significant mass have complex mechanical support structures that warp and co-phase each element such that a single mirror surface is achieved. TNO believes that with recent developments, the next-generation telescopes can be made possible by decreasing mass, making the M1 segments active (or even adaptive), and significantly decreasing the cost of the glass mirror segments.   In this paper we present a sensitivity analysis and concept design of a segmented active thin-shell M1 segment for the next-generation telescopes. Multiple applications are foreseen, from retrofitting existing telescopes such as a 15m 'Keck 2.0', application in the Wide-field Spectroscopic Telescope (WST), or even a 60+ meter ELT.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Sensitivity-analysis-and-design-of-a-segmented-active-M1-for/14154-36",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1318,7 +1318,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Alexis Carlotti, Steven Martos, David Mouillet, Stéphane Curaba, Jean-Jacques Correia, Marc Ferlet, Alain Delboulbé, Angelie Alagao, Romain Fétick, Vincent Chambouleyron, Arnaud Striffling, Jean-François Sauvage, Benoit Neichel",
+      "Authors": "Alexis Carlotti, Steven Martos, David Mouillet, Jean-Jacques Correia, Marc Ferlet, Stéphane Curaba, Alain Delboulbé, Romain Fétick, Angelie Alagao, Arnaud Striffling, Jean-François Sauvage, Vincent Chambouleyron, Benoit Neichel, Laurence Gluck, Marie-Hélène Sztefek",
       "PaperNumber": "14149-30",
       "DateTimeLocationDataList": [
         {
@@ -1488,7 +1488,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Stephanie A. Rossini-Bryson, Barnaby Norris, Elizabeth Arcadi, Julien Lozi, Sébastien Vievard, Vincent Déo, David Sweeney, Glen Douglass, Mona Elmorsy, Eckhart Spalding, Michael Withford, Simon Gross, Peter Tuthill, Olivier Guyon",
+      "Authors": "Stephanie A. Rossini-Bryson, Barnaby Norris, Elizabeth Arcadi, Julien Lozi, Sébastien Vievard, Vincent Déo, David Sweeney, Glen Douglass, Mona Elmorsy, Eckhart Spalding, Michael Withford, Simon Gross, Peter Tuthill, Olivier Guyon, Matteo Colombo",
       "PaperNumber": "14148-13",
       "DateTimeLocationDataList": [
         {
@@ -1578,7 +1578,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Optical design of VIPER: a high-resolution multimode fiber-fed VIPA spectrograph for characterizing atmospheric escape",
+      "Title": "Optical design of VIPER: a high-resolution multimode fiber-fed VIPA spectrograph for characterizing exoplanet atmospheric escape",
       "Description": null,
       "Abstract": "Spectrographs based on a Virtually Imaged Phased Array (VIPA) offer a compelling alternative to conventional grating-based spectrographs, providing higher dispersion and throughput in a more compact form factor. We are developing VIPER: a high-resolution, multimode fiber-fed, narrowband, seeing-limited VIPA spectrograph for the 1.5 m Tillinghast Telescope on Mount Hopkins, USA. VIPER is specifically designed to probe exoplanet atmospheric escape through the helium 1083 nm triplet line, with a resolving power of 300,000 over a 10 nm bandpass. We present recent progress in developing VIPER's optical design, with the aim of maximizing throughput. In particular, we discuss the challenges associated with using a multimode fiber, rather than a single-mode fiber, to feed a VIPA spectrograph. We validate our resulting design using analytical calculations and simulations in Zemax OpticStudio.",
       "ImagePath": null,
@@ -1621,40 +1621,6 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "6 July 2026 • 17:20 - 17:40 CEST | Room B3-M6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Nicholas E. White, Massimiliano Galeazzi, Daniel Kocevski, J. Eric Grove, Sylvain Guiriec, Alexander J. van der Horst, Russell Roberts, Brendan O'Connor, Paul S. Ray, Dheeraj Pasham, Peter Roming",
-      "PaperNumber": "14146-44",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 17:25 - 17:40 CEST | Room B4-M1",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "56f7dd8a-a9cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "56f7dd8a-a9cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "XTRA: the x-ray transient array",
-      "Description": null,
-      "Abstract": "XTRA (X-ray TRansient Array) is a NASA Small Explorer concept designed for 2030s time-domain and multi-messenger astrophysics. Operating in a Sun-Earth L2 orbit, XTRA makes time-domain surveys and provides rapid autonomous response to high-energy transients. The payload combines the Burst Alert Monitor (BAM)—a broadband (50 keV–2 MeV) gamma-ray monitor for continuous triggering—with the Micropore Optics X-ray Instrument (MOXI)—a wide-field (240 sq deg) soft X-ray (0.2–5 keV) imager for rapid arcminute localization. Surveying the anti-Sun nighttime hemisphere on a variety of cadences, XTRA acts as the high-energy anchor for the 2030s ecosystem, feeding triggers to robotic telescopes for immediate counterpart identification. XTRA will decode cosmic explosions (GRBs, shock breakouts), trace black hole feeding via tidal disruption events (TDEs), and uncover electromagnetic counterparts to gravitational wave and high-energy neutrino sources.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/XTRA-the-x-ray-transient-array/14146-44",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 17:25 - 17:40 CEST | Room B4-M1",
       "ErrorMessage": null
     },
     {
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Mala Mateen, Denis W. Oesch",
+      "PaperNumber": "14150-174",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "3166af8e-44d1-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "3166af8e-44d1-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "A comparative study of WFS performance to dynamic turbulence",
+      "Description": null,
+      "Abstract": "Many current and future imaging systems on ground-based telescopes incorporate high sensitivity wavefront sensors like the non-linear Curvature wavefront sensor (nlCWFS) and the pyramid wavefront sensor (PWFS). These sensors effectively utilize the available photons to sense the lowest order modes that dominate atmospheric turbulence. These low order modes diffract light at small angular separations where an exo-planet may reside.  In the Starfire High-contrast ADaptive Optics Wavefront sensor (SHADOW) lab we have built an optics testbed equipped with an atmospheric turbulence simulator (ATS), and a modular adaptive optics system that can close the loop with a SHWFS, a PWFS, and an nlCWFS. We explore the fundamental limit of wavefront sensing for each sensor and map out the optimal performance regime for each wavefront sensor as a function of available photons, atmospheric parameters, and dynamic range.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/A-comparative-study-of-WFS-performance-to-dynamic-turbulence/14150-174",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

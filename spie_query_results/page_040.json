@@ -26,108 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Zhemin Cai, Jonathan Moller, Chris Coote, Jessica Zheng, Michael Goodwin, Dylan Simpfendorfer, Helen McGregor, Jon Lawrence, Scott Smedley, Rémi Giroud, Johan Richard, Florence Laurent, Alexandre Jeanneau",
-      "PaperNumber": "14149-398",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "cd0a31ae-48ce-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "cd0a31ae-48ce-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "A multiphysics thermal-mechanical framework for BlueMUSE: IFU layout evaluation and thermal-enclosure performance assessment",
-      "Description": null,
-      "Abstract": "The Multi Unit Spectroscopic Explorer (MUSE), a key instrument of the Very Large Telescope (VLT), has enabled significant astrophysical discoveries over nearly a decade of operation and provides an important reference for the development of BlueMUSE, a blue-optimised panoramic integral-field spectrograph for the VLT. Previous MUSE studies employed a two-stage ANSYS FEA model coupled with Zemax simulations to assess thermally induced displacements of key optical components and compare predicted trends with on-site measurements. Building on this foundation, the present study extends the analysis to BlueMUSE, focusing on structural layout optimisation and thermal-shield performance. Three IFU layout options are evaluated to minimise thermally induced displacement relative to the FSU and to identify the most suitable configuration for maintaining slicer alignment. Computational fluid dynamics (CFD) simulations are then used to assess whether a 60 mm Va-Q-vip thermal shield can maintain the",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/A-multiphysics-thermal-mechanical-framework-for-BlueMUSE--IFU-layout/14149-398",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Brianna Peck, Jessica R. Lu, Lianqi Wang, Brooke DiGia, Richard Dekany, Antonin H. Bouchez, Peter L. Wizinowich, Maxwell A. Millar-Blanchaer, Mark R. Chun, Philip Hinz, Charles-Antoine Claveau, Noah Stiegler",
-      "PaperNumber": "14150-312",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "fe21831d-f2cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "fe21831d-f2cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "A Pathway Towards Visible-Light Adaptive Optics at the W. M. Keck Observatory",
-      "Description": null,
-      "Abstract": "We present performance simulations that map a pathway toward diffraction-limited visible-light adaptive optics at the W. M. Keck Observatory. Using end-to-end modeling with the MAOS (Multi-threaded Adaptive Optics Simulator) package, we compare three system architectures: KAPA (current facility upgrades), STRATA (a next-generation single-conjugate facility-wide system), and KOLA (a proposed multi-conjugate system). Our results show how advances in laser power, wavefront sensing, and deformable mirror technology improve performance from on-axis correction (KAPA/STRATA) to wide-field correction (KOLA). We also explore the impact of laser guide star brightness on system performance. These simulations provide a roadmap for the evolution of adaptive optics at Keck, bridging current capabilities to future wide-field, visible-light correction.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/A-Pathway-Towards-Visible-Light-Adaptive-Optics-at-the-W/14150-312",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Nicolas J. Flagey, Laurent Pueyo, Laura E. Coyle, Marcio Melendez, Randal Telfer, Tyler M. McCracken, Matt Lallo, Rémi Soummer, Leonid Pogorelyuk, Iva Laginja",
-      "PaperNumber": "14145-231",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "19092c62-32d1-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "19092c62-32d1-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "A semi-analytical error budget for the Habitable Worlds Observatory",
-      "Description": null,
-      "Abstract": "In this paper we present a suite of representative top-level error budgets for the Habitable Worlds Observatory produced by the ULTRA-CT team. This error budget relates the contrast stability (key to exoplanet detection using differential imaging) to the wavefront variance at the entrance of the coronagraph instrument, integrated over a suite of past temporal scales.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/A-semi-analytical-error-budget-for-the-Habitable-Worlds-Observatory/14145-231",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Xue Yang, Chen Zhang, Zhixing Ling, Yuan Liu, Weimin Yuan",
       "PaperNumber": "14146-307",
       "DateTimeLocationDataList": [
@@ -740,7 +638,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Marco Landoni, ANDES Consortium",
+      "Authors": "Marco Landoni, Manuel Monteiro, Paolo Di Marcantonio, Alessio Zanutta, Livia Origlia, Elena Mason, Roberto Cirami, Veronica Baldini, Andrea Balestra, Giorgio Calderone, Igor Coretti, Guido Cupani, Anna Feltre, Vincent Geers, Arto J¨arvinen, Adrian Kaminski, Jorg Knoche, Jochen Liske, Mike MacIntosh, Madhusudan Malve, Thomas Marquart, Alessandro Marconi, Matteo Porru, Nicoletta Sanna, Andrea Scaudo, Danuta Sosnowska",
       "PaperNumber": "14155-176",
       "DateTimeLocationDataList": [
         {
@@ -764,7 +662,7 @@
       "HTMLTitle": "",
       "Title": "ANDES, the high resolution spectrograph for the ELT: the software ecosystem toward the Preliminary Design Review",
       "Description": null,
-      "Abstract": "In this paper, we present an overview of the software architecture designed for the ArmazoNes high Dispersion Echelle Spectrograph (ANDES), developed in preparation for the instrument Preliminary Design Review (PDR). First, we provide an in-depth description of the control software, outlining how it has been conceived to ensure reliable operation of a complex, highly distributed instrument such as ANDES.   In this context, we discuss the integration of the ELT Instrument Control Framework, highlighting the architectural choices that proved essential for meeting the stringent technical and operational requirements of the project. Second, we describe the suite of science-oriented software tools that will accompany ANDES and support its use by scientist. These include the Exposure Time Calculator, the Observation Preparation tools, and the Data Reduction Library functionalities that are crucial for efficient planning and for the systematic processing of raw data produced by the instrument",
+      "Abstract": "In this paper, we present an overview of the software architecture designed for the ArmazoNes high Dispersion Echelle Spectrograph (ANDES), developed in preparation for the instrument Preliminary Design Review (PDR). We provide a quick overview of the control software, as it is already presented in detail in another paper of this Conference, outlining how it has been conceived to ensure reliable operation of a complex, highly distributed instrument such as ANDES. Then, we describe the suite of science-oriented software tools that will accompany ANDES and support its use by scientists. These include the Exposure Time Calculator, the Observation Preparation tools, and the Data Reduction Library functionalities that are crucial for efficient planning and for the systematic processing of raw data produced by the instrument.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/ANDES-the-high-resolution-spectrograph-for-the-ELT--the/14155-176",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -876,7 +774,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Joseph R. Eimer, Robert H. Barkhouser, Stephen A. Smee, Rolf Chini, Marek Górski, Gergely Hajdu, Albert J. Harding, Stephen C. Hope, Paulina Karczmarek, Weronika Narloch, Grzegorz Pietrzyński, Piotr Wielgórski, Josh Peebles",
+      "Authors": "Joseph R. Eimer, Robert H. Barkhouser, Stephen A. Smee, Rolf Chini, Marek Górski, Gergely Hajdu, Albert J. Harding, Stephen C. Hope, Paulina Karczmarek, Weronika Narloch, Grzegorz Pietrzyński, Piotr Wielgórski, Josh Peebles, Ryan Dekany",
       "PaperNumber": "14149-392",
       "DateTimeLocationDataList": [
         {
@@ -1148,7 +1046,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Daniel Bodenmüller, Kalaga Madhav, Martin M. Roth",
+      "Authors": "Daniel Bodenmüller, Kalaga Madhav, Martin M. Roth, Philipp Huke",
       "PaperNumber": "14154-356",
       "DateTimeLocationDataList": [
         {
@@ -1512,7 +1410,7 @@
       "HTMLTitle": "",
       "Title": "Characterization of connectors for the Viaspec optical fibers",
       "Description": null,
-      "Abstract": "The Via Project will constrain the nature of dark matter by measuring disturbances within cold stellar streams, characterize the faintest dwarf galaxies, and map cold gas structure in the Milky Way halo. Achieving these science goals requires radial velocity accuracy of 100 m/s. To accomplish this, Via will deploy twin multi-object, fiber-fed spectrographs on the 6.5-meter MMT and Magellan/Clay telescopes. The Via instrument has two major subsystems: the fiber positioning system (FPS) and the bench spectrograph, Viaspec. The FPS includes 576 theta-phi robotic positioners and 60 fiducials, providing coverage across a 1-degree field of view. Optical fibers route light from the focal plane through the fiber chain to Viaspec - an R = 15,000 spectrograph operating over a narrow wavelength range of 5050 - 5950 Å. In this poster, we present details of the FPS design and our evaluation of the focal ratio degradation, throughput, and scrambling of the fiber optics.",
+      "Abstract": "The Via Project will constrain the nature of dark matter by measuring velocity perturbations within cold stellar streams, characterize the faintest dwarf galaxies, and tense cold gas structure in the Milky Way halo. Achieving these science goals requires high resolution spectroscopy with a radial velocity accuracy of ~100 m/s. To accomplish this, Via will deploy twin fiber positioning systems and multi-object, fiber-fed spectrographs on the 6.5-meter MMT and Magellan/Clay telescopes. We present the design of the Viaspec fiber system and evaluate the focal ratio degradation and throughput performance of a commercial fiber connector. We measure a 4.4% median connector throughput loss, demonstrating that tightly toleranced commercial connectors are promising for astronomical use.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Characterization-of-connectors-for-the-Viaspec-optical-fibers/14149-364",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1590,7 +1488,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Vianak Naranjo, Thomas Bertram, Yared Reinarz, Arne Bramigk, Harry Marth, Wim Pessemier",
+      "Authors": "Vianak Naranjo, Thomas Bertram, Yared Reinarz, Maximilian Haeberle, Arne Bramigk, Harry Marth, Wim Pessemier",
       "PaperNumber": "14154-379",
       "DateTimeLocationDataList": [
         {
@@ -1614,7 +1512,7 @@
       "HTMLTitle": "",
       "Title": "Characterization of the cryogenic METIS SCAO modulator",
       "Description": null,
-      "Abstract": "The METIS SCAO modulator is a motorized cryogenic tip-tilt mirror in charge of high precision circular motion that has to be synchronized with the integration time of the wavefront sensor detector, reaching up to 1000 circles per second. We present the results of the complete characterization of the modulator under cryogenic conditions, showing that the device complies with the specification of the SCAO module at the required operating temperature of 70K.",
+      "Abstract": "The METIS SCAO modulator is a motorized cryogenic tip-tilt mirror in charge of high precision circular motion that has to be synchronized with the integration time of the wavefront sensor detector, reaching up to 1000 circles per second. We present the results of the ongoing characterization of the modulator under cryogenic conditions, showing that the prototype not yet complies with the specification of the SCAO module at the required operating temperature of 70K.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Characterization-of-the-cryogenic-METIS-SCAO-modulator/14154-379",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1716,9 +1614,111 @@
       "HTMLTitle": "",
       "Title": "CHORUS on GTC: end-to-end simulation of two-dimensional echelle spectrum",
       "Description": null,
-      "Abstract": "The Canary Hybrid Optical high-Resolution Ultra-stable Spectrograph (CHORUS) is an echelle spectrograph to be installed on the Gran Telescopio Canarias (GTC) in Spain. We developed an end-to-end simulation framework to generate two-dimensional spectral data for CHORUS. This framework uses ZEMAX spot diagrams as input and accounts for various stellar parameters. It models different observing conditions, including atmospheric transparency, seeing, airmass, and the total throughput of the instrument. The PSF at different positions on the CCD is modeled by convolving the fiber illumination profile with the optical PSF derived from ZEMAX. Various noises are incorporated, including photon noise, sky background, CCD readout noise, and dark current. The simulated two-dimensional spectra are used to test the CHORUS data reduction pipeline and to refine instrument parameters. Using this framework, we concluded that the key characteristics of CHORUS can fulfill the scientific requirements.",
+      "Abstract": "The Canary Hybrid Optical high-Resolution Ultra-stable Spectrograph (CHORUS) is an echelle spectrograph to be installed on the Gran Telescopio Canarias (GTC) in Spain. We developed an end-to-end simulation framework to generate two-dimensional spectral data for CHORUS. This framework uses spot diagrams as input and accounts for various stellar parameters. It models different observing conditions, including atmospheric transparency, seeing, airmass, and the total throughput of the instrument. The PSF at different positions on the CCD is modeled by convolving the fiber illumination profile with the optical PSF. Various noises are incorporated, including photon noise, sky background, CCD readout noise, and dark current. The simulated two-dimensional spectra are used to test the CHORUS data reduction pipeline and to refine instrument parameters. Using this framework, we concluded that the key characteristics of CHORUS can fulfill the scientific requirements.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/CHORUS-on-GTC--end-to-end-simulation-of-two/14149-344",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Huiqi Ye, Jean Louis Lizon, Fujia Du, Zhen Tang, Kai Zhang",
+      "PaperNumber": "14149-319",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "32366631-cfc8-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "32366631-cfc8-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "CHORUS on GTC: fiber link and fiber scrambling",
+      "Description": null,
+      "Abstract": "CHORUS (Canary Hybrid Optical high-Resolution Ultra-stable Spectrograph) is a powerful science instrument under development for the 10.4m Gran Telescopio Canarias (GTC). It aims to detect and study habitable exoplanets by high-precision radial velocity measurement and extend the scientific research in some forefront areas such as element origin, black holes, galaxy evolution, etc., for the decade to come. To reach this scientific goal, this spectrograph provides a spectral resolution of R≥120,000 in the visible wavelength region (425–780 nm) and R≥25,000 in the near-UV range (310–425 nm) simultaneously. We present the final design of fiber link system and test results of a double-scrambler prototype and a dynamic scrambler prototype for CHORUS.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/CHORUS-on-GTC-fiber-link-and-fiber-scrambling/14149-319",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Liang Tang, Jean-Louis Lizon, Qiqige Xin, Bin Yu, Jiajia Wu, Shengrun Liu, Mingda Jiang, Huiqi Ye, Kai Zhang",
+      "PaperNumber": "14149-331",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "6f45b80b-57ce-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "6f45b80b-57ce-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "CHORUS on GTC: final design of the calibration system",
+      "Description": null,
+      "Abstract": "Canary Hybrid Optical high-Resolution Ultra-stable Spectrograph (CHORUS) is a high-resolution spectroscopic instrument under development for the 10.4 m Gran Telescopio Canarias (GTC) at La Palma, Spain. One of its main scientific drivers is the detection and characterization of extra-solar planets. The visible branch spectrograph (VIS) has a spectral resolving power of R≥120000 (425–780 nm) and is vacuum stabilized for performing high precision radial velocity (RV) measurements. The UV branch spectrograph (UVS) has a spectral resolving power of R≥25000 (310–425 nm) and allows for stellar activity monitoring. Aiming at a radial velocity precision at the sub-m/s level, CHORUS has a dedicated calibration system enabling high precision calibration under different observation modes. This paper reports on the final design and prototyping work of the CHORUS calibration system (CLS).",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/CHORUS-on-GTC-final-design-of-the-calibration-system/14149-331",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Kai Zhang, Shengrun Liu, Yuan Liang, Liang Wang, Qiqige Xin, Jean-Louis Lizon, Yongtian Zhu",
+      "PaperNumber": "14149-338",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "da337912-b5ce-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "da337912-b5ce-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "CHORUS on GTC: optical design of the UV band spectroscopic chain",
+      "Description": null,
+      "Abstract": "The Canary Hybrid Optical high-Resolution Ultra-stable Spectrograph (CHORUS) is a high-precision spectrograph developedfor the 10.4 m Gran Telescopio Canarias (GTC). The instrument employs a dual-band configuration, combining an ultraviolet spectrograph (UVS) with a visible-band spectrograph (VIS), to optimize performance for faint-object detection in the UV and for extreme precision radial velocity (EPRV) measurements in the visible band. This paper presents a complete optical chain of UVS, from the Nasmyth focus to the science detectors, in which the UVS is fed by fore-optics rather than a fiber link. This design delivers a spectral resolution of R ≥ 25,000 over the wavelength range 310–425 nm, offering competitive performance for ultraviolet spectroscopic observations. The capability will support studies of stellar activity relevant to EPRV science and will also enable frontier research in areas such as Galactic archaeology.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/CHORUS-on-GTC--optical-design-of-the-UV-band/14149-338",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1727,10 +1727,10 @@
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

@@ -26,6 +26,74 @@
   },
   "Items": [
     {
+      "Authors": "Jules Fowler, Rebecca Jensen-Clem, Sylvain Cetre, Maaike A. M. van Kooten, Maïssa Salama, Antonin Bouchez, Avinash Surendran, Charlotte Guthery, Eduardo Marin, Mahawa Cissé, Max Service, Charlotte Z. Bond, Emiel Por, Nour Skaf, Will Gauvin",
+      "PaperNumber": "14150-263",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "55895dbd-18cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "55895dbd-18cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Ground control to major time-lag: on-sky results of data-driven predictive wavefront control at Keck Observatory",
+      "Description": null,
+      "Abstract": "Directly imaging and characterizing exoplanets requires extreme adaptive optics (XAO), to achieve exquisite wavefront correction over a small field of view. Predictive wavefront control (PWFC) mitigates temporal errors (often a leading term in these XAO systems) by predicting where the wavefront will be by the time the system correction is applied. In particular, empirical orthogonal functions (EOF) learn correlations in a wavefront using wavefront sensor history. We present on-sky results of a new implementation of EOF built directly into the Keck-II real time controller (RTC). This work revitalizes previous PWFC work at Keck, by showing improved performance over an integral controller during on-sky observing. Finally, we discuss optimization strategies for EOF on sky. This work not only improves current observing for the Keck community, but also acts as a pathfinder for predictive control methods with extremely large telescopes.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Ground-control-to-major-time-lag--on-sky-results/14150-263",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Mark Mueller, Andrew Szentgyorgyi, Sagi Ben-Ami, Isaac Anderson, Daniel Baldwin, Daniel Durusky, Ofir Hershko, Colby Jurgenson, Kenneth McCracken, Heeyoung Oh, Jae Sok Oh, Cem Onyuksel, William Podgorski, Chan Park, Matthew Smith, Yahel Sofer-Rimalt, Abigail Unger, Joseph Zajac",
+      "PaperNumber": "14149-246",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "4619493a-d3ca-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "4619493a-d3ca-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Hardware fabrication update for the GMT-consortium large earth finder (G-CLEF)",
+      "Description": null,
+      "Abstract": "The GMT-Consortium Large Earth Finder (G-CLEF) is a fiber-fed, optical echelle spectrograph that will be a first light instrument for the Giant Magellan Telescope (GMT). G-CLEF is a general-purpose echelle spectrograph with precision radial velocity (PRV) capability. We will design and build an interim installation configuration for G-CLEF at Magellan’s 6.5m Clay telescope. This paper provides an update on construction of the instrument. It discusses the fabrication and integration of several completed subsystems including the optical bench, vacuum chamber, major optical subassemblies, the Clay front end, electrical systems, and fixturing.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Hardware-fabrication-update-for-the-GMT-consortium-large-earth-finder/14149-246",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Amelia Calderhead, Anna MacIver, David Isherwood, Andy Born, James Stevenson",
       "PaperNumber": "14152-107",
       "DateTimeLocationDataList": [
@@ -196,7 +264,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Robert Conwell, Stephen S. Eikenberry, Peter Delfyett, Anish Roshi, Shahebul Hasan, Jiabao Li, Jordan Richey, David Smith, Thuy Nguyen",
+      "Authors": "Robert Conwell, Stephen S. Eikenberry, Peter Delfyett, Anish Roshi, Shahebul Hasan, Jiabao Li, Jordan Richey, David Smith, Thuy Nguyen, Amith Debnath, Liam Gallagher",
       "PaperNumber": "14148-109",
       "DateTimeLocationDataList": [
         {
@@ -218,11 +286,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Heliocomb: a laser frequency comb heterodyne spectrometer for R=200,000,000,000 solar observations",
+      "Title": "Heliocomb: a laser frequency comb heterodyne spectrometer for R=20,000,000,000 solar observations",
       "Description": null,
       "Abstract": "We demonstrate a near-infrared heterodyne instrument which achieves a signal-to-noise ratio sufficient for Very Long Baseline Interferometry (VLBI). VLBI in the near-infrared, achieved by means of heterodyne systems, has the potential to enable ground-based diffraction-limited resolution of millimeter-sized objects in low Earth orbit. Our instrumental design employs an electro-optically modulated laser frequency comb (LFC) as a single-frequency local oscillator with tunability enabled by a calibrated linear stage. Our design is conducive to an instrument with the long-term stability of a LFC, a tunable local oscillator, and scalability for broad instantaneous bandwidth. To demonstrate the efficacy of our instrument, we perform heterodyne spectroscopy on the Sun to measure the Solar Gravitational Redshift, improve upon the current best measurement, and demonstrate year-timescale instrumental stability. This is an essential first step towards near-infrared VLBI.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Heliocomb--a-laser-frequency-comb-heterodyne-spectrometer-for-R200000000000/14148-109",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Heliocomb--a-laser-frequency-comb-heterodyne-spectrometer-for-R20000000000/14148-109",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -434,7 +502,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Giovanni Della Casa, Francesco Ceraudo, Ettore Del Monte, Giuseppe Dilillo, Marco Feroci, Edoardo Giancarli, Alessio Nuti, Riccardo Campana, Mauro Fiorini, Giovanni Lombardi, Massimo Rapisarda, Ajay Sharma, Giuseppe Bertuccio, Filippo Mele, Yinhe Zhu, Marco Grassi, Piero Malcovati, Jacopo Giani, Marco Tambussi, Matias Antonelli, Alexander Rachevski, Irina Rashevskaya, Gianluigi Zampa, Nicola Zampa, Evgeny Demenev, Giancarlo Pepponi, Francesco Ficorella, Nicola Zorzi",
+      "Authors": "Giovanni Della Casa, Francesco Ceraudo, Ettore Del Monte, Giuseppe Dilillo, Marco Feroci, Edoardo Giancarli, Alessio Nuti, Riccardo Campana, Mauro Fiorini, Giovanni Lombardi, Massimo Rapisarda, Ajay Sharma, Giuseppe Bertuccio, Filippo Mele, Yinhe Zhu, Marco Grassi, Piero Malcovati, Jacopo Giani, Marco Tambussi, Matias Antonelli, Alexander Rachevski, Irina Rashevskaya, Gianluigi Zampa, Nicola Zampa, Evgeny Demenev, Giancarlo Pepponi, Francesco Ficorella, Nicola Zorzi, Alessandro Gemelli, Alina Samusenko",
       "PaperNumber": "14146-237",
       "DateTimeLocationDataList": [
         {
@@ -796,11 +864,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Improvement of imaging performance of silicon foil X-ray optics using hot plastic deformation process",
+      "Title": "Improvement of imaging performance of silicon foil x-ray optics using hot plastic deformation process",
       "Description": null,
       "Abstract": "We have been developing silicon foil X-ray optics using hot plastic deformation for future astronomical observations. A 0.3-mm-thick silicon wafer was formed into a precise conical shape with a curvature radius of ~100 mm. Owing to the favorable physical properties of silicon, these mirrors offer reduced weight and improved angular resolution compared to conventional aluminum foil optics. Process optimization achieved an angular resolution of 27.4 arcseconds along the best generatrix—a twofold improvement over previous results—evaluated at the ISAS/JAXA 30-m X-ray beamline. This paper presents fabrication improvements and enhanced X-ray imaging performance of the silicon foil optics.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Improvement-of-imaging-performance-of-silicon-foil-X-ray-optics/14146-270",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Improvement-of-imaging-performance-of-silicon-foil-x-ray-optics/14146-270",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -830,11 +898,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Improving observability and reliability in SKA Control Software through TANGO-Controls Open Telemetry and CSP.LMC Test Analytics",
+      "Title": "Improving observability and reliability in SKA control software through TANGO-controls open telemetry and CSP.LMC test analytics",
       "Description": null,
       "Abstract": "In the Square Kilometre Array (SKA) project, early detection of rare and hard-to-reproduce anomalies is essential to ensure system reliability. SKA software components, built on TANGO-Controls and deployed as Kubernetes-orchestrated containers, can exhibit unpredictable or non-deterministic behaviour that must be closely monitored. To improve insight into such failures, the Central Signal Processor Local Monitoring and Control (CSP.LMC) subsystem has begun collecting detailed test-failure statistics and benchmarking data. With the introduction of OpenTelemetry support in TANGO-Controls, new observability capabilities have become available. This work explores how combining Tango OpenTelemetry instrumentation with CSP.LMC’s test-result collection framework can enhance anomaly detection, strengthen performance benchmarking, and improve software quality across the SKA ecosystem.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Improving-observability-and-reliability-in-SKA-Control-Software-through-TANGO/14155-150",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Improving-observability-and-reliability-in-SKA-control-software-through-TANGO/14155-150",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1080,7 +1148,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Joel Payne, Jonathan Steiner, Jason N. Worden, Joseph Rounsaville, Max Davis, Michael Dayawon, Steve Baca, Danny Baldwin, Justin Ballard, James Chong, Michael Dahler, Matthew Dolloff, Hamza Elwir, Robert Harrington, Grant Hill, John S. Hudek, Edward Janke, Rick Johnston, Eric Levine, Chris Martins, Dennis McBride, Ben McCarney, Ellie O'Brien, Daniel Orr, Dennis Patterson, Derek Park, Paul Richards, Erin Roberts, Adan Rodrigues, Jacques Sebag, Lauren Simmons, Zach Tadio, Jerez Tehero, John Valliant, Adam Vandenberg, Tod Von Boeckmann, Ed Wetherell, Truman Wold",
+      "Authors": "Joel Payne, Jonathan Steiner, Jason N. Worden, Ben McCarney, Joseph Rounsaville, Max Davis, Michael Dayawon, Steve Baca, Danny Baldwin, Justin Ballard, James Chong, Michael Dahler, Matthew Dolloff, Hamza Elwir, Robert Harrington, Grant Hill, John S. Hudek, Edward Janke, Rick Johnston, Eric LeVine, Chris Martins, Dennis McBride, Ellie O'Brien, Daniel Orr, Dennis Patterson, Derek Park, Paul Richards, Erin Roberts, Adan Rodrigues, Jacques Sebag, Lauren Simmons, Zach Tadio, Jerez Tehero, John Valliant, Adam Vandenberg, Tod Von Boeckmann, Ed Wetherell, Truman Wold",
       "PaperNumber": "14151-87",
       "DateTimeLocationDataList": [
         {
@@ -1104,7 +1172,7 @@
       "HTMLTitle": "",
       "Title": "Investigation and recovery from failed wire ropes at the Keck II Telescope top shutter",
       "Description": null,
-      "Abstract": "On July 4, 2025, a significant failure of the Keck II primary (top) shutter occurred. Eight wire rope cables, each 5/8” steel, support the ~90,000 lbm shutter. One of the wire ropes broke catastrophically rendering the shutter (and therefore telescope) inoperable. The cause was unclear, risks uncertain, and the path forward not obvious.     This paper is a case study analyzing failure of a critical, dynamic structure. It details both investigation and recovery from the failure. A total of 51 nights were lost with the telescope unable to observe. Topics will include: 1) Background and sequence of events leading up to the failure. 2) Safety measures the team took to ensure no harm to people or the system. 3) Root cause diagnosis. 4) Recovery measures enabling a return to observation. 5) Improvements to the process for tensioning the wire ropes. 6) Longer-term strategies and recommendations on instrumentation that could have potentially detected and prevented the failure.",
+      "Abstract": "On July 4, 2025, a significant structural failure of the Keck II top shutter occurred. One of eight wire rope cables supporting the 90,000 lbm shutter failed. Each cable is 5/8” steel and rated for 46,000 lbf working load. The failure was a significant structural problem and presented challenges to diagnose and repair. Operations resumed in August based upon improved system tuning, only for a second failure of two ropes – both controlled by a common drive – to occur on January 22, 2026. Initially, the failures were thought to be separate failure modes. However, closer inspection of data suggested the failures shared more in common than originally realized. The paper presents the investigation, recovery, and a proximate root cause of the drive misbehavior which resulting in the discrepant motion of the drivetrains and eventually wire rope failures. Go forward information and planning is presented on three mitigations: added fault detection, rope tension sensors, and motion encoders.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Investigation-and-recovery-from-failed-wire-ropes-at-the-Keck/14151-87",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1311,40 +1379,6 @@
       "Abstract": "Diffraction-limited imaging in large telescopes requires mitigation of both atmospheric and structural disturbances in the optical system. Therefore, all disturbance acting on the adaptive optics (AO) system must be estimated and compensated for in real-time. We present and compare different methods for the estimation and control of high-frequency vibrations using already available wavefront data from laser guide stars. This includes an integrator combined with a Kalman filter as well as linear quadratic Gaussian control. The designs are validated within a realistic end-to-end AO simulation fed by telemetry data from the Very Large Telescope.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/LGS-based-vibration-control--evaluating-closed-loop-performance-with/14150-264",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Gabriel González Rial, José Javier Díaz García, Francisco Javier Casas Reinares, Ricardo Tanausú Génova Santos",
-      "PaperNumber": "14156-107",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "686243eb-29d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "686243eb-29d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Litebird TMCS readout electronics: challenges, progress, and outlook",
-      "Description": null,
-      "Abstract": "LiteBIRD is a next-generation space mission aimed at producing highly sensitive, full-sky maps of Cosmic Microwave Background (CMB) polarization. Spain is contributing to the mission's operations and analysis, as well as the technological development of the payload through the Temperature Monitoring and Compensation System (TMCS). The TMCS is crucial for monitoring and stabilizing the thermal environment of the Transition Edge Sensor (TES) detectors. These detectors operate near 100 mK, requiring thermal stability at the level of a few micro-kelvin (or less), which is a major technical challenge. Current prototyping focuses on developing and validating the dedicated TMCS readout electronics through targeted tests and a complete readout chain implementation. The associated paper will summarize the stability requirements, TMCS initial approach and the results from the validation campaign.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Litebird-TMCS-readout-electronics-challenges-progress-and-outlook/14156-107",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1624,7 +1658,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Lawrence Bissell, Éamonn J. Harvey, Alastair Macleod, Valentina Oyarzun, Daniel Dicken, Katherine Morris, Philip Parr-Burman, Alistair Glasse, Felix Bettonvil, Bernhard Brandl",
+      "Authors": "Lawrence Bissell, Éamonn J. Harvey, Stephen Todd, Alastair Macleod, Valentina Oyarzun, Daniel Dicken, Katherine Morris, Philip Parr-Burman, Alistair Glasse, Felix Bettonvil, Bernhard Brandl",
       "PaperNumber": "14149-297",
       "DateTimeLocationDataList": [
         {
@@ -1648,7 +1682,7 @@
       "HTMLTitle": "",
       "Title": "METIS for ELT: optical alignment and testing of the IFU of the LM-band spectrograph",
       "Description": null,
-      "Abstract": "The METIS LMS (LM-band Spectrograph) is a high-resolution (R>100,000) mid-infrared integral field spectrograph for the ESO ELT. The instrument provides the capability to measure instantaneous spectra across a 0.577 x 0.897 arcsecond field-of-view with a spatial sampling of 8.2-9.1 mas using an image slicing IFU. This paper presents the optical testing and alignment performed for the IFU sub-system including: the detailed characterisation of the image slicing mirror array; an overview of the optical alignment strategy employed during the AIT process, and results of the optical testing performed on the integrated sub-system.",
+      "Abstract": "The METIS LMS (LM-band Spectrograph) is a high-resolution (R>100,000) mid-infrared integral field spectrograph for the ESO ELT. The instrument provides the capability to measure instantaneous spectra across a 0.577 x 0.897 arcsecond field-of-view with a spatial sampling of 8.2-9.1 mas using an image slicing IFU. This paper presents the optical testing and alignment performed for the IFU sub-system including: the detailed characterisation of the image slicing mirror array and an overview of the optical alignment strategy to be employed during the AIT process,.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/METIS-for-ELT--optical-alignment-and-testing-of-the/14149-297",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1658,7 +1692,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Peter Bizenberger, Harald Baumeister, Bernhard Brandl, M. Concepcion Cardenas Vazquez, Eduardo Chamorro, Dennis Dolkins, Silvia Scheithauer, Takashi Sukegawa",
+      "Authors": "Dennis Dolkens, Peter Bizenberger, Harald Baumeister, Bernhard Brandl, M. Concepcion Cardenas Vazquez, Eduardo Chamorro, Silvia Scheithauer, Takashi Sukegawa",
       "PaperNumber": "14149-310",
       "DateTimeLocationDataList": [
         {
@@ -1690,47 +1724,13 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
-    },
-    {
-      "Authors": "Ralf K. Heilmann, Alexander R. Bruccoleri, Shiva Mudide, Mark L. Schattenburg",
-      "PaperNumber": "14146-263",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "334351be-b7d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "334351be-b7d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Metrology and diffraction efficiency improvements for ultra-high aspect ratio, blazed soft x-ray transmission gratings",
-      "Description": null,
-      "Abstract": "Critical-angle transmission (CAT) gratings are blazed gratings for high resolving power x-ray spectroscopy in mission concepts such as Arcus or Lynx addressing high-priority Astro2020 science goals. We demonstrated R ~ 1.2e4 for co-aligned CAT gratings. Diffraction efficiency (DE) can be improved via thinning of grating bars, optimizing bar profiles and tilt, and reducing sidewall roughness and support structures. Bar profiles and tilt are initially set in the deep reactive-ion etch (DRIE) step during fabrication. We developed fast and non-destructive profile and tilt metrology based on Mueller matrix spectroscopic ellipsometry (MMSE) and machine learning (ML) that can be used right after the DRIE step. The following KOH polish ideally reduces scalloping and results in smooth bar sidewalls. We plan to apply MMSE/ML to post-KOH bars to optimize KOH etch parameters next. We report on the x-ray DE of the latest CAT gratings with reduced supports and oxidation/HF-thinned bars.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Metrology-and-diffraction-efficiency-improvements-for-ultra-high-aspect-ratio/14146-263",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

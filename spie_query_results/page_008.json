@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Zhanshan Wang, Tian Lan, Jun Yu, Wenbin Li, Zeyi Ye, Yue Yu, Li Jiang, Chun Xie",
-      "PaperNumber": "14146-152",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "8b508820-27cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "8b508820-27cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Laboratory-based calibration system for the extreme ultraviolet spectrometer in 55 to 140nm wavelength range",
-      "Description": null,
-      "Abstract": "IPOE has developed a laboratory-based calibration system for the extreme ultraviolet (EUV) imaging spectrometer in 55- to 140-nm. Utilizing a RF-produced gas-discharge light source, a grazing-incidence monochromator and an off-axis parabolic mirror to obtain a 50-mm-diameter collimated beam. The system characterizes key parameters of the spectrometer, including dark-field signal, wavelength, spectral resolution, spatial resolution, field of view, system efficiency, and effective area. The calibration process and results are presented and comparatively analyzed.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Laboratory-based-calibration-system-for-the-extreme-ultraviolet-spectrometer-in/14146-152",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Andrea Bianco, Victor Lorit, Demetrio Magrin, Benoit Sassolas, David Hofman, Laurent Pinard, Christophe Michel, Paolo Ciliegi",
       "PaperNumber": "14154-336",
       "DateTimeLocationDataList": [
@@ -94,7 +60,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Joshua West, Carolyn Atkins, Marcell Westsik, Younes Chahid, Magda Kraus, Valentina Oyarzun, Bill Brzozowski, Scott McPhee, Sam Tammas-Williams, Nicola Cayzer, Brecht Van Hooreweder, Wenjuan Sun, Mirko Sinico, Sameer Dayanand Meshram, Berk Baris Celik, Daniel Ordnung, Michel Smet, Michael Harris, Stephen James",
+      "Authors": "Joshua West, Carolyn Atkins, Valentina Oyarzun, Marcell Westsik, Younes Chahid, Magda Kraus, Scott McPhee, Bill Brzozowski, Sam Tammas-Williams, Nicola Cayzer, Fraser Laidlaw, Sameer Dayanand Meshram, Daniel Ordnung, Berk Baris Celik, Michel Smet, Mirko Sinico, Wenjuan Sun, Brecht Van Hooreweder, Michael Harris, Stephen James",
       "PaperNumber": "14154-199",
       "DateTimeLocationDataList": [
         {
@@ -196,6 +162,40 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Jian Ge, Zhangqi Dang, Ziru Zhang, Rong Shu, Wen Chen, Jie Yin, Zhongming Chen, Jun Yang, Xinyi Song, Rafael Luque, Enric Pallé",
+      "PaperNumber": "14145-116",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "461466bf-58d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "461466bf-58d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Life 2.0 space mission concept",
+      "Description": null,
+      "Abstract": "The Life 2.0 space mission concept aims to characterize the atmospheres of transiting exoplanets, including Earth-like worlds, in search of biosignatures in the optical. The mission will consist of an array of 900 one-meter space telescopes in Earth orbit, each equipped with a high-throughput (~50%) waveguide-integrated miniature spectrograph (WIMS) and an ultra-low-noise CMOS detector (~0.3 e-). By combining transmission spectra from 900 telescopes, the signal-to-noise of the combined spectrum can reach a similar level as a single 30-meter space telescope, enabling the detection of the faint planetary atmosphere signal, including species such as oxygen, water, ozone; and many other science cases. The array is scalable and mass-producible, enabling low manufacturing and deployment cost for large-scale atmospheric surveys of habitable exoplanets. The mission design and prototype performance will be reported.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Life-20-space-mission-concept/14145-116",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Go Murakami, Fuminori Tsuchiya, Atsushi Yamazaki, Umi Enokidani, Masato Kagitani, Shingo Kameda, Kazuo Yoshioka, Masaki Kuwabara, Tomoki Kimura, Ayaka Tadokoro, Ryoichi Koga, Riko Shimizu, Iona Kondo, Ryo Iba",
       "PaperNumber": "14146-127",
       "DateTimeLocationDataList": [
@@ -264,7 +264,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "David Blanquez, Jan Petersen, Desiree D. M. Ferreira, Denis Tcherniak, Brieuc De Smet, Giorgio Magistrati, Gabriel Cobos Tello, Alessandro Morello",
+      "Authors": "David Blanquez, Jan Petersen, Desiree D. M. Ferreira, Denis Tcherniak, Gabriel Cobos Tello, Alessandro Morello",
       "PaperNumber": "14145-134",
       "DateTimeLocationDataList": [
         {
@@ -1036,7 +1036,7 @@
       "HTMLTitle": "",
       "Title": "MiraSOL: a DMD-based spectrograph for resolved solar spectroscopy",
       "Description": null,
-      "Abstract": "We present key upgrades to the MiraSOL instrument, an experimental spectroscopic platform utilizing a Digital Micromirror Device (DMD) for spatially resolved solar observations. The addition of a Virtual Imaged Phased Array (VIPA) spectrometer, custom DMD controller, and an improved telescope can significantly expand the science capabilities of the instrument. The VIPA increases the resolving power to 400,000, which is critical for probing subtle line shape changes. We explore a custom controller that allows precise DMD actuation, eliminating inherent duty cycling from the evaluation board and thereby increasing functional contrast. A longer focal length telescope enlarges the solar disk image projected onto the DMD surface. These enhancements provide access to the spectral characteristics of finer dynamic solar features, advancing the understanding of stellar variability—currently the most formidable challenge to precise Earth-twin detection via the radial velocity method.",
+      "Abstract": "We present the design requirements, device laboratory testing and a prototype for an upcoming solar instrument, MiraSOL. MiraSOL will use digital micromirror technology to actively select regions on the solar disk for spectroscopic observation to determine the spatially dependent radial velocity signatures of stellar variability. MiraSOL uses the Texas Instruments DLP801RE as a spatial light modulator to allow a 3 arcsecond resolution mask capable of resolving features on the solar disk. This instrument will have a fiber output which can then be coupled with state-of-the-art extreme precision radial velocity (EPRV) spectrometers, such as HPF or NEID, for high resolving power, stable spectra of sunspots and plage. We discover a 60 Hz flicker signal in the commercial digital micromirror device electronics. We also build a proof-of-concept prototype and acquire solar observations to demonstrate the feasibility of this technology.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/MiraSOL-a-DMD-based-spectrograph-for-resolved-solar-spectroscopy/14154-220",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1046,7 +1046,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "John C. Mather, Eliad Peretz",
+      "Authors": "John C. Mather, Eliad Peretz, Rhonda M. Morgan",
       "PaperNumber": "14146-104",
       "DateTimeLocationDataList": [
         {
@@ -1114,6 +1114,40 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Gabriele Umbriaco, Paolo Ciliegi, Andrea Comastri, Andrea Di Rocco, Ludovico Teodori, Giuseppe Cosentino, Italo Foppiani, Gabriele Rodeghiero, Cristiano Spisni, Federico De Sanctis, Cristiano Guidi, Luca Rosignoli, Alessio Taranto, Sophie Antonia Penger, Jacopo Farinato, Luca Marafatto, Edoardo Maria Alberto Redaelli, Chiara Salvadori",
+      "PaperNumber": "14154-274",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "98acfefd-79d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "98acfefd-79d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "MORFEO @ ELT: The Bologna Integration Hall for MORFEO, a national AIT infrastructure for ELT-class instrumentation",
+      "Description": null,
+      "Abstract": "MORFEO (Multi-conjugate adaptive Optics Relay For ELT Observations) is the post-focal adaptive optics module for the ESO Extremely Large Telescope. The instrument provides MCAO correction for two instruments: MICADO and HARMONI.    The newly refurbished Bologna Integration Hall (BIH) supports MORFEO’s Assembly, Integration, and Verification, enabling the alignment and calibration of its complex optical train, which features ~1-m free-form, deformable, and spherical mirrors, using high-precision metrology such as laser trackers. The facility features a 12×17×12 m ISO 8 hall, optical and electronic labs, a mechanical workshop, and a control room, all equipped with upgraded cooling, power distribution, environmental monitoring, and lifting systems under PNRR STILES investments. Ongoing upgrades include enhancements to cranes, roof insulation, external platforms, and improved networking. BIH will host MORFEO before shipment to Chile",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/MORFEO--ELT--The-Bologna-Integration-Hall-for-MORFEO/14154-274",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Marco Xompero, Nicolò Azzaroli, Paolo Ciliegi, Lorenzo Busoni, Simonetta Chinellato, Giorgio Pariani, Roberto Biasi, Laura Salvi, Dietrich Pescoller, Matteo Tintori, Pierluigi Fumi, Lorenzo Crimella, Samson Sambath Kumar, Gabriele Clerici",
       "PaperNumber": "14150-116",
       "DateTimeLocationDataList": [
@@ -1148,40 +1182,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Gabriele Umbriaco, Paolo Ciliegi, Andrea Comastri, Jacopo Farinato, Giuseppe Cosentino, Italo Foppiani, Gabriele Rodeghiero, Luca Marafatto, Edoardo Maria Alberto Redaelli, Andrea Di Rocco, Ludovico Teodori",
-      "PaperNumber": "14154-274",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "98acfefd-79d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "98acfefd-79d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "MORFEO@ELT: The Bologna Integration Hall of MORFEO, a new facility to assemble ELT-class instrumentation",
-      "Description": null,
-      "Abstract": "MORFEO (Multi-conjugate adaptive Optics Relay For ELT Observations) is the post-focal adaptive optics module for the ESO Extremely Large Telescope. The instrument provides MCAO correction for two instruments: MICADO and HARMONI.    The newly refurbished Bologna Integration Hall (BIH) supports MORFEO’s Assembly, Integration, and Verification, enabling the alignment and calibration of its complex optical train, which features ~1-m free-form, deformable, and spherical mirrors, using high-precision metrology such as laser trackers. The facility features a 12×17×12 m ISO 8 hall, optical and electronic labs, a mechanical workshop, and a control room, all equipped with upgraded cooling, power distribution, environmental monitoring, and lifting systems under PNRR STILES investments. Ongoing upgrades include enhancements to cranes, roof insulation, external platforms, and improved networking. BIH will host MORFEO before shipment to Chile",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/MORFEOELT--The-Bologna-Integration-Hall-of-MORFEO-a-new/14154-274",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Ivan Zavala, Joel Castro, Mauricio Reyes, Ana de la Llata, Javier Hernández, Gerardo Sierra, Félix Diaz, Francisco Valenzuela, Luis Ortiz, Joel Herrera, Francisco Murillo, David Hiriart",
       "PaperNumber": "14149-162",
       "DateTimeLocationDataList": [
@@ -1192,7 +1192,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -1522,7 +1522,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Joschua Hellemeier, Paul Hickson",
+      "Authors": "Joschua Hellemeier, Paul Hickson, Noelia Martinez Rey",
       "PaperNumber": "14150-136",
       "DateTimeLocationDataList": [
         {
@@ -1583,40 +1583,6 @@
       "Abstract": "The Off-Axis Far-UV Off Rowland-circle Telescope for Imaging and Spectroscopy (OAxFORTIS) is an off-axis reconfiguration of the sounding rocket experiment, FORTIS, designed to conduct multi-object spectroscopy. OAxFORTIS enables the investigation of the UV diversity of the hot horizontal branch (HHB) in the otherwise similar globular clusters M10, M13, and M3. This exploration is intended to address a question commonly referred to as the \"Second Parameter Problem\" as researchers hunt for parameters other than metallicity that drive this diversity. The first flight of OAxFORTIS took place on August 2024 and resulted in the successful observation of M10, with at least 3 strong stellar spectra acquired. Preparations for the second launch include the installation of XeLIF optical coatings and a new Next Generation microshutter array.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/OAxFORTIS-FUV-investigations-of-hot-stars-in-globular-clusters/14146-105",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Kenji Emerson, Adwin Boogert, Mike Connelley, John Rayner, Charles Lockhart",
-      "PaperNumber": "14149-164",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "e2de6986-9ed0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "e2de6986-9ed0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Observation simulations of the IRTF SPECTRE spectrograph",
-      "Description": null,
-      "Abstract": "We present an observation simulator for the SPECTRE spectrograph. SPECTRE is an upcoming, low resolution, broad bandwidth (0.4-4.2 μm), 7.2” field-of-view, three channel, Integral Field Unit (IFU) spectrograph for the NASA Infrared Telescope Facility (IRTF). It is designed for characterizing near-Earth asteroids and spectroscopic follow-up on astrophysical transients. A facility-ready data reduction pipeline is integral to its use by astronomers. We comprehensively simulate observations, accounting for transmissive, emissive, and dispersive effects from the atmosphere, telescope, instrument optics, prisms, and the detector. Instrument calibrations, flat-fielding lamps and spectral arc lamps, can also be simulated. We use our simulations for the on-going development of the SPECTRE data reduction suite, and it can also be used as an exposure time calculator for astronomers to optimize their observing session.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Observation-simulations-of-the-IRTF-SPECTRE-spectrograph/14149-164",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Qihang Zhang, Shuangquan Chen, Yonggang Gu, Zhen Zhang",
+      "PaperNumber": "14154-152",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "5dba3ab8-f6cc-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "5dba3ab8-f6cc-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Online upgradeable fiber positioning drive system for LAMOST",
+      "Description": null,
+      "Abstract": "The LAMOST Phase II project has entered a critical stage, and a miniaturized driver board has been designed for the new integrated fiber positioner. In terms of hardware, a 6-layer PCB with a compact layout is adopted, with an overall board size of 142×14 mm, covering power supply, main control, driver, and communication modules, which can realize parallel control of six BLDC motors and triple the control efficiency. In terms of software, a precise open-loop drive algorithm is used to control the BLDC motors,a self-inspectable motor control logic is designed, data and commands are received under a CAN communication network, and remote online hardware program upgrade can be realized via IAP, which improves the efficiency of system maintenance and upgrade. Finally, an experimental platform is built for verification. Multiple fiber positioning tests demonstrate that 98.86% of positioning errors are less than 20μm, which satisfies the high-precision positioning requirements of the LAMOST.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Online-upgradeable-fiber-positioning-drive-system-for-LAMOST/14154-152",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 695783
+  "DLCount": 696011
 }

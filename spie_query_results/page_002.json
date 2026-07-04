@@ -332,7 +332,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Paolo G. Calisse, Markus Gaug, Roberta Zanin",
+      "Authors": "Paolo G. Calisse",
       "PaperNumber": "14147-6",
       "DateTimeLocationDataList": [
         {
@@ -1284,7 +1284,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Dervis Vernani, Paola Galli, Manuela Arno', Federico Fiorenzoli, Federico Folino, Massimiliano Rossi, Emanuele Pace, Antonio Scippa, Riccardo Lilli, Paolo Picchi, Monica Rainer, Fabio D'Anca, Paolo Chioetto, Paola Zuppella, Enzo Pascale, Andrea Bocchieri, Angelo Olivieri, Pasquale Bonfà, Daniele Brienza, Umberto Barozzi, Federico Miceli, Gary Davies, Dale Blackmore, Jack Morris, Matthias Mann, Dominik Widemann, Simon Schuler, Andrew Caldwell, Paul Eccleston, Elisabetta Tommasi, Manuele Gangi, Andrea Paternoster, Gabriele Grisoni",
+      "Authors": "Dervis Vernani, Manuela Arno', Federico Fiorenzoli, Federico Folino, Paola Galli, Gabriele Grisoni, Ruben Mazzoleni, Massimiliano Rossi, Giulia Saoncella, Pasquale Bonfà, Daniele Brienza, Manuele Gangi, Barbara Negri, Angelo Olivieri, Elisabetta Tommasi, Giovanna Tinetti, Riccardo Lilli, Antonio Scippa, Emanuele Pace, Fabio D'Anca, Giuseppina Miceli, Paolo Picchi, Monica Rainer, Paolo Chioetto, Paola Zuppella, Enzo Pascale, Andrea Bocchieri, Matthias Mann, Simon Schuler, Dominik Widemann, Colin Bondet, Priscilla Viard, Umberto Barozzi, Federico Miceli, Andrea Paternoster, Andrew Caldwell, Paul Eccleston, Dale Blackmore, Gary Davies, Jack Morris",
       "PaperNumber": "14145-12",
       "DateTimeLocationDataList": [
         {
@@ -1727,10 +1727,10 @@
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

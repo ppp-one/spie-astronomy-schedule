@@ -94,40 +94,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Christophe Moins, Dan Popovic, Jose Antonio Abad, Constanza Araujo, Helen Bedigan, Martin Brinkmann, Elsa Calmette, Greidy Castellanos, Angela Cortes, Byron Engler, Christoph Frank, Fernando Gago, Elizabeth George, Thomas Grudzien, Ivan Guidolin, Andreas Haimerl, Peter Hammersley, Marcus Haug, Stefan Huber, Paul Jolley, Aglaé Kellerer, Mario Kiekebusch, Jean-Paul Kirchbauer, Barbara Klein, David Kosten, Johannes Kolmeder, Johan Kosmalski, Paolo La Penna, Ulrich Lampater, Serban Leveratto, Steffan Lewis, Christopher Mandla, Enrico Marchetti, Leander Mehrgan, Jérôme Paufique, Lorenzo Pettazzi, Oliver Pfuhl, Malte Scherbarth, Sébastien Tordo, Pablo Zuluaga-Ramírez, Sara Zuccon, Thomas Pfrommer",
-      "PaperNumber": "14155-138",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "4c11d59f-21d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "4c11d59f-21d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Phasing and diagnostic station (PDS) control software overview",
-      "Description": null,
-      "Abstract": "The Phasing and Diagnostic Station (PDS) will host five visible and infrared cameras and their optomechanical components. It will be operated by control software based on the ICS framework (IFW).       The software comprises the following components: Observation Coordination System (OCS), Function Control System (FCS) to control and monitor hardware functions and sensing systems, Detector Control System (DCS) to manage the various wavefront sensor camera systems, Cryostat to maintain the infrared detector at low temperature, using the Cryogenic Control Systems software toolkit.       Control and engineering GUIs, along with templates executed through the IFW sequencer, will send commands to the system via standard interfaces.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Phasing-and-diagnostic-station-PDS-control-software-overview/14155-138",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Hirofumi Okita, Naoyuki Tamura, Takashi Hattori, Yuhei Takagi, Yusei Koyama, Masayuki Kuzuhara, Hatsune Uekiyo",
       "PaperNumber": "14151-90",
       "DateTimeLocationDataList": [
@@ -150,11 +116,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "PI-type Instrumentation at the Subaru Telescope",
+      "Title": "PI-type instrumentation at the Subaru Telescope",
       "Description": null,
       "Abstract": "We explain the PI-type Instrumentation program at the Subaru Telescope. The Subaru Telescope has a framework for PI-type instruments, which are developed, assembled, integrated, tested, and operated using external funding and human resources to achieve specific science goals or demonstrate novel technology, and which complement with facility instruments that are developed, maintained, and operated by resources of the Subaru Telescope. In this paper, we briefly explain outline and uniqueness of the PI-type instrumentation program at the Subaru Telescope, as well as the brief summary of the approval process of the PI-type instruments and current problems. We will also summarize the results of the productivity study and user opinions survey discussed at the PI-type instrument workshop held in October 2025.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/PI-type-Instrumentation-at-the-Subaru-Telescope/14151-90",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/PI-type-instrumentation-at-the-Subaru-Telescope/14151-90",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -366,7 +332,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Ludo Bissot, Florian Quatresooz, Gilles Orban de Xivry, Olivier Absil, Claude Oestges",
+      "Authors": "Ludo Bissot, Florian Quatresooz, Gilles Orban de Xivry, Baptiste Delvaux, Olivier Absil, Claude Oestges",
       "PaperNumber": "14150-245",
       "DateTimeLocationDataList": [
         {
@@ -390,7 +356,7 @@
       "HTMLTitle": "",
       "Title": "Predictive control of atmospheric turbulence for optical ground stations",
       "Description": null,
-      "Abstract": "Atmospheric turbulence degrades satellite to ground optical links, especially under poor conditions and fast low-Earth-orbit tracking. To reduce the temporal error, the principal limitation in such scenarios, we investigate predictive control for adaptive optics within the SALTO telescope, a Belgian test platform for compact optical communication systems. Turbulence statistics at the Redu Space Center are derived from Weather Research and Forecasting simulations. Three controllers are compared: an LQG regulator based on an AR(1) turbulence model, a linear data-driven Empirical Orthogonal Functions (EOF) predictor, and a model-based reinforcement learning controller inspired by PO4AO.",
+      "Abstract": "Atmospheric turbulence degrades satellite to ground optical links, especially under poor conditions and fast low-Earth-orbit tracking. To reduce the temporal error, the principal limitation in such scenarios, we investigate predictive control for adaptive optics within the SALTO telescope, a Belgian test platform for compact optical communication systems. Turbulence statistics at the Redu Space Center are derived from Weather Research and Forecasting simulations. Three controllers are compared: an LQG regulator based on an AR(1) turbulence model, a LQG VAR(2) and a linear data-driven Empirical Orthogonal Functions (EOF) predictor.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Predictive-control-of-atmospheric-turbulence-for-optical-ground-stations/14150-245",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -626,45 +592,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Prototyping Arrakihs: accelerating & derisking instrument development for an ESA Fast-Class Mission",
+      "Title": "Prototyping ARRAKIHS: accelerating and derisking instrument development for an ESA fast-class mission",
       "Description": null,
       "Abstract": "Fast-class missions in ESA’s science programme have as their main objective to nearly halve their development time compared to medium or large-class missions; 8 years from selection to launch instead of 15. In the context of this accelerated scheme, the development of bespoke high-performing instruments for space missions with attractive scientific objectives is a considerable challenge.   Using the Arrakihs mission as an example we show how prototyping during the study phase helps accelerate and derisk the development of such instruments. In this contribution, we will go through the results from more than 10 different prototyping activities from optics to detectors, from electronic boards to mechanical parts which took place during phase B and extract lessons learned.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Prototyping-Arrakihs--accelerating--derisking-instrument-development-for-an/14152-109",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Prakamya Agrawal, SO Collaboration",
-      "PaperNumber": "14156-81",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "3d5a2667-bccf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "3d5a2667-bccf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Quantifying spurious signals from the Moon in the Small Aperture Telescope",
-      "Description": null,
-      "Abstract": "The Simons Observatory (SO), located on Cerro Toco in the Atacama Desert in Chile, is a mm-wavelength observatory measuring intensity and polarization anisotropies at angular scales ranging from one arcminute to tens of degrees. The larger scales are the focus of the Small Aperture Telescopes (SATs). We present the findings of a study using observations of the moon with a single SAT observing in the spectral bands centered at 90 and 150 GHz. We investigate signals seen on detectors that are intentionally uncoupled to the telescope optics, searching for spurious optical coupling and electrical crosstalk.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Quantifying-spurious-signals-from-the-Moon-in-the-Small-Aperture/14156-81",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Prototyping-ARRAKIHS--accelerating-and-derisking-instrument-development-for-an/14152-109",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -706,40 +638,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Brodi Elwood, P. A. R. Ade, Zeeshan Ahmed, Mandana Amiri, Denis Barkats, Ritoban Basu Thakur, Colin A. Bischoff, Dominic Beck, James J. Bock, Hans Boenish, Victor Buza, Brianna Cantrall, James R. Cheshire, Jake Connors, James Cornelison, Michael Crumrine, Ari Jozef Cukierman, Edward Denison, Lionel Duband, Michael Echter, Miranda Eiben, Sofia Fatigoni, Jeffrey P. Filippini, Antonio Fortes, Min Gao, Christos Giannakopoulos, Neil Goeckner-Wald, David C. Goldfinger, Stephen Gratton, James A. Grayson, Annsley Greathouse, Paul K. Grimes, Grantland Hall, George Halal, Mark Halpern, Emma Hand, Sam A. Harrison, Shawn Henderson, Thuong Hoang, Johannes Hubmayr, Howard Hui, Kent D. Irwin, Jae Hwan Kang, Kirit S. Karkare, Sinan Kefeli, J. M. Kovac, Chao-Lin Kuo, Kekoa Lasko, King Lau, Margaret Lautzenhiser, Amber Lennox, Tongtian Liu, Scott Mackey, Nolan Maher, Koko G. Megerian, Lorenzo Minutolo, Lorenzo Moncelsi, Yuka Nakato, H. T. Nguyen, Roger O'Brient, Scott Paine, Anika Patel, Matthew A. Petroff, Anna R. Polish, Thomas Prouvé, Clement Pryke, Carl D. Reintsema, Steffen Richter, Thibault Romand, Maria Salatino, Alessandro Schillaci, Benjamin Schmitt, Robert Schwarz, Chris D. Sheehy, Baibhav Singari, Ahmed Soliman, Tyler St. Germaine, Aaron Steiger, Bryan Steinbach, Rashmi Sudiwala, Grant Teply, Keith L. Thompson, Carole Tucker, Anthony D. Turner, Clara Vergès, Abigail Vieregg, Albert Wandui, Alexis C. Weber, Justin Willmert, Chin Lin Wong, Wai Ling K. Wu, Hung-I Yang, Cyndia Yu, Lingzhen Zeng, Cheng Zhang, Silvia Zhang",
-      "PaperNumber": "14156-82",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "91229c2c-cccf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "91229c2c-cccf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Quantifying the systematic impact of differential beam response on the BICEP CMB polarization data from 2016 through 2024",
-      "Description": null,
-      "Abstract": "As CMB polarization experiments—such as BICEP3, BICEP Array (BA), and future BICEP experiments—achieve ever-deeper polarization maps in search of primordial B-modes from inflation, constraining instrumental systematics below statistical uncertainties becomes increasingly challenging. Since the BICEP telescopes are pair-differencing experiments, differential beam response leads to T-to-P leakage, introducing potential systematic bias on the inferred tensor-to-scalar ratio r.  The lowest-order beam-mismatch modes are mitigated through deprojection, though residual undeprojected modes remain. To quantify these residuals, we perform comprehensive in-situ far-field beam measurements of the BICEP receivers. Using beam measurements from BICEP3 (95 GHz) taken in 2016-2019 and 2023; BA1-30/40 in 2020, 2023, and 2024; and BA2-150 in 2023 and 2024, we present analyses of differential beam response and assess the impact of undeprojected residuals on estimates of r for the BK24 data release.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Quantifying-the-systematic-impact-of-differential-beam-response-on-the/14156-82",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Alexey V. Gorshkov, Daniel Gottesman, Emil T. Khabiboulline, Zhenning Liu, Brittany M. McClinton, Jayadev K. Rajagopal, Stephen T. Ridgway",
       "PaperNumber": "14148-106",
       "DateTimeLocationDataList": [
@@ -762,11 +660,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Quantum closure phase for robust imaging at the single-photon level",
+      "Title": "Quantum-optimized phase closure for robust imaging",
       "Description": null,
-      "Abstract": "Closure phase enables imaging with interferometric arrays. Classically it is obtained by summing fringe phases on three baselines, each derived from a resolved fringe and stabilized optical path, which sets a hard photon-flux limit. We study the limits of extracting the closure phase in a quantum approach. We find the optimal measurement from individual photons, giving an improvement in signal-to-noise compared to the traditional classical method and minimizing the need for stability at the timescale of photon arrivals. Measuring the closure phase from multiple photons simultaneously further increases the information extracted. These methods could extend closure phase to targets too faint for classical interferometry.",
+      "Abstract": "Closure phase enables imaging with interferometric arrays and is conventionally obtained by measuring fringe phases on individual baselines and summing them to cancel telescope-dependent phase errors. Standard measurements recover pairwise coherence terms, so the closure phase is formed in post-processing. In a quantum architecture, the optical fields are first mapped into local quantum memories and later combined through a joint measurement. Direct measurement of closure phase from the memories uses the available photons more efficiently and relaxes stability requirements. In bright scenes, a joint three-site measurement improves the Fisher information for closure-phase estimation. In the photon-starved regime, we construct observables accumulating information about the closure phase across atmospheric windows, reducing the photon requirement per window at the cost of worse visibility-amplitude scaling. We find that a quantum approach needs only three photons per stability interval.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Quantum-closure-phase-for-robust-imaging-at-the-single-photon/14148-106",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Quantum-optimized-phase-closure-for-robust-imaging/14148-106",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -876,7 +774,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Camilo Weinberger, Elena Masciadri, Luca Carbonaro, Fernando Pedichini, Ciro Del Vecchio, Christian Veillet, Sam Ragland, Marlene de sepibus",
+      "Authors": "Camilo Weinberger, Elena Masciadri, Luca Carbonaro, Marlene de Sepibus, Fernando Pedichini, Ciro Del Vecchio, Christian Veillet, Sam Ragland",
       "PaperNumber": "14150-254",
       "DateTimeLocationDataList": [
         {
@@ -1046,7 +944,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jean-Michel Le Duigou, Denis Bausch, Nicolas Bray, Charles-Antoine Chevrier, Mathieu Clavery, Aurélie Courtois, Florent Gant, Brice Gorin, Pierre-Alain Goulm, Christophe Latry, Gauthier Malbrancke, Fredri Mirc, Alain Peus, Dorian Peyret, Bruno Regnier, Hélie Reininger, Mehdi Sodki",
+      "Authors": "J. M. Le Duigou, D. Bausch, N. Bray, C. A. Chevrier, M. Clavery, A. Courtois, F. Gant, B. Gorin, P. A. Goulm, C. Latry, G. Malbrancke, F. Mirc, A. Peus, D. Peyret, B. Regnier, H. Reininger, M. Sodki",
       "PaperNumber": "14147-160",
       "DateTimeLocationDataList": [
         {
@@ -1114,7 +1012,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "H. Mahmoodzadeh, P. Saracco, I. Di Antonio, P. Conconi, D. Scaccabarozzi, B. Saggin, E. Molinari, C. Arcidiacono, I. Arosio, E. Cascone, V. Cianniello, V. De Caprio, G. Di Rico, B. Di Francesco, C. Eredia, P. Franzetti, M. Fumana, E. Portaluri",
+      "Authors": "H. Mahmoodzadeh, P. Saracco, I. Di Antonio, P. Conconi, D. Scaccabarozzi, B. Saggin, E. Molinari, C. Arcidiacono, I. Arosio, E. Cascone, V. Cianniello, Francesco D’Alessio, V. De Caprio, G. Di Rico, B. Di Francesco, C. Eredia, P. Franzetti, M. Fumana, E. Portaluri, Fabrizio Vitali",
       "PaperNumber": "14149-236",
       "DateTimeLocationDataList": [
         {
@@ -1454,6 +1352,40 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "John Rankin, Stefano Basso, Sergio Campana, Marta Civitani, Paolo Conconi, Vincenzo Cotroneo, Giovanni Pareschi, Daniele Spiga",
+      "PaperNumber": "14146-273",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "32b87cfd-f1c5-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "32b87cfd-f1c5-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Searching for gravitational wave events counterparts in x-rays by tilting the multiple shells of Wolter-I optics",
+      "Description": null,
+      "Abstract": "Current X-ray telescopes have a combination of field of view and angular resolution unsuitable to accurately localize the electromagnetic counterparts of gravitational wave events. This will become increasingly important when the LIGO and Virgo experiments will work at full sensitivity, when the Einstein Telescope observatory will come online, or with the space mission LISA, all in the next decade. With the goal of having a source localization accuracy of tens of arcsec over a ~10 square degrees field of view, together with hundreds of cm^2 effective area, we study how Wolter-I optics can be appropriately modified. We compare the advantages and drawbacks of each optical design, in particular regarding the contribution of stray light.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Searching-for-gravitational-wave-events-counterparts-in-x-rays-by/14146-273",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Fabrice Pancher, Sébastien Soler, Fabien Malbet, Hugo Rousset, Manon Lizzana, Alain Léger, Thierry Lépine, Florence Ardellier-Desages, Jérôme Amiaux, Pierre-Olivier Lagage",
       "PaperNumber": "14145-188",
       "DateTimeLocationDataList": [
@@ -1510,7 +1442,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Silicon pore optics spectrograph architecture for future explorer-class soft X-ray missions",
+      "Title": "Silicon pore optics spectrograph architecture for future explorer-class soft x-ray missions",
       "Description": null,
       "Abstract": "Future soft X-ray astronomy missions require compact, lightweight spectrographs capable of high spectral resolution within mass and volume limits of explorer-class spacecraft. Silicon Pore Optics (SPO) developed by cosine and ESA have emerged as a leading technology for X-ray telescopes for their low mass, high stiffness, and modular fabrication. This work investigates an SPO-based spectrograph concept where primary focusing optics and diffraction elements are made using SPO manufacturing techniques. By engineer-matching focal length, pore geometry, and alignment tolerances between mirror and grating, a system can be optimized as a unified instrument rather than a combination of independent components. The design will be evaluated with ray-tracing simulations to assess resolving power, throughput, and sensitivity to alignment errors. This approach aims to pioneer the SPO mirror + SPO grating architecture as a path toward future spectroscopy-dedicated missions in X-ray astronomy.",
       "ImagePath": null,
@@ -1692,7 +1624,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Federico Battaini, Kalyan Radhakrishnan, Simone Di Filippo, Pietro Schipani, Riccardo Claudi, Mirko Colapietro",
+      "Authors": "Federico Battaini, Pietro Schipani, Kalyan Radhakrishnan, Mirko Colapietro, Simone Di Filippo, Riccardo Claudi, Matteo Aliverti, Davide Ricci, Silvio Di Rosa, Matteo Munari, Sergio D'Orsi, Fabrizio Vitali, Matteo Genoni, David Young, José Antonio Araiza-Durán, Sergio Campana, Francesco D'Alessio, Rosario Cosentino, Paolo D'Avanzo, Salvatore Scuderi, Lorenzo Cabona, Laura Asquini, Sagi Ben-Ami, Ofir Hershko, Anna Brucalassi, Ricardo Zanmar Sanchez, Giuliano Pignata, Marco Landoni, Jani Achrén, Andrea Baruffolo, Alex Bichkovsky, Federico Biondi, Giulio Capasso, Enrico Cappellaro, Massimo Della Valle, Rosario Di Benedetto, Luigi Lessio, Gianluca Li Causi, Adam Rubin, Maximilian Stritzinger, Bernardo Salasnich, Stephen Smartt, Hector Pérez Ventura, Marco Riva, Seppo Mattila, Laurent Marty",
       "PaperNumber": "14152-128",
       "DateTimeLocationDataList": [
         {
@@ -1714,11 +1646,79 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "SOXS at NTT: results and lesson learned during the preliminary acceptance in Europe phase",
+      "Title": "SOXS at NTT: results and lesson learned during the preliminary acceptance in Europe phase from an AIV perspective",
       "Description": null,
-      "Abstract": "The Son Of X-Shooter (SOXS) is the specialized spectroscopy-follow-up facility for transient event with a flexible scheduler at the ESO NTT. The instrument spans from 350nm up to 2000nm with an average of R∼4500 for a 1” slit. Currently, SOXS is installed at the telescope in the scientific commissioning phase. In December 2024 we completed the Preliminary Acceptance in Europe (PAE) of the instrument after the ESO revision. We report here on the performances assessed in that phase, the lesson learned for future instruments, the corrective activities and the tools prepared for the AIV/commissioning at the telescope.",
+      "Abstract": "The Son Of X-Shooter (SOXS) is the dedicated spectroscopic follow-up facility for transient astronomy at the ESO NTT, providing simultaneous coverage from 350 nm to 2000 nm with an average resolving power of R∼4500 for a 1″ slit.  Following the successful completion of the Preliminary Acceptance in Europe (PAE) in late 2024, we assessed the instrument performance through a comprehensive verification campaign, including spectroscopic characterization, flexure compensation, cryogenic validation, detector and calibration-unit testing, and end-to-end operational checks.  We present the main results of these activities, summarize the corrective actions implemented after acceptance, and discuss the key lessons learned for future ESO instrumentation projects and for the ongoing commissioning phase at the telescope.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/SOXS-at-NTT--results-and-lesson-learned-during-the/14152-128",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Laura Schreiber, Emiliano Diolaiti, Davide Ricci, Andrea La Camera, Marcello Ravenna, Giuliana Fiorentino, Carmela Lardo, Claudia Mignone, Maria Tantalo, Antonino Nunnari, Vittorio Francesco Braga",
+      "PaperNumber": "14150-219",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "1e3bfbe9-80cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "1e3bfbe9-80cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "Starfinder: from IDL to open-source Python TM software for empirical PSF modeling and crowded-field analysis in high-resolution imaging",
+      "Title": "Starfinder: from IDL to open-source Python software for empirical PSF modeling and crowded-field analysis in high-resolution imaging",
+      "Description": null,
+      "Abstract": "We present the final Python release of the Starfinder crowded-field photometry/astrometry package for images with complex, spatially variable PSFs, especially from adaptive optics. The code retains the proven empirical-PSF methodology while adding a modern GUI built on a client–server concept and performance/functional upgrades. New optimizations target very large images and extended PSF models, enabling efficient analysis of future ELT-scale datasets. Starfinder is instrument-agnostic, suitable for AO imaging as well as diffraction-limited space data, and is released open access with documentation and tutorials.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Starfinder--from-IDL-to-open-source-Python-software-for/14150-219",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Melissa Flores, Alexa LaPinta, Caden Burkhardt, John D. Monnier, James Cutler, Leonid Pogorelyuk",
+      "PaperNumber": "14145-197",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "8ea9e0fa-80d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "8ea9e0fa-80d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "STARI fiber-injection prototype testing and simulation",
+      "Description": null,
+      "Abstract": "The STarlight Acquisition and Reflection toward Interferometry (STARI) is a NASA-funded joint mission to advance technology for future space interferometry with two 8U cubeSATs to collect/transfer starlight between each other using a single mode fiber. We present a lab proof-of-concept for a two satellite system demonstrating fiber-coupling and simulations for starlight transmission between satellites.The first payload is the Pupil Transport (PT) that collects the incoming starlight and reflects it into the other spacecraft. The second is the Fiber Injection and Detection (FID) that injects the reflected starlight into a single-mode fiber on the other spacecraft and uses itself as a referenceIn this lab set-up, we achieve a 90.9% match to the simulation results for optimal coupling efficiency. This level of coupling efficiency can then be used in future missions to collect meteorology data on stars and exoplanets using formation flying fiber coupled systems.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/STARI-fiber-injection-prototype-testing-and-simulation/14145-197",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1727,10 +1727,10 @@
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

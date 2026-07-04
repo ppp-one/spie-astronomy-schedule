@@ -26,109 +26,7 @@
   },
   "Items": [
     {
-      "Authors": "Huiqi Ye, Jean Louis Lizon, Fujia Du, Zhen Tang, Kai Zhang",
-      "PaperNumber": "14149-319",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "32366631-cfc8-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "32366631-cfc8-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "CHORUS on GTC: fiber link and fiber scrambling",
-      "Description": null,
-      "Abstract": "CHORUS (Canary Hybrid Optical high-Resolution Ultra-stable Spectrograph) is a powerful science instrument under development for the 10.4m Gran Telescopio Canarias (GTC). It aims to detect and study habitable exoplanets by high-precision radial velocity measurement and extend the scientific research in some forefront areas such as element origin, black holes, galaxy evolution, etc., for the decade to come. To reach this scientific goal, this spectrograph provides a spectral resolution of R≥120,000 in the visible wavelength region (425–780 nm) and R≥25,000 in the near-UV range (310–425 nm) simultaneously. We present the final design of fiber link system and test results of a double-scrambler prototype and a dynamic scrambler prototype for CHORUS.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/CHORUS-on-GTC-fiber-link-and-fiber-scrambling/14149-319",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Liang Tang, Jean-Louis Lizon, Qiqige Xin, Bin Yu, Jiajia Wu, Shengrun Liu, Mingda Jiang, Huiqi Ye, Kai Zhang",
-      "PaperNumber": "14149-331",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "6f45b80b-57ce-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "6f45b80b-57ce-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "CHORUS on GTC: final design of the calibration system",
-      "Description": null,
-      "Abstract": "Canary Hybrid Optical high-Resolution Ultra-stable Spectrograph (CHORUS) is a high-resolution spectroscopic instrument under development for the 10.4 m Gran Telescopio Canarias (GTC) at La Palma, Spain. One of its main scientific drivers is the detection and characterization of extra-solar planets. The visible branch spectrograph (VIS) has a spectral resolving power of R≥120000 (425–780 nm) and is vacuum stabilized for performing high precision radial velocity (RV) measurements. The UV branch spectrograph (UVS) has a spectral resolving power of R≥25000 (310–425 nm) and allows for stellar activity monitoring. Aiming at a radial velocity precision at the sub-m/s level, CHORUS has a dedicated calibration system enabling high precision calibration under different observation modes. This paper reports on the final design and prototyping work of the CHORUS calibration system (CLS).",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/CHORUS-on-GTC-final-design-of-the-calibration-system/14149-331",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Kai Zhang, Shengrun Liu, Yuan Liang, Liang Wang, Qiqige Xin, Jean-Louis Lizon, Yongtian Zhu",
-      "PaperNumber": "14149-338",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "da337912-b5ce-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "da337912-b5ce-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "CHORUS on GTC: optical design of the UV band spectroscopic chain",
-      "Description": null,
-      "Abstract": "The Canary Hybrid Optical high-Resolution Ultra-stable Spectrograph (CHORUS) is a high-precision spectrograph facility designed for the 10.4 m Gran Telescopio Canarias (GTC). It employs a dual-band configuration, combining an ultraviolet-band spectrograph (UVS) with a visible-band spectrograph (VIS), to optimize performance for faint-object detection in the UV and for extreme precision radial velocity (EPRV) measurements in the visible band. This paper presents a complete UV spectroscopic chain from the Nasmyth focus to the science detector, in which the UVS is fed by fore-optics rather than by a fiber link. This design delivers a spectral resolution of R ≥ 25,000 over the wavelength range 310–420 nm, providing strong competitiveness for spectroscopic observations in the ultraviolet. The resulting capability will support studies of stellar activity relevant to EPRV science and will also enable frontier research in areas such as galactic archaeology and related fields.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/CHORUS-on-GTC--optical-design-of-the-UV-band/14149-338",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Kai Zhang, Bernard Delabre, Liang Wang, Shengrun Liu, Yuan Liang, Qiqige Xin, Jean-Louis Lizon, Xuesong Wang",
+      "Authors": "Kai Zhang, Bernard Delabre, Jean-Louis Lizon, Liang Wang, Shengrun Liu, Yuan Liang, Qiqige Xin, Xuesong Wang",
       "PaperNumber": "14149-360",
       "DateTimeLocationDataList": [
         {
@@ -152,7 +50,7 @@
       "HTMLTitle": "",
       "Title": "CHORUS on GTC: optical design of the visible band spectrograph",
       "Description": null,
-      "Abstract": "The Canary Hybrid Optical high-Resolution Ultra-stable Spectrograph (CHORUS) is a high-precision spectrographic facility designed for the 10.4 m Gran Telescopio Canarias (GTC). It employs a dual-band configuration, combining an ultraviolet-band spectrograph (UVS) with a visible-band spectrograph (VIS), to optimize performance for faint-object detection in the ultraviolet and for extreme precision radial velocity (EPRV) measurements in the visible. With its high-performance capabilities in EPRV, the VIS will advance key scientific areas such as the search for habitable exoplanets and the study of planetary atmospheres. This paper presents the optical design of the VIS, which integrates a pupil slicer with an anamorphic white-pupil system to achieve a very high spectral resolution of R ≥ 120,000 across the wavelength range of 420–780 nm. The spectrograph employs two spectral arms (G and R) to accommodate all the spectra from two parallel science fibers.",
+      "Abstract": "The CHORUS is a high-precision spectrographic facility for the 10.4m Gran Telescopio Canarias (GTC) at La Palma, Canarias, Spain. The VIsible band Spectrograph (VIS), which is the most important subsystem in the CHORUS, will provide the powerful competitiveness of Extreme Precision Radial Velocity (EPRV) measurement for searching habitable exoplanets, studying planetary atmosphere, and others. Its optics are composed of a pupil slicer unit and an anamorphic white-pupil system with two spectral arms (Green and Red). The VIS enables providing high-resolution of R≥120,000 over the wavelength range from 425nm to 780nm. The paper documents the way to provide the required spectral resolution by using the anamorphic pupil slicer and a mosaic echelle grating, and also accommodate all the spectra from 2 parallel science fibers by two large 9K detectors. Its optical performance and instrument specifications are verified by the corresponding simulations and analysis.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/CHORUS-on-GTC--optical-design-of-the-visible-band/14149-360",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -764,7 +662,7 @@
       "HTMLTitle": "",
       "Title": "Correlating high-energy background between SRG/eROSITA and XMM-Newton/EPIC in the magnetosphere",
       "Description": null,
-      "Abstract": "Space-based X-ray imaging is currently hindered by background noise, which   principally originates from solar wind, coronal mass ejections and Galactic   Cosmic Rays. Whilst noise is inevitable, understanding it allows for   optimised mitigation. Our project aims to characterise the high energy space   environment by correlating the background enhancements detected between   XMM-Newton and SRG/eROSITA, wherein we explicitly compare their respective   environments -- near-Earth and L2 -- by studying individual solar particle   clouds' propagation. Enhancements at L2 were detected by eROSITA and sorted   using a statistical algorithm: these will then be cross-correlated with   XMM-Newton's near-Earth detections, with delays ranging from a few seconds for   relativistic particles and an hour for soft-proton clouds.   Spatially characterising the differentiated high-energy background environment   is essential to appropriately plan for future X-ray missions, such as the   upcoming NewAthena probe.",
+      "Abstract": "Space-based X-ray imaging is hindered by background noise, which   principally originates from solar wind, coronal mass ejections and Galactic   Cosmic Rays. Whilst noise is inevitable, understanding it allows for   optimised mitigation. Our project aims to characterise the high energy space   environment by correlating the background enhancements detected between   XMM-Newton and SRG/eROSITA, wherein we explicitly compare their respective   environments -- near-Earth and L2 -- by studying individual solar particle   clouds' propagation. Enhancements at L2 were detected by eROSITA and sorted   using a statistical algorithm: these will then be cross-correlated with   XMM-Newton's near-Earth detections, with delays ranging from a few seconds for   relativistic particles and an hour for soft-proton clouds.   Spatially characterising the differentiated high-energy background environment   is essential to appropriately plan for future X-ray space observatories, such as the   upcoming NewAthena mission.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Correlating-high-energy-background-between-SRG-eROSITA-and-XMM-Newton/14146-293",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -876,7 +774,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Lawrence Bissell, Ariadna Calcines Rosario, Walter Seifert, Hans Dekker, Gerardo Avila, Luca Oggioni, Giorgio Pariani, Matteo Genoni, Roberto Cirami, Stefano Covino",
+      "Authors": "Lawrence Bissell, Walter Seifert, Ariadna Calcines Rosario, Gerardo Avila, Hans Dekker, Luca Oggioni, Giorgio Pariani, Matteo Genoni, Roberto Cirami, Stefano Covino",
       "PaperNumber": "14149-380",
       "DateTimeLocationDataList": [
         {
@@ -900,7 +798,7 @@
       "HTMLTitle": "",
       "Title": "CUBES: optical design and analysis of the VLT’s high-resolution UV spectrograph past final design review",
       "Description": null,
-      "Abstract": "CUBES (Cassegrain U-Band Efficient Spectrograph) will be the most efficient UV spectrograph on an 8-10m telescope, exploiting the ESO VLT’s higher telescope efficiency relative to the ESO ELT in ground-based UV wavelengths. The instrument provides wavelength coverage over a range of 300-405nm, with high instrumental efficiency (>37%) and a resolving power of >20,000 (HR) and >6,000 (LR). This paper presents the finalised optical design and analysis of the system after the final design review. The optical subsystems detailed include: a pair of UV-optimized atmospheric dispersion correctors designed to function out to a zenith angle of 65°; high throughput HR and LR image slicers used to reformat the field-of-view; and a dispersion-compensating three-lens spectrographic camera design.",
+      "Abstract": "CUBES (Cassegrain U-Band Efficient Spectrograph) will be the most efficient UV spectrograph on an 8-10m telescope, exploiting the ESO VLT’s higher telescope efficiency relative to the ESO ELT in ground-based UV wavelengths. The instrument provides wavelength coverage over a range of 300-405nm, with high instrumental efficiency (>37%) and a resolving power of >20,000 (HR) and >6,000 (LR). This paper presents the finalised optical design and analysis of the system after the final design review. The optical subsystems detailed include: a pair of UV-optimized atmospheric dispersion correctors designed to function out to a zenith angle of 65°; high throughput HR and LR image slicers used to reformat the field-of-view; and a non-axisymmetric three-lens spectrograph camera design.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/CUBES--optical-design-and-analysis-of-the-VLTs-high/14149-380",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -910,7 +808,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Timothy E. Pickering, Kyle B. Westfall, J. Xavier Prochaska, Joseph F. Hennawi, Debora Pelliccia, Ryan J. Cooke, Timothy Ellsworth-Bowers, Frederick B. Davies, Feige Wang, Dusty Reichwein, Brad Holden, Max Brodheim",
+      "Authors": "T. E. Pickering, J. X. Prochaska, J. F. Hennawi, K. B. Westfall, D. Pelliccia, D. Reichwein, B. Holden, M. Brodheim, T. Ellsworth-Bowers, R. Cooke, F. Davies, F. Wang, M. Mandigo-Stoba",
       "PaperNumber": "14155-156",
       "DateTimeLocationDataList": [
         {
@@ -932,11 +830,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Current status of and future plans for PypeIt, a Python-based spectroscopic data reduction pipeline",
+      "Title": "Current status of and future plans for PypeIt",
       "Description": null,
       "Abstract": "PypeIt (pronounced \"pipe it\") is a Python package that enables semi-automated processing and data reduction of optical/near-IR spectroscopic data. PypeIt is designed to be a general purpose data reduction pipeline and currently supports ~50 spectrographs on ~18 telescopes.The algorithms within PypeIt build on decades of development on previous data reduction pipelines to produce robust science-grade data products.    With the release of version 2.0.0, PypeIt enters a more mature stage of development with a codified governance structure, a better defined software versioning system, and a more consistent release schedule. Efforts are ongoing to work more closely with facilities that PypeIt supports to improve its reliability and performance when handling data from those facilities. These efforts have been aided by an award from the NSF's Pathways to Enable Open-Source Ecosystems (POSE) program.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Current-status-of-and-future-plans-for-PypeIt-a-Python/14155-156",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Current-status-of-and-future-plans-for-PypeIt/14155-156",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1182,7 +1080,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jian-Rong Gao, B. Mirzaei, M. Finkel, C. Walker, Jian-Rong Gao",
+      "Authors": "Jian-Rong Gao, B. Mirzaei, M. Finkel, C. Walker",
       "PaperNumber": "14156-120",
       "DateTimeLocationDataList": [
         {
@@ -1318,7 +1216,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Davide Vaccaro, Kenichiro Nagayoshi, Vishal Anvekar, Damian Audley, Pete Barry, Costanza Bellucci, Marcel Bruijn, Tommaso Ghigna, Jan-Willem den Herder, Peter Hargrave, Kenichi Karatsu, Mikko Kiviranta, Jan van der Kuur, Luca Lamagna, Shugo Oguri, Alessandro Paiella, Alejandro Pascual Laguna, Francesco Piacentini, Michele Pinchera, Giovanni Signorelli, Andrea Tartari",
+      "Authors": "D. Vaccaro, K. Nagayoshi, V. Anvekar, M. D. Audley, P. Barry, C. Bellucci, M. Bruijn, T. Ghigna, J. W. A. den Herder, P. Hargrave, K. Karatsu, J. van der Kuur, L. Lamagna, A. Pascual Laguna, S. Oguri, A. Paiella, F. Piacentini, G. Signorelli, A. Tartari",
       "PaperNumber": "14156-161",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1622,115 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Jae-Hyuck Choi, Hagyong Kihm",
+      "PaperNumber": "14154-350",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "ae010d6e-c3cd-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "ae010d6e-c3cd-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Development of a deep ultraviolet Fizeau interferometer for the homogeneity evaluation of UV telescope optical materials",
+      "Description": null,
+      "Abstract": "Calcium Fluoride (CaF2) is a critical optical material for UV space telescopes such as NASA's GALEX, serving in transmission grisms, and imaging windows owing to its high transmission down to 193 nm. Optical material’s homogeneity is conventionally evaluated using Fizeau interferometry at 633 nm; because the refractive index of CaF2 increases toward shorter wavelengths, inhomogeneities negligible in the visible can become significant at operational ultraviolet wavelengths. This study presents an in-house developed deep-ultraviolet (DUV) Fizeau interferometer for at-wavelength evaluation of CaF2 at 193 nm. Single-crystal CaF2 samples grown by the Czochralski method were measured at both 193 nm and 633 nm, and the wavefront errors were used to derive the spatial refractive index distribution. The results show that the measured homogeneity differs significantly between the two wavelengths, indicating that conventional 633 nm interferometry may fail to detect inhomogeneities at UVs.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-a-deep-ultraviolet-Fizeau-interferometer-for-the-homogeneity/14154-350",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Wouter van Straalen, Johannes Algera, Niels Ligterink, Pierre Piron, Jérôme Loicq",
+      "PaperNumber": "14149-327",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "e79e301d-a8cb-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "e79e301d-a8cb-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Development of a goniometric spectro-polarimeter for planetary surface analogue measurements",
+      "Description": null,
+      "Abstract": "In the study of planetary bodies, spectrometry of reflected light is widely used to characterize the composition of planetary surfaces. However, the light polarization, which can be studied in addition to the spectrum, also carries information about the microscopic structure of planetary surfaces. The reflected polarization can be connected to the grain size, porosity, birefringence, crystal structure, signatures of living organisms, and more. To expand our knowledge on the possible applications of spectro-polarimetry in planetary surface characterization, the AgSPARROW (A goniometric Spectro-PolARimeteR for Optical and NIR Wavelengths) instrument is being developed at TU Delft to measure the spectro-polarimetric signature of light reflected from planetary surface analogue samples at various phase angles. The study will focus on investigating polarization signatures that can reveal additional information about surface structures which is inaccessible with only spectral measurements.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-a-goniometric-spectro-polarimeter-for-planetary-surface-analogue/14149-327",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Shigeyuki Sako, Keito Kurashima, Kazuya Matsubayashi, Yuki Hirao, Emon Kodama, Hideto Yoshida, Taketo Ando, Daisuke Takada, Kosuke Kushibiki, Mamoru Doi, Koji S. Kawabata, Tomonori Totani, Keiichi Maeda, Masaomi Tanaka, Yuu Niino, Ryota Fukai, Ryou Ohsawa, Satoshi Takita, Jin Beniyama, Taiga Sasaoka, Sorato Wada, Shodai Nezu, Haruka Nagasawa, Natsu Madokoro, Yosuke Takamura, Yuzuru Yoshii, Takashi Miyata, Kotaro Kohno, Kentaro Motohara, Takeo Minezaki, Fumi Egusa, Itsuki Sakon, Masahiro Konishi, Takafumi Kamizuka, Hidenori Takahashi, Kana Morokuma-Matsui, Hiroaki Sameshima, Mitsuyoshi Yamagishi, Masataka Imai, Takashi Horiuchi, Natsuko M. Kato",
+      "PaperNumber": "14149-330",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "904529cb-51ce-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "904529cb-51ce-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Development of Laguna: an optical instrument complex for the TAO 6.5-m telescope",
+      "Description": null,
+      "Abstract": "Laguna is an optical instrument complex under development for the TAO 6.5-m telescope. Designed for both general observations and time-domain astronomy, Laguna integrates multiple observational units within a common mechanical structure sharing the telescope focal plane. Three units are currently being developed: Laguna-CAM, Laguna-SPEC, and Laguna-SPAD. Laguna-CAM is a simultaneous three-band CMOS imaging unit with a 4-arcmin-diameter field of view (FoV), providing efficient multi-band observations and color information during high-speed observations. Laguna-SPEC combines a low-dispersion NUV prism spectrograph and a medium-dispersion echelle spectrograph, providing spectroscopic coverage from 300 to 1000 nm. Its slits are permanently located within the Laguna-CAM FoV, enabling rapid spectroscopic follow-up without changing observing modes. Laguna-SPAD is a high-speed imaging and polarimetric unit employing a large-format SPAD image sensor for sub-second and millisecond observations.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-Laguna--an-optical-instrument-complex-for-the/14149-330",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

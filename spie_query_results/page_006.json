@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Avi Patel, Kevin Bundy, Aditya Sengupta, Matthew DeMartino, Anna Gagnebin, Emiel Por, Majid Mohammad, Michael Arena, Aled Cuda, Kiana Ejercito, Stephen Eikenberry, Ben Mazin, Holger Schmidt",
-      "PaperNumber": "14154-227",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "c2567d6c-0cd0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "c2567d6c-0cd0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Design and simulation of a photonic lantern-inspired astrophotonic chip for spectral sensing",
-      "Description": null,
-      "Abstract": "Compact astrophotonic sensors can trade general-purpose spectral coverage for task-specific wavelength discrimination in a small integrated footprint. Developed with the Mazin Lab at UC Santa Barbara, this chip couples a single-mode input into a multimode interference region and seven-port fanout, producing wavelength-dependent output power fingerprints for spectral retrieval. Using ANSYS Lumerical FDTD simulations in silicon nitride, we compare symmetric and staggered-release geometries and quantify throughput, wavelength-dependent changes in the seven-port output distribution, and sensitivity near a 745 nm design point. We optimize over the tested geometric parameter space and identify designs with improved throughput and wavelength discrimination, including increased throughput-weighted Fisher information relative to the baseline. These results suggest that lantern-inspired integrated photonics can enable compact, task-specific spectral sensors for astrophotonic applications.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Design-and-simulation-of-a-photonic-lantern-inspired-astrophotonic-chip/14154-227",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Bennet Schwab, Travis Curtis, Oswald Siegmund, Jason McPhate, Anton Tremsin",
       "PaperNumber": "14146-157",
       "DateTimeLocationDataList": [
@@ -150,9 +116,9 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Design and verification of the HARPS3 exposure meter: a dual-band photometer for improved photon-weighted barycentric corrections",
+      "Title": "Design and verification of the HARPS3 exposure meter: a dual-band photometer for improved photon-weighted barycentric correction",
       "Description": null,
-      "Abstract": "The High Accuracy Radial velocity Planet Searcher – 3 (HARPS3) is being developed for the Terra Hunting Experiment, a 10-year program targeting nightly observations of solar-like stars to search for long-period, low-mass exoplanets. Achieving 10 cm s⁻¹ radial-velocity precision requires accurate barycentric corrections, which depend on the true photon-weighted time of observation. Long exposures and CCD readout constraints make this difficult, so real-time flux monitoring is needed. Because atmospheric transmission varies across the optical range, the photon-weighted mid-time can differ for blue and red wavelengths. To account for this, we have designed a dual-band exposure meter for HARPS3 using a 550 nm dichroic to measure blue and red flux independently. We present the design, laboratory verification, and on-sky performance of this new system and compare it with the previous single-channel design.",
+      "Abstract": "The High Accuracy Radial velocity Planet Searcher – 3 (HARPS3) is being developed for the Terra Hunting Experiment, a 10-year program targeting nightly observations of solar-like stars to search for long-period, low-mass exoplanets. Achieving 10 cm s⁻¹ radial-velocity precision requires accurate barycentric corrections, which depend on the true photon-weighted time of observation. Long exposures and CCD readout constraints make this difficult, so real-time flux monitoring is needed. Because atmospheric transmission varies across the optical range, the photon-weighted mid-time can differ for blue and red wavelengths. To account for this, we have designed a dual-band exposure meter for HARPS3 using a 550 nm dichroic to measure blue and red flux independently. We present the design, laboratory verification, and preliminary commissioning results of this new photometer, and discuss future plans for system characterisation with the HARPS3 spectrograph.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Design-and-verification-of-the-HARPS3-exposure-meter--a/14154-150",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -536,7 +502,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Fabio D'Anca, Alfonso Collura, Vincenzo Davide Cardinale, Elisa Guerriero, Claudio Saitta, Alberto Gulizzi, Andrea Meduri, Paolo Picchi, Alejandro Fernández-Soler, Andrea Tozzi, Paolo Chioetto, Enzo Pascale, Antonio Scippa, Riccardo Lilli, Anna Brucalassi, Javier Pérez-Álvarez, Andrea Bocchieri, Monica Rainer, Andrés García, Emanuele Pace, Paola Zuppella, Gianpaolo Preti, Luisa Sciortino, Riccardo Claudi, Giuseppe Malaguti, Marco Barbera, Michela Todaro, Ugo Lo Cicero, Salvatore Varisco, Gaspare Di Cicca, David López-García, Elisabetta Tommasi, Daniele Brienza, Manuele Gangi, Pasquale Bonfà, Angelo Olivieri, Dervis Vernani, Pierfilippo Mazzasette, Maurizio Filizzolo, Giuseppina Micela",
+      "Authors": "Fabio D'Anca, Alfonso Collura, Vincenzo Davide Cardinale, Elisa Guerriero, Claudio Saitta, Alberto Gulizzi, Andrea Meduri, Paolo Picchi, Alejandro Fernández Soler, Andrea Tozzi, Paolo Chioetto, Enzo Pascale, Antonio Scippa, Riccardo Lilli, Anna Brucalassi, Javier Pérez Álvarez, Andrea Bocchieri, Monica Rainer, Andrés García, Emanuele Pace, Paola Zuppella, Gianpaolo Preti, Luisa Sciortino, Riccardo Claudi, Giuseppe Malaguti, Marco Barbera, Michela Todaro, Ugo Lo Cicero, Salvatore Varisco, Gaspare Di Cicca, David López-García, Elisabetta Tommasi, Daniele Brienza, Manuele Gangi, Pasquale Bonfà, Angelo Olivieri, Dervis Vernani, Pierfilippo Mazzasette, Maurizio Filizzolo, Giuseppina Micela",
       "PaperNumber": "14145-120",
       "DateTimeLocationDataList": [
         {
@@ -626,11 +592,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Development of an EUV imager for the Sun–Earth L4 mission",
+      "Title": "Development of an EUV imager for the Sun-Earth L4 mission",
       "Description": null,
       "Abstract": "Sun–Earth L4 observations provide a complementary 60° offset viewpoint that expands solar coverage, improves 3D characterization of coronal structures and eruptions, and enhances the overall accuracy and continuity of space weather monitoring. An EUV Imager on the L4 mission will enable global coronal monitoring, offering critical data for understanding solar eruptions and mitigating space weather impacts. Korea has established core technologies for EUV instrumentation, including precision optics, multilayer coatings, and thin-film metal filters. In addition, synchrotron-based calibration facilities have been developed to validate instrument performance across EUV wavelengths, positioning Korea with the infrastructure necessary for next-generation space observatories. This presentation will outline the scientific significance of an EUV Imager in the L4 mission, review Korea’s current technological capabilities, and present development strategies for future EUV instrumentation.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-an-EUV-imager-for-the-SunEarth-L4-mission/14146-129",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-an-EUV-imager-for-the-Sun-Earth-L4/14146-129",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -740,7 +706,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Krittapas Chanchaiworawit, Jitsupa Paenoi, Samattachai Tanun, Teerawat Kuha, Auychai Laoyang, That Chomchuen, Pakawat Prasit, Thansita Thomrungpiyathan, Pathompong Butpan, Rungrit Anutarawiramkul, Anuphong Inpan, Suchinno Kanthum, Manlika Pinkaew, Apichat Leckngam, Kantapong Tharawan",
+      "Authors": "Kantapong Tharawan, Krittapas Chanchaiworawit, Jitsupa Paenoi, Samattachai Tanun, Teerawat Kuha, Auychai Laoyang, That Chomchuen, Pakawat Prasit, Thansita Thomrungpiyathan, Pathompong Butpan, Rungrit Anutarawiramkul, Anuphong Inpan, Suchinno Kanthum, Manlika Pinkaew, Apichat Leckngam",
       "PaperNumber": "14154-230",
       "DateTimeLocationDataList": [
         {
@@ -1216,7 +1182,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Thomas Procter, Glenn Walters, Nicholas Law, Alex Bucheli, Jonathan Carney, Hank Corbett, James Dockery, Megan Dubay, Shannon Fitton, Lawrence Machia, William Marshall, Michael Ronco, Donovan Schlekat, Alan Vasquez Soto",
+      "Authors": "Thomas Procter, Glenn Walters, Megan Dubay, Nicholas Law, Jonathan Carney, Hank Corbett, James Dockery, Katie M Fasbender, Shannon Fitton, Lawrence Machia, William Marshall, Donovan Schlekat, Alan Vasquez Soto, Jonah L Aponte, Alex Bucheli, Thomas Cowart, Colin H Grimes, Amy S Ishiguro, Michael Ronco",
       "PaperNumber": "14147-99",
       "DateTimeLocationDataList": [
         {
@@ -1250,7 +1216,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Erica E. Lugo-Ibarra, Laurence Sabin, Yair Krongold, Wen-Ping Chen, David Hiriart Garcia, Liliana Figueroa Carrillo, Alfonso H. Franco, Joel V. Herrera-Vazquez, Eduardo Lopez Angeles, Francisco Javier Valenzuela Vargas, Gerardo Sierra Díaz, Fernando Quiros, Yi Chou, Chow-Choong Ngeow, Yen-Chen Pan, Ming-Hsin Chang, Anli Tsai, Yung-Hsin Chang, Lung-Ting Wang, Julio Ramirez, Jesús González",
+      "Authors": "Erica E. Lugo-Ibarra, Laurence Sabin, Wen-Ping Chen, Yair Krongold, David Hiriart Garcia, Liliana Figueroa Carrillo, Alfonso H. Franco, Joel V. Herrera-Vazquez, Eduardo Lopez Angeles, Francisco Javier Valenzuela Vargas, Gerardo Sierra Díaz, Fernando Quiros, Eduardo Lopez Angeles, Yi Chou, Chow-Choong Ngeow, Yen-Chen Pan, Ming-Hsin Chang, Anli Tsai, Yung-Hsin Chang, Lung-Ting Wang, Javier Alonso Hernandez Landa, Julio Ramirez, Jesús González",
       "PaperNumber": "14147-98",
       "DateTimeLocationDataList": [
         {
@@ -1272,7 +1238,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Environmental site characterization for the remote operation of the TransPacific 2m Telescope (TP2m) at San Pedro Mártir National Park, Mexico",
+      "Title": "Environmental site characterization for the remote operation of the TransPacific 2m telescope (T P2m) at the San Pedro Mártir Observatory (OAN-SPM), Baja California, Mexico",
       "Description": null,
       "Abstract": "This work presents the environmental site characterization conducted to support the implementation and remote operation of the TransPacific 2m Telescope (TP2m) at the San Pedro Mártir Observatory (OAN-SPM), Baja California, Mexico. The TP2m project, a collaborative initiative between the National Autonomous University of Mexico (UNAM), the National Central University (Taiwan), and international partners, will establish a new optical facility within the Sierra de San Pedro Mártir National Park. Candidate locations within the observatory were evaluated through analyses of environmental conditions, infrastructure availability, accessibility, operational requirements, and compliance with applicable environmental regulations. The selected site provides suitable conditions for remote telescope operation while minimizing vegetation removal and ecological disturbance. OAN-SPM's existing infrastructure, including electrical power, communications, access roads, and technical support facilities,",
       "ImagePath": null,
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Woong-Seob Jeong, Youngsoo Jo, Yujin Yang, Myung Sang Huh, Gil Jae Lee, Jeonghyun Pyo",
+      "PaperNumber": "14154-306",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "2b45f16b-28d1-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "2b45f16b-28d1-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Fabrication and evaluation of aluminum image slicers for a high-throughput IFU spectrograph",
+      "Description": null,
+      "Abstract": "We present the development and of aluminum image slicers intended for use in astronomical spectrographs. The image slicer is fabricated from aluminum materials using a diamond-turning machine equipped with customized end mills. Machining parameters were optimized through test cuts on aluminum materials, establishing stable mirror-finish conditions with an average surface roughness of ~10 nm. After optimization for prototype slicers, we achieved average surface roughness values of 10-13 nm, demonstrating reproducible smooth surfaces over the full array of slicer facets. These results confirm that direct diamond-turning machining of RSA6061 can meet the surface quality required for high-throughput, low-scatter reflective image slicers. We outline the planned integration of the fabricated image slicer into a prototype Integral-Field-Unit (IFU) spectrograph and discuss the expected improvement in observing efficiency for future ground-based and space-based instruments.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Fabrication-and-evaluation-of-aluminum-image-slicers-for-a-high/14154-306",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

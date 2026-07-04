@@ -26,108 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Gioia Rau",
-      "PaperNumber": "14148-46",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 14:00 - 14:30 CEST | Room B4-M5",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "17a1922a-eefb-f011-a9ae-005056914f1c---crmrecord",
-      "GUID": "17a1922a-eefb-f011-a9ae-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Space and lunar interferometry: emerging concepts and pathways",
-      "Description": null,
-      "Abstract": "Space- and lunar-based interferometry are moving from concepts toward concrete mission designs, pathfinders and early implementation. This invited review will survey the emerging landscape, focusing on how mission concepts map onto complementary science and technology goals. I will discuss recent progress on space and lunar interferometers, and studies that explore baselines, wavelength ranges and deployment strategies for high-angular resolution and high-contrast observations. I will highlight common enabling technologies (formation flying, metrology, beam combination, cryogenic optics, onboard processing) and the specific challenges of lunar operations (thermal environment, dust, infrastructure, communications). Finally, I will place these efforts in the context of ground-based interferometry and future large-aperture facilities and outline key decisions for the coming decade.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Space-and-lunar-interferometry-emerging-concepts-and-pathways/14148-46",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 14:00 - 14:30 CEST | Room B4-M5",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Nicolás Rodríguez-Linares, Luzma Montoya, Yolanda Martín, Noelia Feijóo, Esther Soria, Javier León-Gil, Adrián Calzadilla, Miguel Núñez-Cagigal, Jorge Quintero-Nehrkorn",
-      "PaperNumber": "14150-79",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 14:00 - 14:15 CEST | Room B3-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "53d36641-25c6-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "53d36641-25c6-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Status of the European Solar Telescope adaptive optics: simulation and bench results",
-      "Description": null,
-      "Abstract": "The European Solar Telescope (EST) has completed the Preliminary Design Review (PDR) of its Single Conjugate Adaptive Optics (SCAO) system and real-time controller. We present an overview of the expected SCAO performance based on the consolidated preliminary design, including simulations of a dual-branch configuration at 500 nm and 680nm. The results, obtained with the new open-source Solar Adaptive Optics Simulator (SAOS) and validated against DASP, also evaluate key error sources specific to solar observations.  We summarise the performance of the proposed real-time controller, the Durham Adaptive Optics (DAO) platform, and the successful demonstration tests conducted with SAOS.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Status-of-the-European-Solar-Telescope-adaptive-optics--simulation/14150-79",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 14:00 - 14:15 CEST | Room B3-M2",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Frossie Economou, Gregory P. Dubois-Felsmann, Russ Allbery, Stelios Voutsinas, Angelo Fausti Neto, Adam Thornton, Dan C. Fuchs, Jonathan Sick",
-      "PaperNumber": "14155-68",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 14:00 - 14:20 CEST | Room B4-M7",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "aba33df3-62d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "aba33df3-62d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The few-servers many-clients myth: lessons from the Rubin Science Platform",
-      "Description": null,
-      "Abstract": "There is a sometimes unexamined belief that astronomical data services follow the general client server pattern found in general IT: for example there are relatively few HTTP server implementations but many browsers; there are relatively few IMAP implementations but a myriad of mail clients, etc. However even in the relatively recent past, this has not been the case for astronomical client-servers. For example, TOPCAT is the giant in the TAP client space, whereas every astronomical archive seems to have its own TAP server implementation.     This reverse asymmetry is even more evident with an environment such as the Rubin Science Platform. The argument can be made that in a science platform the users interact with a rather limited set of clients (pyvo in JupyterNotebooks or external APIs, perhaps a web portal based on Firefly or Aladin Lite), but to support that we have found dozens of server-side applications have to be written.    In this talk we will cover our anticipated im",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-few-servers-many-clients-myth--lessons-from-the/14155-68",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 14:00 - 14:20 CEST | Room B4-M7",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Giorgio Savini, Peter A.R. Ade, Peter Hargrave, Alexey Shitvov, Carole Tucker, Giampaolo Pisano, Jin Zhang",
       "PaperNumber": "14156-42",
       "DateTimeLocationDataList": [
@@ -842,7 +740,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jian-Rong Gao, Dingding Ren, J. R. G. Silva, Sofia Cremasco, Z. Zhao, Wenye Ji, Jan de Graaff, Aurèle Adam, Jian-Rong Gao",
+      "Authors": "Jian-Rong Gao, Dingding Ren, J. R. G. Silva, Sofia Cremasco, Z. Zhao, Wenye Ji, Jan de Graaff, Aurèle Adam",
       "PaperNumber": "14156-44",
       "DateTimeLocationDataList": [
         {
@@ -1328,7 +1226,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -1724,13 +1622,115 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 16:10 - 16:30 CEST | Auditorium 15",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "André J. van Es, Mark Waterson, Robert Haigh, Ivan Lloro, Randall Wayth, Lucio Tirone, Luca Stringhetti, Robert Laing, Alan Davis, Raunaq Bhushan, Pieter Benthem, Marco Caiazzo, Giulia Macario, Shinichiro Asayama, Jess Broderick, Maria Grazia Labate, Danny Price, Maciej Serylak, Riley Keel, Charlotte Sobey, Jimi Green, Ravi Subrahmanyan, Bartosz Idzkowski, Jader Monari, Gianni Bernardi, Pietro Bolli, Carolina Belli, Letizia Caito, Simone Chiarucci, Giovanni Comoretto, Paola Di Ninni, Andrea Mattana, Federico Perini, Giuseppe Pupillo, Marco Schiaffino, Monica Alderighi, Carlo Baffa, Sergio D'Angelo, Davide Fierro, Elisabeth Giani, Giovanni Naldi, Marco Poloni, Simone Rusticelli, Francesco Schiliro, Federica Caputo, Tom Booler, David Davidson, Dave Minchin, Andy McPhail, Maria Kovaleva, Marcin Sokolowski, Jishnu N. Thekkeppattu, Steven Tingay, Daniel Ung, Angela Teale, Kris Zarb Adami, Raphael Thenevin, Aniket Hendre, Jan Geralt Bij de Vaate, Riccardo Chiello, Marchel Gerbers, Jacopo Nanni, Peter Hall, Alessio Magro, Robert Braun, Giovanni Tartarini, Giuseppe Virone, Georgios Kyriakou",
+      "PaperNumber": "14153-54",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 16:10 - 16:30 CEST | Room B3-M6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "7943f59d-54cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "7943f59d-54cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The road to SKA-Low from a station prototype to a system prototype: the journey to SKA-Low AA0.5",
+      "Description": null,
+      "Abstract": "This presentation presents a comprehensive overview of the prototyping and verification activities that laid the foundation for the construction of the SKA-Low telescope. It traces the evolution from early experimental platforms (AAVS0--3) culminating in the deployment of the first four fully integrated SKA-Low stations (AA0.5). These stations, delivered as part of the AA0.5 milestone, bring together all essential subsystems of the telescope — from antennas and digitisation to signal processing and control — demonstrating end-to-end functionality at scale. The paper highlights key technical achievements, lessons learned, and the critical role of prototyping in de-risking design decisions ahead of full array construction.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-road-to-SKA-Low-from-a-station-prototype-to/14153-54",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 16:10 - 16:30 CEST | Room B3-M6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Zi-hang Zhu, Ze-yu Zhu, Zhi-hao Cao, Feng Li, Jian Wang",
+      "PaperNumber": "14151-50",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 16:10 - 16:30 CEST | Room B2-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "d6c62621-a9c7-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "d6c62621-a9c7-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "WFST-ChatOps: a domain-adapted qa chatbot for the wide field survey telescope",
+      "Description": null,
+      "Abstract": "Artificial intelligence and large language models are reshaping how humans access knowledge, collaborate on complex projects, and support critical operations. For large scientific facilities, AI assistants can help operators understand system design and obtain guidance during routine procedures and incidents.The Mozi Wide Field Survey Telescope (WFST) is a wide-field time-domain survey facility with a sophisticated hardware–software stack, creating a strong need for tools that support observation operations with reliable domain knowledge. In this work we construct a specialized question–answer dataset covering scenario-based queries on project explanations and day-to-day operations, and we use DeepSeek-R1-32B model via parameter-efficient fine-tuning to obtain WFST-ChatOps（Chat-Operations）, a domain-oriented QA chatbot that provides natural-language access to WFST project information, design reports, and operation manuals.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/WFST-ChatOps--a-domain-adapted-qa-chatbot-for-the/14151-50",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 16:10 - 16:30 CEST | Room B2-M2",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "David Murphy, Vincent Tatischeff, Philippe Laurent, Mark Pearce, Lorraine Hanlon, Aline Meuris, Prerna Baranwal, Christophe Beigbeder, Derek Bennet, Charles Boreux, Arnaud Claret, Nicolas de Séréville, Nicolas Dosme, Eric Doumayrou, Nathan Franel, Mariya Georgieva, Sally Hankache, Jimmy Jeglot, Mózsi Kiss, Beng-Yun Ky, Vincent Lafage, Christine Le Galliard, Joseph Mangan, Caimin McKenna, Jean Peyré, Arjun Poitaya, Marin Prieur, Diana Renaud, Arnaud Saussac, Aman Shetty, Alexey Uliyanov, Colin Wade, Phil Webster, Varun Varun, Camille Pirat",
+      "PaperNumber": "14146-91",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 16:20 - 16:40 CEST | Room B4-M1",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "9636705a-6fd0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "9636705a-6fd0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "COMCUBE-S: a CubeSat swarm for GRB polarimetry and localisation",
+      "Description": null,
+      "Abstract": "COMCUBE-S is a proposed CubeSat swarm mission designed to provide polarisation measurements of Gamma-Ray Burst prompt emission as well as all-sky monitoring for high-energy time domain astronomy, with rapid alert notifications in response to high energy transients.    The mission consists of 28 16U CubeSats. Each satellite carries an advanced miniaturised Compton telescope allowing COMCUBE-S to make temporal, spectral, and polarimetric measurements of gamma-rays in the tens of keV to a few MeV range    The swarm satellites will be equally distributed along an equatorial orbit, forming a closed ring of intersatellite links. Satellites in the swarm are able to identify high-energy transients, relay data to the ground and distribute source locations to observatories worldwide for follow-up. COMCUBE-S will localise 160 GRBs per year with positions distributed within 120 s.    The project has completed a Phase A study with ESA and aims to launch a two-satellite in-orbit demonstarion by 2030.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/COMCUBE-S--a-CubeSat-swarm-for-GRB-polarimetry-and/14146-91",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 16:20 - 16:40 CEST | Room B4-M1",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

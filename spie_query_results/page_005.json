@@ -26,41 +26,7 @@
   },
   "Items": [
     {
-      "Authors": "Eitan Péchevis, Jérôme Amiaux, Clara Bataillon, Marion Baumann, Michel Berthé, Thomas Capocci, Christophe Cara, Cyrille Delisle, Elsa Ducrot, Jean Fontignie, Benoit Horeau, Duc-Dat Huynh, Grégory Kaszubiak, Pierre-Olivier Lagage, Isabelle Le Mer, Nathan Leguay, Michel Lortholary, Jérôme Martignac, Thibault Pichon, Léna Provost, Bastien Reboul, Diana Renaud, Thierry Tourrette, François Visticot, Damien Bachet, Nicolas Berton, Christophe Cossou, Mickaël Lacroix, Hervé Le Provost, Virgile Meyer, Lexane Picault, Nicolas Solenne, Antoine Arondel, Stéphane Correia-da-Costa, Bruno Crane, Jean-Pierre Dubois, Norma Hurtado, Clémence De Jabrun, François Langlet, Benoît Lecomte, Antoine Maillot, Marc Ollivier, Anne Philippon, Catherine Tamiatto, Stéphane Tosti, Xue Yan Zhang, Eric Gendron, Yanis Gougeat, Vincent Lapeyrere, Jérôme Parisot, Jean-Michel Reess, Didier Zeganadin, Alain Triffaux, Jean-Christophe Bouquier, Daphné Caillot, Fabrice Glize, Pascal Truchelut, Jean-Philippe Beaulieu, Pierre Drossart, Angèle Sity, Pierre Vigneron, Isabelle Zenone, Elisa Baldit, Pascale Danto, Hervé Geoffray, Gaëlle Giesen, Elodie Jacquel, Oceane Maisonnave, Florian Lazartigues, Paul Eccleston, Enzo Pascale, Adrien Défossé, Mallaury Guerrier",
-      "PaperNumber": "14145-113",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "5911d025-91cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "5911d025-91cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Ariel InfraRed Spectrometer (AIRS): performance of the full instrument engineering model",
-      "Description": null,
-      "Abstract": "ARIEL IR Spectrometer (AIRS) is the infrared spectroscopic instrument of the ARIEL mission providing spectroscopy based on two independent channels covering the CH0 [1.95-3.90] µm and the CH1 [3.90-7.80] µm wavelength. The instrument is producing spectrum of low resolutions R>100 in CH0 and R>30 in CH1 on two independent Teledyne H1RG detectors. The Engineering Model is the first model fully representative in terms of performance of the full instrument chain, from optical to detection chain performance. The test bench and the results of the AIRS Engineering Model full instrument characterization of performance are presented in this paper covering the optical and detection chain in a representative environment of the mission.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Ariel-InfraRed-Spectrometer-AIRS--performance-of-the-full-instrument/14145-113",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Anna Brucalassi, José Antonio Araiza-Durán, Paolo Picchi, Andrea Tozzi, Andrew Caldwell, Andrea Bocchieri, Enzo Pascale, Camille Galy, Andres Garcia Pérez, Alejandro Jose Fernandez, Gianluca Morgante, Javier Pérez Álvarez, Davide Bruzzi, Martin E. Caldwell, Vincenzo Davide Cardinale, Paolo Chioetto, Fabio D'Anca, Paul Eccleston, Daniele Gottini, Elisa Guerriero, Riccardo Lilli, Giuseppe Malaguti, Giuseppina Micela, Angelo Olivieri, Emanuele Pace, Giampaolo Preti, Giorgio Savini, Antonio Scippa, Giovanna Tinetti, Paola Zuppella",
+      "Authors": "A. Brucalassi, J. A. Araiza-Durán, P. Picchi, A. Tozzi, A. G. Pérez, A. J. Fernandez-Soler, C. Galy, A. Caldwell, A. Fitzpatrick, A. Bocchieri, E. Pascale, J. Pérez Álvarez, G. Morgante, D. Bruzzi, M. E. Caldwell, V. D. Cardinale, P. Chioetto, F. D'Anca, P. Eccleston, D. Ferruzzi, D. Gottini, E. Guerriero, D. Jollet, R. Lilli, G. Micela, A. Olivieri, E. Pace, G. Preti, M. Rainer, G. Savini, A. Scippa, G. Tinetti, P. Zuppella",
       "PaperNumber": "14145-111",
       "DateTimeLocationDataList": [
         {
@@ -82,11 +48,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "ARIEL Payload STOP Analysis: updated results on the in-flight operational cases for the Telescope Assembly",
+      "Title": "ARIEL payload STOP analysis: updated results on the in-flight operational cases for the telescope assembly",
       "Description": null,
       "Abstract": "At payload level, a Structural, Thermal, and Optical Performance (STOP) analysis is carried out to evaluate how thermo-elastic effects may impact the instrument’s optical performance. A STOP analysis integrates structural, thermal, and optical models to predict how temperature variations and mechanically induced deformations propagate through the telescope assembly and ultimately affect key optical metrics such as alignment, wavefront error, and imaging quality. This coupled approach enables the estimation of performance degradation under representative environmental load cases and supports verification of compliance with scientific and engineering requirements.    This document presents the updated results of the optical design analysis performed to predict the in-flight performance for the Telescope Assembly of the ESA M4 mission Ariel according to the operational scenarios defined for Cycle C-2.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/ARIEL-Payload-STOP-Analysis--updated-results-on-the-in/14145-111",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/ARIEL-payload-STOP-analysis--updated-results-on-the-in/14145-111",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -184,7 +150,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Atomic-oxygen irradiation of metal-coated carbon-nanotube based filters developed for the NASA’s MUSE solar mission",
+      "Title": "Atomic-oxygen irradiation of metal-coated carbon-nanotube-based filters developed for the NASA’s MUSE solar mission",
       "Description": null,
       "Abstract": "The Multi-slit Solar Explorer (MUSE) will use a multi-slit spectrograph and a context imager to observe the  solar transition region and corona in the extreme ultraviolet. Metal-coated carbon-nanotube (CNT) pellicles  have been developed as optical blocking filters for the two instruments. Because MUSE will operate in low  Earth orbit, the filters must tolerate atomic oxygen (AtOx) without losing in-band throughput or out-of-band  rejection. We report results of a conservative AtOx irradiation and characterization test campaign performed  on four flight-model witness filters: 150-nm and 600-nm Al coatings and 200-nm and 600-nm Zr coatings on  dual-layer single-wall CNT pellicles.",
       "ImagePath": null,
@@ -298,7 +264,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Thomas Procter, Megan Dubay, Nicholas Law, Hank Corbett, William Marshall, Alan Vasquez Soto, Alex Bucheli, Jonathan Carney, James Dockery, Shannon Fitton, Lawrence Machia, Michael Ronco, Donovan Schlekat, Glenn Walters",
+      "Authors": "Thomas Procter, Megan Dubay, Hank Corbett, Nicholas Law, Jonathan Carney, James Dockery, Katie M Fasbender, Shannon Fitton, Lawrence Machia, William Marshall, Donovan Schlekat, Alan Vasquez Soto, Jonah L Aponte, Alex Bucheli, Thomas Cowart, Colin H Grimes, Amy S Ishiguro, Michael Ronco, Glenn Walters",
       "PaperNumber": "14154-286",
       "DateTimeLocationDataList": [
         {
@@ -424,7 +390,7 @@
       "HTMLTitle": "",
       "Title": "Capillary-operated stable mesoporous optical system (COSMOS): design update for the Zenith-DARPA program",
       "Description": null,
-      "Abstract": "We report recent progress on the COSMOS tiltable liquid mirror, developed under the DARPA Zenith program by GE Vernova in collaboration with Université Laval and Savy Optics. This scalable, non-rotating liquid mirror system features a dual-layer configuration: a ferrofluid base for magnetic actuation and a silver nanoparticle monolayer for high reflectivity. Surface shape and optical quality are actively controlled through capillary/adhesion and magnetic body forces generated by three separate sets of electromagnetic coils operating in a closed-loop enviroment with a deflectometry-based wavefront sensor. In this work, we present the construction and performance of up to 18 cm diameter prototype. We demonstrated closed loop operation with tilting up to 1 degree and the ability to achieve a liquid surface with 10 meters radius of curvature.",
+      "Abstract": "We report recent progress on the COSMOS tiltable liquid mirror, developed under the DARPA Zenith program by GE Vernova in collaboration with Université Laval and Savy Optics. This scalable, non-rotating liquid mirror system features a dual-layer configuration: a ferrofluid base for magnetic actuation and a silver nanoparticle monolayer for high reflectivity. Surface shape and optical quality are actively controlled through capillary/adhesion and magnetic body forces generated by three separate sets of electromagnetic coils operating in a closed-loop enviroment with a deflectometry-based wavefront sensor. In this work, we present the construction and performance of up to 18 cm diameter prototype. We demonstrated closed loop operation with tilting up to 1 degree and the ability to achieve a liquid surface with 1.7 meters radius of curvature.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Capillary-operated-stable-mesoporous-optical-system-COSMOS--design-update/14154-322",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -910,7 +876,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Célestin Libert, Tanguy Thibert, Pierre Guiton, Gary Lejeune, Jérôme Jacobs, Jean-Yves Plesseria",
+      "Authors": "Célestin Libert, Tanguy Thibert, Pierre Guiton, Gary Lejeune, Emile Ruwet, Isabelle Tychon, Sylvie Liébecq, Juan-Felipe Simar, Jérôme Jacobs, Jean-Yves Plesseria",
       "PaperNumber": "14154-272",
       "DateTimeLocationDataList": [
         {
@@ -934,7 +900,7 @@
       "HTMLTitle": "",
       "Title": "Comet interceptor scan mirror assembly: AIV of the qualification model",
       "Description": null,
-      "Abstract": "Comet Interceptor is a fast-class mission in ESA’s Cosmic Vision Program comprising three spacecrafts. With a short development process challenge, it will be the first mission to visit a Long Period Comet that is starting its journey in the inner Solar System.  The Rotating Mirror Assembly is mounted on the Comet Interceptor spacecraft A, rotating a mirror facing the Comet Camera instrument. The rotation allows continuous observations during the flyby. It is composed of the Scan Mirror Assembly (SMA), the CSL’s contribution, and the Scan Mirror Electronics (SME) from Thales Alenia Space Switzerland. The SMA is constituted of mirror assembly with a baffle, a mirror, a dust shield, and a rotation mechanism below.  In this paper, the design of the SMA is presented, and the main result of the integration, assembly and test campaign of the Qualification Model (QM) are discussed. A conclusion presents the lessons learned during this qualification phase of this first fast-class mission.",
+      "Abstract": "Comet Interceptor is a fast-class mission in ESA’s Cosmic Vision Program comprising three spacecrafts. With a short development process challenge, it will be the first mission to visit a Long Period Comet that is starting its journey in the inner Solar System. The Rotating Mirror Assembly is mounted on the Comet Interceptor spacecraft A, rotating a mirror facing the Comet Camera instrument. The rotation allows continuous observations during the flyby. It is composed of the Scan Mirror Assembly (SMA), the CSL’s contribution, and the Scan Mirror Electronics (SME) from Thales Alenia Space Switzerland. The SMA is constituted of mirror assembly with a baffle, a mirror, a dust shield, and a rotation mechanism below. In this paper, the design of the SMA is presented, and the main result of the integration, assembly and test campaign of the Qualification Model (QM) are discussed. A conclusion summarizes the actual status of the project and presents the next activities planned.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Comet-interceptor-scan-mirror-assembly--AIV-of-the-qualification/14154-272",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -954,7 +920,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -1284,7 +1250,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Gerhard Ulbricht, Gary Donegan, Cáthal McAleer, Stephenie Brophy Lee, Mario De Lucia, Eoin Baldwin, Jack Piercy, Oisín Creaner, Piotr Wawer, Przemysław Nita, Deirdre Coffey, Tom Ray",
+      "Authors": "Gerhard Ulbricht, Gary Donegan, Cáthal McAleer, Stephenie Brophy Lee, Lyra Quinlan, Mario De Lucia, Eoin Baldwin, Jack Piercy, Oisín Creaner, Piotr Wawer, Przemysław Nita, Deirdre Coffey, Tom Ray",
       "PaperNumber": "14145-119",
       "DateTimeLocationDataList": [
         {
@@ -1306,11 +1272,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Cryogenic qualification testing of dichroic filters 1-5 for ESA’s ARIEL mission",
+      "Title": "Cryogenic qualification testing of the common optics dichroic filters 1 to 5 for ESA’s ARIEL mission",
       "Description": null,
       "Abstract": "ARIEL, the Atmospheric Remote‐sensing Infrared Exoplanet Large‐survey mission, is ESA’s Cosmic Vision M4 mission and will study the atmospheres of up to 1000 exoplanets. It uses a set of five dichroic filters (D1 to D5) to split the incoming bandwidth of 0.5 to 7.8 μm and will operate between 40 K and 60 K. We will present ongoing efforts of qualification testing of the D1 - D5 dichroics. Our Tests are performed at ambient and cryogenic temperatures and include transmission and reflectivity spectra, the cryogenic shift of the dichroic’s transition wavelength, wave-front error measurements, humidity testing and cryogenic cycling between 37 K and 323 K. We will give a progress report and will elaborate on achieved results, experimental setups and encountered challenges. We will also discuss steps to establish an instrumentation clean room, suitable for flight acceptance testing for in-space instrumentation.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Cryogenic-qualification-testing-of-dichroic-filters-1-5-for-ESAs/14145-119",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Cryogenic-qualification-testing-of-the-common-optics-dichroic-filters-1/14145-119",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1352,7 +1318,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Sibo Van Gool, Bart Vandenbussche, Gert Raskin, Hugues Sana, Leonardo Peri, Louis Storm, Julien Storm, Pierre Royer, Maddalena Reggiani, Jan Goris",
+      "Authors": "Sibo Van Gool, Bart Vandenbussche, Gert Raskin, Hugues Sana, Leonardo Peri, Louis Storm, Julien Storm, Pierre Royer, Maddalena Reggiani, Matteo Mallia, Dirk Vandepitte, Dominic Bowman, Camille Pirat, Jan Goris",
       "PaperNumber": "14145-133",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Avi Patel, Kevin Bundy, Aditya Sengupta, Matthew DeMartino, Anna Gagnebin, Emiel Por, Majid Mohammad, Michael Arena, Aled Cuda, Kiana Ejercito, Stephen Eikenberry, Ben Mazin, Holger Schmidt",
+      "PaperNumber": "14154-227",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "c2567d6c-0cd0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "c2567d6c-0cd0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Design and simulation of a photonic lantern-inspired astrophotonic chip for spectral sensing",
+      "Description": null,
+      "Abstract": "Compact astrophotonic sensors can trade general-purpose spectral coverage for task-specific wavelength discrimination in a small integrated footprint. Developed with the Mazin Lab at UC Santa Barbara, this chip couples a single-mode input into a multimode interference region and seven-port fanout, producing wavelength-dependent output power fingerprints for spectral retrieval. Using ANSYS Lumerical FDTD simulations in silicon nitride, we compare symmetric and staggered-release geometries and quantify throughput, wavelength-dependent changes in the seven-port output distribution, and sensitivity near a 745 nm design point. We optimize over the tested geometric parameter space and identify designs with improved throughput and wavelength discrimination, including increased throughput-weighted Fisher information relative to the baseline. These results suggest that lantern-inspired integrated photonics can enable compact, task-specific spectral sensors for astrophotonic applications.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Design-and-simulation-of-a-photonic-lantern-inspired-astrophotonic-chip/14154-227",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

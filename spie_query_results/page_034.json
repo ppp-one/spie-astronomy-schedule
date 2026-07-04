@@ -26,75 +26,7 @@
   },
   "Items": [
     {
-      "Authors": "Laura Schreiber, Emiliano Diolaiti, Davide Ricci, Andrea La Camera, Marcello Ravenna, Giuliana Fiorentino, Carmela Lardo, Claudia Mignone, Maria Tantalo, Antonino Nunnari, Vittorio Francesco Braga",
-      "PaperNumber": "14150-219",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "1e3bfbe9-80cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "1e3bfbe9-80cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "Starfinder: from IDL to open-source Python TM software for empirical PSF modeling and crowded-field analysis in high-resolution imaging",
-      "Title": "Starfinder: from IDL to open-source Python software for empirical PSF modeling and crowded-field analysis in high-resolution imaging",
-      "Description": null,
-      "Abstract": "We present the final Python release of the Starfinder crowded-field photometry/astrometry package for images with complex, spatially variable PSFs, especially from adaptive optics. The code retains the proven empirical-PSF methodology while adding a modern GUI built on a client–server concept and performance/functional upgrades. New optimizations target very large images and extended PSF models, enabling efficient analysis of future ELT-scale datasets. Starfinder is instrument-agnostic, suitable for AO imaging as well as diffraction-limited space data, and is released open access with documentation and tutorials.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Starfinder--from-IDL-to-open-source-Python-software-for/14150-219",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Melissa Flores, Alexa LaPinta, John D. Monnier, James Cutler, Leonid Pogorelyuk",
-      "PaperNumber": "14145-197",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "8ea9e0fa-80d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "8ea9e0fa-80d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "STARI fiber-injection prototype testing and simulation",
-      "Description": null,
-      "Abstract": "The STarlight Acquisition and Reflection toward Interferometry (STARI) is a NASA-funded joint mission to advance technology for future space interferometry with two 8U cubeSATs to collect/transfer starlight between each other using a single mode fiber. We present a lab proof-of-concept for a two satellite system demonstrating fiber-coupling and simulations for starlight transmission between satellites.The first payload is the Pupil Transport (PT) that collects the incoming starlight and reflects it into the other spacecraft. The second is the Fiber Injection and Detection (FID) that injects the reflected starlight into a single-mode fiber on the other spacecraft and uses itself as a reference. In the lab set-up, we achieve a 20% match to the simulation results for optimal coupling efficiency. This level of coupling efficiency can then be used in future missions to collect meteorology data on stars and exoplanets using formation flying fiber coupled systems.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/STARI-fiber-injection-prototype-testing-and-simulation/14145-197",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Lorenzo Merli, Daniele Vassallo, Elena Carolo, Simone Di Filippo, Tânia Gomes Machado, Paolo Cerpelloni, Alessandro Lorenzetto, Domenico Barbato, Dino Mesa, Cecilia Lazzoni, Luca Marafatto, Jacopo Farinato, Maria Bergomi, Fulvio Laudisio, Davide Ricci, Gabriele Umbriaco",
+      "Authors": "Lorenzo Merli, Daniele Vassallo, Elena Carolo, Simone Di Filippo, Tania Sofia Gomes Machado, Paolo Cerpelloni, Alessandro Lorenzetto, Domenico Barbato, Dino Mesa, Cecilia Lazzoni, Luca Marafatto, Jacopo Farinato, Maria Bergomi, Fulvio Laudisio, Davide Ricci, Gabriele Umbriaco",
       "PaperNumber": "14155-133",
       "DateTimeLocationDataList": [
         {
@@ -116,7 +48,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Statistical analysis and future improvement of SHARK-NIR calibration and post-processing pipeline",
+      "Title": "Statistical analysis and future improvement of SHARK-NIR calibration and image processing pipeline",
       "Description": null,
       "Abstract": "SHARK-NIR is a near-infrared coronagraph installed at LBT. By leveraging the LBT adaptive optics systems, the instrument is optimized to perform high contrast imaging using a variety of coronagraphic techniques.  SHARK-NIR is currently in its early science phase, during which it has already executed several observing runs and accumulated many hours of scientific exposures and technical calibration data.  We used those data to conduct a set of statistical analyses aimed at validating the calibration pipelines and assessing the overall behavior of the instrument. In this contribution, we present the results of these studies, with particular emphasis on the management of non-common path aberrations (NCPA), the characterization of residual jitter, and the evaluation of the accuracy of the technical exposure time calculator. We further discuss how these results drive potential improvements to the calibration procedures, the instrument’s operational strategies and post-processing techniques.",
       "ImagePath": null,
@@ -218,11 +150,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Streamlining Spectroscopic Observations: A Real-Time Data Reduction Display for Keck and Beyond",
+      "Title": "Streamlining spectroscopic observations: a real-time data reduction display for Keck and beyond",
       "Description": null,
       "Abstract": "In 2025, the W. M. Keck Observatory released a “Quick Look” real-time spectroscopic data reduction graphical user interface (GUI) for several of its instruments. Built upon the open-source PypeIt data reduction pipeline, the tool provides automated image and wavelength calibration, global and local sky subtraction, flexure compensation, and spectral extraction. Leveraging PypeIt’s configuration-driven architecture and standardized data models, the GUI requires no observatory-specific code once a spectrograph has been integrated into PypeIt’s library of over 50 supported instruments (including echelle, multi-object, and long-slit), offering a near turn-key solution for real-time data assessment. This paper summarizes the features of the tool, how to integrate a new spectrograph, and future features in development.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Streamlining-Spectroscopic-Observations--A-Real-Time-Data-Reduction-Display/14155-131",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Streamlining-spectroscopic-observations--a-real-time-data-reduction-display/14155-131",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -502,7 +434,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Christopher Zamorano, Pedro Escárate",
+      "Authors": "Christopher Zamorano, Pedro Escarate",
       "PaperNumber": "14151-92",
       "DateTimeLocationDataList": [
         {
@@ -524,11 +456,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Telemetry-based Methodology for Identifying Wind-Induced Torque in the Elevation Axis of an ALMA Total Power Antenna",
+      "Title": "Telemetry-based methodology for identifying wind-induced torque in the elevation axis of an ALMA 12m total power antenna",
       "Description": null,
       "Abstract": "The Atacama Large Millimeter/submillimeter Array (ALMA), on the Chajnantor plateau (~5050 m a.s.l.), operates under persistent winds that can push its direct-drive actuators close to their current limits. This work presents a telemetry-driven, controller-agnostic method to estimate the motor current required at a target elevation θ* for a given wind speed v and direction ϕ. In the push–pull architecture, the differential current acts as a virtual torque sensor, Tnet = Kt (i1 − i2). Using static-hold segments (θ̇ ≈ 0), we fit an ordinary-least-squares model with (v cosϕ, v sinϕ) and elevation as predictors, achieving R² ≈ 0.95 over ~1.2×10⁴ samples (up to 13 m/s, 5°–88°). The identified map produces per-motor current forecasts and a current-margin indicator referenced to hardware limits, and is directly applicable to other telescopes using push–pull PMSM/PMLSM actuators.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Telemetry-based-Methodology-for-Identifying-Wind-Induced-Torque-in-the/14151-92",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Telemetry-based-methodology-for-identifying-wind-induced-torque-in-the/14151-92",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1080,40 +1012,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Kanaka Warad, David Andersen, James Larkin, Shelley Wright, Ryuji Suzuki, Robert W. Weber, Renate Kupke, Scott Roberts, Gelys Trancho, John Miles",
-      "PaperNumber": "14149-306",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "26487d45-aad0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "26487d45-aad0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The InfraRed Imaging Spectrograph (IRIS) for the Thirty Meter Telescope (TMT): system-level design maturity and path to production",
-      "Description": null,
-      "Abstract": "IRIS is a first-light instrument for the Thirty Meter Telescope, offering a diffraction-limited near-infrared imager and integral-field spectrograph with unprecedented resolution and sensitivity for studies from exoplanets and supermassive black holes to the earliest galaxies. This paper presents the instrument status following its System-Level Final Design Review in 2025. We summarize the international effort that brought major subsystems to final design, with systems engineering focused on requirements maturity, interface consistency, verification readiness, while balancing performance goals with design and project constraints. We describe the cross-institute assembly and integration flow and IRIS risk-management strategy. We also outline the path forward for completing remaining subsystem designs, integration readiness with AO and observatory systems, drawings, supplier engagement, and the reliability framework that will position IRIS to lead TMT’s first decade of discovery.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-InfraRed-Imaging-Spectrograph-IRIS-for-the-Thirty-Meter-Telescope/14149-306",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Ryuji Suzuki, Yoshiyuki Obuchi, Bungo Ikenoue, Risa Shimizu, Naoatsu Hirata, Masaki Morita, Chihiro Tokoku, Masayuki Hattori, Yoko Tanaka, Koji Omata",
       "PaperNumber": "14149-264",
       "DateTimeLocationDataList": [
@@ -1206,7 +1104,7 @@
       "HTMLTitle": "",
       "Title": "The infrared imaging spectrograph (IRIS) for TMT: wavefront error budget",
       "Description": null,
-      "Abstract": "The Infrared Imaging Spectrograph (IRIS) for the Thirty Meter Telescope (TMT), currently in its final design phase, must achieve a wavefront error (WFE) below 40 nm RMS across a 34 x 34 arcsec^2 field of view. To verify compliance, a comprehensive WFE budget allocates requirements to optical design, alignment, fabrication, and thermal effects. The optical design, featuring four off-axis conic mirrors and one spherical mirror, achieves a nominal WFE of 4.6 nm RMS, with assembly simulations predicting 9 nm RMS. Surface figure error—the dominant contributor at 32 nm RMS—has been mitigated via two full-scale prototyping efforts, while thermal deformation was evaluated using finite element analysis. The results demonstrate compliance with a 36% contingency margin.",
+      "Abstract": "The Infrared Imaging Spectrograph (IRIS) for the Thirty Meter Telescope (TMT), currently in its final design phase, must achieve a wavefront error (WFE) below 40 nm RMS across a 34 x 34 arcsec^2 field of view. To verify compliance, a comprehensive WFE budget allocates requirements to optical design, alignment, fabrication, and thermal effects. The optical design, featuring four off-axis conic mirrors and one spherical mirror, achieves a nominal WFE of 4.6 nm RMS, with assembly simulations predicting 9 nm RMS. Surface figure error—the dominant contributor at 32 nm RMS—has been mitigated via two full-scale prototyping efforts, while thermal deformation was evaluated using finite element analysis. The results demonstrate compliance with a 33% contingency margin.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/The-infrared-imaging-spectrograph-IRIS-for-TMT--wavefront-error/14149-305",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1454,7 +1352,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Juan Olalla, Jörg-Uwe Pott, Benjamin R. Setterholm, José R. Ramos, Ulf Seemann, Ralph Hofferbert, Norbert Münch, Friedrich Müller, Robert J. Harris, Gabriele Rodeghiero, Santiago Barboza, André Boné, Ralf-Rainer Rohloff, Joshua M. Jost, Moritz H. Lerch, Altay T. Polat, Peter Bizenberger, Vianak Naranjo, María Concepción Cárdenas",
+      "Authors": "Juan Olalla, Jörg-Uwe Pott, Benjamin R. Setterholm, José R. Ramos, Ulf Seemann, Ralph Hofferbert, Norbert Münch, Friedrich Müller, Robert J. Harris, Gabriele Rodeghiero, Santiago Barboza, André Boné, Ralf-Rainer Rohloff, Joshua M. Jost, Moritz H. Lerch, Altay T. Polat, Peter Bizenberger, Vianak Naranjo, María Concepción Cárdenas, Udo Neumann",
       "PaperNumber": "14149-252",
       "DateTimeLocationDataList": [
         {
@@ -1646,11 +1544,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "The MICADO first light imager for the ELT: Real-Time Monitoring and Control for AIT Activities",
+      "Title": "The MICADO first light imager for the ELT: real-time monitoring and control for AIT activities",
       "Description": null,
       "Abstract": "MICADO SCAO is currently in its Assembly, Integration and Test (AIT) phase, supported by a dedicated optical bench installed at LIRA and by a standalone real-time computer (RTC) prototype. The hard real-time capabilities are provided by COSMIC, while soft real-time functions rely on the ESO RTC Toolkit. This year, the final RTC hardware was received, assembled, and integrated into the RTC rack. While awaiting the next AIT stages on the MICADO SCAO bench, this final hardware has been configured as a development and integration platform, enabling deployment and validation of the latest RTC Toolkit (v5) using ESO simulators.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-MICADO-first-light-imager-for-the-ELT--Real/14150-223",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-MICADO-first-light-imager-for-the-ELT--real/14150-223",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1716,9 +1614,111 @@
       "HTMLTitle": "",
       "Title": "The MICADO first light imager for the ELT: simulating the impact of sky de-rotation on the astrometric stability of MICADO",
       "Description": null,
-      "Abstract": "MICADO is scheduled to be a first-light instrument for the ELT. This work presents a comprehensive simulation analysis of the impact of de-rotating MICADO during night-time on the stability of the effective instrument distortion, the SCAO dichroic-dependent distortion and their combined impact on differential astrometric performance at the sub-microarcsecond level. We quantify how these effects evolve over full 360° rotations, evaluate the fidelity of affine, polynomial and interpolation-based corrections and derive calibration strategies that minimize overhead while maintaining the required astrometric precision.",
+      "Abstract": "MICADO is scheduled to be the first-light instrument for the ELT. This work presents a comprehensive simulation analysis of the impact of de-rotating MICADO on the stability of the effective instrument distortion, the SCAO dichroic-dependent distortion and their combined impact on differential astrometric performance at the sub-microarcsecond level. We quantify how these effects evolve over full 360° rotations, evaluate the fidelity of affine, polynomial and interpolation-based corrections and derive calibration strategies that minimize overhead while maintaining the required astrometric precision. While minor design refinements to some of the components may occur, we assume the final design will be sufficiently similar to preserve the qualitative validity of our results.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/The-MICADO-first-light-imager-for-the-ELT--simulating/14149-276",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Jörg-Uwe Pott, Joshua M. Jost, Benjamin R. Setterholm, Juan Olalla Pombo, Altay T. Polat, Richard Davies, Elena Valenti, Wolfgang Kausch, Janus D. Brink",
+      "PaperNumber": "14149-273",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "2143d7ad-77cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "2143d7ad-77cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The MICADO first light imager for the ELT: status of developing calibration strategies for the scientific observing modes",
+      "Description": null,
+      "Abstract": "MICADO is a first light camera of the ELT. The AO-assisted instrument will deliver large diffraction-limited near-infrared images of ~50” diameter with superb angular resolution of 5-10mas and JWST-like sensitivity. We aim for relative astrometric stability down to 50 µas (or 2e-4) at least. In addition, a long-slit spectrograph disperses the light of compact objects with a spectral resolution R~10k onto the massive focal plane array, consisting of 3x3 Hawaii 4RG detectors.    MICADO science goes from solar system objects over exo-planets and black holes up to galactic evolution at highest redshift. This results in a broad range of calibration requirements. We present our concepts to achieve long-term calibration stability in flat field, distortion, intra-pixel sensitivities, optical train performance. We discuss the interplay of MICADO calibration with telescope flexure and night-time conditions (AO performance). A unique feature is the astrometric calibration unit.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-MICADO-first-light-imager-for-the-ELT--status/14149-273",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Andrea Grazian, Fernando Pedichini, Matteo Simioni, Jani Achren, Carmelo Arcidiacono, Luca Cortese, Ric Davies, Marco Gullieuszik, Johanna Hartke, Hanindyo Kuncarayakti, Roberto Piazzesi, Elisa Portaluri, Stefan Raffetseder, Piero Vaccari, Benedetta Vulcani, Roland Wagner, Anita Zanella",
+      "PaperNumber": "14150-234",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "7fb45d42-58cc-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "7fb45d42-58cc-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The MICADO first light imager for the ELT: the PSF reconstruction software",
+      "Description": null,
+      "Abstract": "The MICADO instrument for the ESO ELT will provide Adaptive Optics  (AO) diffraction-limited NIR imaging and spectroscopy. A critical  component of MICADO is the Point Spread Function Reconstruction (PSF-R)  Software, which is designed to perform a blind reconstruction of the  PSF for all observations using AO telemetry data only, both with the Single  Conjugate (SCAO) and Multi-Conjugate Adaptive Optics (MCAO) modes of  MICADO. The SCAO PSF-R Pipeline is currently being completed, and  validation with ERIS at VLT has demonstrated high accuracy:  percent-level on-axis and 5-15% off-axis. Initial scientific  simulations confirm that the software meets the necessary precision for  high-quality analysis, securing its role for MICADO's first light and  future ELT operations.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-MICADO-first-light-imager-for-the-ELT--the/14150-234",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Alessandro Coppolecchia, Alessandro Attoli, Eleonora Barbavara, Elia Stefano Battistelli, Paolo de Bernardis, Federico Cacciotti, Giuseppe Carboni, Ettore Carretti, Daniele Ciccalotti, Fabio Columbro, Angelo Cruciani, Giuseppe D'Alessandro, Marco De Petris, Federica Govoni, Giovanni Isopi, Adelaide Ladu, Luca Lamagna, Pasqualino Marongiu, Silvia Masi, Matteo Murgia, Alessandro Navarrini, Alessandro Novelli, Andrea Occhiuzzi, Andrea Orlati, Alessandro Paiella, Giorgio Pettinari, Francesco Piacentini, Mauro Pili, Tonino Pisanu, Sergio Poppi, Luca Schirru, Gian Paolo Vargiu, Sofia Ferazzoli, Giancarlo De Gasperis, Sofia Ferazzoli, Davide Marsala, Giampaolo Pisano, Chiara Volpe",
+      "PaperNumber": "14156-100",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "bcd67d53-57d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "bcd67d53-57d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The MISTRAL instrument: a cryogenic W-band lumped elements kinetic inductance detector camera for mm-wave astronomy",
+      "Description": null,
+      "Abstract": "Mistral is a W-band(77–103GHz)cryogenic camera installed at the Gregorian focus of the 64m Sardinia Radio Telescope.Its 415 element Ti/Al LEKID array operates at 0.2K and, coupled to the SRT through a re–imaging  optical system, enables 12arcsec angular–resolution observations in the W–band and provides a 4arcmin instantaneous field of view.The system enables high–resolution millimeter observations for studies of key astrophysical processes across galactic and extragalactic environments.In this contribution, we present the MISTRAL instrument and discuss selected results from its technical commissioning.Specifically, we describe its cryogenic performance;the results confirm theoretical expectations and in-lab performance, demostrationg the system's capability to cool the focal plane to approximately 0.2K.Notably, this is achieved using 100m helium lines between the pulse tube and the compressor in line with previous characterizations of efficiency degradation as a function of line length",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-MISTRAL-instrument--a-cryogenic-W-band-lumped-elements/14156-100",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1727,10 +1727,10 @@
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

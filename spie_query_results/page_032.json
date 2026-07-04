@@ -26,6 +26,40 @@
   },
   "Items": [
     {
+      "Authors": "Ralf K. Heilmann, Alexander R. Bruccoleri, Artittaya Boonkird, Shiva Mudide, Mariel Shapiro, Mark L. Schattenburg",
+      "PaperNumber": "14146-263",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "334351be-b7d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "334351be-b7d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Metrology and diffraction efficiency improvements for ultrahigh-aspect ratio, blazed soft x-ray transmission gratings",
+      "Description": null,
+      "Abstract": "Critical-angle transmission (CAT) gratings are blazed gratings for high resolving power x-ray spectroscopy in mission concepts such as Arcus or Lynx addressing high-priority Astro2020 science goals. We demonstrated R ~ 1.2e4 for co-aligned CAT gratings. Diffraction efficiency (DE) can be improved via thinning of grating bars, optimizing bar profiles and tilt, and reducing sidewall roughness and support structures. Bar profiles and tilt are initially set in the deep reactive-ion etch (DRIE) step during fabrication. We developed fast and non-destructive profile and tilt metrology based on Mueller matrix spectroscopic ellipsometry (MMSE) and machine learning (ML) for use after the DRIE step. A KOH polish reduces scalloping and results in smooth bar sidewalls. We plan to apply MMSE/ML to post-KOH bars to optimize KOH etch parameters. We present new multilayer models that could be applied to CAT gratings via ALD to enhance diffraction efficiency and extend bandpass into 4-6 keV range.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Metrology-and-diffraction-efficiency-improvements-for-ultrahigh-aspect-ratio-blazed/14146-263",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Mohammad A. Khan, Al Alexis",
       "PaperNumber": "14145-220",
       "DateTimeLocationDataList": [
@@ -162,7 +196,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Pedro Escárate, Christopher Zamorano, Juan C. Agüero",
+      "Authors": "Pedro Escárate, Christopher Zamorano, Juan Carlos Agüero",
       "PaperNumber": "14150-267",
       "DateTimeLocationDataList": [
         {
@@ -186,7 +220,7 @@
       "HTMLTitle": "",
       "Title": "Model predictive control for adaptive optics",
       "Description": null,
-      "Abstract": "Stochastic disturbances such as atmospheric turbulence and vibrations significantly degrade the performance of Adaptive Optics (AO) systems in modern astronomical instruments, including coronagraph-based exoplanet imagers and extreme AO architectures. This work presents a Model Predictive Control (MPC) strategy designed to improve rejection of these disturbances and enhance image stability and contrast. The approach relies on a stochastic state-space model of wavefront dynamics, including disturbances characterized in the spectral domain via log-Whittle likelihood estimation. Experimental simulations applied to tip/tilt modes demonstrate superior disturbance mitigation compared with standard AO controllers. Future efforts focus on real-time implementation on a large number of Zernike modes to meet the high-speed requirements of next-generation telescopes.",
+      "Abstract": "Atmospheric turbulence and vibrations degrade the performance of Adaptive Optics (AO) systems, especially in coronagraph-based exoplanet imagers, extreme AO instruments, and optical interferometers. This work presents a stochastic Model Predictive Control (MPC) strategy for modal wavefront correction using Zernike polynomials. The disturbance model is identified from OOMAO atmospheric turbulence simulations with an equivalent Fried parameter of r0 = 14 cm, including vibrations at 20 and 60 Hz. Its dynamics are estimated in the spectral domain using log-Whittle likelihood and incorporated into the MPC formulation to improve prediction and rejection. Results for tip and tilt modes show effective mitigation of atmospheric and vibrational disturbances. Future work will extend the method to up to 200 Zernike modes and real-time operation near 2 kHz using explicit MPC and Cascade Adaptive Optics.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Model-predictive-control-for-adaptive-optics/14150-267",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -354,11 +388,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Monitoring Instrument Throughput at the Magellan Telescopes",
+      "Title": "Monitoring instrument throughput at the Magellan Telescopes",
       "Description": null,
       "Abstract": "We present an ongoing program to monitor the efficiency and throughput of the Magellan telescopes and their facility instruments. Standard stars and fields observed as part of routine operations are used to derive photometric zero points and spectroscopic efficiencies on a regular cadence. In parallel, the reflectivity of the primary, secondary, and tertiary mirrors is measured as part of the regular Magellan mirror-maintenance program, providing an estimate of the total telescope reflectivity. By correlating changes in mirror reflectivity and maintenance events with variations in instrument sensitivity, we link the state of the telescope optics directly to the overall response of the instrument suite. We present these correlations for individual instruments and discuss their use in tracking instrument health, validating performance after cleaning or recoating, and quantifying the long-term stability of system throughput across the facility.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Monitoring-Instrument-Throughput-at-the-Magellan-Telescopes/14151-99",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Monitoring-instrument-throughput-at-the-Magellan-Telescopes/14151-99",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -706,7 +740,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Ellen Schallig, Gavin Dalton, Ian J. Lewis, Louis Gabarra, Alec York, David Terrett, Diane Chapuis Kerouanton, Thomas Augusteijn, Kacem El Hadi, Marísa Luisa García-Vargas, Marie Larrieu, Alessandro Meoli, Roser Pello, Mathieu Puech, Myriam Rodrigues, Rubén Sanchez-Janssen, Hermine Schnetler, Jay Stephan, Christian Surace",
+      "Authors": "Ellen Schallig, Ian J. Lewis, Alec York, Louis Gabarra, David Terrett, Rui Gao, Gavin Dalton, Diane Chapuis Kerouanton, Thomas Augusteijn, Kacem El Hadi, Marísa Luisa García-Vargas, Marie Larrieu, Alessandro Meoli, Roser Pello, Mathieu Puech, Myriam Rodrigues, Rubén Sanchez-Janssen, Hermine Schnetler, Jay Stephan, Christian Surace",
       "PaperNumber": "14149-266",
       "DateTimeLocationDataList": [
         {
@@ -730,7 +764,7 @@
       "HTMLTitle": "",
       "Title": "MOSAIC at the ELT: focal plane architecture and initial design",
       "Description": null,
-      "Abstract": "MOSAIC is the multi-object fibre spectrograph for ESO's 39-m Extremely Large Telescope (ELT), that provides both MOS and mIFU capabilities. This poster shows the current architecture of MOSAIC’s Focal Plane subsystem, a curved support structure holding up to about 250 SCARA robots that inject the light into fixed fibre bundles. We outline the design for each of the main components and the use of novel materials to achieve the required performance. We also present work that manages the repositioning of the ensemble of robots between observations.",
+      "Abstract": "MOSAIC is the multi-object fibre spectrograph for ESO’s 39 m Extremely Large Telescope. It covers the visible  (0.39–0.95 µm) and NIR (0.95–1.8 µm) wavelength domains. This paper describes the current architecture of  MOSAIC’s Focal Plane subsystem, a curved support structure that holds about 250 SCARA robots which inject  the telescope light into fixed fibre bundles. We outline the design for each of the main components, including a  carbon-fibre focal plate and an actively cooled focal plane architecture to achieve the required performance. We  also present the control architecture and the software algorithms that perform target allocation and generate  collision-free reconfiguration sequences between observations. Finally, we present some of the prototyping work  done to prepare for assembly and integration.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/MOSAIC-at-the-ELT--focal-plane-architecture-and-initial/14149-266",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1046,7 +1080,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Camilo Weinberger, Elena Masciadri, Alessio Turchi, Marlène de Sepibus, Angel Otarola, Steffen Mieske, Christian Veillet, Sam Ragland",
+      "Authors": "Camilo Weinberger, Elena Masciadri, Marlène de Sepibus, Angel Otarola, Steffen Mieske, Christian Veillet, Sam Ragland",
       "PaperNumber": "14150-240",
       "DateTimeLocationDataList": [
         {
@@ -1136,11 +1170,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "NirvanaVIS@LBT: AO-assisted speckle holography and bispectrum analysis",
+      "Title": "NirvanaVIS at LBT: AO-assisted speckle holography for wide-field visible imaging",
       "Description": null,
-      "Abstract": "We present an analysis of speckle holography applied to short-exposure stellar images obtained with the Copernico 1.82 m telescope at Asiago Observatory. These data provide a reference dataset for developing and validating NirvanaVIS post-processing algorithms based on autocorrelation and bispectrum analysis. In NirvanaVIS, ground-layer adaptive optics will further improve data quality. Individual frames were pre-processed and analysed via Fourier-domain speckle reconstruction to evaluate the achievable diffraction-limited performance. We assess phase-retrieval and holographic reconstruction methods under development for NirvanaVIS, extending their applicability to smaller telescope diameters and higher-seeing conditions. Metrics such as FWHM, contrast, and binary-star separation accuracy quantify reconstruction fidelity. Results show that Copernico data represent suitable test cases for calibrating and optimising future AO-assisted speckle imaging pipelines for NirvanaVIS at LBT.",
+      "Abstract": "High-angular-resolution imaging from ground-based telescopes is limited by atmospheric turbulence and speckle decorrelation. Speckle holography and bispectrum phase retrieval complement adaptive optics (AO), extending diffraction-limited imaging toward wider fields and fainter targets.  NirvanaVIS is a visible-band imaging camera planned for LBT, operating with the ground-layer correction from LINC-NIRVANA. It will provide a stable, uniform PSF across a 52'' x 52'' field, 600-1000 nm.  We review the main Fourier-based speckle reconstruction techniques for AO-assisted visible imaging and present simulations of the GLAO-corrected PSF for NirvanaVIS on the GJ 15 b and NGC 7914 fields. Simulations show that GLAO-assisted speckle holography can recover diffraction-limited imaging at 20-40 mas, sensitive to companions fainter than the reference sources.  A Python pipeline is under development, validated on Copernico 1.82 m data and the Ekarus AO bench, ahead of NirvanaVIS deployment at LBT.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/NirvanaVISLBT-AO-assisted-speckle-holography-and-bispectrum-analysis/14150-215",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/NirvanaVIS-at-LBT--AO-assisted-speckle-holography-for-wide/14150-215",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1386,7 +1420,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Francesco Di Mille, Povilas Palunas, David Osip, Guillermo Blanc, Marcelo Mora",
+      "Authors": "Francesco Di Mille, Marcelo Mora, Guillermo Blanc, David Osip, Povilas Palunas",
       "PaperNumber": "14151-76",
       "DateTimeLocationDataList": [
         {
@@ -1408,11 +1442,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Operational Status and Instrument Suite Development at the Magellan Telescopes",
+      "Title": "Operational status and instrument suite development at the Magellan Telescopes",
       "Description": null,
       "Abstract": "The Magellan telescopes at Las Campanas Observatory continue to evolve as the Carnegie Institution for Science partnership with Harvard/Smithsonian CfA, the University of Arizona, MIT, and the University of Michigan passes twenty years of operations. We present an updated view of the instrumentation suite and science operations at the 6.5-m Baade and Clay telescopes. Baade now hosts five permanently mounted, always-available instruments. At Clay, the second Nasmyth port is being converted from a fixed to a flexible interface to support longer, more continuous instrument availability. Over the past two years, three IFU instruments have been integrated, significantly expanding spatially resolved spectroscopy. We summarize recent performance trends, reliability considerations, and operational lessons from this configuration, and outline ongoing modernization efforts to meet the evolving needs of the Magellan user community.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Operational-Status-and-Instrument-Suite-Development-at-the-Magellan-Telescopes/14151-76",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Operational-status-and-instrument-suite-development-at-the-Magellan-Telescopes/14151-76",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1522,40 +1556,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "John Rankin, Stefano Basso, Sergio Campana, Marta Civitani, Paolo Conconi, Vincenzo Cotroneo, Giovanni Pareschi, Daniele Spiga",
-      "PaperNumber": "14146-273",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "32b87cfd-f1c5-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "32b87cfd-f1c5-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Optimization of X-ray optics for accurate gravitational wave transient localization",
-      "Description": null,
-      "Abstract": "Current X-ray telescopes have a combination of field of view and angular resolution unsuitable to accurately localize the electromagnetic counterparts of gravitational wave events. This will become increasingly important when the LIGO and Virgo experiments will work at full sensitivity, when the Einstein Telescope observatory will come online, or with the space mission LISA, all in the next decade. With the goal of having a source localization accuracy of tens of arcsec over a ~10 square degrees field of view, together with hundreds of cm^2 effective area, we study how Lobster eye and Kirkpatrick-Baez optics can be optimized for this objective if appropriately-built, and also how Wolter-I optics can be appropriately modified. We compare the advantages and drawbacks of each optical design, in particular regarding the contribution of stray light.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Optimization-of-X-ray-optics-for-accurate-gravitational-wave-transient/14146-273",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Ludwig von Dossow, Emilio Barrios, Héctor Alarcón, Patricio Álvarez, Eduardo Chaparro, Emiliano Galuppo, Christian García, Daniela Soto",
       "PaperNumber": "14151-84",
       "DateTimeLocationDataList": [
@@ -1658,7 +1658,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Thomas Lechner, Todd Veach, Cynthia Froning, Andrew Peterson, Adam Thornton, Trent Peterson, Dana Koeppe",
+      "Authors": "Thomas Lechner, Todd Veach, Cynthia Froning, Adam Thornton, Andrew Peterson, Trent Peterson, Dana Koeppe",
       "PaperNumber": "14157-130",
       "DateTimeLocationDataList": [
         {
@@ -1680,11 +1680,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "performance and detector characterization of SCORPIO for the Gemini South Observatory",
+      "Title": "Performance and NIR detector characterization of SCORPIO for the Gemini South Observatory",
       "Description": null,
       "Abstract": "SCORPIO is a multi-channel optical-infrared instrument for the Gemini South 8-meter telescope, providing spectroscopy (0.385-2.35 µm) and imaging (0.400-2.35 µm) across eight synchronized focal plane arrays. The system uses four Teledyne H2RG HgCdTe detectors and four Teledyne e2v CCDs, read out via archon and SIDECAR/MACIE electronics. A custom synchronization backplane distributes a master clock and triggers to all detectors, enabling 10 ms timing precision and 50 ms temporal resolution for rapid transient science. We present ongoing detector performance characterization, including H2RG response, readout stability, and cross-channel synchronization, as SCORPIO progresses towards integration and deployment at Gemini South.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/performance-and-detector-characterization-of-SCORPIO-for-the-Gemini-South/14157-130",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Performance-and-NIR-detector-characterization-of-SCORPIO-for-the-Gemini/14157-130",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1692,7 +1692,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Viktoria Kutnohorsky, Robert J. Harris, Sebastiaan Haffert, Aurélien Benoît, David G. MacLachlan, Timothy A. Birks, Chiara D'Amato, Sajjad Mahdizadeh, Andrea Bianco, Joss Guy, Robert R. Thomson, Jared R. Males, Laird M. Close, Olivier Guyon",
+      "Authors": "Viktoria Kutnohorsky, Robert J. Harris, Sebastiaan Y. Haffert, Laird M. Close, Jared R. Males, Aurelien Benoit, David MacLachlan, Robert R. Thomson, Tim Birks, Chiara D'Amato, Sajjad Mahdizadeh, Andrea Bianco, Giorgio Pariani, Joss Guy, Olivier Guyon",
       "PaperNumber": "14149-239",
       "DateTimeLocationDataList": [
         {
@@ -1714,11 +1714,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Performance estimates and target selection for the MCIFU, the Multi-Core Integrated Field Unit",
+      "Title": "Performance estimates and target selection for the MCIFU, the multicore integrated field unit",
       "Description": null,
       "Abstract": "The Multi-Core Integrated Field Unit (MCIFU) is a demonstrator for the ELT’s Planetary Camera and Spectrograph (PCS) and will achieve first light in 2026 on MagAO-X at the Magellan Clay telescope. To evaluate its performance, we developed a quantitative model incorporating atmospheric transmission, telescope and instrument throughput, and detector characteristics such as quantum efficiency, dark current, and readout noise. Based on this model, an exposure time calculator (ETC) was constructed to predict the signal-to-noise ratio under varying stellar magnitudes, integration times, and observing conditions. The ETC includes three source-spectrum options: continuum, blackbody, and reference spectra. It produces detailed SNR budgets across the Y, J, and H bands to identify observable targets. First-light photometric measurements in 2026 will aide to validate the model and help define the operational parameter space for future PCS observations on the ELT.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Performance-estimates-and-target-selection-for-the-MCIFU-the-Multi/14149-239",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Performance-estimates-and-target-selection-for-the-MCIFU-the-multicore/14149-239",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1727,10 +1727,10 @@
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

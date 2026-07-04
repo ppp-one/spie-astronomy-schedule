@@ -26,108 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Yinzi Xin, Nemanja Jovanovic, Dimitri Mawet, Daniel Echeverri, Yoo Jung Kim, Jonathan Lin, Julien Lozi, Sebastien Vievard, Olivier Guyon, Grace Piroscia, Vincent Déo, Sergio Leon-Saval, Rodrigo Amezcua-Correa, Stephanos Yerolatsitis, Michael P. Fitzgerald, Pradip Gatkine, Suvinay Goyal, Barnaby Norris, Garreth Ruane, Steph Sallum",
-      "PaperNumber": "14148-61",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 11:30 - 11:50 CEST | Room B4-M5",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "435363b0-63cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "435363b0-63cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The Photonic Lantern Nuller: from concept to laboratory and on-sky demonstrations",
-      "Description": null,
-      "Abstract": "This thesis work presents the conceptual design and experimental characterization of the Photonic Lantern Nuller instrument, which uses a multimode-to-single-mode demultiplexing waveguide to cancel out starlight while maintaining planet light, allowing for the direct characterization of planets at a telescope’s diffraction limit. The PLN was experimentally characterized in the lab, where it was further enhanced using common-path wavefront sensing and control techniques, and then demonstrated on sky at the Subaru Telescope. Highlights include measured in-lab null-depths of ~10^{-4} in three out of four ports simultaneously and on-sky null-depths of ~10^{-1} (limited by jitter and atmospheric residuals). We provide an overview of these results and discuss avenues for future work.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Photonic-Lantern-Nuller--from-concept-to-laboratory-and/14148-61",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 11:30 - 11:50 CEST | Room B4-M5",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Phillip Black",
-      "PaperNumber": "14153-65",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 11:35 - 11:55 CEST | Room B2-M8",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "47370153-c9bb-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "47370153-c9bb-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Introducing L-BASS: an instrument to create absolutely calibrated maps at 1.4 GHz",
-      "Description": null,
-      "Abstract": "The L-Band All-Sky Survey (L-BASS) is a new ground-based instrument at the Jodrell Bank Observatory designed to deliver an absolutely calibrated all-sky map at 1.4 GHz with ≤ 0.1 K radiometric accuracy and 23° angular resolution. L-BASS combines classic differential radio-astronomy techniques with a modern constant-comparison receiver architecture and digital spectrometer back-end. The telescope employs two identical conical horn antennas, each producing circularly polarised outputs and independently steerable in elevation. L-BASS is calibrated with strategies including, the incorporation of a continuous-wave (CW) calibration technique, injecting a signal for running gain tracking, an array of 1-Wire thermometers for passive loss modelling, meteorological monitoring and an absolute calibration stage using a cryogenic reference load.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Introducing-L-BASS--an-instrument-to-create-absolutely-calibrated/14153-65",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 11:35 - 11:55 CEST | Room B2-M8",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Philippe Dierickx, Gaston Gausachs, Corentin Cudennec, Benoît Sassolas, William Sutherland, Simone D'Auria, Laurane Fréour, Peter Doel, Tony Travouillon, Roland Bacon, Laurent Pinard, Vincenzo Cianniello, Vincenzo De Caprio, Ciro Del Vecchio, Salvatore Savarese, Olga Bellido, Thomas Augusteijn, Ramón Navarro, Will Saunders",
-      "PaperNumber": "14147-196",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 11:40 - 12:00 CEST | Room B3-M6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "8ac508c9-a9ce-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "8ac508c9-a9ce-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Progress of the design of the 12-m optical, Wide-Field Spectroscopic Telescope (WST)",
-      "Description": null,
-      "Abstract": "The Wide-Field Spectroscopic Telescope (WST) is a 12-m class, Alt-Az optical telescope providing two simultaneously available foci, 2º and 3x3 arc minutes respectively, for Multi-Object Spectroscopy (MOS) and Integral Field Spectroscopy (IFS). We outline the original optical solution, report progress of the structural design, of functional and physical definitions, and of the design of high-performance coatings of the telescope optics. The telescope can be wavefront-controlled at both foci, with little if any crosstalk between MOS and IFS controls. The design provides an option for seeing reduction at the IFS field, within existing technology. With a view to minimising risks, designs build extensively on solutions implemented in ESO’s VLT and ELT programmes. The WST would be located near ESO’s Paranal-Armazones observatory.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Progress-of-the-design-of-the-12-m-optical-Wide/14147-196",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 11:40 - 12:00 CEST | Room B3-M6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Clémentine Béchet, Éric Thiébaut, Michel Tallon, Isabelle Tallon-Bosc, Bernard Gelly, Richard Douet",
       "PaperNumber": "14150-97",
       "DateTimeLocationDataList": [
@@ -162,7 +60,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Melissa Pesce-Rollins, Hamish Reid, Daniel Ryan, Alexander Warmuth, Samuel Krucker, Philippe Laurent, Olivier Limousin, Jake Mitchell, Albert Y. Shih, Nicole Vilmer, Andrea Battaglia, Shane Maloney, Sophie Musset, Hakan Onel",
+      "Authors": "Melissa Pesce-Rollins, Hamish Reid, Daniel Ryan, Alexander Warmuth, Samuel Krucker, Philippe Laurent, Olivier Limousin, Jake Mitchell, Albert Y. Shih, Nicole Vilmer, Andrea Battaglia, Shane Maloney, Sophie Musset, Hakan Onel, Anna Driutti",
       "PaperNumber": "14146-103",
       "DateTimeLocationDataList": [
         {
@@ -298,7 +196,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Antonia Merdanevic Yáñez, Marilyn Cruces",
+      "Authors": "Antonia Merdanevic Yáñez, Marilyn Cruces, Nicolás Seguel, Josefina Vera, Ignacio Wang, Javier Mora, Benjamín Ruz",
       "PaperNumber": "14153-66",
       "DateTimeLocationDataList": [
         {
@@ -320,11 +218,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Transformative sustainable solutions in radio astronomy: the FRONTIERS Project",
+      "Title": "Transformative sustainable solutions in radio astronomy: Antenna design of the FRONTIERS project",
       "Description": null,
-      "Abstract": "Chile is a premier astronomical hub, yet the field lags in limiting carbon footprints, particularly in radio astronomy. FRONTIERS addresses this as a sustainable telescope prototype (UC Chile/Max-Planck), aiming for high-impact science with resource awareness. The system uses a \"Small Diameter, Large Number\" array to overcome manufacturing limits, optimized to ~25,000 EUR/element with uncooled components and local fabrication.    This work details the mechanical engineering of the 1–2 GHz parabolic antenna. The design features a hybrid Glass Fiber Reinforced Polymer (GFRP) structure on a Hot-Dip Galvanized A36 steel mount, with a metallized coating for reflectivity. Its modular, petal-based architecture facilitates local manufacturing and remote assembly. Validated by simulations, this design demonstrates that local technologies can ensure structural and electromagnetic performance while significantly reducing carbon footprints.",
+      "Abstract": "The increasing discovery rate by the new and upcoming state-of-the-art radio telescopes motivates the development of dedicated smaller follow-up facilities that are not only cost-effective, but also resource-aware and locally manufacturable. We present the reflector design developed for FRONTIERS, a compact Large-N, Small-D radio array in Chile operating between 1 and 2~GHz. The 6-m prime-focus reflector adopts an eight-petal GFRP architecture whose reflective surface is provided by an aluminum mesh embedded within the laminate. The design combines low-cost composite fabrication, modular construction, and a protected conductive surface. Electromagnetic simulations and RF measurements  demonstrate reflectivities of up to 99.98% and a compatibility with the designed feed L-band Vivaldi feed. These results establish a practical, low-cost, and sustainable manufacturing route for radio telescope reflectors based entirely on locally available materials and industrial capabilities.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Transformative-sustainable-solutions-in-radio-astronomy-the-FRONTIERS-Project/14153-66",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Transformative-sustainable-solutions-in-radio-astronomy--Antenna-design-of/14153-66",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -400,7 +298,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Beth Garton, Iain A. Steele, Helen E. Jermak, Chloe Miossec, Stuart D. Bates",
+      "Authors": "B. Garton, I. A. Steele, H. Jermak, S. D. Bates, C. Miossec",
       "PaperNumber": "14149-155",
       "DateTimeLocationDataList": [
         {
@@ -422,11 +320,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "On-sky rapid prototyping of the Squash spectrograph",
+      "Title": "Squash: a slit spectrograph with no moving parts",
       "Description": null,
-      "Abstract": "The New Robotic Telescope (NRT) will be a 4-metre class fully autonomous telescope on La Palma. Its instrumentation suite builds on that of the Liverpool Telescope (LT) with a range of low-cost, reliable instruments that are easily maintained. Squash will be NRT’s flagship spectrograph; designed for the rapid classification of galactic and extragalactic transient and variable events. The LT, and its future partner facility the NRT, are autonomous telescopes with limited human access; these facilities require no-fuss instrumentation, which are all co-mounted at the telescope Cassegrain focus. Many of the current LT instrumentation suite are designed with moving parts; although these have proven to be reliable, the presence of moving parts makes failure more likely. Thus, to increase reliability and lower maintenance requirements, we have completed research and development for a low-resolution spectrograph with no moving parts.",
+      "Abstract": "The Liverpool Telescope (LT) is a 2-metre fully autonomous telescope sited on La Palma. It is primarily used in time-domain astrophysics, as such, there is a requirement for rapid response and high-efficiency observation and instrumentation. To reduce maintenance requirements and increase reliability we are developing a spectrograph (Squash) with no moving parts for use on the LT. The primary design feature is a beam splitter where a small fraction of light will be reflected towards a dedicated acquisition detector. The rest of the light will pass through the system for spectroscopy with a second detector. We present a design for the Squash spectrograph with a dichroic (8000-Å cut off), sCMOS (shutterless) cameras, long slit with 1.8 arcsec width on sky, VPH grating, off axis parabolic mirror collimator, resolution R ∼750 and wavelength range 3700-7400Å.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/On-sky-rapid-prototyping-of-the-Squash-spectrograph/14149-155",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Squash-a-slit-spectrograph-with-no-moving-parts/14149-155",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -502,7 +400,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Emily Ronson, Robert J. Harris, Ariadna Calcines Rosario",
+      "Authors": "Emily Ronson, Robert J. Harris, Ariadna Calcines Rosario, Viktoria kutnohorsky",
       "PaperNumber": "14154-107",
       "DateTimeLocationDataList": [
         {
@@ -526,7 +424,7 @@
       "HTMLTitle": "",
       "Title": "Millimetre-scale spectrographs for next-generation photonic instrumentation",
       "Description": null,
-      "Abstract": "We present a set of ultra-compact spectrographs fabricated using two-photon polymerisation (2PP), each under 2.5 mm in length and printed directly onto an optical fibre. This fully integrated, alignment-free architecture enables extremely low-mass instrumentation with broad potential across astrophotonics, space systems, drone-based sensing, and quantum optics. Three configurations are presented; they combine beam-expansion optics, dispersive elements, and stray-light suppression within monolithic printed structures optimised for H-band operation. Coarse gratings provide resolving powers of approximately R ≈ 30. Experimental characterisation confirms the feasibility of fibre-coupled, fully printed spectrographs and demonstrates their promise as deployable components for next-generation integrated photonic instrumentation.",
+      "Abstract": "We present a set of ultra-compact spectrographs fabricated using two-photon polymerisation, each under 1 mm in length and printed directly onto an optical fiber. This fully integrated, alignment-free architecture enables extremely low-mass instrumentation with broad potential across astrophotonics, space systems, drone-based sensing, and quantum optics. Two transmissive configurations are presented; they combine beam-expansion optics, dispersive elements, and stray-light suppression within monolithic printed structures optimised for J- and H-band operation. Coarse gratings provide resolving powers of approximately R ≈ 30. Experimental characterisation confirms the feasibility of fiber-coupled, fully printed spectrographs and demonstrates their promise as deployable components for next-generation integrated photonic instrumentation.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Millimetre-scale-spectrographs-for-next-generation-photonic-instrumentation/14154-107",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -842,7 +740,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Simon Tartakovsky, Steven J. Benton, William C. Jones",
+      "Authors": "Simon Tartakovsky, Alexandre E. Adler, Jason E. Austermann, Steven J. Benton, Shannon M. Duff, Malcolm Durkin, Jeffrey P. Filippini, Aurelien A. Fraisse, Thomas Gascard, Sho M. Gibbs, Suren Gourapura, Jon E. Gudmundsson, Johannes Hubmayr, William C. Jones, Ashesh Khatua, Jared L. May, Darby McCauley, Johanna M. Nagy, Ivan L. Padilla, Ricardo R. Rodriguez, John E. Ruhl, M. Shaaf Sarwar, Joseph van der List, Michael R. Vissers, Philippe Voyer",
       "PaperNumber": "14156-63",
       "DateTimeLocationDataList": [
         {
@@ -864,11 +762,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "picoMUX: microcontroller based time-domain multiplexing readout for kilo-pixel TES arrays",
+      "Title": "picoMUX: microcontroller based time-domain multiplexing readout for kilopixel TES arrays",
       "Description": null,
-      "Abstract": "Advances in SQUID based time-domain multiplexing (TDM) have outpaced their warm readout electronics. Next generation CMB telescopes are baselining kilo-pixel TES arrays with few viable electronic options. We present picoMUX, a new TDM readout electronics architecture that replaces the FPGA typically used in such systems, with a complement of modern microcontrollers. Designed around the current generation NIST multiplexer, it fully exploits its differential nature and two-level switching. The system achieves the required timing metrics (0.5 µs row dwell time and 50 MS/s sampling) while boasting drastic reductions in cost (≈$1/column), complexity, and power (≈0.1W/column) in the digital section over a comparable FPGA solution. Preliminary validation shows noise performance comparable to the MCE developed by UBC. picoMUX demonstrates how recent advances in microcontrollers enable simpler, low-power, low-cost TDM readouts for kilo-pixel TES arrays.",
+      "Abstract": "Advances in cryogenic SQUID-based time-domain multiplexing (TDM) have outpaced their warm readout electronics. Next generation CMB telescopes are baselining kilopixel TES arrays with few viable electronic options. We present picoMUX, a new TDM readout electronics architecture that replaces the FPGA typically used in such systems with a complement of modern microcontrollers. Designed around the current generation NIST multiplexer, it fully exploits its differential nature and two-level switching. The system achieves the desired timing metrics (sub microsecond row dwell time) while reducing cost, complexity, and power consumption over a comparable FPGA solution. Preliminary noise measurements are consistent with expectations and show no evidence that the novel architecture introduces excess noise. picoMUX demonstrates how recent advances in microcontrollers enable simpler, low-power, low-cost TDM readouts for kilopixel TES arrays.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/picoMUX--microcontroller-based-time-domain-multiplexing-readout-for-kilo/14156-63",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/picoMUX--microcontroller-based-time-domain-multiplexing-readout-for-kilopixel/14156-63",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1002,7 +900,7 @@
       "HTMLTitle": "",
       "Title": "SKA Low digital signal chain architecture and implementation",
       "Description": null,
-      "Abstract": "",
+      "Abstract": "The Square Kilometre Array-Low (SKA-Low) is a next-generation low-frequency radio telescope under construction in Western Australia. Upon completion it will comprise 131,072 dual-polarization antennas organized into 512 stations operating across the 50–350 MHz band. The end-to-end digital signal chain of the Low telescope is detailed in this article. The Signal Processing Subsystem (SPS) digitizes and channelizes analog RF signals via an oversampled polyphase filterbank, feeding a station beamformer. Station beamforming, synchronization, and real-time calibrations are managed by the Monitor, Control and Calibration Subsystem (MCCS). Station beams are sent to the Central Signal Processor (CSP) at Perth, where the Correlator and Beamformer (CBF) performs fine channelization and fringe stopping to output full-polarization visibilities for imaging and tied-array beams for pulsar and transient science. Together, these form a scalable integrated pipeline meeting all SKA-Low requirements.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/SKA-Low-digital-signal-chain-architecture-and-implementation/14153-69",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1724,13 +1622,115 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "10 July 2026 • 14:40 - 15:00 CEST | Room B3-M6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Christopher Layden, John Piotrowski, Kevin B. Burdge, Jack T. Dinsmore, Gábor Furész, Juliana Garcia-Mejia, David Osip, Roger Romani, Geoffrey Mo, Vera Berger, Aaron Householder, Danielle Frostig, Emma Chickles, Emma Pellecer, Malina Desai",
+      "PaperNumber": "14149-89",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 14:45 - 15:05 CEST | Auditorium 15",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "d445882f-bfce-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "d445882f-bfce-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The Lightspeed project: high-speed, ultra-low read noise imaging and polarimetry for the Magellan telescopes",
+      "Description": null,
+      "Abstract": "Lightspeed will be an ultra-fast, ultra-low read noise, multicolor (ugriz+IR) imager for the Magellan Clay telescope. In a single-channel configuration, Lightspeed will also enable single-shot linear polarimetry, narrowband imaging, or white-light imaging. Lightspeed is designed around single-photon-resolving detector technologies: deep sub-electron read noise CMOS image sensors from Fairchild Imaging and a HgCdTe avalanche photodiode array from Leonardo. We present Lightspeed's basic optical design, predict its on-sky performance, and highlight science cases that Lightspeed may revolutionize. Lightspeed builds upon proto-Lightspeed, a single-channel prototype employing commercial-off-the-shelf re-imaging optics. proto-Lightspeed is now available as a PI instrument on the Clay telescope. We also discuss the current status of proto-Lightspeed and lessons learned from its commissioning, applicable to Lightspeed and any other instrument seeking to integrate scientific CMOS image sensors.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Lightspeed-project--high-speed-ultra-low-read-noise/14149-89",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 14:45 - 15:05 CEST | Auditorium 15",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Laura Manuela Castañeda Medina, Yann Gutierrez, Baptiste Abeloos, Olivier Herscovici-Schiller, Johan Mazoyer, Laurent M. Mugnier",
+      "PaperNumber": "14145-98",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 14:50 - 15:10 CEST | Room B4-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "f349aa4d-97cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "f349aa4d-97cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Reinforcement learning for post-coronagraphic wavefront control",
+      "Description": null,
+      "Abstract": "Direct imaging of exoplanets is limited by the extreme contrast between the star and the planets, which is mitigated using a coronagraph.   However, optical aberrations cause starlight leakage through the coronagraph, producing speckles that obscure the planetary signal. Achieving the required contrast levels demands wavefront control with subnanometric precision.   Deep reinforcement learning, offers a promising alternative to traditional wavefront control approaches. In this work, we present a fully data-driven method for post-coronagraphic aberration correction from focal plane images using reinforcement learning. The agent directly controls a deformable mirror in the pupil plane using phase diversity images generated via single actuator probes. The method is validated on simplified simulations of a high-contrast imaging testbed, where it successfully created the first Dark Holes using reinforcement learning.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Reinforcement-learning-for-post-coronagraphic-wavefront-control/14145-98",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 14:50 - 15:10 CEST | Room B4-M3",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Parker Fagrelius, Elana Urbach, Roberto Tighe, Fritz Mueller, Douglas Neill, Brian Johnson, Antanasia Jones, Ron Harris, Anthony Tache, Anthony Borstad, Hernan Herrera, David Jiménez Mejías, Franco Colleoni, Ian Ordenes, Eric Coughlin, Eli Rykoff, Jérémy Neveu",
+      "PaperNumber": "14149-91",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 15:05 - 15:25 CEST | Auditorium 15",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "a0b64da7-becf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "a0b64da7-becf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Vera C. Rubin Observatory Flatfield Calibration System: Final Design and Early Performance",
+      "Description": null,
+      "Abstract": "The Vera C. Rubin Observatory Flatfield Calibration System provides the uniform, stable, and well characterized  illumination required to calibrate the LSST Camera and Simonyi Telescope. The fully installed system combines  broadband “whitelight” LEDs, a tunable-laser subsystem for monochromatic flats, and an f/4 projector with an  aspheric reflector that illuminates a 10-m Lambertian screen. A comprehensive monitoring suite, including a  NIST-calibrated photodiode with electrometer readout and fiber-fed spectrographs, tracks illumination stability  and spectral content. Key thermal and electrical considerations, such as laser temperature control and power  distribution for the distributed system, are incorporated into the final design. Early commissioning results indi-  cate that the flatfield calibration system performance meets the requirements for LSST Camera characterization  and early Rubin Observatory operations.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Vera-C-Rubin-Observatory-Flatfield-Calibration-System--Final-Design/14149-91",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 15:05 - 15:25 CEST | Auditorium 15",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

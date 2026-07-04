@@ -26,108 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Jörg-Uwe Pott, Joshua M. Jost, Benjamin R. Setterholm, Juan Olalla Pombo, Altay T. Polat, Richard Davies, Elena Valenti, Wolfgang Kausch, Janus D. Brink",
-      "PaperNumber": "14149-273",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "2143d7ad-77cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "2143d7ad-77cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The MICADO first light imager for the ELT: status of developing calibration strategies for the scientific observing modes",
-      "Description": null,
-      "Abstract": "MICADO is a first light camera of the ELT. The AO-assisted instrument will deliver large diffraction-limited near-infrared images of ~50” diameter with superb angular resolution of 5-10mas and JWST-like sensitivity. We aim for relative astrometric stability down to 50 µas (or 2e-4) at least. In addition, a long-slit spectrograph disperses the light of compact objects with a spectral resolution R~10k onto the massive focal plane array, consisting of 3x3 Hawaii 4RG detectors.    MICADO science goes from solar system objects over exo-planets and black holes up to galactic evolution at highest redshift. This results in a broad range of calibration requirements. We present our concepts to achieve long-term calibration stability in flat field, distortion, intra-pixel sensitivities, optical train performance. We discuss the interplay of MICADO calibration with telescope flexure and night-time conditions (AO performance). A unique feature is the astrometric calibration unit.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-MICADO-first-light-imager-for-the-ELT--status/14149-273",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Andrea Grazian, Fernando Pedichini, Matteo Simioni, Jani Achren, Carmelo Arcidiacono, Luca Cortese, Ric Davies, Marco Gullieuszik, Johanna Hartke, Hanindyo Kuncarayakti, Roberto Piazzesi, Elisa Portaluri, Stefan Raffetseder, Piero Vaccari, Benedetta Vulcani, Roland Wagner, Anita Zanella",
-      "PaperNumber": "14150-234",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "7fb45d42-58cc-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "7fb45d42-58cc-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The MICADO first light imager for the ELT: the PSF reconstruction software",
-      "Description": null,
-      "Abstract": "The MICADO instrument for the ESO ELT will provide Adaptive Optics  (AO) diffraction-limited NIR imaging and spectroscopy. A critical  component of MICADO is the Point Spread Function Reconstruction (PSF-R)  Software, which is designed to perform a blind reconstruction of the  PSF for all observations using AO telemetry data only, both with the Single  Conjugate (SCAO) and Multi-Conjugate Adaptive Optics (MCAO) modes of  MICADO. The SCAO PSF-R Pipeline is currently being completed, and  validation with ERIS at VLT has demonstrated high accuracy:  percent-level on-axis and 5-15% off-axis. Initial scientific  simulations confirm that the software meets the necessary precision for  high-quality analysis, securing its role for MICADO's first light and  future ELT operations.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-MICADO-first-light-imager-for-the-ELT--the/14150-234",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Alessandro Coppolecchia, Alessandro Attoli, Eleonora Barbavara, Elia Stefano Battistelli, Paolo de Bernardis, Federico Cacciotti, Giuseppe Carboni, Ettore Carretti, Daniele Ciccalotti, Fabio Columbro, Angelo Cruciani, Giuseppe D'Alessandro, Marco De Petris, Federica Govoni, Giovanni Isopi, Adelaide Ladu, Luca Lamagna, Pasqualino Marongiu, Silvia Masi, Matteo Murgia, Alessandro Navarrini, Alessandro Novelli, Andrea Occhiuzzi, Andrea Orlati, Alessandro Paiella, Giorgio Pettinari, Francesco Piacentini, Mauro Pili, Tonino Pisanu, Sergio Poppi, Luca Schirru, Gian Paolo Vargiu, Sofia Ferazzoli, Giancarlo De Gasperis, Sofia Ferazzoli, Davide Marsala, Giampaolo Pisano, Chiara Volpe",
-      "PaperNumber": "14156-100",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "bcd67d53-57d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "bcd67d53-57d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The MISTRAL instrument: a cryogenic W-band lumped elements kinetic inductance detector camera for mm-wave astronomy",
-      "Description": null,
-      "Abstract": "Mistral is a W-band(77–103GHz)cryogenic camera installed at the Gregorian focus of the 64m Sardinia Radio Telescope.Its 415 element Ti/Al LEKID array operates at 0.2K and, coupled to the SRT through a re–imaging  optical system, enables 12arcsec angular–resolution observations in the W–band and provides a 4arcmin instantaneous field of view.The system enables high–resolution millimeter observations for studies of key astrophysical processes across galactic and extragalactic environments.In this contribution, we present the MISTRAL instrument and discuss selected results from its technical commissioning.Specifically, we describe its cryogenic performance;the results confirm theoretical expectations and in-lab performance, demostrationg the system's capability to cool the focal plane to approximately 0.2K.Notably, this is achieved using 100m helium lines between the pulse tube and the compressor in line with previous characterizations of efficiency degradation as a function of line length",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-MISTRAL-instrument--a-cryogenic-W-band-lumped-elements/14156-100",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Kevin Munari, Alessandro Costa, Federico Incardona, Sebastiano Spinello, Emilio Mastriani, Fulvio Gianotti, Ismam Abu, Marcello Lodi, Alessandro Tacchini, Marco De Benedetto, Andrea Mandica",
       "PaperNumber": "14155-153",
       "DateTimeLocationDataList": [
@@ -230,40 +128,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jingwen Zhang, Sophie Noiret, Maxwell A. Millar-Blanchaer, Jason Wang, Neil T. Zimmerman, Eric Shen, Alexis Lau, Élodie Choquet, Taichi Uyajma, Chen Xie, Jessica Gersh-Range, Julien H. Girard, Vanessa P. Bailey, John E. Krist, Kevin J. Ludwick, Alexis Bidot, Arthur Vigan",
-      "PaperNumber": "14145-182",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "c5422e21-f6ce-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "c5422e21-f6ce-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The Roman Coronagraph Community Participation Program: “corgisim” — a simulation suite for the Nancy Grace Roman Space Telescope Coronagraphic Instrument",
-      "Description": null,
-      "Abstract": "NASA’s Roman Space Telescope will feature a pathfinder Coronagraph Instrument to demonstrate advanced high-contrast imaging from space. Roman Coronagraph could obtain imaging and spectroscopy of Jupiter analogs in reflected visible light for the first time. We present the work of developing an open-source simulation package “corgisim” as part of the Roman Coronagraph Community Participate Program. Built on established optical propagation libraries such as PROPER and CGISim, corgisim provides a publicly available Python framework for end-to-end simulations of Roman-CGI observations. The package produces high-fidelity, format-compliant data for pre-launch calibration, pipeline testing, and community applications such as target planning and selection and observation planning. We will give an overview of corgisim’s infrastructure, and current implementation across planned imaging, polarimetry, and spectroscopy modes. We will also provide guidance on how users can employ the software.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Roman-Coronagraph-Community-Participation-Program--corgisim--a/14145-182",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Toshiyuki Mizuki, Justin Hom, Bertrand Mennesson, Ramya Anche, Maxwell A. Millar-Blanchaer, Vanessa P. Bailey, Koji Kawabata, Mitsuhiko Takeuchi, Motohide Tamura, Naoshi Murakami, John Livingston, Jason J. Wang, Schuyler G. Wolff, Guillermo Gonzalez, Eric Shen, Tsutsumi Nagai, Taichi Uyajma",
       "PaperNumber": "14145-180",
       "DateTimeLocationDataList": [
@@ -286,11 +150,45 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "The Roman Coronagraph Community Participation Program: calibration strategy for the Mueller matrix using on-sky sources",
+      "Title": "The Roman Coronagraph community participation program: calibration strategy for the Mueller matrix using on-sky sources",
       "Description": null,
       "Abstract": "The Coronagraphic Instrument on the Roman Space Telescope has a visible polarimetric mode. Accurate calibration of its polarization response is essential for characterizing debris disks, detecting planetary polarization, and diagnosing polarization aberrations. We will observe two unpolarized standards and two polarized standards with intrinsic polarization angles separated by about 45 degrees. These four stars provide the necessary constraints to solve the Mueller matrix such that the known polarization degrees and angles of the standards are correctly recovered. Standards must be single, bright enough for high S/N without saturating, and sufficiently polarized; visibility and operational constraints also apply. From optical catalogs we identified 72 candidates and began a precursor campaign targeting 21 northern objects. Multi-band HONIR polarimetry on the Kanata 1.5 m telescope measures wavelength dependence and enables Serkowski-law extrapolation to the Roman filters.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Roman-Coronagraph-Community-Participation-Program--calibration-strategy-for/14145-180",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Roman-Coronagraph-community-participation-program--calibration-strategy-for/14145-180",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Jingwen Zhang, Sophie Noiret, Maxwell A. Millar-Blanchaer, Jason Wang, Neil Zimmerman, Eric Shen, Alexis Lau, Elodie Choquet, Taichi Uyajma, Chen Xie, Jessica Gersh-Range, Julien Girard, Vanessa Bailey, John Krist, Kevin Ludwick, Alexis Bidot, Arthur Vigan",
+      "PaperNumber": "14145-182",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "c5422e21-f6ce-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "c5422e21-f6ce-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The Roman Coronagraph community participation program: corgisim, a simulation suite for the Nancy Grace Roman Space Telescope Coronagraphic Instrument",
+      "Description": null,
+      "Abstract": "NASA’s Roman Space Telescope will feature a pathfinder Coronagraph Instrument to demonstrate advanced high-contrast imaging from space. Roman Coronagraph could obtain imaging and spectroscopy of Jupiter analogs in reflected visible light for the first time. We present the work of developing an open-source simulation package “corgisim” as part of the Roman Coronagraph Community Participate Program. Built on established optical propagation libraries such as PROPER and CGISim, corgisim provides a publicly available Python framework for end-to-end simulations of Roman-CGI observations. The package produces high-fidelity, format-compliant data for pre-launch calibration, pipeline testing, and community applications such as target planning and selection and observation planning. We will give an overview of corgisim’s infrastructure, and current implementation across planned imaging, polarimetry, and spectroscopy modes. We will also provide guidance on how users can employ the software.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Roman-Coronagraph-community-participation-program--corgisim-a-simulation/14145-182",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -740,7 +638,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Hrushikesha Athreya, SPT-3G+ Collaboration",
+      "Authors": "Hrushikesha Athreya, Zeeshan Ahme, Jay Austermann, Kyuyoung Bae, Aneesh Bapat, Darcy Barron, Pete Barry, Amy Bender, Bradford Benson, Lindsey Bleem, John Carlstrom, Tom Cecil, Clarence Chang, Stephen Cisneros, Anna Coerver, James Cornelison, Rahul Datta, Karia Dibert, Wilber Dominguez, Shannon Duff, Kyra Fichman, Jeff Fillipini, Pato Gallardo, Lisa Gades, Silvia Galli, Nils Halverson, Qing Hao, Shawn Henderson, William Holzapfel, Alec Hryciuk, Johannes Hubmayr, Dante Jones, Varun Kabra, Kirit Karkare, Cesiley King, Matthew Koc, Anna Kofman, Richard Lew, Michael Link, Tammy Lucas, Aashrita Mangu, Emily Martsen, Jeffrey McMahon, Joshua Montgomery, Johanna Nagy, Tyler Natoli, Hogan Nguyen, Val Novosad, Stephen Padin, Tristan Pinsonneault-Marotte, Srini Raghunathan, Alexandra Rahlin, Christian Reichardt, Larry Ruckman, John Ruhl, Shaaf Sarwar, Sara Simon, Robinjeet Singh, Joshua Sobrin, Antony Stark, Quinn Taylor, Carole Tucker, Joel Ullom, Jeffrey Van Lanen, Joaquin Vieira, Abigail Vieregg, Michael Vissers, Gensheng Wang, Kimmy Wu, Vlad Yefremenko, Elif Yilmaz, Cyndia Yu, Jeffrey Zivick, Ryan Herbst",
       "PaperNumber": "14156-90",
       "DateTimeLocationDataList": [
         {
@@ -764,7 +662,7 @@
       "HTMLTitle": "",
       "Title": "The SPT-3G+ cryostat and optics tube design",
       "Description": null,
-      "Abstract": "I will present the mechanical and cryogenics design of the SPT-3G+ cryostat and camera optics, the next receiver planned to be installed on the South Pole Telescope (SPT). The system contains 14 detector arrays, each consisting of 90/150 GHz dichroic polarization-sensitive pixels, totaling 24,000 transition edge sensors (TES). Each detector array lies at the end of an optics tube, which are arranged in a hexagonal close-packed configuration to achieve a 2.7-deg diameter field of view. The optics and detectors are cooled by a combination of a pulse tube cooler for the 40K and 4K stages, and a dilution refrigerator for the 1K and 100 mK stages. Fabrication for the cryostat is aimed to start in 2026, with installation on SPT scheduled for the end of 2028, ahead of the 2029 winter observing season.",
+      "Abstract": "I will present the mechanical and cryogenics design of the SPT-3G+ cryostat and camera optics, the next receiver planned to be installed on the South Pole Telescope. The system contains 14 detector arrays, each consisting of 90/150 GHz dichroic polarization-sensitive pixels, totaling 24,080 transition edge sensors (TES). Each detector array lies at the end of an optics tube, which are arranged in a hexagonal close-packed configuration to achieve a 4-deg diameter field of view. The optics and detectors are cooled by a combination of a pulse tube cooler for the 40K and 4K stages, and a dilution refrigerator for the 1K and 100 mK stages. Fabrication for the cryostat is aimed to start in 2026, with installation on SPT scheduled for the end of 2028, ahead of the 2029 winter observing season.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/The-SPT-3G-cryostat-and-optics-tube-design/14156-90",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -978,7 +876,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jonas W. Muegge, Valeria Antonelli, Marcus Maeder, Steffen Marburg, Norbert Meidinger, Kirpal Nandra, Anirudh Saraf, Rafael Strecker",
+      "Authors": "Jonas W. Muegge, Valeria Antonelli, Marcus Maeder, Norbert Meidinger, Kirpal Nandra, Anirudh Saraf, Rafael Strecker, Steffen Marburg",
       "PaperNumber": "14146-242",
       "DateTimeLocationDataList": [
         {
@@ -1000,11 +898,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Thermo-mechanical design trade-off for the SPICE x-ray detector",
+      "Title": "Thermo-mechanical design trade-off for an x-ray detector module",
       "Description": null,
-      "Abstract": "The SPICE X-ray detector module requires a thermal suspension to separate the cold sensor and warm readout electronics. As 1000 wirebonds still cross the gap, this suspension must also display a very high stiffness to limit damage to the sensor and wirebonds. Five different module concepts based on different materials and geometries are explained, then designed and simulated against one another to see which has the optimal thermal and vibrational performance. Test results from the final chosen design are discussed.",
+      "Abstract": "The SPICE X-ray detector module requires a thermal isolation structure to separate the cold sensor and warm readout electronics. As 1000 wirebonds still cross the gap, this thermal isolation must also display a very high stiffness to limit damage to the sensor and wirebonds. Five different module concepts based on different materials and geometries are explained, then designed and simulated against one another to see which has the optimal thermal and vibrational performance. Test results from the final chosen design are discussed.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Thermo-mechanical-design-trade-off-for-the-SPICE-x-ray/14146-242",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Thermo-mechanical-design-trade-off-for-an-x-ray-detector/14146-242",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1039,6 +937,40 @@
       "Abstract": "The European Solar Telescope (EST) will use a Multi-Conjugate Adaptive Optics (MCAO) system to obtain high spatial resolution solar images over a wide 60″ field of view. This system employs several deformable mirrors working together to correct the effects of atmospheric turbulence at different heights. Traditionally, solar telescopes rely on simple mathematical methods to combine the measurements from multiple sensors, mainly because more advanced techniques require higher computational power.  In this work, we explore modern tomographic reconstruction methods that can improve image quality and stability, comparing them with the classical approach currently used in existing solar MCAO systems. The analysis is carried out with SAOS, a new solar adaptive optics simulator developed within the EST project.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Tomographic-reconstructors-for-MCAO-a-solar-case-study/14150-237",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Ahmad W. Sukkar, Ammar Abdulla, Ghena Rusheidat, Sara Al Nashar, Mariam Al Kaabi, Noor Alamm, Eslam Nofal, Mashhoor Al Wardat, Zouhair Benkhaldoun, Mohamed Gibril, Awni Khasawneh, Hamid Al Naimiy",
+      "PaperNumber": "14151-68",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "423d3a85-edc9-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "423d3a85-edc9-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Towards a pioneering, fully documented architectural design concept for an astronomical observatory in the UAE",
+      "Description": null,
+      "Abstract": "We present the preliminary architectural design framework and site assessment strategies for the development of an Astronomical Observatory in Sharjah, United Arab Emirates. The study integrates architectural design principles with environmental, scientific, and infrastructural considerations across two candidate locations. An interdisciplinary methodology combining architectural engineering, astronomy, environmental studies & geospatial site evaluation was applied to analyze topography, accessibility, atmospheric conditions, vegetation distribution, and land-use constraints. The proposed design aims to balance functional requirements for optical & radio astronomical research with sustainable architectural solutions that respect the natural landscape. The outcomes demonstrate the role of collaborative processes in shaping astronomy infrastructure and establish the foundation for a fully developed observatory masterplan to support research, education, and public engagement in the UAE.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Towards-a-pioneering-fully-documented-architectural-design-concept-for-an/14151-68",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1250,40 +1182,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Davide Fiorina, Giorgio Dho, Elisabetta Baracchini, Stefano Piacentini, Enrico Costa, Paolo Soffitta, Fabio Muleri",
-      "PaperNumber": "14157-112",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "32e301c6-74d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "32e301c6-74d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Unified Background Simulations for Future X-Ray Polarimetry Missions",
-      "Description": null,
-      "Abstract": "We will present the preliminary results of a unified simulation campaign aimed at assessing the performance and physics reach of next-generation polarimetric missions. To this end, we studied both an optics-based configuration inspired by the EXPO mission, building on the legacy inaugurated by IXPE, and the newly developed X-POT optical-TPC concept, recently established as a competitive wide-field, collimated hard X-ray polarimeter. Using a Monte Carlo framework validated on IXPE data, we model representative signal and background conditions for each design, evaluating their expected polarimetric response in representative astrophysical scenarios. This joint simulation effort outlines a coherent strategy for future missions combining large-area collimated detectors with high-resolution optics, and establishes a quantitative foundation for optimizing instrument design and defining key science cases.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Unified-Background-Simulations-for-Future-X-Ray-PolarimetryMissions/14157-112",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Timothy E. Pickering, Lisa Crause, Encarni Romero Colmenero, Rudi Kuhn, Nico van der Merwe",
       "PaperNumber": "14151-100",
       "DateTimeLocationDataList": [
@@ -1488,7 +1386,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Roderick De Cock, Hans-Peter Gröbelbauer, Nick Eaton, Stefan Kögl, Pieter Bogaert, Lars Jacobs, Bram Beeckman, Sophie Berkenbosch, Oliver Döbrich, Justin Erwin, Séverine Robert, Pascal Seiler, Florian Wirz, Silvan Stutz, Gerhard Stefan Székely, Paola Kögl, Aurélien Aubry, Nuno Pereira, David Bolsée, Paul Tackley, Martin Ferus, Pedro Machado, Michiel Min, Luisa M. Lara, Giulia Alemanno, Emmanuel Marcq, Océane Barraud, Eddy Neefs",
+      "Authors": "R. De Cock, H.-P. Gröbelbauer, N. Eaton, S. Kögl, P. Bogaert, L. Jacobs, B. Beeckman, S. Berkenbosch, O. Döbrich, J. Erwin, S. Robert, P. Seiler, F. Wirz, S. Stutz, G. Székely, P. Kögl, A. Aubry, N. Pereira, D. Bolsée, P. Tackley, M. Ferus, P. Machado, M. Min, L. M. Lara, G. Alemanno, E. Marcq, O. Barraud, E. Neefs",
       "PaperNumber": "14145-217",
       "DateTimeLocationDataList": [
         {
@@ -1702,7 +1600,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -1724,13 +1622,115 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Helawae Kelemu, Alejandro Buendía, Deborah Malone, Saúl Perez, Francisco Javier De Cos Juez, Nazim Ali Bharmal, Tim Morris",
+      "PaperNumber": "14150-238",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "8f3d29e8-6acf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "8f3d29e8-6acf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Wavefront predictor performance comparison between artificial neural network and linear model-based predictors",
+      "Description": null,
+      "Abstract": "Modern astronomical telescopes employ high-dimensional adaptive optics (AO) systems. In such systems, wavefront prediction is essential for mitigating temporal-lag errors. Neural network–based predictors have seen increased interest, yet direct comparisons with linear model-based predictors remain scarce.  This work presents a comparative evaluation of a linear predictor in an LQG control framework and a 2D-LSTM neural network predictor. Under non-stationary turbulence, the two approaches show distinct performance characteristics, with the neural network exhibiting greater adaptability. These findings support the development of self-calibrating model-based prediction strategies for future AO systems.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Wavefront-predictor-performance-comparison-between-artificial-neural-network-and-linear/14150-238",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Andrew W. Serio, Sharon E. Hunt, Josie Fenske, Hernan Chacana, Carolina Vargas",
+      "PaperNumber": "14151-98",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "978e7a25-a8d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "978e7a25-a8d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "What does it mean? Introduction to NOIRLab’s terminology extension",
+      "Description": null,
+      "Abstract": "NSF NOIRLab, which is funded by the U.S. National Science Foundation (NSF), was formed in 2019 by consolidating three observatories (NOAO, International Gemini Observatory, and NSF–DOE Vera C. Rubin Observatory). As a result, the organization inherited multiple disparate terminology databases from its Programs, leading to confusion and duplication of effort regarding the meaning and usage of terms and abbreviations. We have consolidated these terminology sources into a single, authoritative database that includes terms and abbreviations for common astronomical language, job titles, Program-specific items, organizations and institutions, and instrumentation, with both English and Spanish translations to support our multilingual, international organization. The database powers the NOIRLab Terminology Extension, a Chrome extension that provides an easy search feature overlayable on any web page. Users can find the expanded forms of acronyms and see term usage differences across NOIRLab.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/What-does-it-mean-Introduction-to-NOIRLabs-terminology-extension/14151-98",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Nicholas B. Galitzki",
+      "PaperNumber": "14147-45",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:50 - 18:10 CEST | Room B3-M6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "cc93eac2-60d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "cc93eac2-60d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The Simons Observatory: commissioning and initial science observations",
+      "Description": null,
+      "Abstract": "The Simons Observatory (SO) measures the cosmic microwave background (CMB) from a high altitude (5,200 m) site in Chile’s Atacama Desert. SO makes precision temperature and polarization maps on angular scales between one arcminute and tens of degrees using over 120,000 detectors operating below 100 mK and sampling frequencies between 24 and 315 GHz. SO consists of one six-meter-aperture telescope and an array of half-meter aperture refractive cameras with a photovoltaic system designed to supply 70% of the observatory’s energy needs. The observatory is fully operational and work on initial science publications and data products is advancing rapidly. We present the status of the observatory, covering the current configuration’s commissioning, operations, and initial observations as well as progress towards expanded capabilities.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Simons-Observatory-commissioning-and-initial-science-observations/14147-45",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:50 - 18:10 CEST | Room B3-M6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

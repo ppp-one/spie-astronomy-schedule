@@ -26,142 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Sorabh Chhabra, A. N. Ramaprakash",
-      "PaperNumber": "14148-154",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "351445fc-c6ce-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "351445fc-c6ce-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Speckle correlation-based diffraction-limited high resolution polychromatic imaging through the atmospheric turbulence using the memory effect principle for a Large Scale telescope",
-      "Description": null,
-      "Abstract": "Imaging through a turbulent medium like the atmosphere has always been a difficult challenge. The random variations of the refractive index prevent the formation of diffraction-limited images; instead, we get a speckle image. In this work, we have given our analysis as to how we can exploit the inherent 'memory effect principle' present in the atmosphere to produce diffraction-limited results for amplitude recovery. This paper includes obtaining accurate speckle images through a simulated imaging system in the presence of atmospheric turbulence and its validation. For amplitude and phase recovery, an accurate approach has been developed and implemented using a hybrid Bispectrum- Fienup algorithm and tested against different sky backgrounds, read noise, and telescope reflectivity. The polychromatic effect of a limited bandwidth source has been introduced into the simulation and tested against different sky backgrounds and detector noises.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Speckle-correlation-based-diffraction-limited-high-resolution-polychromatic-imaging-through/14148-154",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "David J. Erskine, Jerry Edelstein, Martin M. Sirk, Ed H. Wishnow",
-      "PaperNumber": "14149-402",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "0f21e2c7-31b4-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "0f21e2c7-31b4-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Spectrograph stabilization method using a single-delay interferometer on the Hale Telescope",
-      "Description": null,
-      "Abstract": "We describe spectrograph stabilization useful when conventional mitigation techniques of vacuum tanks, thermal insulation and laser frequency comb systems are expensive, heavy, or bulky, such as spectrographs on airborne platforms, or mounted on moving telescopes. Placing a fixed-delay interferometer in series with a spectrograph forms an Externally Dispersed Interferometer (EDI) producing a uniform sinusoidal comb multiplying the input spectrum, creating moire. A new data analysis (“crossfading”) combines moire with input spectrum to stabilize the net output spectrum to wavelength drifts. Being a single-delay interferometer, this improves over prior crossfading requiring multiple delays. Testing on Hale EDI data of a ThAr spectral lamp using 7 iterations reduces 0.5 cm-1 [31 km/s] drift to 4x10^−7 cm−1 [2.5 cm/s]. The interferometer delay can wander, since the linearity of phase vs wavenumber interpolates a science feature between bracketing calibrating spectral references.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Spectrograph-stabilization-method-using-a-single-delay-interferometer-on-the/14149-402",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Adam B. Johnson, William Thompson, Christian Marois, Olivier Lardière, Christopher Mann, Andre Fogal, Kaitlyn Hessel, Kris Caputa, Frédéric Grandmont",
-      "PaperNumber": "14150-349",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "c57b7600-0ed0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "c57b7600-0ed0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "SPIDERS’ IFTS: optimal LQG control and high-fidelity spectral extraction for a full-field FTS behind a second stage focal plane WFS AO system",
-      "Description": null,
-      "Abstract": "We present the 2025–2026 rebuild of the Imaging Fourier Transform Spectrometer (IFTS) for the Subaru Pathfinder Instrument for Detecting Exoplanets & Retrieving Spectra (SPIDERS). The system implements a real-time actuator-control architecture that maintains nanometer-level optical-path stability during continuous millimeter-scale scans of a Michelson interferometer. A model-based Linear–Quadratic–Gaussian (LQG) controller with a 100 kHz state observer provides predictive full-state estimates of mirror motion, enabling stable, low-noise operation across the wide scan-speed and scan-length regimes required for full-field exoplanet imaging and spectral retrieval. Interferometric data are reconstructed using a NUDFT with sparsity- and smoothness-promoting regularization for irregular OPD sampling, supporting spectral resolving powers from R5 to R20,000. The resulting spectra enable SPIDERS to identify biomarkers and characterize exoplanet atmospheric chemistry in a near-infrared range",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/SPIDERS-IFTS--optimal-LQG-control-and-high-fidelity-spectral/14150-349",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Frank Grupp, Hanna Kellermann, Helena Lamprecht",
-      "PaperNumber": "14145-303",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "2b183bf7-39d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "2b183bf7-39d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Split test scheme for a Gregorian space telescope: using computer generated holograms to split the test of the Gregorian telescope for Theon in the intermediate focus",
-      "Description": null,
-      "Abstract": "We present a concept based on Computer Generated Holograms (CGH) that enables independent testing of the primary mirror (M1) and of the optical path from the Gregorian primary focus, through the secondary, to the final focus behind M1. Although the tests are carried out separately, the CGH configuration and a central reference system link both test lines, allowing highly accurate predictions of the overall Optical Telescope Assembly (OTA) performance. This decoupling of component tests greatly reduces schedule risk and cost. In addition, early use of both paths with the central reference enables rapid creation of CGH-based \"as-built\" telescope simulators, allowing instruments to be tested individually and early, without needing the OTA itself. The concept aligns with the \"new paradigm\" proposed by Arenberg, Grupp, and Kellermann [2020, 2022, 2024], which applies modular industrial building-block strategies to space optics to reduce complexity, cost, and risk.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Split-test-scheme-for-a-Gregorian-space-telescope--using/14145-303",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Takeshi Nakamori, Atsushi Takada, Shinya Sonoda, Mitsuru Abe, Kai Matsunaga, Soma Deguchi, Taiyo Sato, Sana Okumura, Haruki Onoda, Hiroki Yoneda, Haruki Iiyama, Dai Yaegashi, Shun Suzuki, Tatsuya Sawano, Yusuke Munakata, Kanaho Okamoto, Yoshitaka Mizumura, Masaki Mori, Tomohiko Oka, Kenji Hamaguchi, Junko Kushida, Kyoshi Nishijima, Shunsuke Kurosawa, Kentaro Miuchi, Toru Tanimori",
       "PaperNumber": "14146-334",
       "DateTimeLocationDataList": [
@@ -196,7 +60,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Tony Travouillon, Noelia Martinez Rey, Hajime Ogane, Joschua Hellemeier, Grace McGinness, David Chandler, Gaston Gausachs, Jesse Cranney, Brian Taylor, Israel Vaughn, Rob Sharp, Celine D'Orgeville, Richard Demers, Bo Xin, Juan-Pablo Haddad, Hugo Chiquito, Patricio Schurter, Marcos Van Dam",
+      "Authors": "Tony Travouillon, Noelia Martinez-Rey, Hajime Ogane, Joschua Hellemeier, Grace McGinness, David Chandler, Gaston Gausachs, Jesse Cranney, Brian Taylor, Israel Vaughn, Rob Sharp, Celine D'Orgeville, Richard Demers, Bo Xin, Juan-Pablo Haddad, Hugo Chiquito, Patricio Schurter, Marcos Van Dam, Fernando Quiros",
       "PaperNumber": "14150-334",
       "DateTimeLocationDataList": [
         {
@@ -558,7 +422,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Template development in the ELT software framework: the FORS upgrade project",
+      "Title": "Template development in the ELT software framework: the FORS Upgrade project",
       "Description": null,
       "Abstract": "The FORS upgrade project (FORS-Up) is the first real-world deployment of the complete ELT Instrument Control Software Framework on an operational telescope instrument. As FORS1 is refurbished to replace FORS2 at the VLT, its control software is being fully reimplemented using the new ELT architecture, turning it into a critical proving ground for upcoming ELT instruments.    This paper presents development methodologies drawn from implementing observational procedures for FORS1’s multi-mode operations. We describe a hierarchical template architecture that enforces consistent structure and maximizes code reuse across seven observing modes and several dozen procedures. We provide concrete examples from template code, discuss techniques for reducing overheads through parallel execution, and outline testing strategies using real hardware and high-fidelity simulators. The resulting patterns and lessons learned offer practical guidance for teams developing control software for ELT intruments.",
       "ImagePath": null,
@@ -570,7 +434,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Benjamin R. Zeiger, Michelangelo von Dassow, Isabella Brown, Danny Herbert",
+      "Authors": "Benjamin R. Zeiger, Michelangelo von Dassow, Isabella Brown, Danny Herbert, Dan Fuller",
       "PaperNumber": "14146-348",
       "DateTimeLocationDataList": [
         {
@@ -672,7 +536,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Christiaan D. Brinkerink",
+      "Authors": "Christiaan D. Brinkerink, Peter Dolron, Hiiko Katjaita, Sylvain Mahieu, Bruno Pissard, Hans-Werner Matthaei",
       "PaperNumber": "14153-106",
       "DateTimeLocationDataList": [
         {
@@ -694,11 +558,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "The African Millimeter Telescope phase monitor system: low-cost and flexible atmospheric characterisation",
+      "Title": "The African millimeter telescope phase monitor system: low-cost and flexible atmospheric characterisation",
       "Description": null,
       "Abstract": "As part of the development efforts for the African Millimeter Telescope, four simple atmospheric phase monitoring systems, designed in-house at Radboud Radio Lab, have been deployed at multiple sites in Namibia. Each system consists of two COTS satellite dishes connected to a central computer, and measures fluctuations in phase difference from a TV satellite signal in Ku-band. Through these measurements, the stability of the local atmosphere can be monitored and the coherence time of the atmosphere at higher observing frequencies calculated. In this talk, we present the results from these measurements as well as the results from a test campaign to verify the hardware performance, which was carried out in coordination with IRAM at the NOEMA site on Plateau de Bure. We conclude that while our measetup has higher instrumental noise levels than other more advanced (and more expensive) systems, the coherence times calculated using the data from both systems correlates quite well.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-African-Millimeter-Telescope-phase-monitor-system--low-cost/14153-106",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-African-millimeter-telescope-phase-monitor-system--low-cost/14153-106",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -706,7 +570,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jonathan Crass, Sai Vidyud Senthil Nathan, Julia Brady, Mark Derwent, Marcelo Tala Pinto, Michael Engelman, Christian Schwab, Julian Stürmer, Jayde Spiegel, Erin Duell, Brian Sands, Daniel Pappalardo, Matheus J. Castro, Justin R. Crepp, Marshall Johnson, Ondrej Kitzler, Thomas Legero, Xavier Lesley, Stanimir Letchev, Jacob Pember, Richard Pogge, Jonathan Shover, Dane Zielinski-Nicolson",
+      "Authors": "Sai Vidyud Senthil Nathan, Jonathan Crass, Julia Brady, Mark Derwent, Marcelo Tala Pinto, Brian Sands, Jackson Datkuliak, Jonathan Shover, Christian Schwab, Julian Stürmer, Stanimir Letchev, Jacob Pember, Jayde Spiegel, Erin Duell, Daniel Pappalardo, Marshall Johnson, Michael Engelman, Matheus J. Castro, Justin R. Crepp, Ondrej Kitzler, Thomas Legero, Xavier Lesley, Richard Pogge, Dane Zielinski-Nicolson",
       "PaperNumber": "14149-462",
       "DateTimeLocationDataList": [
         {
@@ -740,7 +604,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Joshua MacEachern, Mandana Amiri, Charles L. Bennett, Guinevere Berg, Mark Halpern, Gary Hinshaw, Gordon Lacy, Tom Landecker, Thomas J. Rennie, Shuyu van Kerkwijk, Bruce Veidt, Pedro Villalba-González, Janet Weiland, Don Wiebe, Edward J. Wollack, Parham Zarei",
+      "Authors": "Joshua MacEachern, Mandana Amiri, Charles L. Bennett, Guinevere Berg, Mark Halpern, Gary Hinshaw, Gordon Lacy, Thomas J. Rennie, Shuyu van Kerkwijk, Bruce Veidt, Pedro Villalba-González, Janet Weiland, Don Wiebe, Edward J. Wollack, Parham Zarei",
       "PaperNumber": "14156-177",
       "DateTimeLocationDataList": [
         {
@@ -774,7 +638,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Giovanni Lombardi, Sergio Fabiani, Ettore Del Monte, Nicolas De Angelis, Abhay Kumar, Daniele Censi, Riccardo Di Spirito, Giovanni De Cesare, Riccardo Campana, Enrico Costa, Mauro Centrone, Sergio Di Cosimo, Giuseppe Di Persio, Pasqualino Loffredo, Gabriele Minervini, Fabio Muleri, Paolo Romano, Alda Rubini, Emanuele Scalise, Paolo Soffitta, Andrea Alimenti, Enrico Silva, Bruna Bertucci, Giovanni Ambrosi, Giovanni Cucinella, Vito Di Bari, Simone Di Filippo, Andrea Negri, Massimo Perelli, Dario Modenini, Andrea Curatolo, Nicolas Gagliardi, Daniele Pecorella, Alice Ponti, Paolo Tortora, Andrea Del Re, Davide Albanesi, Valerio Campamaggiroe, Giulia De Iulis, Adam Ebrahim, Marco Schepis, Alessandro Zambardi, Ilaria Baffo, Pierluigi Fanelli, Costantino Zazza, Valerio Vagelli, Daniele Brienza, Immacolata Donnarumma, Matteo Mergè, Emanuele Zaccagnino, Alessandro Turchi",
+      "Authors": "Giovanni Lombardi, Sergio Fabiani, Ettore Del Monte, Nicolas De Angelis, Abhay Kumar, Daniele Censi, Riccardo Di Spirito, Giovanni De Cesare, Riccardo Campana, Enrico Costa, Mauro Centrone, Sergio Di Cosimo, Giuseppe Di Persio, Pasqualino Loffredo, Gabriele Minervini, Fabio Muleri, Paolo Romano, Alda Rubini, Emanuele Scalise, Paolo Soffitta, Andrea Alimenti, Enrico Silva, Bruna Bertucci, Giovanni Ambrosi, Giovanni Cucinella, Vito Di Bari, Andrea Negri, Massimo Perelli, Dario Modenini, Andrea Curatolo, Nicolas Gagliardi, Daniele Pecorella, Alice Ponti, Paolo Tortora, Andrea Del Re, Davide Albanesi, Valerio Campamaggiroe, Giulia De Iulis, Adam Ebrahim, Marco Schepis, Alessandro Zambardi, Ilaria Baffo, Pierluigi Fanelli, Costantino Zazza, Valerio Vagelli, Daniele Brienza, Immacolata Donnarumma, Matteo Mergè, Emanuele Zaccagnino, Alessandro Turchi",
       "PaperNumber": "14146-315",
       "DateTimeLocationDataList": [
         {
@@ -898,11 +762,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "The GMT Adaptive Optics and Phasing Sensors (GAPS) Testbed: Characterization of the 2k-Actuator Deformable Mirror and Segmented Piston-Tip-Tilt Array",
+      "Title": "The GAPS Testbed: characterization of the 2k-actuator deformable mirror and segmented piston-tip-tilt array",
       "Description": null,
       "Abstract": "The GMT Adaptive Optics and Phasing Sensors (GAPS) testbed was designed and built to develop and validate the Natural Guide Star Adaptive Optics (NGAO) mode of the Giant Magellan Telescope (GMT). GAPS’ primary objective is to demonstrate diffraction-limited performance in the near infrared, across the full 25.4-meter doubly segmented telescope aperture, including operations under poor seeing conditions and with faint guide stars.  GAPS repurposes the Natural Guide star Wavefront Sensor Prototype (NGWS-P), previously demonstrated on the High Contrast AO Testbed (HCAT), which is integrated and combined with a new telescope simulator reproducing the GMT pupil geometry. Central to the testbed are the 2k-actuator deformable mirror (DM) from BMC and the segmented Piston Tip-Tilt (PTT) array from SAO. Together, they enable the injection of atmospheric turbulence and quasi-static phasing errors, as well as their correction, serving as a proxy for the GMT Adaptive Secondary Mirror.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-GMT-Adaptive-Optics-and-Phasing-Sensors-GAPS-Testbed/14150-360",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-GAPS-Testbed--characterization-of-the-2k-actuator-deformable/14150-360",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -932,7 +796,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "The INAF–OAR laser guide stars adaptive optics laboratory: a national facility for assembly, integration and verification of advanced laser guide star systems",
+      "Title": "The INAF–OAR laser guide stars adaptive optics laboratory: a national facility for assembly, integration, and verification of advanced laser guide star systems",
       "Description": null,
       "Abstract": "We present the new INAF LGS–AO Laboratory, a national facility established to strengthen Italy’s capabilities in advanced adaptive optics (AO) and Laser Guide Star (LGS) technologies. Funded through the Italian Recovery and Resilience Plan (PNRR), the laboratory provides a fully equipped environment for end-to-end Assembly, Integration, and Verification (AIV) of AO subsystems. Its infrastructure includes high-power laser systems, precision wavefront sensors, deformable mirrors, interferometric diagnostics, turbulence simulators, and real-time control hardware, enabling development, testing, and innovation in AO, LGS, and AI-driven wavefront control. The facility also supports research in laser ranging, optical communication, and space-debris monitoring, serving as a national hub for optical technologies.",
       "ImagePath": null,
@@ -978,7 +842,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Kevin Gilliam, Chad F. Bender, Gilberto Chavez Lopez, Warren B. Foster, Riley Mikkelsen, Brian Scaramella, Richard Wortley, Andy Monson",
+      "Authors": "Kevin Gilliam, Chad F. Bender, Gilberto Chavez Lopez, Andy Monson, Warren B. Foster, Riley Mikkelsen, Brian Scaramella",
       "PaperNumber": "14155-213",
       "DateTimeLocationDataList": [
         {
@@ -1000,7 +864,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "The Large Fiber Array Spectroscopic Telescope: a scalable ROS-2 based architecture for distributed telescope control",
+      "Title": "The Large Fiber Array Spectroscopic Telescope: a scalable ROS-2-based architecture for distributed telescope control",
       "Description": null,
       "Abstract": "The LFAST project is building a 20-cell telescope array to provide large collecting area at lower cost than traditional single apertures. Each cell includes auxiliary imaging for alignment and wavefront sensing, a primary mirror with three degrees of freedom, and a thermally actuated figure-control system using 24 regulated TEC elements. Scaling to 20 cells creates a very large number of controllable degrees of freedom. Coordinating them as one instrument presents challenges in distributed control, synchronization, device-health monitoring, and fault isolation. LFAST uses open-source astronomy software and ROS 2 for modular development, component reuse, and real-time array coordination. This paper presents the control architecture and lessons learned from building a scalable, cost-effective system for independently actuated telescope cells.",
       "ImagePath": null,
@@ -1034,11 +898,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "The Large Fiber Array Spectroscopic Telescope: Engineering Development of an Observatory-Ready System",
+      "Title": "The Large Fiber Array Spectroscopic Telescope: engineering development of an observatory-ready system",
       "Description": null,
       "Abstract": "This paper describes design and development improvements for the Large Fiber Array Spectroscopic Telescope (LFAST) mechanical structure and drive systems. LFAST is an innovative concept that aims to provide a large collecting area for astronomical spectroscopy at low cost by mass producing large numbers of inexpensive 0.76m unit telescopes.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Large-Fiber-Array-Spectroscopic-Telescope--Engineering-Development-of/14147-199",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Large-Fiber-Array-Spectroscopic-Telescope--engineering-development-of/14147-199",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1046,7 +910,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Lucio Angelo Antonelli, Andrea Busatta, Massimiliano Mattioli, Francesco Perrotta",
+      "Authors": "L. A. Antonelli, A. Busatta, A. Mattioli, F. Perrotta",
       "PaperNumber": "14147-187",
       "DateTimeLocationDataList": [
         {
@@ -1692,7 +1556,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "H. Salzmann, W. Jin, Y. Lyu, M. Escobar Godoy, F. M. Martinez-Mckinney, L. Saha, K.-W. T. Shin, V. V. Vassiliev, D. A. Williams",
+      "Authors": "H. Salzmann, W. Jin, Y. Lyu, M. Escobar Godoy, L. Saha, F. M. Martinez-Mckinney, K.-W. T. Shin, V. V. Vassiliev, D. A. Williams",
       "PaperNumber": "14147-189",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1588,149 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Yuta Miki",
+      "PaperNumber": "14154-400",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "7521d7ee-3dcf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "7521d7ee-3dcf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The Simons Observatory: development of a cryogenic lens mount with reduced mechanical lens stress in the small aperture telescopes",
+      "Description": null,
+      "Abstract": "The Simons Observatory (SO) aims to detect the primordial B-mode polarization of the CMB to constrain the tensor-to-scalar ratio. SO has begun observations with three small aperture telescopes (SATs) located on the high-altitude Atacama Plateau in Chile. Each telescope employs silicon lenses held by lens mounts within the cryogenic optics tube cooled to 1 K. However, during pre-deployment tests, several lenses cracked due to a design flaw in the lens mounts. To address this, we developed a modified lens mount to mitigate the risk. This presentation reports on the failure investigation, performance evaluation and installation of the new lens mounts into SATs.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Simons-Observatory--development-of-a-cryogenic-lens-mount/14154-400",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Berke V. Ricketti, Victoria Yankelevich, Ettore Pedretti, Andy Vick, Evelina Zubyte, Giorgio Savini, Locke Spencer, Gerard van Belle, Lee Mundy, David T. Leisawitz",
+      "PaperNumber": "14148-157",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "ec681ac7-6bd0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "ec681ac7-6bd0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The SPace-based InterFerometer Feasibility (SPIFF) Project: finding a path towards a technology demonstration mission for space-based interferometry in times of limited funding",
+      "Description": null,
+      "Abstract": "Space-based interferometry promises transformational angular resolution, yet no direct-detection synthetic-aperture interferometer has flown. Technical complexity, low system-level TRL, and community scepticism have stalled progress despite strong scientific demand. The SPIFF Project is a UK-led, internationally partnered effort to define a coherent, stepwise path toward a future space interferometer mission. SPIFF will build on UK strategic priorities, industrial capabilities, and recent progress on a thermal-IR spatio-spectral interferometer breadboard. A central element is an international consortium, including PIs from previous mission concepts, to capture lessons learned and avoid repeating past challenges. By uniting technology development, community engagement, and heritage expertise, SPIFF aims to deliver a credible roadmap for future space interferometry and inform the landscape ahead of the U.S. Astro2030 and ESA long-term planning cycles.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-SPace-based-InterFerometer-Feasibility-SPIFF-Project--finding-a/14148-157",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Mikhail Sachkov, Evgeniy A. Kopylov",
+      "PaperNumber": "14156-181",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "8881604d-cecf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "8881604d-cecf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The Spektr-UF mission: status 2026",
+      "Description": null,
+      "Abstract": "A general description of the project “Spektr-UF” (Spectrum-UV, World Space Observatory - Ultraviolet) aimed at creating a large space observatory for operation in the UV wavelengths (115 - 310 nm) is given.   Spectr-UF – is a multipurpose space observatory equipped with a telescope of 170 cm primary mirror diameter. The main task of the observatory is obtaining high-resolution spectra of cosmic objects and images of diffraction quality in the UV region (115–310 nm).  Hear we briefly describes the current status of the project, focusing on some new touches. The scientific program of the project has been clarified, a new project of the field camera has been prepared; more optimal orbit has been selected; a system for collecting applications has been developed and experimental collection of applications has begun.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Spektr-UF-mission-status-2026/14156-181",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Ivan di Antonio, Simone Lombardi",
+      "PaperNumber": "14148-165",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "6bacb9e0-68cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "6bacb9e0-68cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Thermal compensation in the Einstein Telescope: a preliminary study",
+      "Description": null,
+      "Abstract": "Thermal gradients in the mirrors of current and next-generation gravitational wave interferometers cause optical aberrations that can significantly affect their stability and sensitivity. In the future Einstein Telescope (ET) high-frequency arm, the high expected circulating power will induce a significant optical path difference in the Fabry-Perot (power) cavity, which would compromise the functionality of the interferometer unless properly compensated. In this paper the induced thermal aberrations (thermo-elastic and thermo-optic contributions) are assessed, both analytically and through finite-elements analyses. Actuation patterns are then introduced in the analyses, properly modeled in shape and magnitude to restore the nominal RoC of the mirrors and minimize the total optical path difference within the laser beam waist, thus compensating for the undesired thermal effects. Preliminary requirements for the future Thermal Compensation System of ET are finally given.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Thermal-compensation-in-the-Einstein-Telescope-a-preliminary-study/14148-165",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

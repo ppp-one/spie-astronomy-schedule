@@ -26,109 +26,7 @@
   },
   "Items": [
     {
-      "Authors": "Keath Beifus, William Burgett, Colby Gottschalk, King-Ming Lam, Sam Park, Nathan Loewen, Byron Smith, Giovanni Bonomi, Jeff Kimberly, Todd Trieloff, Dave Zarembski, Peter Eisenträger, Volker Grimm, Alexei Ippa, Alexander Rohr, Lehel Simeny, Eberhard Sust, Ulrich Weis, Raffaele Tomelleri",
-      "PaperNumber": "14147-58",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 16:10 - 16:30 CEST | Room B3-M6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "944aed73-dbcf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "944aed73-dbcf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The Giant Magellan Telescope azimuth track: fabrication and machining processes",
-      "Description": null,
-      "Abstract": "The Giant Magellan Telescope (GMT) Azimuth Track forms a 20 m diameter, multi-segmented cylinder that supports three concentric hydrostatic bearing raceways requiring 250-micron flatness across the entire diameter. Eight identical segments, each averaging 27,200 kg, are fabricated from A572 Gr50 plate ranging from 25–100 mm in thickness. High-density finite element analysis (FEA) drove the inclusion of numerous large complete joint penetration (CJP) welds, with thermal stress relief cycles applied to mitigate distortion. After welding, segments are rough-machined for precise geometry; axial raceways are finished by milling, and radial raceways by single-point turning and abrasive machining. Integrated features manage hydrostatic bearing oil flow and collection.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Giant-Magellan-Telescope-azimuth-track--fabrication-and-machining/14147-58",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 16:10 - 16:30 CEST | Room B3-M6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Akio Taniguchi, Yoichi Tamura, Takeshi Sakai, Masato Hagimoto, Takuya Hashimoto, Akio K. Inoue, Shun Ishii, Haoran Kang, Masato Kato, Ryohei Kawabe, Kotaro Kohno, Takafumi Kojima, Kianhong Lee, Sho Masui, Akinobu Miyake, Taku Nakajima, Tai Oshima, Wenlei Shan, Tatsuya Takekoshi, Kunihiko Tanaka, Kotomi Taniguchi, Kaoru Tsuji, Issei Watanabe, Tom J. L. C. Bakx, Yoshinobu Fudamoto, Kazuyuki Fujita, Yuichi Harikane, Bunyo Hatsukade, David H. Hughes, Takahiro Iino, Yuki Kimura, Hiroyuki Maezawa, Yuichi Matsuda, Ken Mawatari, Shunichi Nakatsubo, Hideo Sagawa, Peter F. Schloerb, Shigeru Takahashi, Akiyoshi Tsujita, Hideki Umehata, Min S. Yun",
-      "PaperNumber": "14156-31",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 16:20 - 16:40 CEST | Room B5-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "d3d1394c-c2ca-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "d3d1394c-c2ca-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "FINER: development of the wideband millimeter-wave receiver system and preparations for first light on the Large Millimeter Telescope",
-      "Description": null,
-      "Abstract": "The recent discovery of an excess of luminous galaxies in the early Universe necessitates sensitive and wideband millimeter spectroscopy to understand their rapid growth. To address this, we present the development of the Far-Infrared Nebular Emission Receiver (FINER) for the Large Millimeter Telescope (LMT). The FINER frontend comprises two receivers covering 120–350 GHz (corresponding to ALMA Bands 4+5 and 6+7). The warm optics are designed to enable simultaneous two-band observations. Combined with the 10.24-GHz-wide digital spectrometer array, the system aims to deliver an instantaneous bandwidth approximately five times wider than current ALMA capabilities. We report that the 210-350 GHz receiver has already achieved commissioning-level performance, with sideband rejection further enhanced by the digital sideband separation technique. With installation expected in 2026, we discuss parallel preparations, including integrated testing and commissioning plans for first-look targets.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/FINER--development-of-the-wideband-millimeter-wave-receiver-system/14156-31",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 16:20 - 16:40 CEST | Room B5-M3",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Sarah Pappert, Guillaume Bourdarot, Richard Davies, Frank Eisenhauer, Helmut Feuchtgruber, Simon Flesch, Natascha Förster Schreiber, Quentin Fournier, Reinhard Genzel, Stefan Gillessen, Simran Joharle, Ruancun Li, Dieter Lutz, Felix Mang, Thomas Ott, Sebastian Rabien, Diogo Ribeiro, Matteo Sadun Bordoni, Jinyi Shangguan, Taro T. Shimizu, Eckhard Sturm, Linda Tacconi",
-      "PaperNumber": "14148-54",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 16:20 - 16:40 CEST | Room B4-M5",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "8ef3fe8d-b2d9-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "8ef3fe8d-b2d9-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "GRAVITY+ at the VLTI: instrumental advances enabling high-angular-resolution AGN science",
-      "Description": null,
-      "Abstract": "We present an overview of how recent and upcoming GRAVITY+ upgrades at the VLTI interconnect instrument and science, enabling high-angular-resolution studies of active galactic nuclei (AGN). Improvements such as wide-angle off-axis fringe tracking, enhanced fringe-tracker performance, and state-of-the-art adaptive optics, including laser guide stars, increase sensitivity and sky coverage, allowing coherent observations of fainter targets. These instrumental advances directly support measurements of black hole masses out to high redhsift and spatially resolved studies of broad-line region structure and kinematics, as well as resolved observations of [O III] emission tracing the inner narrow-line region at z ≈ 2–4. We also discuss prospects for supermassive black hole binary searches with GRAVITY+.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/GRAVITY-at-the-VLTI--instrumental-advances-enabling-high-angular/14148-54",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 16:20 - 16:40 CEST | Room B4-M5",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Holger Drass, Austin Roberts, Alessio Taranto, Chuck Claver, David Cabrera, Diane Hascall, Enrico Giro, Gabriele Rodeghiero, Kevin Siruno, Luca Rosignoli, Matthew Rumore, Mostafa Lutfi, Pablo Zorzi, Rodolfo Canestrari, Felipe Bustos, Brian Stalder",
+      "Authors": "Holger Drass, Chuck Claver, David Cabrera, Diane Hascall, Kevin Siruno, Matthew Rumore, Mostafa Lutfi, Pablo Zorzi, Felipe Bustos, Brian Stalder",
       "PaperNumber": "14152-58",
       "DateTimeLocationDataList": [
         {
@@ -400,7 +298,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Felix M. Thiel, Mayukh Bagchi, Laura M. Fissel, Lindy Blackburn, Rafael Costa, Vincent L. Fish, Daryl Haggard, Michael D. Johnson, Jess Lo, Maggie Oxford, Ganesh Rajagopalan, Javier L. Romualdez, Aarchi Shah, Adrian K. Sinclair, Stephanie St-Jean, Terry Yang",
+      "Authors": "Felix M. Thiel, Mayukh Bagchi, Laura M. Fissel, Aarchi Shah, Lindy Blackburn, Emily Butler, Rafael Costa, Thomas Emo, Vincent L. Fish, Daryl Haggard, Michael D. Johnson, Jess Lo, Maggie Oxford, Dominic W. Pesce, Ganesh Rajagopalan, Javier L. Romualdez, Adrian K. Sinclair, Bonnie Slocombe, Stephanie St-Jean, Terry Yang",
       "PaperNumber": "14153-47",
       "DateTimeLocationDataList": [
         {
@@ -502,7 +400,41 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Richard Lord, Caroline Jaillot, Kaila Hall-Smith",
+      "Authors": "Jérôme Amiaux, Fabien Malbet, Florence Ardellier-Desages, Eduardo Bendek, Eric Doumayrou, Pierre-Antoine Frugier, Renaud Goullioud, Thomas Greene, Pierre-Olivier Lagage, Manon Lizzana, Jerome Martignac, Julien Michelot, Fabrice Pancher, Thibault Pichon, Aki Roberge, Samuel Ronayette, Hugo Rousset, Breann Sitarski",
+      "PaperNumber": "14145-67",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 16:40 - 17:00 CEST | Room B4-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "ac782414-03cb-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "ac782414-03cb-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "High-precision high-accuracy astrometry for the Habitable World Observatory",
+      "Description": null,
+      "Abstract": "We present a comprehensive system analysis for an instrument onboard the Habitable Worlds Observatory (HWO), designed for high-precision, high-accuracy differential astrometry. The analysis integrates the definition of the mission profile, the instrumental concept architecture, and an error budget that breaks down the key contributors to the sub-µas precision required for a single measurement. The proposed architecture of the instrument concept is derived from error budget and mission constraints based on a large visible detector array composed of an assembly of multiple CMOS sensor chips resulting in an overall gigapixel focal plane, with a technological maturation plan leading to TRL 5 for the Mission Consolidation review in 2029.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/High-precision-high-accuracy-astrometry-for-the-Habitable-World-Observatory/14145-67",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 16:40 - 17:00 CEST | Room B4-M3",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Richard Lord, Caroline Jaillot, Kaila Hall-Smith, Lucio Tirone, Oscar Moyo, Luca Stringhetti",
       "PaperNumber": "14152-59",
       "DateTimeLocationDataList": [
         {
@@ -526,47 +458,13 @@
       "HTMLTitle": "",
       "Title": "Planning and executing the verification of the SKAO radio telescopes",
       "Description": null,
-      "Abstract": "Two world-class radio telescopes are currently in the middle of their construction lifecycles: 1. The SKA-Low Radio Telescope is currently being constructed in Western Australia's Murchison shire on the traditional lands of the Wajarri Yamaji. It will consist of 131,072 antennas and will operate in the 50 MHz – 350 MHz frequency range. 2. The SKA-Mid Radio Telescope is currently being constructed in South Africa’s Karoo region. It will consist of 197 steerable dishes, including the 64 dishes of the MeerKAT Radio Telescope, and will operate in the 350 MHz – 15.4 GHz frequency range.   This paper describes the process that is being followed to plan and execute the verification of these radio telescopes against their requirements. The scale and multi-national nature of this project brings many challenges, and the objective of this paper is to share how these challenges are being addressed.",
+      "Abstract": "The world’s largest two Radio Telescopes are currently in the middle of their construction lifecycles: 1. The SKA-Low  Radio Telescope is currently being constructed in Western Australia's Murchison shire on the traditional lands of the  Wajarri Yamaji. The full design baseline will consist of 131,072 antennas and will operate in the “Low” 50 MHz –  350 MHz frequency range. 2. The SKA-Mid Radio Telescope is currently being constructed in South Africa’s Karoo  region. The full design baseline will consist of 197 steerable dishes, which includes the 64 dishes of the MeerKAT Radio  Telescope, and will operate in the “Mid” 350 MHz – 15.4 GHz frequency range.  This paper describes the process that is being followed to plan and execute the verification of these Radio Telescopes  against their requirements. The scale and multi-national nature of this project brings many challenges, and the objective of this paper is to share how these challenges are being addressed.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Planning-and-executing-the-verification-of-the-SKAO-radio-telescopes/14152-59",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 16:40 - 17:00 CEST | Room B2-M6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Florence Ardellier-Desages, Jérôme Amiaux, Eric Doumayrou, Pierre-Antoine Frugier, Pierre-Olivier Lagage, Jérôme Martignac, Thibault Pichon, Samuel Ronayette, Fabien Malbet, Fabrice Pancher, Manon Lizzana, Hugo Rousset, Julien Michelot",
-      "PaperNumber": "14145-66",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 16:40 - 17:00 CEST | Room B4-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "88899c38-36d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "88899c38-36d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Technological maturation of a CMOS gigapixels astrometry instrument for Habitable World Observatory space mission",
-      "Description": null,
-      "Abstract": "To meet its demanding the Habitable Worlds Observatory (HWO) astrometric goals, a dedicated high-precision instrument is being developed around a gigapixel-class focal plane using Pyxalis’s new 220-MP GigaPyx CMOS sensors and an integrated calibration system. The project addresses three main challenges: validating detector performance, developing space-qualified packaging for a multi-sensor focal plane, and implementing on-board processing capable of reducing data volume by a factor of ~100. The maturation plan includes building a complete end-to-end detection chain to reach TRL 5 by the end of the program for the Mission Consolidation review in 2029.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Technological-maturation-of-a-CMOS-gigapixels-astrometry-instrument-for-Habitable/14145-66",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 16:40 - 17:00 CEST | Room B4-M3",
       "ErrorMessage": null
     },
     {
@@ -876,40 +774,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jérôme Amiaux, Fabien Malbet, Florence Ardellier-Desages, Eduardo Bendek, Eric Doumayrou, Pierre-Antoine Frugier, Renaud Goullioud, Thomas Greene, Pierre-Olivier Lagage, Manon Lizzana, Jerome Martignac, Julien Michelot, Fabrice Pancher, Thibault Pichon, Aki Roberge, Samuel Ronayette, Hugo Rousset, Breann Sitarski",
-      "PaperNumber": "14145-67",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:00 - 17:20 CEST | Room B4-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "ac782414-03cb-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "ac782414-03cb-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "High-precision high-accuracy astrometry for the Habitable World Observatory",
-      "Description": null,
-      "Abstract": "We present a comprehensive system analysis for an instrument onboard the Habitable Worlds Observatory (HWO), designed for high-precision, high-accuracy differential astrometry. The analysis integrates the definition of the mission profile, the instrumental concept architecture, and an error budget that breaks down the key contributors to the sub-µas precision required for a single measurement. The proposed architecture of the instrument concept is derived from error budget and mission constraints based on a large visible detector array composed of an assembly of multiple CMOS sensor chips resulting in an overall gigapixel focal plane, with a technological maturation plan leading to TRL 5 for the Mission Consolidation review in 2029.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/High-precision-high-accuracy-astrometry-for-the-Habitable-World-Observatory/14145-67",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:00 - 17:20 CEST | Room B4-M3",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Rohan Gupta, John Monnier, Joel S. Bermudez, Fabien Baron",
       "PaperNumber": "14148-40",
       "DateTimeLocationDataList": [
@@ -941,6 +805,40 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 17:00 - 17:20 CEST | Room B4-M5",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Florence Ardellier-Desages, Jérôme Amiaux, Eric Doumayrou, Pierre-Antoine Frugier, Pierre-Olivier Lagage, Jérôme Martignac, Thibault Pichon, Samuel Ronayette, Fabien Malbet, Fabrice Pancher, Manon Lizzana, Hugo Rousset, Julien Michelot",
+      "PaperNumber": "14145-66",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:00 - 17:20 CEST | Room B4-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "88899c38-36d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "88899c38-36d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Technological maturation of a CMOS gigapixels astrometry instrument for Habitable World Observatory space mission",
+      "Description": null,
+      "Abstract": "To meet its demanding the Habitable Worlds Observatory (HWO) astrometric goals, a dedicated high-precision instrument is being developed around a gigapixel-class focal plane using Pyxalis’s new 220-MP GigaPyx CMOS sensors and an integrated calibration system. The project addresses three main challenges: validating detector performance, developing space-qualified packaging for a multi-sensor focal plane, and implementing on-board processing capable of reducing data volume by a factor of ~100. The maturation plan includes building a complete end-to-end detection chain to reach TRL 5 by the end of the program for the Mission Consolidation review in 2029.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Technological-maturation-of-a-CMOS-gigapixels-astrometry-instrument-for-Habitable/14145-66",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:00 - 17:20 CEST | Room B4-M3",
       "ErrorMessage": null
     },
     {
@@ -1216,7 +1114,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jacob Pember, Julian Stürmer, Stanimir Letchev, Matheus de Jesus Castro, Lars Buchhave, Christian Schwab",
+      "Authors": "Jacob Pember, Julian Stürmer, Matheus J. Castro, Stanimir Letchev, Vincent Benz, Christian Schwab, Lars A. Buchhave",
       "PaperNumber": "14149-323",
       "DateTimeLocationDataList": [
         {
@@ -1240,7 +1138,7 @@
       "HTMLTitle": "",
       "Title": "2ES: design of the image slicer and double scrambler",
       "Description": null,
-      "Abstract": "The Second Earth Spectrograph (2ES) is a next-generation extreme precision radial velocity spectrograph with the goal of discovering terrestrial planets in the habitable zone around the brightest solar-type stars in the sky. An integral part of this system is the fibre link, the implementation of which can have a significant impact on the stability of the spectrograph illumination, critical to achieving the instrument's ambitious scientific goals. This fibre link will include an image slicer, with light from an octagonal fibre from the telescope spatially remapped onto a rectangular fibre to the spectrograph. This image slicer will also act as a double scrambler, in which the far-field from one fibre is imaged onto the near-field of the other. In this proceeding, we discuss the requirements of the slicer/scrambler system within the wider context of the 2ES project, outline our current ideas for its design, and cover our plans in testing, characterising, and actualising these designs.",
+      "Abstract": "The Second Earth Spectrograph (2ES) is a next-generation extreme precision radial velocity spectrograph with the goal of discovering terrestrial planets in the habitable zone around the brightest solar-type stars in the sky. An integral part of this system is the fibre link, the implementation of which can have a significant impact on the stability of the spectrograph illumination, critical to achieving the instrument's ambitious scientific goals. This fibre link will include an image slicer, with light from an octagonal fibre from the telescope spatially remapped onto a rectangular fibre to the spectrograph. This image slicer will also act as a double scrambler, in which the far-field from one fibre is imaged onto the near-field of the other. In this proceeding, we discuss the requirements of the slicer/scrambler system within the wider context of the 2ES project and outline our current ideas for its design.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/2ES-design-of-the-image-slicer-and-double-scrambler/14149-323",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1250,7 +1148,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Julian Stürmer, Santiago Barboza, Rafael Brahm, Lars A. Buchhave, Matheus de Jesus Castro, Guillermo B. Guinea, Thomas Henning, Niels C. Jessen, Andres Jordan, Heidi H. Korhonen, Laura Kreidberg, Ralf Launhardt, Stanimir O. Letchev, Jacob Pember, Andreas Quirrenbach, Ansgar Reiners, Ralf-Rainer Rohloff, Sebastian Schäfer, Christian Schwab, Andreas Seifahrt, Trifon Trifonov, Andrew Vanderburg, Mathias Zechmeister, Jinglin Zhao",
+      "Authors": "Julian Stürmer, Santiago Barboza, Rafael Brahm, Lars A. Buchhave, Matheus de Jesus Castro, Guillermo B. Guinea, Thomas Henning, Niels C. Jessen, Andres Jordan, Heidi H. Korhonen, Laura Kreidberg, Ralf Launhardt, Stanimir O. Letchev, Jacob Pember, Andreas Quirrenbach, Ansgar Reiners, Ralf-Rainer Rohloff, Sebastian Schäfer, Christian Schwab, Andreas Seifahrt, Trifon Trifonov, Andrew Vanderburg, Mathias Zechmeister, Jinglin Zhao, Vincent Benz, Tobias Schmidt",
       "PaperNumber": "14149-356",
       "DateTimeLocationDataList": [
         {
@@ -1318,7 +1216,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Andreas Kelz, Allar Saviauk, Thomas Jahn, Dennis Plüschke, Walter Seifert, Florence Laurent, Jean-Emmanuel Migniau, Scott Smedley, Jonathan Irwin",
+      "Authors": "Andreas Kelz, Allar Saviauk, Thomas Jahn, Dennis Plüschke, Walter Seifert, Florence Laurent, Jean-Emmanuel Migniau, Peter Weilbacher, Johan Richard",
       "PaperNumber": "14149-115",
       "DateTimeLocationDataList": [
         {
@@ -1342,7 +1240,7 @@
       "HTMLTitle": "",
       "Title": "4MOST fiber system: integration, verification, and commissioning",
       "Description": null,
-      "Abstract": "4MOST is a multi-object spectroscopic survey facility for the VISTA telescope with a large multiplex achieved by over 2400 optical fibers. The entire instrument has been installed and commissioned at ESO’s Paranal observatory in 2025.   This paper presents the complex installation of the 27m long science fibers from the positioner at the focal plane, through the Cassegrain Cable Wrap, to the high and the two low-resolution spectrographs below the Azimuth floor. In addition, various auxiliary fiber systems were installed and verified, which include simultaneous calibration fibres, mini-fiber-bundles for acquisition and guiding, fiducial fibers for reference, and a back-illumination of all fibers for metrology purpose. The paper presents the on-sky performance of the fiber system based on the commissioning results, which feature 812 spectra for each spectrograph.",
+      "Abstract": "4MOST is a multi-object spectroscopic survey facility for the VISTA telescope with a large multiplex achieved by over 2400 optical fibers. The entire instrument has been installed and commissioned at ESO’s Paranal observatory in 2025.   This poster presents the complex installation of the 27m long science fibers from the positioner at the focal plane, through the Cassegrain Cable Wrap, to the high and the two low-resolution spectrographs below the Azimuth floor. In addition, various auxiliary fiber systems were installed and verified, which include simultaneous calibration fibres, mini-fiber-bundles for acquisition and guiding, fiducial fibers for reference, and a back-illumination of all fibers for metrology purpose. We show the on-sky performance of the fiber system based on the commissioning results, which feature 812 spectra for each spectrograph.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/4MOST-fiber-system-integration-verification-and-commissioning/14149-115",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1634,7 +1532,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -1724,13 +1622,115 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Zhemin Cai, Jonathan Moller, Chris Coote, Jessica Zheng, Michael Goodwin, Dylan Simpfendorfer, Helen McGregor, Jon Lawrence, Scott Smedley, Rémi Giroud, Johan Richard, Florence Laurent, Alexandre Jeanneau",
+      "PaperNumber": "14149-398",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "cd0a31ae-48ce-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "cd0a31ae-48ce-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "A multiphysics thermal-mechanical framework for BlueMUSE: IFU layout evaluation and thermal-enclosure performance assessment",
+      "Description": null,
+      "Abstract": "The Multi Unit Spectroscopic Explorer (MUSE), a key instrument of the Very Large Telescope (VLT), has enabled significant astrophysical discoveries over nearly a decade of operation and provides an important reference for the development of BlueMUSE, a blue-optimised panoramic integral-field spectrograph for the VLT. Previous MUSE studies employed a two-stage ANSYS FEA model coupled with Zemax simulations to assess thermally induced displacements of key optical components and compare predicted trends with on-site measurements. Building on this foundation, the present study extends the analysis to BlueMUSE, focusing on structural layout optimisation and thermal-shield performance. Three IFU layout options are evaluated to minimise thermally induced displacement relative to the FSU and to identify the most suitable configuration for maintaining slicer alignment. Computational fluid dynamics (CFD) simulations are then used to assess whether a 60 mm Va-Q-vip thermal shield can maintain the",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/A-multiphysics-thermal-mechanical-framework-for-BlueMUSE--IFU-layout/14149-398",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Brianna Peck, Jessica R. Lu, Lianqi Wang, Brooke DiGia, Richard Dekany, Antonin H. Bouchez, Peter L. Wizinowich, Maxwell A. Millar-Blanchaer, Mark R. Chun, Philip Hinz, Charles-Antoine Claveau, Noah Stiegler",
+      "PaperNumber": "14150-312",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "fe21831d-f2cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "fe21831d-f2cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "A Pathway Towards Visible-Light Adaptive Optics at the W. M. Keck Observatory",
+      "Description": null,
+      "Abstract": "We present performance simulations that map a pathway toward diffraction-limited visible-light adaptive optics at the W. M. Keck Observatory. Using end-to-end modeling with the MAOS (Multi-threaded Adaptive Optics Simulator) package, we compare three system architectures: KAPA (current facility upgrades), STRATA (a next-generation single-conjugate facility-wide system), and KOLA (a proposed multi-conjugate system). Our results show how advances in laser power, wavefront sensing, and deformable mirror technology improve performance from on-axis correction (KAPA/STRATA) to wide-field correction (KOLA). We also explore the impact of laser guide star brightness on system performance. These simulations provide a roadmap for the evolution of adaptive optics at Keck, bridging current capabilities to future wide-field, visible-light correction.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/A-Pathway-Towards-Visible-Light-Adaptive-Optics-at-the-W/14150-312",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Nicolas J. Flagey, Laurent Pueyo, Laura E. Coyle, Marcio Melendez, Randal Telfer, Tyler M. McCracken, Matt Lallo, Rémi Soummer, Leonid Pogorelyuk, Iva Laginja",
+      "PaperNumber": "14145-231",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "19092c62-32d1-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "19092c62-32d1-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "A semi-analytical error budget for the Habitable Worlds Observatory",
+      "Description": null,
+      "Abstract": "In this paper we present a suite of representative top-level error budgets for the Habitable Worlds Observatory produced by the ULTRA-CT team. This error budget relates the contrast stability (key to exoplanet detection using differential imaging) to the wavefront variance at the entrance of the coronagraph instrument, integrated over a suite of past temporal scales.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/A-semi-analytical-error-budget-for-the-Habitable-Worlds-Observatory/14145-231",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

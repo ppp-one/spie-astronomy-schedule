@@ -26,142 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Michael Weber",
-      "PaperNumber": "14149-464",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "ed23ce37-5ed0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "ed23ce37-5ed0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Environment aware wavelength calibration of thermally stabilized echelle spectrographs",
-      "Description": null,
-      "Abstract": "Thermally controlled echelle spectrograph are on short (one night) timescales limited in stability by atmospheric pressure variations which lead to variations in the refractive index of air. With STELLA/SES we record about 10 HCL spectra over the course of the night, and we noticed that the calibration accuracy is worse if the atmospheric pressure variation has a turning point between two calibrations. We tried to mitigate this by introducing the pressure as additional parameter in the calibration procedure, which only worked in perfect conditions.  Recently we derived a scheme where the wavelengths of observations and of the calibration line positions are treated at current conditions, and then transformed to vacuum using Ciddor's equation. This also works during bad observing conditions (partial nights, broken HCL lamp) and has the added bonus of providing a quantitative quality measure of the wavelength calibration quality.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Environment-aware-wavelength-calibration-of-thermally-stabilized-echelle-spectrographs/14149-464",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Élodie Choquet, Lisa Altinier, Nicolás Godoy, Alexis Lau, Sophie Noiret, Anton Neisius, Arthur Vigan",
-      "PaperNumber": "14145-294",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "bf7df2e6-7dd0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "bf7df2e6-7dd0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "ESCAPE project: investigating observing strategies and post-processing methods for future high-contrast imaging space missions",
-      "Description": null,
-      "Abstract": "The search for biosignatures in potentially habitable exoplanets is one of the major astrophysics’ drivers for the coming decades. It is the prime science case of HWO, a large space telescope that will be equipped with state-of-the art capabilities to directly characterize Earth-like planets in the 2040s. Ahead of this, the Roman Space Telescope will demonstrate critical technologies to reach 1e-8 contrast limits, using wavefront control and optimized coronagraphs for the first time in space.   Given the stringent constraints on wavefront stability required to achieve these unprecedented contrast levels, new observing strategies and data post-processing techniques need to be developed to optimize detection capabilities with these missions.   Here, we introduce the ESCAPE project, which explore new observing strategies that make use of the deformable mirrors to systematically sample wavefront variations during reference star observations to optimize the detection limits at postprocessing.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/ESCAPE-project--investigating-observing-strategies-and-post-processing-methods/14145-294",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Fernando Merlos-García, Jorge Quintero Nehrkorn, Ángela Hernández-Delgado, Josué Barrera Martín, José Antonio Rodríguez Losada, Javier León-Gil, Miguel Núñez Cagigal, Manuel Collados, Mary Barreto Cabrera, Héctor Socas-Navarro",
-      "PaperNumber": "14155-214",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "2c3c32ef-43d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "2c3c32ef-43d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "EST control system: how architecture design can reduce the impact of obsolescence",
-      "Description": null,
-      "Abstract": "The European Solar Telescope (EST) will become ones of the best solar telescope and is intended to be fully operational for about 50 years. The design of the control system architecture aims, among others, to reduce the impact of obsolescence, remaining as independent as possible from specific technologies, as well as increase resource optimization.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/EST-control-system--how-architecture-design-can-reduce-the/14155-214",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "A. Mazzoli, C. Dandumont, A. Besse, B. Borguet, J. Bouwmeester, D. Defrère, I. Khan, R. Laugier, J. Loicq, V. Moreau, P. Piron, R. Saathof, I. Sigusch, P. Hallibert, D. Alaluf, Luca Schifano, T. Rank-Lueftinger",
-      "PaperNumber": "14148-160",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "0ddaa304-6ad0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "0ddaa304-6ad0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Exoplanet explorer: optical design of a single spacecraft nulling interferometer",
-      "Description": null,
-      "Abstract": "The optical design layout of a single spacecraft nulling interferometer is presented here as part of a study initiated by ESA to explore the design parameters and performance of an interferometric concept based on a single spacecraft with multiple sub-apertures.Launch constraints drive the ray-traced model to cover the entire optical chain, from the telescope entrance to the null output after the recombination scheme. A trade-off among several telescope architectures led to the choice of a compact two-mirror solution consisting of a four 2.5m diameter telescopes arranged in a linear configuration with an extended baseline.Optical performance at the null output is evaluated, confirming compatibility with starlight suppression targets and establishing the key figures of merit for the interferometer. This work represents the first integrated optical design of the mission concept, laying the groundwork for future iterations that include mechanical, thermal, and control aspects.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Exoplanet-explorer--optical-design-of-a-single-spacecraft-nulling/14148-160",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Osamu Tajima",
       "PaperNumber": "14156-179",
       "DateTimeLocationDataList": [
@@ -502,7 +366,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Valentin Sauvage, Nabila Aghanim, Anaïs Besnard, Ivan Charles, Clémence de Jabrun, Jean-Marc Duval, Bruno Maffei, Sylvain Martin",
+      "Authors": "Valentin Sauvage, Nabila Aghanim, Anaïs Besnard, Ivan Charles, Clémence de Jabrun, Jean-Marc Duval, Bruno Maffei, Sylvain Martin, Bruno Borgo",
       "PaperNumber": "14156-182",
       "DateTimeLocationDataList": [
         {
@@ -526,7 +390,7 @@
       "HTMLTitle": "",
       "Title": "FOSSIL's preliminary thermal architecture",
       "Description": null,
-      "Abstract": "The FOSSIL mission, proposed for ESA’s M8 call, aims to achieve unprecedented measurements of CMB spectral distortions and therefore requires a highly stable cryogenic environment. Its payload includes a dual-input, dual-output FTS and four focal-plane units covering 50 to 2000 GHz, all mounted on a 4.5 K bench cooled by an active system. The thermal design combines passive radiative cooling with a 4.5 K cooler that provides 50 mW of cooling power. Sub-Kelvin temperatures are supplied by a multi-stage ADR that offers continuous cooling at 1.8 K and 320 mK, along with a final stage that cools the focal-plane units to 50 mK. This setup provides the stability required for high-precision spectral-distortion measurements.",
+      "Abstract": "The FOSSIL mission, proposed to ESA’s M8 call, aims to achieve unprecedented measurements of CMB spectral distortions and therefore requires an exceptionally stable cryogenic environment. Its payload features a dual-input, dual-output FTS and four FPUs operating from 50 to 2000 GHz, all mounted on a 4.5 K actively cooled bench. The thermal architecture combines passive radiative cooling with a 4.5 K cooler delivering 50 mW. Sub-Kelvin temperatures are provided by a multi-stage ADR offering continuous cooling at 1.8 K and 350 mK, and a final stage at 50 mK for the FPUs. This configuration ensures the stability needed for high-precision spectral-distortion measurements.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/FOSSILs-preliminary-thermal-architecture/14156-182",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -694,11 +558,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "GlowSat-Pathfinder: a 3U CubeSat mission concept for far-UV airglow line distribution mapping",
+      "Title": "GlowSat: a CubeSat mission concept for far-UV airglow line distribution mapping",
       "Description": null,
       "Abstract": "GlowSat is a Far-Ultraviolet (FUV) 6U CubeSat mission concept designed to map the distribution of FUV airglow lines between 101 nm and 141 nm in the Earth’s upper atmosphere. Understanding the temporal and spatial behavior of these bright FUV airglow background lines is essential for planning future astrophysical FUV missions in low-Earth orbit (LEO), particularly for detecting faint diffuse emissions from the circumgalactic and intergalactic media. GlowSat will determine the correlation between airglow-line intensity and both solar activity and the spacecraft’s viewing geometry and attitude. These relationships will provide a baseline reference for all future FUV observations from LEO. GlowSat employs a compact 2U-size FUV spectrograph payload with Si E-beam lithography grating and a commercial CMOS sensor with a scintillator coating. This presentation highlights the science motivation and mission design of the GlowSat mission concept.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/GlowSat-Pathfinder--a-3U-CubeSat-mission-concept-for-far/14146-323",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/GlowSat--a-CubeSat-mission-concept-for-far-UV-airglow/14146-323",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -740,7 +604,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "V. Gopinath, E. Aller-Carpentier, F. Allouche, M. Baeten, H. Bedigan, J. Beltran, A. Berdeu, G. Bourdarot, C. Cárdenas, M. Comin, H. Cristian, D. Del Valle, F. Delplancke-Ströbele, F. Eisenhauer, B. Ernstberger, L. Esteras Otal, C. Fruck, E. Fuentesca, F. Gonté, J. Graf, P. Gutierrez Cheetham, R. Guzman Collazos, W. Hackenberg, F. Haussmann, R. Holzlöhner, K. Holzner, S. Huber, F. Kamphues, J. Kolb, P. Krempl, JB. Le Bouquin, I. Maria Guidolin, S. Menéndez Mendoza, S. Oberti, L. Pallanca, F. Pedreros Bustos, R. Pohl, D. Popovic, C. Rau, C. Reinero, M. Riquelme, C. Rose, M. Scherbarth, R. Schwerdt, B. Speet, A. Urban, G. Zins",
+      "Authors": "V. Gopinath, E. Aller Carpentier, F. Allouche, M. Baeten, H. Bedigan, J. Beltran, A. Berdeu, G. Bourdarot, C. Cárdenas, M. Comin, H. Cristian, D. Del Valle, F. Delplancke-Ströbele, F. Eisenhauer, B. Ernstberger, L. Esteras Otal, C. Fruck, E. Fuentesca, F. Gonté, J. Graf, P. Gutierrez Cheetham, R. Guzman Collazos, W. Hackenberg, F. Haussmann, R. Holzlöhner, K. Holzner, S. Huber, F. Kamphues, J. Kolb, P. Krempl, JB. Le Bouquin, I. Maria Guidolin, S. Menéndez Mendoza, S. Oberti, L. Pallanca, F. Pedreros Bustos, R. Pohl, D. Popovic, C. Rau, C. Reinero, M. Riquelme, C. Rose, M. Scherbarth, R. Schwerdt, B. Speet, A. Urban, G. Zins",
       "PaperNumber": "14150-341",
       "DateTimeLocationDataList": [
         {
@@ -1272,11 +1136,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Imaging and spectroscopic performances of the Detector Assemblies for the Lunar Electromagnetic Monitor in X-rays",
+      "Title": "Imaging and spectroscopic performances of the detector assemblies for the lunar electromagnetic monitor in x-rays",
       "Description": null,
       "Abstract": "The Lunar Electromagnetic Monitor in X-rays (LEM-X) is an Italian proposal for a Moon-based all-sky X-ray observatory, for the detection of transients and the long-term monitoring of sources in the 2-50 keV band, developed within the Earth Moon Mars project of the Italian National Recovery and Resilience Plan. Featuring a modular design, LEM-X is based on compact and lightweight coded-aperture cameras, each with a 2-sr field of view. The detector plane of each camera is built around four alumina-based Detector Assemblies (DAs), each one featuring a large-area (~7x7 cm2) Silicon Drift Detector (SDD), readout by CMOS analog Application Specific Integrated Circuits (AFE ASICs) named NOVA and specifically developed for this project. Four complete DAs, i.e. the full detector plane of one LEM-X caamera were developed and assembled. We will present the results of the performance tests demonstrating both the spectral and imaging capabilities of the devices.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Imaging-and-spectroscopic-performances-of-the-Detector-Assemblies-for-the/14146-344",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Imaging-and-spectroscopic-performances-of-the-detector-assemblies-for-the/14146-344",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1442,11 +1306,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "In orbit background for hard X-ray CubeSat polarimeters: case study of the CUSP mission in low-earth orbit",
+      "Title": "In orbit background for hard x-ray CubeSat polarimeters: case study of the CUSP mission in low-earth orbit",
       "Description": null,
       "Abstract": "The CUbesat Solar Polarimeter (CUSP) project aims to measure the linear polarization of solar flares in hard X-ray band using a Compton scattering polarimeter. CUSP is a project in the framework of the Alcor Program of the Italian Space Agency.  As part of CUSP’s Phase B study, initiated in December 2024, optimizing the signal-to-background ratio is a key objective. In low-Earth orbit, the instrument is exposed to cosmic and albedo X-ray backgrounds, charged particles, and secondary radiation from the spacecraft and atmosphere. Simulating these contributions enables optimization of detector geometry and shielding to maximize signal-to-noise performance. This methodology provides a general framework for future CubeSat missions.    We present initial background estimates for CUSP using a GEANT4-based simulator. A detailed mass model of the CUSP has been implemented to simulate background components and estimated the background count rate in CUSP orbit.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/In-orbit-background-for-hard-X-ray-CubeSat-polarimeters/14146-314",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/In-orbit-background-for-hard-x-ray-CubeSat-polarimeters/14146-314",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1488,7 +1352,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Alex Thomas, Bugao Zou, Yuhan Wang, Erin Healy, Shreya Sutariya, Claire Lessler, Jeffrey McMahon, Michael Niemack",
+      "Authors": "Alex Thomas, Bugao Zou, Shreya Sutariya, Yuhan Wang, Erin Healy, Claire Lessler, Jeffrey McMahon, Michael Niemack",
       "PaperNumber": "14156-205",
       "DateTimeLocationDataList": [
         {
@@ -1624,7 +1488,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Prakriti Gupta`, John I. Bailey, James D. Neill, Michael Langmayr",
+      "Authors": "Prakriti Gupta, Michael Langmayr, John I. Bailey, James D. Neill",
       "PaperNumber": "14155-197",
       "DateTimeLocationDataList": [
         {
@@ -1646,11 +1510,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "InstrumentKit - a framework generator for astronomical instruments",
+      "Title": "InstrumentKit: a standard foundation for modern astronomical instrumentation",
       "Description": null,
-      "Abstract": "The development of new astronomical instruments often demands extensive research and effort in designing the Instrument Control System (ICS). A significant portion of time is spent selecting appropriate tools and integrating them into a cohesive framework. However, due to tight development schedules and competing priorities, software for the ICS is frequently deferred or implemented in a “good enough” state. As a result, end users and observatory operations must contend with suboptimal systems for years to come.     InstrumentKit aims to transform this landscape by providing a robust, modular framework for ICS development. It offers a structured software architecture and a curated, well-integrated stack of tools that accelerate development and improve long-term maintainability. Its modular design also ensures adaptability; allowing developers to incorporate evolving technologies and methodologies to support the next generation of astronomical instruments.",
+      "Abstract": "Modern astronomical instruments depend on increasingly capable and interconnected software systems. Developing an Instrument Control System (ICS) requires early decisions about architecture, interfaces, hardware integration, testing, deployment, documentation, and long-term operations while teams manage complex optical, mechanical, electrical, and scientific requirements.    InstrumentKit provides a standard software foundation for modern astronomical instrumentation. It offers reusable project scaffolding, refactorable design paradigms, hardware abstraction patterns, API foundations, testbed support, CI/CD workflows, and documentation templates. Rather than prescribing a single control system, InstrumentKit helps teams establish common foundations early while preserving flexibility for instrument-specific design.    By reducing repeated setup effort, InstrumentKit supports smoother development, easier onboarding, collaboration and long-term operations across the lifetime of an instrument.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/InstrumentKit---a-framework-generator-for-astronomical-instruments/14155-197",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/InstrumentKit-a-standard-foundation-for-modern-astronomical-instrumentation/14155-197",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1724,13 +1588,149 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Alessio Nuti, Edoardo Giancarli, Yuri Evangelista, Francesco Ceraudo, Giuseppe Dilillo, Riccardo Campana, Giovanni Della Casa, Ettore Del Monte, Marco Feroci, Mauro Fiorini, Giovanni Lombardi, Massimo Rapisarda, Francesca Esposito, Immacolata Donnarumma, Ugo Cortesi, Tonino Pisanu, Alessandro Turchi, Marco Gai, Andrea Argan",
+      "PaperNumber": "14146-345",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "fb49aa57-2ad0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "fb49aa57-2ad0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Internal alignment of the LEM-X coded-mask camera: classification of error contributions and impact on imaging performance",
+      "Description": null,
+      "Abstract": "The Lunar Electromagnetic Monitor in X-rays (LEM-X) is a proposed all-sky X-ray observatory for the lunar surface, based on coded-aperture cameras each combining a coded mask and four large-area Silicon Drift Detectors. Imaging performance depends critically on the relative mask-detector alignment, which must be maintained under the operating conditions. We present a comprehensive analysis of the camera internal alignment budget: we classify the error contributions (manufacturing, long-term and short-term stability), their correctability, estimate the expected magnitude of each degree of freedom, and use end-to-end instrument simulation to quantify their impact on sensitivity, flux estimation, and source position. Comparison with the expected values shows the robustness of the design against the foreseen misalignments and provides quantitative guidance for its mechanical and thermal design.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Internal-alignment-of-the-LEM-X-coded-mask-camera/14146-345",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Andrea Lin, Ashley Baker, Dimitri Mawet, Garreth Ruane, Gautam Vasisht, Sam Halverson, Nemanja Jovanovic",
+      "PaperNumber": "14149-456",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "be86d80f-8ad0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "be86d80f-8ad0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Investigating the differential limb coupling effect for diffraction-limited spectrographs with PARVI",
+      "Description": null,
+      "Abstract": "The upcoming HISPEC spectrograph for Keck II will use single-mode fibers fed by the telescope’s adaptive optics system, making it one of a handful of diffraction-limited spectrographs capable of precision radial velocities (PRVs). However, due to the target stars being partially resolved, the resulting RVs are predicted to be affected by differential limb coupling (DLC), where the red- and blue-shifted sides of the stellar disk are coupled unequally into the spectrograph across different epochs, producing an RV error term on the order of several m/s for nearby stars for HISPEC. We present our efforts to directly observe DLC on-sky for the first time with the diffraction-limited spectrograph PARVI in order to verify the expected behavior of DLC and subsequently develop mitigation strategies for HISPEC.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Investigating-the-differential-limb-coupling-effect-for-diffraction-limited-spectrographs/14149-456",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Scott J. Lilley, Mahawa Cissé, Peter Wizinowich, Antonin Bouchez, Ed Wetherell, Eduardo Marin, Charlotte Guthery, Mitsuko Roberts, Nemanja Jovanovic",
+      "PaperNumber": "14150-337",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "7d8cf4e2-02cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "7d8cf4e2-02cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Keck near-infrared wavefront sensor adaptive optics (‘IWA): preliminary design",
+      "Description": null,
+      "Abstract": "A near-Infrared Wavefront sensor Adaptive optics (‘IWA) system is being developed to optimize the Keck II Adaptive Optics (AO) system’s performance for science with the recently installed High order Advanced Keck Adaptive optics (HAKA) deformable mirror. ‘IWA will significantly enhance the performance and sky coverage delivered by the Keck II AO system to the existing ORKID imager and a suite of new science instruments: a mid-infrared coronagraphic integral field spectrograph (SCALES) and a fiber-fed high-resolution spectrograph (HISPEC).  We present the preliminary design of ‘IWA, focusing on the opto-mechanical design and the challenges of designing ‘IWA to fit within the limited space on the Keck II AO bench. We also present simulation results of the Keck II AO system’s performance with ‘IWA.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Keck-near-infrared-wavefront-sensor-adaptive-optics-IWA--preliminary/14150-337",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Xiaojie Zhang, Haoran Yu, Jun Li, Yong Li, Cheng Liao, Yonghui Hou, Hangxin Ji",
+      "PaperNumber": "14149-463",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "19448cf3-14d4-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "19448cf3-14d4-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Key technologies for immersion systems in athermalized cameras of large optical telescopes: performance and stability evaluation of index matching fluids",
+      "Description": null,
+      "Abstract": "This study evaluates five Cargille index-matching fluids (IMFs) for large-aperture athermalized immersion refractive cameras used in ground-based telescope spectrographs. Characterizations include refractive index measurement, material compatibility verification, and 1440-hour high-temperature accelerated aging. The tested IMFs exhibit distinct thermo-optic behaviors, with LL5610 showing stable negative responses and 1057B presenting nonlinear thermal variations. Fused silica and CaF2 achieve good compatibility, while specific optical glass and elastomers suffer obvious property changes. Fluid aging degradation is formulation-dependent. Slow filling inhibits bubbles but may cause uneven fluid distribution near lens defects. The results guide IMF selection, system optimization and practical engineering implementation for astronomical optical cameras.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Key-technologies-for-immersion-systems-in-athermalized-cameras-of-large/14149-463",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

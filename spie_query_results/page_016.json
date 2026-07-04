@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Camille Graf, Maud Langlois, Éric Thiébaut, Michel Tallon, Clémentine Béchet, Markus Feldt, Valentin Fonteneau, Clément Schotte",
-      "PaperNumber": "14150-176",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "abfe1d87-8ecf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "abfe1d87-8ecf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "A comparative study between Zernike WFS and iMZ on the CRAL XAO test bench",
-      "Description": null,
-      "Abstract": "The Mach-Zehnder wavefront sensor (WFS) and the Zernike WFS share many similarities, as they are both interferometric wavefront sensors that use a Fourier filtered reference wavefront. In the context of exoplanet detection with futur extremely larges telescopes, these sensors are potential candidates for second-stage adaptive optics systems. In this contribution, we analyse the similarities and differences between the ZWFS and the integrated Mach-Zehnder (iMZ) WFS, using simulated METIS first-stage residuals. We first report on our simulation results for different science cases under various turbulence and flux conditions. In a second step, we present recent experimental results obtained on the CRAL XAO test-bench. The first-stage residuals are generated with a 1024x1024 Spatial Light Modulator (SLM) and wavefront correction is performed with a deformable mirror with 24x24 actuators. Another SLM is used to create a reflective Zernike mask, with a diameter of approximatively 15 pixels.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/A-comparative-study-between-Zernike-WFS-and-iMZ-on-the/14150-176",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Mala Mateen, Denis W. Oesch",
-      "PaperNumber": "14150-174",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "3166af8e-44d1-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "3166af8e-44d1-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "A comparative study of WFS performance to dynamic turbulence",
-      "Description": null,
-      "Abstract": "Many current and future imaging systems on ground-based telescopes incorporate high sensitivity wavefront sensors like the non-linear Curvature wavefront sensor (nlCWFS) and the pyramid wavefront sensor (PWFS). These sensors effectively utilize the available photons to sense the lowest order modes that dominate atmospheric turbulence. These low order modes diffract light at small angular separations where an exo-planet may reside.  In the Starfire High-contrast ADaptive Optics Wavefront sensor (SHADOW) lab we have built an optics testbed equipped with an atmospheric turbulence simulator (ATS), and a modular adaptive optics system that can close the loop with a SHWFS, a PWFS, and an nlCWFS. We explore the fundamental limit of wavefront sensing for each sensor and map out the optimal performance regime for each wavefront sensor as a function of available photons, atmospheric parameters, and dynamic range.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/A-comparative-study-of-WFS-performance-to-dynamic-turbulence/14150-174",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Daiana Ribeiro Bortoletto, José Octavio Armani Paschoal, Cláudia Mendes de Oliveira, Laerte Sodré, Rafael Alves de Souza Ribeiro",
       "PaperNumber": "14152-72",
       "DateTimeLocationDataList": [
@@ -155,40 +87,6 @@
       "Abstract": "We present a new method for measuring the quantum efficiency (QE) of infrared detector arrays inside cryogenic, vacuum environments. Traditional optical calibration setups are challenging to implement in these conditions. To address this, we developed a fiber-optic illumination system that splits the monochromator output between a calibrated photodiode outside the cryostat and the detector under test inside. This design provides stable, well-controlled light delivery suitable for cryogenic instrumentation. Using this approach, we characterized the QE and key performance metrics of the Teledyne HAWAII-4RG infrared detector, including dark current, read noise, and persistence. These results establish a robust performance baseline for future instrument integration and offer a generalizable framework for precision detector calibration in cryogenic systems.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/A-fiber-fed-illumination-technique-for-cryogenic-quantum-efficiency-measurement/14157-93",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Hugo Gaquere, Cyril Tasse, Olivier Aumage, Damien Gratadour",
-      "PaperNumber": "14153-80",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "8c91abca-79cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "8c91abca-79cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "A high-performance GPU accelerated modular framework for radio-interferometric deconvolution",
-      "Description": null,
-      "Abstract": "Deconvolution in modern radio-interferometric imaging pipelines face severe performance constraints: deconvolution represents a bottleneck and current implementations lack of portability. We propose a modular GPU-accelerated framework for radio-astronomy deconvolution, to improve runtime performance, portability across pipelines and to reduce algorithm implementation overhead.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/A-high-performance-GPU-accelerated-modular-framework-for-radio-interferometric/14153-80",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -422,7 +320,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Accelerating facet based gridding and degridding with GPUs",
+      "Title": "Accelerating facet-based gridding and degridding with GPUs",
       "Description": null,
       "Abstract": "The SKA radio telescope project requires efficient processing of massive data volumes  We developed a GPU accelerated Baseline Dependent Averaging gridder capable of handling Direction Dependent Effects, including Jones matrices. That implementation is integrated into DDFacet for full pipeline testing and comparison.",
       "ImagePath": null,
@@ -570,7 +468,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Pierre Janin-Potiron, Morgan Gray, Benoît Neichel, Jean-François Sauvage, Cédric Taïssir Héritier, Pierre Jouve, Romain J. L. Fétick, Alexis Carlotti, Thierry Fusco",
+      "Authors": "P. Janin-Potiron, M. Gray, B. Neichel, J.-F. Sauvage, C. T. Heritier, P. Jouve, R. Fetick, A. Carlotti, T. Fusco",
       "PaperNumber": "14150-205",
       "DateTimeLocationDataList": [
         {
@@ -592,9 +490,9 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Advancements in estimating differential pistons for the Extremely Large Telescope using deep learning: exploiting defocused images",
+      "Title": "Advancements in estimating differential pistons for the Extremely Large Telescope using deep learning II: exploiting defocused images",
       "Description": null,
-      "Abstract": "The optical performance of the ELT relies on the precise estimation and correction of differential pistons between the six petals that form the M4 mirror. In a previous study, we demonstrated that a residual network can effectively estimate the differential piston from 2×2 Shack–Hartmann (SH) images, using one trained network per subaperture.  We now extend this approach to a different sensing configuration using defocused images as input, recovering all five differential pistons from a single image. We evaluate the sensitivity of this sensor concept with respect to key variables (number of averaged frames, atmospheric turbulence strength, detector noise).  Furthermore, we exploit multi-wavelength measurements and show that feeding three wavelengths simultaneously to the network enhances the capture range with minimal modifications to the baseline architecture. Finally, preliminary results suggest that combining SH and defocused image data may further improve the robustness of the method",
+      "Abstract": "The optical performance of the ELT relies on the precise estimation and correction of differential pistons between the six petals that form the M4 mirror. In a previous study, we demonstrated that a residual network can effectively estimate the differential piston from 2×2 Shack–Hartmann (SH) images, using one trained network per subaperture.  We now extend this approach to a different sensing configuration using defocused images as input, recovering all five differential pistons from a single image. We evaluate the sensitivity of this sensor concept with respect to key variables (number of averaged frames, atmospheric turbulence strength, detector noise).  Furthermore, we exploit multi-wavelength measurements and show that feeding three wavelengths simultaneously to the network enhances the capture range with minimal modifications to the baseline architecture. Finally, we acquired petaled PSF on the HCM bench at IPAG and are now in the process of estimating piston from real images.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Advancements-in-estimating-differential-pistons-for-the-Extremely-Large-Telescope/14150-205",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -740,7 +638,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jordan Raffard, Pierre Vermot, Damien Gratadour",
+      "Authors": "Jordan Raffard, Pierre Vermot, Damien Gratadour, Florian Ferreira, Arnaud Sevin",
       "PaperNumber": "14150-207",
       "DateTimeLocationDataList": [
         {
@@ -762,11 +660,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Analysis of deep learning-based methods for denoising pyramid wavefront sensor",
+      "Title": "Analysis of deep learning-based methods for denoising pyrWFS adaptive optics for the Extremely Large Telescope (ELT)",
       "Description": null,
       "Abstract": "The Extremely Large Telescope (ELT) has made adaptive optics (AO) essential for ground-based observatories, enabling real-time correction of atmospheric distortions to sharpen astronomical images. Current AO systems rely on pyramid wavefront sensors (pyrWFS), which, despite their high sensitivity, suffer from noise-induced measurement errors—especially when observing faint stars. This degradation limits performance in low-light conditions.  To overcome this, we propose using deep learning to enhance AO control loops by developing neural networks to denoise pyrWFS measurements. We designed several models and integrated them in AO simulations. Evaluations showed significant improvements in Strehl Ratio (SR) and system stability, demonstrating that deep learning can boost AO reliability, even in challenging conditions.  This approach advances AO technology, enabling high-fidelity imaging of faint celestial objects and unlocking the full potential of next-generation telescopes like the ELT.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Analysis-of-deep-learning-based-methods-for-denoising-pyramid-wavefront/14150-207",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Analysis-of-deep-learning-based-methods-for-denoising-pyrWFS-adaptive/14150-207",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -910,7 +808,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Thomas Mattheussen, Germain Garreau, Marc-Antoine Martinod, Romain Laugier, Muhammad Salman, Kwinten Missiaen, Peter Marley Chingaipe, Wannes Verstraeten, Gert Raskin, Simon Gross, Michael J. Ireland, Lucas Labadie, Ahmed Sanny, Johan Morren, Azzurra Bigioli, András P. Joó, Stephen J. Madden, Alexandra Mazzoli, György Medgyesi, Bart Vandenbussche, Denis Defrère",
+      "Authors": "Thomas Mattheussen, Denis Defrère, Germain Garreau, Peter Marley Chingaipe, Gert Raskin, Muhammad Salman, Kwinten Missiaen, Bart Vandenbussche, Romain Laugier, Wannes Verstraeten, Johan Morren, Michael J. Ireland, Marc-Antoine Martinod, Ahmed Sanny, Simon Gross, Lucas Labadie, Azzurra Bigioli, András P. Joó, Stephen J. Madden, Alexandra Mazzoli, György Medgyesi, Alen Kuriakose, Steve Ertel, Thomas Stuber, Jeremy Scott, Stefan Kraus, Frantz Martinache, Xavier Haubois, Nicolas Schuhler",
       "PaperNumber": "14148-73",
       "DateTimeLocationDataList": [
         {
@@ -944,7 +842,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Daniel Echeverri, Nemanja Jovanovic, Ashley Baker, Mitsuko Roberts, Yann Terrien, Reston Nash, Garreth Ruane, Ricardo Meneses, James Brugger, Cody Lammer, Dimitri Mawet, Robert Bertz",
+      "Authors": "Daniel Echeverri, Nemanja Jovanovic, Ashley Baker, Mitsuko Roberts, Yann Terrien, Reston Nash, Tatum Umiamaka, Garreth Ruane, Ricardo Meneses, James Brugger, Cody Lammer, Dimitri Mawet, Robert Bertz",
       "PaperNumber": "14149-204",
       "DateTimeLocationDataList": [
         {
@@ -1012,7 +910,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Peter P. Pedersen, David Degen, Lionel Garcia, Urs Schroffenegger, Sebastián Zúñiga-Fernández, Daniel Sebastian, Didier Queloz, Brice-Olivier Demory, Elsa Ducrot, Michaël Gillon, Matthew J Hooton, Clàudia Janó-Muñoz, James McCormac, Mathilde Timmermans, Amaury Triaud",
+      "Authors": "Peter P. Pedersen, David Degen, Lionel Garcia, Urs Schroffenegger, Daniel Sebastian, Sebastián Zúñiga-Fernández, Brice-Olivier Demory, Elsa Ducrot, Michaël Gillon, Matthew J. Hooton, Clàudia Janó-Muñoz, James McCormac, Mathilde Timmermans, Amaury H. M. J. Triaud, Didier Queloz",
       "PaperNumber": "14155-116",
       "DateTimeLocationDataList": [
         {
@@ -1036,7 +934,7 @@
       "HTMLTitle": "",
       "Title": "Astra: an open-source fully autonomous robotic observatory control software",
       "Description": null,
-      "Abstract": "Here we present Astra (Automated Survey observaTory Robotised with Alpaca), an open-source, cross-platform Python system for the sustained, fully autonomous operation of astronomical observatories, requiring no external message-broker infrastructure. Astra controls observatory hardware via the ASCOM Alpaca protocol, and executes prescheduled observatory actions under continuous safety supervision. Its multi-device actions include plate-solve-based pointing correction with a local Gaia--2MASS catalogue fallback, PID-controlled autoguiding, and autofocus. A FastAPI web service provides a browser UI, REST and WebSocket APIs for real-time status, image previews, and SQLite-backed telemetry and logs.  Astra has run in fully unattended production since January 2024, scaling to six telescopes across three facilities: the four-unit SPECULOOS-South network (Chile), SAINT-EX (Mexico), and the ETH Observatory (Switzerland), with no schedule aborts attributable to Astra software.",
+      "Abstract": "Here we present Astra (Automated Survey observaTory Robotised with Alpaca) OCS, an open-source, cross-platform Python system for the sustained, fully autonomous operation of astronomical observatories, requiring no external message-broker infrastructure. Astra controls observatory hardware via the ASCOM Alpaca protocol, and executes prescheduled observatory actions under continuous safety supervision. Its multi-device actions include plate-solve-based pointing correction with a local Gaia--2MASS catalogue fallback, PID-controlled autoguiding, and autofocus. A FastAPI web service provides a browser UI, REST and WebSocket APIs for real-time status, image previews, and SQLite-backed telemetry and logs.  Astra has run in fully unattended production since January 2024, scaling to six telescopes across three facilities: the four-unit SPECULOOS-South network (Chile), SAINT-EX (Mexico), and the ETH Observatory (Switzerland), with no schedule aborts attributable to Astra software.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Astra--an-open-source-fully-autonomous-robotic-observatory-control/14155-116",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1114,7 +1012,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Marina Vela Nuñez, Mauro Focardi, Alessio Pannocchia, Luca Serafini, Pierpaolo Merola, Vladimiro Noce, Elisabetta Giani, Simone Chiarucci, Marianna Michelangnoli, Gianluca Marotta",
+      "Authors": "Marina Vela Nuñez, Alessio Pannocchia, Luca Serafini, Pierpaolo Merola, Vladimiro Noce, Elisabetta Giani, Simone Chiarucci, Marianna Michelangnoli, Gianluca Marotta, Mauro Focardi",
       "PaperNumber": "14145-173",
       "DateTimeLocationDataList": [
         {
@@ -1136,11 +1034,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Automated verification of the ARIEL instrument control unit boot software using TCL-based test sequences",
+      "Title": "Automated Verification of the ARIEL Instrument Control Unit Boot Software using Tcl-based Test Sequences",
       "Description": null,
       "Abstract": "The Boot Software (BSW) of space instruments is mission-critical, ensuring safe and reliable transition from power-on to operational state. This paper focuses on the BSW developed for the Instrument Control Unit (ICU) of the ARIEL payload of ESA’s M4 mission. An automated test based on TCL-scripts has been implemented to verify BSW functionalities via TCL test sequences, covering key services such as request verification, housekeeping, event reporting, memory and time management, connection tests, and on-board parameter management. The validation campaign has been executed on the Spacecraft Interface Simulator (SIS) and across multiple instrument models, with the current campaign performed on the ICU Engineering Model (EM). Results show improved repeatability, requirement coverage, early anomaly detection, and reduced manual effort, with methodology reusable for regression campaigns, Full Functional Tests (FFT), and future in-flight verification.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Automated-verification-of-the-ARIEL-instrument-control-unit-boot-software/14145-173",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Automated-Verification-of-the-ARIEL-Instrument-Control-Unit-Boot-Software/14145-173",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1724,13 +1622,115 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Marshall C. Johnson, Marcelo Tala Pinto, Jonathan Crass, Brian Sands, Jackson Datkuliak, Julia Brady, Michael Engelman, Daniel Pappalardo, Mark Derwent, Xavier Lesley, Justin R. Crepp, Andrew Bechter, Eric Bechter, Christian Schwab, David Aikens, Chad Bender, Chris Brandon, Cynthia Brooks, Matheus J. Castro, Jeffrey Chilcote, Al Conrad, Gregory Delo, Erin Duell, Matthew Engstrom, Steve Ertel, Sai Vidyud Senthil Nathan, Louis Fantano, John Keith Feggans, Hali Flores, Scott Gaudi, David King, Ondrej Kitzler, Kaitlin Kratter, Jeffrey Kruk, Thomas Legero, Stanimir Letchev, Jerry Mason, Joaquin Mason, Matthew Misch, Jacob Pember, Richard Pogge, Andreas Quirrenbach, Allie Renshaw, Austin Richie, Alexa Rizika, Nandini Sadagopan, Joshua Schlieder, Joseph Shields, Jonathan Shover, Mark Smithwright, James Smous, Jayde Spiegel, Julian Stürmer, Sahil Sura, Robert Switzer, Joe Thomes, Augustyn Waczynski, Ji Wang, Lauren Weiss, Daniel Wilson, Dane Zielinski-Nicolson",
+      "PaperNumber": "14149-195",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "ac8b45fe-94d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "ac8b45fe-94d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Commissioning and on-sky performance verification of iLocater",
+      "Description": null,
+      "Abstract": "iLocater is a high-resolution near-infrared extreme precision radial velocity (EPRV) spectrograph which is being deployed to the Large Binocular Telescope (LBT) in early 2026. We present the reintegration, commissioning and initial on-sky verification program, including from both a solar feed and night-time observations with the LBT.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Commissioning-and-on-sky-performance-verification-of-iLocater/14149-195",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Mackenzie R. Lach, Steph Sallum, Andrew Skemer",
+      "PaperNumber": "14148-76",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "6cc6f074-b9d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "6cc6f074-b9d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Commissioning results for the SCALES non-redundant aperture masking mode",
+      "Description": null,
+      "Abstract": "SCALES stands for “Slicer Combined with Array of Lenslets for Exoplanet Spectroscopy” and is an integral field spectrograph (IFS) at W. M. Keck Observatory that will directly image and spectroscopically characterize circumstellar disks and young exoplanets from 2-5μm, among other scientific targets. SCALES’s low spectral resolution and imaging modes are equipped with a set of complimentary non-redundant aperture masks (NRM), which transform the telescope aperture into an interferometer and allow for improved angular resolution beyond lambda/d at moderate contrasts. We present the first commissioning results from the SCALES NRM mode. We observe several known targets, including bright stars, binaries, and stars with known protoplanetary disks in order to validate the performance of this mode. We compare our observations with prior SCALES simulations.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Commissioning-results-for-the-SCALES-non-redundant-aperture-masking-mode/14148-76",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "J. C. Mason, I. Schofield, D. F. Buscher, S. Calzadilla, M. J. Creech-Eakman, E. K. R. Floyd, C. A. Haniff, J. J. D. Luis, A. Olivares, C. Salcido, E. B. Seneta, S. Rochelle, J. S. Young",
+      "PaperNumber": "14148-91",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "57414652-92d4-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "57414652-92d4-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Commissioning the infrared coherencing nearest neighbor (ICoNN) fringe tracker",
+      "Description": null,
+      "Abstract": "The Magdalena Ridge Observatory Interferometer (MROI) has recently obtained first fringes using our first science combiner, FOURIER. As subsequent observations obtain fringes on fainter targets, the MROI will soon need a dedicated fringe tracker. The Infrared Coherencing Nearest Neighbor (ICoNN) fringe tracker is the inaugural fringe tracker for the MROI. With the MROI collecting science fringes regularly, and a third telescope scheduled to arrive in about 18 months, ICoNN has become a high priority for the observatory. ICoNN is a fringe tracker which consists of four subsystems: the switchyard, the beam combiner, the periscope optics, and the spectrograph/dewar. ICoNN operates in the H or Ks bands, to complement the scientific observations with FOURIER and maintain maximal throughput. This paper details the commissioning of ICoNN as it is upgraded to a new detector and all subsystems are integrated, tested, and deployed on sky.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Commissioning-the-infrared-coherencing-nearest-neighbor-ICoNN-fringe-tracker/14148-91",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

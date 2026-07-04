@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Jonah T. Hansen, Thomas Birbacher, Germain Garreau, Julio Pino Jiménez, Emilie Bouzerand, Felix A. Dannert, David Eglin, Lee Feinberg, Adrian M. Glauser, Maximillian Kirchhoff, Oliver Pitz, Eckhart Spalding, Sascha P. Quanz",
-      "PaperNumber": "14148-26",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:10 - 17:30 CEST | Room B4-M5",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "7cd0d9ad-25d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "7cd0d9ad-25d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "A NICE (Nulling Interferometer Cryogenic Experiment) update: beyond 1e-5 and towards cryogenic operation",
-      "Description": null,
-      "Abstract": "We share an update on the Nulling Interferometer Cryogenic Experiment (NICE), a mid-infrared laboratory testbed at ETH Zürich that aims to not only reproduce the deep (<1e-5) broadband nulls of the earlier nulling testbeds of the early 2000s, but also at the required sensitivity levels expected for the LIFE space mission. This sensitivity enforces the experiment to go cryogenic at temperatures around 15K; an ambitious task for an ultra-precise interferometer. We will share our results of the ambient precursor experiment, demonstrating repeatable <1e-5 nulls at a single wavelength and high throughput, and new results across a broader bandpass with dual polarisation states. We will also highlight the push towards cryogenic operation, with the instalment of a new 15K test cryostat that will inform our choices of materials and optomechanical mounting techniques.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/A-NICE-Nulling-Interferometer-Cryogenic-Experiment-update--beyond-1e/14148-26",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:10 - 17:30 CEST | Room B4-M5",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Michael J. Freyberg, Norbert Meidinger, Michael Smith, Emanuele Perinati",
       "PaperNumber": "14157-51",
       "DateTimeLocationDataList": [
@@ -162,7 +128,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jessica A. Gaskin, Dominic J. Benford",
+      "Authors": "Jessica A. Gaskin, Julie A. Crooke",
       "PaperNumber": "14145-2",
       "DateTimeLocationDataList": [
         {
@@ -230,7 +196,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Myriam Rodrigues, Alondra Solá, Clément Hottier, Raziye Artan, Nazim A. Bharmal, Diane Chapuis, Gavin Dalton, Michel Dupieux, Kacem El Hadi, Marc Jaquet, Andreas Kelz, Marie Larrieu, Laurent Martin, Meghna Mohamed, Timothy J. Morris, Ana Perez, Eric Prieto, Jay Stephen, Hermine Schnetler, Roser Pello, Mathieu Puech, Thomas Augusteijn, María Luisa García-Vargas, Alessandro Meoli, Ruben Sanchez-Janssen, Christian Surace, Franck Ducret",
+      "Authors": "Myriam Rodrigues, Alondra Solá, Clément Hottier, Hermine Schnetler, Raziye Artan, Nazim A. Bharmal, Diane Chapuis, Gavin Dalton, Michel Dupieux, Kacem El Hadi, Marc Jaquet, Andreas Kelz, Marie Larrieu, Laurent Martin, Meghna Mohamed, Timothy J. Morris, Ana Perez, Eric Prieto, Jay Stephen, Roser Pello, Mathieu Puech, Thomas Augusteijn, María Luisa García-Vargas, Alessandro Meoli, Ruben Sanchez-Janssen, Christian Surace, Franck Ducret",
       "PaperNumber": "14152-42",
       "DateTimeLocationDataList": [
         {
@@ -254,7 +220,7 @@
       "HTMLTitle": "",
       "Title": "MOSAIC at ELT: building a comprehensive engineering database",
       "Description": null,
-      "Abstract": "MOSAIC, the multi-object spectrograph for the ESO Extremely Large Telescope (ELT), is developed by a distributed consortium. In this multi-partner environment and under ESO standards, maintaining coherence across requirements, interfaces, verification activities and engineering artifacts is critical. To support this, we implemented a centralised engineering database based on Reqsuite® RM, configured to host not only requirements but a broad set of systems engineering artifacts. The database integrates requirements, product breakdown structure and Bill of Material, interfaces, drawings, and verification data (analyses, tests, compliance). It serves as the reference backbone for the engineering process and is connected to major workflows, including the MOSAIC performance calculator used for technical budget verification and compliance tracking. We present its structure, use cases and integration strategy.",
+      "Abstract": "MOSAIC, the multi-object spectrograph for the ESO Extremely Large Telescope (ELT), is developed by a dis-  tributed consortium involving multiple institutes and engineering disciplines. Maintaining consistency between  requirements, interfaces, product definitions, verification activities and engineering documentation is therefore a  major systems engineering challenge. To address this, the project implemented a central engineering information  model using ReqSuite® Requirement Management tool. Rather than limiting the repository to requirements  management, the database also stores other engineering artifacts, such as Product Breakdown Structure, inter-  faces, configuration items and verification information, providing a common technical reference for the project.  Behavioural and parametric models -such as observing sequences, funcional analysis and performances calculator-  remain in their specialised engineering tools but are connected to the database through traceability links and  applic",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/MOSAIC-at-ELT-building-a-comprehensive-engineering-database/14152-42",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -468,7 +434,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Hemanth Manikantan, Riccardo Ferrazzoli, Markus Gruber, Jochen Kaminski, Alessandro Lacerenza, Carlo Lefevre, Fabio Muleri, Vladislavs Plesanovs, Paolo Soffitta, Enrico Costa, Klaus Desch, Alessandro Di Marco, Sergio Fabiani, Saba Imtiaz, Dawoon Kim, John Rankin, Ajay Ratheesh, Alda Rubini",
+      "Authors": "Hemanth Manikantan, Carlo Lefevre, Lorenzo Petrucci, Paolo Soffitta, Fabio Muleri, Enrico Costa, Alda Rubini, Vladislavs Plesanovs, Markus Gruber, Jochen Kaminski, Klaus Desch, Alessandro Di Marco, Sergio Fabiani, Riccardo Ferrazzoli, Saba Imtiaz, Dawoon Kim, Alessandro Lacerenza, John Rankin, Ajay Ratheesh",
       "PaperNumber": "14157-109",
       "DateTimeLocationDataList": [
         {
@@ -490,11 +456,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "A Focal-plane X-ray Polarimeter with Spectral and Timing Capabilities for Future Missions",
+      "Title": "A focal-plane x-ray polarimeter with spectral and timing capabilities for future missions",
       "Description": null,
       "Abstract": "Future X-ray missions require focal-plane detectors capable of performing high-sensitivity polarimetry without compromising timing or spectroscopy. We present a new photoelectron-track X-ray polarimeter built on IXPE and GridPix heritage. The prototype features a photon-absorption and drift region with a uniform electric field shaped by equally spaced metallic rings to preserve track morphology. The design supports interchangeable drift lengths, operation in 1–3 atm pressure, and compatibility with a gas-mixing system for three-component mixtures. Charge amplification and readout are provided by an InGrid Micromegas on a Timepix3 ASIC. The 256×256 pixels and 1.5625 ns time resolution of Timepix3 enable full 3D track reconstruction, while <1 μs deadtime allows operation at high count rates. We present detector construction, characterization, and first results from polarized X-ray measurements.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/A-Focal-plane-X-ray-Polarimeter-with-Spectral-and-Timing/14157-109",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/A-focal-plane-x-ray-polarimeter-with-spectral-and-timing/14157-109",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -774,40 +740,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Ahmad Sukkar, Ammar Abdulla, Ghena Rusheidat, Sara Al Nashar, Mariam Al Kaabi, Noor Alamm, Eslam Nofal, Mashhoor Al Wardat, Zouhair Benkhaldoun, Mohamed Gibril, Awni Khasawneh, Hamid Al Naimiy",
-      "PaperNumber": "14151-68",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "423d3a85-edc9-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "423d3a85-edc9-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "A pioneering, fully documented architectural design concept for an astronomical observatory in the united arab emirates",
-      "Description": null,
-      "Abstract": "We present the preliminary architectural design framework and site assessment strategies for the development of an Astronomical Observatory in Sharjah, United Arab Emirates. The study integrates architectural design principles with environmental, scientific, and infrastructural considerations across two candidate locations. An interdisciplinary methodology combining architectural engineering, astronomy, environmental studies & geospatial site evaluation was applied to analyze topography, accessibility, atmospheric conditions, vegetation distribution, and land-use constraints. The proposed design aims to balance functional requirements for optical & radio astronomical research with sustainable architectural solutions that respect the natural landscape. The outcomes demonstrate the role of collaborative processes in shaping astronomy infrastructure and establish the foundation for a fully developed observatory masterplan to support research, education, and public engagement in the UAE.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/A-pioneering-fully-documented-architectural-design-concept-for-an-astronomical/14151-68",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "G. Lombardi, O. Cuevas Ahumada",
       "PaperNumber": "14150-244",
       "DateTimeLocationDataList": [
@@ -835,40 +767,6 @@
       "Abstract": "We present a probabilistic seeing forecast system developed for the 10.4m Gran Telescopio Canarias (GTC) to support dynamic operations. The model combines numerical weather prediction, empirical calibration of turbulence strength, and a machine-learning post-processing layer (MOS) trained on TNG DIMM and GTC meteorological data. In addition to predicting deterministic values, the system provides probability distributions over discrete seeing intervals with hourly resolution up to 48 hours ahead, enabling direct application to queue scheduling and AO planning. The physical component applies wind-dependent calibrations, while the MOS layer corrects residual systematic errors using local meteorological features. Validation is performed through a back-casting framework on two years of data. The final model achieves a median absolute error of 0.16\" and RMSE of 0.33\". The system is currently integrated into the GTC operations, while nowcasting features are under development.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/A-probabilistic-seeing-forecast-system-for-the-104m-Gran-Telescopio/14150-244",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Kanaka Warad, David Andersen, Robert W. Weber, Ryuji Suzuki, Gelys Trancho, Bart Fordham, John Miles, James Larkin, Shelley Wright, Renate Kupke, Scott Roberts",
-      "PaperNumber": "14149-308",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "0722c6ac-b8d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "0722c6ac-b8d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "A reliability framework for the InfraRed Imaging Spectrograph (IRIS) on the Thirty Meter Telescope (TMT)",
-      "Description": null,
-      "Abstract": "The InfraRed Imaging Spectrograph (IRIS), a first-light science instrument for the Thirty Meter Telescope (TMT), is advancing toward final design maturity with a growing focus on long-term reliability. This paper describes the development of a reliability framework for IRIS that balances ambitious performance goals with multi-decade summit use. We present initial results from applying the TMT reliability approach, including FMEA and durability testing, which clarified subsystem priorities. Drawing on these results, we outline an adapted reliability framework for a large cryogenic instrument like IRIS that addresses cryogenic operation, high reliability expectations, long repair cycles, and the dependence on commercial and custom components under limited testing and resource conditions. The framework focuses on key reliability drivers and optimizes activities across project phases for the best return on effort, offering a path forward for current and future TMT instruments.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/A-reliability-framework-for-the-InfraRed-Imaging-Spectrograph-IRIS-on/14149-308",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1114,7 +1012,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Diego Paredes-Sanz, Sonny Massahi, Sara Svendsen, Desirée Della Monica Ferreira, Michael Avngaard, Finn Erland Christensen, Arne S. Jegers, Alessandro Morello",
+      "Authors": "Diego Paredes-Sanz, Sonny Massahi, Sara Svendsen, Desirée Della Monica Ferreira, Michael Avngaard, Finn Erland Christensen, Arne S. Jegers, Alessandro Morello, Andreas E. Nielsen, Mia J. Krag, Mads H. Jensen",
       "PaperNumber": "14146-271",
       "DateTimeLocationDataList": [
         {
@@ -1138,7 +1036,7 @@
       "HTMLTitle": "",
       "Title": "Achieving W/SiC multilayers with 1nm d-spacing and graded mirror coatings up to 550mm following upgrades to the DTU475 coating chamber",
       "Description": null,
-      "Abstract": "This work presents the upgrades and new capabilities of the DTU475 coating machine located at the Department of Space Research and Space Technology at the Technical University of Denmark. Since the production of the NuSTAR multilayer coated optics, we have commissioned larger magnetrons, significantly increasing productivity, the water cooling system has been refurbished and enhanced, and new collimation and masking devices have been installed. With these improvements, the system has the capability to uniformly coat mirrors up to 550 mm in length, enabling the coating of optical elements for synchrotron facilities and calibration beamlines, which typically have larger surfaces than high-energy telescope mirrors. We have successfully deposited W/SiC multilayers with d-spacings of 1 nm and 2 nm with good quality, and coated thin films with a thickness gradient along the mirror surface.",
+      "Abstract": "We present upgrades and expanded capabilities of the DTU475 DC magnetron sputtering chamber at the Technical University of Denmark. The system, previously used for the production of NuSTAR multilayer optics, has been refurbished to improve deposition throughput, process stability, and coating uniformity.   The upgraded chamber enables uniform coating of substrates up to 550 mm in length, extending its applicability to large X-ray optical elements for synchrotron beamlines and calibration facilities. We demonstrate the deposition of periodic SiC/W multilayers with d-spacings down to 1 nm and interface roughness of 0.3 nm. In addition, we show the capability to produce three-dimensionally graded coatings with controlled thickness gradients along the axial, lateral, and depth directions of the mirror. These results establish DTU475 as a versatile platform for advanced X-ray optics development.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Achieving-W-SiC-multilayers-with-1nm-d-spacing-and-graded/14146-271",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1168,7 +1066,7 @@
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:199.97 Total:1502.25",
       "HTMLTitle": "",
       "Title": "Advanced time-division multiplexed readout chain for the BICEP array 90/150 GHz receiver",
       "Description": null,
@@ -1522,7 +1420,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Manjunath Bestha, Sivarani Thirupathi, Athira Unni",
+      "Authors": "Manjunath Bestha, Sivarani Thirupathi, Athira Unni, Parvathy Menon, Devika Divakar",
       "PaperNumber": "14149-287",
       "DateTimeLocationDataList": [
         {
@@ -1544,11 +1442,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "An observational study of systematics affecting low-resolution multi-object transmission spectroscopy using HFOSC-HCT",
+      "Title": "An observational study of systematics affecting low-resolution multiobject transmission spectroscopy using HFOSC-HCT",
       "Description": null,
-      "Abstract": "Ground-based multi-object low-resolution transmission spectroscopy (Mo-LRTS) is a commonly used method to study exoplanet atmospheres. However, these observations are affected by several time-variable systematics, such as differential slit losses, colour-dependent seeing, guiding jitter, and variations in atmospheric transparency, as well as instrumental effects like wavelength drift, flexure, and trace instability. Using HFOSC-HCT data, we investigate how these effects influence the extracted light curves and transmission spectra. Differential shifts between the program and reference stars can create or hide apparent transit features, while small wavelength misalignments can bias low-resolution spectra. We explore mitigation strategies, improved extraction methods, and common-mode corrections. This work demonstrates that modelling and correcting systematics are crucial for obtaining reliable exoplanet atmosphere measurements from ground-based Mo-LRTS using HFOSC.",
+      "Abstract": "Ground-based multi-object low-resolution transmission spectroscopy (Mo-LRTS) is a commonly used method to study exoplanet atmospheres. However, these observations are affected by several time-variable systematics, such as differential slit losses, color-dependent seeing, guiding jitter, and variations in atmospheric transparency, as well as instrumental effects like wavelength drift, flexure, and trace instability. Using HFOSC-HCT data, we investigate how these effects influence the extracted light curves and transmission spectra. Differential shifts between the program and reference stars can create or hide apparent transit features, while small wavelength misalignments can bias low-resolution spectra. We explore mitigation strategies, improved extraction methods, and common-mode corrections. This work demonstrates that modeling and correcting systematics are crucial for obtaining reliable exoplanet atmosphere measurements from ground-based Mo-LRTS using HFOSC.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/An-observational-study-of-systematics-affecting-low-resolution-multi-object/14149-287",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/An-observational-study-of-systematics-affecting-low-resolution-multiobject-transmission/14149-287",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1724,13 +1622,115 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Christophe Giordano, Aziz Ziad, Alessandro Aresta, Eric Aristidi, Christophe Bailet, Chiara Bertolin, Marcel Carbillet, Yan Caujolle, Stefano Cavazzani, Clémence Edouard, Yenny Gonzalez-Ramos, Abdanour Irbah, Arnaud Le Kernec, Olivier Liandrat, Nicolas Pascal, Alvaro-Jose Pascual-Garcia, Jérôme Riedi, Nicolas Schmutz, Stéphane Victori, Mary Joe Medlej",
+      "PaperNumber": "14150-248",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "168dba5d-2bd0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "168dba5d-2bd0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "ANAtOLIA: from first light to multi-site atmospheric characterization",
+      "Description": null,
+      "Abstract": "Atmospheric turbulence, clouds, and aerosols limit astronomical observations and the availability of optical ground stations. The ANAtOLIA project, funded by ESA, was developed to address these limitations by providing an autonomous atmospheric monitoring station. The ANAtOLIA station combines three complementary instruments: the GMT turbulence monitor, the Sky Insight all-sky camera for clouds measurements, and the Cimel CE318-T photometer for aerosols characterization. Since 2023, four stations have been deployed at four European sites (Calern, Cebreros, Catania, and Sintra) to perform a 2-year measurement campaign. This paper presents an overview of ANAtOLIA station, its operation, and the statistical results obtained across the four sites, including inter-comparisons in terms of turbulence, clouds and aerosols. The ANAtOLIA station demonstrated its efficiency as a high-performance platform for site qualification and the optimization of optical links and astronomical observations.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/ANAtOLIA-from-first-light-to-multi-site-atmospheric-characterization/14150-248",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Lorenzo Cabona, Marcello Scalera, Alessio Zanutta, Matteo De Magistris, Igor Coretti, Chiara Selmi, Matteo Aliverti, Edoardo Redaelli, Ernesto Oliva, Paolo Di Marcantonio, Alessandro Marconi",
+      "PaperNumber": "14152-121",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "b9065e5f-2bd0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "b9065e5f-2bd0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "ANDES, the high resolution spectrograph for the ELT: MBSE-based interface management",
+      "Description": null,
+      "Abstract": "Clear identification and management of interfaces are key to the success of complex systems like ANDES Spectrograph. This contribution presents the methodological approach adopted by the ANDES System Team to ensure technical consistency, completeness, and traceability throughout the system development lifecycle. Interface management encompasses both internal and external interfaces. The Model-Based Interface Management approach implemented for ANDES ensures robust configuration control, full synchronization between interface definitions and the system architecture, and complete bidirectional traceability across all levels of the system hierarchy. Interfaces are represented within a structured hierarchy of Interfaces, Interface Channels, and Interface Ends, capturing the logical and physical interaction points between subsystems. The ANDES methodology shows how an MBSE-driven interface framework improves consistency, traceability, and verification in complex instrument development.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/ANDES-the-high-resolution-spectrograph-for-the-ELT--MBSE/14152-121",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Chiara Selmi, Alessio Zanutta, Marcello Agostino Scalera, Edoardo Maria Alberto Redaelli, Giorgio Pariani, Matteo Aliverti, Igor Coretti, Marco Landoni, Marco Riva, Ernesto Oliva, Lorenzo Cabona, Enrico Giro, Paolo Di Marcantonio, Alessandro Marconi",
+      "PaperNumber": "14152-106",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "29197b7e-44cc-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "29197b7e-44cc-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "ANDES, the high resolution spectrograph for the ELT: optimization of system requirements management in view of the preliminary design review",
+      "Description": null,
+      "Abstract": "This work outlines the optimized System Requirements Management methodology implemented for the ANDES Project as it approaches its Preliminary Design Review (PDR) in 2026. Requirements are formally tracked and maintained using Cameo Systems Modeler, applying an MBSE framework to guarantee structural integrity and robust design element interconnection. Dynamic collaboration with subsystem teams is facilitated through the combined use of Confluence and JIRA, streamlining communication, task assignment, and formal requirement acceptance. We detail the solutions that enabled ANDES to achieve the necessary technical maturity through this streamlined workflow.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/ANDES-the-high-resolution-spectrograph-for-the-ELT--optimization/14152-106",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

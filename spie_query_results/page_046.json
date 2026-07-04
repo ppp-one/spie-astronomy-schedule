@@ -26,108 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Kevin Zhang Derby, Kian Milani, Kyle J. Van Gorkom, Ramya M. Anche, Saraswathi Subramanian, Adam A. Schilperoort, Jaren N. Ashcraft, Irina I. Stefan, Heejoo Choi, Lori B. Harrison, Daewook Kim, Ewan S. Douglas",
-      "PaperNumber": "14145-235",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "cdb31749-99d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "cdb31749-99d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The Space Coronagraph Optical Bench (SCoOB): 9. improvements to adjoint electric field conjugation and a demonstration in broadband light",
-      "Description": null,
-      "Abstract": "We report on recent development in using adjoint electric field conjugation (aEFC) on the University of Arizona’s Space Coronagraph Optical Bench (SCoOB). In its current configuration, SCoOB is a charge-6 vector vortex coronagraph outfitted with a Kilo-C microelectromechanical systems deformable mirror capable of achieving sub-10^-8 dark hole contrast at visible wavelengths. In this work, we discuss ongoing efforts in improving adjoint model calibration. Using this improved model, we give an updated comparison between aEFC and iEFC for dark hole digging on SCoOB. Finally, we provide the first demonstration of aEFC on SCoOB in broadband light.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Space-Coronagraph-Optical-Bench-SCoOB--9-improvements-to/14145-235",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Dimitri Buffat, Kjetil Dohlen, Will Saunders, Laurence Tresse, Andrea Bianco, Olaf Iwert, Liz George, Etienne Burtin, Roland Bacon, David Lee, Roelof de Jong, Laurane Fréour",
-      "PaperNumber": "14149-388",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "f279ccae-8cd0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "f279ccae-8cd0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The Wide-field Spectroscopic Telescope (WST): design trade-offs for the low-resolution multiobject spectrograph instrument",
-      "Description": null,
-      "Abstract": "The Wide-field Spectroscopic Telescope (WST) is a planned 12-meter-class dedicated spectroscopic facility designed to address key scientific challenges through large spectroscopic surveys. This paper presents design and performance trade-offs for the Low-Resolution Multi-Object Spectrograph (MOS-LR) instrument. With a multiplex of 30 000, this instrument will provide unprecedented survey efficiency, an order of magnitude beyond current facilities. Covering the 370 to 980 nm range at a resolving power of 3000 with a sky-projected fiber diameter of 1’’, this instrument faces extreme design, manufacturing, and maintenance challenges. We report on the systematic approach taken to trade off optical and mechanical design options, taking into account constraints such as volume and mass, but also projected availability of detectors and gratings etc.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Wide-field-Spectroscopic-Telescope-WST--design-trade-offs/14149-388",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Will Saunders, Kjetil Dohlen, Dimitri Buffat, Roelof de Jong, Olaf Iwert, David Lee, Andrea Bianco, Ross Zhelem, Etienne Burtin",
-      "PaperNumber": "14149-385",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "c7f9a9e2-81d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "c7f9a9e2-81d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The Wide-field Spectroscopic Telescope: optical designs for the low-resolution multi-object spectrographs",
-      "Description": null,
-      "Abstract": "In Low-Resolution MOS mode, the WST has a 'spectral etendue' (etendue per fiber x spectral resolution elements x fiber numbers) ~20 x DESI/PFS, presenting enormous challenges for the spectrohgraph design.  Initial designs were based on (a) a novel f/0.775 Folded Solid Schmidt camera, or (b) an f/1.15 dioptric camera, both with 6cm x 6cm detectors and YAG field-flatteners. However, the imperative of fast camera speed has greatly diminished as the projected cost and read-noise of large (9cm x 9cm) detectors is decreasing dramatically.  The adopted baseline solution has 4 dioptric f/1.64 cameras, each with two doublets, a YAG field lens and 9cm x 9cm detector. Theoretical image quality is 8 microns rms radius. The design seems readily athermalised, allowing passive temperature control. Each spectrograph accepts 500+ fibers. Expected RoM costs (scaled from earlier designs) suggest a total cost <4M Euro per spectrograph.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Wide-field-Spectroscopic-Telescope--optical-designs-for-the/14149-385",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Mathieu Motte, Vincent Chambouleyron, Romain Fétick, Thierry Fusco, Benoît Neichel, Cedric Taïssir Heritier, Jean-François Sauvage, Nicolas Blind, Christophe Lovis",
       "PaperNumber": "14150-301",
       "DateTimeLocationDataList": [
@@ -196,7 +94,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Matthew East, Emily Lunde, Peter Miller, Christopher R. Sullivan",
+      "Authors": "Matthew East, Emily Lunde, Peter Miller, Christopher R. Sullivan, Josh Johnson, Scott Paine",
       "PaperNumber": "14154-279",
       "DateTimeLocationDataList": [
         {
@@ -220,7 +118,7 @@
       "HTMLTitle": "",
       "Title": "Thermal testing of stable telescope mirrors",
       "Description": null,
-      "Abstract": "Detecting and characterizing Earth-like planets around distant stars requires exceptionally stable telescopes. NASA's \"Critical Technologies for Large Telescopes\" project advances essential technologies for the Habitable Worlds Observatory, including the demonstration of stable mirror technologies. This paper focuses on strategies for managing the thermal mass of mirrors to enhance thermal-optical stability for the Observatory's primary mirror segments. It includes testing of two lightweight mirrors to evaluate their thermal performance. This hardware will be one of the first test subjects evaluated using new stable environment facilities at the NASA GSFC Ultra-Stable Structures Laboratory. Future goals include demonstrations of millikelvin-class thermal stability and picometer-class optical stability relevant to the Habitable Worlds Observatory.",
+      "Abstract": "Detecting Earth-like exoplanets requires telescope stability at millikelvin and picometer levels. Under NASA's Critical Technologies for Large Telescopes effort for the Habitable Worlds Observatory, we report Mini-MUST thermal-forcing tests of lightweight and heavyweight mirror architectures in the NASA GSFC Ultra-Stable Structures Laboratory. Front- and back-side sinusoidal thermal stimuli (10-hour, 3-hour, 1-hour, and 20-minute bands) were applied under repeatable conditions to assess thermal transfer (primary objective) and optical transfer (secondary objective). Model-test agreement is strongest for back-side forcing, while front-side coupling is lower and consistent with coated-surface emissivity effects. Lightweight mirrors generally show larger response amplitude than heavyweight mirrors. Optical baseline data remain noise-floor limited, but a repeatable front-side addendum candidate of about 62 pm RMS is encouraging for future large-scale HWO stability testing.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Thermal-testing-of-stable-telescope-mirrors/14154-279",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -332,7 +230,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Ahmed Soliman, Stuart Shaklan, John Mather, Eliad Peretz, Zahra Ahmed, Manan Arya, Harsh Bhundiya, Aman Chandra, Jessie Christiansen, Mario Damiano, Richard Dekany, Juliana Garcia-Mejia, Christine Gregg, Markus Kasper, Jennifer Lopez, David Miller, Rhonda Morgan, Jalo Nousiainen, Sergio Pellegrino, Peter Plavchan, William Sanchez, Aniket Sanghi, Jonathan Sauder, Andrew Szentgyorgyi, Jamila Taaki, Ronald Turner, Amber Young, Aiden Zelakiewicz, Sungeun Jeon, Dmitry Savransky, Shannon Brown, Jonathan Arenberg, Mark Silver, Christophe Lovis, Michel Mayor",
+      "Authors": "John Mather, Ahmed Soliman, Stuart Shaklan, Eliad Peretz, Christine Gregg, Manan Arya, Markus Kasper, Jamila Taaki, Mario Damiano, Zahra Ahmed, Harsh Bhundiya, Aman Chandra, Jessie Christiansen, Richard Dekany, Juliana Garcia-Mejia, Jennifer Lopez, David Miller, Rhonda Morgan, Jalo Nousiainen, Sergio Pellegrino, Peter Plavchan, William Sanchez, Aniket Sanghi, Jonathan Sauder, Andrew Szentgyorgyi, Ronald Turner, Amber Young, Dmitry Savransky, Aiden Zelakiewicz, Sungeun Jeon, Shannon Brown, Jonathan Arenberg, Mark Silver, Christophe Lovis, Michel Mayor",
       "PaperNumber": "14145-223",
       "DateTimeLocationDataList": [
         {
@@ -366,7 +264,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Anusha Pai Asnodkar, Nemanja Jovanovic, Yoo Jung Kim, Harry-Dean Kenchington-Goldsmith, Ahmed Sanny, Michael Fitzgerald, Dimitri Mawet, Pradip Gatkine",
+      "Authors": "Anusha Pai Asnodkar, Nemanja Jovanovic, Yoo Jung Kim, Harry-Dean Kenchington-Goldsmith, Ahmed Sanny, Michael Fitzgerald, Dimitri Mawet, Pradip Gatkine, Isabelle Rivera, Hani Nejadriahi",
       "PaperNumber": "14148-121",
       "DateTimeLocationDataList": [
         {
@@ -592,11 +490,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Updating the Control Software of the Multi-Channel GRIS Spectropolarimeter for Simultaneous observations.",
+      "Title": "Updating the control software of the multichannel GRIS spectropolarimeter for simultaneous observations",
       "Description": null,
       "Abstract": "The GREGOR Infrared Spectrograph (GRIS) has fundamentally evolved into a multi-channel system for simultaneous magnetic field mapping. To handle the complex coordination of up to three detectors, the control software, POLAR, was updated to a new version called POLAR 2.0. This upgrade features two major innovations. First, observation sequencing replaced legacy indexed lists with a Finite State Machine (FSM) approach, enhancing clarity and scalability. Second, the architecture became modular and distributed, allowing framegrabbers to operate across multiple computers for high throughput. Crucially, hard real-time synchronization is achieved by decoupling network tasks from the dedicated synchronization hardware, ensuring temporal coherence across all multi-rate detectors for the future commissioning of the instrument's third spectral channel.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Updating-the-Control-Software-of-the-Multi-Channel-GRIS-Spectropolarimeter/14155-181",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Updating-the-control-software-of-the-multichannel-GRIS-spectropolarimeter-for/14155-181",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -808,7 +706,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Pietro Schipani, Stefano Covino, Frans Snik, Mirko Colapietro, Francesco Perrotta, Salvatore Savarese, Simone Di Filippo, Stefano Bagnulo, Pierluigi Bellutti, Giulio Capasso, Enrico Cappellaro, Massimo Cappi, Gianluca Castignani, Sergio D'Orsi, Jacopo Farinato, Olivier Hainaut, Damien Hutsemekers, Konrad Kuijken, Antonio M. Magalhaes, Demetrio Magrin, Marcella Marconi, Laurent Marty, Ferdinando Patat, Elena Pian, Fabio Rigamonti, Vincenzo Ripepi, Pierfrancesco Rossettini, Alain Smette, Paolo Spanò, Raffaele Tomelleri, Gabriele Umbriaco, Gijs Verdoes Kleijn, Alex van Vorstenbosch",
+      "Authors": "Pietro Schipani, Stefano Covino, Frans Snik, Mirko Colapietro, Francesco Perrotta, Salvatore Savarese, Simone Di Filippo, Stefano Bagnulo, Pierluigi Bellutti, Giulio Capasso, Enrico Cappellaro, Massimo Cappi, Gianluca Castignani, Sergio D'Orsi, Jacopo Farinato, Olivier Hainaut, Damien Hutsemekers, Konrad Kuijken, Antonio M. Magalhaes, Demetrio Magrin, Marcella Marconi, Laurent Marty, Ferdinando Patat, Elena Pian, Fabio Rigamonti, Vincenzo Ripepi, Pierfrancesco Rossettini, Alain Smette, Paolo Spanò, Raffaele Tomelleri, Gabriele Umbriaco, Gijs Verdoes Kleijn, Alex van Vorstenbosch, Jacco Vink, Danny Boxhoorn",
       "PaperNumber": "14149-318",
       "DateTimeLocationDataList": [
         {
@@ -830,7 +728,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "VSTPOL: status and development of the wide-field polarimetric upgrade for the VST Telescope",
+      "Title": "VSTPOL: status and development of the wide-field polarimetric upgrade for the VST telescope",
       "Description": null,
       "Abstract": "The VSTPOL project will transform the VST into one of the first wide-field polarimetric large facility for high-precision, large-area surveys. Building on the VST’s 2.6-m, 1deg FoV, VSTPOL adds a new optomechanical module enabling polarimetry across the full field. Science goals include studying polarized emission from Galactic and extragalactic sources, and performing time-domain polarimetry of transients; its location near CTAO-South enables rapid polarimetric follow-up of CTAO sources. The polarimetric device, integrating a dedicated filter within the field corrector, has been fully realized after design and system integration. Laboratory tests show compliance with requirements. Work continues on control software, calibration tools, and AIV preparation. Installation at Paranal is planned for 2026, followed by system verification, on-sky commissioning, and development of wide-field polarimetric calibration procedures. VSTPOL will open a new domain of survey-scale optical polarimetry.",
       "ImagePath": null,
@@ -1148,7 +1046,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Steffen Mieske",
+      "Authors": "Steffen Mieske, Thomas Bierwirth, Fuyan Bian, Stephane Brillant, Willem-Jan de Wit, Vincenzo Forchi, Olivier R. Hainaut, Xavier Haubois, Andrea Mehner, Juan Carlos Olivares, Andres Pino, Marina Rejkuba, Leonel Rivas, Martino Romaniello, Cristian Romero, Eleonora Sani, Elyar Sedaghati, Michael Sterzik",
       "PaperNumber": "14151-40",
       "DateTimeLocationDataList": [
         {
@@ -1172,7 +1070,7 @@
       "HTMLTitle": "",
       "Title": "ESO science operations: from the VLT to the ELT",
       "Description": null,
-      "Abstract": "ESO’s Paranal Observatory has been operating the Very Large Telescope (VLT) as a mature, highly efficient facility and is now preparing for the arrival of the Extremely Large Telescope (ELT). The Paranal Science Operations is an integral part of ESO's end-to-end data flow process. In this presentation we will review how the science operations of the VLT has evolved in the last decade to effectively and efficiently deliver highest quality data to our users. The contribution will outline the changes we have applied to operational concepts & processes to reach the current level of performance. We will present our key operational metrics, discuss their evolution and the lessons learnt from this. We will also summarise the science operations concept foreseen for the ELT, whose operations will be integrated into the evolving VLT system and shall be considered as 'one telescope more'.",
+      "Abstract": "ESO’s Paranal Observatory has operated the Very Large Telescope (VLT) as a mature, highly efficient facility for more than 25 years and is now preparing for the arrival of the Extremely Large Telescope (ELT). Science operations at Paranal form an integral part of ESO’s end-to-end (E2E) data flow system. This paper reviews how the operational model first established in 2012 has evolved over the past decade into an integrated, metric-driven, and increasingly adaptive operational framework. We present key advances in the operating model, operational processes, and software tools, and quantify their impact through operational performance indicators used to monitor system stability and guide operational decisions. We further describe ongoing developments towards predictive and semi-autonomous operations, including end-to-end scheduling simulations as a decision-support framework. Finally, we discuss how these concepts inform the approach to integrated operations for the ELT.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/ESO-science-operations-from-the-VLT-to-the-ELT/14151-40",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1420,7 +1318,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Sarah N. Trowbridge Heine, Herman L. Marshall, Alan Garner, Elio Angile, Stephen D. Bongiorno, H. Moritz Günther, Ralf Heilmann, Beverly LaMarr, Sean McNeil, Jill Juneau, Swati Ravi",
+      "Authors": "Sarah N. Trowbridge Heine, Herman L. Marshall, Alan Garner, Elio Angile, Stephen D. Bongiorno, H. Moritz Günther, Ralf Heilmann, Beverly LaMarr, Sean McNeil, Jill Juneau, Swati Ravi, Eric Gullikson, Leonardo Drake, C. Marc Baker",
       "PaperNumber": "14146-82",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1622,115 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 11:00 - 11:30 CEST | Room B3-M6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Martino Romaniello",
+      "PaperNumber": "14151-41",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 11:00 - 11:20 CEST | Room B2-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "7bfb6917-fbcf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "7bfb6917-fbcf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The ESO Science Archive: a powerful resource for the worldwide science community",
+      "Description": null,
+      "Abstract": "The ESO Science Archive provides worldwide access to data from ESO’s La Silla Paranal Observatory (LPO), a complex integrated system that includes the VLT and, in a few short years, the ELT. Beyond raw data, it hosts millions of processed science files, enabling immediate use by researchers and enthusiasts. It is a cornerstone for global scientific collaboration, contributing to more than 40% of LPO’s scientific output, as measured by refereed publications.    We present the status and plans for the ESO Science Archive: content, access services and role in advancing Open Science. We discuss the foundations of its success and the challenges ahead. We also highlight strategic developments to enhance usability in the face of increasingly complex and diverse data content, integrating advanced technologies and data handling and discovery techniques, to further foster global engagement in the expanding global landscape of research, with initiatives like the European Open Science Cloud (EOSC).",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-ESO-Science-Archive--a-powerful-resource-for-the/14151-41",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 11:00 - 11:20 CEST | Room B2-M2",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Herman L. Marshall, Sarah Heine, Alan Garner, Ralf Heilmann, Stephen Bongiorno, Andrea Santangelo, Christoph Tenzer, Eric Gullikson, Hans M. Guenther, Swati Ravi",
+      "PaperNumber": "14146-79",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 11:10 - 11:30 CEST | Room B4-M1",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "1a6acdab-f9cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "1a6acdab-f9cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "A new NASA Pioneer: the globe orbiting soft X-ray polarimeter (GOSoX)",
+      "Description": null,
+      "Abstract": "The Globe Orbiting Soft X-ray Polarimeter (GOSoX) is a spectropolarimeter for the soft X-ray band. GOSoX is based on the Rocket Experiment Demonstration of a Soft X-ray Polarimeter (REDSoX), a NASA-funded sounding rocket payload. Like REDSoX, GOSoX consists of Wolter I X-ray optics from MSFC, Critical Angle Transmission (CAT) gratings made at MIT, and multilayer (ML) coated mirrors that polarize the X-rays from LBNL. Colleagues at U. Tuebingen will adapt commercially available sCMOS sensors for the focal plane. The grating dispersion is matched to the lateral grading of ML mirrors set at 45deg. GOSoX can measure polarization across the entire 0.2-0.4 keV band with a spectral resolution E/dE ~ 100. Minimum detectable polarizations (MDPs) of 3-10% are expected for over a dozen targets in a one-year mission. The mission was proposed to the NASA call for Astrophysics Pioneers in 2025. The mission was rated \"selectable\"; pending available funds in the FY26 NASA budget.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/A-new-NASA-Pioneer--the-globe-orbiting-soft-X/14146-79",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 11:10 - 11:30 CEST | Room B4-M1",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Bruno Maffei, Nabila Aghanim, Jonathan Aumont, Alexandre Beelen, Anaïs Besnard, Bruno Borgo, Ivan Charles, Jens Chluba, Xavier Coulon, Francesco Cuttaia, Paolo de Bernardis, Clémence De Jabrun, José Javier Díaz García, Jean-Marc Duval, Giulio Fabbian, Lorenza Ferrari, Fabio Finelli, Thomas Gascard, Alan J. Kogut, Guilaine Lagache, Morgane Loquet Le Gall, Sylvain Martin, Silvia Masi, Alessandro Monfardini, Louise Mousset, Créidhe O'Sullivan, Luca Pagano, Giampaolo Pisano, Nicolas Ponthieu, Vincent Revéret, Louis Rodriguez, José Alberto Rubiño-Martín, Valentin Sauvage, Giorgio Savini, Ana Isabel Silva Martins, Locke Spencer, Andrea Tartari, Neal Trappe, Duncan Watts, Berend Winter",
+      "PaperNumber": "14156-39",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 11:10 - 11:30 CEST | Room B5-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "26a7efad-a2cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "26a7efad-a2cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "A path towards CMB spectral distortion measurements",
+      "Description": null,
+      "Abstract": "The only detailed measurement of the cosmic microwave background (CMB) spectrum by COBE-FIRAS, in the early 90s, showed that it is close to a perfect blackbody emission. Although theory predicts that small deviations, referred to as CMB spectral distortions, are expected, FIRAS limited sensitivity only yielded to upper limits. This research field has become one of the highest priorities for the ESA Voyage 2050 programme for instance, and several missions have been proposed to CNES, NASA and ESA, FOSSIL being currently one of the M8 contenders at ESA.  After a short description of the science case and goals of CMB spectral distortions, as well as the various initiatives to perform their first measurements, we will present and detail here the roadmap that is being put in place, from laboratory breadboard development, to balloon-borne pathfinder (BISOU) and future space mission (FOSSIL) by a dedicated community.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/A-path-towards-CMB-spectral-distortion-measurements/14156-39",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 11:10 - 11:30 CEST | Room B5-M3",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

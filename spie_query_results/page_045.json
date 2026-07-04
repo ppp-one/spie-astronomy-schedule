@@ -26,108 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Donghua Zhao, Lei Wang, Chen Zhang, Wenxin Wang, Zhenqing Jia, Zhixing Ling, Weimin Yuan, Junsheng Cheng, Ping Zhou, Shuangnan Zhang",
-      "PaperNumber": "14146-310",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "f1ca461f-53cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "f1ca461f-53cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Simulations and experiments of the electron diverter for the wide-field x-ray telescope onboard the Einstein Probe mission",
-      "Description": null,
-      "Abstract": "The Wide-field X-ray Telescope (WXT), the lobster-eye micro-pore optics (MPO) focusing telescope onboard the  Einstein Probe (EP) mission, consists of 12 identical modules. Each WXT module is equipped with a permanent-  magnet diverter to reduce the background induced by low-energy electrons (1–1000 keV). In this paper, we present  the performance of the diverter by simulations and experiments. Based on the experimental and simulation results, the  deflection efficiency of the diverter exceeds 97% for on-axis electrons in the energy range of 100–1200 keV, and the  efficiency is greater than 98% at 1000 keV for electrons with incident angles of Θin ≤ 10◦. Further simulations of a  WXT module show that the background caused by electrons below 1000 keV can be reduced by approximately 90%  with the diverter.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Simulations-and-experiments-of-the-electron-diverter-for-the-wide/14146-310",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Radhika Dharmadhikari, Aurélie Magniez, Charlotte Z. Bond, Padmakar Parihar, Kieran O'Brien, Tim Morris",
-      "PaperNumber": "14150-313",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "3bad6187-82cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "3bad6187-82cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Simulations on petal mode sensing for the ELT using the OTF-based phasing scheme",
-      "Description": null,
-      "Abstract": "The large spiders in the ELT lead to phase discontinuities of the wavefront, which appear as a piston difference between two sectors of the primary mirror. The adaptive optics system is insensitive to large values of these petal modes and hence a special petalometer device is required, that can measure these petal modes.  We have explored the use of Optical Transfer Function (OTF) based phasing scheme for fast petal mode sensing of the ELT. The performance of this technique under varying external practical conditions for seeing limited as well as AO corrected mode are studied through realistic Python simulations.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Simulations-on-petal-mode-sensing-for-the-ELT-using-the/14150-313",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Lukas Weissinger, Simon Hubmer, Bernadett Stadler, Ronny Ramlau",
-      "PaperNumber": "14150-304",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "93a3d8bf-97d5-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "93a3d8bf-97d5-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Singular value-based atmospheric tomography with Fourier domain regularization (SAFR)",
-      "Description": null,
-      "Abstract": "Atmospheric tomography, the problem of reconstructing atmospheric turbulence profiles from wavefront sensor measurements, is an integral part of many adaptive optics systems. To solve this problem, a singular-value decomposition (SVD) based approach has been proposed before. Here, we focus on the numerical implementation of the SVD-based Atmospheric Tomography with Fourier Domain Regularization Algorithm (SAFR) and its performance for MCAO systems. The key features of the SAFR algorithm are the utilization of the FFT and the pre-computation of computationally demanding parts. Together, this yields a fast algorithm with less memory requirements than commonly used Matrix Vector Multiplication (MVM) approaches. We evaluate the performance of SAFR regarding reconstruction quality and computational expense in numerical experiments using the simulation environment COMPASS, in which we use an MCAO setup resembling the physical parameters of the MORFEO instrument of the ELT.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Singular-value-based-atmospheric-tomography-with-Fourier-domain-regularization-SAFR/14150-304",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Emanuele Perinati, Michael J. Freyberg, Michael C. Yeung, Konrad Dennerl, Christian Pommranz, Susanne Friedrich, Ritika Singh, Bastian Hess, Sebastian Diebold, Chris Tenzer, Andrea Santangelo",
       "PaperNumber": "14146-297",
       "DateTimeLocationDataList": [
@@ -196,7 +94,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Fabrizio Vitali, Matteo Aliverti, Kalyan Radhakrishnan, Mirko Colapietro, Federico Battaini, Simone Di Filippo, Sergio D'Orsi, Eugenio Martinetti, Antonio Miccichè, Gaetano Nicotra, Francesco D'Alessio, Davide Ricci, Simone Doniselli, Silvio Di Rosa, Matteo Genoni, Matteo Munari, Salvatore Scuderi, Paolo D'Avanzo, Pietro Schipani, Sergio Campana, Armin Silber, Bao Le Van, Ivo Saviane, Marco Landoni, Mstteo Accardo, Riccardo Claudi, Giulio Capasso, José A. Araiza-Durán, Iair Arcavi, Andrea Baruffolo, Sagi Ben-Ami, Alex Bichkovsky, Anna Brucalassi, Enrico Cappellaro, Rosario Cosentino, Massimo Della Valle, Avishay Gal-Yam, Ofir Hershko, Derek ives, Hanindyo Kuncarayakti, Luigi Lessio, Laurent Marty, Seppo Mattila, Leander Mehrgan, Giuliano Pignata, Michael Rappaport, Marco Riva, Adam Rubin, Bernardo Salasnich, Ricardo Zanmar Sanchez, Salvatore Savarese, Andrea Scaudo, Stephen Smartt, Maximilian Stritzinger, David Young",
+      "Authors": "Fabrizio Vitali, Matteo Aliverti, Kalyan Radhakrishnan, Mirko Colapietro, Federico Battaini, Simone Di Filippo, Sergio D'Orsi, Eugenio Martinetti, Antonio Miccichè, Gaetano Nicotra, Francesco D'Alessio, Davide Ricci, Simone Doniselli, Silvio Di Rosa, Matteo Genoni, Matteo Munari, Salvatore Scuderi, Marco Landoni, Paolo D'Avanzo, Pietro Schipani, Sergio Campana, Armin Silber, Bao Le Van, Ivo Saviane, Derek ives, Mstteo Accardo, Riccardo Claudi, Giulio Capasso, José A. Araiza-Durán, Iair Arcavi, Andrea Baruffolo, Sagi Ben-Ami, Alex Bichkovsky, Anna Brucalassi, Enrico Cappellaro, Rosario Cosentino, Massimo Della Valle, Avishay Gal-Yam, Ofir Hershko, Hanindyo Kuncarayakti, Luigi Lessio, Laurent Marty, Seppo Mattila, Leander Mehrgan, Giuliano Pignata, Michael Rappaport, Marco Riva, Adam Rubin, Bernardo Salasnich, Ricardo Zanmar Sanchez, Salvatore Savarese, Andrea Scaudo, Stephen Smartt, Maximilian Stritzinger, David Young",
       "PaperNumber": "14149-381",
       "DateTimeLocationDataList": [
         {
@@ -252,11 +150,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "SOXS Quality Control System for Operations at the NTT",
+      "Title": "SOXS quality control system for operations at the NTT",
       "Description": null,
       "Abstract": "The SOXS spectrograph at the ESO NTT has completed its AIV and Commissioning phases, and a dedicated Quality Control (QC) system is required to monitor performance during routine operations. The SOXS QC framework is organised in two complementary layers. The first relies on ESO Datalab and Grafana to monitor critical telemetry parameters, providing real-time dashboards and a redundant email-based alarm system for the observatory staff and the SOXS Consortium support team whenever predefined thresholds are exceeded. The second focuses on instrument performance by collecting quality metrics produced by the SOXS pipeline from daily calibrations and engineering data. These metrics are consolidated into a dedicated monitoring database and presented as long-term trends, allowing the operations team and the community to verify instrument stability against commissioning baselines and identify gradual performance degradations for predictive maintenance.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/SOXS-Quality-Control-System-for-Operations-at-the-NTT/14155-158",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/SOXS-quality-control-system-for-operations-at-the-NTT/14155-158",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -286,11 +184,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Space Surveillance Awareness programme at Ekar Observatory",
+      "Title": "Space surveillance awareness programme at Ekar Observatory",
       "Description": null,
       "Abstract": "The Cima Ekar Observatory (INAF–OAPd) has launched a new operational programme for Space Surveillance and Awareness, combining the robotic Schmidt telescope with the Copernico 1.82-m telescope equipped with AFOSC. Within the ASI–INAF agreement on space-debris monitoring, we are upgrading both sensors and developing coordinated photometric, astrometric, and spectroscopic workflows to characterise objects from LEO to GEO. The Schmidt provides wide-field, dynamically scheduled imaging for orbit determination and light-curve analysis, while AFOSC enables targeted spectroscopic and multi-band characterisation. We describe the operational model, data-flow integration with IA2 archives, early performance results, and the roadmap toward supporting national SSA activities and future Fly-Eye operations.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Space-Surveillance-Awareness-programme-at-Ekar-Observatory/14151-119",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Space-surveillance-awareness-programme-at-Ekar-Observatory/14151-119",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -638,7 +536,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Oscar Gonzalez, Martin A. Barstow, Stephen P. Todd, Ariadna Z. Calcines Rosario, Paul Eccleston, Fraser Clarke, David Pearson, Stephen Watson",
+      "Authors": "Oscar A. Gonzalez, David Pearson, Stephen Watson, Stephen P. Todd, Ariadna Z. Calcines Rosario, Paul Eccleston, Piyal Samara-Ratna, Bhargav Narasimha Swamy, Francis Bell, Anna Maskolenko, Oliver Blake, Richard Robinson, Nicholas A. Walton, Cassandra Mercury, Fraser Clarke, Martin A. Barstow, Daniel Dicken, Olivia Jones",
       "PaperNumber": "14145-262",
       "DateTimeLocationDataList": [
         {
@@ -682,7 +580,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -740,7 +638,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Sanchit Sabhlok, Ewan Douglas, Solvay A. Blomquist, Debstuti Biswas, Maggie Y. Kautz, Simran Agarwal, Alexandra Kupersmith, Adam Schilperoort, Stephanie Rinaldi, Kelsey L. Miller, Kyle van Gorkum, Corey Fucetola, Patrick Ingraham, Heejoo Choi, Daewook Kim",
+      "Authors": "S. Sabhlok, E. S. Douglas, S. Blomquist, D. Biswas, M. Y. Kautz, S. Agarwal, A. Kupersmith, A. Schilperoort, S. F. Rinaldi, K. Miller, K. van Gorkum, C. Fucetola, P. Ingraham, H. Choi, D. Kim",
       "PaperNumber": "14145-246",
       "DateTimeLocationDataList": [
         {
@@ -1124,7 +1022,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -1170,7 +1068,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "The evolution of the ACIS contamination layer on the Chandra X-ray Observatory from 2010 to 2026",
+      "Title": "The evolution of the ACIS contamination layer on the Chandra x-ray Observatory from 2010 to 2026",
       "Description": null,
       "Abstract": "The Chandra X-ray Observatory (CXO) was launched over 25 years ago and has been delivering spectacular science over the course of its mission. The Advanced CCD Imager Spectrometer (ACIS) is the prime instrument on the satellite, conducting over 90% of the observations. The CCDs operate at a temperature of -120 C and the optical blocking filter (OBF) in front of the CCDs is at a temperature of approximately -60 C. The surface of the OBF has accumulated a layer of contamination over the course of the mission, as it is the coldest surface exposed to the interior of the spacecraft. We have been characterizing the thickness, chemical composition, and spatial distribution of the contamination layer as a function of time over the mission. In this paper, we describe the latest update to the contamination model which consists of a change to the time dependence of the thickness of the O and F layers.",
       "ImagePath": null,
@@ -1272,11 +1170,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "The La Palma Quantum Interferometer (LPQI): New optical design method for the Pathfinder cameras and SPAD spectrographs",
+      "Title": "The La Palma Quantum Interferometer (LPQI): new optical design method for the pathfinder cameras and SPAD spectrographs",
       "Description": null,
       "Abstract": "A critical Intensity Interferometry discovery was made: a standard camera optical design does not work, leading to a new designing method. The La Palma Quantum Interferometer collaboration will use the 5 largest telescopes in La Palma to do Intensity Interferometry. Design of 2 cameras for the TNG and NOT telescopes were done in the standard way and with the new method. Our SPAD detectors have a sensitive area covering only 3.5% of each pixel. Two methods were studied to largely increase the transmission, unusual microlens arrays and taking advantage of sensitive areas clustering. In Intensity Interferometry, the S/N is independent of the bandwidth. We intend to place Echelle spectrographs on all 5 telescopes each giving at least 10,000 bands increasing the S/N by >100. A new SPAD detector is under development (goals of 1000x1000 pixels and >90% fill factor). A conceptual design was made for the first spectrograph on ING.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-La-Palma-Quantum-Interferometer-LPQI--New-optical-design/14148-118",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-La-Palma-Quantum-Interferometer-LPQI--new-optical-design/14148-118",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1352,7 +1250,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Nina Brown, Chad F. Bender, Andrew Monson, Keita Maekawa, Sonja O. T. Choi, Joel Berkson, Christian Schwab, Lisa Prato, Roger Angel",
+      "Authors": "Nina Brown, Chad F. Bender, Andrew Monson, Keita Maekawa, Sonja O. T. Choi, Joel Berkson, Christian Schwab, Lisa Prato, Roger Angel, Zsombor Antal",
       "PaperNumber": "14149-396",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1622,115 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Kevin Zhang Derby, Kian Milani, Kyle J. Van Gorkom, Ramya M. Anche, Saraswathi Subramanian, Adam A. Schilperoort, Jaren N. Ashcraft, Irina I. Stefan, Heejoo Choi, Lori B. Harrison, Daewook Kim, Ewan S. Douglas",
+      "PaperNumber": "14145-235",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "cdb31749-99d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "cdb31749-99d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The Space Coronagraph Optical Bench (SCoOB): 9. improvements to adjoint electric field conjugation and a demonstration in broadband light",
+      "Description": null,
+      "Abstract": "We report on recent development in using adjoint electric field conjugation (aEFC) on the University of Arizona’s Space Coronagraph Optical Bench (SCoOB). In its current configuration, SCoOB is a charge-6 vector vortex coronagraph outfitted with a Kilo-C microelectromechanical systems deformable mirror capable of achieving sub-10^-8 dark hole contrast at visible wavelengths. In this work, we discuss ongoing efforts in improving adjoint model calibration. Using this improved model, we give an updated comparison between aEFC and iEFC for dark hole digging on SCoOB. Finally, we provide the first demonstration of aEFC on SCoOB in broadband light.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Space-Coronagraph-Optical-Bench-SCoOB--9-improvements-to/14145-235",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Dimitri Buffat, Kjetil Dohlen, Will Saunders, Laurence Tresse, Andrea Bianco, Olaf Iwert, Liz George, Etienne Burtin, Roland Bacon, David Lee, Roelof de Jong, Laurane Fréour",
+      "PaperNumber": "14149-388",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "f279ccae-8cd0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "f279ccae-8cd0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The Wide-field Spectroscopic Telescope (WST): design trade-offs for the low-resolution multiobject spectrograph instrument",
+      "Description": null,
+      "Abstract": "The Wide-field Spectroscopic Telescope (WST) is a planned 12-meter-class dedicated spectroscopic facility designed to address key scientific challenges through large spectroscopic surveys. This paper presents design and performance trade-offs for the Low-Resolution Multi-Object Spectrograph (MOS-LR) instrument. With a multiplex of 30 000, this instrument will provide unprecedented survey efficiency, an order of magnitude beyond current facilities. Covering the 370 to 980 nm range at a resolving power of 3000 with a sky-projected fiber diameter of 1’’, this instrument faces extreme design, manufacturing, and maintenance challenges. We report on the systematic approach taken to trade off optical and mechanical design options, taking into account constraints such as volume and mass, but also projected availability of detectors and gratings etc.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Wide-field-Spectroscopic-Telescope-WST--design-trade-offs/14149-388",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Will Saunders, Ross Zhelem, Kjetil Dohlen, Dimitri Buffat, Roelof de Jong, Olaf Iwert, David Lee, Andrea Bianco, Etienne Burtin, Virgile Meyer",
+      "PaperNumber": "14149-385",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "c7f9a9e2-81d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "c7f9a9e2-81d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The Wide-field Spectroscopic Telescope: optical designs for the low-resolution multi-object spectrographs",
+      "Description": null,
+      "Abstract": "In Low-Resolution MOS mode, the WST has a 'spectral etendue' (etendue per fiber x spectral resolution elements x fiber numbers) ~20 x DESI or PFS, presenting enormous challenges for the spectrograph design.  Initial designs were based on (a) a novel F/0.775 Folded Solid Schmidt camera, or (b) very fast (F/1.15/F/1.3) dioptric cameras, all with YAG field-flatteners. However, the imperative of fast camera speed has greatly diminished as the projected cost and read-noise of large format (9cm x 9cm) detectors is decreasing dramatically.  The adopted baseline solution has 4 dioptric F/1.64 cameras, each with two doublets, a YAG field lens and 9cm x 9cm detector. Theoretical image quality is 8 microns rms radius, compared with a project fiber size of 100um. The design seems readily athermalised, allowing passive temperature control. Each spectrograph accepts 500+ fibers. Expected RoM costs (scaled from earlier designs) suggest a total cost <4M Euro per spectrograph.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Wide-field-Spectroscopic-Telescope--optical-designs-for-the/14149-385",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

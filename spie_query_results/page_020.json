@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Alessandro Ballone, Gabriele Rodeghiero, Demetrio Magrin, Jacopo Farinato, Leonardo Buoncompagni, Gabriele Umbriaco, Luca Rosignoli, Alessio Taranto, Davide Greggio, Luca Marafatto, Lorenzo Busoni, Giorgio Pariani, Matteo Munari, Elena Carolo, Kalyan Kumar Radhakrishnan Santhakumari, Federico Battaini, Simone Di Filippo, Matteo D'Ambrogio, Nicholas Devaney, Daphne Diretto, Fulvio Laudisio, Elia Costa, Bernardo Salasnich, Vincenzo Cianniello, Vincenzo De Caprio, Marco Riva, Edoardo Maria Alberto Redaelli, Ludovico Teodori, Andrea Di Rocco, Paolo Ciliegi",
-      "PaperNumber": "14149-221",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "ba1887d1-c0cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "ba1887d1-c0cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "MORFEO @ ELT: updates on the optical fine alignment strategy",
-      "Description": null,
-      "Abstract": "MORFEO (Multi-conjugate adaptive Optics Relay For ELT Observations) is the post-focal adaptive optics module for the ESO Extremely Large Telescope. The instrument provides MCAO correction for two instruments: MICADO and HARMONI. Multiple MORFEO fine Optical Alignment strategies are currently under investigation. For this contribution, we report updates on the “Donut” method. In this approach, residual low order aberrations - due to misalignments - are estimated by calculating the moments of light in out-of-focus images on the instrumental focal plane detector. MORFEO’s M10, M11 and M12 can then be moved to compensate for those and align the pupil and focal planes between MORFEO and the attached instruments. We present several tests to assess the performances of this strategy, also accounting for stray light effects and demonstrating using more realistic “on-sky” donuts. This study is performed by means of sequential and non-sequential simulations with the Zemax software and its API.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/MORFEO--ELT--updates-on-the-optical-fine-alignment/14149-221",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Giuseppe De Luca, Edoardo Maria Alberto Redaelli, Tommaso Lapucci, Marco Bonaglia",
       "PaperNumber": "14149-223",
       "DateTimeLocationDataList": [
@@ -82,11 +48,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "MORFEO@ELT: LOR anti-collision system design and test validation",
+      "Title": "MORFEO@ELT: LOR Anti-Collision System Design and Test Validation",
       "Description": null,
       "Abstract": "The Low Order and Reference (LOR) of MORFEO, the multi‑conjugate adaptive optics relay for the ELT, incorporates three axisymmetric optical benches equipped with pick‑off mirrors to track guide stars. The system geometry introduces potential collisions between arms and adjacent structures, requiring protective measures. An anti‑collision and damping system was developed, combining conductive contact detection with mechanical energy absorption to ensure safe operation. Validation through a dedicated mock‑up and experimental campaign confirmed the effectiveness of the approach. The architecture of the damping system, the mock-up design, and the results of the validation tests are presented here to provide a reference case for the design of next-generation instrumentation.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/MORFEOELT-LOR-anti-collision-system-design-and-test-validation/14149-223",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/MORFEOELT-LOR-Anti-Collision-System-Design-and-Test-Validation/14149-223",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -218,11 +184,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Multi-Core Integral Field Unit (MCIFU v2): fibre-link design and status",
+      "Title": "Multicore integral field unit (MCIFU v2): fibre-link design and status",
       "Description": null,
       "Abstract": "The Multi-Core Integral Field Unit (MCIFU v2) is an add-on for the MagAO-X adaptive optics system, enabling spectroscopy and spectral differential imaging of close companions such as protoplanets and exoplanets in the Y, J, and H bands at R~5000. MagAO-X provides a diffraction-limited focal plane, which the MCIFU samples using a 119-spaxel fibre link that relays a 1-arcsecond field-of-view to an external spectrograph. Two optimized fibre links are considered, one for Y+J (0.96–1.345 μm) and one for H (1.49–1.78 μm), each consisting of a Micro-Lens Array (MLA), a Multi-Core Fibre (MCF), and a photonic reformatter. A 3D-printed MLA enhances coupling into the MCF, whose Y+J design uses three dissimilar single-mode core types arranged to reduce crosstalk. At the output, an Ultrafast-Laser-Inscribed reformatter converts the hexagonal core layout into a linear slit with ~66% transmission and <5×10⁻⁴ crosstalk (simulation). The spectrograph then disperses all spaxels onto a HAWAII-2 detector.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Multi-Core-Integral-Field-Unit-MCIFU-v2--fibre-link/14149-184",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Multicore-integral-field-unit-MCIFU-v2--fibre-link-design/14149-184",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -230,7 +196,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Philippe Voyer, Thuy Vy T. Luu, Emaad Paracha, Steven J. Benton, William C. Jones, C. Barth Netterfield, L. Javier Romualdez, Maya Amit, Benjamin E. Boyd, Christopher J. Damaren, Spencer W. Everett, Aurélien A. Fraisse, Leo WH Fung, Ajay S. Gill, Suren Gourapura, John W. Hartley, Bradley Holder, Eric M. Huff, Mathilde Jauzac, David Lagattuta, Lun Li, Gavin Leroy, Jason SY Leung, Richard Massey, Jacqueline E. McCleary, Adyn Miles, Johanna M. Nagy, Susan F. Redmond, Jason D. Rhodes, Sayan Saha, Jurgen Schmoll, Ellen L. Sirks, Simon Tartakovsky, Georgios N. Vassilakis, André Z. Vitorelli, Bryce J. Warren",
+      "Authors": "Philippe Voyer, Maya Amit, Steven J. Benton, Benjamin E. Boyd, Anthony M. Brown, Giulia Cerini, Paul Clark, Matthew Craigie, Christopher J. Damaren, Tim Eifler, Spencer W. Everett, Aurélien A. Fraisse, Leo WH Fung, Ajay S. Gill, Suren Gourapura, Eric Habjan, John W. Hartley, David Harvey, Bradley Holder, Eric M. Huff, Mathilde Jauzac, William C. Jones, David Lagattuta, Gavin Leroy, Jason SY Leung, Lun Li, Thuy Vy T. Luu, Richard Massey, Jacqueline E. McCleary, Adyn Miles, Johanna M. Nagy, C. Barth Netterfield, Emaad Paracha, Susan F. Redmond, Jason D. Rhodes, Andrew Robertson, L. Javier Romualdez, Sayan Saha, Jurgen Schmoll, Mohamed M. Shaaban, Ellen L. Sirks, Sut Ieng Tam, Simon Tartakovsky, Georgios N. Vassilakis, André Z. Vitorelli, Bryce J. Warren, Alfredo Zenteno",
       "PaperNumber": "14152-89",
       "DateTimeLocationDataList": [
         {
@@ -254,7 +220,7 @@
       "HTMLTitle": "",
       "Title": "Multi-sensor fusion for fine-guidance and milli-arcsecond-level attitude estimation of balloon-borne telescopes",
       "Description": null,
-      "Abstract": "Achieving sub-arcsecond pointing in the balloon environment requires precise attitude estimation despite structural vibrations, pendulation, and latency in optical measurements. This work evaluates a multi-sensor estimation framework for the Gigapixel Balloon-borne Imaging Telescope (GigaBIT), a 1.35-meter aperture instrument targeting 0.020 arcsec image stability during long-duration stratospheric flights. Using a nonlinear rigid-body model and sensor characteristics informed by prior SuperBIT missions, we simulate representative disturbance scenarios to assess performance. A bias-aware Multiplicative Extended Kalman Filter (MEKF) fuses gyro data with asynchronous vector measurements from focal-plane star cameras, and case studies explore the impact of latency, dropout, and multi-camera redundancy. Results guide GigaBIT’s flight software development and offer a generalizable approach for high-precision balloon-borne platforms.",
+      "Abstract": "Balloon-borne telescopes rely on fine-guidance systems to achieve sub-arcsecond image stability despite residual disturbances from the balloon platform. In fine-guidance systems using a Fast Steering Mirror (FSM) driven by a single guide star, boresight roll can be be misinterpreted as image motion, leaving residual motion across the focal plane. This effect, referred to as roll leakage, becomes increasingly important for wide-field observatories. Using data from the 2023 SuperBIT science flight, roll leakage is characterized and a simulation framework combining optical ray tracing, asynchronous guide-star measurements, estimation, and FSM control is developed to evaluate mitigation strategies. Under realistic flight disturbances, multi-star estimation reduces average roll-induced science-field image motion by 31.8% for the SuperBIT geometry and 63.9% for a representative GigaBIT geometry. These results motivate multi-star fine guidance for future wide-field balloon-borne telescopes.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Multi-sensor-fusion-for-fine-guidance-and-milli-arcsecond-level/14152-89",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -400,7 +366,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Maria Bergomi, Carmelo Arcidiacono, Luca Marafatto, Kalyan Radhakrishnan, Gabriele Umbriaco, Remon van Gaalen, Thomas M. Herbst, Marco Dima, Davide Greggio, Silvio Di Rosa, Florian Briegel, Lars Mohr, Jacopo Farinato, Roberto Ragazzoni, Valentina Viotto, Simone Antoniucci, Gianluca Li Causi, Fernando Pedichini, Roberto Piazzesi, Alessio Caratti o Garatti, Al Conrad, Fabrizio Massi, Sam Ragland",
+      "Authors": "Maria Bergomi, Remon van Gaalen, Carmelo Arcidiacono, Luca Marafatto, Kalyan Radhakrishnan, Gabriele Umbriaco, Paolo Cerpelloni, Thomas M. Herbst, Marco Dima, Davide Greggio, Oleksandra Rebrysh, Silvio Di Rosa, Florian Briegel, Lars Mohr, Jacopo Farinato, Roberto Ragazzoni, Valentina Viotto, Simone Antoniucci, Gianluca Li Causi, Fernando Pedichini, Roberto Piazzesi, Alessio Caratti o Garatti, Al Conrad, Fabrizio Massi, Sam Ragland",
       "PaperNumber": "14149-450",
       "DateTimeLocationDataList": [
         {
@@ -978,7 +944,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Edvardas Vinerskas, Benoit Neichel, Angelie Alagao, Mathieu Motte, Vincent Chambouleyron, Cédric Taïssir Heritier, Thierry Fusco, Jean-François Sauvage, Romain Fetick, Jonathan Dray, Morgan Gray, Pierre Jouve",
+      "Authors": "Edvardas Vinerskas, Benoit Neichel, Angelie Alagao, Mathieu Motte, Vincent Chambouleyron, Cédric Taïssir Heritier, Thierry Fusco, Jean-François Sauvage, Romain Fetick, Jonathan Dray, Morgan Gray, Pierre Jouve, Jalo Nousiainen",
       "PaperNumber": "14150-206",
       "DateTimeLocationDataList": [
         {
@@ -1002,7 +968,7 @@
       "HTMLTitle": "",
       "Title": "PAPYRUS @ OHP: controlling the 2nd stage with model-based reinforcement learning",
       "Description": null,
-      "Abstract": "In this work, we demonstrate a successful on-sky implementation of a model-based reinforcement learning (MBRL) algorithm for the control of the PAPYRUS second stage adaptive optics system, which employs the state-of-the-art vector Zernike Wavefront Sensor. We demonstrate that the MBRL algorithm compensates for the temporal error and system misregistration. In addition, the MBRL algorithm successfully learns the non-linear nature of the vZWFS signal and achieves an inference time in the millisecond range, showing an overall improvement over traditional control methods. Hence, this work marks the next step in the control of adaptive optics systems for the purpose of high-contrast direct imaging of exoplanets.",
+      "Abstract": "In this work, we demonstrate a successful on-sky implementation combining a convolutional neural network (CNN) for nonlinear phase reconstruction with a model-based reinforcement learning (MBRL) algorithm for control of the PAPYRUS second-stage adaptive optics system OZIRIIS, which employs the state-of-the-art vector Zernike Wavefront Sensor. The CNN successfully learns the non-linear relationship between the vZWFS signal and the phase, extending the usable sensor range, while the MBRL algorithm compensates for the temporal error. Both algorithms achieve an inference time in the millisecond range, showing an overall improvement over traditional control methods. Hence, this work marks the next step in the control of adaptive optics systems for the purpose of high-contrast direct imaging of exoplanets.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/PAPYRUS--OHP--controlling-the-2nd-stage-with-model/14150-206",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1148,7 +1114,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Matias Marambio-Jimenez, Yosuke Minowa, Yoshito Ono, Shin Oya, Yusei Koyama, Masayuki Akiyama",
+      "Authors": "Matias Marambio-Jimenez, Yosuke Minowa, Yoshito Ono, Hajime Ogane, Shin Oya, Yusei Koyama, Masayuki Akiyama",
       "PaperNumber": "14150-208",
       "DateTimeLocationDataList": [
         {
@@ -1250,7 +1216,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Amir Ebadati Bazkiaei, Brent Miszalski, Jesse van de Sande, Nuria Lorente, Simon O'Toole, Kate Sheng",
+      "Authors": "Amir E. Bazkiaei, Brent Miszalski, Jesse van de Sande, Nuria P. F. Lorente, Simon O'Toole, Kate Sheng",
       "PaperNumber": "14155-104",
       "DateTimeLocationDataList": [
         {
@@ -1272,11 +1238,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "PERRY: A Human-in-the-Loop GUI for Precision Alignment of MUSE Data",
+      "Title": "PERRY: a human-in-the-Loop GUI for precision alignment of MUSE data",
       "Description": null,
       "Abstract": "The Multi Unit Spectroscopic Explorer (MUSE) on the Very Large Telescope produces vast and complex datasets. Misalignments between multiple observations can introduce artifacts that compromise data quality. To address this, we have developed PERRY, a Python-based Graphical User Interface (GUI) for the manual inspection and fine-tuning of MUSE image alignments. Integrated as a quality assurance step within the Pythonic AAO Reduction Environment (PARE), PERRY acts on the outputs of an automated alignment recipe. PERRY provides a suite of interactive tools, including the ability to \"blink\" between reference and aligned images, dynamic contour overlays, and real-time linear fitting plots. Users can interactively shift and rotate images with user-defined precision, save their adjustments, and continue with the PARE pipeline. We present the architecture of PERRY, demonstrate its key features, and discuss its role in ensuring data quality within a modern astronomical data reduction workflow.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/PERRY--A-Human-in-the-Loop-GUI-for-Precision/14155-104",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/PERRY--a-human-in-the-Loop-GUI-for-precision/14155-104",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1386,7 +1352,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Giacomo Cherchi, Fabrizio Cogato, Natalia Auricchio, Isabella Pagano, Gianalfredo Nicolini, Elisabetta Tommasi",
+      "Authors": "Giacomo Cherchi, Fabrizio Cogato, Natalia Auricchio, Isabella Pagano, Gianalfredo Nicolini, Elisabetta Tommasi, Flavia Calderone, Ann Baeke, Ricardo Bolt, Francesco Borsa, Daniele Brienza, Simonetta Chinellato, Fernando Conde García, Giacomo Dinuzzi, Holger Fischer, Pierre Franco, Nicolas Gorius, Nathalie Gorter, Aline Hermans, Joseph Huesler, Ilina Kondofersky, Lionel Lourit, Demetrio Magrin, Matteo Munari, Amaia Santiago Pe",
       "PaperNumber": "14152-79",
       "DateTimeLocationDataList": [
         {
@@ -1556,7 +1522,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Desirée Della Monica Ferreira, Alessandro Morello, David Blanquez, Denis Tcherniak, Søren Møller, Gabriel Tello, Guillermo Bravo Guinea",
+      "Authors": "Desirée Della Monica Ferreira, Alessandro Morello, David Blanquez, Denis Tcherniak, Søren Møller, Gabriel Tello, Guillermo Bravo Guinea, Søren Møller Pedersen",
       "PaperNumber": "14152-78",
       "DateTimeLocationDataList": [
         {
@@ -1580,7 +1546,7 @@
       "HTMLTitle": "",
       "Title": "Product and quality assurance strategies for space instrumentation development: from power electronics to structural qualification",
       "Description": null,
-      "Abstract": "This talk presents Product and Quality Assurance (PA/QA) activities at DTU Space for ESA missions LISA, ARIEL, and THESEUS. PA/QA ensures compliance with standards like ECSS and ISO 9001, reducing risks and guaranteeing mission success. For LISA PSM, the biggest challenge is the design of a custom DC/DC converter with related qualifications and tests. ARIEL activities verify CFRP bipods through material checks and structural tests. These examples show how PA/QA enables reliable, innovative space systems.",
+      "Abstract": "This paper will present the Product and Quality Assurance activities being implemented at DTU Space during the development of the LISA Power Supply Module and the ARIEL bipods structures. PA/QA processes are essential for ensuring mission reliability, traceability, quality and compliance with mission requirements and applicable standards such as ECSS, ISO 9001. The contribution presents how these procedures are applied to our contributions. For the LISA PSM, PA/QA activities focus on the development of the PSM, including parts screening and procurement, and qualification testing to ensure compliance under operational conditions over the mission lifetime. On the other hand, the role in the ARIEL mission relates to the mechanical integrity of bipods through the qualification of CFRP struts, supported by material characterization, process control, and structural verification. Together, these projects highlights how systematic PA/QA approaches are essential to mitigate technical risks.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Product-and-quality-assurance-strategies-for-space-instrumentation-development/14152-78",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Daniel Harbeck, Curtis McCully, Matthew Daily, Prerana Kottapali",
+      "PaperNumber": "14157-77",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "d0017a5d-04cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "d0017a5d-04cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Propagating random telegraph noise in Las Cumbres Observatory’s CMOS data",
+      "Description": null,
+      "Abstract": "At Las Cumbres Observatory we introduced CMOS-based imagers (QHY600 with Sony IMX455 sensors) as  the main cameras in our global network of ten 35-cm telescopes. The deployment of CMOS detectors in the small telescope network also serves as a pathfinder for a possible future. We report some of the first lessons learned from using CMOS cameras in a professional astronomy production environment. In particular, we focus on characterizing and treating random telegraph signal (RTS), an additional noise component in CMOS cameras. We have developed procedures to model RTS and then seed and propagate a simplified per-pixel noise model in our data processing pipeline BANZAI. We are exploring more advanced mitigation studies, such as using model such as using modeled multi-modal RTS distributions as a prior for maximum likelihood fitting when stacking images, which is capable of estimating a pixel’s true readout value with smaller samples than simple averaging.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Propagating-random-telegraph-noise-in-Las-Cumbres-Observatorys-CMOS-data/14157-77",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

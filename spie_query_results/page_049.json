@@ -26,109 +26,7 @@
   },
   "Items": [
     {
-      "Authors": "André J. van Es, Mark Waterson, Robert Haigh, Ivan Lloro, Randall Wayth, Lucio Tirone, Luca Stringhetti, Robert Laing, Alan Davis, Raunaq Bhushan, Pieter Benthem, Marco Caiazzo, Giulia Macario, Shinichiro Asayama, Jess Broderick, Maria Grazia Labate, Danny Price, Maciej Serylak, Riley Keel, Charlotte Sobey, Jimi Green, Ravi Subrahmanyan, Bartosz Idzkowski, Jader Monari, Gianni Bernardi, Pietro Bolli, Carolina Belli, Letizia Caito, Simone Chiarucci, Giovanni Comoretto, Paola Di Ninni, Andrea Mattana, Federico Perini, Giuseppe Pupillo, Marco Schiaffino, Monica Alderighi, Carlo Baffa, Sergio D'Angelo, Davide Fierro, Elisabeth Giani, Giovanni Naldi, Marco Poloni, Simone Rusticelli, Francesco Schiliro, Federica Caputo, Tom Booler, David Davidson, Dave Minchin, Andy McPhail, Maria Kovaleva, Marcin Sokolowski, Jishnu N. Thekkeppattu, Steven Tingay, Daniel Ung, Angela Teale, Kris Zarb Adami, Raphael Thenevin, Aniket Hendre, Jan Geralt Bij de Vaate, Riccardo Chiello, Marchel Gerbers, Jacopo Nanni, Peter Hall, Alessio Magro, Robert Braun, Giovanni Tartarini, Giuseppe Virone, Georgios Kyriakou",
-      "PaperNumber": "14153-54",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 16:10 - 16:30 CEST | Room B3-M6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "7943f59d-54cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "7943f59d-54cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The road to SKA-Low from a station prototype to a system prototype: the journey to SKA-Low AA0.5",
-      "Description": null,
-      "Abstract": "This presentation presents a comprehensive overview of the prototyping and verification activities that laid the foundation for the construction of the SKA-Low telescope. It traces the evolution from early experimental platforms (AAVS0--3) culminating in the deployment of the first four fully integrated SKA-Low stations (AA0.5). These stations, delivered as part of the AA0.5 milestone, bring together all essential subsystems of the telescope — from antennas and digitisation to signal processing and control — demonstrating end-to-end functionality at scale. The paper highlights key technical achievements, lessons learned, and the critical role of prototyping in de-risking design decisions ahead of full array construction.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-road-to-SKA-Low-from-a-station-prototype-to/14153-54",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 16:10 - 16:30 CEST | Room B3-M6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Zi-hang Zhu, Ze-yu Zhu, Zhi-hao Cao, Feng Li, Jian Wang",
-      "PaperNumber": "14151-50",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 16:10 - 16:30 CEST | Room B2-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "d6c62621-a9c7-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "d6c62621-a9c7-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "WFST-ChatOps: a domain-adapted qa chatbot for the wide field survey telescope",
-      "Description": null,
-      "Abstract": "Artificial intelligence and large language models are reshaping how humans access knowledge, collaborate on complex projects, and support critical operations. For large scientific facilities, AI assistants can help operators understand system design and obtain guidance during routine procedures and incidents.The Mozi Wide Field Survey Telescope (WFST) is a wide-field time-domain survey facility with a sophisticated hardware–software stack, creating a strong need for tools that support observation operations with reliable domain knowledge. In this work we construct a specialized question–answer dataset covering scenario-based queries on project explanations and day-to-day operations, and we use DeepSeek-R1-32B model via parameter-efficient fine-tuning to obtain WFST-ChatOps（Chat-Operations）, a domain-oriented QA chatbot that provides natural-language access to WFST project information, design reports, and operation manuals.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/WFST-ChatOps--a-domain-adapted-qa-chatbot-for-the/14151-50",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 16:10 - 16:30 CEST | Room B2-M2",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "David Murphy, Vincent Tatischeff, Philippe Laurent, Mark Pearce, Lorraine Hanlon, Aline Meuris, Prerna Baranwal, Christophe Beigbeder, Derek Bennet, Charles Boreux, Arnaud Claret, Nicolas de Séréville, Nicolas Dosme, Eric Doumayrou, Nathan Franel, Mariya Georgieva, Sally Hankache, Jimmy Jeglot, Mózsi Kiss, Beng-Yun Ky, Vincent Lafage, Christine Le Galliard, Joseph Mangan, Caimin McKenna, Jean Peyré, Arjun Poitaya, Marin Prieur, Diana Renaud, Arnaud Saussac, Aman Shetty, Alexey Uliyanov, Colin Wade, Phil Webster, Varun Varun, Camille Pirat",
-      "PaperNumber": "14146-91",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 16:20 - 16:40 CEST | Room B4-M1",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "9636705a-6fd0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "9636705a-6fd0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "COMCUBE-S: a CubeSat swarm for GRB polarimetry and localisation",
-      "Description": null,
-      "Abstract": "COMCUBE-S is a proposed CubeSat swarm mission designed to provide polarisation measurements of Gamma-Ray Burst prompt emission as well as all-sky monitoring for high-energy time domain astronomy, with rapid alert notifications in response to high energy transients.    The mission consists of 28 16U CubeSats. Each satellite carries an advanced miniaturised Compton telescope allowing COMCUBE-S to make temporal, spectral, and polarimetric measurements of gamma-rays in the tens of keV to a few MeV range    The swarm satellites will be equally distributed along an equatorial orbit, forming a closed ring of intersatellite links. Satellites in the swarm are able to identify high-energy transients, relay data to the ground and distribute source locations to observatories worldwide for follow-up. COMCUBE-S will localise 160 GRBs per year with positions distributed within 120 s.    The project has completed a Phase A study with ESA and aims to launch a two-satellite in-orbit demonstarion by 2030.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/COMCUBE-S--a-CubeSat-swarm-for-GRB-polarimetry-and/14146-91",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 16:20 - 16:40 CEST | Room B4-M1",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Miska Le Louarn, Julio A. Castro-Almazán, Donaji Esparza-Arredondo, Maria Begoña García-Lorenzo, Johann Kolb, Angel C. Otarola, Jerome Paufique, Camila de Sa Freitas",
+      "Authors": "Miska Le Louarn, Jose Acosta-Pulido, Julio A. Castro-Almazán, Donaji Esparza-Arredondo, Maria Begoña García-Lorenzo, Johann Kolb, Angel C. Otarola, Jerome Paufique, Camila de Sa Freitas",
       "PaperNumber": "14150-86",
       "DateTimeLocationDataList": [
         {
@@ -152,7 +50,7 @@
       "HTMLTitle": "",
       "Title": "Comparing turbulence outer scale measurements on-sky between LGS-WFS data and MUSE image-cubes at the VLT",
       "Description": null,
-      "Abstract": "The Outer scale of turbulence (L0) will play a significant role in the performance of Adaptive Optics (AO) instruments at the ELT, especially those based on laser guide stars (LGS), through the distribution of turbulent power in the low order modes. It is therefore important to understand this parameter.  In this talk, we will present results from a measurement campaign at the Very Large Telescope (VLT) at Paranal Observatory to measure simultaneously the outer scale through two independent methods. The first method is based on LGS wavefront sensor measurements, using the AO facility (AOF). The second method relies on the variation of image quality (IQ) with wavelength at the focal plane of the MUSE Integral Field Spectrograph (IFS) in its Wide Field Mode (MUSE-WFM).  We compare the L0 values obtained through the two methods, using different AO modes. With weak TT correction we find a very good correlation between the two methods, giving confidence in their accuracy.",
+      "Abstract": "The Outer scale of turbulence (L0) will play a significant role in the performance of Adaptive Optics (AO) instruments at the ELT, especially those based on laser guide stars (LGS), through the distribution of turbulent power in the low order modes. It is therefore important to understand this parameter. In this contribution, we present results from a measurement campaign at the Very Large Telescope (VLT) at Paranal Observatory to measure simultaneously the outer scale through two independent methods. The first method is based on LGS wavefront sensor measurements, using the AO facility (AOF). The second method relies on the variation of image quality (IQ) with wavelength at the focal plane of the MUSE Integral Field Spectrograph (IFS) in its Wide Field Mode (MUSE-WFM). We compare the L0 values obtained through the two methods, using different AO modes. With weak Tip-Tilt (TT) correction we find a good correlation between the two methods, giving confidence in their accuracy.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Comparing-turbulence-outer-scale-measurements-on-sky-between-LGS-WFS/14150-86",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1148,7 +1046,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Colin Cunningham, Carolyn Atkins, Gilles Bailet, Beth Biller, Mark McCaughrean, Stephen Todd",
+      "Authors": "Colin Cunningham, Carolyn Atkins, Beth Biller, Mark McCaughrean, Stephen Todd",
       "PaperNumber": "14145-298",
       "DateTimeLocationDataList": [
         {
@@ -1408,9 +1306,9 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "A modular dynamics simulation framework for the pre-assembly validation of airborne telescope control systems",
+      "Title": "A modular dynamics simulation framework for the pre-assembly validation of balloon-borne telescope control systems",
       "Description": null,
-      "Abstract": "Modern high-altitude astronomical payloads integrate increasingly lightweight structures and complex control systems, making early-stage performance prediction essential for informed design decisions. We present a fully modular, real-time simulation framework developed to evaluate payload behavior before hardware integration, and to provide a consistent system-level environment for mechanical design, hardware selection, and control-strategy development. The simulator is organized around a configurable architecture in which every payload is described by a specification of bodies, joints, actuators, and sensors, enabling alterations to system topology with little overhead. We demonstrate this framework through the validation of the Gigapixel Balloon-borne Imaging Telescope (GigaBIT) flight software in a representative closed-loop dynamics simulation. This approach supports early validation of design concepts, reduces integration risk, and offers a path toward more robust instrumentation.",
+      "Abstract": "Modern high-altitude astronomical payloads integrate increasingly lightweight structures and complex control systems, making early-stage performance prediction essential for informed design decisions. We present a fully modular, real-time simulation framework developed to test flight software and evaluate payload behaviour before hardware integration, providing a consistent system-level environment for mechanical design, hardware selection, and control-strategy development. The simulator is organized around a configurable architecture in which every payload is specified by bodies, joints, actuators, and sensors, enabling topology changes with little overhead. Development of the framework will continue alongside the Gigapixel Balloon-borne Imaging Telescope (GigaBIT) program, validating its flight software through closed-loop dynamics simulations. This approach supports early validation of design concepts, reduces integration risk, and offers a path toward more robust instrumentation.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/A-modular-dynamics-simulation-framework-for-the-pre-assembly-validation/14149-432",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1454,7 +1352,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Alexander Yavorsky, Barak Zackay",
+      "Authors": "Alexander Yavorsky, Barak Zackay, Joshua Zak",
       "PaperNumber": "14148-142",
       "DateTimeLocationDataList": [
         {
@@ -1714,11 +1612,113 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "A Web-Based Exposure Time Calculator for the Aspera Far-Ultraviolet Mission",
+      "Title": "A web-based exposure time calculator for the Aspera far-ultraviolet mission",
       "Description": null,
       "Abstract": "We present a web-based exposure time calculator (ETC) developed for the Aspera far-ultraviolet SmallSat mission. Aspera targets extremely faint diffuse O VI emission near 103 to 104 nm, with surface brightness on the order of 1E-18 erg s^-1 cm^-2 arcsec^-2. Accurate S/N modeling is essential for evaluating instrument sensitivity and planning observations. The ETC allows users to compute either the exposure time needed for a desired S/N or the expected S/N for a given integration time. Users can modify spatial binning to explore detectability limits for diffuse emission. The tool implements Aspera’s throughput, detector characteristics, and background estimates in a modular framework and is publicly accessible. This presentation highlights the fundamentals of Aspera ETC framework and its application to other ongoing and future ground and space telescopes.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/A-Web-Based-Exposure-Time-Calculator-for-the-Aspera-Far/14155-225",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/A-web-based-exposure-time-calculator-for-the-Aspera-far/14155-225",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Kevin J. Ludwick",
+      "PaperNumber": "14145-296",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "82b496f5-71d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "82b496f5-71d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Accurately simulating gain and clock-induced charge production in the EMCCD gain register",
+      "Description": null,
+      "Abstract": "An EMCCD will be used for faint companion detection in the Roman Telescope’s coronograph instrument. As the EM gain increases, the chance of clock-induced charge (CIC) production in the gain register increases, which affects the intended multiplication of charge. I have improved the EMCCD detector simulator used for the Roman Telescope, emccd_detect, so that it accounts for this effect. I demonstrate through maximum likelihood estimation that EMCCD data conform better to the modified probability distribution which accounts for this effect. The use of the modified distribution would in principle improve EMCCD calibration and the accuracy of signal extraction from a frame. I discuss the implementation of this as well as other gain phenomena in emccd_detect and demonstrate the enhanced accuracy of the simulator.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Accurately-simulating-gain-and-clock-induced-charge-production-in-the/14145-296",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Matteo Tintori, Daniele Gallieni, Samson Hansraj Sambath Kumar, Roberto Biasi, Mauro Manetti, Gerald Angerer, Vittorio Chiavegato",
+      "PaperNumber": "14150-346",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "9dd8224b-dff5-f011-a9af-00505691c5e1---crmrecord",
+      "GUID": "9dd8224b-dff5-f011-a9af-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Adaptive optics for the European Solar Telescope: test results of the adaptive secondary prototype",
+      "Description": null,
+      "Abstract": "The AdOptica Consortium has developed a novel DM prototype that combines high actuator density with low power dissipation, offering a significant technological step forward for solar AO applications. The prototype has a 200 mm aperture with 90 actuators, featuring a reduced pitch that allows finer spatial correction across the wavefront, essential for managing fast-varying daytime turbulence. While improving scalability and energy efficiency, the prototype inherits all the main characteristics of AdOptica’s baseline technology, such large strokes in tip, tilt, and piston, high static accuracy, and the capability to maintain performance even with several inactive actuators—ensuring system robustness and flexibility. It is particularly suited for daytime turbulence compensation with field stabilisation and for use as a post-focal high-order deformable mirror in multi-conjugate AO systems. The paper presents the test results and the wayforward for the EST adaptive secondary final design.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Adaptive-optics-for-the-European-Solar-Telescope--test-results/14150-346",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "William J. Marshall, Megan M. Dubay, Thomas Procter, Hank Corbett, Nicholas M. Law, Alan Vasquez Soto, Lawrence Machia, James A. Dockery, Jonathan Carney, Shannon K. Fitton, Donovan G. Schlekat, Jonah L. Aponte, Alex Bucheli, Thomas Cowart, Collin H. Grimes, Katie M. Fasbender, Amy Sasha Ishiguro, Michael Ronco, Glenn Walters",
+      "PaperNumber": "14147-206",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "e6750d08-97d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "e6750d08-97d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "ADDem: the Argus deep-field demonstrator",
+      "Description": null,
+      "Abstract": "This presentation describes the development, commissioning, and autonomous operation of the Argus Deep-field Demonstrator (ADDem), a fully-robotic prototype system designed to characterize the upcoming Argus Array’s ability to co-add frames to achieve deep imaging. The system features six co-pointed 20-cm telescopes, each equipped with a 61-MPix Sony IMX455 CMOS detector, imaging a 9.4 square degree field of view at one minute cadence with 1.4”/pixel sampling. The dataset generated by this instrument over the past year of operation has accelerated Argus pipeline development and enabled scientific projects involving bright transient follow-up and high-cadence solar system object observation.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/ADDem-the-Argus-deep-field-demonstrator/14147-206",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1727,10 +1727,10 @@
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

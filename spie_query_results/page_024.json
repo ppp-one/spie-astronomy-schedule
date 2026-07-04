@@ -196,7 +196,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Christian J. Killow, Robert G. Bell, Andrew Boyd, James Copley, James N. Monks, Manish R. Patel, Ryan Swindell, Gavin Wedlock, Jonathan Williams, Jon P Mason",
+      "Authors": "Christian J. Killow, Robert G. Bell, Andrew Boyd, James Copley, James N. Monks, Manish R. Patel, Ryan Swindell, Gavin Wedlock, Jonathan Williams, Jon P. Mason",
       "PaperNumber": "14154-46",
       "DateTimeLocationDataList": [
         {
@@ -458,7 +458,7 @@
       "HTMLTitle": "",
       "Title": "High-speed, low-noise, multi-megapixel CCDs for next generation x-ray observatories",
       "Description": null,
-      "Abstract": "Next generation X-ray observatories require fast, low-noise, low-power, multi-megapixel imaging spectrometers. To meet these demands, the X-ray Astronomy and Observational Cosmology (XOC) Group at Stanford, in partnership with the MIT Kavli Institute and MIT Lincoln Laboratory (MIT-LL), is developing multi-channel X-ray CCDs and fast readout architectures. We report the energy resolution and noise performance achieved with a full-scale (1440x1440-pixel), 16-channel, front-illuminated MIT-LL charge-coupled device (CCD) detector developed for the Advanced X-ray Imaging Satellite (AXIS) concept, the CCID-100, read out using two Multi-Channel Readout Chip (MCRC) ASICs in the new Stanford CCID-100 test setup. We describe an automated method for bias optimization on each CCD channel, and integrated debugging features of the front-end ASIC and readout system. The demonstrated performance confirms that these systems can meet the speed and noise requirements of future strategic X-ray missions.",
+      "Abstract": "Next generation X-ray observatories require fast, low-noise, low-power, multi-megapixel imaging spectrometers. To meet these demands, the X-ray Astronomy and Observational Cosmology (XOC) Group at Stanford, in partnership with the MIT Kavli Institute and MIT Lincoln Laboratory (MIT-LL), is developing multi-channel X-ray charge-coupled devices (CCDs) and fast readout architectures. We report the energy resolution and noise performance achieved with a full-scale (1440x1440-pixel), 16-channel, front-illuminated MIT-LL CCD detector developed for the Advanced X-ray Imaging Satellite (AXIS) concept, the CCID-100, read out using two Multi-Channel Readout Chip (MCRC) ASICs in the new Stanford CCID-100 test setup. We describe an automated method for bias optimization on each CCD channel, and integrated debugging features of the front-end ASIC and readout system. The demonstrated performance confirms that these systems can meet the speed and noise requirements of future strategic X-ray missions.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/High-speed-low-noise-multi-megapixel-CCDs-for-next-generation/14157-40",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -570,7 +570,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Abigail Y. Pan, Declan O'Neill, Kevan Donlon, Peter Orel, Sven Herrmann, Steven W. Allen, Marshall W. Bautz, Tanmoy Chattopadhyay, Michael Cooper, Catherine E. Grant, Jill Juneau, Chris Leitz, Beverly LaMarr, Eric D. Miller, Glenn Morris, Tonya L. Peshel, Artem Poliszczuk, Gregory Prigozhin, Ilya Prigozhin, Keith Warner, Haley R. Stueber",
+      "Authors": "Abigail Y. Pan, Declan O'Neill, Kevan Donlon, Peter Orel, Sven Herrmann, Steven W. Allen, Marshall W. Bautz, Tanmoy Chattopadhyay, Michael Cooper, Catherine E. Grant, Jill Juneau, Chris Leitz, Beverly LaMarr, Eric D. Miller, Glenn Morris, Tonya L. Peshel, Artem Poliszczuk, Gregory Prigozhin, Ilya Prigozhin, Haley R. Stueber, Keith Warner",
       "PaperNumber": "14157-41",
       "DateTimeLocationDataList": [
         {
@@ -1158,7 +1158,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -1727,10 +1727,10 @@
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

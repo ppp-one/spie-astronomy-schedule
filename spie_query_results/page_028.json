@@ -26,108 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Christophe Giordano, Aziz Ziad, Alessandro Aresta, Eric Aristidi, Christophe Bailet, Chiara Bertolin, Marcel Carbillet, Yan Caujolle, Stefano Cavazzani, Clémence Edouard, Yenny Gonzalez-Ramos, Abdanour Irbah, Arnaud Le Kernec, Olivier Liandrat, Nicolas Pascal, Alvaro-Jose Pascual-Garcia, Jérôme Riedi, Nicolas Schmutz, Stéphane Victori, Mary Joe Medlej",
-      "PaperNumber": "14150-248",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "168dba5d-2bd0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "168dba5d-2bd0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "ANAtOLIA: from first light to multi-site atmospheric characterization",
-      "Description": null,
-      "Abstract": "Atmospheric turbulence, clouds, and aerosols limit astronomical observations and the availability of optical ground stations. The ANAtOLIA project, funded by ESA, was developed to address these limitations by providing an autonomous atmospheric monitoring station. The ANAtOLIA station combines three complementary instruments: the GMT turbulence monitor, the Sky Insight all-sky camera for clouds measurements, and the Cimel CE318-T photometer for aerosols characterization. Since 2023, four stations have been deployed at four European sites (Calern, Cebreros, Catania, and Sintra) to perform a 2-year measurement campaign. This paper presents an overview of ANAtOLIA station, its operation, and the statistical results obtained across the four sites, including inter-comparisons in terms of turbulence, clouds and aerosols. The ANAtOLIA station demonstrated its efficiency as a high-performance platform for site qualification and the optimization of optical links and astronomical observations.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/ANAtOLIA-from-first-light-to-multi-site-atmospheric-characterization/14150-248",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Lorenzo Cabona, Marcello Scalera, Alessio Zanutta, Matteo De Magistris, Igor Coretti, Chiara Selmi, Matteo Aliverti, Edoardo Redaelli, Ernesto Oliva, Paolo Di Marcantonio, Alessandro Marconi",
-      "PaperNumber": "14152-121",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "b9065e5f-2bd0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "b9065e5f-2bd0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "ANDES, the high resolution spectrograph for the ELT: MBSE-based interface management",
-      "Description": null,
-      "Abstract": "Clear identification and management of interfaces are key to the success of complex systems like ANDES Spectrograph. This contribution presents the methodological approach adopted by the ANDES System Team to ensure technical consistency, completeness, and traceability throughout the system development lifecycle. Interface management encompasses both internal and external interfaces. The Model-Based Interface Management approach implemented for ANDES ensures robust configuration control, full synchronization between interface definitions and the system architecture, and complete bidirectional traceability across all levels of the system hierarchy. Interfaces are represented within a structured hierarchy of Interfaces, Interface Channels, and Interface Ends, capturing the logical and physical interaction points between subsystems. The ANDES methodology shows how an MBSE-driven interface framework improves consistency, traceability, and verification in complex instrument development.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/ANDES-the-high-resolution-spectrograph-for-the-ELT--MBSE/14152-121",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Chiara Selmi, Alessio Zanutta, Marcello Agostino Scalera, Edoardo Maria Alberto Redaelli, Giorgio Pariani, Matteo Aliverti, Igor Coretti, Marco Landoni, Marco Riva, Ernesto Oliva, Lorenzo Cabona, Enrico Giro, Paolo Di Marcantonio, Alessandro Marconi",
-      "PaperNumber": "14152-106",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "29197b7e-44cc-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "29197b7e-44cc-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "ANDES, the high resolution spectrograph for the ELT: optimization of system requirements management in view of the preliminary design review",
-      "Description": null,
-      "Abstract": "This work outlines the optimized System Requirements Management methodology implemented for the ANDES Project as it approaches its Preliminary Design Review (PDR) in 2026. Requirements are formally tracked and maintained using Cameo Systems Modeler, applying an MBSE framework to guarantee structural integrity and robust design element interconnection. Dynamic collaboration with subsystem teams is facilitated through.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/ANDES-the-high-resolution-spectrograph-for-the-ELT--optimization/14152-106",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Vinooja Thurairethinam, David Lee, James Stevenson, Étienne Artigau, Frédérique Baron, Ciaran Breen, Bella Boyd, Denis Brousseau, David F. Buscher, Neil J. Cook, René Doyon, Martin Fisher, Bradley Frank, Vincent Geers, Rory Gillespie, Oscar Gonzalez, Éamonn J. Harvey, Wei Li, Lison Malo, Roberto Maiolino, David Montgomery, Alan O’Brien, Ernesto Oliva, Jonathan St-Antoine, Jay Stephan, Simon Thibault, Philippe Vallée, Chris Waring, Sandi Wilson, Junyi Zhou, Paolo Di Marcantonio",
       "PaperNumber": "14149-267",
       "DateTimeLocationDataList": [
@@ -152,7 +50,7 @@
       "HTMLTitle": "",
       "Title": "ANDES, the high-resolution spectrograph for the ELT: design and performance analysis of the YJH spectrograph",
       "Description": null,
-      "Abstract": "The ArmazoNes high Dispersion Echelle Spectrograph (ANDES) is a powerful second-generation high-resolution spectroscopic instrument for the Extremely Large Telescope (ELT). The UBV, RIZ, and YJH modules comprise the three fibre-fed spectrographs of the ANDES baseline design and will offer a minimum continuous wavelength coverage of 0.4-1.8µm, with a goal of being extended to 0.35-2.4µm. Coupled with a spectral resolution of ~100,000, ANDES must deliver the required wavelength calibration stability of 1 m/s over 24 hours, with a goal of 0.02 m/s across 10 years.   These requirements establish the framework for the infrared module of ANDES, the YJH Spectrograph, leading to what will likely be the largest cryogenic, ultra-stable, high-resolution spectrograph ever built. We present the current design and performance analysis of the ANDES YJH Spectrograph, outlining the engineering challenges encountered alongside the corresponding strategies adopted to navigate them.",
+      "Abstract": "The ArmazoNes high Dispersion Echelle Spectrograph (ANDES) is a powerful second-generation high-resolution spectroscopic instrument for the Extremely Large Telescope (ELT). The (U)BV, RIZ, and YJH modules comprise the three fibre-fed spectrographs of the ANDES baseline design and will offer a minimum continuous wavelength coverage of 0.4-1.8µm, with a goal of being extended to 0.35-2.4µm. Coupled with a spectral resolution of ~100,000, ANDES must deliver the required wavelength calibration stability of 1 m/s over 24 hours, with a goal of 0.02 m/s across 10 years. These requirements establish the framework for the infrared module of ANDES, the YJH Spectrograph, leading to what will likely be the largest cryogenic, ultra-stable, high-resolution spectrograph ever built. We present the current design and performance analysis of the ANDES YJH Spectrograph, outlining the engineering challenges encountered alongside the corresponding strategies adopted to navigate them.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/ANDES-the-high-resolution-spectrograph-for-the-ELT--design/14149-267",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -196,7 +94,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Arto S. Järvinen, Bruno Chazelas, Daniel P. Sablowski, Michael Weber, Tobias Schmidt",
+      "Authors": "Arto S. Järvinen, Bruno Chazelas, Michael Weber, Daniel P. Sablowski, Tobias Schmidt",
       "PaperNumber": "14149-285",
       "DateTimeLocationDataList": [
         {
@@ -366,7 +264,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "A. Khanbekyan, A. Tozzi, A. Brucalassi, D. Savio, A. Marconi, M. Rainer, E. Oliva",
+      "Authors": "A. Khanbekyan, A. Tozzi, A. Brucalassi, D. Savio, A. Turchi, A. Marconi, M. Rainer, E. Oliva",
       "PaperNumber": "14149-269",
       "DateTimeLocationDataList": [
         {
@@ -660,7 +558,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Application of gold release layers for the fabrication of high-angular resolution, replicated full-shell X-ray optics",
+      "Title": "Application of gold release layers for the fabrication of high-angular resolution, replicated full-shell x-ray optics",
       "Description": null,
       "Abstract": "Achieving sub-arcsecond angular resolution with NiCo replicated full-shell optics necessitates improvements to the fabrication process, most notably release from the optical mandrel. Traditionally, NASA Marshall Space Flight Center (MSFC) has used a passivation layer to facilitate this step, however, as resolution requirements become tighter, further optimization is required. Thin gold films deposited onto the mandrel before plating have shown promise in reducing errors through initial tests performed on both flat coupons and a small 62mm diameter mandrel. A second, more optically precise mandrel is used in this work to further validate these results by fabricating two shells, one with an optimized Au release layer, and one with the passivation layer. X-ray tests performed at MSFC’s 100m beamline are used to compare performance of the two full-shell optics, further quantifying the Au release layer’s effect on full-shell optical performance.",
       "ImagePath": null,
@@ -842,6 +740,40 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Miguel Santos, Ana F. Sequeira, Carlos M. Correia",
+      "PaperNumber": "14150-221",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "ec15355e-7cd0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "ec15355e-7cd0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Assessing Reinforcement Learning in XAO Control for PCS",
+      "Description": null,
+      "Abstract": "The European Extremely Large Telescope (E-ELT) will rely on the Planetary Camera and Spectrograph (PCS) to detect and study exoplanets, demanding an exceptionally fast and precise extreme adaptive optics (XAO) system. This work presents a machine-learning approach designed to ease these real-time control requirements of the PCS.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Assessing-Reinforcement-Learning-in-XAO-Control-for-PCS/14150-221",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Luís Sousa, Carlos Correia, Paulo Garcia",
       "PaperNumber": "14150-213",
       "DateTimeLocationDataList": [
@@ -869,6 +801,40 @@
       "Abstract": "METIS enables L’-band observations of red objects in stellar clusters and the Galactic Centre, but realistic astrometric and photometric error budgets are lacking. Using a METIS consortium simulation pipeline, ScopeSim, we generated images including field-varying AO PSFs, detector effects, and instrumental characteristics. We apply StarFinder2 to perform advanced source extraction and deblending while accounting for field-dependent variations. Initial tests with SExtractor revealed astrometric errors and a 150 μas precision limit. Starfinder2 is expected to improve these results and provide a more reliable error budget for METIS L’-band imaging.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Assessing-the-astrometric-and-photometric-performance-of-Starfinder2-in-ELT/14150-213",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Seery Chen, Deborah Lokhorst, Imad Pasha, William Bowman, Steven Janssens, Carter Rhea, Roberto Abraham, Pieter van Dokkum",
+      "PaperNumber": "14157-116",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "8ecff121-9dd0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "8ecff121-9dd0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Assessment of CMOS Detectors for the MOTHRA 1140-lens Array",
+      "Description": null,
+      "Abstract": "A new telephoto array based on the design of the 48-lens broadband Dragonfly Telephoto Array and the 120-lens  Narrowband Dragonfly Spectral Line Mapper is currently being constructed, with major hardware upgrades and  an order of magnitude increase in lens count. These hardware upgrades will greatly improve observing efficiency,  making it feasible to reach the surface-brightness depths required to directly image the Circumgalactic Medium  and Intergalactic Medium in emission. As part of this upgrade, we take advantage of recent improvements in  CMOS detector technology, and use Atik APX26 and APX60 cameras with Sony IMX571 and IMX455 detectors.  Here, we evaluate the read noise, fixed pattern noise, dark current, bias stability, and performance at varying  gain settings. We compare these measurements with the performance of past cameras used on the Dragonfly  arrays, specifically in the context of low surface brightness imaging with telescope arrays.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Assessment-of-CMOS-Detectors-for-the-MOTHRA-1140-lens-Array/14157-116",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -910,7 +876,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Danièl N. Groenewald, Encarni Romero Colmenero, Rosalind Skelton, Alexei Kniazev, Anja Schroeder, Antoine Mahoro, Austun Louw, Christian Hettlage, Enrico Kotze, Lee Townsend, Lisa Crause, Moses Mogotsi, Nhlavutelo Macebele, Phelokazi Dube, Rudi Kuhn, Veronica van Wyk",
+      "Authors": "Danièl Groenewald, Encarni Romero Colmenero, Rosalind Skelton, Alexei Kniazev, Anja Schroeder, Antoine Mahoro, Austun Louw, Christian Hettlage, Enrico Kotze, Lee Townsend, Lisa Crause, Moses Mogotsi, Nhlavutelo Macebele, Phelokazi Dube, Rudi Kuhn, Veronica van Wyk",
       "PaperNumber": "14151-55",
       "DateTimeLocationDataList": [
         {
@@ -932,11 +898,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Astronomy Operations of the Southern African Large Telescope (SALT): Performance, Upgrades, and Scientific Output",
+      "Title": "Astronomy operations of the Southern African Large Telescope (SALT): performance, upgrades, and scientific output",
       "Description": null,
       "Abstract": "SALT is a 10-m class optical telescope located in Sutherland, South Africa. It is owned by an international consortium and operated in fully queue-scheduled mode by the South African Astronomical Observatory, which also manages several other national facilities.    In this paper, we present an updated overview of SALT’s performance, including key metrics such as completion rates, operational efficiency, and scientific output. We also discuss recent strategic developments and instrumentation updates implemented to further enhance the observatory’s performance and scientific impact.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Astronomy-Operations-of-the-Southern-African-Large-Telescope-SALT/14151-55",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Astronomy-operations-of-the-Southern-African-Large-Telescope-SALT/14151-55",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -978,7 +944,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Patricia Van de Walle Suárez, Gilles Orban de Xivry, Olivier Absil, Valentin Christiaens, J. Markus Bonse, Robert J. De Rosa",
+      "Authors": "Patricia Van de Walle Suárez, Olivier Absil, Gilles Orban de Xivry, J. Markus Bonse, Robert De Rosa, Valentin Christiaens",
       "PaperNumber": "14150-216",
       "DateTimeLocationDataList": [
         {
@@ -1114,6 +1080,74 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Elisabetta Baracchini, G. Dho, D. Fiorina, S. Piacentini, E. Costa, F. Muleri, P. Soffitta",
+      "PaperNumber": "14157-112",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "32e301c6-74d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "32e301c6-74d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Background simulations for future x-ray polarimetry missions",
+      "Description": null,
+      "Abstract": "We will present the preliminary results of a unified simulation campaign aimed at assessing the performance and physics reach of next-generation polarimetric missions. To this end, we studied both an optics-based configuration inspired by the EXPO mission, building on the legacy inaugurated by IXPE, and the newly developed X-POT optical-TPC concept, recently established as a competitive wide-field, collimated hard X-ray polarimeter. Using a Monte Carlo framework validated on IXPE data, we model representative signal and background conditions for each design, evaluating their expected polarimetric response in representative astrophysical scenarios. This joint simulation effort outlines a coherent strategy for future missions combining large-area collimated detectors with high-resolution optics, and establishes a quantitative foundation for optimizing instrument design and defining key science cases.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Background-simulations-for-future-x-ray-polarimetrymissions/14157-112",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Brodi Elwood, P. A. R. Ade, Zeeshan Ahmed, Mandana Amiri, Denis Barkats, Ritoban Basu Thakur, Colin A. Bischoff, Dominic Beck, James J. Bock, Hans Boenish, Victor Buza, Brianna Cantrall, James R. Cheshire, Jake Connors, James Cornelison, Michael Crumrine, Ari Jozef Cukierman, Edward Denison, Lionel Duband, Michael Echter, Miranda Eiben, Sofia Fatigoni, Jeffrey P. Filippini, Antonio Fortes, Min Gao, Christos Giannakopoulos, Neil Goeckner-Wald, David C. Goldfinger, Stephen Gratton, James A. Grayson, Annsley Greathouse, Paul K. Grimes, Grantland Hall, George Halal, Mark Halpern, Emma Hand, Sam A. Harrison, Shawn Henderson, Thuong Hoang, Johannes Hubmayr, Howard Hui, Kent D. Irwin, Jae Hwan Kang, Kirit S. Karkare, Sinan Kefeli, J. M. Kovac, Chao-Lin Kuo, Kekoa Lasko, King Lau, Margaret Lautzenhiser, Amber Lennox, Tongtian Liu, Scott Mackey, Nolan Maher, Koko G. Megerian, Lorenzo Minutolo, Lorenzo Moncelsi, Yuka Nakato, H. T. Nguyen, Roger O'Brient, Scott Paine, Anika Patel, Matthew A. Petroff, Anna R. Polish, Thomas Prouvé, Clement Pryke, Carl D. Reintsema, Steffen Richter, Thibault Romand, Maria Salatino, Alessandro Schillaci, Benjamin Schmitt, Robert Schwarz, Chris D. Sheehy, Baibhav Singari, Ahmed Soliman, Tyler St. Germaine, Aaron Steiger, Bryan Steinbach, Rashmi Sudiwala, Grant Teply, Keith L. Thompson, Carole Tucker, Anthony D. Turner, Clara Vergès, Abigail Vieregg, Albert Wandui, Alexis C. Weber, Justin Willmert, Chin Lin Wong, Wai Ling K. Wu, Hung-I Yang, Cyndia Yu, Lingzhen Zeng, Cheng Zhang, Silvia Zhang",
+      "PaperNumber": "14156-82",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "91229c2c-cccf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "91229c2c-cccf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "Beam systematics and residual T&rarr;P leakage in the BICEP/Keck telescopes",
+      "Title": "Beam systematics and residual TP leakage in the BICEP/Keck telescopes",
+      "Description": null,
+      "Abstract": "As CMB polarization experiments—such as BICEP3, BICEP Array (BA), and future BICEP experiments—achieve ever-deeper polarization maps in search of primordial B-modes from inflation, constraining instrumental systematics below statistical uncertainties becomes increasingly challenging. Since the BICEP telescopes are pair-differencing experiments, differential beam response leads to T-to-P leakage, introducing potential systematic bias on the inferred tensor-to-scalar ratio r.  The lowest-order beam-mismatch modes are mitigated through deprojection, though residual undeprojected modes remain. To quantify these residuals, we perform comprehensive in-situ far-field beam measurements of the BICEP receivers. Using beam measurements from BICEP3 (95 GHz) taken in 2016-2019 and 2023; BA1-30/40 in 2020, 2023, and 2024; and BA2-150 in 2023 and 2024, we present analyses of differential beam response and assess the impact of undeprojected residuals on estimates of r for the BK24 data release.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Beam-systematics-and-residual-TP-leakage-in-the-BICEP-Keck/14156-82",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Benjamin N. Hauptmann, Javier Rico, Giulio Lucchetta, Keerthana R. Lathika, Chiara Perrina, Philipp Azzarello, Juan Boix, David Gascón, Kimberly Keyser",
       "PaperNumber": "14146-238",
       "DateTimeLocationDataList": [
@@ -1148,40 +1182,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Ranjani Srinivasan, Samantha Gray, Thomas Gauron, Ryan Chaves, Manuel Fernandez, Janice Houston, Michael Johnson, Rebecca Baturin, Jonathan Weintroub, Rurik Primiani, Kazunori Akiyama, Peter Galison, Daniel Marrone, Summer Franks, John Ford, Eli A. Zervigon, Ross Mpi, Stephen Joyce, Gilles Aminot, Doug Martens",
-      "PaperNumber": "14145-198",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "351031e1-8bd0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "351031e1-8bd0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "BHEX data processing subsystem",
-      "Description": null,
-      "Abstract": "The Black Hole Explorer (BHEX) is a proposed space-based Very Long Baseline Interferometry (VLBI) mission  designed to detect and measure the photon ring surrounding a black hole, capturing light that has completed  orbits within the strong gravitational field near the event horizon. This paper describes the development of the  backend electronics for the Black Hole Explorer instrument, referred to as the Data Processing (DP) subsystem.  The functional and physical architecture of the DP subsystem is described. This includes the key design  motivations, critical trade studies, and architectural decisions made to satisfy established mission and instrument  requirements.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/BHEX-data-processing-subsystem/14145-198",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Wen-Ping Chen, Ming-Hsin Chang, Yung-Hsin Chang, Ting-Wan Chen, Yi Chou, Daisuke Kinoshita, Chow-Choong Ngeow, Yen-Chen Pan, Anli Tsai, Yair Krongold, Liliana Figueroa, Erica Lugo, Laurence Sabin, Shiang-Yu Wang",
       "PaperNumber": "14151-110",
       "DateTimeLocationDataList": [
@@ -1206,7 +1206,7 @@
       "HTMLTitle": "",
       "Title": "Bootstrapping transient astronomy with the Trans-Pacific 2-m Telescope",
       "Description": null,
-      "Abstract": "Summary of abstract for display in the program (119 words)    We describe the project to install the Trans-Pacific 2-m telescope facility at the San Pedro Mártir Observatory (SPM) in Mexico, a collaboration between NCU in Taiwan and UNAM in Mexico, together with other international partners. The facility is instrumented, with a simultaneous multiband imager and an efficient spectrograph, to optimize fast characterization of cosmic transient events recognized by, e.g., the LSST or SVOM, in synergy with other telescopes on the same site or in Taiwan. We describe the key parameters of the facility components, such as the telescope, instruments, robotic operations, time allocation and coordinated queue scheduling strategy, alert responses, the status of the project, and forward planning. The telescope is expected to see the first light in 2027.",
+      "Abstract": "Summary of abstract for display in the program (119 words)    We describe the project to install the Trans-Pacific 2-m telescope facility at the San Pedro Mártir Observatory (SPM) in Mexico, a collaboration between NCU in Taiwan and UNAM in Mexico, together with other international partners. The facility is instrumented, with a simultaneous multiband imager and an efficient spectrograph, to optimize fast characterization of cosmic transient events recognized by, e.g., the LSST or SVOM, in synergy with other telescopes on the same site or in Taiwan. We describe the key parameters of the facility components, such as the telescope, instruments, robotic operations, time allocation and coordinated queue scheduling strategy, alert responses, the status of the project, and forward planning. The telescope is expected to see the first light in 2027/2028.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Bootstrapping-transient-astronomy-with-the-Trans-Pacific-2-m-Telescope/14151-110",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1420,7 +1420,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "James R. Burgoyne, Jonah J. Lee, Jordan D. Wheeler, Jason E. Austermann, Scott C. Chapman, Anthony I. Huber, Anna K. Vaskuri, Ruixan (Matt) Xie",
+      "Authors": "James R. Burgoyne, Jonah J. Lee, Jordan D. Wheeler, Jason E. Austermann, James A. Beall, Scott C. Chapman, Anthony I. Huber, Johannes Hubmayr, Matthew Koc, Joel Ullom, Anna K. Vaskuri, Michael R. Vissers, Ruixan (Matt) Xie",
       "PaperNumber": "14156-99",
       "DateTimeLocationDataList": [
         {
@@ -1556,40 +1556,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Félix Sauvourel, Faustine Cantalloube, Philippe Delorme, Stephane Bergeon, Fabien Malbet",
-      "PaperNumber": "14150-212",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "08e0efe8-1fcf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "08e0efe8-1fcf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Characterisation of the wind-driven halo in high-contrast images: occurrence rate from 10 years of VLT/SPHERE-IRDIS data",
-      "Description": null,
-      "Abstract": "Adaptive optics enables high-contrast imaging, but its temporal limitation, namely the servolag error, produces the so-called wind-driven halo (WDH) in the images. The WDH appears in the image as a low-spatial-frequency structure, whose morphology and intensity are governed primarily by high-altitude winds, in particular the jet stream flowing above Paranal. This WDH induces a contrast loss of up to one order of magnitude in the AO corrected-region. Using a new geometrical proxy, we analyse ten years of VLT/SPHERE high-contrast images and measure a WDH occurrence rate of about 70%, far exceeding previous estimates. This result shows that the servolag-induced aberrations in the focal plane image constitute an important limitation in current observations, and requires dedicated mitigation strategies for future high-contrast facilities.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Characterisation-of-the-wind-driven-halo-in-high-contrast-images/14150-212",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Philippa A. Downton, Tom Buggey, Jesper Skottfelt, Douglas Jordan, David Hall",
       "PaperNumber": "14157-102",
       "DateTimeLocationDataList": [
@@ -1692,7 +1658,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Charles-Antoine Claveau, Trevor T. Nguyen, Hannah Gulick, Jessica R. Lu, Steven V. W. Beckwith, Kodi Rider",
+      "Authors": "Charles-Antoine Claveau, Trevor T. Nguyen, Hannah Gulick, Jessica R. Lu, Steven V. Beckwith, Kodi Rider",
       "PaperNumber": "14157-115",
       "DateTimeLocationDataList": [
         {
@@ -1716,9 +1682,43 @@
       "HTMLTitle": "",
       "Title": "Characterization of the Sony Pregius S IMX530 CMOS detector for high-bandwidth AO and wide-field survey applications",
       "Description": null,
-      "Abstract": "Low-cost, high-performance CMOS detectors enable astronomical instruments with many focal-plane channels. Multi-conjugate adaptive optics uses multiple Shack–Hartmann wave-front sensors at high frame rates with sub-pixel centroiding, while space-based and wide-field survey imagers require large-format, small-pixel detectors with low dark current for long integrations; in all cases, low read noise is critical. We present a laboratory characterization of the Sony Pregius S IMX530 CMOS sensor integrated into the QHY530ProII camera. At 10 °C we measure a median dark current of 8.8 e⁻ px⁻¹ ks⁻¹, readout noise of 1.7 e⁻ rms, temporal signal stability of 0.05% peak-to-peak, ≃0.8% non-linearity, inter-pixel capacitance <0.1%, and read-noise correlations ≃0.5%. Astrometric tests yield centroiding precision of 0.012 pixel with systematic errors <0.01 pixel. We also report frame rates and windowed high-speed operation for high-bandwidth wave-front sensing.",
+      "Abstract": "Low-cost, high-performance CMOS detectors enable astronomical instruments with many focal-plane channels. Multi-conjugate adaptive optics uses multiple Shack–Hartmann wave-front sensors at high frame rates with sub-pixel centroiding, while space-based and wide-field survey imagers require large-format, small-pixel detectors with low dark current for long integrations; in all cases, low read noise is critical. We present a laboratory characterization of the Sony Pregius S IMX530 CMOS sensor integrated into the QHY530ProII camera. At 10 °C we measure a median dark current of 8.3 e⁻ px⁻¹ ks⁻¹, readout noise of 1.6 e⁻ rms, temporal signal stability of 0.05% rms, ~0.5% non-linearity, inter-pixel capacitance <0.1%, and read-noise correlations ≃0.5%. Astrometric tests yield centroiding precision of 0.012 pixel with systematic errors <0.01 pixel.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Characterization-of-the-Sony-Pregius-S-IMX530-CMOS-detector-for/14157-115",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Prakamya Agrawal, SO Collaboration",
+      "PaperNumber": "14156-81",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "3d5a2667-bccf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "3d5a2667-bccf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Characterizing optical leakage in the Simons Observatory small aperture telescope",
+      "Description": null,
+      "Abstract": "The Simons Observatory (SO), located on Cerro Toco in the Atacama Desert in Chile, is a mm-wavelength observatory measuring intensity and polarization anisotropies at angular scales ranging from one arcminute to tens of degrees. The larger scales are the focus of the Small Aperture Telescopes (SATs). We present the findings of a study using observations of the moon with a single SAT observing in the spectral bands centered at 90 and 150 GHz. We investigate signals seen on detectors that are intentionally uncoupled to the telescope optics, searching for spurious optical coupling and electrical crosstalk.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Characterizing-optical-leakage-in-the-Simons-Observatory-small-aperture-telescope/14156-81",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1727,10 +1727,10 @@
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

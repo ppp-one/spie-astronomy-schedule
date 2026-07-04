@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Matthew R. Bolcar, John Hagopian, Alice Liu, Tyler Groff, Bente Eegholm, Alden Jurling, Matthew Bergkoetter, Joseph Howard, Guangjun Gao, Margaret Dominguez, Patricia Lyons, Cathy Marx, Scott Rohrbach, Olha Asmolova, Nicholas Bond, Nicholas Collins, John Crooke, Boris Glebov, Joseph Hayden, Samantha Herath, Mingjun Li, Timothy Reichard, Drew Siedel, Kaitlyn Summey, Greg Wenzel, Brian Kern, Mark Colavita, Gary Kuan",
-      "PaperNumber": "14145-27",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 13:40 - 14:00 CEST | Room B4-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "4c87dbb6-57d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "4c87dbb6-57d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The Roman Space Telescope optical system: status, test, and verification - update",
-      "Description": null,
-      "Abstract": "The Nancy Grace Roman Space Telescope (“Roman”) is NASA’s next flagship observatory. Launching in 2026, Roman will explore the nature of dark energy as well as expand the census of exoplanets in our galaxy via microlensing. Roman’s large field of view, agile survey capabilities, and excellent stability enable these scientific objectives, yet present unique challenges for the design, test, and verification of its optical system. Roman recently completed a comprehensive thermal vacuum test of the Spacecraft bus + Integrated Payload Assembly (SCIPA), followed by integrating the Outer Barrel Assembly (OBA), Solar Array Sunshield (SASS), and Deployable Aperture Cover (DAC) with SCIPA to complete the Observatory. This paper will present an overview of the thermal vacuum optical testing as well as a status of the optical system performance and verification.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Roman-Space-Telescope-optical-system--status-test-and/14145-27",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 13:40 - 14:00 CEST | Room B4-M3",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Paolo Chioetto, José Araiza-Durán, Umberto Barozzi, Lorenzo Barubiani, Andrea Bocchieri, Pasquale Bonfà, Daniele Brienza, Anna Brucalassi, Vincenzo Davide Cardinale, Riccardo Claudi, Fabio D'Anca, Paul Eccleston, Alejandro Fernández-Soler, Debora Ferruzzi, Iacopo Ficai Veltroni, Manuele Gangi, Andrés García Pérez, Gabriele Grisoni, Elisa Guerriero, Riccardo Lilli, Lorenzo Maddii Fabiani, Giuseppe Malaguti, Giuseppina Micela, Federico Miceli, Angelo Olivieri, Emanuele Pace, Enzo Pascale, Andrea Paternoster, Javier Pérez Álvarez, Paolo Picchi, Giampaolo Preti, Monica Rainer, Antonio Scippa, Giovanna Tinetti, Elisabetta Tommasi, Andrea Tozzi, Dervis Vernani, Paola Zuppella",
       "PaperNumber": "14154-30",
       "DateTimeLocationDataList": [
@@ -400,7 +366,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Marc-Antoine Martinod, Denis Defrère, Michael J. Ireland, Stefan Kraus, Frantz Martinache, Peter G. Tuthill, Emilie Bouzerand, Julia Bryant, Sorabh Chhabra, Peter Chingaipe, Benjamin Courtney-Barrer, Fred Crous, Nick Cvetojevic, Daniel Dahl, Colin Dandumont, Steve Ertel, Germain Garreau, Adrian M. Glauser, Xavier Haubois, Lucas Labadie, Stéphane Lagarde, Daniel Lancaster, Romain Laugier, Roxanne Ligi, Nathan Long, Alexandra Mazzoli, Thomas Mattheussen, Gyorgy Medgyesi, Kwinten Missiaen, Sebastien Morel, Daniel Ahrer, Barnaby Norris, Jyortimay Paul, Romain Petrov, Gert Raskin, Sylvie Robbe-Dubois, Gordon Robertson, Muhammad Salman, Ahmed Sanny, Nicolas Schuhler, Owain Snaith, Adam Taras",
+      "Authors": "Marc-Antoine Martinod, Michael J. Ireland, Denis Defrère, Stefan Kraus, Frantz Martinache, Peter G. Tuthill, Emilie Bouzerand, Julia Bryant, Sorabh Chhabra, Peter Chingaipe, Benjamin Courtney-Barrer, Fred Crous, Nick Cvetojevic, Daniel Dahl, Colin Dandumont, Steve Ertel, Germain Garreau, Adrian M. Glauser, Xavier Haubois, Lucas Labadie, Stéphane Lagarde, Daniel Lancaster, Romain Laugier, Roxanne Ligi, Nathan Long, Alexandra Mazzoli, Thomas Mattheussen, Gyorgy Medgyesi, Kwinten Missiaen, Sebastien Morel, Daniel Ahrer, Barnaby Norris, Jyortimay Paul, Romain Petrov, Gert Raskin, Sylvie Robbe-Dubois, Gordon Robertson, Muhammad Salman, Ahmed Sanny, Nicolas Schuhler, Owain Snaith, Adam Taras",
       "PaperNumber": "14148-6",
       "DateTimeLocationDataList": [
         {
@@ -706,7 +672,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Thomas Delker, Benjamin Cromey, Derek Sabatke, Jeanette Domber",
+      "Authors": "Thomas Delker, Benjamin Cromey, Derek Sabatke, Jeanette Domber, Maxime Rizzo",
       "PaperNumber": "14145-29",
       "DateTimeLocationDataList": [
         {
@@ -730,7 +696,7 @@
       "HTMLTitle": "",
       "Title": "Roman Space Telescope wide-field instrument opto-mechanical delivery summary",
       "Description": null,
-      "Abstract": "The Wide Field Instrument (WFI) on NASA’s Nancy Grace Roman Space Telescope was delivered to Goddard Space Flight Center in the summer of 2024 from its testing at BAE Systems Space & Mission Systems in Boulder, Colorado. This paper will describe the development and qualification process of the Cold Module, which consists of a hexapod adjustment mechanism for the focal plane, an optical element select mechanism, the optical metering support structure within WFI, and the two-stage cooling system. The co-development process with Goddard Space Flight Center will be reviewed. The phases of the development, from requirements, design, build, subsystem test, and final integrated instrument test will be discussed. Finally, a summary of challenges and solutions will be reviewed.",
+      "Abstract": "The Wide Field Instrument (WFI) on NASA’s Nancy Grace Roman Space Telescope was delivered to Goddard Space Flight Center in the summer of 2024 from its testing at BAE Systems Space & Mission Systems in Boulder, Colorado. This paper describes the development and qualification process of the Cold Module, which consists of a hexapod adjustment mechanism for the focal plane, an optical element select mechanism, the optical metering support structure within WFI, and the two-stage cooling system. We review the co-development process with Goddard Space Flight Center and discuss each development phase, spanning requirements, design, the physical build, subsystem testing, and integrated instrument testing. Finally, we provide a summary of the technical challenges encountered and their implemented solutions.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Roman-Space-Telescope-wide-field-instrument-opto-mechanical-delivery-summary/14145-29",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -808,7 +774,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Lorenzo Amati, Enrico Bozzo, Paul T. O'Brien, Diego Götz, Andrea Santangelo",
+      "Authors": "Lorenzo Amati, Enrico Bozzo, Diego Götz, Paul T. O'Brien, Andrea Santangelo",
       "PaperNumber": "14146-32",
       "DateTimeLocationDataList": [
         {
@@ -1182,7 +1148,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Ahmed Sanny, Lucas Labadie, Simon Gross, Kevin Barjot, Germain Garreau, Romain Laugier, Marc-Antoine Martinod, Thomas Mattheussen, Peter Marley Chingaipe, Michael Withford, Denis Defrère",
+      "Authors": "Ahmed Sanny, Lucas Labadie, Simon Gross, Kevin Barjot, Denis Defrère, Romain Laugier, Marc-Antoine Martinod, Germain Garreau, Thomas Mattheussen, Peter Marley Chingaipe, Michael Withford",
       "PaperNumber": "14148-8",
       "DateTimeLocationDataList": [
         {
@@ -1590,7 +1556,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Justin Hom, Schuyler G. Wolff, Jessica Gersh-Range, Ramya M. Anche, Vanessa P. Bailey, Jean-Philippe Berger, Beth A. Biller, Wolfgang Brandner, Marah Brinjikji, Gaël Chauvin, David R. Ciardi, Catherine A. Clark, Laird M. Close, Robert J. De Rosa, Sarah Deveny, Warren B. Foster, Julien H. Girard, Alexandra Z. Greenbaum, Olivier Guyon, Sebastiaan Y. Haffert, Alexander D. Hedglen, Steve B. Howell, Parker T. Johnson, Maggie Y. Kautz, Jay K. Kueny, Masayuki Kuzuhara, Manon Lallement, Rico Landman, Jean-Baptiste Le Bouquin, Jialin Li, Joshua Liberman, Colin Littlefield, Joseph D. Long, Miles Lucas, Jennifer Lumbres, Eric Mamajek, Bruce Macintosh, Jared R. Males, Matthijs Mars, Eden A. McEwen, Avalon L. McLeod, Maxwell A. Millar-Blanchaer, Toshiyuki Mizuki, Tiffany Nguyen, Lauren Schatz, Nicholas T. Schragal, Adam Taras, Elena Tonucci, Katie Twitchell, Macarena C. Vega-Pallauta, Jason J. Wang, Jingwen Zhang, Kyle Van Gorkom",
+      "Authors": "Justin Hom, Schuyler G. Wolff, Jessica Gersh-Range, Ramya M. Anche, Vanessa P. Bailey, Jean-Philippe Berger, Beth A. Biller, Wolfgang Brandner, Marah Brinjikji, Gaël Chauvin, David R. Ciardi, Catherine A. Clark, Laird M. Close, Robert J. De Rosa, Sarah Deveny, Warren B. Foster, Julien H. Girard, Alexandra Z. Greenbaum, Olivier Guyon, Sebastiaan Y. Haffert, Alexander D. Hedglen, Steve B. Howell, Parker T. Johnson, Maggie Y. Kautz, Jay K. Kueny, Masayuki Kuzuhara, Manon Lallement, Rico Landman, Jean-Baptiste Le Bouquin, Jialin Li, Joshua Liberman, Colin Littlefield, Joseph D. Long, Miles Lucas, Jennifer Lumbres, Eric Mamajek, Bruce Macintosh, Jared R. Males, Matthijs Mars, Eden A. McEwen, Avalon L. McLeod, Maxwell A. Millar-Blanchaer, Toshiyuki Mizuki, Sophie Noiret, Tiffany Nguyen, Lauren Schatz, Nicholas T. Schragal, Adam Taras, Elena Tonucci, Katie Twitchell, Macarena C. Vega-Pallauta, Jason J. Wang, Jingwen Zhang, Kyle Van Gorkom",
       "PaperNumber": "14145-32",
       "DateTimeLocationDataList": [
         {
@@ -1668,7 +1634,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "6 July 2026 • 15:40 - 16:00 CEST | Room B2-M8",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Nicholas E. White, Massimiliano Galeazzi, Daniel Kocevski, J. Eric Grove, Sylvain Guiriec, Alexander J. van der Horst, Russell Roberts, Brendan O'Connor, Paul S. Ray, Dheeraj Pasham, Peter Roming",
+      "PaperNumber": "14146-44",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 15:40 - 15:55 CEST | Room B4-M1",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "56f7dd8a-a9cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "56f7dd8a-a9cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "XTRA: the x-ray transient array",
+      "Description": null,
+      "Abstract": "XTRA (X-ray TRansient Array) is a NASA Small Explorer concept designed for 2030s time-domain and multi-messenger astrophysics. Operating in a Sun-Earth L2 orbit, XTRA makes time-domain surveys and provides rapid autonomous response to high-energy transients. The payload combines the Burst Alert Monitor (BAM)—a broadband (50 keV–2 MeV) gamma-ray monitor for continuous triggering—with the Micropore Optics X-ray Instrument (MOXI)—a wide-field (240 sq deg) soft X-ray (0.2–5 keV) imager for rapid arcminute localization. Surveying the anti-Sun nighttime hemisphere on a variety of cadences, XTRA acts as the high-energy anchor for the 2030s ecosystem, feeding triggers to robotic telescopes for immediate counterpart identification. XTRA will decode cosmic explosions (GRBs, shock breakouts), trace black hole feeding via tidal disruption events (TDEs), and uncover electromagnetic counterparts to gravitational wave and high-energy neutrino sources.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/XTRA-the-x-ray-transient-array/14146-44",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 15:40 - 15:55 CEST | Room B4-M1",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

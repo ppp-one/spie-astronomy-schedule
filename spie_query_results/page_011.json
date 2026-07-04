@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Anthony Santini, David Morris, Andres Parraguez Carcamo, Alexandra Tritschler",
-      "PaperNumber": "14149-104",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "41a0e05f-a9cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "41a0e05f-a9cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Techniques for analyzing the Daniel K. Inouye Solar Telescope Engineering Data Store",
-      "Description": null,
-      "Abstract": "The Daniel K. Inouye Solar Telescope implements a constant, high cadence monitoring of many key observational metrics including summit weather, instrument status, wavefront status, telescope position, optical path status and calibration script results. This data is stored in the Engineering Data Store database (EDS) and can be used as reference when determining the exact status of the observatory at any arbitrary time. The cumulation of this data over the last five years has generated a substantial archive of data, the processing of which allows for the construction of historical trends and statistical analysis of observational methods. These analyses are used to determine and quantify issues and analyze observing conditions which enables various improvements to operational efficiency. The process of implementing this from the creation of the software tools to query from the EDS to the processing and interpretation will be described in this paper.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Techniques-for-analyzing-the-Daniel-K-Inouye-Solar-Telescope-Engineering/14149-104",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Andrea Bianco, Marco Riva, Letizia Caito, Enrico Giro, Sofia Randich, Emma Fernández-Alvar, Oscar Gonzalez, Sergio G. Sousa, Laura Magrini",
-      "PaperNumber": "14154-154",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "1f86386d-3ecd-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "1f86386d-3ecd-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Technologies challenges and developments for HRMOS at the VLT",
-      "Description": null,
-      "Abstract": "HRMOS (https://www.hrmos.eu/) is a new instrument we plan to propose for the ESO VLT. HRMOS target resolving power is 80000 in three spectral windows with a total range of 140nm in the visible. It will have Multiplexing capabilities in the range of 40 to 80 and will be characterized by a radial velocity precision of 10m/s. Such an ambitious instrument presents some technological challenges to be addressed that will turn into important “enabling” technological activities. These activities will be crucial for the instrument itself, but they align with known challenges in ELT instrumentation. Examples of such technologies are: i) Large size (400 mm in diameter) and high dispersion diffraction gratings; ii) optical fibers; iii) CMOS instead of CCD detectors.  This paper will highlight these technological developments showing the impact on HRMOS and future optical instrumentation.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Technologies-challenges-and-developments-for-HRMOS-at-the-VLT/14154-154",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Andreas Quirrenbach, CARMENES Consoritum",
       "PaperNumber": "14149-102",
       "DateTimeLocationDataList": [
@@ -604,7 +536,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "On To Sonja Choi, Roger Angel, Zsombor Antal, Chad F. Bender, Joel Berkson, Nina Brown, Gilberto Chavez-Lopez, Megan M. Delamer, Trevor Dugan, Warren B. Foster, Kevin Gilliam, Peter Gray, Yiyang Huang, Chris Kruep, Riley Mikkelsen, Andrew Monson, Fernando Parra, Jason Patrou, Milan Riha, Brian Scaramella, Christian Schwab, Melanie Sisco, William Thompson, Richard Wortley, Dennis Zaritsky, David Zeller",
+      "Authors": "Sonja O. T. Choi, Warren Foster, Andrew Monson, Chad Bender, Roger Angel, Zsombor Antal, Joel Berkson, Nina Brown, Gilberto Chavez-Lopez, Megan Delamer, Trevor Dugan, Kevin Gilliam, Peter Gray, Yiyang Huang, Chris Kruep, Riley Mikkelsen, Fernando Parra, Jason Patrou, Milan Riha, Brian Scaramella, Christian Schwab, Melanie Sisco, William Thompson, Richard Wortley, Dennis Zaritsky, David Zeller",
       "PaperNumber": "14147-118",
       "DateTimeLocationDataList": [
         {
@@ -631,40 +563,6 @@
       "Abstract": "The Large Fiber Array Spectroscopic Telescope (LFAST) is an array of small, low-cost fiber telescopes for high-resolution spectroscopy. We present the throughput budget of our first prototype unit across 400–1700 nm, in which we examine the optical train from the 0.76 m, f/3.3 primary mirror to the prime-focus corrector, 16 m fiber feed, fiber combiner and spectrograph optics. We also incorporate atmospheric absorption, seeing, coating transmission, and coupling losses in our calculation. The throughput analysis identifies the dominant throughput-limiting components and guides fabrication requirements as well as design improvements that maximize performance gains. It also supports the development of a realistic exposure-time calculator for on-sky testing, enabling science case planning and efficient queue scheduling for LFAST’s operations. Finally, the analysis provides a benchmark for unit-telescope testing and constrains expectations for future expansion to a larger aperture.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/The-Large-Fiber-Array-Spectroscopic-Telescope--optical-system-throughput/14147-118",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Jian Ge, Zhangqi Dang, Ziru Zhang, Pengjun Zhang, Rong Shu, Wen Chen, Jie Yin, Zhongming Chen, Jun Yang, Xinyi Song, Rafael Luque, Enric Pallé",
-      "PaperNumber": "14145-116",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "461466bf-58d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "461466bf-58d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The Life 2.0 Space Mission",
-      "Description": null,
-      "Abstract": "The Life 2.0 space mission concept aims to characterize the atmospheres of transiting exoplanets, including Earth-like worlds, in search of biosignatures in the optical. The mission will consist of an array of 900 one-meter space telescopes in Earth orbit, each equipped with a high-throughput (~50%) waveguide-integrated miniature spectrograph (WIMS) and an ultra-low-noise CMOS detector (~0.3 e-). By combining transmission spectra from 900 telescopes, the signal-to-noise of the combined spectrum can reach a similar level as a single 30-meter space telescope, enabling the detection of the faint planetary atmosphere signal, including species such as oxygen, water, ozone; and many other science cases. The array is scalable and mass-producible, enabling low manufacturing and deployment cost for large-scale atmospheric surveys of habitable exoplanets. The mission design and prototype performance will be reported.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Life-20-Space-Mission/14145-116",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -706,7 +604,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Francisco Prada, Robert Content, Ariel Goobar, Jens Hjorth",
+      "Authors": "Francisco Prada, Robert Content, David Jones, Ryan Cooke, Guillermo González de Riverad, Manuel Vázquez, Enrique Pérez, Ariel Goobar, Jens Hjorth, M. Angeles Pérez-García, Luca Izzo, Matthew Hayes, Manuela Abril, Kilian Henríquez, Hector de Paz, Alejandro Leal, Himar Viera, Gabriel Gómez, Daniel Reverte, Sergio Fernández-Acosta, Antonio L. Cabrera-Lavers, Luis A. Rodríguez, Romano Corradi",
       "PaperNumber": "14149-105",
       "DateTimeLocationDataList": [
         {
@@ -910,6 +808,40 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Kenji Emerson, Adwin Boogert, Mike Connelley, John T. Rayner, Charles Lockhart",
+      "PaperNumber": "14149-164",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "e2de6986-9ed0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "e2de6986-9ed0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The observation simulator for the NASA/IRTF spectre spectrograph",
+      "Description": null,
+      "Abstract": "We present an observation simulator for the SPECTRE spectrograph. SPECTRE is an upcoming, low resolution, broad bandwidth (0.4-4.2 μm), 7.2” field-of-view, three channel, Integral Field Unit (IFU) spectrograph for the NASA Infrared Telescope Facility (IRTF). It is designed for characterizing near-Earth asteroids and spectroscopic follow-up on astrophysical transients. A facility-ready data reduction pipeline is integral to its use by astronomers. We comprehensively simulate observations, accounting for transmissive, emissive, and dispersive effects from the atmosphere, telescope, instrument optics, prisms, and the detector. Instrument calibrations, flat-fielding lamps and spectral arc lamps, can also be simulated. We use our simulations for the on-going development of the SPECTRE data reduction suite, and it can also be used as an exposure time calculator for astronomers to optimize their observing session.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-observation-simulator-for-the-NASAIRTF-spectre-spectrograph/14149-164",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Bridget C. O'Meara, Randall L. McEntaffer, Alexandra N. Higley, James H. Tutt, Jeffrey De Lucca, Aditi Gangadharan, Nathaniel Hamme, Vadim Burwitz, Gisela Hartner, Andreas Langmeier, Thomas Müller, Surangkhana Rukdee, Thomas Schmidt, Stefano Basso, Alberto Moretti, Daniele Spiga, Max Collon, David Girou, Nicolas Barrière",
       "PaperNumber": "14154-261",
       "DateTimeLocationDataList": [
@@ -1034,11 +966,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "The second Little UltraViolet Camera (LUVCam2)",
+      "Title": "The second little ultraviolet camera (LUVCam2)",
       "Description": null,
       "Abstract": "The second Little UltraViolet Camera (LUVCam2) is a 80mm-diameter dual UV-optical space telescope that will observe the UV flares around low-mass stars, with planned flight as a 1U payload aboard the 3U CubeSat BRNoSat in late 2027. LUVCam2 is the second technology demonstration for the LUVCam electronics board, with the first LUVCam (LUVCam1) still operating in low-Earth orbit (launched July 2024). The main upgrade of LUVCam2 is the use of the backside-illuminated GSENSE4040BSI CMOS sensor, promising significant improvement to UV quantum efficiency over the frontside-illuminated model used in LUVCam1. We present the concept of operations, full system architecture, optomechanical, and electrical design for LUVCam2.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-second-Little-UltraViolet-Camera-LUVCam2/14146-114",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-second-little-ultraviolet-camera-LUVCam2/14146-114",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1182,6 +1114,40 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Jake Zimmer, Michael Langmayr, Bradley Price, Takeru Hayashi, Daniel P Weatherill, Rose Gibson, Roger Smith, Andrey Korolev, Michael Gutierrez, Michael Fitzgerald, Nemanja Jovanovic, Ashley Baker, Rob Bertz, Hector Rodriguez",
+      "PaperNumber": "14154-296",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "791d7849-b6d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "791d7849-b6d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Thermacopia: a novel high channel count thermal control system for precision astronomy",
+      "Description": null,
+      "Abstract": "We present a compact, high-precision thermal control system that achieves an unusually high channel count in a modular, reconfigurable architecture. The HISPEC implementation provides 40 heater outputs and 80 temperature-sensor inputs in a low-profile rack-mount enclosure, addressing thermal-control demands that exceed the capabilities of traditional Lakeshore controllers or detector-controller–based solutions. The system architecture utilizes a backplane into which dedicated heater or sensor cards are inserted to tailor functionality while minimizing new hardware development. Heater cards support both low-power linear outputs for fine temperature trimming and high-power switching outputs for rapid warm-up. Sensor cards accommodate RTD and diode with programmable current sources and true 24-bit ADCs. Control and telemetry are provided over TCP/IP with integrated fault-handling. Although developed for HISPEC, this architecture is applicable to many thermally controlled instruments.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Thermacopia--a-novel-high-channel-count-thermal-control-system/14154-296",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Maxime Rombach, Malak Galal, Jonathan Wei, Stefane Caseiro, Corentin Magnenat, Jean-Paul Kneib",
       "PaperNumber": "14154-163",
       "DateTimeLocationDataList": [
@@ -1204,7 +1170,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Thermal characterization of a 6-positioner, 6.2-mm-pitch module prototype for stage-5 telescope instruments",
+      "Title": "Thermal characterization of a 6-positioner, 6.2-mm-pitch module for stage-5 telescopes",
       "Description": null,
       "Abstract": "Fiber positioner modules are a key development for future Stage-5, highly multiplexed, instruments. Similarly to previous fiber positioners they need to sustain challenging environmental conditions such as a large operating temperature range (–20 °C to +30 °C). This paper presents the thermal tests results of the first 6-positioner module prototype and highlights its encouraging performances consistency.",
       "ImagePath": null,
@@ -1692,7 +1658,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Shin Oya, Yosuke Minowa, Hirofumi Okita, Yuhei Takagi, Yoshito H. Ono",
+      "Authors": "Shin Oya, Yosuke Minowa, Hirofumi Okita, Yuhei Takagi, Yoshito Ono",
       "PaperNumber": "14150-118",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Andrew Ross-Adams, Christopher Betters, Nemanja Jovanovic, Sergio Leon-Saval, Daniel Dahl",
+      "PaperNumber": "14154-292",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "7bd2c593-afd0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "7bd2c593-afd0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Ultra high efficiency 3-mode photonic lantern for HISPEC",
+      "Description": null,
+      "Abstract": "Photonic lanterns enable single-mode spectroscopy of astrophysical sources, but packaging losses are a critical challenge. Three-port devices are particularly sensitive due to their triangular fibre arrangement, which can induce differential stress during tapering and alignment errors. We report a three-port photonic lantern for HISPEC's blue arm achieving 93% end-to-end throughput (0.3 dB) across 1.0-1.3 µm, before anti-reflective coating and including all connector and splice losses. The device was fabricated via tapered fibre bundle method from 0.16 NA, 4.4 µm core fibre with −5.5 × 10^−3 index contrast capillary. Pre-packaged loss was ≤0.2 dB (96%); careful packaging with high-concentricity FC/UPC connectors maintained 0.3 dB final loss. We present detailed loss analysis quantifying each mechanism and verify performance via digital holography of the multimode port, demonstrating viability for astronomy where every photon counts.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Ultra-high-efficiency-3-mode-photonic-lantern-for-HISPEC/14154-292",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

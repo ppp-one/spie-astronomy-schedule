@@ -26,142 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Andrea Tozzi, Anna Brucalassi, Matteo Munari, Simone D'Auria, Andrea Bianco, Giorgio Pariani, Ciro Del Vecchio, Paolo Picchi, Roland Bacon, Bernard Delabre, David Lee, Sofia Randich, Will Saunders",
-      "PaperNumber": "14149-420",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "3522b261-85ce-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "3522b261-85ce-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Current status of the high-resolution multiobject spectrograph (MOS-HR) for the wide-field spectroscopic telescope",
-      "Description": null,
-      "Abstract": "The Wide-field Spectroscopic Telescope (WST) is a planned 12-meter class dedicated spectroscopic facility for massive spectroscopic surveys. This paper presents the current status of Work Package 4.5, the High Resolution Multi-Object Spectrograph (MOS-HR) module. We describe the international team organization and optical design resulting from extensive trade-off studies, presenting its evolution driven by scientific requirements and technical constraints. Design parameters derived from science cases and astronomical community requirements are detailed. Given the critical importance of mass and volume budgets, we present envelope dimensions and mass estimates for MOS-HR. The spectrograph constructive parameters are defined, including optical fiber specifications, multiplex capability, and modular architecture. Finally, we present the structural analysis addressing mechanical stability and performance requirements for this high-resolution multi-object spectrograph.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Current-status-of-the-high-resolution-multiobject-spectrograph-MOS-HR/14149-420",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Rosly Renil, Hugo Hamman, Christopher Schollar, Martin Slabber",
-      "PaperNumber": "14151-133",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "8a5d1315-2fd0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "8a5d1315-2fd0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Data life cycle policies in boosting science data ops efficiency",
-      "Description": null,
-      "Abstract": "A Data Lifecycle Management (DLM) process brings order and clarity to an observatory's data information. This structure makes it easier to achieve essential goals like keeping data secure and ensuring it’s readily accessible when needed.     This poster presents a DLM strategy used for SARAO science operations, current challenges faced and MeerKAT systems that focuses heavily on safeguarding data and enabling disaster recovery—especially important as cyber threats rise alongside the rapid expansion of digital information. By having a reliable recovery plan ready to go, observatories can reduce the financial damage and reputational harm caused by unexpected events.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Data-life-cycle-policies-in-boosting-science-data-ops-efficiency/14151-133",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Shinji Fujita, Kenichi Karatsu, Shiro Ikeda, Akio Taniguchi, Akira Endo, Tatsuya Takekoshi, Yuri Nishimura, Kotaro Kohno, Stefanie Brackenhoff, Arend Moerman, Juri Yamanaka, Yoichi Tamura",
-      "PaperNumber": "14156-165",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "326b7846-7bcf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "326b7846-7bcf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Data processing and calibration pipeline for DESHIMA 2.0 observations on the ASTE telescope",
-      "Description": null,
-      "Abstract": "Microwave kinetic inductance detectors (MKIDs) enable multiplexed spectroscopy at submillimeter wavelengths. DESHIMA 2.0, an on-chip filterbank spectrometer on the 10-m ASTE telescope in Chile, is among the first instruments to demonstrate wideband MKID spectroscopy on sky. While it provides simultaneous spectra over a broad band, the data require careful processing.  The responsivity and noise of individual KIDs vary between days due to atmospheric and instrumental conditions. Detector flagging, performance tracking, and calibration are essential. Atmospheric correction, responsivity normalization, and frequency alignment are required to convert raw timestreams into usable spectra or maps.  In this poster, we present the DESHIMA 2.0 data-processing workflow, including detector checks, automated masking, and calibration. We show how these procedures improve the fidelity and reproducibility of the final data and discuss implications for future DESHIMA and TIFUUN observations.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Data-processing-and-calibration-pipeline-for-DESHIMA-20-observations-on/14156-165",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Alexander Lapuente, P. S. Barry, C. S. Benson, C. M. Bradford, T. L. R. Brien, S. Doyle, V. Gómez-Rivera, S. Hailey-Dunsheath, J. Hernández-Aguilar, J. L. Hérnandez-Rebollar, D. H. Hughes, E. Kane, K. S. Karkare, R. McGeehan, R. Naranjo-Romero, A. Papageorgiou, J. G. Redford, I. Rodríguez-Montoya, S. Rowe, D. O. Sánchez-Arguelles, S. Savorgnano, A. Tan, M. Becerril-Tapia, J. Vega-Méndez",
-      "PaperNumber": "14156-174",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "bf8d9948-bed0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "bf8d9948-bed0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Data reduction pipeline for the SuMAC millimeter-wave spectrometer at the LMT",
-      "Description": null,
-      "Abstract": "We present the data reduction and analysis pipeline for the SuperSpec-MUSCAT Collaboration (SuMaC) along with several key science data products. In Summer 2025, SuperSpec on-chip spectrometers operating from 190-300 GHz at R~200 were deployed on the MUSCAT focal plane at the Large Millimeter Telescope (LMT), obtaining several days of high-quality on-sky data. Analysis of these data has been used to characterize noise performance and study spectra of various astrophysical sources, establishing the instrument’s viability for future line intensity mapping (LIM) deployments. We discuss calibration methods, data processing options, and preliminary analysis of the observed sources.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Data-reduction-pipeline-for-the-SuMAC-millimeter-wave-spectrometer-at/14156-174",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Simone Doniselli, Edoardo Redaelli, Matteo Aliverti",
       "PaperNumber": "14149-451",
       "DateTimeLocationDataList": [
@@ -342,7 +206,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -388,11 +252,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Design and Evolution of the SKA Alarm Management System",
+      "Title": "Design and evolution of the SKA alarm management system",
       "Description": null,
       "Abstract": "The Square Kilometre Array Observatory (SKAO) requires an alarm management platform capable of supporting  a highly distributed control system while complying with the IEC 62682 alarm management standard. Following  a technology assessment based on the functional and architectural requirements previously identified for the  Observatory, an existing alarm management platform was selected as the foundation for the development of the  SKA Alarm Management System (SKA AMS).  This paper describes the engineering activities performed to integrate the selected platform into the SKA  software ecosystem and its evolution towards a production-ready solution. The work includes the adoption  of the SKAO software engineering standards for containerised deployment, the development of Docker images,  Kubernetes configurations, Helm Charts and CI/CD pipelines, allowing the system to be deployed on SKAO  Kubernetes clusters, including the SKA-MID Integration Test Facility in South Africa.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Design-and-Evolution-of-the-SKA-Alarm-Management-System/14155-227",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Design-and-evolution-of-the-SKA-alarm-management-system/14155-227",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1080,7 +944,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Chiara Scandaglia, Runa Briguglio, Matteo Menessini, Marco Xompero, Alberto Riva, Matteo D'Ambrogio",
+      "Authors": "Chiara Scandaglia, Matteo Menessini, Runa Briguglio, Marco Xompero, Alberto Riva, Matteo D'Ambrogio",
       "PaperNumber": "14145-288",
       "DateTimeLocationDataList": [
         {
@@ -1182,7 +1046,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Hidenori Takahashi, Hiroaki Maezawa, Hiroyuki Hashiba, Hidemi Hishino",
+      "Authors": "Hidenori Takahashi, Hiroaki Maezawa, Hiroyuki Hashiba, Hidemi Hishino, Masataka Imai",
       "PaperNumber": "14149-417",
       "DateTimeLocationDataList": [
         {
@@ -1206,7 +1070,7 @@
       "HTMLTitle": "",
       "Title": "Development of near-infrared scanning Fabry-Perot spectrometer for 3D spectroscopy II: improvements to the final model and practical performances for scientific observations",
       "Description": null,
-      "Abstract": "We are developing a Fabry-Perot spectrometer for three-dimensional spectroscopic observation in the near-infrared wavelength range. By achieving the interferometric optical elements variable and combining detector module, it can acquire images at arbitrary wavelengths. Since the spectrometer module must operate under vacuum and low temperature, optical elements (etalon), drive actuators (piezo), and displacement sensor systems (capacitive sensor) optimized for that environment were selected. Its compact shape is optimized for use as a front-end optics of imaging module. Furthermore, a control system is developed that maintains high spectroscopic performance by actively controlling the etalons in real time to constantly maintain the parallelism of the interference gap. The approximate spectroscopic specifications are a wavelength resolution of R=6,000 for the finesse = 60 and an order = 100.",
+      "Abstract": "We are developing a Fabry-Perot spectrometer for three-dimensional spectroscopic observation in the near-infrared wavelength range. By achieving the interferometric optical elements variable and combining detector module, it can acquire images at arbitrary wavelengths. Since the spectrometer module must operate under vacuum and low temperature, optical elements (etalon), drive actuators (piezo), and displacement sensor systems (capacitive sensor) optimized for that environment were selected. Its compact shape is optimized for use as a front-end optics of imaging module. Furthermore, a control system is developed that maintains high spectroscopic performance by actively controlling the etalons in real time to constantly maintain the parallelism of the interference gap. The approximate spectroscopic specifications are a resolving power of Res. = 10,000, corresponding to a finesse F = 50 and an interference order of m = 200 at a wavelength of lambda = 2um.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-near-infrared-scanning-Fabry-Perot-spectrometer-for-3D/14149-417",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1226,7 +1090,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -1274,7 +1138,7 @@
       "HTMLTitle": "",
       "Title": "Development of segmented photonic-crystal phase masks for spectral characterization of exoplanets",
       "Description": null,
-      "Abstract": "We are developing coronagraphic segmented phase masks designed for direct detection and spectral characterization of habitable exoplanets. The segmented phase masks can achieve relatively high core throughput with a small inner working angle (IWA). We have performed numerical simulations to evaluate the core throughput and the IWA for the segmented phase masks of various orders. Additionally, we simulated observed images for target stars at different distances and spectral types, assuming Earth-like planets in their habitable zones. Development of the phase masks is also underway. We are designing and prototyping broadband phase masks using three-layer photonic crystals optimized for the visible and near-infrared (NIR) regimes. The fabricated masks are evaluated in the laboratory, mainly in the visible at present and in the NIR in future work. In this presentation, we report recent activities in our ongoing simulations and phase-mask development efforts.",
+      "Abstract": "We are developing coronagraphic segmented phase masks designed for direct detection and spectral characterization of habitable exoplanets. The segmented phase masks can achieve relatively high core throughput with a small inner working angle (IWA). We performed numerical simulations to evaluate the core throughput and the IWA for the segmented phase masks of various orders. Additionally, we simulated observed images for target stars at different distances and spectral types, assuming Earth-like planets in their habitable zones. Development of the phase masks is also underway. We are designing and prototyping broadband phase masks using three-layer photonic crystals optimized for the visible and near-infrared (NIR) regimes. The fabricated masks are evaluated in the laboratory, mainly in the visible at present and in the NIR in future work. In this presentation, we report recent activities in our ongoing simulations and phase-mask development efforts.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-segmented-photonic-crystal-phase-masks-for-spectral-characterization/14145-277",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1386,7 +1250,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Massinissa Hadjara, Volodymyr Akhmetov, Jean-Eudes Arlot, Jennifer L. Bartlett, Beatrice Bucciarelli, Thom R. Burns, Jaime Carrillo, Chenzhou Cui, Shuhrat Ehgamberdiev, Ilgmars Eglitis, Silvia Galleti, Salvo Guglielmino, Daniel Hestroffer, Rene Hudec, Peter Kroll, Elizabeth Kruesi, Stephen Levine, Shanna Li, Wangu Li, Jun Lin, Verónica Lencinas, Mingyang Ma, Vicente Maldonado, Andrea Mejías, Rene Mendez, Alessandro Omizzolo, Wayne H. Osborn, Sibilla Perina, Anton Pomazan, Bo Qiu, Quanfeng Xu, Maryam Raouph, Vincent Robert, Takashi Sakurai, Brad Schaefer, Andreas Schrimpf, Zhengjun Shang, Chunhui J. Shi, Alessandro Spagna, Christiaan Sterken, Zhenghong Tang, Gabriele Umbriaco, Liangliang Wang, Tianyi Wang, Kenshi Yanagisawa, Dan Yan, Jing Yang, Meiting Yang, Haibo Yuan, Yong Yu, Qudratillo Yuldoshev, Jianhai Zhao, Yongheng Zhao, Wenwen Zuo, Tauseef A. Zafar",
+      "Authors": "Massinissa Hadjara, Volodymyr Akhmetov, Jean-Eudes Arlot, Jennifer Lynn Bartlett, Beatrice Bucciarelli, Thom R. Burns, Jaime Carrillo, Chenzhou Cui, Shuhrat Ehgamberdiev, Ilgmars Eglitis, Silvia Galleti, Salvo Guglielmino, Daniel Hestroffer, Rene Hudec, Peter Kroll, Elizabeth Kruesi, Stephen Levine, Shanna Li, Wangu Li, Jun Lin, Verónica Lencinas, Mingyang Ma, Vicente Maldonado, Andrea Mejías, Rene A. Mendez, Alessandro Omizzolo, Wayne Osborn, Sibilla Perina, Anton Pomazan, Bo Qiu, Quanfeng Xu, Maryam Raouph, Vincent Robert, Takashi Sakurai, Brad Schaefer, Andreas Schrimpf, Zhengjun Shang, Chunhui J. Shi, Alessandro Spagna, Christiaan Sterken, Zhenghong Tang, Gabriele Umbriaco, Liangliang Wang, Tianyi Wang, Kenshi Yanagisawa, Dan Yan, Jing Yang, Meiting Yang, Haibo Yuan, Yong Yu, Qudratillo Yuldoshev, Tauseef A. Zafar, Jianhai Zhao, Yongheng Zhao, Wenwen Zuo",
       "PaperNumber": "14151-132",
       "DateTimeLocationDataList": [
         {
@@ -1692,7 +1556,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Matt Lyons, Pete Hargrave, Ian Veenendaal, Rashmi Sudiwala, Lottie Braithewaite, Savini Giorgio, Alexey Shitvov, Jin Zhang, Jon E. Gudmundsson",
+      "Authors": "Matt Lyons, Pete Hargrave, Ian Veenendaal, Rashmi Sudiwala, Lottie Braithewaite, Giorgio Savini, Alexey Shitvov, Jin Zhang, Jon E. Gudmundsson",
       "PaperNumber": "14145-276",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1588,149 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Michael Weber",
+      "PaperNumber": "14149-464",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "ed23ce37-5ed0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "ed23ce37-5ed0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Environment aware wavelength calibration of thermally stabilized echelle spectrographs",
+      "Description": null,
+      "Abstract": "Thermally controlled echelle spectrograph are on short (one night) timescales limited in stability by atmospheric pressure variations which lead to variations in the refractive index of air. With STELLA/SES we record about 10 HCL spectra over the course of the night, and we noticed that the calibration accuracy is worse if the atmospheric pressure variation has a turning point between two calibrations. We tried to mitigate this by introducing the pressure as additional parameter in the calibration procedure, which only worked in perfect conditions.  Recently we derived a scheme where the wavelengths of observations and of the calibration line positions are treated at current conditions, and then transformed to vacuum using Ciddor's equation. This also works during bad observing conditions (partial nights, broken HCL lamp) and has the added bonus of providing a quantitative quality measure of the wavelength calibration quality.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Environment-aware-wavelength-calibration-of-thermally-stabilized-echelle-spectrographs/14149-464",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Élodie Choquet, Lisa Altinier, Nicolás Godoy, Alexis Lau, Sophie Noiret, Anton Neisius, Arthur Vigan",
+      "PaperNumber": "14145-294",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "bf7df2e6-7dd0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "bf7df2e6-7dd0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "ESCAPE project: investigating observing strategies and post-processing methods for future high-contrast imaging space missions",
+      "Description": null,
+      "Abstract": "The search for biosignatures in potentially habitable exoplanets is one of the major astrophysics’ drivers for the coming decades. It is the prime science case of HWO, a large space telescope that will be equipped with state-of-the art capabilities to directly characterize Earth-like planets in the 2040s. Ahead of this, the Roman Space Telescope will demonstrate critical technologies to reach 1e-8 contrast limits, using wavefront control and optimized coronagraphs for the first time in space.   Given the stringent constraints on wavefront stability required to achieve these unprecedented contrast levels, new observing strategies and data post-processing techniques need to be developed to optimize detection capabilities with these missions.   Here, we introduce the ESCAPE project, which explore new observing strategies that make use of the deformable mirrors to systematically sample wavefront variations during reference star observations to optimize the detection limits at postprocessing.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/ESCAPE-project--investigating-observing-strategies-and-post-processing-methods/14145-294",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Fernando Merlos-García, Jorge Quintero Nehrkorn, Ángela Hernández-Delgado, Josué Barrera Martín, José Antonio Rodríguez Losada, Javier León-Gil, Miguel Núñez Cagigal, Manuel Collados, Mary Barreto Cabrera, Héctor Socas-Navarro",
+      "PaperNumber": "14155-214",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "2c3c32ef-43d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "2c3c32ef-43d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "EST control system: how architecture design can reduce the impact of obsolescence",
+      "Description": null,
+      "Abstract": "The European Solar Telescope (EST) will become ones of the best solar telescope and is intended to be fully operational for about 50 years. The design of the control system architecture aims, among others, to reduce the impact of obsolescence, remaining as independent as possible from specific technologies, as well as increase resource optimization.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/EST-control-system--how-architecture-design-can-reduce-the/14155-214",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "A. Mazzoli, C. Dandumont, A. Besse, B. Borguet, J. Bouwmeester, D. Defrère, I. Khan, R. Laugier, J. Loicq, V. Moreau, P. Piron, R. Saathof, I. Sigusch, P. Hallibert, D. Alaluf, Luca Schifano, T. Rank-Lueftinger",
+      "PaperNumber": "14148-160",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "0ddaa304-6ad0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "0ddaa304-6ad0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Exoplanet explorer: optical design of a single spacecraft nulling interferometer",
+      "Description": null,
+      "Abstract": "The optical design layout of a single spacecraft nulling interferometer is presented here as part of a study initiated by ESA to explore the design parameters and performance of an interferometric concept based on a single spacecraft with multiple sub-apertures.Launch constraints drive the ray-traced model to cover the entire optical chain, from the telescope entrance to the null output after the recombination scheme. A trade-off among several telescope architectures led to the choice of a compact two-mirror solution consisting of a four 2.5m diameter telescopes arranged in a linear configuration with an extended baseline.Optical performance at the null output is evaluated, confirming compatibility with starlight suppression targets and establishing the key figures of merit for the interferometer. This work represents the first integrated optical design of the mission concept, laying the groundwork for future iterations that include mechanical, thermal, and control aspects.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Exoplanet-explorer--optical-design-of-a-single-spacecraft-nulling/14148-160",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

@@ -26,8 +26,8 @@
   },
   "Items": [
     {
-      "Authors": "Daniel Harbeck, Curtis McCully, Matthew Daily, Prerana Kottapali",
-      "PaperNumber": "14157-77",
+      "Authors": "Kathryn M. Barrett, James Osborn, Noelia Martinez Rey, Domenico Bonaccini-Calia, Bernadett Stadler, David Jenkins, Ollie Farley",
+      "PaperNumber": "14150-160",
       "DateTimeLocationDataList": [
         {
           "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
@@ -41,18 +41,18 @@
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
       "MatchingFrag": "",
-      "UniqueId": "d0017a5d-04cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "d0017a5d-04cf-f011-a9ad-005056914f1c",
+      "UniqueId": "8a50fe01-5ccf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "8a50fe01-5ccf-f011-a9ae-00505691c5e1",
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Propagating random telegraph noise in Las Cumbres Observatory’s CMOS data",
+      "Title": "Propagation delay results for measuring tip-tilt for GEO uplink pre-compensation",
       "Description": null,
-      "Abstract": "At Las Cumbres Observatory we introduced CMOS-based imagers (QHY600 with Sony IMX455 sensors) as  the main cameras in our global network of ten 35-cm telescopes. The deployment of CMOS detectors in the small telescope network also serves as a pathfinder for a possible future. We report some of the first lessons learned from using CMOS cameras in a professional astronomy production environment. In particular, we focus on characterizing and treating random telegraph signal (RTS), an additional noise component in CMOS cameras. We have developed procedures to model RTS and then seed and propagate a simplified per-pixel noise model in our data processing pipeline BANZAI. We are exploring more advanced mitigation studies, such as using model such as using modeled multi-modal RTS distributions as a prior for maximum likelihood fitting when stacking images, which is capable of estimating a pixel’s true readout value with smaller samples than simple averaging.",
+      "Abstract": "We present successful numerical simulation results for uplink tilt pre-compensation for optical feeder links in ground-to-satellite optical communications. It is vital to pre-compensate the uplink beam at the point-ahead angle to ensure the stability of the link. A laser guide star (LGS) can measure the higher order modes at the point-ahead angle, giving an improvement in the data throughput, but with its inability to directly measure the tip and tilt modes, the optical link will still suffer frequent fades. We have developed the propagation delay method to be applied for optical communications. It is a technique to indirectly measure the tip and tilt from a sodium LGS, allowing for uplink tilt pre-compensation. Our numerical simulations show improvement in comparison to tilt pre-compensation using only the downlink tilt of the satellite. We intend to also explore how this method could be used to increase sky coverage for adaptive optics in astronomy.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Propagating-random-telegraph-noise-in-Las-Cumbres-Observatorys-CMOS-data/14157-77",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Propagation-delay-results-for-measuring-tip-tilt-for-GEO-uplink/14150-160",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -468,7 +468,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Bruno Chazelas, Christophe Lovis, Nicolas Blind, Léonie Hoerner, Ludovic Genolet, Nathanael Restori, Ian Hughes, Michael Sordet, Robin Schnell, Samuel Rihs, Adrien Crausaz, David Ehrenreich, Emeline Bolmont, Christoph Mordasini, Martin Turbet, Maddalena Bugatti, Benoit Neichel, Thierry Fusco, Jean-François Sauvage, Isaac Bernardino Dinis, Angelie Alagao",
+      "Authors": "Léonie Hoerner, Bruno Chazelas, Christophe Lovis, Nicolas Blind, Ludovic Genolet, Nathanael Restori, Ian Hughes, Michael Sordet, Robin Schnell, Samuel Rihs, Adrien Crausaz, David Ehrenreich, Emeline Bolmont, Christoph Mordasini, Martin Turbet, Maddalena Bugatti, Benoit Neichel, Thierry Fusco, Jean-François Sauvage, Isaac Bernardino Dinis, Angelie Alagao, Gilles Simond, Vincent Chambouleyron, Mathieu Motte, Anraud Striffling, Francisco oyarzun",
       "PaperNumber": "14149-182",
       "DateTimeLocationDataList": [
         {
@@ -876,40 +876,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Kathryn M. Barrett, James Osborn, Noelia Martinez Rey, Domenico Bonaccini-Calia, Bernadett Stadler, David Jenkins",
-      "PaperNumber": "14150-160",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "8a50fe01-5ccf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "8a50fe01-5ccf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Simulation results for optical feeder link tilt pre-compensation using the LGS propagation delay method",
-      "Description": null,
-      "Abstract": "We present successful numerical simulation results for uplink tilt pre-compensation for optical feeder links in ground-to-satellite optical communications. It is vital to pre-compensate the uplink beam at the point-ahead angle to ensure the stability of the link. A laser guide star (LGS) can measure the higher order modes at the point-ahead angle, giving an improvement in the data throughput, but with its inability to directly measure the tip and tilt modes, the optical link will still suffer frequent fades. We have developed the propagation delay method to be applied for optical communications. It is a technique to indirectly measure the tip and tilt from a sodium LGS, allowing for uplink tilt pre-compensation. Our numerical simulations show improvement in comparison to tilt pre-compensation using only the downlink tilt of the satellite. We intend to also explore how this method could be used to increase sky coverage for adaptive optics in astronomy.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Simulation-results-for-optical-feeder-link-tilt-pre-compensation-using/14150-160",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Michela Todaro, Luisa Sciortino, Federico Fiorentino, Ugo Lo Cicero, Fabio D'Anca, Edoardo Alaimo, Tortorici Caterina, Pekka Törmä, Bahawal Haq, Matthew Soman, Pascal Mercère, Paulo Da Silva, Alfonso Collura, Salvatore Varisco, Claudio Saitta, Alberto Gulizzi, Gaspare Di Cicca, Gabriele Minervini, Elisabetta Cavazzuti, Daniele Brienza, Chiara Grappasonni, Simonetta Puccetti, Angela Volpe, Marco Barbera",
       "PaperNumber": "14146-198",
       "DateTimeLocationDataList": [
@@ -932,11 +898,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Single- or Multi-Walled Carbon Nanotube pellicles investigated for New Athena",
+      "Title": "Single- or multi-walled carbon nanotube pellicles investigated for NewAthena",
       "Description": null,
       "Abstract": "CNT films are very promising as substrates for thermal and optical filters for X-ray or EUV detectors for space applications. This new technology is under evaluation as potential optical blocking and thermal filters for the ESA space mission New Athena. The main goal of this work is to compare the spectroscopic performance, in band (soft X-rays) and out-of-band (UV-VISMIR), of different kinds of CNT pellicles, namely randomly oriented dual layer single walled (SW), randomly oriented dual layer multi walled (MW), and oriented multiple layer MW. Based on this study, the appropriate CNT pellicle may be chosen to design a set of representative thin filter breadboards for the New Athena X-ray Integral Field Unit detector to achieve the Technology Readiness Level 5 before Athena Mission Adoption (June 2027).",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Single--or-Multi-Walled-Carbon-Nanotube-pellicles-investigated-for/14146-198",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Single--or-multi-walled-carbon-nanotube-pellicles-investigated-for/14146-198",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1182,7 +1148,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Hui Wang, Mingfu Shao, Jiaben Lin, Liyue Tong, Chen Yang",
+      "Authors": "Hui Wang, Jiaben Lin, Mingfu Shao, Liyue Tong, Chen Yang",
       "PaperNumber": "14155-78",
       "DateTimeLocationDataList": [
         {
@@ -1250,7 +1216,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Fabrizio Fornasiero",
+      "Authors": "Fabrizio Fornasiero, Luca Oggioni, Giorgio Pariani, Samuel Ronayette",
       "PaperNumber": "14146-229",
       "DateTimeLocationDataList": [
         {
@@ -1386,7 +1352,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Nicholas E. Thomas, Hugo Allaire, Jeffrey Apple, Adrianah Appleman, Dhamar Astilla Munoz, Aya Bamba, Stephen Bongiorno, McKinley Brumback, Patrick Champey, Chien-Ting Chen, Renata Cumbee, Kirtankumar P Dixit, Steven Ehlert, Gen Fujimoto, Jessica Gaskin, Danielle Gurgew, Anthony Guillory, Kouichi Hagino, Iroha Ichiseki, Philip Kaaret, Nicholas Kafkoulas, Miho Katsuragawa, Fabian Kislat, Jeffery Kolodziejczak, Henric Krawczynski, Ioannis Liodakis, W. Peter Maksym, Kaya Mori, Shunsaku Nagasawa, Brian Ramsey, Daniel Radomski, Panini Singam, Patrick Slane, Chet Speegle, Douglas Swartz, Tadayuki Takahashi, Shin’ichiro Takeda, Shin Watanabe",
+      "Authors": "Nicholas E. Thomas, Hugo Allaire, Jeffrey Apple, Adrianah Appleman, Dhamar Astilla Munoz, Aya Bamba, Stephen Bongiorno, McKinley Brumback, Patrick Champey, Chien-Ting Chen, Renata Cumbee, Kirtankumar P. Dixit, Steven Ehlert, Gen Fujimoto, Jessica Gaskin, Danielle Gurgew, Anthony Guillory, Kouichi Hagino, Iroha Ichiseki, Philip Kaaret, Nicholas Kafkoulas, Miho Katsuragawa, Fabian Kislat, Jeffery Kolodziejczak, Henric Krawczynski, Ioannis Liodakis, W. Peter Maksym, Kaya Mori, Shunsaku Nagasawa, Brian Ramsey, Daniel Radomski, Panini Singam, Patrick Slane, Chet Speegle, Douglas Swartz, Tadayuki Takahashi, Shin’ichiro Takeda, Shin Watanabe",
       "PaperNumber": "14146-219",
       "DateTimeLocationDataList": [
         {
@@ -1408,11 +1374,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "SuperHERO (Super – High Energy Replicated Optics) X-ray telescope balloon mission",
+      "Title": "SuperHERO x-ray telescope balloon mission",
       "Description": null,
       "Abstract": "The SuperHERO hard X-ray telescope will observe extended sources at unprecedented imaging resolution, revealing the origins of non-thermal emission in extreme astrophysical environments. Employing NASA Marshall Space Flight Center’s replicated NiCo full-shell X-ray mirror technology to achieve better than 10-arcsecond half-power diameter (HPD) angular resolution on a balloon platform, SuperHERO consists of seven identical, co-aligned telescopes with a combined effective area of 45 cm² at 30 keV. SuperHERO was selected in the APRA 2023 call as a five-year mission, with an inaugural two-day flight scheduled from Fort Sumner, New Mexico, in the fall of 2028. For its initial target, SuperHERO will observe the Crab pulsar wind nebula, localizing hard X-ray emission. Mission development is currently underway, with updates and status to be provided in this presentation.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/SuperHERO-Super--High-Energy-Replicated-Optics-X-ray-telescope/14146-219",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/SuperHERO-x-ray-telescope-balloon-mission/14146-219",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1544,11 +1510,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "System performance of the sensor-readout chain in the development model of the focal plane assembly for Athena X-IFU",
+      "Title": "System performance of the sensor-readout chain in the FPA-DM for NewAthena X-IFU",
       "Description": null,
       "Abstract": "The X-ray Integral Field Unit (X-IFU) of ESA’s Athena observatory is designed to deliver high-resolution X-ray spectroscopy with 2.5 eV energy resolution up to 7 keV and 5″ spatial resolution across the 0.2-12 keV band, using an array of 1500 TES with TDM readout. As part of our responsibility for the focal plane assembly (FPA), at SRON we have integrated and validated the sensor-readout chain for the X-IFU Demonstration Model (FPA-DM1.1), based on components delivered by VTT Finland, NASA Goddard Space Flight Center (GSFC) and by the National Institute of Standard and Technology (NIST).  In this contribution we present the first full sensor–readout chain performance characterization at system level of the FPA-DM1.1, which uses 4 TDM channels with 34 physical pixels each, operated in a TDM timing configuration representative of the flight baseline of 48-row multiplexing, which provides a co-added spectral performance at a level of 2.2 eV measured at 6 keV.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/System-performance-of-the-sensor-readout-chain-in-the-development/14146-200",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/System-performance-of-the-sensor-readout-chain-in-the-FPA/14146-200",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1714,7 +1680,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "The Asgard/BIFROST pre-injection optics and fibre injection module: revision of optomechanical design & lab and on sky results",
+      "Title": "The Asgard/BIFROST pre-injection optics and fibre injection module: revision of optomechanical design and lab and on sky results",
       "Description": null,
       "Abstract": "The Asgard/BIFROST instrument at the VLTI will enable high-spectral-resolution interferometry across 1.0 µm (Y, J, H bands). Its pre-injection optics correct for birefringence and longitudinal dispersion, while the fibre-injection module compresses beams into single-mode fibres. A fibre-switching module allows injection into photonic devices optimized for different wavebands. We present a comprehensive revision of the optical and optomechanical design, including redesigned mounting interfaces, refined pupil positioning, and enhanced mechanical stability to improve alignment strategy and fibre-coupling efficiency. Laboratory characterization shows significant gains in efficiency, stability, and repeatability, with on-sky commissioning results to be presented. The upgraded system provides a stable, high-throughput system to the Asgard/BIFROST.",
       "ImagePath": null,
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Saverio Lombardi, Fabrizio Lucarelli, Fabio Pintore, Lucio Angelo Antonelli, Ciro Bigongiari, Andrea Bulgarelli, Milvia Capalbi, Martina Cardillo, Fausto Casaburo, Francesco Casini, Antonio Alessio Compagnino, Vito Conforti, Silvia Crestan, Giancarlo Cusumano, Antonino D'Aì, Olena Fedorova, Federico Fiordoliva, Luca Foffano, Stefano Gallozzi, Stefano Germani, Andrea Giuliani, Simone Iovenitti, Antonino La Barbera, Valentina La Parola, Teresa Mineo, Edgar Molina, Davide Mollica, Antonio Pagliaro, Giovanni Pareschi, Nicolò Parmiggiani, Valerio Pastore, Francesco Gabriele Saturni, Salvatore Scuderi, Gino Tosti, Stefano Vercellone, Georgios Zacharis, Luca Zampieri",
+      "PaperNumber": "14155-100",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "dced0536-4ed0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "dced0536-4ed0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The ASTRI Mini-Array project data processing system: main components, functionalities, and interfaces",
+      "Description": null,
+      "Abstract": "The ASTRI Mini-Array Project, led by INAF, is building nine 4-m class Cherenkov telescopes at the Teide Observatory, Spain. Seven telescopes are already installed, with two of them currently undergoing the commissioning and science verification phase.  The ASTRI project features the data processing system (DPS), a dedicated system for the end-to-end data processing and scientific exploitation. Raw data are immediately transferred from on site to the ASTRI data center in Rome (Italy) via high-speed network. The DPS employs a multi-stage pipeline on a HPC cluster to perform data pre-processing, calibration, reduction, and analysis, aiming for fast, reliable, and reproducible generation of science-ready products (event-lists and IRFs) and preliminary science products.  This contribution overviews the main DPS components, functionalities, and interfaces, and presents results from its current development and testing using commissioning data of the first group of telescopes in the array.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-ASTRI-Mini-Array-project-data-processing-system--main/14155-100",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

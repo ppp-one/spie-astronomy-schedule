@@ -568,7 +568,9 @@ def build_special_days(records: list[dict]) -> list[dict]:
         {
             "date_iso": date_iso,
             "label": day_label(date_iso),
-            "talks": sorted(by_day[date_iso], key=lambda r: (r["time_sort"], r["title"])),
+            "talks": sorted(
+                by_day[date_iso], key=lambda r: (r["time_sort"], r["title"])
+            ),
         }
         for date_iso in sorted(by_day.keys())
     ]
@@ -1138,7 +1140,7 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 }
 #talk-modal-ext:hover { text-decoration: underline; }
 /* ── Swipe tip banner ── */
-#swipe-tip {
+#swipe-tip, #update-tip {
   position: fixed;
   bottom: 24px;
   left: 50%;
@@ -1156,9 +1158,9 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   max-width: min(480px, calc(100vw - 32px));
   font-size: 13px;
 }
-#swipe-tip.visible { transform: translateX(-50%) translateY(0); }
-#swipe-tip-text { flex: 1; line-height: 1.4; }
-#swipe-tip-text strong { color: #d0d8ff; display: block; margin-bottom: 2px; }
+#swipe-tip.visible, #update-tip.visible { transform: translateX(-50%) translateY(0); }
+#swipe-tip-text, #update-tip-text { flex: 1; line-height: 1.4; }
+#swipe-tip-text strong, #update-tip-text strong { color: #d0d8ff; display: block; margin-bottom: 2px; }
 .swipe-tip-try {
   background: #f5a623;
   color: #1a1a2e;
@@ -1712,7 +1714,7 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   .swipe-keys { display: none; }
   .swipe-btn-row { gap: 20px; }
   /* Swipe tip */
-  #swipe-tip { flex-direction: column; align-items: flex-start; gap: 8px; padding-right: 40px; bottom: 16px; }
+  #swipe-tip, #update-tip { flex-direction: column; align-items: flex-start; gap: 8px; padding-right: 40px; bottom: 16px; }
   .swipe-tip-close { position: absolute; top: 8px; right: 8px; }
 }
 """
@@ -3335,6 +3337,40 @@ function goSwipe() {
   switchView('talkswipe');
 }
 
+// ── Programme update notice ───────────────────────────────────────────────
+const LS_PROG_META = 'spie_as26_prog_meta';
+let _updateTipTimer = null;
+
+function initUpdateNotice() {
+  if (!PROG_UPDATE.ts) return;
+  let prev = null;
+  try { prev = JSON.parse(localStorage.getItem(LS_PROG_META) || 'null'); } catch (e) {}
+  if (prev && typeof prev.ts === 'number' && PROG_UPDATE.ts > prev.ts) {
+    const diffs = [];
+    [['talks', 'talk'], ['posters', 'poster'], ['specials', 'special event']].forEach(([key, name]) => {
+      const d = (PROG_UPDATE[key] || 0) - (prev[key] || 0);
+      if (d !== 0) diffs.push((d > 0 ? '+' : '−') + Math.abs(d) + ' ' + name + (Math.abs(d) === 1 ? '' : 's'));
+    });
+    const detail = diffs.length ? diffs.join(', ') : 'no change in talk/poster counts';
+    const strong = document.createElement('strong');
+    strong.textContent = '📅 Programme updated on ' + PROG_UPDATE.label;
+    const text = document.getElementById('update-tip-text');
+    text.textContent = detail;
+    text.prepend(strong);
+    const tip = document.getElementById('update-tip');
+    setTimeout(() => tip.classList.add('visible'), 600);
+    _updateTipTimer = setTimeout(dismissUpdateTip, 12000);
+  }
+  if (!prev || typeof prev.ts !== 'number' || PROG_UPDATE.ts > prev.ts) {
+    localStorage.setItem(LS_PROG_META, JSON.stringify(PROG_UPDATE));
+  }
+}
+
+function dismissUpdateTip() {
+  clearTimeout(_updateTipTimer);
+  document.getElementById('update-tip').classList.remove('visible');
+}
+
 // ── Back to top ───────────────────────────────────────────────────────────
 function initBackToTop() {
   ['talklist-body', 'poster-body', 'specials-body'].forEach(id => {
@@ -3423,6 +3459,7 @@ function downloadIcal() {
 
 initSwipeTip();
 initBackToTop();
+initUpdateNotice();
 """
 
 
@@ -3501,9 +3538,24 @@ def build_html(
     talkswipe_html = render_talk_swipe_page(days)
     swipe_html = render_swipe_page(poster_days)
 
+    prog_file = RESULTS_DIR / "page_001.json"
+    prog_mtime = int(prog_file.stat().st_mtime) if prog_file.exists() else 0
+    prog_meta = {
+        "ts": prog_mtime,
+        "label": (
+            datetime.fromtimestamp(prog_mtime).strftime("%-d %b %Y, %H:%M")
+            if prog_mtime
+            else ""
+        ),
+        "talks": sum(len(v) for d in days for v in d["rooms_map"].values()),
+        "posters": sum(len(v) for d in poster_days for v in d["confs_map"].values()),
+        "specials": sum(len(d["talks"]) for d in special_days),
+    }
+
     _dumps = lambda obj: json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
     full_js = (
         f"const SYNC_API = {repr(SYNC_API_URL)};\n"
+        f"const PROG_UPDATE = {_dumps(prog_meta)};\n"
         f"const TALK_DATA = {_dumps(build_talk_data(records))};\n"
         f"const ALL_DAYS = {_dumps(serialize_days(days))};\n"
         f"const ALL_POSTER_DAYS = {_dumps(serialize_poster_days(poster_days))};\n"
@@ -3642,6 +3694,10 @@ def build_html(
   <button class="swipe-tip-try" onclick="goSwipe()">Try it &#8594;</button>
   <button class="swipe-tip-close" onclick="dismissSwipeTip()">&#10005;</button>
 </div>
+<div id="update-tip">
+  <div id="update-tip-text"></div>
+  <button class="swipe-tip-close" onclick="dismissUpdateTip()">&#10005;</button>
+</div>
 <button id="back-to-top" onclick="backToTop()" title="Back to top">&#8679;</button>
 <script>{full_js}</script>
 <script>
@@ -3674,13 +3730,15 @@ def main() -> None:
     (OUTPUT_DIR / "manifest.json").write_text(MANIFEST, encoding="utf-8")
     (OUTPUT_DIR / "sw.js").write_text(SW_JS, encoding="utf-8")
     print("Written → icon.svg, icon-192.png, icon-512.png, manifest.json, sw.js")
+    total_talks = sum(len(r) for d in days for r in d["rooms_map"].values())
     for d in days:
         total = sum(len(v) for v in d["rooms_map"].values())
         print(f"  {d['label']}: {total} talks across {len(d['rooms'])} rooms")
     total_posters = sum(
         sum(len(v) for v in d["confs_map"].values()) for d in poster_days
     )
-    print(f"  {total_posters} poster entries across {len(poster_days)} days")
+    print(f"  {total_talks} talks across {len(days)} days")
+    print(f"  {total_posters} poster entries across {len(poster_days)} poster days")
     total_specials = sum(len(d["talks"]) for d in special_days)
     print(f"  {total_specials} special/plenary events across {len(special_days)} days")
 

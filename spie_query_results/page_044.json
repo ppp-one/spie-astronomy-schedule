@@ -26,109 +26,7 @@
   },
   "Items": [
     {
-      "Authors": "Julien Storm, Gert Raskin, Bart Vandenbussche, Christian Schwab, Jake Pember, Hugues Sana, Dirk Vandepitte, Leonardo Peri, Sibo Van Gool, Louis Storm, Pierre Royer, Maddalena Reggiani, Camille Pirat, Dominic Bowman",
-      "PaperNumber": "14154-360",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "225367ea-48d7-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "225367ea-48d7-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Onboard wavelength calibration of the CubeSpec spectrograph using a Fiber Fabry–Pérot Etalon",
-      "Description": null,
-      "Abstract": "CubeSpec is a 12U CubeSat mission designed to demonstrate high resolution spectroscopy from a compact platform, with launch readiness targeted for early 2027. Its cross dispersed echelle spectrograph requires an onboard calibration system that is very compact, mechanically robust, and sufficiently stable and precise to meet the mission’s spectral performance requirements. A fiber-based Fabry–Pérot (FFP) etalon provides an attractive solution due to its very small footprint and stable line spacing, though it demands careful thermal stabilization. CubeSpec employs a fiber-coupled LED continuum source to both illuminate the FFP etalon for wavelength calibration and to supply broadband light for order identification and flat-fielding. The light is injected into the spectrograph via optics mounted on the telescope’s secondary mirror. We describe here the design of the FFP calibration unit and its expected performance.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Onboard-wavelength-calibration-of-the-CubeSpec-spectrograph-using-a-Fiber/14154-360",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Shumei Jia, Liming Song, Chengkui Li, Haisheng Zhao, Juan Zhang, Ju Guan, Ge Ou, Jin Wang",
-      "PaperNumber": "14146-304",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "09c1f6a7-75cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "09c1f6a7-75cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Operations of the EP-FXT science data center",
-      "Description": null,
-      "Abstract": "The Einstein Probe (EP) carries two primary scientific payloads: the Wide-field X-ray Telescope (WXT) and the Follow-up X-ray Telescope (FXT). The EP-FXT Science Data Center (SDC), hosted at the Institute of High Energy Physics (IHEP), is responsible for the production, processing, and management of FXT data. Since the EP’s launch on January 9, 2024, the FXT SDC has maintained smooth operations, encompassing the production and publication of standard data products, the development and release of data analysis software and calibration databases, and the provision of support to scientific users. This paper provides an overview of the center's workflows, core tasks, and operational status.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Operations-of-the-EP-FXT-science-data-center/14146-304",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Eliad Peretz, Bert Pasquale, Guangjun Gao, Greg Aldering, Saul Prlmutter, Jerry Edelstein, Tim Miller",
-      "PaperNumber": "14149-400",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "1ebb75c6-64d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "1ebb75c6-64d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Optical and mechanical development of the ORKID-II multi-field integral field spectrograph using monolithic machined image slicers",
-      "Description": null,
-      "Abstract": "ORKID-II is a next-generation integral field spectrograph designed for high-resolution, multi-field imaging and spectroscopy on large ground-based telescopes and future space missions. Building on the ORCAS/ORKID program, the instrument uses monolithic machined image slicers manufactured with sub-micron precision to enable fine, coarse, and very coarse spatial sampling within a compact optical platform. We present the optical and mechanical development of the tri-field IFU, including telecentric, anamorphic, and magnification-optimized designs; Canon-fabricated slicer geometries; system-level packaging; and integration with the telescope relay and spectrograph. ORKID-II demonstrates a scalable approach to wide-field, high-throughput spectroscopy and provides a technology path for future flagship observatories.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-and-mechanical-development-of-the-ORKID-II-multi-field/14149-400",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Runa Briguglio, Marco Xompero, Giorgio Pariani, Nicolò Azzaroli, Luca Oggioni, Pietro Ferraiuolo, Riccardo Grignaffini, Armando Riccardi",
+      "Authors": "Runa Briguglio, Nicolò Azzaroli, Pietro Ferraiuolo, Marco Xompero, Giorgio Pariani, Luca Oggioni, Riccardo Grignaffini, Armando Riccardi",
       "PaperNumber": "14150-324",
       "DateTimeLocationDataList": [
         {
@@ -218,7 +116,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Optical characterization of the BICEP array 150 and 220/270 GHz CMB polarimeters in the 2026 season",
+      "Title": "Optical characterization of the BICEP array 150 and 220/270 GHz CMB polarimeters",
       "Description": null,
       "Abstract": "BICEP Array (BA) measures faint polarization in the cosmic microwave background to test cosmic inflation. Each detector’s angular response needs to be precisely measured since beam mismatch between orthogonally polarized detector pairs can leak temperature into polarization and bias the tensor-to-scalar ratio r.   We present new far-field beam measurements for the 2026 season, focusing on characterizing new detectors at 220/270 GHz in the BA3 receiver and consistency checks at 150 GHz in BA2. We also introduce low-level improvements to the beam mapping analysis pipeline leading to better-quantified noise and higher-fidelity beam shapes. These updates yield more reliable characterization of BA beams and help ensure that our control of beam systematics improves commensurately with our sensitivity and limits on inflation.",
       "ImagePath": null,
@@ -230,7 +128,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "John J. Piotrowski, Danielle Frostig, Daniel Fabricant, Mark Mueller, Matthew Werneken, Ana Bonaca, Phillip A. Cargile, Vedant Chandra, Charles Conroy, Benjamin D. Johnson",
+      "Authors": "John J. Piotrowski, Danielle Frostig, Mark Mueller, David Cruz, Matthew Werneken, Julian Garcia, Daniel Fabricant, Ashley Villar, Ana Bonaca, Phillip A. Cargile, Vedant Chandra, Charles Conroy, Benjamin D. Johnson",
       "PaperNumber": "14149-384",
       "DateTimeLocationDataList": [
         {
@@ -254,7 +152,7 @@
       "HTMLTitle": "",
       "Title": "Optical design of Boombox: a high-throughput optical spectrograph on dual-hemisphere 6.5-meter telescopes",
       "Description": null,
-      "Abstract": "Boombox is a moderate-dispersion optical spectrograph currently being built for the 6.5-meter MMT and Magellan Clay telescope. Boombox, in synergy with the LSST, will provide rapid follow-up spectroscopy of LSST targets to classify the diverse array of expected transient astronomical phenomena and their host galaxies. We present the optical design of Boombox, provide a detailed tolerance analysis, and assess performance dependability on thermal variations. Boombox achieves its scientific goals with a two-channel spectrograph covering 3550 to 10100 Å at R ~ 1000. The spectrograph uses 36 dedicated optical fibers (1.2\" core diameter) from the Via fiber positioning system distributed across a 1-degree field of view. Boombox leverages binary transmission gratings and a high QE deep-depleted CCD261-04 to achieve high throughput. Finally, we discuss the optical design challenges associated with minimizing spectral crosstalk and provide lessons learned for future spectrograph designs.",
+      "Abstract": "Boombox is a moderate-dispersion optical spectrograph currently being built for the 6.5-meter MMT and Magellan Clay telescope. Boombox, in synergy with the LSST, will provide rapid follow-up spectroscopy of LSST targets to classify the diverse array of expected transient astronomical phenomena and their host galaxies. In this paper, we present the optical design of Boombox and provide a detailed tolerance analysis to ensure manufacturability. Boombox achieves its scientific goals with a two-channel spectrograph covering 3550 to 10100 Å at R ~ 1000. The spectrograph uses 36 dedicated optical fibers (1.2\" core diameter) from the Via fiber positioning system distributed across a 1-degree field of view. Boombox leverages binary transmission gratings and a high QE deep-depleted CCD261-04 to achieve high throughput. Finally, we discuss the optical design challenges associated with minimizing spectral crosstalk and provide lessons learned for future spectrograph designs.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-design-of-Boombox--a-high-throughput-optical-spectrograph/14149-384",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -264,7 +162,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "John J. Piotrowski, Daniel Fabricant, Daniel Catropa, Charlie Conroy, Ana Bonaca, Vedant Chandra, Phillip A. Cargile, Andrew Cline, Banjamin D. Johnson, Mark Mueller, William Podgorski, Andrew Schalk",
+      "Authors": "John J. Piotrowski, Daniel Fabricant, Daniel Catropa, Ana Bonaca, Charlie Conroy, Vedant Chandra, Phillip A. Cargile, Andrew Cline, Banjamin D. Johnson, Mark Mueller, William Podgorski, Joseph Zajac",
       "PaperNumber": "14149-383",
       "DateTimeLocationDataList": [
         {
@@ -288,7 +186,7 @@
       "HTMLTitle": "",
       "Title": "Optical design of the Via Instrument: a wide-field radial velocity survey spectrograph on dual-hemisphere 6.5-meter telescopes",
       "Description": null,
-      "Abstract": "The Via Project is a 5-year all-sky radial velocity survey and instrument currently being constructed with an expected commission date in 2027. The survey will be conducted simultaneously on the 6.5 m MMT and Magellan Clay telescope. The Via Survey will constrain the dark matter environment of the Milky Way through radial velocity and metallicity measurements of stellar streams and local dwarf galaxies. The survey will also reconstruct the 3D structure and kinematics of cold gas in the local CGM through Na I D absorption tomography. The Via Instrument is composed of the fiber positioning system (FPS) and the bench spectrograph (Viaspec). The FPS distributes ~600 robotically reconfigurable optical fibers across a 1° field of view. Viaspec covers 5050–5950 Å at a resolving power of R = 15,000. The spectrograph utilizes high-efficiency binary gratings and a custom camera lens (f/1.4, EFL = 400mm). We present the optical design, expected performance, and status of instrument.",
+      "Abstract": "The Via Project is a 5-year all-sky radial velocity survey and instrument currently being constructed with an expected commission date in 2027. The survey will be conducted simultaneously on the 6.5 m MMT and Magellan Clay telescope. The Via Survey will constrain the dark matter environment of the Milky Way through radial velocity and metallicity measurements of stellar streams and local dwarf galaxies. The survey will also reconstruct the 3D structure and kinematics of cold gas in the local CGM through Na I D absorption tomography. The Via Instrument is composed of the fiber positioning system (FPS) and the bench spectrograph (Viaspec). The FPS distributes ~600 robotically reconfigurable optical fibers across a 1° field of view. Viaspec covers 5050–5950 Å at a resolving power of R = 15,000. The spectrograph uses high-efficiency (>90%) gratings, a 1373 mm EFL collimator, and a six-element 410 mm EFL camera design. We present the expected performance and status of the instrument.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-design-of-the-Via-Instrument--a-wide-field/14149-383",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -424,7 +322,7 @@
       "HTMLTitle": "",
       "Title": "Optimal mode-sorting coronagraphy for exoplanet detection and characterization",
       "Description": null,
-      "Abstract": "Conventional coronagraph architectures struggle to reach the theoretical limit of exoplanet detection at close working angles. Spatial mode-sorting is capable of reaching the theoretical limit, but the optimal solution has so far only been calculated for a completely unresolved star whose signal lies entirely in the fundamental piston mode of the telescope. This work enables the calculation of optimized nulling modes as a function of the size of the star and planet parameters, with the goal of improving coronagraphic performance at ~lambda/D working angles given partially resolved stars and complex telescope apertures. We perform calculations using quantum information formalism and combine them with numerical optimization techniques to explore the behavior of optimal mode-sorting measurements. We present the optimal modes for measuring planets with known signals and characterize the tradeoffs inherent to coronagraphs for a finite field-of-view.",
+      "Abstract": "Conventional coronagraph architectures struggle to reach the theoretical limit of exoplanet detection at close working angles. Spatial mode-sorting is capable of reaching the theoretical limit. We have calculated optimized nulling modes as a function of the size of the star and planet parameters, with the goal of improving coronagraphic performance at ~1 l/D working angles given partially resolved stars and complex telescope apertures. We explore the limits of a coronagraph involving the measurement of a single spatial mode, with potential applications for the infrared arm of the Habitable Worlds Observatory. We present the achievable single-channel 1 l/D planet throughput as a function of the single-channel stellar suppression (for a 0.03 l/D diameter star), and show that the ability to measure a single optimized spatial mode can allow us to reach at least ~80% of the theoretical information limit.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Optimal-mode-sorting-coronagraphy-for-exoplanet-detection-and-characterization/14148-134",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -456,9 +354,9 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Optimal weighting functions and altitude sampling for accurate estimation of Cn² in the MASS method",
+      "Title": "Optimal weighting functions and altitude sampling for accurate estimation of Cn² profile",
       "Description": null,
-      "Abstract": "The MASS method observes the scintillation of bright stars through a telescope equipped with multiple apertures to estimate the turbulent contribution at different altitudes (the Cn² profile) from correlations of the scintillation obtained at each aperture.  In this study, we investigated procedures for determining suitable aperture shapes. We identify combinations of aperture geometries (Weighting Functions) whose scintillation curves exhibit distinctive features at particular altitudes. Using the altitude-sensitivity matrix derived from these weighting functions, we conduct simulations to estimate Cn2. To obtain this matrix, we also explore a systematic method for determining optimal altitude sampling - namely, the measurement altitude and number of altitudes - by selecting them so that the altitude-layer vectors are as independent as possible. Finally, we discuss the accuracy of the resulting Cn2 estimates based on our evaluation of this approach.",
+      "Abstract": "Atmospheric turbulence profiling is essential for adaptive optics tomography and ground-to-satellite optical communication. However, conventional scintillation profilers are limited by poor altitude resolution and sensitivity to measurement noise because their weighting functions are highly redundant. We propose CAMPUSS (Concentric Aperture Masking PUpil-plane Scintillation Sensor), which uses concentric aperture masks as spatial-frequency filters to generate localized weighting functions and selects reconstruction grids by QR pivoting. Simulations using single-layer, two-layer, and continuous turbulence models show that CAMPUSS improves reconstruction accuracy and altitude resolution compared with MASS and RINGSS. The 16-grid configuration achieved performance comparable to or better than RINGSS under the same number of grids, while the 32-grid configuration provided the highest accuracy and stable reconstruction, demonstrating kilometer-scale altitude sampling for AO tomography.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Optimal-weighting-functions-and-altitude-sampling-for-accurate-estimation-of/14150-273",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -536,7 +434,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Stefan Thoms, Martin Timpe, Matthias Reichert",
+      "Authors": "S. Thoms, M. Timpe, M. Reichert",
       "PaperNumber": "14147-174",
       "DateTimeLocationDataList": [
         {
@@ -968,7 +866,7 @@
       "HTMLTitle": "",
       "Title": "POLLUX: optical architecture of a high-resolution spectrograph and polarimeter for the Habitable Worlds Observatory",
       "Description": null,
-      "Abstract": "POLLUX is a European project of a high-resolution spectrograph with polarimetric capabilities for the future Habitable Worlds Observatory (HWO). Its current optical architecture implies splitting the instrument into five channels, each comprising an echelle spectrograph. The far UV channel provides spectropolarimetry in the 100-123 nm range. The medium UV channel can operate in spectropolarimetry mode in the 121.7-236 nm range or pure spectroscopy mode in the 100.6-236 nm range. The near UV channel covers the range 234-472 nm in spectroscopy or spectroplarimetry mode. The expected spectral resolving power, including a margin for manufacturing and assembly, is 90 000, 71 700 and 94 000 for the three UV channels, respectively. The visible (472-944 nm) and near infrared (944-1888 nm) are coupled via an optical fiber interface. They are designed to reach the resolving power of >70 000 in point-source spectroscopy/spectropolarimetry and will be considered in detail in a separate paper.",
+      "Abstract": "POLLUX is a European project of a high-resolution spectrograph with polarimetric capabilities for the future Habitable Worlds Observatory. The current top-level optical architecture implies splitting the instrument into five channels, each representing an echelle spectrograph. The far UV channel provides spectropolarimetry in the 100-123 nm range. The medium UV channel operates in a slit/point source spectroscopy or spectropolarimetry modes in the 120-236 nm range. The near UV channel covers the range 234-438 nm with the same set of modes. The target spectral resolving power is 100K. The far UV polarimeter cannot be retracted, but there is an option to bypass it by the telescope re-pointing and increase the transmission by <6 times. In the near and medium UV, the polarimeter can be replaced by a compensator to avoid re-focusing. The far and near-medium parts of the instrument are coupled to the telescope with different mirror relays with optimised coatings and f-numbers.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/POLLUX--optical-architecture-of-a-high-resolution-spectrograph-and/14146-288",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1318,7 +1216,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "José Marco de La Rosa, Josefina Rosich, Manuel Luis, Oscar Tubío, Alastair Basden, Jesús Patrón, Iciar Montilla, Roberto López, Marta Puga, Roberto Simoes, Eduardo González, Héctor De Paz, Manuel Huertas, Verónica Canto-Caño, Enrique Joven, Sergio Fernández, Gianluca Lombardi, Jose Miguel Delgado, Marcos Reyes García-Talavera, Víctor J. S. Béjar",
+      "Authors": "José Marco de La Rosa, Josefina Rosich, Manuel Luis, Oscar Tubío, Alastair Basden, Jesús Patrón, Iciar Montilla, Roberto López, Marta Puga, Roberto Simoes, Eduardo González, Héctor De Paz, Ana Belén Nuñez, Verónica Canto-Caño, Enrique Joven, Manuel Huertas, Sergio Fernández, Gianluca Lombardi, Jose Miguel Delgado, Marcos Reyes García-Talavera, Víctor J. S. Béjar",
       "PaperNumber": "14155-174",
       "DateTimeLocationDataList": [
         {
@@ -1352,7 +1250,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Francesco Di Mille, David Osip, Lionel Zumaran, Povilas Palunas",
+      "Authors": "Francesco Di Mille, Gulliermo Blanc, Carlos Contreras, Carlos G. Diaz, Matias Diaz, Marcelo Mora, David Osip, Povilas Palunas, Gabriel Prieto, Lionel Zumaran",
       "PaperNumber": "14151-113",
       "DateTimeLocationDataList": [
         {
@@ -1374,11 +1272,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Remote Observing with the Magellan Telescopes",
+      "Title": "Remote observing with the Magellan Telescopes",
       "Description": null,
       "Abstract": "Remote observing at the Magellan Telescopes has evolved into a robust and efficient mode of operation supporting a wide range of programs. Observers prepare their runs in advance through a dedicated online system and connect on observing nights through a system that mirrors the control-room experience at Las Campanas Observatory. With real-time live communication with operators and support astronomers, remote users can monitor the telescope state, carry out calibrations, and execute their observing plans as if they were on site.    The system was designed to preserve the collaborative nature of classical Magellan observing while offering the flexibility required for distributed research teams. This poster will describe the system architecture, operational model, and user experience, along with lessons learned from its adoption at Magellan.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Remote-Observing-with-the-Magellan-Telescopes/14151-113",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Remote-observing-with-the-Magellan-Telescopes/14151-113",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1444,7 +1342,7 @@
       "HTMLTitle": "",
       "Title": "Robo-AO-2: entering the era of automated science operations, hybrid wavefront sensing, and adaptive secondary integration",
       "Description": null,
-      "Abstract": "We present the first science results and new technical milestones from the Robo-AO-2 facility at the University of Hawaii 2.2-m telescope. Following successful commissioning, the system began science operations in 2025. We are starting a large-scale survey of 2700 young stars in the Scorpius-Centaurus association to detect sub-stellar companions, vetting the Habitable Worlds Observatory Target Stars and Systems list, and discovering stellar blends for TESS exoplanet host candidates. We report on the commissioning of the natural guide star wavefront sensor, supporting science and future hybrid laser-stellar sensing demonstrations. Finally, we detail the automation of the telescope facility, Robo88, via updated telescope control systems and absolute encoders, and the integration of Robo-AO-2 with the telescope's new adaptive secondary mirror.",
+      "Abstract": "We present the first science results and new technical milestones from the Robo-AO-2 facility at the University of Hawaii 2.2-m telescope. Following successful commissioning, the system began science operations in 2025. We are starting a large-scale survey of young stars in the Scorpius-Centaurus association to detect sub-stellar companions, vetting the Habitable Worlds Observatory Target Stars and Systems list, and discovering stellar blends for TESS exoplanet host candidates. We report on the commissioning of the natural guide star wavefront sensor, supporting science and future hybrid laser-stellar sensing demonstrations. Finally, we detail the automation of the telescope facility, Robo88, via updated telescope control systems and absolute encoders, and the integration of Robo-AO-2 with the telescope's new adaptive secondary mirror.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Robo-AO-2--entering-the-era-of-automated-science/14150-278",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1724,13 +1622,115 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Donghua Zhao, Lei Wang, Chen Zhang, Wenxin Wang, Zhenqing Jia, Zhixing Ling, Weimin Yuan, Junsheng Cheng, Ping Zhou, Shuangnan Zhang",
+      "PaperNumber": "14146-310",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "f1ca461f-53cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "f1ca461f-53cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Simulations and experiments of the electron diverter for the wide-field x-ray telescope onboard the Einstein Probe mission",
+      "Description": null,
+      "Abstract": "The Wide-field X-ray Telescope (WXT), the lobster-eye micro-pore optics (MPO) focusing telescope onboard the  Einstein Probe (EP) mission, consists of 12 identical modules. Each WXT module is equipped with a permanent-  magnet diverter to reduce the background induced by low-energy electrons (1–1000 keV). In this paper, we present  the performance of the diverter by simulations and experiments. Based on the experimental and simulation results, the  deflection efficiency of the diverter exceeds 97% for on-axis electrons in the energy range of 100–1200 keV, and the  efficiency is greater than 98% at 1000 keV for electrons with incident angles of Θin ≤ 10◦. Further simulations of a  WXT module show that the background caused by electrons below 1000 keV can be reduced by approximately 90%  with the diverter.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Simulations-and-experiments-of-the-electron-diverter-for-the-wide/14146-310",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Radhika Dharmadhikari, Aurélie Magniez, Charlotte Z. Bond, Padmakar Parihar, Kieran O'Brien, Tim Morris",
+      "PaperNumber": "14150-313",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "3bad6187-82cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "3bad6187-82cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Simulations on petal mode sensing for the ELT using the OTF-based phasing scheme",
+      "Description": null,
+      "Abstract": "The large spiders in the ELT lead to phase discontinuities of the wavefront, which appear as a piston difference between two sectors of the primary mirror. The adaptive optics system is insensitive to large values of these petal modes and hence a special petalometer device is required, that can measure these petal modes.  We have explored the use of Optical Transfer Function (OTF) based phasing scheme for fast petal mode sensing of the ELT. The performance of this technique under varying external practical conditions for seeing limited as well as AO corrected mode are studied through realistic Python simulations.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Simulations-on-petal-mode-sensing-for-the-ELT-using-the/14150-313",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Lukas Weissinger, Simon Hubmer, Bernadett Stadler, Ronny Ramlau",
+      "PaperNumber": "14150-304",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "93a3d8bf-97d5-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "93a3d8bf-97d5-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Singular value-based atmospheric tomography with Fourier domain regularization (SAFR)",
+      "Description": null,
+      "Abstract": "Atmospheric tomography, the problem of reconstructing atmospheric turbulence profiles from wavefront sensor measurements, is an integral part of many adaptive optics systems. To solve this problem, a singular-value decomposition (SVD) based approach has been proposed before. Here, we focus on the numerical implementation of the SVD-based Atmospheric Tomography with Fourier Domain Regularization Algorithm (SAFR) and its performance for MCAO systems. The key features of the SAFR algorithm are the utilization of the FFT and the pre-computation of computationally demanding parts. Together, this yields a fast algorithm with less memory requirements than commonly used Matrix Vector Multiplication (MVM) approaches. We evaluate the performance of SAFR regarding reconstruction quality and computational expense in numerical experiments using the simulation environment COMPASS, in which we use an MCAO setup resembling the physical parameters of the MORFEO instrument of the ELT.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Singular-value-based-atmospheric-tomography-with-Fourier-domain-regularization-SAFR/14150-304",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

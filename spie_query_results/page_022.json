@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Saverio Lombardi, Fabrizio Lucarelli, Fabio Pintore, Lucio Angelo Antonelli, Ciro Bigongiari, Andrea Bulgarelli, Milvia Capalbi, Martina Cardillo, Fausto Casaburo, Francesco Casini, Antonio Alessio Compagnino, Vito Conforti, Silvia Crestan, Giancarlo Cusumano, Antonino D'aì, Olena Fedorova, Federico Fiordoliva, Luca Foffano, Stefano Gallozzi, Stefano Germani, Andrea Giuliani, Simone Iovenitti, Antonino La Barbera, Valentina La Parola, Teresa Mineo, Edgar Molina, Davide Mollica, Antonio Pagliaro, Giovanni Pareschi, Nicolò Parmiggiani, Valerio Pastore, Francesco Gabriele Saturni, Salvatore Scuderi, Gino Tosti, Stefano Vercellone, Georgios Zacharis, Luca Zampieri",
-      "PaperNumber": "14155-100",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "dced0536-4ed0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "dced0536-4ed0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The ASTRI Mini-Array project data processing system: main components, functionalities, and interfaces",
-      "Description": null,
-      "Abstract": "The ASTRI Mini-Array Project, led by INAF, is building nine 4-m class Cherenkov telescopes at the Teide Observatory, Spain. Seven telescopes are already installed, with two of them currently undergoing the commissioning and science verification phase.  The ASTRI project features the data processing system (DPS), a dedicated system for the end-to-end data processing and scientific exploitation. Raw data are immediately transferred from on site to the ASTRI data center in Rome (Italy) via high-speed network. The DPS employs a multi-stage pipeline on a HPC cluster to perform data pre-processing, calibration, reduction, and analysis, aiming for fast, reliable, and reproducible generation of science-ready products (event-lists and IRFs) and preliminary science products.  This contribution overviews the main DPS components, functionalities, and interfaces, and presents results from its current development and testing using commissioning data of the first group of telescopes in the array.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-ASTRI-Mini-Array-project-data-processing-system--main/14155-100",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "B. Wehbe, A. Cabral, J. Delorme, P. Pereira, N. Blind, C. Lovis",
       "PaperNumber": "14149-176",
       "DateTimeLocationDataList": [
@@ -184,11 +150,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "The data processing pipeline for the THESEUS soft X-ray imager",
+      "Title": "The data processing pipeline for the THESEUS soft x-ray imager",
       "Description": null,
       "Abstract": "The THESEUS mission is designed to detect Gamma-Ray Bursts, X-ray transients, and infrared afterglows in order to probe the high-redshift Universe and advance time-domain and multi-messenger astrophysics. Its scientific capabilities rely on a coordinated payload, including the Soft X-ray Imager (SXI). This contribution presents the SXI data-processing pipeline developed during the ESA M7 Phase A study. The SXI consists of two wide-field lobster-eye cameras covering the 0.3 to 5 keV energy band and producing high-speed data streams that require efficient onboard processing. We outline the detection and imaging chain, describe the modelling of the lobster-eye PSF and the localisation method, and detail the logic and expected performance of the onboard transient trigger algorithm.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-data-processing-pipeline-for-the-THESEUS-soft-X-ray/14146-227",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-data-processing-pipeline-for-the-THESEUS-soft-x-ray/14146-227",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -740,6 +706,40 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Camille Graf, Maud Langlois, Éric Thiébaut, Michel Tallon, Clémentine Béchet, Markus Feldt, Clément Schotte",
+      "PaperNumber": "14150-176",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "abfe1d87-8ecf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "abfe1d87-8ecf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The Zernike and the integrated Mach-Zehnder wavefront sensors: comparative study of two second-stage WFSs for ELT/PCS",
+      "Description": null,
+      "Abstract": "The Mach-Zehnder (iMZ-WFS) and the Zernike (ZWFS) wavefront sensors share many similarities, as they are both interferometric wavefront sensors that use a Fourier filtered reference wavefront. In the context of exoplanet detection with futur extremely larges telescopes, these sensors are potential candidates for second-stage adaptive optics systems. In this contribution, we analyse the similarities and differences between the ZWFS and the iMZ-WFS. We define a common metric to compare both sensors in terms of sensitivity. We then report on our simulation results, where the iMZ-WFS and the ZWFS are tested as 2nd stage sensors. Different PCS science cases under various flux conditions are studied, using simulated METIS first-stage residuals.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Zernike-and-the-integrated-Mach-Zehnder-wavefront-sensors/14150-176",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Xiaosong Wu",
       "PaperNumber": "14150-184",
       "DateTimeLocationDataList": [
@@ -842,7 +842,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Elisabetta Giani, Gianluca Marotta, Sebastiano Ligori, Anna Maria Di Giorgio, Pierpaolo Merola, Marina Vela Nuñez, Marianna Michelagnoli, Mauro Focardi",
+      "Authors": "E. Giani, G. Marotta, S. Ligori, S. Fahmy, A. Caldwell, A. Di Giorgio, P. Merola, M. Vela Nunez, M. Michelagnoli, M. Focardi",
       "PaperNumber": "14145-171",
       "DateTimeLocationDataList": [
         {
@@ -1080,7 +1080,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "U. Tricoli, C. Mercier, E. Coiro, A. Pellissiere, V. Pierro, J. Defrance, Y. Abautret, R. Fétick, J.-F. Sauvage, T. Fusco, C. Petit",
+      "Authors": "U. Tricoli, C. Mercier, E. Coiro, A. Pellissiere, V. Pierro, J. Defrance, Y. Abautret, R. Fétick, Lisa-Marie Mazzolo, J.-F. Sauvage, T. Fusco, C. Petit",
       "PaperNumber": "14152-95",
       "DateTimeLocationDataList": [
         {
@@ -1408,11 +1408,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "VSTPOL: Progress on the Instrument Control Software for the New Polarimetric Mode",
+      "Title": "VSTPOL: progress on the instrument control software for the new wide-field polarimetric mode",
       "Description": null,
       "Abstract": "VSTPOL adds a new polarimetric capability to the VST by introducing a linear polarizing filter in place of the unused ADC, enabling the first large wide-field survey telescope with optical polarimetry and supporting applications such as optical follow-up of CTA sources. The mode requires two motorized motions: inserting the filter and rotating it to set the polarization angle and track the field.  To integrate modern PLC-based hardware while preserving compatibility with the existing VST software, a secondary Instrument Control Software (ICS) has been developed on a separate workstation running an updated VLT Software release. This environment manages the PLC devices and decouples the new control logic from the operational system.  The ICS has been tested with laboratory hardware and later with the realized VSTPOL sub system. A clone of the VST workstation was also reproduced to integrate the ICS and verify its behaviour under conditions matching those at the telescope.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/VSTPOL--Progress-on-the-Instrument-Control-Software-for-the/14155-112",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/VSTPOL--progress-on-the-instrument-control-software-for-the/14155-112",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1624,7 +1624,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Henk J. van Weers",
+      "Authors": "Henk J. van Weers, Johannes Dercksen, Brian Jackson, Paul van der Hulst, Mark Leeman, Ton van der Linden, Roland den Hartog, Jan van Schaijk, Arthur Waterschoot, Simon van Alphen, Indira Tjaden, Lars Aafjes, Richard Groefsema, Alex Simon",
       "PaperNumber": "14146-201",
       "DateTimeLocationDataList": [
         {
@@ -1714,11 +1714,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "X-ray monochromators for calibration of the NewAthena X-ray Integral Field Unit transition-edge sensors",
+      "Title": "X-ray monochromators for calibration of the NewAthena x-ray integral field unit transition-edge sensor array",
       "Description": null,
       "Abstract": "The X-ray Integral Field Unit (X-IFU) instrument on NewAthena features an array of transition-edge sensor (TES) microcalorimeters, enabling high-resolution, energy-resolved X-ray imaging of astronomical objects. The X-IFU array is designed to achieve a sensor-level resolution requirement of 2.15 eV FWHM at energies up to 7 keV and 4 eV FWHM up to 10 keV. Calibration and performance testing requires narrow-linewidth X-ray sources that span a similar energy range to measure the detector line-spread function. These calibration measurements must be performed with a relatively low count rate of approximately one photon per second, necessitating simultaneous illumination of a large fraction of the array for efficient calibration. We present the design and initial testing of both in-air and in-vacuum X-ray monochromators with <1 eV FWHM linewidth. Our approach includes channel-cut crystals and flat crystals configured in a four-bounce geometry to cover the low-energy part of the waveband.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/X-ray-monochromators-for-calibration-of-the-NewAthena-X-ray/14146-179",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/X-ray-monochromators-for-calibration-of-the-NewAthena-x-ray/14146-179",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1727,10 +1727,10 @@
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

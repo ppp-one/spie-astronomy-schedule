@@ -26,142 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Charlotte Feldman, Alejandro Guzmán Cabrera, Roisin Ryan, Lauro Conti, Gillian I. Butcher, Anna Maskolenko, Paul R. Houghton, Daniel Schuppe, Vadim Burwitz",
-      "PaperNumber": "14146-228",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "736a248b-23bb-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "736a248b-23bb-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Development of the THESEUS SXI optics for ESA M7 candidate",
-      "Description": null,
-      "Abstract": "The University of Leicester and the University of Tuebingen as joint PI institutes for the Soft X-ray Instrument (SXI) on THESEUS, an ESA M7 candidate mission, are responsible for the optic and detector development. The SXI consists of two identical Lobster eye modules with an 8x8 array of Micro Pore Optics (MPO), working in the energy range 0.3-5 keV. We present the progress of the development of the breadboard optic, including frame material trade off, X-ray results of MPOs and the breadboard itself and results from a thermal deformation study.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-the-THESEUS-SXI-optics-for-ESA-M7-candidate/14146-228",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Ross Donnachie, Johan Schoeman",
-      "PaperNumber": "14153-83",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "e603663f-17d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "e603663f-17d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Digital revision of a geometric approach to group delay network synthesis",
-      "Description": null,
-      "Abstract": "Presented is the adaptation of an analogue group delay network design technique to the digital domain. Direct design in the digital domain avoids any otherwise necessary and often deleterious transformations of the resultant system. This adaptation enables digital filter structures to be designed directly, with an equi-ripple error on the desired group delay response.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Digital-revision-of-a-geometric-approach-to-group-delay-network/14153-83",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Yuanpeng Gao",
-      "PaperNumber": "14152-100",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "86f2c0ee-85cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "86f2c0ee-85cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Digital twin modeling of large-aperture fast steering mirror for Space astronomical telescope",
-      "Description": null,
-      "Abstract": "Driven by the key requirements of deep-space exploration, modern space astronomical telescopes are evolving toward larger apertures and longer focal lengths. To ensure high precision and stability in line-of-sight pointing, fast steering mirrors are increasingly application within these optical systems. Due to limited monitoring capabilities and insufficient temporal resolution within the orbital environment, models are required to possess the capability to accurately predict FSM states over finite time horizons. To address this challenge, this paper develops a horizon-adaptive hybrid digital-twin model that combines an incremental GRU rollout branch with a physics-guided residual branch. Experimental results demonstrate that, compared to traditional neural network models, the proposed model achieves a 19% improvement in prediction accuracy for 500-step prediction tasks, thereby providing support for the subsequent state monitoring, and performance assessment of space mechanisms.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Digital-twin-modeling-of-large-aperture-fast-steering-mirror-for/14152-100",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "François-Xavier Schmider, Olivier Lai, Hans-Peter Doerr, Max Görlach, Marcel Carbillet, Lyu Abe, Elora Lefebvre, Julien Dejonghe, Jean-Pierre Rivet, Markus Roth",
-      "PaperNumber": "14149-175",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "719a2a4b-aecb-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "719a2a4b-aecb-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Doppler imaging measurements in the visible with adaptive optics: improving and estimating the PSF for planetary atmosphere wind measurements",
-      "Description": null,
-      "Abstract": "The AOC (Adaptive Optics at Calern) system is based on a 10x10 Shack-Hartmann wavefront sensor and a 97-actuators deformable mirror, and installed on the 1-m C2PU telescope at Calern Observatory, near Nice. It aims at correcting turbulence for both stellar and planetary observations, in the visible (519nm) with the Doppler imager JOVIAL. Simulations of partial correction have been carried out to assess the performance of the system and the gain on accuracy in the velocity measurements.   We are developing performance evaluation tools for AOC, based on real-time telemetry. Additionally, we use a multi-frame blind deconvolution algorithm (MFBD) to estimate the point-spread function from a series of short exposures in the focal plane and compare it to the PSF retrieved from AO telemetry. We plan on using the reconstructed PSF to perform deconvolution on the Jupiter measurements to improve the wind profile determination.  We will present the methods, the observations and preliminary results",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Doppler-imaging-measurements-in-the-visible-with-adaptive-optics/14149-175",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Amir Ebadati Bazkiaei, Tayyaba Zafar, Nuria Lorente, Arihant Raidani",
       "PaperNumber": "14155-102",
       "DateTimeLocationDataList": [
@@ -184,11 +48,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "DustRover: A Python Package for Modelling Dust Extinction Curves (Phase I)",
+      "Title": "DustRover: a Python package for modelling dust extinction curves (phase I)",
       "Description": null,
       "Abstract": "We introduce DustRover, an open-source Python package designed to model dust extinction curves using multi-wavelength observations. DustRover supports optical/NIR spectroscopy, broadband photometry, and X-ray data within a unified framework, enabling robust analysis of spectral energy distributions. Its modular design separates data management, dust models, and MCMC-based statistical fitting, providing flexibility for both standard and custom extinction parametrisations. The package is highly user-oriented, using simple YAML configuration files and offering built-in visualisation tools for SEDs and extinction curves. We present the Phase One capabilities of DustRover, show applications to real GRB and QSO datasets, and outline planned advancements towards a fully automated dust-analysis pipeline.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/DustRover--A-Python-Package-for-Modelling-Dust-Extinction-Curves/14155-102",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/DustRover--a-Python-package-for-modelling-dust-extinction-curves/14155-102",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -264,7 +128,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Sarah Kendrew, Michael Engesser, Kate Rowlands, Alberto Noriega-Crespo, Jonathan Aguilar, Stacey Alberts, Taylor Bell, Aarynn Carter, Misty Cracraft, Hannah Diamond-Lowe, Achrène Dyrek, Karl Gordon, Dean R. Hines, Bryan J. Holler, Kirsten Larson, David R. Law, Katherine Murray, Bryony Nickson, Andreea Petric, Michael Regan, Gregory C. Sloan, Beth Sargent, Sachindev Shenoy, Boris Trahin, Ian Wong",
+      "Authors": "S. Kendrew, K. Rowlands, M. Engesser, S. Noriega-Crespo, J. Aguilar, S. Alberts, T. Bell, A. Carter, M. Cracraft, M. Decleir, H. Diamond-Lowe, A. Dyrek, K. Gordon, D. Hines, B. Holler, K. Larson, D. Law, K. Murray, B. Nickson, B. O'Sullivan, A. Petric, M. Regan, G. Sloan, B. Sargent, S. Shenoy, B. Trahin, I. Wong",
       "PaperNumber": "14145-139",
       "DateTimeLocationDataList": [
         {
@@ -288,7 +152,7 @@
       "HTMLTitle": "",
       "Title": "Enhancing the performance and capabilities of the MIRI instrument on JWST",
       "Description": null,
-      "Abstract": "MIRI, the Mid-Infrared Instrument on the James Webb Space Telescope, provides the only capability longward of 5 µm on the observatory. In this regime, it is providing order-of-magnitude improvements over past facilities in a wavelength range that is challenging or impossible to access from the ground. As such, MIRI occupies a unique parameter space and offers unparalleled capabilities in all areas of astrophysics. Several years into its operational lifetime, we continue to explore the full breadth of MIRI's potential and make operational improvements to MIRI to create new capabilities and enhance its scientific return. In this paper we will describe several such improvements, and their anticipated impact on MIRI and JWST science - focusing on improvements in detector noise performance, improved time-series capabilities,  enhanced efficiency and flexibility of coronagraphic imaging, and a wide-field slitless spectroscopy mode.",
+      "Abstract": "MIRI, the Mid-Infrared Instrument on the James Webb Space Telescope, provides the only capability longward of 5 µm on the observatory. In this regime, it is providing order-of-magnitude improvements over past facilities in a wavelength range that is challenging or impossible to access from the ground. As such, MIRI occupies a unique parameter space and offers unparalleled capabilities in all areas of astrophysics. Several years into its operational lifetime, we continue to explore the full breadth of MIRI's potential and make operational improvements to MIRI to create new capabilities and enhance its scientific return. In this paper we will describe several such improvements, and their anticipated impact on MIRI and JWST science - focusing on improvements in detector noise performance, improved time-series capabilities, definition of new subarrays and a wide-field slitless spectroscopy mode.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Enhancing-the-performance-and-capabilities-of-the-MIRI-instrument-on/14145-139",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -536,7 +400,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Aditya R. Sengupta, Rebecca Jensen-Clem, Emiel H. Por, Benjamin L. Gerard, Vincent Chambouleyron, Zoe M. Weber-Porter, Yoo Jung Kim, Stephanie E. Sallum, Kevin Bundy, Anna Gagnebin, Matthew DeMartino, Daren Dillon, Tara Crowe, Caleb Dobias, Stephen S. Eikenberry, Rodrigo Amezcua-Correa, Stephanos Yerolatsitis",
+      "Authors": "Aditya R. Sengupta, Vincent Chambouleyron, Rebecca Jensen-Clem, Emiel Por, Benjamin L. Gerard, Jordan Diaz, Zoe Weber-Porter, Yoo Jung Kim, Steph Sallum, Matthew DeMartino, Daren Dillon, Kevin Bundy, Anna K. Gagnebin, Philip Hinz, Caleb Dobias, Tara Crowe, Stephen S. Eikenberry, Rodrigo Amezcua-Correa, Stephanos Yerolatsitis",
       "PaperNumber": "14150-167",
       "DateTimeLocationDataList": [
         {
@@ -1182,6 +1046,40 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Giulio Capasso, Carmelo Arcidiacono, Marco Baldini, Andrea Balestra, Massimiliano Belluso, Andrea Bulgarelli, Alessandro Cabras, Marco Citossi, Mirko Colapietro, Stefano Giovannini, David Goz, Marco Landoni, Enrico Licata, Ugo Lo Cicero, Sara Elisa Motta, Amedeo Petrella, Simone Riggi, Salvatore Savarese, Francesco Schillirò, Pietro Schipani, Riccardo Smareglia, Roberto Vecchiato",
+      "PaperNumber": "14155-43",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "10cd69e1-9ccf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "10cd69e1-9ccf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Generative AI: strategies and use cases for astronomy",
+      "Description": null,
+      "Abstract": "Generative AI promises to revolutionize astrophysics and astronomical instrumentation, yet its adoption requires systemic governance to ensure scientific reproducibility. This presentation details the strategy of Gen.IA, a study group at the Italian National Institute for Astrophysics (INAF), designed to bridge the gap between experimental AI and operational deployment.    We present preliminary results from an internal survey assessing AI adoption, expectations, and ethical sentiment within INAF. We further outline a strategic roadmap focusing on knowledge sharing, staff upskilling, and regulatory compliance. Key use cases under investigation include Retrieval-Augmented Generation (RAG) for complex technical documentation, AI-driven requirement management in systems engineering, Agentic AI for automated data analysis, and AI-assisted literature review. This work offers a pathway to leverage Generative AI while balancing innovation with scientific integrity.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Generative-AI-strategies-and-use-cases-for-astronomy/14155-43",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Peter M. Thompson, Hugo Chiquito",
       "PaperNumber": "14152-87",
       "DateTimeLocationDataList": [
@@ -1284,6 +1182,40 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Hugo Gaquere, Cyril Tasse, Olivier Aumage, Damien Gratadour",
+      "PaperNumber": "14153-80",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "8c91abca-79cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "8c91abca-79cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "GPU accelerated deconvolution of radio-interferometric data",
+      "Description": null,
+      "Abstract": "Deconvolution in modern radio-interferometric imaging pipelines face severe performance constraints: deconvolution represents a bottleneck and current implementations lack of portability. We propose a modular GPU-accelerated framework for radio-astronomy deconvolution, to improve runtime performance, portability across pipelines and to reduce algorithm implementation overhead.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/GPU-accelerated-deconvolution-of-radio-interferometric-data/14153-80",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Yan Li, Xinyu Yao, Jian Ge, Jianqing Cai, Pengjun Zhang, Congcong Zhang",
       "PaperNumber": "14145-164",
       "DateTimeLocationDataList": [
@@ -1318,7 +1250,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Alexis Carlotti, Laurent Jocou, Stéphane Curaba, Steven Martos, Edgard Renault, David Le Mignant, Kjetil Dohlen, Jean-François Sauvage, Charlotte Bond, Arthur Vigan, Mickael Bonnefoy",
+      "Authors": "Alexis Carlotti, Steven Martos, Laurent Jocou, Stéphane Curaba, Edgard Renault, Pierre Janin-Potiron, Yves Magnard, Thibaut Moulin, Laly Boyer, Jean-François Sauvage, Charlotte Bond, Kjetil Dohlen, Benoit Neichel, Anne Costille, David Le Mignant, Mickael Bonnefoy, Arthur Vigan, Philippe Delorme, Elodie Choquet",
       "PaperNumber": "14149-230",
       "DateTimeLocationDataList": [
         {
@@ -1342,7 +1274,7 @@
       "HTMLTitle": "",
       "Title": "HARMONI at ELT: from design trade-offs to prototypes of the high-contrast capability",
       "Description": null,
-      "Abstract": "HARMONI is the first light, adaptive optics assisted,  near-IR integral field spectrograph for the ELT. It covers a spectral range from 800nm to 2450nm with resolving powers from 3000 to 7000 and spatial sampling of 25mas and 6mas. It can operate in two adaptive optics modes - SCAO (including a high contrast capability) and MCAO. The project is resuming its final design phase after a rescope design phase in 2025. The high-contrast (HC) system will enable observations of exoplanets and disks as close as 30mas from the star, and will transmit light from 1250nm up to 2450nm. At 200mas, it will enable the detection of companions displaying a 1e-6 flux ratio (or lower) with the star, using post processing techniques such as ADI, SDI and spectral cross-correlation. We will present an updated view of the system and a new estimation of the contrast limit, as well as results obtained in the laboratory with two testbeds built to prototype both the ZELDA WFS and the overall HC system.",
+      "Abstract": "HARMONI is the first light, adaptive optics assisted,  near-IR integral field spectrograph for the ELT. It covers a spectral range from 800nm to 2450nm with resolving powers from 3000 to 7000 and spatial sampling of 25mas and 6mas. It can operate in two adaptive optics modes - SCAO (including a high contrast capability) and MCAO. The project is resuming its final design phase after a rescope design phase in 2025. The high-contrast (HC) system will enable observations of exoplanets and disks as close as 35mas from the star, and will transmit light from 1250nm up to 2450nm. At 200mas, it will enable the detection of companions displaying a 1e-6 flux ratio (or lower) with the star, using post processing techniques such as ADI, SDI and spectral cross-correlation. We will present an updated view of the system and the new properties of the apodizers and focal plane masks, as well as results obtained in the laboratory with the engineering model of the ZELDA WFS.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/HARMONI-at-ELT--from-design-trade-offs-to-prototypes/14149-230",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1556,7 +1488,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jose Schiappacasse Ulloa, Laura Magrini, Anna Brucalassi, Sofia Randich, Letizia Caito, Enrico Giro, Marco Riva",
+      "Authors": "Jose Schiappacasse Ulloa, Laura Magrini, Anna Brucalassi, Sofia Randich, Letizia Caito, Enrico Giro, Marco Riva, Andrea Bianco, Michele Frangiamore",
       "PaperNumber": "14152-101",
       "DateTimeLocationDataList": [
         {
@@ -1624,7 +1556,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "David Rodríguez Muñoz, Samuel Sordo Ibañez, Carlos Colodro, Jose Carlos Sanluis Leal, Gara Ramos, Luis Guirado Fuentes, Pablo González de Chaves, Xana Delpueyo Español, Álex Oscoz, Jose Alonso Burgal, Alfonso Ynigo Rivera, Marco Michelle Bellisario, Mario Manzano Garcia",
+      "Authors": "David Rodríguez Muñoz, Mario Manzano Garcia, Samuel Sordo Ibañez, Carlos Colodro, Jose Carlos Sanluis Leal, Gara Ramos, Luis Guirado Fuentes, Pablo González de Chaves, Marco Michelle Bellisario, Xana Delpueyo Español, Jose Alonso Burgal, Alfonso Ynigo Rivera, Álex Oscoz",
       "PaperNumber": "14145-161",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1656,81 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Juhyeong Kim, Dae-Hee Lee, Chae Kyung Sim",
+      "PaperNumber": "14155-87",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "172f3d79-13cc-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "172f3d79-13cc-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Image recognition using onboard AI for space exploration: from Raspberry Pi validation to a mission-suitable model",
+      "Description": null,
+      "Abstract": "In space exploration missions, onboard AI has been proposed for autonomous data analysis and improved mission  efficiency. However, conventional GPU systems are difficult to deploy on spaceborne platforms due to high power  consumption and radiation vulnerability. Instead, spacecraft often utilizes low-power, radiation-tolerant hardware,  with limited computational capacity. Therefore, onboard AI requires lightweight and efficient architecture.  In this study, the feasibility of onboard AI was initially validated by demonstrating object detection  on Raspberry Pi 4B using YOLOv5n at a watt-level power consumption. The model was then adapted to directly  process raw, single-channel intensity data from spacecraft imaging instruments without channel replication,  which successfully improved both accuracy and speed over conventional three-channel configurations. Finally,  a lightweight super-resolution model was integrated; despite slight speed drop, it enhanced object detection  performance.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Image-recognition-using-onboard-AI-for-space-exploration--from/14155-87",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Been Yeo, Jiwoo Lee, Hyung-Chul Lim, Kyohoon Ahn",
+      "PaperNumber": "14150-158",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "5b9596c3-80ca-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "5b9596c3-80ca-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Implementation of an adaptive optics system for free-space optical communication-based quantum key distribution",
+      "Description": null,
+      "Abstract": "This study aims to implement an adaptive optics (AO) system for free-space optical (FSO) communication-based quantum key distribution (QKD). The exponential increase in data generated by space telescopes and satellites necessitates high-speed and secure data transfer in satellite-ground links. However, atmospheric turbulence causes severe wavefront distortion and beam spreading, drastically reducing coupling efficiency. To ensure stable links, we developed a real-time AO system for an FSO-QKD system. The system measures wavefronts using a Shack-Hartmann Wavefront Sensor with a 19x19 lenslet array and corrects distortion using a Deformable Mirror with 308 actuators (20x20 actuators array). The closed-loop control algorithm uses Zernike polynomials to analyze and minimize aberrations. We have validated the system's performance in a laboratory environment and plan on-sky performance verification using the 1 m telescope at the Korea Astronomy and Space Science Institute (KASI).",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Implementation-of-an-adaptive-optics-system-for-free-space-optical/14150-158",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

@@ -524,11 +524,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "A decade of instrument and observing mode usage at the Gemini Observatory",
+      "Title": "A decade of instrument and observing mode usage at Gemini Observatory",
       "Description": null,
-      "Abstract": "Gemini operates a suite of facility and visiting instruments that support a wide range of observing modes, from seeing-limited and speckle imaging to AO imaging, AO coronography, and spectroscopic techniques including longslit, multi-object and integral-field spectroscopy. Over the past decade, this suite—complemented by a world-class target-of-opportunity system—has enabled broad scientific productivity across both Gemini telescopes. This comprehensive analysis of instrument and observing-mode usage is based on photon-collecting time from the last ten years, examines how the astronomical community has used the available capabilities, and compares usage patterns with historical demand projections. These trends are compared to scientific publication metrics as indicators of productivity. Our goal is to provide an empirical reference for future instrumentation strategy at the Observatory and in particular to teams developing new instruments.",
+      "Abstract": "Over the past decade, Gemini’s instrument suite, complemented by a world-class target-of-opportunity system, has enabled broad scientific productivity across both telescopes. This preliminary analysis of instrument usage is based on on-sky observing time from the last ten years, examining how the astronomical community utilized available capabilities and comparing usage patterns across different observing modes. These trends suggest that the future instrument suite should continue balancing operational versatility, efficient queue execution, and complementary capabilities, with specialized capabilities like those provided through the visiting instrument program. In the next stages of this work, these trends will be compared to scientific publication metrics as indicators of productivity. Our goal is to provide an empirical reference for future instrumentation strategy at the Observatory and in particular to teams developing new instruments.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/A-decade-of-instrument-and-observing-mode-usage-at-the/14149-146",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/A-decade-of-instrument-and-observing-mode-usage-at-Gemini/14149-146",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -672,7 +672,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Skyler Palatnick, Ryan Hersey, Maxwell Millar-Blanchaer, J. Kent Wallace, Tobias Wenger",
+      "Authors": "Skyler Palatnick, Maxwell Millar-Blanchaer, Ryan Hersey, J. Kent Wallace, Tobias Wenger, Andy Skemer, R. Deno Stelter, Jaren Ashcraft, Bill Mitchell",
       "PaperNumber": "14154-300",
       "DateTimeLocationDataList": [
         {
@@ -696,43 +696,9 @@
       "HTMLTitle": "",
       "Title": "A metasurface scalar vortex for the SCALES instrument",
       "Description": null,
-      "Abstract": "As scalar vortex coronagraphic mask development progresses with the long term goal of use in the Habitable Worlds Observatory, new opportunities for on-sky installation have emerged. With a metasurface platform, scalar vortices can overcome limitations of commonly used vector vortices. We describe development of a K-band metasurface scalar vortex for the SCALES instrument to be commissioned on Keck Observatory later this year. We report on device design, fabrication, and characterization, a vortex composed of silicon nanoposts on silica substrate. The device demonstrates high transmission and achromatic phase across the K band. We discuss simulated coronagraphic performance and plans for installation, future lab-characterization, and on-sky characterization. Upon installation, this optic will be the first scalar vortex, first charge-4 vortex, and first metasurface coronagraphic mask on-sky. Such a milestone will help pave the way for future metasurface coronagraphic instruments.",
+      "Abstract": "As scalar vortex coronagraphic mask development progresses with the long term goal of use in the Habitable Worlds Observatory, new opportunities for on-sky installation have emerged. With a metasurface platform, scalar vortices can overcome limitations of commonly used vector vortices. We describe development of a K-band metasurface scalar vortex for the SCALES instrument to be commissioned on Keck Observatory later this year. We report on device design, fabrication, and characterization of a vortex composed of silicon nanoposts on silica substrate. The device demonstrates high transmission and achromatic phase across the K band. We discuss simulated coronagraphic performance and plans for installation, future lab-characterization, and on-sky characterization. Upon installation, this optic will be the first scalar vortex, first charge-4 vortex, and second metasurface coronagraphic mask on-sky. Such a milestone will help pave the way for future metasurface coronagraphic instruments.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/A-metasurface-scalar-vortex-for-the-SCALES-instrument/14154-300",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Jake Zimmer, Michael Langmayr, Takeru Hayashi",
-      "PaperNumber": "14154-296",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "791d7849-b6d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "791d7849-b6d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "A novel high channel count thermal control system for precision astronomy",
-      "Description": null,
-      "Abstract": "We present a compact, high-precision thermal control system that achieves an unusually high channel count in a modular, reconfigurable architecture. The HISPEC implementation provides 40 heater outputs and 80 temperature-sensor inputs in a low-profile rack-mount enclosure, addressing thermal-control demands that exceed the capabilities of traditional Lakeshore controllers or detector-controller–based solutions. The system architecture utilizes a backplane into which dedicated heater or sensor cards are inserted to tailor functionality while minimizing new hardware development. Heater cards support both low-power linear outputs for fine temperature trimming and high-power switching outputs for rapid warm-up. Sensor cards accommodate RTD and diode with programmable current sources and true 24-bit ADCs. Control and telemetry are provided over TCP/IP with integrated fault-handling. Although developed for HISPEC, this architecture is applicable to many thermally controlled instruments.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/A-novel-high-channel-count-thermal-control-system-for-precision/14154-296",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -774,7 +740,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Olivier Daigle, Émile Beaulieu, Deren Mehmet, Hank Hu",
+      "Authors": "O. Daigle, É. Beaulieu, D. Mehmet, H. Hu",
       "PaperNumber": "14145-295",
       "DateTimeLocationDataList": [
         {
@@ -798,7 +764,7 @@
       "HTMLTitle": "",
       "Title": "A space qualified digital imaging platform: design, TVAC characterization, and radiation performance with the HWK4123 sCMOS sensor",
       "Description": null,
-      "Abstract": "We present the characterization results of Nüvü Camēras’ space qualified digital imaging platform, integrated with the Fairchild Imaging’s low noise (<0.25e RMS) HWK4123 9.4-megapixel sCMOS sensor. The imaging system has been designed for challenging missions requiring low read noise and/or high dynamic range, such as SSA, transient imaging or applications requiring daytime and nighttime imaging capability. Environmental testing was performed in TVAC to evaluate performance stability over the imaging system’s full temperature range. In addition, we present radiation response data obtained during a proton irradiation campaign conducted at TRIUMF (British Columbia, Canada), focusing on TID, and single-event phenomena observed in the HWK4123 sensor. These results demonstrate the suitability of the Nüvü Camēras-Fairchild Imaging innovative devices for space missions requiring high-performance wide-field sensing.",
+      "Abstract": "We present the characterization results of Nüvü Camēras’ space-qualified digital imaging platform, integrated with the Fairchild Imaging’s low noise (<0.3 electron RMS) HWK4123 9.4-megapixel sCMOS sensor. The imaging system has been designed for challenging missions requiring low read noise and/or high dynamic range, such as SSA, transient imaging, or applications requiring daytime and nighttime imaging capability. Environmental testing was performed in TVAC to evaluate performance stability over the imaging system’s full temperature range. In addition, we present radiation response data obtained during a proton irradiation campaign conducted at TRIUMF (British Columbia, Canada), focusing on TID, and single-event phenomena observed in the HWK4123 sensor. These results demonstrate the suitability of the Nüvü-Fairchild Imaging innovative devices for space missions requiring high-performance wide-field sensing.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/A-space-qualified-digital-imaging-platform--design-TVAC-characterization/14145-295",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -842,7 +808,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jake Zimmer",
+      "Authors": "Jake Zimmer, Daniel McKenna, Roger Smith, William Schoenell, Karim Kaismoune, Patricio Schurter, Hector Rodriguez",
       "PaperNumber": "14154-295",
       "DateTimeLocationDataList": [
         {
@@ -1148,7 +1114,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Deniz Ölçek, Tore André Bekkeng, Fredrik Harring Mathiesen, Georg Magneshaugen, Halvor Strøm, John Rune Jakobsen, Vetle Berg Abrahamsen, Ha Hoang, Mattias Carlqvist, Mustafa Najjar, Jennifer Travanca",
+      "Authors": "Deniz Ölçek, Tore André Bekkeng, John Rune Jakobsen, Fredrik Harring Mathiesen, Vetle Berg Abrahamsen, Halvor Strøm, Georg Magneshaugen, Ha Hoang, Mustafa Najjar, Jennifer Travanca, Vidar Espeland, Simen Harnes, Mattias Carlqvist, Pekka Tapio Neuvonen",
       "PaperNumber": "14145-137",
       "DateTimeLocationDataList": [
         {
@@ -1170,7 +1136,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Advancing modular space avionics: design and development of an ADHA payload controller module",
+      "Title": "Advancing modular space avionics: design and development of an ADHA payload controller module for PICU",
       "Description": null,
       "Abstract": "The Advanced Data Handling Architecture (ADHA) is an ESA initiative to establish a compact and modular avionics framework for future space missions. Within this architecture, the Payload Interface Controller Unit (PICU) provides centralized instrument control, data handling, and timing distribution. This work presents the design and development efforts of the Payload Controller Module (PCM), a key building block of the PICU responsible for sensor interfacing and payload command management. We outline the PCM’s role within the PICU, the motivation behind its modular design, and the progress toward its engineering model. The work demonstrates how ADHA’s reusable avionics approach can streamline payload development and support a broad range of scientific and Earth-observation missions.",
       "ImagePath": null,
@@ -1216,7 +1182,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Benoît Lecomte, Antoine Arondel, Bruno Crane, Jean-Pierre Dubois, Stephane Da Costa Vieira, Clémence De Jabrun, François Langlet, Dylan Le Claire, Gilles Morinaud, Marc Ollivier, Anne Philippon, Catherine Tamiatto, Xueyan Zhang, Jérôme Amiaux, Michel Berthé, Benoît Horeau, Jérôme Martignac, Norma Hurtado, Vincent Lapeyrère, Jérôme Parisot, Eitan Péchevis, Jean-Michel Réess",
+      "Authors": "Benoît Lecomte, Antoine Arondel, Bruno Crane, Jean-Pierre Dubois, Stéphane Da Costa Vieira, Clémence De Jabrun, François Langlet, Dylan Le Claire, Gilles Morinaud, Marc Ollivier, Anne Philippon, Catherine Tamiatto, Xueyan Zhang, Jérôme Amiaux, Michel Berthé, Benoît Horeau, Norma Hurtado, Isabelle Le Mer, Jérôme Martignac, Thibault Pichon, Lena Provost, François Visticot, Christophe Cossou, Mickaël Lacroix, Vincent Lapeyrère, Jérôme Parisot, Eitan Péchevis, Jean-Michel Réess, Didier Zeganadin, Adrien Défossé, Mallaury Guerrier",
       "PaperNumber": "14145-118",
       "DateTimeLocationDataList": [
         {
@@ -1454,7 +1420,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Audrey Lanotte, Bruno Chazelas, Christophe Lovis, David Lee, Ulrike Lemke, Daniel P. Sablowski, Vinooja Thurairethinam, Michael Weber, Ernesto Oliva, Ian Hughes, Yevgeniy Ivanisenko, Ludovic Genolet, Pedro Morales Sanchez, Michaël Sordet, Paolo Di Marcantonio, Alessandro Marconi, Alessio Zanutta, Matteo Aliverti",
+      "Authors": "Audrey Lanotte, Bruno Chazelas, Christophe Lovis, David Lee, Ulrike Lemke, Daniel P. Sablowski, Vinooja Thurairethinam, Michael Weber, Ernesto Oliva, Ian Hughes, Yevgeniy Ivanisenko, Ludovic Genolet, Pedro Morales Sanchez, Michaël Sordet, Paolo Di Marcantonio, Alessandro Marconi, Alessio Zanutta, Matteo Aliverti, Andrea Balestra, Lorenzo Cabona, Igor Coretti, Giorgio Pariani, Edoardo Radaelli, Marcello A. Scalera, Andrea Scaudo",
       "PaperNumber": "14154-190",
       "DateTimeLocationDataList": [
         {
@@ -1488,7 +1454,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Mamadou N'Diaye, Adrien Simonnin, Alain Spang, Christophe Bailet, Philippe Berio, Yan Caujolle, Oscar Carrión-Gonzalez, Gael Chauvin, Andrea Chiavassa, Salvador Cuevas Cardona, Omar Gabella, Stephane Lagarde, Patrice Martinez, Bhavesh Rajpoot, Julia Seidel, Guido Agapito, Giulia Carlà, Enrico Pinna, Chiara Selmi, Mathis Houllé, Arthur Vigan, Paolo Di Marcantonio",
+      "Authors": "Mamadou N'Diaye, Adrien Simonnin, Alain Spang, Philippe Berio, Andrea Chiavassa, Guido Agapito, Christophe Bailet, Giulia Carlà, Yan Caujolle, Oscar Carrión-Gonzalez, Gael Chauvin, Salvador Cuevas, Omar Garbella, Mathis Houllé, Stephane Lagarde, Patrice Martinez, Enrico Pinna, Bhavesh Rajpoot, Julia Seidel, Chiara Selmi, Arthur Vigan, Paolo Di Marcantonio",
       "PaperNumber": "14150-142",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Eitan Péchevis, Jérôme Amiaux, Clara Bataillon, Marion Baumann, Michel Berthé, Thomas Capocci, Christophe Cara, Cyrille Delisle, Elsa Ducrot, Jean Fontignie, Benoit Horeau, Duc-Dat Huynh, Grégory Kaszubiak, Pierre-Olivier Lagage, Isabelle Le Mer, Nathan Leguay, Michel Lortholary, Jérôme Martignac, Thibault Pichon, Léna Provost, Bastien Reboul, Diana Renaud, Thierry Tourrette, François Visticot, Damien Bachet, Nicolas Berton, Christophe Cossou, Mickaël Lacroix, Hervé Le Provost, Virgile Meyer, Lexane Picault, Nicolas Solenne, Antoine Arondel, Stéphane Correia-da-Costa, Bruno Crane, Jean-Pierre Dubois, Norma Hurtado, Clémence De Jabrun, François Langlet, Benoît Lecomte, Antoine Maillot, Marc Ollivier, Anne Philippon, Catherine Tamiatto, Stéphane Tosti, Xue Yan Zhang, Eric Gendron, Yanis Gougeat, Vincent Lapeyrere, Jérôme Parisot, Jean-Michel Reess, Didier Zeganadin, Alain Triffaux, Jean-Christophe Bouquier, Daphné Caillot, Fabrice Glize, Pascal Truchelut, Jean-Philippe Beaulieu, Pierre Drossart, Angèle Sity, Pierre Vigneron, Isabelle Zenone, Elisa Baldit, Pascale Danto, Hervé Geoffray, Gaëlle Giesen, Elodie Jacquel, Oceane Maisonnave, Florian Lazartigues, Paul Eccleston, Enzo Pascale, Adrien Défossé, Mallaury Guerrier",
+      "PaperNumber": "14145-113",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "Cancelled",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "5911d025-91cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "5911d025-91cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Ariel InfraRed Spectrometer (AIRS): performance of the full instrument engineering model",
+      "Description": null,
+      "Abstract": "ARIEL IR Spectrometer (AIRS) is the infrared spectroscopic instrument of the ARIEL mission providing spectroscopy based on two independent channels covering the CH0 [1.95-3.90] µm and the CH1 [3.90-7.80] µm wavelength. The instrument is producing spectrum of low resolutions R>100 in CH0 and R>30 in CH1 on two independent Teledyne H1RG detectors. The Engineering Model is the first model fully representative in terms of performance of the full instrument chain, from optical to detection chain performance. The test bench and the results of the AIRS Engineering Model full instrument characterization of performance are presented in this paper covering the optical and detection chain in a representative environment of the mission.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Ariel-InfraRed-Spectrometer-AIRS--performance-of-the-full-instrument/14145-113",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

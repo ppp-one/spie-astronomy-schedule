@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Qihang Zhang, Shuangquan Chen, Yonggang Gu, Zhen Zhang",
-      "PaperNumber": "14154-152",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "5dba3ab8-f6cc-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "5dba3ab8-f6cc-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Online upgradeable fiber positioning drive system for LAMOST",
-      "Description": null,
-      "Abstract": "The LAMOST Phase II project has entered a critical stage, and a miniaturized driver board has been designed for the new integrated fiber positioner. In terms of hardware, a 6-layer PCB with a compact layout is adopted, with an overall board size of 142×14 mm, covering power supply, main control, driver, and communication modules, which can realize parallel control of six BLDC motors and triple the control efficiency. In terms of software, a precise open-loop drive algorithm is used to control the BLDC motors,a self-inspectable motor control logic is designed, data and commands are received under a CAN communication network, and remote online hardware program upgrade can be realized via IAP, which improves the efficiency of system maintenance and upgrade. Finally, an experimental platform is built for verification. Multiple fiber positioning tests demonstrate that 98.86% of positioning errors are less than 20μm, which satisfies the high-precision positioning requirements of the LAMOST.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Online-upgradeable-fiber-positioning-drive-system-for-LAMOST/14154-152",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Jin-Ah Kim, Haeun Chung, Miriam Keppler, Aafaque Khan, Carlos Vargas, Erika Hamden",
       "PaperNumber": "14146-119",
       "DateTimeLocationDataList": [
@@ -155,6 +121,40 @@
       "Abstract": "The Son Of X-Shooter (SOXS) instrument is a dual-arm, wide-band spectrograph designed to provide rapid and flexible follow-up observations of transient phenomena with the ESO NTT.  After successfully completing its Preliminary Acceptance in Europe at the end of 2024, the instrument was shipped to the ESO La Silla Observatory.  This paper presents the on-site integration and validation of the SOXS control electronics.  We describe the tests performed at the telescope, including hardware integration, verification of network and software interfaces, functional checks of the motion and thermal control systems, and communication tests with the instrument control software.  Particular emphasis is placed on the assessment of timing stability, electromagnetic compatibility within the telescope environment, and system robustness under operational constraints such as temperature variations and safety interlocks, highlighting lessons learned that guided the optimization of the system.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/On-site-integration-and-validation-of-the-SOXS-control-electronics/14149-156",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Rasjied Sloot, Rudy Wijnands, Steven Bloemen, Hans Ellermeijer, Alexander Hoogerbrug, Rik ter Horst",
+      "PaperNumber": "14147-116",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "c4c44d1d-e499-f011-a9ac-00505691c5e1---crmrecord",
+      "GUID": "c4c44d1d-e499-f011-a9ac-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "On-sky commissioning and technical performance of Proto-NUX at Pic du Midi",
+      "Description": null,
+      "Abstract": "The Near-Ultraviolet eXplorer (NUX) is a proposed ground-based observing facility designed to expand near-ultraviolet (NUV) astronomy by enabling observations in the 300--350 nm range from Earth. To validate this concept, a single-telescope prototype, Proto-NUX, was commissioned at the Pic du Midi Observatory in the French Pyrenees during its first high-altitude observing campaign in March 2026. The campaign tested deployment, remote operation, calibration, detector performance, image quality, tracking, and simultaneous optical monitoring under realistic observing conditions. In particular, the delivered NUV point-spread function was broader than expected, likely due to residual collimation, chromatic effects, and internal reflections. The detector dark current contributed significantly to the noise budget. We discuss limitations and key improvements for future Proto-NUX campaigns and the NUX system.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/On-sky-commissioning-and-technical-performance-of-Proto-NUX-at/14147-116",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -264,7 +264,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Mayra Gutierrez, Rebecca Jensen-Clem, Steph Sallum, Charlotte Guthery, Antonin Bouchez, Maïssa Salama, Mahawa Cissé, Katherine de Kleer",
+      "Authors": "Mayra Gutierrez, Maïssa Salama, Mahawa Cissé, Steph Sallum, Rebecca Jensen-Clem, Charlotte Guthery, Antonin Bouchez, Katherine de Kleer",
       "PaperNumber": "14150-145",
       "DateTimeLocationDataList": [
         {
@@ -332,7 +332,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jessica B. Patel, Luis Rodriguez de Marcos, Javier G. Del Hoyo, Manuel A. Quijada, Mukti M. Rana, Nurunnesa Sultana",
+      "Authors": "Jessica B. Patel, Nurunnesa Sultana, Luis Rodriguez de Marcos, Javier G. Del Hoyo, Manuel A. Quijada, Mukti M. Rana",
       "PaperNumber": "14154-332",
       "DateTimeLocationDataList": [
         {
@@ -354,11 +354,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Optical and Electrical Stability of RF-Sputtered AZO Thin Films Under Humidity Exposure for Space Optical Applications",
+      "Title": "Optical and electrical properties of RF-sputtered AZO thin films for space optical applications",
       "Description": null,
-      "Abstract": "Transparent conductive oxides (TCOs) are of interest for optical and optoelectronic applications requiring both high optical transmission and electrical conductivity. Among these materials, aluminum-doped zinc oxide (AZO) has emerged as a promising alternative to indium tin oxide (ITO) due to its low cost, abundance of constituent elements, and favorable optical properties. In space-based optical systems, conductive coatings may provide passive charge dissipation while maintaining high optical throughput, making them attractive for detector windows, optical sensors, laser communication systems, and LiDAR instrumentation operating near 1064 nm.",
+      "Abstract": "Transparent conductive oxides (TCOs) are of interest for optical and optoelectronic applications requiring both high optical transmission and electrical conductivity. In this work, aluminum-doped zinc oxide (AZO) thin films were deposited on glass substrates using RF magnetron sputtering under varying deposition conditions. The films were characterized using UV–Vis–NIR spectrophotometry, four-point probe electrical measurements, and surface morphology analysis to evaluate their optical transmission, sheet resistance, and surface quality. The deposited films exhibited high optical transmission at both 1064 nm and 1550 nm while maintaining measurable electrical conductivity. These results demonstrate the potential of RF-sputtered AZO thin films as transparent conductive coatings for future space optical systems requiring both high optical throughput and passive charge dissipation.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-and-Electrical-Stability-of-RF-Sputtered-AZO-Thin-Films/14154-332",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-and-electrical-properties-of-RF-sputtered-AZO-thin-films/14154-332",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -400,7 +400,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Alexis Hill, Glen Herriot, Thushara Gunaratne, Zoran Ljusic, Scott Macdonald, Emma Rautio-Roe, William Thompson, Maaike van Kooten, Ross Cheriton, Siegfried Janz, Brent Carlson, Leonid Belostotski, John Nielsen, Peter Shmerko",
+      "Authors": "Alexis Hill, Glen Herriot, Scott Macdonald, Emma Rautio-Roe, William Thompson, Maaike van Kooten, Thushara Gunaratne, Zoran Ljusic, Brent Carlson, Ross Cheriton, Siegfried Janz, Leonid Belostotski, John Nielsen, Peter Shmerko",
       "PaperNumber": "14150-131",
       "DateTimeLocationDataList": [
         {
@@ -422,11 +422,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Optical aperture synthesis: lab demonstration of adaptive optics using integrated photonics without deformable mirrors or wavefront sensors",
+      "Title": "Optical aperture synthesis (OAS): lab demonstration of atmospheric turbulence correction",
       "Description": null,
       "Abstract": "The Optical Aperture Synthesis (OAS) pathfinder project aims to advance adaptive optics by replacing traditional deformable mirrors and wavefront sensors with a fiber-fed integrated photonic chip capable of rapid phase control and beam combination. A laboratory demonstration shows H-band light from four fiber-fed channels combined on-chip with closed-loop phase correction, achieving an order of magnitude faster response than conventional systems. Future work will retrofit the demonstrator to a 1.2 m telescope for on-sky testing, paving the way eventually for arrays of small telescopes that may achieve micro-arcsecond resolution in near-infrared imaging and spectroscopy of exoplanets.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-aperture-synthesis--lab-demonstration-of-adaptive-optics-using/14150-131",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-aperture-synthesis-OAS--lab-demonstration-of-atmospheric-turbulence/14150-131",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -468,7 +468,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Nitish Singh",
+      "Authors": "Nitish Singh, Sriram Sripadmanaban, Totan Chand, Juergen Schmoll, Bharat Kumar Yerra, Savitha M. S.",
       "PaperNumber": "14154-145",
       "DateTimeLocationDataList": [
         {
@@ -490,11 +490,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Optical design of a direct fibre-fed mos for the 2.34 m VBT",
+      "Title": "Optical design of a direct fibre-fed MO-IFS for the NLOT",
       "Description": null,
-      "Abstract": "We are designing the optical system of a direct fiber-fed, multi-object, medium-resolution spectrograph for the 2.34 m Vainu Bappu Telescope (VBT). The instrument will simultaneously accept light from 100 optical fibers placed at the telescope’s prime-focus focal plane, which provides a native f/3 beam. Each fiber has a core diameter of 100 µm and feeds an f/3 beam directly into the spectrograph, eliminating the need for a traditional entrance slit and improving throughput. The spectrograph operates in two channels—blue (350–620 nm) and red (600–1000 nm)—to provide continuous wavelength coverage across the optical band. The design targets a resolving power of R ≈ 3000 in both channels. The expected image quality delivers a full width at half maximum (FWHM) of 2–3 pixels on the detector, where one pixel corresponds to 24 µm. This ensures adequate sampling and stable spectral performance across the full field",
+      "Abstract": "Here we are presenting the initial optical design and performance analysis of a dual-channel fiber-fed Multi Object Integral Field spectrograph (MO-IFS) being developed for a future large optical telescope in India. The spectrograph is designed to directly accept an f/4 beam from a 100 µm optical fiber without additional fore-optics. The instrument consists of two optimized spectral channels covering wavelength ranges of 320–620 nm (blue channel) and 600–1000 nm (red channel). The optical design aims to achieve moderate spectral resolutions of approximately R ~ 2700 in the blue channel and R ~ 2500 in the red channel while maintaining high throughput over a broad spectral range. The spectrograph architecture includes a fiber-fed entrance slit, collimator optics, dichroic beam splitting system, dispersive elements, and dedicated camera optics for each channel. Zemax simulations were carried out to evaluate image quality, spot size distribution, spectral resolution, and detector sampling",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-design-of-a-direct-fibre-fed-mos-for-the/14154-145",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-design-of-a-direct-fibre-fed-MO-IFS-for/14154-145",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -560,7 +560,7 @@
       "HTMLTitle": "",
       "Title": "Optical modelling of a digital micromirror device as programmable slits for the CASTOR ultraviolet multi-object spectrograph",
       "Description": null,
-      "Abstract": "The Ultraviolet Multi-Object Spectrograph (UVMOS) is a proposed UV (150 to 300 nm) instrument for the CASTOR mission. The UVMOS utilizes a digital micromirror device (DMD) to create object selecting slits. The DMD consists of programmable mirrors that tilt +/- 12 degrees to selectively project the incoming field to a collecting aperture. Multi-object spectroscopy using the DMD has been demonstrated in the optical and infrared and is being evaluated for future UV missions like CASTOR and HWO. This work builds on previous simulations of a DLP7000 device in the UV using electromagnetic finite-difference time-domain (FDTD) method to understand its optical performance. We introduce new results alongside additions to our FDTD model that simulates the underlying substrate and manufacturing-induced surface defects. We quantify the DMD efficiency and contrast in the UVMOS operating wavelengths (150 to 300 nm) and discuss how that leads to constraints to optical design of the UVMOS.",
+      "Abstract": "The Ultraviolet Multi-Object Spectrograph (UVMOS) is a proposed UV (150 to 300 nm) instrument for the CASTOR mission. The UVMOS utilizes a digital micromirror device (DMD) to create object selecting slits. The DMD consists of programmable mirrors that tilt +/- 12 degrees to selectively project the incoming field to a collecting aperture. Multi-object spectroscopy using the DMD has been demonstrated in the optical and infrared and is being evaluated for future UV missions like CASTOR and HWO. This work builds on previous simulations of a DLP7000 device in the UV using electromagnetic finite-difference time-domain (FDTD) method to understand its optical performance. We introduce new results calculated from our previous simulation model that quantifies optical performance. We calculate metrics such as DMD efficiency, contrast, and effective PSF in UVMOS operating wavelengths (150 to 300 nm) to support UVMOS design.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-modelling-of-a-digital-micromirror-device-as-programmable-slits/14146-153",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -808,7 +808,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Benjamin Calvin, Rose Gibson, Michael Fitzgerald, Jason Fucik, Evan Kress, Eric Wang, Chris Johnson, Jake Zimmer, James Wiley, Tim Greffe, Don Neill, Rishi Pahuja, Takayuki Kotani, Ashley Baker, Sam Halverson, Nemanja Jovanovic, Dimitri Mawet",
+      "Authors": "Benjamin Calvin, Rose Gibson, Michael Fitzgerald, Jason Fucik, Evan Kress, Ricardo Meneses, Eric Wang, Therese Cook, Chris Johnson, Jake Zimmer, Reston Nash, James Wiley, Tim Greffe, Bradley Price, Don Neill, Rishi Pahuja, Takayuki Kotani, Ashley Baker, Sam Halverson, Roger Smith, Nemanja Jovanovic, Dimitri Mawet",
       "PaperNumber": "14149-118",
       "DateTimeLocationDataList": [
         {
@@ -1036,7 +1036,7 @@
       "HTMLTitle": "",
       "Title": "Performance evaluation of PFS fiber positioner, Cobra, using accumulated operational data",
       "Description": null,
-      "Abstract": "The Prime Focus Spectrograph (PFS) / ʻŌnohiʻula on the Subaru Telescope is a multi-object spectrograph employing nearly 2,400 robotic fiber positioners, named Cobras, to place fibers onto astronomical targets. We present a comprehensive evaluation of Cobra positioning performance and the pipelines developed for routine monitoring. The analysis focuses on three metrics: geometry, which characterizes the center positions, arm lengths, and rotational ranges of Cobras; motor maps, which describe angular-dependent motor movement speeds; and convergence, which quantifies how closely Cobras reach their assigned targets. Using the accumulated PFS operational dataset from 2023 to 2025, we assess the long-term behavior of these metrics as functions of telescope position and operational epoch. The resulting performance trends provide essential guidance for optimizing Cobra motions during observations. We developed a publicly accessible dashboard that presents all evaluated metrics for PFS users.",
+      "Abstract": "The Prime Focus Spectrograph (PFS) / Onohiula on the Subaru Telescope is a multi-object spectrograph employing 2394 robotic fiber positioners, called Cobras, to place fibers onto astronomical targets. We present a comprehensive evaluation of Cobra positioning performance and the pipelines developed for routine monitoring. The analysis focuses on three metrics: (1) convergence, which quantifies the positioning accuracy of Cobras in reaching their assigned targets; (2) geometry, which characterizes the center positions, arm lengths, and rotational ranges of Cobras; and (3) motor maps, which describe angular-dependent motor movement speeds. Using the accumulated PFS operational dataset from 2023 to 2026, we assess the long-term behavior of these metrics as functions of telescope position and operational epoch. The resulting performance trends provide essential guidance for optimizing Cobra motions during observations.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Performance-evaluation-of-PFS-fiber-positioner-Cobra-using-accumulated-operational/14149-124",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1080,7 +1080,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Stephen A. Smee, Aidan C. Gray, Stephen C. Hope, Randolph P. Hammond, Albert J. Harding, Tyson S. Hare, Leon Aslan, Robert H Barkhouser, Christoph Birk, Julia Brady, Maren Cosens, Charlie Hull, Karim Kaismoune, Daniel D. Kelson, Gerrad Killian, Nicholas P. Konidaris, Alicia E. Lanz, Jacob McCloskey, Andrew B. Newman, Solange Ramírez, Gwen C. Rudie, William Schoenell, Jason E. Williams",
+      "Authors": "Stephen A. Smee, Aidan C. Gray, Stephen C. Hope, Randolph P. Hammond, Albert J. Harding, Tyson S. Hare, Leon Aslan, Robert H. Barkhouser, Christoph Birk, Julia Brady, Maren Cosens, Charlie Hull, Karim Kaismoune, Daniel D. Kelson, Gerrad Killian, Nicholas P. Konidaris, Alicia E. Lanz, Jacob McCloskey, Andrew B. Newman, Solange Ramírez, Gwen C. Rudie, William Schoenell, Jason E. Williams",
       "PaperNumber": "14154-158",
       "DateTimeLocationDataList": [
         {
@@ -1727,10 +1727,10 @@
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

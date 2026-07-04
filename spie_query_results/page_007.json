@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Woong-Seob Jeong, Youngsoo Jo, Yujin Yang, Myung Sang Huh, Gil Jae Lee, Jeonghyun Pyo",
-      "PaperNumber": "14154-306",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "2b45f16b-28d1-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "2b45f16b-28d1-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Fabrication and evaluation of aluminum image slicers for high-throughput IFU spectrograph",
-      "Description": null,
-      "Abstract": "We present the development and of aluminum image slicers intended for use in astronomical spectrographs. The image slicer is fabricated from aluminum materials using a diamond-turning machine equipped with customized end mills. Machining parameters were optimized through test cuts on aluminum materials, establishing stable mirror-finish conditions with an average surface roughness of ~10 nm. After optimization for prototype slicers, we achieved average surface roughness values of 10-13 nm, demonstrating reproducible smooth surfaces over the full array of slicer facets. These results confirm that direct diamond-turning machining of RSA6061 can meet the surface quality required for high-throughput, low-scatter reflective image slicers. We outline the planned integration of the fabricated image slicer into a prototype Integral-Field-Unit (IFU) spectrograph and discuss the expected improvement in observing efficiency for future ground-based and space-based instruments.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Fabrication-and-evaluation-of-aluminum-image-slicers-for-high-throughput/14154-306",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Ceiwynn C. Longworth, Megan M. Delamer, Suvrath Mahadevan, Joe P. Ninan, Kathleen Gehoski, Krushna Jadhav",
       "PaperNumber": "14154-202",
       "DateTimeLocationDataList": [
@@ -332,7 +298,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Tyrone Woods, Patrick Côté, John S. Pazder, Matthew A. Taylor",
+      "Authors": "Tyrone Woods, Patrick Côté, John S. Pazder, Matthew A. Taylor, Gareth Jones, Michelle Kao, Charles Lee, Jocelyn Roney, Jade Yeung",
       "PaperNumber": "14146-133",
       "DateTimeLocationDataList": [
         {
@@ -434,7 +400,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Markus Feldt, Thomas Bertram, Falk Eilenberger, Camille Graf, Pascal Jaufmann, Maud Langlois, Andreas Obereder, Raphael Pourcelot, Silvia Scheithauer, Horst Steuer",
+      "Authors": "Markus Feldt, Thomas Bertram, Falk Eilenberger, Camille Graf, Pascal Jaufmann, Maud Langlois, Andreas Obereder, Raphaël Pourcelot, Silvia Scheithauer, Horst Steuer",
       "PaperNumber": "14150-133",
       "DateTimeLocationDataList": [
         {
@@ -706,7 +672,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Anne-Laure L. Cheffot, Amita Shrestha, Johannes Prell",
+      "Authors": "Anne-Laure Cheffot, Amita Shrestha, Johannes Prell",
       "PaperNumber": "14147-108",
       "DateTimeLocationDataList": [
         {
@@ -978,6 +944,40 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Meghna Sitaram, David Schiminovich, Ignacio Cevallos-Aleman, Nicole Melso, Anaelle Roc",
+      "PaperNumber": "14149-117",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "c5d93a5f-99d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "c5d93a5f-99d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "High-resolution modes for the deep survey of the circumgalactic H-alpha spectrograph",
+      "Description": null,
+      "Abstract": "The Circumgalactic H-alpha Spectrograph (CHaS) is an integral-field spectrograph (IFS) optimized to observe faint optical emission lines from the ionized circumgalactic medium (CGM) of nearby galaxies. CHaS has a wide (10’x10’) field of view with moderate velocity resolution (R~10000) over a narrow bandpass (30 A). Instrument upgrades are in progress prior to a deep survey aiming to collect 50 hours of data on multiple nearby galaxies. We present the performance of new custom narrowband filters centered on the OIII, Ha and NII lines, alignment upgrades reducing field-dependent aberrations and active control of the microlens array to minimize mechanical flexure during observations. We also report on tests of high-resolution modes (R~15000-30000) using higher-pitch microlens arrays and gratings. The targeted upgrades will allow deeper observations of the CGM while informing crucial design decisions needed to optimize similar wide-field, narrowband IFUs like the upcoming LIONESS cubesat.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/High-resolution-modes-for-the-deep-survey-of-the-circumgalactic/14149-117",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Ko Hosokawa, Takayuki Kotani, Hajime Kawahara, Yui Kawashima, Kento Masuda, Aoi Takahashi, Kazuo Yoshioka",
       "PaperNumber": "14149-96",
       "DateTimeLocationDataList": [
@@ -1039,40 +1039,6 @@
       "Abstract": "I will present the design of HiPERPOL, a polarimetry module for the quintuple-beam high-speed optical camera HiPERCAM, which is mounted on the 10.4m Gran Telescopio Canarias on La Palma.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/HiPERPOL-a-polarimetry-module-for-HiPERCAM-on-the-GTC/14149-126",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Lawrence Bissell, Ellie Smith, Ben Buky, David Isherwood, Jay Stephan, David Lee",
-      "PaperNumber": "14154-267",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "3fbffaab-71d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "3fbffaab-71d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Hollow cathode lamps: upgrading astronomy’s calibration lamps for the next generation of multi-object spectrographs",
-      "Description": null,
-      "Abstract": "Wavelength calibration for multi-object spectrographs (MOS) commonly uses hollow-cathode lamps (HCLs). HCLs provide many well-characterised lines in the visible and near infrared. However, these lamps are too faint for future MOS in the VLT/ELT era, due to the large focal planes that must be characterised. This paper presents a technology development project focused on the design and manufacture of a prototype, high-intensity, HCL unit tailored for astronomical purposes. In our custom-built units we are optimizing the cathode design, material, and current, allowing the mosaicking of configurable cathodes. We also present work on characterisation of Cerium cathodes, identified as a potential alternative to Thorium and Uranium due to its favourable nuclear properties. This work provides a roadmap towards robust, scalable calibration solutions for future spectroscopic facilities.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Hollow-cathode-lamps--upgrading-astronomys-calibration-lamps-for-the/14154-267",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1580,7 +1546,7 @@
       "HTMLTitle": "",
       "Title": "Inverse-designed tapers to improve throughput of on-chip astrophotonic spectrographs",
       "Description": null,
-      "Abstract": "Astrophotonics offers a pathway toward compact, miniaturized, stable spectrographs as their size does not scale with telescope diameter. Thus they offer a cost efficient way to achieve astronomy science requirements. A major limitation of current astrophotonic spectrographs is the loss at interfaces between its distinct components, leading to lower overall throughput. We investigate using inverse design to optimize taper-based transitions between components. Our approach explores two methods of fabrication-constrained inverse design. The first employs shape optimization to modify the boundary geometry of the tapers. The second optimizes a gradient region to gradually transform the optical mode between components. This work demonstrates a pathway toward improving astrophotonic spectrographs using computational inverse design methods. This positions us to design high-performance, cost-effective instrumentation for next-generation large and extremely large telescopes.",
+      "Abstract": "Astrophotonics offers a pathway toward compact, miniaturized, stable spectrographs as their size does not scale with telescope diameter. Thus they offer a cost efficient way to achieve astronomy science requirements. A major limitation of current astrophotonic spectrographs is the loss at interfaces between its distinct components, leading to lower overall throughput. We investigate using inverse design to optimize taper-based transitions between components, focusing on the input single mode fiber to waveguide interface. We explore two methods of fabrication-constrained inverse design. The first is shape optimization to modify the boundary geometry of the tapers. The second optimizes the material density in the interface region to gradually transform the optical mode between components. This work demonstrates a pathway towards high-throughput astrophotonic spectrographs using inverse design, positioning us towards cost-effective instrumentation for next-generation large telescopes.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Inverse-designed-tapers-to-improve-throughput-of-on-chip-astrophotonic/14154-289",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1658,7 +1624,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Aditya R. Sengupta, Benjamin Gerard, Dominic F. Sanchez, Matthew DeMartino, Rebecca Jensen-Clem, Michael Messerly, Paul Pax, Daren Dillon, Eric Strang",
+      "Authors": "Aditya R. Sengupta, Benjamin L. Gerard, Dominic Sanchez, Matthew DeMartino, Rebecca Jensen-Clem, Michael J. Messerly, Paul Pax, Daren Dillon, Eric Strang",
       "PaperNumber": "14150-135",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Zhanshan Wang, Tian Lan, Jun Yu, Wenbin Li, Zeyi Ye, Yue Yu, Li Jiang, Chun Xie",
+      "PaperNumber": "14146-152",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "8b508820-27cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "8b508820-27cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Laboratory-based calibration system for the extreme ultraviolet spectrometer in 55 to 140nm wavelength range",
+      "Description": null,
+      "Abstract": "IPOE has developed a laboratory-based calibration system for the extreme ultraviolet (EUV) imaging spectrometer in 55- to 140-nm. Utilizing a RF-produced gas-discharge light source, a grazing-incidence monochromator and an off-axis parabolic mirror to obtain a 50-mm-diameter collimated beam. The system characterizes key parameters of the spectrometer, including dark-field signal, wavelength, spectral resolution, spatial resolution, field of view, system efficiency, and effective area. The calibration process and results are presented and comparatively analyzed.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Laboratory-based-calibration-system-for-the-extreme-ultraviolet-spectrometer-in/14146-152",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

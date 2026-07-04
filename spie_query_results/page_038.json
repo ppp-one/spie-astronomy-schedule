@@ -26,108 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "David Lee, Joël Vernet, Roland Bacon, Alexandre Jeanneau, Corentin Cudennec, Olga Bellido-Tirado, Roelof S. de Jong, Andreas Kelz, Steve Watson, Younes Chahid, Chris Waring, Laura Gibbs, Anmol Goyal, Dave Melotte, Lawrence Bissell, Sébastien Pernecker, Maxime Rombach, Malak Galal, Jonathan Wei, Aaron Omadutt, Jean-Paul Kneib, Joseph Barrow, Jon Lawrence, Will Saunders, Dimitri Buffat, Kjetil Dohlen, Andrea Tozzi, Anna Brucalassi, Matteo Munari, Simone D'Auria, Maria Sofia Randich, Jan W. Kragt, Ramon Navarro, Thomas Augusteijn, Andrea Bianco, Elizabeth M. George, Omar Sqalli, Olaf Iwert, Alessandro Meoli, Christophe Yèche , Christophe Magneville, Etienne Burtin, Julia Bryant, Philippe Dierickx, Paolo Franzetti, Vincenzo Mainieri, Jay Stephan, Oscar Gonzalez",
-      "PaperNumber": "14149-53",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 14:15 - 14:35 CEST | Auditorium 15",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "009691ee-3dd0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "009691ee-3dd0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "WST, the wide-field spectroscopic telescope: progress on the design of the instruments",
-      "Description": null,
-      "Abstract": "WST – the Wide-field Spectroscopic Telescope is a proposed new facility that will provide a transformational gain in spectroscopic survey capability over existing facilities. The WST is a 12 metre class telescope equipped with instrumentation to provide simultaneous observations in both multiple-object spectroscopy and integral field spectroscopy modes. This paper will describe the status of the instruments being designed for the WST, the fibre positioner module, the low and high-resolution multiple object spectrographs, the integral field spectrograph, disperser technology, sustainable detector and cryostat technology, and the calibration system. An overview of the overall layout of the instruments within the WST facility will be provided",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/WST-the-wide-field-spectroscopic-telescope--progress-on-the/14149-53",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 14:15 - 14:35 CEST | Auditorium 15",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Grace Piroscia, Julien Lozi, Sébastien Vievard, Miles Lucas, Adam Taras, Peter Tuthill, Steve Ertel, Olivier Guyon, Vincent Deo",
-      "PaperNumber": "14148-34",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 14:20 - 14:40 CEST | Room B4-M5",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "b4a1c7d9-cfcf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "b4a1c7d9-cfcf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Full-pupil aperture masking with Jewel: high-sensitivity imaging and wavefront sensing",
-      "Description": null,
-      "Abstract": "Now over 150 years old, aperture masking interferometry (AMI) remains a leading technique for high angular resolution optical astronomy. Despite this success, AMI faces intrinsic limitations from the requirement of non-redundancy, typically resulting in throughputs of 10% or less and poor spatial coverage. The Jewel aperture mask overcomes these limitations by encoding multiple non-redundant (NR) patterns onto a single optic, fully tiling the pupil with sub-apertures. Beyond high-efficiency masking, the full-pupil NR sampling provided by Jewel allows for the robust measurement of the underlying wavefront structure, enabling Jewel to act simultaneously as a science instrument and a wavefront sensor. We demonstrate the integration of Jewel into a multi-sensor adaptive optics system on SCExAO at Subaru, correcting low-order residual wavefront errors such as the low-wind effect and introduce a newly fabricated Jewel for the Large Binocular Telescope, paving the way for an ELT-scale design.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Full-pupil-aperture-masking-with-Jewel--high-sensitivity-imaging/14148-34",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 14:20 - 14:40 CEST | Room B4-M5",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Oliver Pfuhl, Jose Antonio Abad, Constanza Araujo-Hauck, Jean-Paul Kirchbauer, Helen Bedigan, Henri Bonnet, Martin Brinkmann, Elsa Calmette, Greidy Castellanos, Angela Cortes, Byron Engler, Michael Esselborn, Christoph Frank, Fernando Gago, Eduardo Garces, Elizabeth George, Thomas Grudzien, Ivan Guidolin, Andreas Haimerl, Peter Hammersley, Marcus Haug, Stefan Huber, Paul Jolley, Aglaé Kellerer, Manuel Kern, Petr Janout, Mario Kiekebusch, Barbara Klein, Johannes Kolmeder, Johan Kosmalski, David Kosten, Paolo La Penna, Ulrich Lampater, Serban Leveratto, Steffan Lewis, Christopher Mandla, Enrico Marchetti, Leander Mehrgan, Christophe Moins, Jérôme Paufique, Lorenzo Pettazzi, Thomas Pfrommer, Adam Rubin, Dejan Popovic, Malte Scherbarth, Sébastien Tordo, Christophe Vérinaud, Julien Woillez, Sara Zuccon, Pablo Zuluaga",
-      "PaperNumber": "14147-54",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 14:20 - 14:40 CEST | Room B3-M6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "790fa812-4fcf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "790fa812-4fcf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Getting the ELT into shape with the Phasing and Diagnostic Station",
-      "Description": null,
-      "Abstract": "ESO’s Extremely Large Telescope (ELT) relies on a five-mirror design that includes a segmented 39-m primary mirror composed of 798 hexagonal segments, an adaptive flat mirror (M4), and a fast tip-tilt mirror (M5). Achieving proper alignment and phasing of the primary mirror segments—and maintaining wavefront control to within a few tens of nanometers—is essential for telescope operation.  The Phasing and Diagnostic Station (PDS) is the subsystem that provides the primary optical metrology required to bring the ELT’s mirrors into the correct shape and to enable diffraction-limited performance. The PDS will serve as the main tool for commissioning the ELT and for validating its optical performance.  To meet these objectives, the PDS hosts a versatile suite of optical sensors operating from the visible to the infrared.   We will present the operational concept of the PDS and its sensors, describe the phasing strategy, and discuss the expected performance.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Getting-the-ELT-into-shape-with-the-Phasing-and-Diagnostic/14147-54",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 14:20 - 14:40 CEST | Room B3-M6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Jasmina Lazendic-Galloway, Maria Rita Eusébio Vale Lima, Jan Geralt bij de Vaate, Raj Rajan, Pietro Zucca, Mark Bentum, Peter Roelfsema, Wouter Laauwen, Antonio Vecchio, Christiaan Brinkering",
       "PaperNumber": "14153-43",
       "DateTimeLocationDataList": [
@@ -264,7 +162,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Shaojie Chen, Olivier Lardière, Suresh Sivanandam, Jenny Atwood, Paul Hickson, Sarik Jeram, Béatrice Lessard-Hamel, Simon Thibault, Simon Paquin, Saugata Dutt, Gavin Hay, Mark Barnet, Scott Christie, Patrick Nkwari, Martin Tschimmel",
+      "Authors": "Shaojie Chen, Suresh Sivanandam, Olivier Lardière, Gavin Hay, Sarik Jeram, Béatrice Lessard-Hamel, Denis Brousseau, Simon Thibault, Jenny Atwood, Mark Barnet, Jiayi, Emma Xu, Saugata Dutt, Scott Christie",
       "PaperNumber": "14154-74",
       "DateTimeLocationDataList": [
         {
@@ -288,7 +186,7 @@
       "HTMLTitle": "",
       "Title": "Final optical design and performance assessment of a multi-object adaptive optics-fed infrared integral-field spectrograph (GIRMOS)",
       "Description": null,
-      "Abstract": "We discuss the final end-to-end optical design of GIRMOS developed to take advantage of the adaptive optics corrected field at the Gemini North telescope. GIRMOS’s optical design consists of object selection pick-offs, multi-object adaptive optics, and four identical Integral-Field Spectrographs (IFSes), which employ image slicers to arrange the integral field along a slit. The analysis shows the expected performance meets the scientific requirements and the design complies with manufacturability requirements. This paper summarizes the final optical design, performance assessment, and pre-testing results of the critical components. GIRMOS will bring high-resolution multiplexed spectroscopic and imaging capability to the Gemini North observatory.",
+      "Abstract": "We present the final end-to-end optical design of GIRMOS developed to take advantage of the adaptive optics corrected field at the Gemini North telescope. GIRMOS consists of object selection pick-offs, multi-object adaptive optics, and four identical Integral-Field Spectrographs (IFSes), which employ image slicers to arrange the integral field along a slit. The analysis shows the expected performance meets the scientific requirements and the design comply with manufacturability requirements. This paper summarizes the final optical design, engineering validation of critical components, and system performance assessment by using Structural–Thermal–Optical Performance (STOP) analysis. The results presented in this work demonstrate that GIRMOS optical design has reached a mature engineering stage and provides a solid foundation for instrument production.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Final-optical-design-and-performance-assessment-of-a-multi-object/14154-74",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -322,7 +220,7 @@
       "HTMLTitle": "",
       "Title": "Model-based systems engineering progress for the Gemini North Adaptive Optics Bench in critical design phase",
       "Description": null,
-      "Abstract": "The Gemini North Adaptive Optics Bench (AOB) is advancing through its Critical Design Phase as a key subsystem enabling high-order wavefront correction for the Gemini North Adaptive Optics (GNAO) Facility. This paper presents a systems engineering update focused on requirements evolution, interface refinement, and verification planning for a complex AO subsystem operating under tight optical and mechanical tolerances. A SysML-based MBSE approach is used to maintain architectural coherence across optical, mechanical, control, and software domains, providing traceability to the optical error budget and early identification of integration risks. We outline design maturation across the AO bench, including updates to bench architecture, alignment strategy, error-budget allocations, and external interface control. Remaining CDP tasks, key verification milestones, and the expected impact of the MBSE-driven process on delivering a robust AO bench for the GNAO Facility are summarised.",
+      "Abstract": "The Gemini North Adaptive Optics Bench is a key opto-mechanical subsystem of the Gemini North Adaptive Optics facility and has completed Critical Design Review (CDR), positioning it to enter the Build Phase. This paper reports the systems engineering progress that enabled CDR success, emphasising requirements decomposition and traceability, interface management across a geographically distributed consortium, and maturation of verification and validation planning. Central to the approach is a SysML-based Model-Based Systems Engineering (MBSE) implementation in which the system model is the authoritative source for requirements, operational concepts, architecture, and interface definition. This model-centric workflow has strengthened requirement-to-architecture traceability, supported consistent interface documentation, and improved visibility of integration and compliance risks. We conclude with the verification strategy, remaining activities, and lessons learned from applying MBSE.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Model-based-systems-engineering-progress-for-the-Gemini-North-Adaptive/14152-52",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -400,7 +298,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Florence Laurent, Johan Richard, Rémi Giroud, Alexandre Jeanneau, Didier Boudon, Arlette Pecontal-Rousset, Davor Krajnovic, Andreas Kelz, Jonathan Moller, Helen McGregor, Christopher Coote, Jonathon Lawrence, Peter M. Weilbacher, Audrey Lanotte, Giuliano Parma, Diane Chapuis Kerouanton, Malak Galal, Joshua J. Guy, Robert J. Harris, Rémy Le Breton, Manuel Adler Abreu, Manuel Monteiro, Angela Adamo",
+      "Authors": "Florence Laurent, Johan Richard, Rémi Giroud, Davor Krajnovic, Alexandre Jeanneau, Manuel Adler Abreu, Angela Adamo, Théo Battrel, Didier Boudon, Zhemin Cai, Diane Chapuis Kerouanton, Christopher Coote, Malak Galal, Joshua J. Guy, Robert J. Harris, Andreas Kelz, Audrey Lanotte, Jonathon Lawrence, Rémy Le Breton, Helen McGregor, Gloria Mellinand, Jonathan Moller, Manuel Monteiro, Giuliano Parma, Arlette Pecontal-Rousset, Peter M. Weilbacher",
       "PaperNumber": "14149-54",
       "DateTimeLocationDataList": [
         {
@@ -422,11 +320,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "ESO-VLT BlueMuse Instrument: conceptual design for phase A",
+      "Title": "ESO-VLT BlueMuse Instrument - conceptual design for phase A",
       "Description": null,
       "Abstract": "BlueMUSE is a blue-optimised, medium-resolution panoramic integral-field spectrograph being developed for the VLT and now entering its construction phase. Designed for high transmission down to 350 nm, with an average spectral resolution of R~3500 and a 1 arcmin² field of view, it will enable a wide range of new galactic and extragalactic science applications. The instrument is composed of several subsystems aligned along the light path: a calibration unit that replicates VLT optical conditions, fore-optics that reshape the focal image, and splitting and relay optics that divide the field into 16 channels. Each channel feeds an integral field unit housing an image slicer, spectrograph, and detector vessel with a 4k×4k CCD. The system includes vacuum and cryogenic cooling, data-reduction software for producing data cubes, and a main structure enclosed in a passive thermal housing. This paper outlines the Phase A baseline architecture, interfaces, and global concepts.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/ESO-VLT-BlueMuse-Instrument-conceptual-design-for-phase-A/14149-54",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/ESO-VLT-BlueMuse-Instrument---conceptual-design-for-phase/14149-54",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -740,7 +638,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jesper M. Skottfelt, Martin Barstow, Joanna Barstow, Francis Bell, Oliver Blake, Becky Canning, Dan Dicken, James Doherty, Christophe Dumas, Paul Eccleston, Sandy Fok, Eduardo Gonzalez-Solares, William Grainger, Or Graur, Anna Maskolenko, Sean McGee, Cassandra Mercury, Chris Miller, Christopher Pattison, Michael Plissi, Richard Robinson, Piyal Samara-Ratna, Bhargav N Swamy, David D Walker, Nicholas Walton, Samatha Youles",
+      "Authors": "Jesper M. Skottfelt, Martin Barstow, Joanna Barstow, Francis Bell, Oliver Blake, Becky Canning, Dan Dicken, James Doherty, Christophe Dumas, Paul Eccleston, Sandy Fok, Eduardo Gonzalez-Solares, William Grainger, Or Graur, Anna Maskolenko, Sean McGee, Cassandra Mercury, Chris Miller, Christopher Pattison, Michael Plissi, Richard Robinson, Piyal Samara-Ratna, Bhargav N. Swamy, David D. Walker, Nicholas Walton, Samatha Youles",
       "PaperNumber": "14145-61",
       "DateTimeLocationDataList": [
         {
@@ -774,7 +672,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Gary J. Hill, Hanshin Lee, John M. Good, Casey Kyte, Jason G. Vestuto, Brian L. Vattiat, Michael P. Smith, Niv Drory, Gregory R. Zeimann, Joseph R. Tufts, Greg Bredthauer, Christian Haubitz-Reinke, Ripley C. Gregg",
+      "Authors": "Gary J. Hill, Hanshin Lee, John M. Good, Casey Kyte, Jason G. Vestuto, Joshua Oppor, Brian L. Vattiat, Niv Drory, Gregory R. Zeimann, Michael P. Smith, Joseph R. Tufts, Greg Bredthauer, Briana L Indahl, Christian Haubitz-Reinke, Ripley C. Gregg",
       "PaperNumber": "14149-55",
       "DateTimeLocationDataList": [
         {
@@ -1318,7 +1216,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Oriol Casamor, Miguel Redondo, Manuel Canchado, Albert Tomàs, Joan Manel Casalta, Patrick Caillier, Lluis Cavaller, Martin Dimmler",
+      "Authors": "Oriol Casamor, Manuel Canchado, Miguel Redondo, Albert Tomàs, Joan Manel Casalta, Patrick Caillier, Lluis Cavaller, Martin Dimmler",
       "PaperNumber": "14147-57",
       "DateTimeLocationDataList": [
         {
@@ -1374,11 +1272,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "The RINGSS turbulence profiler at ESO’s La Silla Observatory: one year of operations",
+      "Title": "RINGSS turbulence profiler at ESO’s La Silla observatory: one year+ of operations",
       "Description": null,
       "Abstract": "Monitoring atmospheric turbulence at an astronomical observatory is a key aspect of science operations. The information on atmospheric turbulence plays avital role in making informed decisions in the sequence of astronomical objects to be observed (in visitor mode). As well as, for the filtering and ranking of the observing block queue (in service mode of science operations).     In this work we will present information on the development, installation, and operation of the first Rings New Generation Scintillation Sensor (RINGSS) at the European Southern Observatory’s La Silla Observatory. This instrument enables science operations with timely information on the total atmospheric seeing, free-atmosphere seeing, coherence time of the turbulence, isoplanatic angle, and ground-layer turbulence fraction.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-RINGSS-turbulence-profiler-at-ESOs-La-Silla-Observatory/14150-64",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/RINGSS-turbulence-profiler-at-ESOs-La-Silla-observatory--one/14150-64",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1510,7 +1408,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "In-flight measurements of the optical axis and stray light of X-ray Mirror Assembly (XMA) on XRISM",
+      "Title": "In-flight measurements of the optical axis and stray light of x-ray mirror assembly (XMA) on XRISM",
       "Description": null,
       "Abstract": "The X-ray astronomy satellite XRISM, which was launched in 2023, carries two complementary instruments: Resolve and Xtend. Resolve has a high energy resolution (~5 eV at 6 keV) in a 3'x3' FoV. Xtend offers a wide FoV (38'x38') with a moderate energy resolution (~180 eV at 6 keV). Both instruments are equipped with almost identical mirrors, called the X-ray Mirror Assembly (XMA).The in-flight optical axis of Xtend was well-measured with off-axis observations of A2029 with its large FoV. In this measurement, the asymmetric vignetting, which was created by the XMA segment boundaries, was taken into consideration. By contrast, the optical axis measurement of Resolve is difficult due to its small FoV, and no such observation has been carried out. The in-flight stray patterns were clearly observed by Xtend with Crab at 60' off-axis. Based on the spectrum taken by Xtend, a simulation shows that the stray light of Resolve is no stronger than the NXB as long as the gate valve is closed.",
       "ImagePath": null,
@@ -1724,13 +1622,115 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 16:10 - 16:25 CEST | Room B3-M2",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Keath Beifus, William Burgett, Colby Gottschalk, King-Ming Lam, Sam Park, Nathan Loewen, Byron Smith, Giovanni Bonomi, Jeff Kimberly, Todd Trieloff, Dave Zarembski, Peter Eisenträger, Volker Grimm, Alexei Ippa, Alexander Rohr, Lehel Simeny, Eberhard Sust, Ulrich Weis, Raffaele Tomelleri",
+      "PaperNumber": "14147-58",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 16:10 - 16:30 CEST | Room B3-M6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "944aed73-dbcf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "944aed73-dbcf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The Giant Magellan Telescope azimuth track: fabrication and machining processes",
+      "Description": null,
+      "Abstract": "The Giant Magellan Telescope (GMT) Azimuth Track forms a 20 m diameter, multi-segmented cylinder that supports three concentric hydrostatic bearing raceways requiring 250-micron flatness across the entire diameter. Eight identical segments, each averaging 27,200 kg, are fabricated from A572 Gr50 plate ranging from 25–100 mm in thickness. High-density finite element analysis (FEA) drove the inclusion of numerous large complete joint penetration (CJP) welds, with thermal stress relief cycles applied to mitigate distortion. After welding, segments are rough-machined for precise geometry; axial raceways are finished by milling, and radial raceways by single-point turning and abrasive machining. Integrated features manage hydrostatic bearing oil flow and collection.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Giant-Magellan-Telescope-azimuth-track--fabrication-and-machining/14147-58",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 16:10 - 16:30 CEST | Room B3-M6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Akio Taniguchi, Yoichi Tamura, Takeshi Sakai, Masato Hagimoto, Takuya Hashimoto, Akio K. Inoue, Shun Ishii, Haoran Kang, Masato Kato, Ryohei Kawabe, Kotaro Kohno, Takafumi Kojima, Kianhong Lee, Sho Masui, Akinobu Miyake, Taku Nakajima, Tai Oshima, Wenlei Shan, Tatsuya Takekoshi, Kunihiko Tanaka, Kotomi Taniguchi, Kaoru Tsuji, Issei Watanabe, Tom J. L. C. Bakx, Yoshinobu Fudamoto, Kazuyuki Fujita, Yuichi Harikane, Bunyo Hatsukade, David H. Hughes, Takahiro Iino, Yuki Kimura, Hiroyuki Maezawa, Yuichi Matsuda, Ken Mawatari, Shunichi Nakatsubo, Hideo Sagawa, Peter F. Schloerb, Shigeru Takahashi, Akiyoshi Tsujita, Hideki Umehata, Min S. Yun",
+      "PaperNumber": "14156-31",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 16:20 - 16:40 CEST | Room B5-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "d3d1394c-c2ca-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "d3d1394c-c2ca-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "FINER: development of the wideband millimeter-wave receiver system and preparations for first light on the Large Millimeter Telescope",
+      "Description": null,
+      "Abstract": "The recent discovery of an excess of luminous galaxies in the early Universe necessitates sensitive and wideband millimeter spectroscopy to understand their rapid growth. To address this, we present the development of the Far-Infrared Nebular Emission Receiver (FINER) for the Large Millimeter Telescope (LMT). The FINER frontend comprises two receivers covering 120–350 GHz (corresponding to ALMA Bands 4+5 and 6+7). The warm optics are designed to enable simultaneous two-band observations. Combined with the 10.24-GHz-wide digital spectrometer array, the system aims to deliver an instantaneous bandwidth approximately five times wider than current ALMA capabilities. We report that the 210-350 GHz receiver has already achieved commissioning-level performance, with sideband rejection further enhanced by the digital sideband separation technique. With installation expected in 2026, we discuss parallel preparations, including integrated testing and commissioning plans for first-look targets.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/FINER--development-of-the-wideband-millimeter-wave-receiver-system/14156-31",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 16:20 - 16:40 CEST | Room B5-M3",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Sarah Pappert, Guillaume Bourdarot, Richard Davies, Frank Eisenhauer, Helmut Feuchtgruber, Simon Flesch, Natascha Förster Schreiber, Quentin Fournier, Reinhard Genzel, Stefan Gillessen, Simran Joharle, Ruancun Li, Dieter Lutz, Felix Mang, Thomas Ott, Sebastian Rabien, Diogo Ribeiro, Matteo Sadun Bordoni, Jinyi Shangguan, Taro T. Shimizu, Eckhard Sturm, Linda Tacconi",
+      "PaperNumber": "14148-54",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 16:20 - 16:40 CEST | Room B4-M5",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "8ef3fe8d-b2d9-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "8ef3fe8d-b2d9-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "GRAVITY+ at the VLTI: instrumental advances enabling high-angular-resolution AGN science",
+      "Description": null,
+      "Abstract": "We present an overview of how recent and upcoming GRAVITY+ upgrades at the VLTI interconnect instrument and science, enabling high-angular-resolution studies of active galactic nuclei (AGN). Improvements such as wide-angle off-axis fringe tracking, enhanced fringe-tracker performance, and state-of-the-art adaptive optics, including laser guide stars, increase sensitivity and sky coverage, allowing coherent observations of fainter targets. These instrumental advances directly support measurements of black hole masses out to high redhsift and spatially resolved studies of broad-line region structure and kinematics, as well as resolved observations of [O III] emission tracing the inner narrow-line region at z ≈ 2–4. We also discuss prospects for supermassive black hole binary searches with GRAVITY+.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/GRAVITY-at-the-VLTI--instrumental-advances-enabling-high-angular/14148-54",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 16:20 - 16:40 CEST | Room B4-M5",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

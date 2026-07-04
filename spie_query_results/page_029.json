@@ -26,6 +26,40 @@
   },
   "Items": [
     {
+      "Authors": "Félix Sauvourel, Faustine Cantalloube, Philippe Delorme, Stephane Bergeon, Fabien Malbet",
+      "PaperNumber": "14150-212",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "08e0efe8-1fcf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "08e0efe8-1fcf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Characterizing the wind-driven halo in five years of VLT/SPHERE-IRDIS data",
+      "Description": null,
+      "Abstract": "Adaptive optics enables high-contrast imaging, but its temporal limitation, namely the servolag error, produces the so-called wind-driven halo (WDH) in the images. The WDH appears in the image as a low-spatial-frequency structure, whose morphology and intensity are governed primarily by high-altitude winds, in particular the jet stream flowing above Paranal. This WDH induces a contrast loss of up to one order of magnitude in the AO corrected-region. Using a new geometrical proxy, we analyse ten years of VLT/SPHERE high-contrast images and measure a WDH occurrence rate of about 70%, far exceeding previous estimates. This result shows that the servolag-induced aberrations in the focal plane image constitute an important limitation in current observations, and requires dedicated mitigation strategies for future high-contrast facilities.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Characterizing-the-wind-driven-halo-in-five-years-of-VLT/14150-212",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Xiaoyan Li, Dongge Zhang, Xiaokun Wang, Tingting Liu, Zhengyang Li, Xiangyan Yuan, Xuefei Gong",
       "PaperNumber": "14147-159",
       "DateTimeLocationDataList": [
@@ -53,40 +87,6 @@
       "Abstract": "Dome A, Antarctica, the highest peak of the plateau, offers exceptional advantages for near-infrared astronomical observations, for its unique natural conditions such as extreme dryness, cold temperatures, and long polar nights. While the telescope development faces challenges such as harsh environment, unattended operation, low power consumption requirements, snow and frost on the mirror surface. Chinese Antarctic Survey Telescope for near-infrared band is a wide-field telescope scheduled to get first light in China later in 2026 and planned for installation at Dome A in recent years. This article presents the design specifications of the telescope, the infrared detector, mirror de-icing methods, and the unattended operation software, providing technical pathfinder for future larger-aperture infrared telescopes in Antarctica.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Chinese-Antarctic-Survey-Telescope-for-Near-Infrared-band-AST3-NIR/14147-159",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Seery Chen",
-      "PaperNumber": "14157-116",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "8ecff121-9dd0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "8ecff121-9dd0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "CMOS Detector Characterization for the MOTHRA 1140-Lens Array",
-      "Description": null,
-      "Abstract": "MOTHRA is an array of 1,140 telephoto lenses, each equipped with ultra-narrow bandpass filters and CMOS cameras, and will be equivalent to a 4.7 m f/0.08 refractor when complete. Based on the design of the Dragonfly Spectral Line Mapper, major hardware upgrades have been implemented, resulting in a line mapping sensitivity that will be an order of magnitude deeper than any other facility. As part of this upgrade, we take advantage of recent improvements in CMOS detector technology, and use cameras with Sony IMX571 and IMX445 detectors. Here, we evaluate the read noise, fixed pattern noise, dark current, bias stability, quantum efficiency, and performance at varying gain settings. We compare these measurements with the performance of past cameras used on the Dragonfly arrays, and present preliminary SBContrast surface-brightness limit estimates calculated from early commissioning data. These measurements will inform calibration and observational strategies for the new telephoto array.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/CMOS-Detector-Characterization-for-the-MOTHRA-1140-Lens-Array/14157-116",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -252,7 +252,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Commissioning of a custom dual linear magnetron system for the development of high-energy multilayer coatings for full-shell X-ray optics",
+      "Title": "Commissioning of a custom dual linear magnetron system for the development of high-energy multilayer coatings for full-shell x-ray optics",
       "Description": null,
       "Abstract": "A custom dual-linear magnetron assembly is undergoing commissioning to enable direct deposition of complex reflective coatings for full-shell X-ray optics at NASA Marshall Space Flight Center (MSFC). Designed to achieve +/- 2% non-uniformity along the nominal 600 mm shell lengths, these 32 in x 1.5 in magnetrons are mounted back-to-back with 180 degree separation, allowing for layer-by-layer deposition within a closed geometry. Shells with diameters ranging from ~190 mm to ~1.5 m can be accommodated. Custom collimators and masking are optimized for integration into the system alongside a cylindrical shutter system. This system dramatically increases MSFC’s end-to-end fabrication capabilities for high angular-resolution full-shell X-ray optics, particularly in the hard X-ray to soft gamma-ray bandpass. Initial results from the commissioning and optimization process for several current projects are presented along with a discussion on use for future mission concepts.",
       "ImagePath": null,
@@ -468,7 +468,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Horst Steuer, Markus Feldt, Andreas Obereder, Stefan Raffetseder, Thomas Bertram, Carlos Correia, Hugo Coppejans, Martin Kulas, Silvia Scheithauer, Florian Briegel",
+      "Authors": "Horst Steuer, Markus Feldt, Andreas Obereder, Thomas Bertram, Florian Briegel, Hugo Coppejans, Carlos Correia, Martin Kulas, Stefan Raffetseder, Silvia Scheithauer",
       "PaperNumber": "14150-228",
       "DateTimeLocationDataList": [
         {
@@ -529,6 +529,40 @@
       "Abstract": "Optimized for the Athena X-IFU, a cryogenic SiGe BiCMOS LNA addresses the critical challenge of flicker noise. By leveraging analytical models and geometric sizing, the design targets a noise floor below 1 nV/√Hz down to 1 Hz. Experimental results from a fabricated prototype confirm its suitability for superconducting detector applications.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Cryogenic-low-Flicker-noise-amplifier-optimized-for-superconducting-detectors-in/14146-247",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Ranjani Srinivasan, Samantha Gray, Thomas Gauron, Ryan Chaves, Manuel Fernandez, Janice Houston, Michael Johnson, Rebecca Baturin, Jonathan Weintroub, Rurik Primiani, Kazunori Akiyama, Peter Galison, Daniel Marrone, Summer Franks, John Ford, Eli A. Zervigon, Ross Mpi, Stephen Joyce, Gilles Aminot, Doug Martens, Bryan Bilyeu, Jade Wang, Vanessa Marquez, Hannah Levin, John Test, Mark Freeman",
+      "PaperNumber": "14145-198",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "351031e1-8bd0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "351031e1-8bd0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Data Processor Subsystem for the Black Hole Explorer",
+      "Description": null,
+      "Abstract": "The Black Hole Explorer (BHEX) is a proposed space-based Very Long Baseline Interferometry (VLBI) mission  designed to detect and measure the photon ring surrounding a black hole, capturing light that has completed  orbits within the strong gravitational field near the event horizon. This paper describes the development of the  backend electronics for the Black Hole Explorer instrument, referred to as the Data Processing (DP) subsystem.  The functional and physical architecture of the DP subsystem is described. This includes the key design  motivations, critical trade studies, and architectural decisions made to satisfy established mission and instrument  requirements.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Data-Processor-Subsystem-for-the-Black-Hole-Explorer/14145-198",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -808,7 +842,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Wilbert G. Ras-Vinke, Kevin Kouwenhoven, Jochem J. A. Baselmans, Kenichi Karatsu, David J. Thoen, Vignesh Murugesan, Pieter J. de Visser",
+      "Authors": "Wilbert Ras-Vinke, Kevin Kouwenhoven, Jochem Baselmans, Kenichi Karatsu, David Thoen, Vignesh Murugesan, Pieter de Visser",
       "PaperNumber": "14157-108",
       "DateTimeLocationDataList": [
         {
@@ -830,11 +864,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Demonstration of Single Photon Counting With Kinetic Inductance Detectors From 3.8 to 25 μm",
+      "Title": "Demonstration of single photon counting with kinetic inductance detectors from 3.8 to 25μm",
       "Description": null,
       "Abstract": "One of the major goals of modern astronomy is the atmospheric characterization of Earth-like exoplanets in the optical and infrared. Extremely sensitive detectors are required to measure the exoplanet’s faint signal down to the single-photon level with near-zero dark count rates. Especially in the mid-infrared - the target band for the Large Interferometer For Exoplanets (LIFE) mission concept - semiconducting technologies are unable to meet the requirements. Therefore, we demonstrate single-photon counting with superconducting, Microwave Kinetic Inductance Detectors at the wavelengths 3.8, 8.5, 18.5 and 25 μm and measure dark count rates of 3, 6, 20 and 22 mHz with resolving powers (E/δE) of 9.9, 6.0, 3.2, 3.3, respectively. These results demonstrate the MKID detector technology in the mid-infrared and the intricate measurement setups required. We discuss how the detector design and measurement setup can be further optimized to improve the detector performance in the mid-infrared.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Demonstration-of-Single-Photon-Counting-With-Kinetic-Inductance-Detectors-From/14157-108",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Demonstration-of-single-photon-counting-with-kinetic-inductance-detectors-from/14157-108",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1272,11 +1306,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Detector Simulation for Neural Network Position Reconstruction for the i-RASE system",
+      "Title": "Detector simulation for neural network position reconstruction in the i-RASE system",
       "Description": null,
-      "Abstract": "The MeV gamma-ray domain suffers from poor sensitivity, motivating advanced detector and readout technologies. The i-RASE project addresses this by combining a custom low-noise front end with FPGA-implemented, physics-informed neural networks for real-time event reconstruction in 3D CdZnTe drift-strip detectors (DSD). At DTU Space, work focuses on DSD design specifications, development of a physics-based detector model, and experimental validation. The framework integrates COMSOL signal simulations and Geant4 charge-cloud generation to optimize detector geometry and generate synthetic training data. Laboratory tests show that neural-network reconstruction achieves ~0.5 mm FWHM spatial resolution at 662 keV, matching or exceeding conventional methods, and reduces dead zones by improving boundary position estimates. This demonstrates a path toward compact, low-power system-in-package detectors for medical, industrial, space, and environmental applications.",
+      "Abstract": "The MeV gamma-ray domain suffers from poor sensitivity, motivating advanced detector and readout technologies. The i-RASE (Intelligent RAdiation SEnsor readout systems) project addresses this by combining a custom low-noise front end with FPGA-implemented, physics-informed neural networks for real-time event reconstruction in 3D CdZnTe (CZT) Drift-Strip Detectors (DSD). At DTU Space, work focuses on 3D CZT DSD design specifications, development of a physics-based detector model, and experimental validation. The framework integrates COMSOL signal simulations and Geant4 charge-cloud generation to optimize detector geometry and generate synthetic training data. Laboratory tests show that neural-network reconstruction achieves sub-millimetre FWHM spatial resolution at 662 keV, matching or exceeding conventional methods, and reduces dead zones by improving boundary position estimates.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Detector-Simulation-for-Neural-Network-Position-Reconstruction-for-the-i/14146-239",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Detector-simulation-for-neural-network-position-reconstruction-in-the-i/14146-239",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1690,47 +1724,13 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
-    },
-    {
-      "Authors": "Chao-Te Li, Jen-Chieh Cheng, Chung-Cheng Chen, Pai-An Chen, Ta-Shun Wei, Chin-Ting Ho, Ue-Li Pen",
-      "PaperNumber": "14153-95",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "c2b44d83-3fcb-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "c2b44d83-3fcb-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Development of differential transmission for BURSTT",
-      "Description": null,
-      "Abstract": "Bustling Universe Radio Survey Telescope in Taiwan (BURSTT) aims to build a phased array with a large field of view to detect and localize fast radio bursts (FRBs) in the local universe. Phase I of BURSTT includes a main array with 256 antennas and 2 outrigger stations with 64 antennas around Taiwan. For phase I, we used off-the-shelf components to quickly set up the array. An FRB was detected with BURSTT-256 in July 2025, which verifies the array design. As phase I is completed, to cope with phase II with much larger arrays, we developed modules with integrated circuits. Since antennas, optical fiber transmission, and Radio Frequency System-on-Chip (RFSoC) are essentially differential, to avoid the use of baluns and take advantage of the development of telecommunication technologies, we adopted differential or balanced transmission. This article describes the design and testing of various differential modules that we developed.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-differential-transmission-for-BURSTT/14153-95",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

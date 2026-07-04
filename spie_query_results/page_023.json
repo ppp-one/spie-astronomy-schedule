@@ -26,7 +26,7 @@
   },
   "Items": [
     {
-      "Authors": "Vadim Burwitz, Gisela Hartner, Thomas Müller, Surangkhana Rukdee, Thomas Schmidt, Giuseppe Vacanti, Maximilien Collon, Adam Lassise, Marcos Bavdaz",
+      "Authors": "Vadim Burwitz, Maximilien Collon, Giuseppe Vacanti, Adam Lassise, Nicolas Barriere, Boris Landgraf, Marcos Bavdaz, Ivo Ferreira, Gisela Hartner, Andreas Langmeier, Thomas Müller, Surangkhana Rukdee, Thomas Schmidt",
       "PaperNumber": "14146-167",
       "DateTimeLocationDataList": [
         {
@@ -48,11 +48,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "X-ray parallel beam measurements of NewATHENA silicon pore optics at PANTER",
+      "Title": "X-ray parallel beam measurements of NewAthena silicon pore optics at PANTER",
       "Description": null,
       "Abstract": "The ESA NewATHENA X-ray observatory is slated for mission adoption in 2027 and launch in the late 2030s. NewATHENA features a 2.5 m diameter and 12 m focal length X-ray Mirror Assembly (XMA) that supports up to 600 Silicon Pore Optic (SPO) mirror modules (MMs). The PANTER X-ray test facility has been key to this process of characterising the SPO MMs. Usually, the TMMs are characterised using the divergent beam with the X-ray source located at 120 m from the X-ray optic. A new setup at PANTER has been implemented using a Fresnel zone plate to produce a parallel X-ray beam that can fully illuminate a SPO MM. The results of divergent and parallel beam measurements of a calibration master mirror module MM-0037 composed of a primary and a secondary silicon mandrel, and the first NewATHENA flight-like SPO MM-0058 will be presented.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/X-ray-parallel-beam-measurements-of-NewATHENA-silicon-pore-optics/14146-167",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/X-ray-parallel-beam-measurements-of-NewAthena-silicon-pore-optics/14146-167",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -230,40 +230,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Joseph M. Colosimo, Kai-wing Chan, Alexander Gliese, Kristin K. Madsen, Ai Numata, Takashi Okajima, Raul E. Riveros, Youwei Yao",
-      "PaperNumber": "14146-45",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 10:30 - 10:50 CEST | Room B4-M1",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "a93442e4-a1cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "a93442e4-a1cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Characterizing segmented silicon optics for future X-ray observatories",
-      "Description": null,
-      "Abstract": "Future X-ray mission concepts, such as the Advanced X-ray Imaging Satellite (AXIS), aim to provide much greater sensitivity than that achieved by current or past missions.   The X-ray mirror assemblies on these missions will require optics that provide high angular resolution and a large collecting areas, requiring mirrors to be lightweight and cost-effective to produce. The Next-Generation X-ray Optics group at Goddard Space Flight Center is developing segmented mono-crystalline silicon optics that meet these requirements.     Precise characterization of mirror surfaces, over a wide range of spatial scales, is essential to the development of these optics. We discuss the metrology techniques used to characterize mirror figure and finish, their application in mirror fabrication, and the simulation techniques used to estimate mirror performance based on these measurements. Additionally, we compare simulation results with X-ray beamline measurements.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Characterizing-segmented-silicon-optics-for-future-X-ray-observatories/14146-45",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 10:30 - 10:50 CEST | Room B4-M1",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Ryan Griffiths, Siddharth Maharana, Matthias Tecza",
       "PaperNumber": "14154-41",
       "DateTimeLocationDataList": [
@@ -400,6 +366,40 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Kristin K. Madsen, Raul Riveros, Kai-Wing Chan, Youwei Yao, william Zhang, Joseph Colosimo, Tabatha DeVita, Naoko Hamaguchi, Michal Hlinka, Steven Kenyon, Richard Koenecke, James Mazzarella, Ai Numata, Takashi Okajima, Jessica Patel, Marton Sharpe, Jonathan Tsang",
+      "PaperNumber": "14146-46",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 10:30 - 10:50 CEST | Room B4-M1",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "f185eed9-9fcf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "f185eed9-9fcf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "GSFC's next generation X-ray optics: enabling sub-arcsecond resolution for future missions",
+      "Description": null,
+      "Abstract": "The Next Generation X-ray Optics (NGXO) team at Goddard Space Flight Center is developing X-ray mirror technology capable of building mirror assemblies for flagship missions like Lynx and Probe missions like AXIS, as well as Explorer missions like STAR-X. These missions require mirror assemblies that have angular resolutions $\\leq$1.5\". NGXO combines the stress-free nature of single-crystal silicon with advanced polishing techniques to produce mirror segments with figure quality comparable to or better than Chandra mirror shells, yet ten times thinner and therefore lighter. In 2025, NGXO was engaged in the AXIS phase A study, and the outcome of that work is summarized here, showing that the NGXO technology has made substantial progress, obtained robust statistics on individual segment performance, and achieved the first realization of a full-scale mirror module.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/GSFCs-next-generation-X-ray-optics--enabling-sub-arcsecond/14146-46",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 10:30 - 10:50 CEST | Room B4-M1",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Victor L. Krabbendam, Sandrine J. Thomas",
       "PaperNumber": "14147-29",
       "DateTimeLocationDataList": [
@@ -456,11 +456,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Observing the observatory. the observability journey of the Vera C. Rubin Observatory",
+      "Title": "Observing the Observatory. The Observability Journey of the Vera C. Rubin Observatory",
       "Description": null,
-      "Abstract": "The Vera C. Rubin Observatory will produce 20TB of data per night and generate millions of alerts. To understand what's happening under the hood of this ambitious discovery machine, you can't just use simple monitoring; you need an observability platform to provide insights into systems generating data faster than any other observatory in the world.    This talk chronicles our journey building a production-grade observability platform using only open-source. We'll dive into the architecture, the tooling choices, and the Kubernetes orchestration that keeps everything running when the data firehose is at full blast.    We'll explore the technical challenges of ingesting, storing, and querying observability data, from control systems and scientific instruments to data acquisition pipelines. You'll learn how we architected a stack that correlates system behavior with observing conditions in real-time, and helps teams debug issues during critical observation windows when every second counts.",
+      "Abstract": "The Vera C. Rubin Observatory is not only an observatory, it is also a distributed production engine for sci-  ence. During operations, it will move thousands of images, metadata, and alerts through the telescope, camera,  network, storage, and processing services every night. Rubin will produce up to 20 TB of raw data per night  (10TB on the wire with compression), with an alert stream that reaches millions of events and a target latency  of nearly 1 minute.  In this environment, simple monitoring is not enough. We need to ask why something changed, where latency  started, which component is under pressure, and whether the behavior is connected with the observing conditions  or the state of the facility. This paper describes the observability journey of the Vera C. Rubin Observatory  DevOps team, a multi-year effort to build, refine, and scale a modern observability stack for one of the most  ambitious astronomical facilities ever constructed.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Observing-the-observatory-the-observability-journey-of-the-Vera-C/14155-32",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Observing-the-Observatory-The-Observability-Journey-of-the-Vera-C/14155-32",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -570,7 +570,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "David R. Andersen, Kanaka Warad, Michael Fitzgerald, Quinn Konopacky, James Larkin, Dimitri Mawet, Eric Peng, Charles Steidel, Ryuji Suzuki, Shelley Wright",
+      "Authors": "David R. Andersen, Alastair Heptonstall, Kanaka Warad, Mojtaba Taheri Nieh, Michael Fitzgerald, Quinn Konopacky, James Larkin, Dimitri Mawet, Eric Peng, Charles Steidel, Ryuji Suzuki, Shelley Wright",
       "PaperNumber": "14149-32",
       "DateTimeLocationDataList": [
         {
@@ -592,11 +592,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Status of the Thirty Meter Telescope First Light Instrumentation program",
+      "Title": "The First-Light Instrument Suite at TMT: Capabilities and Status Update",
       "Description": null,
       "Abstract": "The Thirty Meter Telescope (TMT) will host three first-light instruments: IRIS, WFOS, and MODHIS. IRIS is a diffraction-limited imager and integral-field spectrograph used with NFIRAOS, the TMT facility adaptive optics system, offering a 34×34 arcsec field and multiple spaxel scales at R~4000–10,000. MODHIS, also behind NFIRAOS, targets exoplanet science with single-object spectroscopy at R~100,000. WFOS is a seeing-limited optical multi-object spectrograph with an 8×3 arcmin field and the ability to observe ~100 targets at R~1500–5000.  We summarize recent progress across the TMT instrument suite, including refinements to the opto-mechanical designs, and new capabilities, along with updated performance expectations. The instruments are now advancing toward late-stage design and preparation for fabrication, integration, and verification, positioning the program to deliver a fully capable first-light instrument suite for TMT operations in the 2030s.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Status-of-the-Thirty-Meter-Telescope-First-Light-Instrumentation-program/14149-32",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-First-Light-Instrument-Suite-at-TMT--Capabilities-and/14149-32",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -706,7 +706,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Martin Pertenaïs, Till Hagelschuer, Gisbert Peter, Ingo Walter, Simone del Togno, Thomas Säuberlich, Andreas Pohl, Yaquelin M. Rosas-Ortiz, Andrei Cacovean, Bernd Ulmer, Claas Ziemke, Gabriel J. Schwarzkopf, Karsten Westerdorff, Alexander Fitzner, Emanuel Kopp, Patrick Dern, Giulia Alemanno, Nils Müller, Ana-Catalina Plesa",
+      "Authors": "Martin Pertenaïs, Till Hagelschuer, Gisbert Peter, Ingo Walter, Simone del Togno, Yaquelin M. Rosas-Ortiz, Andrei Cacovean, Karsten Westerdorff, Alexander Fitzner, Emanuel Kopp, Giulia Alemanno, Nils Müller, Ana-Catalina Plesa",
       "PaperNumber": "14152-27",
       "DateTimeLocationDataList": [
         {
@@ -740,8 +740,8 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Kristin K. Madsen, Raul Riveros, Kai-Wing Chan, Youwei Yao, william Zhang, Joseph Colosimo, Tabatha DeVita, Naoko Hamaguchi, Michal Hlinka, Steven Kenyon, Richard Koenecke, James Mazzarella, Ai Numata, Takashi Okajima, Jessica Patel, Marton Sharpe, Jonathan Tsang",
-      "PaperNumber": "14146-46",
+      "Authors": "Joseph M. Colosimo, Kristin K. Madsen, Kai-wing Chan, Tabatha DeVita, Naoko Hamaguchi, Michal Hlinka, Steve Kenyon, Richard Koenecke, James Mazzarella, Ai Numata, Takashi Okajima, Jessica Patel, Raul E. Riveros, Marton Sharpe, Keisuke Tamura, Jonathan Tsang, Youwei Yao, William W. Zhang",
+      "PaperNumber": "14146-45",
       "DateTimeLocationDataList": [
         {
           "date_time_location": "7 July 2026 • 10:50 - 11:10 CEST | Room B4-M1",
@@ -755,18 +755,18 @@
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
       "MatchingFrag": "",
-      "UniqueId": "f185eed9-9fcf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "f185eed9-9fcf-f011-a9ae-00505691c5e1",
+      "UniqueId": "a93442e4-a1cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "a93442e4-a1cf-f011-a9ae-00505691c5e1",
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "GSFC's next generation X-ray optics: enabling sub-arcsecond resolution for future missions",
+      "Title": "Characterizing segmented silicon optics for future X-ray observatories",
       "Description": null,
-      "Abstract": "The Next Generation X-ray Optics (NGXO) team at Goddard Space Flight Center is developing X-ray mirror technology capable of building mirror assemblies for flagship missions like Lynx and Probe missions like AXIS, as well as Explorer missions like STAR-X. These missions require mirror assemblies that have angular resolutions $\\leq$1.5\". NGXO combines the stress-free nature of single-crystal silicon with advanced polishing techniques to produce mirror segments with figure quality comparable to or better than Chandra mirror shells, yet ten times thinner and therefore lighter. In 2025, NGXO was engaged in the AXIS phase A study, and the outcome of that work is summarized here, showing that the NGXO technology has made substantial progress, obtained robust statistics on individual segment performance, and achieved the first realization of a full-scale mirror module.",
+      "Abstract": "Future X-ray mission concepts aim to provide much greater sensitivity than that achieved by current or past missions. The X-ray mirror assemblies on these missions will require optics that provide high angular resolution and large collecting areas, requiring mirrors to be lightweight and cost-effective to produce. The Next-Generation X-ray Optics group at Goddard Space Flight Center is developing segmented mono-crystalline silicon optics to meet these requirements.    Precise characterization of mirror surfaces over a wide range of spatial scales is essential to the development of these optics. We discuss the metrology techniques used to characterize mirror figure and finish, their application in mirror fabrication, and the simulation techniques used to estimate mirror performance based on these measurements. Additionally, we validate our multi-scale predictive models by comparing the simulated optical performance directly against X-ray beamline measurements of a test module.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/GSFCs-next-generation-X-ray-optics--enabling-sub-arcsecond/14146-46",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Characterizing-segmented-silicon-optics-for-future-X-ray-observatories/14146-45",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1046,7 +1046,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "R. Millan-Gabet, G. Rahmer, R. A. Bernstein, A. Souza, P. H. Silva, Igor Petrucci, A. Szentgyorgyi, D. Fabricant, R. A. S. Ribeiro, R. Sharp, G. N. Mace, S. Lee, J. Lawrence, J. Crane, J. Males, L. Close, R. Simcoe, G. M. Petterssen, M. Cox, G. Brossus, H. Chiquito, B. Walls, R. Conan, F. Aguayo, A. Santana, S. Park, K.-M. Lam, C. Gottschalk, N. Juelsgaard, B. Bigelow, R. Goodrich, R. Demers, F. Quiros-Pacheco, N. Lowen, M. van Dam, B. Nemati",
+      "Authors": "R. Millan-Gabet, G. Rahmer, R. A. Bernstein, A. Souza, P. H. Silva, Igor Petrucci, A. Szentgyorgyi, D. Fabricant, R. A. S. Ribeiro, R. Sharp, G. N. Mace, S. Lee, J. Lawrence, J. Crane, J. Males, L. Close, R. Simcoe, Gustav M. Pettersson, M. Cox, G. Brossus, H. Chiquito, B. Walls, R. Conan, F. Aguayo, A. Santana, S. Park, K.-M. Lam, C. Gottschalk, N. Juelsgaard, B. Bigelow, R. Goodrich, R. Demers, F. Quiros-Pacheco, N. Lowen, M. van Dam, B. Nemati",
       "PaperNumber": "14149-33",
       "DateTimeLocationDataList": [
         {
@@ -1284,7 +1284,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Simone Serafini, Eleonora de Muri, Martina Scrinzi, Daoping Wei, Ning Guo, Wallace Clements",
+      "Authors": "S. Serafini, E. de Muri, M. Scrinzi, D. Wei, N. Guo, W. Clements",
       "PaperNumber": "14150-37",
       "DateTimeLocationDataList": [
         {
@@ -1727,10 +1727,10 @@
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

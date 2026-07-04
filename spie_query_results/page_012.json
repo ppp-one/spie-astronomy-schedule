@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Andrew Ross-Adams, Christopher Betters, Nemanja Jovanovic, Sergio Leon-Saval, Daniel Dahl",
-      "PaperNumber": "14154-292",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "7bd2c593-afd0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "7bd2c593-afd0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Ultra high efficiency 3-mode photonic lantern for HISPEC",
-      "Description": null,
-      "Abstract": "Photonic lanterns enable single-mode spectroscopy of astrophysical sources, but packaging losses are a critical challenge. Three-port devices are particularly sensitive due to their triangular fibre arrangement, which can induce differential stress during tapering and alignment errors. We report a three-port photonic lantern for HISPEC's blue arm achieving 93% end-to-end throughput (0.3 dB) across 1.0-1.3 µm, before anti-reflective coating and including all connector and splice losses. The device was fabricated via tapered fibre bundle method from 0.16 NA, 4.4 µm core fibre with −5.5 × 10^−3 index contrast capillary. Pre-packaged loss was ≤0.2 dB (96%); careful packaging with high-concentricity FC/UPC connectors maintained 0.3 dB final loss. We present detailed loss analysis quantifying each mechanism and verify performance via digital holography of the multimode port, demonstrating viability for astronomy where every photon counts.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Ultra-high-efficiency-3-mode-photonic-lantern-for-HISPEC/14154-292",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Malak Galal, Maxime Rombach, Jean-Paul Kneib",
       "PaperNumber": "14154-134",
       "DateTimeLocationDataList": [
@@ -150,11 +116,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Upgrade of the LAMOST Telescope Tracking Control Servo System Based on a Proprietary Hardware Architecture",
+      "Title": "Upgrade of the LAMOST telescope tracking control servo system based on a proprietary hardware architecture",
       "Description": null,
       "Abstract": "To address the aging of the original imported controllers and servo drives, this paper proposes and implements a  low-level hardware modification scheme based on independently developed controllers and drives. The  system abandons the traditional network bus communication architecture and reconstructs a three-loop  integrated fully closed-loop control architecture based on physical hard-wired Pulse Width Modulation  (PWM) connections. At the algorithmic level, a dual-feedback fusion mechanism combining  sine-cosine gratings and EnDat absolute encoders was introduced, and an extended PID control  algorithm incorporating speed and acceleration feedforward, along with a virtual motor error correction  and decoupling algorithm, was configured. Field test results show that the modified MA mount  achieved root mean square (RMS) tracking errors of 0.14'' on the azimuth axis and 0.12''on the altitude  axis during star-less tracking.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Upgrade-of-the-LAMOST-Telescope-Tracking-Control-Servo-System-Based/14147-104",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Upgrade-of-the-LAMOST-telescope-tracking-control-servo-system-based/14147-104",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -172,7 +138,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -288,7 +254,7 @@
       "HTMLTitle": "",
       "Title": "Using a photonic lantern aided by machine learning as wavefront sensor for cophasing a distributed aperture",
       "Description": null,
-      "Abstract": "The Small Exo-Life Finder (SELF) is a 3.5 m hybrid-interferometric telescope with 15 sub-apertures. One of the key issues is to cophase all the sub-apertures with a precision of tens of nanometres. To achieve this, the use of a photonic lantern as a wavefront sensor with the aid of machine learning has been studied. This implementation has been validated by simulating a six-core photonic lantern in an optical system with a broadband source and a two-mirror aperture. The intensities at each core form the input of a neural network which predict the Piston-Tip-Tilt applied to both mirrors, differentiating between the 2 sub-apertures.",
+      "Abstract": "The Small Exo-Life Finder (SELF) is a 3.5 m hybrid-interferometric telescope with 15 sub-apertures. One of the key issues is to cophase all the sub-apertures with a precision of tens of nanometres. To achieve this, the use of a photonic lantern as a wavefront sensor with the aid of machine learning has been studied. This implementation has been validated by simulating a six-core photonic lantern in an optical system with a two-mirror aperture and a broadband source. The intensities at each core form the input of a neural network which predict the Piston-Tip-Tilt applied to both mirrors, differentiating between the 2 sub-apertures.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Using-a-photonic-lantern-aided-by-machine-learning-as-wavefront/14154-200",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -558,11 +524,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Whapos: a high efficiency medium resolution spectrograph for telescopes up to 1m diameter",
+      "Title": "WHAPOS: a high efficiency medium resolution fiber-fed spectrograph",
       "Description": null,
-      "Abstract": "Whapos is a fibre fed and compact spectrograph with a resolving power of 24 000 developed by Baader Planetarium in Germany. The driver design of the instrument is the optimization of the throughput along the 392 - 750 nm spectral range. The total efficiency of the instrument is ≥ 30% for λ > 450 nm including the fibre link but excluding the detector. The optics is mounted on a carbon fiber reinforced polymer table for maximum mechanical and thermal stability. The spectrograph is mounted in a double enclosure with active thermal stabilization. Whapos has been optimized for small telescopes up to 1m diameter. It has been successfully tested in the 1m telescope of VEGA observatory and 1.5m telescope in Sierra Nevada.  We present in this paper the design, performances and preliminary astronomical results of Whapos.",
+      "Abstract": "WHAPOS is a compact, fiber-fed spectrograph with a resolving power of 24,000, developed by Baader Planetarium in Germany. The instrument's design optimizes throughput along the 392-750 nm spectral range. The instrument's peak order efficiency is greater than 35% for wavelengths greater than 450 nm, excluding the detector quantum efficiency but including the fiber link. The optics are mounted on a carbon fiber-reinforced polymer table for maximum mechanical and thermal stability. The spectrograph is mounted in a double enclosure that includes an active thermal control system. The spectrograph temperature is maintained within variations of less than 0.1°C by this system.    WHAPOS is optimized for small and medium telescopes. It has been successfully tested in the 1-meter telescope at the VEGA Observatory and the 1.5-meter telescope at the Sierra Nevada Observatory. In this paper, we present the design, performance, and preliminary astronomical results of WHAPOS.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Whapos--a-high-efficiency-medium-resolution-spectrograph-for-telescopes/14149-123",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/WHAPOS-a-high-efficiency-medium-resolution-fiber-fed-spectrograph/14149-123",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -873,40 +839,6 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "6 July 2026 • 10:30 - 10:50 CEST | Room B4-M7",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Jean Le Graët, Thibault Pichon, Olivier Boulade, Vincent Affato, Frederic Lemmel, Eloy Hernandez, Marion Baumann, Christian Ketchazo, Vincent Moreau, François Visticot",
-      "PaperNumber": "14157-20",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 10:30 - 10:50 CEST | Room B5-M1",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "9f525dbd-62d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "9f525dbd-62d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Characterization of IBEX LmAPD detectors at CEA for future low-noise NIR astronomy instruments",
-      "Description": null,
-      "Abstract": "The next generation of NIR astronomy requires detectors with effective read noise below 1 e⁻. To address this, ESA and Leonardo UK are developing IBEX, a 2k×2k HgCdTe linear-mode APD array with 16 outputs and a 2.5 µm cutoff in avalanche mode. ESA and the Astrophysics Department of CEA are conducting a characterization program on dedicated CEA benches previously used for other NIR detectors, including the ALFA array for the CAGIRE camera. We present first results on one IBEX device, focusing on dark current, effective read noise and effective quantum efficiency as a function of avalanche bias, together with an analysis of non-linearity, crosstalk and persistence in conditions representative of low-noise NIR astronomy.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Characterization-of-IBEX-LmAPD-detectors-at-CEA-for-future-low/14157-20",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 10:30 - 10:50 CEST | Room B5-M1",
       "ErrorMessage": null
     },
     {
@@ -1281,6 +1213,40 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "6 July 2026 • 10:50 - 11:10 CEST | Room B4-M3",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Jean Le Graët, Thibault Pichon, Olivier Boulade, Vincent Affato, Frederic Lemmel, Eloy Hernandez, Marion Baumann, Christian Ketchazo, Vincent Moreau, François Visticot",
+      "PaperNumber": "14157-20",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 10:50 - 11:10 CEST | Room B5-M1",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "9f525dbd-62d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "9f525dbd-62d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Characterization of IBEX LmAPD detectors at CEA for future low-noise NIR astronomy instruments",
+      "Description": null,
+      "Abstract": "The next generation of NIR astronomy requires detectors with effective read noise below 1 e⁻. To address this, ESA and Leonardo UK are developing IBEX, a 2k×2k HgCdTe linear-mode APD array with 16 outputs and a 2.5 µm cutoff in avalanche mode. ESA and the Astrophysics Department of CEA are conducting a characterization program on dedicated CEA benches previously used for other NIR detectors, including the ALFA array for the CAGIRE camera. We present first results on one IBEX device, focusing on dark current, effective read noise and effective quantum efficiency as a function of avalanche bias, together with an analysis of non-linearity, crosstalk and persistence in conditions representative of low-noise NIR astronomy.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Characterization-of-IBEX-LmAPD-detectors-at-CEA-for-future-low/14157-20",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 10:50 - 11:10 CEST | Room B5-M1",
       "ErrorMessage": null
     },
     {
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "6 July 2026 • 11:10 - 11:30 CEST | Room B4-M7",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "André Fehlmann, D. Christopher Berst, Bret Goodrich, Isabelle F. Scholl, Erik Starman, Richard Summers, Armando Fajardo, Stuart Farrell, Dino Mensa, Matthew J. Reason",
+      "PaperNumber": "14157-22",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 11:10 - 11:30 CEST | Room B5-M1",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "71b99f1b-fbcf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "71b99f1b-fbcf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "New digital infrared detectors for fast DKIST solar observations",
+      "Description": null,
+      "Abstract": "The National Science Foundation Daniel K Inouye Solar Telescope (DKIST) has purchased multiple 4k x 4k, short-wavelength infrared focal plane modules (HgCdTe detector on a Silicon substrate) from Raytheon Vision Systems to replace the existing analog Hawaii 2RG devices currently used by the DL-NIRSP and Cryo-NIRSP instruments.     These new sensors meet our requirement of short global shutter exposures and fast full frame rates (60 Hz), which makes them ideally suited for high-flux solar disk observations. The capability of achieving long exposure times via non-destructive reads expands the use cases to high dynamic range scenes at the solar limb and the faint solar corona.  We will present the key performance metrics established for our new infrared cameras during acceptance testing and show their fundamental impact on our high-flux and high-dynamic-range solar observations.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/New-digital-infrared-detectors-for-fast-DKIST-solar-observations/14157-22",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 11:10 - 11:30 CEST | Room B5-M1",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

@@ -26,108 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Martino Romaniello",
-      "PaperNumber": "14151-41",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 11:00 - 11:20 CEST | Room B2-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "7bfb6917-fbcf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "7bfb6917-fbcf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The ESO Science Archive: a powerful resource for the worldwide science community",
-      "Description": null,
-      "Abstract": "The ESO Science Archive provides worldwide access to data from ESO’s La Silla Paranal Observatory (LPO), a complex integrated system that includes the VLT and, in a few short years, the ELT. Beyond raw data, it hosts millions of processed science files, enabling immediate use by researchers and enthusiasts. It is a cornerstone for global scientific collaboration, contributing to more than 40% of LPO’s scientific output, as measured by refereed publications.    We present the status and plans for the ESO Science Archive: content, access services and role in advancing Open Science. We discuss the foundations of its success and the challenges ahead. We also highlight strategic developments to enhance usability in the face of increasingly complex and diverse data content, integrating advanced technologies and data handling and discovery techniques, to further foster global engagement in the expanding global landscape of research, with initiatives like the European Open Science Cloud (EOSC).",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-ESO-Science-Archive--a-powerful-resource-for-the/14151-41",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 11:00 - 11:20 CEST | Room B2-M2",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Herman L. Marshall, Sarah Heine, Alan Garner, Ralf Heilmann, Stephen Bongiorno, Andrea Santangelo, Christoph Tenzer, Eric Gullikson, Hans M. Guenther, Swati Ravi",
-      "PaperNumber": "14146-79",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 11:10 - 11:30 CEST | Room B4-M1",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "1a6acdab-f9cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "1a6acdab-f9cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "A new NASA Pioneer: the globe orbiting soft X-ray polarimeter (GOSoX)",
-      "Description": null,
-      "Abstract": "The Globe Orbiting Soft X-ray Polarimeter (GOSoX) is a spectropolarimeter for the soft X-ray band. GOSoX is based on the Rocket Experiment Demonstration of a Soft X-ray Polarimeter (REDSoX), a NASA-funded sounding rocket payload. Like REDSoX, GOSoX consists of Wolter I X-ray optics from MSFC, Critical Angle Transmission (CAT) gratings made at MIT, and multilayer (ML) coated mirrors that polarize the X-rays from LBNL. Colleagues at U. Tuebingen will adapt commercially available sCMOS sensors for the focal plane. The grating dispersion is matched to the lateral grading of ML mirrors set at 45deg. GOSoX can measure polarization across the entire 0.2-0.4 keV band with a spectral resolution E/dE ~ 100. Minimum detectable polarizations (MDPs) of 3-10% are expected for over a dozen targets in a one-year mission. The mission was proposed to the NASA call for Astrophysics Pioneers in 2025. The mission was rated \"selectable\"; pending available funds in the FY26 NASA budget.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/A-new-NASA-Pioneer--the-globe-orbiting-soft-X/14146-79",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 11:10 - 11:30 CEST | Room B4-M1",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Bruno Maffei, Nabila Aghanim, Jonathan Aumont, Alexandre Beelen, Anaïs Besnard, Bruno Borgo, Ivan Charles, Jens Chluba, Xavier Coulon, Francesco Cuttaia, Paolo de Bernardis, Clémence De Jabrun, José Javier Díaz García, Jean-Marc Duval, Giulio Fabbian, Lorenza Ferrari, Fabio Finelli, Thomas Gascard, Alan J. Kogut, Guilaine Lagache, Morgane Loquet Le Gall, Sylvain Martin, Silvia Masi, Alessandro Monfardini, Louise Mousset, Créidhe O'Sullivan, Luca Pagano, Giampaolo Pisano, Nicolas Ponthieu, Vincent Revéret, Louis Rodriguez, José Alberto Rubiño-Martín, Valentin Sauvage, Giorgio Savini, Ana Isabel Silva Martins, Locke Spencer, Andrea Tartari, Neal Trappe, Duncan Watts, Berend Winter",
-      "PaperNumber": "14156-39",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 11:10 - 11:30 CEST | Room B5-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "26a7efad-a2cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "26a7efad-a2cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "A path towards CMB spectral distortion measurements",
-      "Description": null,
-      "Abstract": "The only detailed measurement of the cosmic microwave background (CMB) spectrum by COBE-FIRAS, in the early 90s, showed that it is close to a perfect blackbody emission. Although theory predicts that small deviations, referred to as CMB spectral distortions, are expected, FIRAS limited sensitivity only yielded to upper limits. This research field has become one of the highest priorities for the ESA Voyage 2050 programme for instance, and several missions have been proposed to CNES, NASA and ESA, FOSSIL being currently one of the M8 contenders at ESA.  After a short description of the science case and goals of CMB spectral distortions, as well as the various initiatives to perform their first measurements, we will present and detail here the roadmap that is being put in place, from laboratory breadboard development, to balloon-borne pathfinder (BISOU) and future space mission (FOSSIL) by a dedicated community.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/A-path-towards-CMB-spectral-distortion-measurements/14156-39",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 11:10 - 11:30 CEST | Room B5-M3",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Siddharth Maharana, Chris Dennison-Farrar, Sabyasachi Chattopadhyay, Nikita Rawat, Nidhi Mehandiratta, JC Viljoen, Matthew Bershady, David Buckley, Lisa Crause, Hitesh Gajjar, Stephen Potter",
       "PaperNumber": "14149-63",
       "DateTimeLocationDataList": [
@@ -320,11 +218,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Putting METIS SCAO to the test",
+      "Title": "Putting METIS SCAO to the Test",
       "Description": null,
-      "Abstract": "METIS SCAO has entered the lab testing phase, where the wavefront control loop and key components are verified using a telescope simulator. The simulator introduces and compensates for wavefront disturbances and pupil drifts, allowing for extensive testing of the wavefront control loop. This presentation will provide an overview of the planned subsystem tests and present the first results obtained with the integrated METIS SCAO subsystem in the lab.",
+      "Abstract": "METIS SCAO has entered the lab testing phase, where the wavefront control loop and key components are verified using a telescope simulator. The simulator introduces and compensates for wavefront disturbances and pupil drifts, allowing for extensive testing of the wavefront control loop. This presentation provides an update on the integration activities of the SCAO Module and the AO Control System as well as an update of the planned subsystem and system tests.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Putting-METIS-SCAO-to-the-test/14150-73",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Putting-METIS-SCAO-to-the-Test/14150-73",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -434,7 +332,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Brittany M. McClinton, Stephen T. Ridgway, Jayadev Rajagopal, Fredrik T. Rantakyro, J. Gabriel Richardson, Emil T. Khabiboulline, William DeRocco, Aqil Sajjad, Zhenning Liu, Yousef Chahine, Joohyung Song, Chaohan Cui, Saikat Guha, Daniel Gottesman",
+      "Authors": "Yousef Chahine, Chaohan Cui, William DeRocco, Daniel Gottesman, Saikat Guha, Emil T. Khabiboulline, Zhenning Liu, Brittany M. McClinton, Jayadev Rajagopal, Fredrik T. Rantakyro, J. Gabriel Richardson, Stephen T. Ridgway, Aqil Sajjad, Joohyung Song",
       "PaperNumber": "14148-43",
       "DateTimeLocationDataList": [
         {
@@ -1172,7 +1070,7 @@
       "HTMLTitle": "",
       "Title": "A balloon-borne infrared coronagraph and spectropolarimeter for magnetic field measurements of the solar corona",
       "Description": null,
-      "Abstract": "The Coronal Spectropolarimeter for Airborne Infrared Research (CORSAIR) is a balloon-borne infrared coronagraph and spectropolarimeter funded by NASA’s Heliophysics Low Cost Access to Space (H-LCAS) program and currently under development at Smithsonian Astrophysical Observatory (SAO). CORSAIR will make global, long-duration measurements of temperature, density, velocity and magnetic field in the solar corona by measuring the polarization state of five emission lines with wavelengths from 1 to 4 microns. The project incorporates various engineering challenges associated with making high-resolution, high-sensitivity observations spanning two octaves in wavelength in a low-cost package on a balloon-borne platform. CORSAIR is currently undergoing integration, alignment, testing, and calibration in preparation for its qualification flight in late summer 2026. In this paper, we present the instrument’s design and performance interpreted in terms of our scientific objectives.",
+      "Abstract": "The Coronal Spectropolarimeter for Airborne Infrared Research (CORSAIR) is a balloon-borne infrared coronagraph and spectropolarimeter funded by NASA’s Heliophysics Low Cost Access to Space (H-LCAS) program and currently under development at Smithsonian Astrophysical Observatory (SAO). CORSAIR will make global, long-duration measurements of temperature, density, velocity and magnetic field in the solar corona by measuring the polarization state of five emission lines with wavelengths from 1 to 4 microns. The project incorporates various engineering challenges associated with making high-resolution, high-sensitivity observations spanning two octaves in wavelength in a low-cost package on a balloon-borne platform. CORSAIR is currently undergoing integration, alignment, testing, and calibration in preparation for its qualification flight in late summer 2026. In this paper, we describe the scientific goals, instrument design, ongoing integration, and plans for the qualification flight.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/A-balloon-borne-infrared-coronagraph-and-spectropolarimeter-for-magnetic-field/14149-67",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1318,40 +1216,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Melissa L. Graham, Leanne P. Guy, Jeffrey L. Carlin, Christina L. Adair, Yumi Choi, Gloria Fonseca Alvarez, Shenming Fu, Sarah Greenstreet, Greg Madejski, Garreth Martin, Andrés A. Plazas Malagón, Aaron M. Meisner, James Edward Robinson, Douglas L. Tucker, Christina C. Williams, Jonathan Sick, Frossie Economou",
-      "PaperNumber": "14151-44",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 13:30 - 14:00 CEST | Room B2-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "1485e9b9-38ca-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "1485e9b9-38ca-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Rubin Observatory's approach to providing sustainable scientific user support at scale",
-      "Description": null,
-      "Abstract": "The data products from Rubin Observatory's Legacy Survey of Space and Time (LSST) are expected to be accessed and analyzed by ten thousand scientists and students worldwide. Supporting this large and diverse community to access the novel LSST data set requires an innovative and proactive community science model. This talk will provide an overview of the Rubin Observatory’s community science model, including policies, guidelines, and workflows for documentation, tutorials, activities, user support, and issue resolution. An evaluation of the model’s current implementation and how these components are working “in the wild”, with an eye towards the challenges of scaling up while maintaining inclusion and access and deriving metrics for scientific performance, will also be included.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Rubin-Observatorys-approach-to-providing-sustainable-scientific-user-support-at/14151-44",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 13:30 - 14:00 CEST | Room B2-M2",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Saikrishna Manojkumar, Susan F. Redmond, Leonid Pogorelyuk, Christine L. Page, Garreth J. Ruane, Niyati Desai, Kerri L. Cahoy",
       "PaperNumber": "14145-244",
       "DateTimeLocationDataList": [
@@ -1476,11 +1340,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "All-fiber broadband wavelength-division multiplexing using a heterogeneous photonic lantern",
+      "Title": "All-Fiber Broadband Wavelength-Division Multiplexing using Heterogeneous Photonic Lanterns",
       "Description": null,
-      "Abstract": "We propose and demonstrate a heterogeneous photonic lantern that functions as a passive, all-fiber broadband wavelength-division multiplexer (WDM) covering the visible to near-infrared spectrum (400–1600 nm). To address the limitations of bulky dichroic beam splitters, this device uses a diverse bundle of commercial fibers (SM450, SM600, 780HP, SMF28) tapered within a low-index capillary. The lantern exploits wavelength-dependent variations in effective refractive indices (neff) and propagation constant (β) to passively route longer wavelengths (e.g., 1550 nm) into large-core fibers and shorter wavelengths (e.g., 400 nm) into small-core fibers. We present Beam Propagation Method (BPM) optimizations and the optical characterization of a 1×7 Prototype using a supercontinuum source. Key performance metrics, including insertion loss, spectral crosstalk, and extinction ratios, are reported, demonstrating a compact solution for simultaneous multi-band spectroscopy.",
+      "Abstract": "This work introduces an all-fiber broadband wavelength-division multiplexing architecture utilizing $1\\times7$ heterogeneous photonic lanterns (PLs), specifically $\\text{PL}-{(6+1)}$ and $\\text{PL}-{(4+3)}$. By combining mismatched single-mode cores, such as $\\text{SM450}$ and $\\text{SMF28}$, the devices enable passive, wavelength-selective spatial routing. Experimental results show distinct dual-regime performance: in the visible band ($350\\text{--}740\\text{ nm}$), they act as multi-channel broadband collectors, while in the H-band ($1520\\text{--}1610\\text{ nm}$), core asymmetries break mode degeneracy, thereby enabling passive spectral sorting. These findings highlight the potential of heterogeneous fiber bundles for next-generation astronomical facilities that require simultaneous multi-wavelength capabilities to feed separate, band-optimized spectrographs.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/All-fiber-broadband-wavelength-division-multiplexing-using-a-heterogeneous-photonic/14154-87",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/All-Fiber-Broadband-Wavelength-Division-Multiplexing-using-Heterogeneous-Photonic-Lanterns/14154-87",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1624,6 +1488,40 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Melissa L. Graham, Leanne P. Guy, Jeffrey L. Carlin, Christina L. Adair, Yumi Choi, Gloria Fonseca Alvarez, Shenming Fu, Sarah Greenstreet, Greg Madejski, Garreth Martin, Andrés A. Plazas Malagón, Aaron M. Meisner, James Edward Robinson, Douglas L. Tucker, Christina C. Williams, Jonathan Sick, Frossie Economou",
+      "PaperNumber": "14151-44",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 13:50 - 14:20 CEST | Room B2-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "1485e9b9-38ca-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "1485e9b9-38ca-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Rubin Observatory's approach to providing sustainable scientific user support at scale",
+      "Description": null,
+      "Abstract": "The data products from Rubin Observatory's Legacy Survey of Space and Time (LSST) are expected to be accessed and analyzed by ten thousand scientists and students worldwide. Supporting this large and diverse community to access the novel LSST data set requires an innovative and proactive community science model. This talk will provide an overview of the Rubin Observatory’s community science model, including policies, guidelines, and workflows for documentation, tutorials, activities, user support, and issue resolution. An evaluation of the model’s current implementation and how these components are working “in the wild”, with an eye towards the challenges of scaling up while maintaining inclusion and access and deriving metrics for scientific performance, will also be included.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Rubin-Observatorys-approach-to-providing-sustainable-scientific-user-support-at/14151-44",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 13:50 - 14:20 CEST | Room B2-M2",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Christian Marois",
       "PaperNumber": "14145-75",
       "DateTimeLocationDataList": [
@@ -1724,13 +1622,115 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 14:00 - 14:20 CEST | Room B3-M6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Gioia Rau",
+      "PaperNumber": "14148-46",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 14:00 - 14:30 CEST | Room B4-M5",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "17a1922a-eefb-f011-a9ae-005056914f1c---crmrecord",
+      "GUID": "17a1922a-eefb-f011-a9ae-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Space and lunar interferometry: emerging concepts and pathways",
+      "Description": null,
+      "Abstract": "Space and lunar interferometry are moving from long-range aspiration to a concrete landscape of mission studies, pathfinders, and staged architectures. This invited review surveys the field's principal pathways: free-flying interferometers, lunar-surface arrays, and hybrid space-VLBI. Mid-infrared nulling targets the thermal emission of temperate exoplanets; low-frequency radio arrays on the lunar far side open the low-frequency Universe from the only radio-quiet site in the inner Solar System; lunar UV/optical arrays aim to resolve the surfaces and magnetic activity of stars; far-infrared, space-VLBI, and X-ray concepts extend the reach to planet formation and black-hole physics; and lunar laser interferometry applies the lunar platform to mid-band gravitational waves. I map the enabling technologies these pathways share, and close with the key decisions, pathfinder sequencing, and funding models that can turn complementary concepts into operational observatories within the decade.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Space-and-lunar-interferometry-emerging-concepts-and-pathways/14148-46",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 14:00 - 14:30 CEST | Room B4-M5",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Nicolás Rodríguez-Linares, Luzma Montoya, Yolanda Martín, Noelia Feijóo, Esther Soria, Javier León-Gil, Adrián Calzadilla, Miguel Núñez-Cagigal, Jorge Quintero-Nehrkorn",
+      "PaperNumber": "14150-79",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 14:00 - 14:15 CEST | Room B3-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "53d36641-25c6-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "53d36641-25c6-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Status of the European Solar Telescope adaptive optics: simulation and bench results",
+      "Description": null,
+      "Abstract": "The European Solar Telescope (EST) has completed the Preliminary Design Review (PDR) of its Single Conjugate Adaptive Optics (SCAO) system and real-time controller. We present an overview of the expected SCAO performance based on the consolidated preliminary design, including simulations of a dual-branch configuration at 500 nm and 680nm. The results, obtained with the new open-source Solar Adaptive Optics Simulator (SAOS) and validated against DASP, also evaluate key error sources specific to solar observations.  We summarise the performance of the proposed real-time controller, the Durham Adaptive Optics (DAO) platform, and the successful demonstration tests conducted with SAOS.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Status-of-the-European-Solar-Telescope-adaptive-optics--simulation/14150-79",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 14:00 - 14:15 CEST | Room B3-M2",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Frossie Economou, Gregory P. Dubois-Felsmann, Russ Allbery, Stelios Voutsinas, Angelo Fausti Neto, Adam Thornton, Dan C. Fuchs, Jonathan Sick",
+      "PaperNumber": "14155-68",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 14:00 - 14:20 CEST | Room B4-M7",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "aba33df3-62d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "aba33df3-62d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The few-servers many-clients myth: lessons from the Rubin Science Platform",
+      "Description": null,
+      "Abstract": "There is a sometimes unexamined belief that astronomical data services follow the general client server pattern found in general IT: for example there are relatively few HTTP server implementations but many browsers; there are relatively few IMAP implementations but a myriad of mail clients, etc. However even in the relatively recent past, this has not been the case for astronomical client-servers. For example, TOPCAT is the giant in the TAP client space, whereas every astronomical archive seems to have its own TAP server implementation.     This reverse asymmetry is even more evident with an environment such as the Rubin Science Platform. The argument can be made that in a science platform the users interact with a rather limited set of clients (pyvo in JupyterNotebooks or external APIs, perhaps a web portal based on Firefly or Aladin Lite), but to support that we have found dozens of server-side applications have to be written.    In this talk we will cover our anticipated im",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-few-servers-many-clients-myth--lessons-from-the/14155-68",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 14:00 - 14:20 CEST | Room B4-M7",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

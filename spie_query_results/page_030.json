@@ -26,6 +26,40 @@
   },
   "Items": [
     {
+      "Authors": "Chao-Te Li, Jen-Chieh Cheng, Chung-Cheng Chen, Pai-An Chen, Ta-Shun Wei, Chin-Ting Ho, Yu-Chieh Huang, Ue-Li Pen",
+      "PaperNumber": "14153-95",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "c2b44d83-3fcb-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "c2b44d83-3fcb-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Development of differential transmission for BURSTT",
+      "Description": null,
+      "Abstract": "Bustling Universe Radio Survey Telescope in Taiwan (BURSTT) aims to build a phased array with a large field of view to detect and localize fast radio bursts (FRBs) in the local universe. Phase I of BURSTT includes a main array with 256 antennas and 2 outrigger stations with 64 antennas around Taiwan. For phase I, we used off-the-shelf components to quickly set up the array. An FRB was detected with BURSTT-256 in July 2025, which verifies the array design. As phase I is completed, to cope with phase II with much larger arrays, we developed modules with integrated circuits. Since antennas, optical fiber transmission, and Radio Frequency System-on-Chip (RFSoC) are essentially differential, to avoid the use of baluns and take advantage of the development of telecommunication technologies, we adopted differential or balanced transmission. This article describes the design and testing of various differential modules that we developed.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-differential-transmission-for-BURSTT/14153-95",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Deli Geng, Kieran O'Brien, David Barr, John Connolly, Thomas Davies, Sofia Dimoudi, James Gill-Fleming, Aurelie Magniez",
       "PaperNumber": "14157-99",
       "DateTimeLocationDataList": [
@@ -116,11 +150,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Development of the light-weight X-ray Wolter-I mirror using carbon fiber reinforced plastic and ultra-precision machining technology",
+      "Title": "Development of the lightweight x-ray Wolter-I mirror using carbon fiber reinforced plastic and ultraprecision machining technology",
       "Description": null,
       "Abstract": "Lightweight X-ray mirrors with high angular resolution and a large effective area are essential for clarifying the coevolution of galaxies and black holes. To realize such mirrors, we are developing X-ray optics using carbon fiber–reinforced plastic (CFRP), a light yet strong material that can be formed into various shapes. However,CFRP exhibits a finely textured surface pattern known as print-through, which makes the surface too rough for X-ray reflection. To mitigate print-through, we developed a method to form a thin amorphous NiP layer on the CFRP surface. The NiP layer is then finished using ultra-precision machining to achieve the surface smoothness required for X-ray reflection. We are currently developing a Wolter-I CFRP mirror shell. The mirror shell has an aperture diameter of 100 mm, a focal length of 2000 mm, and a segment length of 100 mm for both the parabolic and hyperbolic sections. We will present the current status of this mirror development.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-the-light-weight-X-ray-Wolter-I-mirror/14146-266",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-the-lightweight-x-ray-Wolter-I-mirror-using/14146-266",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -298,7 +332,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jennifer Studer, Devin Crichton, Alexandre Refregier, Keshav Bechoo, Tasmiya Papiah, Thierry Viant, Cornelius Ungerer, Kavilan Moodley",
+      "Authors": "Jennifer Studer, Devin Crichton, Alexandre Refregier, Keshav Bechoo, H. Cynthia Chiang, Chandrachud B. V. Dash, Sindhu Gaddam, Aditya Krishna Karigiri Madhusudhan, Martin Kunz, Kavilan Moodley, Warren Naidoo, Tasmiya Papiah, Isibabale Qhoboshiyane, Liantsoa F. Randrianjanahary, Benjamin R. B. Saliwanchik, Ajith Sampath, Cornelius Ungerer, Thierry Viant, Anthony Walters",
       "PaperNumber": "14153-93",
       "DateTimeLocationDataList": [
         {
@@ -320,11 +354,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Dish assembly precision of HIRAX",
+      "Title": "Dish assembly precision for HIRAX",
       "Description": null,
       "Abstract": "The Hydrogen Intensity and Real-time Analysis eXperiment (HIRAX) is a radio interferometer array that is currently being deployed at the South African Radio Astronomy Observatory (SARAO) Square Kilometer Array (SKA) site in South Africa. Its aim is to observe neutral hydrogen (HI) through intensity mapping (IM) in the redshift range of 0.775-2.55. HI IM makes it possible to tomographically probe large, cosmological volumes, enabling constraints on, for example, the dark energy equation of state with its large survey of the southern sky. Systematics are a significant concern in deriving cosmological constraints from HI IM. Instrumental effects therefore need to be carefully controlled and monitored with metrological measurements, in particular the precision of mechanical tolerances in the case of redundant interferometric arrays, such as HIRAX. In this work we present the results and implications of the metrological analysis of the 2025-2026 deployment.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Dish-assembly-precision-of-HIRAX/14153-93",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Dish-assembly-precision-for-HIRAX/14153-93",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -366,7 +400,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Juan Francisco Hernández Cabrera, Carlos Colodro-Conde, Xana Delpueyo Español",
+      "Authors": "Juan F. Hernández-Cabrera, Carlos Colodro-Conde, Xana Delpueyo Español",
       "PaperNumber": "14145-208",
       "DateTimeLocationDataList": [
         {
@@ -422,11 +456,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Dust Next Generation Sensor : SiPMi based instrument for measuring scattered light from dust in extraterrestrial environment.",
+      "Title": "Dust next generation sensor: SiPMi-based instrument for measuring scattered light from dust in extraterrestrial environment",
       "Description": null,
       "Abstract": "Analyzing space dust and icy plumes is essential for understanding planetary environments and potential habitability. The Dust Next Generation Sensor advances this field by combining optical detection with impact sensors to retrieve particle dynamics (mass, velocity, trajectory).A key evolution from Rosetta’s GIADA instrument is the Optical Stage, which employs Silicon Photomultipliers (SiPMs) to detect light scattered by $1\\text{--}100\\,\\mu\\text{m}$ grains. Uniquely, this system utilizes SiPMs in \"intensity mode\" rather than standard photon counting. This generates continuous waveforms where amplitude reflects grain size and pulse width indicates velocity. SiPMs provide superior mechanical robustness and radiation hardness, ensuring precise detection in harsh space environments despite potentially increased dark count rates.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Dust-Next-Generation-Sensor---SiPMi-based-instrument-for/14157-105",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Dust-next-generation-sensor--SiPMi-based-instrument-for-measuring/14157-105",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -468,6 +502,74 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Gabriel González Rial, José Javier Díaz García, Ricardo Tanausú Génova Santos, Francisco Javier Casas Reinares, Laura Castelló Gomar",
+      "PaperNumber": "14156-107",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "686243eb-29d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "686243eb-29d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Electronics for the LiteBIRD temperature monitoring and control system (TMCS): challenges, progress, and outlook",
+      "Description": null,
+      "Abstract": "LiteBIRD is a next-generation mission to study the CMB, providing full-sky CMB polarization maps and enabling  constraints on the tensor-to-scalar ratio with unprecedented sensitivity. In addition to its scientific contributions,  the Instituto de Astrof´ısica de Canarias is leading, jointly with the Instituto de F´ısica de Cantabria, the technical  development of the Temperature Monitoring and Compensation System (TMCS) as part of the payload. This  document outlines an initial approach to prototyping temperature monitoring for the 300-mK, 1.8-K, and 4.8-K  stages. It also addresses the requirements imposed on the various temperature ranges involved in the TMCS,  and provides a preliminary analysis of the noise generated by the electronics integrated at prototyping level and  its impact on these requirements.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Electronics-for-the-LiteBIRD-temperature-monitoring-and-control-system-TMCS/14156-107",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Christophe Moins, Dan Popovic, Mario Kiekebusch, Jose Antonio Abad, Constanza Araujo, Helen Bedigan, Martin Brinkmann, Elsa Calmette, Greidy Castellanos, Angela Cortes, Byron Engler, Christoph Frank, Fernando Gago, Elizabeth George, Thomas Grudzien, Ivan Guidolin, Andreas Haimerl, Peter Hammersley, Marcus Haug, Stefan Huber, Paul Jolley, Aglaé Kellerer, Jean-Paul Kirchbauer, Barbara Klein, David Kosten, Johannes Kolmeder, Johan Kosmalski, Paolo La Penna, Ulrich Lampater, Serban Leveratto, Steffan Lewis, Christopher Mandla, Enrico Marchetti, Leander Mehrgan, Jérôme Paufique, Lorenzo Pettazzi, Oliver Pfuhl, Thomas Pfrommer, Malte Scherbarth, Sébastien Tordo, Pablo Zuluaga-Ramírez, Sara Zuccon",
+      "PaperNumber": "14155-138",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "4c11d59f-21d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "4c11d59f-21d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "ELT phasing and diagnostic system (PDS) control software overview",
+      "Description": null,
+      "Abstract": "The Phasing and Diagnostic Station (PDS) will host five visible and infrared cameras and their optomechanical components. It will be operated by control software based on the ICS framework (IFW).       The software comprises the following components: Observation Coordination System (OCS), Function Control System (FCS) to control and monitor hardware functions and sensing systems, Detector Control System (DCS) to manage the various wavefront sensor camera systems, Cryostat to maintain the infrared detector at low temperature, using the Cryogenic Control Systems software toolkit.       Control and engineering GUIs, along with templates executed through the IFW sequencer, will send commands to the system via standard interfaces.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/ELT-phasing-and-diagnostic-system-PDS-control-software-overview/14155-138",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Sonny Massahi, Diego Paredes-Sanz, Mateus Masteghin, Sara Svendsen, Desiree Ferreira, Arne S. Jegers, Levent Cibik, Robert Fechner, Dieter Skroblin, Christian Gollwitzer, Michael Krumrey, Finn Christensen",
       "PaperNumber": "14146-265",
       "DateTimeLocationDataList": [
@@ -490,11 +592,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Enabling next-generation multilayer technology for high-energy X-ray telescopes",
+      "Title": "Enabling next–generation multilayer technology for high-energy X-ray telescopes",
       "Description": null,
       "Abstract": "NiCu/SiNₓ multilayers deposited by reactive magnetron sputtering from a novel split NiCu target are demonstrated as a viable route to broadband hard X-ray telescope optics beyond the 79 keV NuSTAR limit. The split target, equal areas of pure Ni and pure Cu, enables alloy co-sputtering without a pre-alloyed target, yielding amorphous, smooth films with interfacial roughness of 0.51–0.53 nm independent of thickness. A critical NiCu layer threshold of ~2.5 nm is identified, below which interface width rises to 0.75 nm. Four power-law depth-graded stacks (200 and 205 periods) were characterized by XRR at 8.048 keV and synchrotron reflectometry (3.4–10 keV, BESSY II). HAADF-STEM confirms well-ordered bilayers across the full ~1.2 µm depth (σ = 0.35–0.70 nm); EDS reveals ~69 at.% Cu / 31 at.% Ni from differential sputtering yields. Simulated reflectance exceeds 95% to ~55–75 keV, with interference fringes visible to 200 keV.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Enabling-next-generation-multilayer-technology-for-high-energy-X-ray/14146-265",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Enabling-nextgeneration-multilayer-technology-for-high-energy-X-ray-telescopes/14146-265",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -570,7 +672,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Daniel R. Wilkins, Artem Poliszczuk, Steven W. Allen, Eric D. Miller, Marshall W. Bautz, Tanmoy Chattopadhyay, Kevan Donlon, Catherine E. Grant, Matthew Heine, Sven C. Herrmann, Beverly LaMarr, Peter Orel, Abigail Y. Pan, Leonid Sajkov",
+      "Authors": "Daniel R. Wilkins, Artem Poliszczuk, Abigail Y. Pan, Leonid Sajkov, Steven W. Allen, Matthew Heine, Catherine E. Grant, Marshall W. Bautz, Tanmoy Chattopadhyay, Kevan Donlon, Sven C. Herrmann, Beverly LaMarr, Eric D. Miller, Peter Orel",
       "PaperNumber": "14146-248",
       "DateTimeLocationDataList": [
         {
@@ -592,11 +694,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Enhancing the sensitivity of next-generation X-ray imaging detectors with artificial intelligence and advanced event reconstruction algorithms",
+      "Title": "Enhancing the sensitivity of next-generation x-ray imaging detectors with artificial intelligence and advanced event reconstruction algorithms",
       "Description": null,
       "Abstract": "Advanced algorithms incorporating artificial intelligence and machine learning (AI/ML) enhance the sensitivity of X-ray imaging detectors and the scientific capabilities of future X-ray missions. We report on the development of prototype algorithms designed to provide improved identification of particle-induced background events and enhanced energy reconstruction. ML algorithms can achieve a reduction of the unrejected particle background by up to 60% compared with traditional filtering methods. Moreover, with physics-motivated models of charge diffusion within the device, we find that next-generation event reconstruction algorithms can provide an improvement in the energy resolution of CCD-like detectors at event energies below 0.5keV. We present new laboratory data that demonstrates the performance of these algorithms on next-generation SiSeRO CCD devices. Together such detector and algorithm combinations can satisfy the requirements for future X-ray flagship missions.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Enhancing-the-sensitivity-of-next-generation-X-ray-imaging-detectors/14146-248",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Enhancing-the-sensitivity-of-next-generation-x-ray-imaging-detectors/14146-248",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -808,7 +910,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Gerardo Capobianco, Vladimiro Noce, Davide Loreggia, Maurizio Pancrazzi, Silvano Fineschi, Valeria Caracci, Donata Bonino, Giovanni Franchi",
+      "Authors": "G. Capobianco, V. Noce, D. Loreggia, M. Pancrazzi, S. Fineschi, V. Caracci, D. Bonino, G. Franchi",
       "PaperNumber": "14157-104",
       "DateTimeLocationDataList": [
         {
@@ -830,11 +932,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Expected performances of X and Gamma rays detectors being operated on the Moon and in the Earth Stratosphere",
+      "Title": "Expected performances of x and gamma rays detectors being operated on the Moon and in the Earth stratosphere",
       "Description": null,
       "Abstract": "As part of the “Earth Moon Mars (EMM)”project, led by INAF (Istituto Nazionale di Astrofisica) in partnership with ASI (Agenzia Spaziale Italiana) and CNR (Consiglio Nazionale delle Ricerche) and funded under the National Recovery and Resilience Plan (NRRP), we developed the Solar X Ray Moonitor (SXRM), a Moon-based instrument to monitor solar activity from the lunar surface in the energy range of 1 to 30 keV. SXRM has two main objectives: to provide alerts in case of solar storms (flares, CME) directed at the Moon –an essential feature for future permanent missions - and to deliver diagnostics about the parent events. The final delivery of the instrument is currently expected by spring of 2026 at a Technology Readiness Level (TRL) of 4. We have drafted the SXRM engineering and development plan aiming at realizing a space-qualified instrument.This presentation will focus on detector simulations, radiometric computations and the identification of the critical parameters.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Expected-performances-of-X-and-Gamma-rays-detectors-being-operated/14157-104",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Expected-performances-of-x-and-gamma-rays-detectors-being-operated/14157-104",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -944,7 +1046,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jay Kueny, Joseph D. Long, Jared Males, Alycia Weinberger, Laird Close, Joshua Liberman, Sebastiaan Haffert, Eden McEwen, Maggie Kautz, Jialin Li, Warren Foster, Logan Pearce, Parker T. Johnson, Katie Twitchell, Olivier Guyon, Avalon Gower, Alexander Hedglen, Elena Tonucci, Matthijs Mars, Lauren Schatz, Miles Lucas",
+      "Authors": "Jay Kueny, Joseph D. Long, Jared Males, Alycia Weinberger, Laird Close, Joshua Liberman, Sebastiaan Haffert, Eden McEwen, Maggie Kautz, Jialin Li, Warren Foster, Logan Pearce, Parker T. Johnson, Katie Twitchell, Olivier Guyon, Avalon Gower, Elena Tonucci, Matthijs Mars, Lauren Schatz, Miles Lucas",
       "PaperNumber": "14150-218",
       "DateTimeLocationDataList": [
         {
@@ -971,40 +1073,6 @@
       "Abstract": "We introduce our efforts towards a data-driven approach for characterizing circumstellar disks with the novel, pixel-based freeform forward modeling pipeline, ffortissimo. We developed ffortissimo within the framework of JAX, which is a machine learning library in Python that enables efficient optimization through automatic differentiation (\"autodiff\") and GPU-accelerated array computations. Using on-sky visible light images of the disk around HR 4796 taken by the Magellan \"extreme\" Adaptive Optics instrument (MagAO-X), we demonstrate that our freeform models excel at fitting a complex dust distribution and can infer the dust scattering properties even through PSF subtraction artifacts. We will also exhibit inject and recovery trials showing evidence that ffortissimo can infer morphological features finer than a resolution element. Finally, we will explain the remaining challenges surrounding better noise characterization to improve our model fits.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/ffortissimo--a-freeform-forward-modeling-pipeline-for-high-contrast/14150-218",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Miguel Santos, Ana F. Sequeira, Carlos M. Correia",
-      "PaperNumber": "14150-221",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "ec15355e-7cd0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "ec15355e-7cd0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Finding exo-Earths and potentially life elsewhere: the need for extreme adaptive optics systems",
-      "Description": null,
-      "Abstract": "The European Extremely Large Telescope (E-ELT) will rely on the Planetary Camera and Spectrograph (PCS) to detect and study exoplanets, demanding an exceptionally fast and precise extreme adaptive optics (XAO) system. This work presents a machine-learning approach designed to ease these real-time control requirements of the PCS.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Finding-exo-Earths-and-potentially-life-elsewhere--the-need/14150-221",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1306,11 +1374,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "From reverse engineering to manufacturing: Finite-element cryogenic and optomechanical validation of the GRAVITY+ SUPER HIGH-RES Grism System",
+      "Title": "From reverse engineering to manufacturing: finite-element cryogenic and optomechanical validation of the GRAVITY+ SUPER HIGH-RES grism system",
       "Description": null,
       "Abstract": "GRAVITY+ is an upgrade of the VLTI GRAVITY instrument aimed at extending sensitivity to fainter astronomical targets while improving high-contrast performance on bright objects. This contribution presents the reverse-engineering, dimensional verification, and optomechanical validation activities carried out to integrate a new germanium grism into the GRAVITY grism wheel. Finite-element simulations were performed to assess the thermal performance of the optomechanical assembly under cryogenic conditions.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/From-reverse-engineering-to-manufacturing--Finite-element-cryogenic-and/14148-102",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/From-reverse-engineering-to-manufacturing--finite-element-cryogenic-and/14148-102",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1420,7 +1488,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Cihan Tugrul Tezcan, Onur Şatır, Cahit Yeşilyaprak",
+      "Authors": "Cihan Tuğrul Tezcan, Onur Şatır, Cahit Yeşilyaprak",
       "PaperNumber": "14155-134",
       "DateTimeLocationDataList": [
         {
@@ -1656,81 +1724,13 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
-    },
-    {
-      "Authors": "Jules Fowler, Rebecca Jensen-Clem, Sylvain Cetre, Maaike A. M. van Kooten, Maïssa Salama, Antonin Bouchez, Avinash Surendran, Charlotte Guthery, Eduardo Marin, Mahawa Cissé, Max Service, Charlotte Z. Bond, Emiel Por, Nour Skaf, Will Gauvin",
-      "PaperNumber": "14150-263",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "55895dbd-18cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "55895dbd-18cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Ground control to major time-lag: on-sky results of data-driven predictive wavefront control at Keck Observatory",
-      "Description": null,
-      "Abstract": "Directly imaging and characterizing exoplanets requires extreme adaptive optics (XAO), to achieve exquisite wavefront correction over a small field of view. Predictive wavefront control (PWFC) mitigates temporal errors (often a leading term in these XAO systems) by predicting where the wavefront will be by the time the system correction is applied. In particular, empirical orthogonal functions (EOF) learn correlations in a wavefront using wavefront sensor history. We present on-sky results of a new implementation of EOF built directly into the Keck-II real time controller (RTC). This work revitalizes previous PWFC work at Keck, by showing improved performance over an integral controller during on-sky observing. Finally, we discuss optimization strategies for EOF on sky. This work not only improves current observing for the Keck community, but also acts as a pathfinder for predictive control methods with extremely large telescopes.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Ground-control-to-major-time-lag--on-sky-results/14150-263",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Mark Mueller, Andrew Szentgyorgyi, Sagi Ben-Ami, Isaac Anderson, Daniel Baldwin, Daniel Durusky, Ofir Hershko, Colby Jurgenson, Kenneth McCracken, Heeyoung Oh, Jae Sok Oh, Cem Onyuksel, William Podgorski, Chan Park, Matthew Smith, Yahel Sofer-Rimalt, Abigail Unger, Joseph Zajac",
-      "PaperNumber": "14149-246",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "4619493a-d3ca-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "4619493a-d3ca-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Hardware fabrication update for the GMT-consortium large earth finder (G-CLEF)",
-      "Description": null,
-      "Abstract": "The GMT-Consortium Large Earth Finder (G-CLEF) is a fiber-fed, optical echelle spectrograph that will be a first light instrument for the Giant Magellan Telescope (GMT). G-CLEF is a general-purpose echelle spectrograph with precision radial velocity (PRV) capability. We will design and build an interim installation configuration for G-CLEF at Magellan’s 6.5m Clay telescope. This paper provides an update on construction of the instrument. It discusses the fabrication and integration of several completed subsystems including the optical bench, vacuum chamber, major optical subassemblies, the Clay front end, electrical systems, and fixturing.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Hardware-fabrication-update-for-the-GMT-consortium-large-earth-finder/14149-246",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

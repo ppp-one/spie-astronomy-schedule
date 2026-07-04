@@ -26,108 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Riku Sato, Michitoshi Yoshida, Takashi Moriya, Chihiro Tokoku, Shinobu Ozaki, Kenshi Yanagisawa, Kentaro Motohara, Tomoya Yukino, Kensho Tanaka, Yoshito Ono, Yosuke Minowa, Yusei Koyama, Yutaka Hayano, Kumiko Morihana, Masayuki Akiyama, Masaomi Tanaka, Masami Ouchi, Yuichi Harikane, Nanae Domoto, Yuki Moritani, Masayuki Tanaka, Nozomu Tominaga, Koki Terao, Kosuke Kushibiki, Tohru Nagao, Yoshiki Matsuoka, Toru Misawa, Tomoki Morokuma",
-      "PaperNumber": "14149-78",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 09:20 - 09:40 CEST | Auditorium 15",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "485cfe5e-70ce-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "485cfe5e-70ce-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Development of the NIR arm of the NINJA spectrograph on Subaru Telescope",
-      "Description": null,
-      "Abstract": "The Near-INfrared and optical Joint spectrograph with Adaptive optics (NINJA) is a  medium-resolution optical to near-infrared spectrograph designed to be optimized for  the Laser Tomography Adaptive Optics (LTAO) system at the Subaru Telescope.  Red-NINJA, the NIR arm of NINJA, is currently under development, with engineering first light targeted for 2026. The instrument covers 0.85 to 2.5 μm with nominal resolving power of R ~ 4000-5000. With the LTAO correction, the instrument is expected to reach a sensitivity of 22 AB mag (S/N = 10) in the J-band with a 2-hour exposure. The detector system, optics, and cryogenic mechanical assemblies have been installed inside the cryostat. Laboratory verification tests have been completed without significant issues, and Red-NINJA is now being prepared for transport to the summit and installation at the Subaru Telescope. We report the status of the instrument development, including results from the tests and a timeline toward on-sky commissioning.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-the-NIR-arm-of-the-NINJA-spectrograph-on/14149-78",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 09:20 - 09:40 CEST | Auditorium 15",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Aurelie Magniez, James Gill-Fleming, Deli Geng, James T. Wells, David Barr, John Connolly, Tom Davies, Sofia Dimoudi, Radhika Dharmadhikari, Charlotte Z. Bond, Noah Schwartz, Ben Buky, Pieter J. de Visser, Timothy J. Morris, Kieran O'Brien",
-      "PaperNumber": "14150-91",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 09:20 - 09:50 CEST | Room B3-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "5922f0ef-bece-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "5922f0ef-bece-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Polychromatic Pyramid WFS (PoPy) project overview",
-      "Description": null,
-      "Abstract": "Advanced adaptive optics (AO) systems are required for high-contrast imaging with ELT-scale telescopes. The pyramid wavefront sensor, selected for the first ELT instruments, offers high sensitivity. However, its performance varies significantly with wavelength. While the visible wavelength range provides greater sensitivity, it has a limited dynamic range and significant optical gain effects. Correcting these variations could improve temporal errors and extend the sensing waveband, enabling AO to be used with fainter targets.  Energy-resolving detectors, such as MKIDs, offer a way to measure the entire VIS-NIR spectrum without the need for multiple cameras. The PoPy project aims to demonstrate the benefits of using polychromatic measurements. Alongside simulations, we are developing a bench with an MKID array and a colour splitter for initial testing. Here, we present the initial demonstration results of a closed loop on a polychromatic WFS and provide an overview of our future plans.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Polychromatic-Pyramid-WFS-PoPy-project-overview/14150-91",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 09:20 - 09:50 CEST | Room B3-M2",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Gianalfredo Nicolini, Michela Uslenghi, Serena Farina, Vincenzo Andretta, Giampiero Naletto, Maurizio Pancrazzi, Marco Romoli, Luca Teriaca",
-      "PaperNumber": "14145-87",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 09:20 - 09:40 CEST | Room B4-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "0904ba1e-49d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "0904ba1e-49d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Time and frequency domain characterisation of the Metis: Solar Orbiter coronagraph",
-      "Description": null,
-      "Abstract": "Metis is the ultraviolet–visible coronagraph on board the ESA Solar Orbiter mission, designed to image the solar corona simultaneously in polarised visible light and in the Lyman-α ultraviolet emission. The instrument can acquire full-frame images on both channels at a very high rate, with a minimum cadence of one second. This capability enables detailed investigations of coronal variability and fluctuations, but also requires an accurate characterisation of the instrument response in both the time and frequency domains.  In this work, we present the methodology adopted to assess the temporal and spectral variability of the response of the Metis detectors. In particular, we identify and analyse the main sources of signal variability due to instrumental effects, with the aim of quantifying their impact on the measurements and decoupling them from the intrinsic physical fluctuations of the solar corona.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Time-and-frequency-domain-characterisation-of-the-Metis--Solar/14145-87",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 09:20 - 09:40 CEST | Room B4-M3",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Stefan Kraus, Sylvestre Lacour, Mathias Nowak, Michael Ireland, Frantz Martinache",
       "PaperNumber": "14148-55",
       "DateTimeLocationDataList": [
@@ -218,11 +116,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Cryogenic characterisation for the nulling interferometer cryogenic experiment (NICE)",
+      "Title": "Cryogenic characterisation for the nulling interferometry cryogenic experiment (NICE)",
       "Description": null,
-      "Abstract": "The Nulling Interferometer Cryogenic Experiment (NICE) is an experimental testbed for the beam combiner of the Large Interferometer For Exoplanets (LIFE) space mission. Until now, progress on NICE has been confined to an ambient bench, where we have recorded progress in deep (<1e-5) nulls at wavelengths between 4 and 5µm at 300K. However, the ultimate goal and requirement of NICE is to repeat these measurements at the sensitivity levels expected for a planetary system, requiring deep cryogenic conditions at 15K.    In this presentation, we will describe the \"Ice Cube\" cryostat, a small version of the future NICE cryostat that is used for component and subsystem level cryogenic testing. This is interfaced with a measurement setup using a segmented aperture interferometer and a wavefront sensor. We will also describe the testing campaign for understanding the material and mounting challenges that will be faced when translating the warm bench to cryogenic operations.",
+      "Abstract": "The Nulling Interferometry Cryogenic Experiment (NICE) is an experimental testbed for the beam combiner of the Large Interferometer For Exoplanets (LIFE) space mission. Until now, progress on NICE has been confined to an ambient bench, where we have recorded progress in deep (<1e-5) nulls at wavelengths between 4 and 5µm at 300K. However, the ultimate goal and requirement of NICE is to repeat these measurements at the sensitivity levels expected for a planetary system, requiring deep cryogenic conditions at 15K.    In this presentation, we will describe the \"Ice Cube\" cryostat, a small version of the future NICE cryostat that is used for component and subsystem level cryogenic testing. This is interfaced with a measurement setup using a segmented aperture interferometer and a wavefront sensor. We will also describe the testing campaign for understanding the material and mounting challenges that will be faced when translating the warm bench to cryogenic operations.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Cryogenic-characterisation-for-the-nulling-interferometer-cryogenic-experiment-NICE/14154-97",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Cryogenic-characterisation-for-the-nulling-interferometry-cryogenic-experiment-NICE/14154-97",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -388,11 +286,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "On-sky performance of RIMAS: Rapid infrared IMAger Spectrometer",
+      "Title": "On-sky performance of RIMAS: rapid infrared imager spectrometer",
       "Description": null,
       "Abstract": "In this age of multi-messenger astronomy precipitated by GW 170817, it is important to have instruments throughout the EM spectrum performing follow-up observations. The Rapid infrared IMAger Spectrometer (RIMAS) is designed to observe transient events within minutes of the initial detection. RIMAS is a NIR imager spectrometer (R~25, 250 and 5000) designed to observe afterglows of high-redshift GRBs in the Y, J, H and K bands. Commissioned in June 2025, RIMAS is installed on the 4.3 m Lowell Discovery Telescope located outside Flagstaff, AZ, and is now continuously available for Target of Opportunity observations. RIMAS’s high resolution spectrograph is enabled by the first instance of ruled grisms used in cross-dispersed mode for ground based NIR astronomy, and is also the first instrument to use Roman Space Telescope package H4RG-10 detectors for spectroscopic measurements of astronomical objects. Here explore the performance of RIMAS’s photometric and spectroscopic modes.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/On-sky-performance-of-RIMAS-Rapid-infrared-IMAger-Spectrometer/14149-163",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/On-sky-performance-of-RIMAS-rapid-infrared-imager-spectrometer/14149-163",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -502,7 +400,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Noah H. Schwartz, Samuel Pinilla, Douglas Harvey, Charlotte Bond, Ben Buky, Gianfelice Cinque, Robert Rambo",
+      "Authors": "Noah H. Schwartz, Samuel Pinilla, Charlotte Bond, Ben Buky, Gianfelice Cinque, Robert Rambo",
       "PaperNumber": "14150-92",
       "DateTimeLocationDataList": [
         {
@@ -524,11 +422,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Full frame denoising for pyramid wavefront sensors: simulation and bench validation",
+      "Title": "Full frame denoising for pyramid wavefront sensors",
       "Description": null,
       "Abstract": "Single-Conjugate Adaptive Optics (SCAO) systems using pyramid wavefront sensors (PWFS) face significant challenges under low-flux conditions, where photon and detector noise degrade wavefront measurements and limit system performance. We present a novel image-denoising strategy based on 3D sparse representations in the transform domain, grouping similar image patches for joint processing. This approach effectively suppresses noise while preserving fine structural details, improving loop stability and correction quality.    Our Python implementation achieves real-time-capable throughput and has been validated through closed-loop simulations and laboratory experiments. Results show reduced residual wavefront error and enhanced robustness compared to conventional methods, particularly in low signal-to-noise regimes. These advances highlight the potential of advanced denoising techniques to extend the operational limits of pyramid-based AO systems for next-generation telescope",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Full-frame-denoising-for-pyramid-wavefront-sensors--simulation-and/14150-92",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Full-frame-denoising-for-pyramid-wavefront-sensors/14150-92",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -672,7 +570,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Nicola La Palombara, Gabriele Dal Ben, Simone Piras, Ilaria Dal Ben, Filippo Dal Ben, Julien Cailleux, Fatima De Frondat Laadim, Assia El Mouden, Luigi Lessio, Giuseppe Leto, Laura Proserpio, Alessio Trois, Fulvio Gianotti, Ismam Abu, Claudio Arena, Vito Conforti, Jean Laurent Dornaux, Carmelo Gargano, Valentina Giordano, Alida Marchetti, Cesare Molfese, Francesco Saturni",
+      "Authors": "Nicola La Palombara, Gabriele Dal Ben, Simone Piras, Ilaria Dal Ben, Filippo Dal Ben, Julien Cailleux, Fatima De Frondat Laadim, Assia El Mouden, Luigi Lessio, Giuseppe Leto, Laura Proserpio, Alessio Trois, Fulvio Gianotti, Ismam Abu, Claudio Arena, Vito Conforti, Jean Laurent Dornaux, Carmelo Gargano, Valentina Giordano, Cesare Molfese, Alida Marchetti, Francesco Saturni",
       "PaperNumber": "14147-190",
       "DateTimeLocationDataList": [
         {
@@ -842,7 +740,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Tomotake Matsumura, Hirokzu Ishino",
+      "Authors": "Hirokzu Ishino, Asuka Maeda, Tomotake Matsumura",
       "PaperNumber": "14145-89",
       "DateTimeLocationDataList": [
         {
@@ -1034,11 +932,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Fast photonic wavefront sensing using coupled waveguide arrays",
+      "Title": "A coupled-waveguide architecture for photonic wavefront sensing and its application",
       "Description": null,
-      "Abstract": "The application of photonic technologies to adaptive optics provides opportunities to design systems with novel characteristics otherwise not achievable with traditional bulk-optic instrumentation. Here we present a novel sensing architecture that moves beyond the constraints of conventional wavefront sensors (e.g. Shack-Hartmann or Pyramid Wavefront Sensors), bypassing the latency associated with pixel readout and and per-frame centroiding by using direct intensity measurements. We achieve this in a small footprint device with relaxed deployment requirements by leveraging the properties of coupled waveguide arrays.",
+      "Abstract": "Photonic technologies provide opportunities to design adaptive-optics systems with characteristics that are diffi  cult to achieve using traditional bulk-optic instrumentation. We explore a complementary photonic architecture  to conventional wavefront sensors (e.g., Shack–Hartmann or pyramid wavefront sensors) by leveraging the properties of microstructured optical waveguides.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Fast-photonic-wavefront-sensing-using-coupled-waveguide-arrays/14150-94",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/A-coupled-waveguide-architecture-for-photonic-wavefront-sensing-and-its/14150-94",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1532,7 +1430,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -1621,6 +1519,40 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "10 July 2026 • 11:20 - 11:35 CEST | Room B3-M2",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Philippe Dierickx, Gaston Gausachs, Corentin Cudennec, Benoît Sassolas, William Sutherland, Simone D'Auria, Laurane Fréour, Peter Doel, Tony Travouillon, Roland Bacon, Laurent Pinard, Vincenzo Cianniello, Vincenzo De Caprio, Ciro Del Vecchio, Salvatore Savarese, Olga Bellido, Thomas Augusteijn, Ramón Navarro, Will Saunders",
+      "PaperNumber": "14147-196",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 11:20 - 11:40 CEST | Room B3-M6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "8ac508c9-a9ce-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "8ac508c9-a9ce-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Progress of the design of the 12-m optical, Wide-Field Spectroscopic Telescope (WST)",
+      "Description": null,
+      "Abstract": "The Wide-Field Spectroscopic Telescope (WST) is a 12-m class, Alt-Az optical telescope providing two simultaneously available foci, 2º and 3x3 arc minutes respectively, for Multi-Object Spectroscopy (MOS) and Integral Field Spectroscopy (IFS). We outline the original optical solution, report progress of the structural design, of functional and physical definitions, and of the design of high-performance coatings of the telescope optics. The telescope can be wavefront-controlled at both foci, with little if any crosstalk between MOS and IFS controls. The design provides an option for seeing reduction at the IFS field, within existing technology. With a view to minimising risks, designs build extensively on solutions implemented in ESO’s VLT and ELT programmes. The WST would be located near ESO’s Paranal-Armazones observatory.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Progress-of-the-design-of-the-12-m-optical-Wide/14147-196",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 11:20 - 11:40 CEST | Room B3-M6",
       "ErrorMessage": null
     },
     {
@@ -1724,13 +1656,81 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "10 July 2026 • 11:30 - 11:45 CEST | Room B2-M4",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Yinzi Xin, Nemanja Jovanovic, Dimitri Mawet, Daniel Echeverri, Yoo Jung Kim, Jonathan Lin, Julien Lozi, Sebastien Vievard, Olivier Guyon, Grace Piroscia, Vincent Déo, Sergio Leon-Saval, Rodrigo Amezcua-Correa, Stephanos Yerolatsitis, Michael P. Fitzgerald, Pradip Gatkine, Suvinay Goyal, Barnaby Norris, Garreth Ruane, Steph Sallum",
+      "PaperNumber": "14148-61",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 11:30 - 11:50 CEST | Room B4-M5",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "435363b0-63cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "435363b0-63cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The Photonic Lantern Nuller: from concept to laboratory and on-sky demonstrations",
+      "Description": null,
+      "Abstract": "This thesis work presents the conceptual design and experimental characterization of the Photonic Lantern Nuller instrument, which uses a multimode-to-single-mode demultiplexing waveguide to cancel out starlight while maintaining planet light, allowing for the direct characterization of planets at a telescope’s diffraction limit. The PLN was experimentally characterized in the lab, where it was further enhanced using common-path wavefront sensing and control techniques, and then demonstrated on sky at the Subaru Telescope. Highlights include measured in-lab null-depths of ~10^{-4} in three out of four ports simultaneously and on-sky null-depths of ~10^{-1} (limited by jitter and atmospheric residuals). We provide an overview of these results and discuss avenues for future work.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Photonic-Lantern-Nuller--from-concept-to-laboratory-and/14148-61",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 11:30 - 11:50 CEST | Room B4-M5",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Phillip Black",
+      "PaperNumber": "14153-65",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 11:35 - 11:55 CEST | Room B2-M8",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "47370153-c9bb-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "47370153-c9bb-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Introducing L-BASS: an instrument to create absolutely calibrated maps at 1.4 GHz",
+      "Description": null,
+      "Abstract": "The L-Band All-Sky Survey (L-BASS) is a new ground-based instrument at the Jodrell Bank Observatory designed to deliver an absolutely calibrated all-sky map at 1.4 GHz with ≤ 0.1 K radiometric accuracy and 23° angular resolution. L-BASS combines classic differential radio-astronomy techniques with a modern constant-comparison receiver architecture and digital spectrometer back-end. The telescope employs two identical conical horn antennas, each producing circularly polarised outputs and independently steerable in elevation. L-BASS is calibrated with strategies including, the incorporation of a continuous-wave (CW) calibration technique, injecting a signal for running gain tracking, an array of 1-Wire thermometers for passive loss modelling, meteorological monitoring and an absolute calibration stage using a cryogenic reference load.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Introducing-L-BASS--an-instrument-to-create-absolutely-calibrated/14153-65",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 11:35 - 11:55 CEST | Room B2-M8",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

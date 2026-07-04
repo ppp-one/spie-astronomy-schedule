@@ -254,7 +254,7 @@
       "HTMLTitle": "",
       "Title": "Machine learning approaches to improve telescope efficiency and AO instrument strategies",
       "Description": null,
-      "Abstract": "Modern large telescopes face pointing and collimation challenges from thermo elastic drift, wind loading, flexure, and complex opto mechanical couplings.Traditional lookup table models and manual alignment cannot fully compensate, particularly in systems lacking dedicated sensors.We present a machine learning framework for data driven operations, demonstrated on the Large Binocular Telescope Interferometer (LBTI), whose bent Gregorian stations lack guide sensors.Integrating AO/TCS logs, telescope telemetry (CA/IE, elevation, azimuth, chamber temperature), and 6 DOF M2 hexapod states, the ML model predicts pointing and collimation corrections, reducing AO reference star acquisition from 5–30 minutes to 1–2 minutes. Trained on 2024–2025 data, Random Forest regressors achieved R² up to 0.92, RMSE ≈ 11.6 arcsec, and 58–68% of predictions within ±5 arcsec. The framework generalizes to internal telemetry for predictive alignment, paving the way for observatory‑wide automatization.",
+      "Abstract": "Efficient LBT operation requires each acquisition to start near the correct pointing and active-secondary collimation state. We present a telemetry-driven Random Forest/Quantile Regression Forest framework to predict residual CA/IE pointing terms and ASM hexapod coordinates for LUCI and LBTI. The models use azimuth, elevation, thermal telemetry, time of night, instrument, side, and collimation history within the operations window. We separate true cold-start predictions, using only pre-acquisition telemetry, from short-horizon updates that use recent same-instrument measurements. A strict 2026-06-16 HD116405 leave-one-day-out test compares pure CA/IE cold start, hexapod bootstrap, chained CA/IE using predicted hexapod state, and diagnostic CA/IE using measured hexapod state. The framework provides uncertainty-aware recommendations to reduce acquisition overhead and long-tail correction events without replacing the operator or analytical pointing model",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Machine-learning-approaches-to-improve-telescope-efficiency-and-AO-instrument/14152-38",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -332,8 +332,8 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Luis Alberto Rodriguez Garcia, Raul Dominguez Dominguez, Héctor de Paz Martín, Manuel Huertas López, Sebastian Fernandez Garcia, Francisco J. Rodríguez, Jorge de La Rosa, Camilo E. Jiménez, Romano Corradi, Axel Yanes, Fernando Rueda, Sergio Rueda, Antonio Marin-Franch, Javier Cenarro",
-      "PaperNumber": "14155-44",
+      "Authors": "Yi Hu, Junhui Shi, Jia Ma, Zhenyao Yang, Zhongyue Chen, Zhongna Dong, Yiming Liang, Jiacheng Zhang, Zhichao Zheng, Yuqi Wang, Yongxiong Xiao, Haoyuan Du, Xu Yang, Zhaohui Shang, Yongna Mao, Jifeng Liu",
+      "PaperNumber": "14155-45",
       "DateTimeLocationDataList": [
         {
           "date_time_location": "7 July 2026 • 16:10 - 16:30 CEST | Room B4-M7",
@@ -347,18 +347,18 @@
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
       "MatchingFrag": "",
-      "UniqueId": "2c9a8ad3-d1cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "2c9a8ad3-d1cf-f011-a9ae-00505691c5e1",
+      "UniqueId": "ad07c009-dcd1-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "ad07c009-dcd1-f011-a9ae-00505691c5e1",
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Cognitive artificial intelligence ecosystem with intelligent agents for GTC operations",
+      "Title": "Embodied artificial intelligence telescope: an effective solution for high-level autonomous operation requirements of GOTTA project",
       "Description": null,
-      "Abstract": "This work presents a cognitive AI ecosystem for the Gran Telescopio Canarias that combines edge-level deep learning with intelligent agents orchestrating actions across control, maintenance and administrative systems.     A three-layer architecture is introduced—cognitive, orchestration and operational—together with a phased roadmap towards operational, predictive and institutional intelligence. The contribution highlights governance principles and organizational requirements, and showcases practical use cases.     The approach aims to evolve the GTC into a cognitive observatory where the digital twin becomes an active, learning component that enhances resilience and reduces cognitive load for human teams.",
+      "Abstract": "Future time-domain astronomy will rely on globally distributed arrays of wide-field telescopes capable of tracking the most rapid and violent cosmic phenomena in real time. This facility can only operate effectively if it is fully autonomous, distributed, and continuously adaptive—capabilities that far exceed the limits of today’s open-loop robotic telescope software. We therefore introduce the Embodied Artificial Intelligence Telescope (EAIT), an AI-native closed-loop observational system that integrates perception, interpretation, planning, and action within each telescope. EAIT transforms a telescope from a passive data-collection instrument into an intelligent agent capable of real-time decision-making and autonomous coordination across a global array. Our results highlight the feasibility of EAIT and its potential to redefine the operational paradigm for next-generation transient astronomy.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Cognitive-artificial-intelligence-ecosystem-with-intelligent-agents-for-GTC-operations/14155-44",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Embodied-artificial-intelligence-telescope--an-effective-solution-for-high/14155-45",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -626,7 +626,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "SMASHSpec: a testbed for actively-stabilized extreme precision radial velocity spectrographs",
+      "Title": "SMASHSpec: a testbed for actively-stabilized extreme  precision radial velocity spectrographs",
       "Description": null,
       "Abstract": "Next-generation Extreme Precision Radial Velocity (EPRV) experiments demand stability approaching < 1 cm/s over years. Current passive spectrographs struggle due to long-term optical path degradation. We introduce the Single-Mode Autonomous Solar Heterodyne Spectrograph (SMASHSpec), a novel instrument using active stabilization. SMASHSpec achieves improved stability in a cryogenic vacuum environment with active path length metrology and thermal control. It features a cross-dispersed echelle layout for high resolution (R > 100,000) over a broad 380–930 nm bandpass. Light is fed via a single-mode fiber from a solar micro-telescope, using a Laser Frequency Comb (LFC) for calibration, targeting a few cm/s/year stability. Future designs will incorporate LISA-style interferometric Nd:YAG laser cavities for continuous, precise metrology to drive an active feedback loop, maintaining stability over decades. We will present the design details and progress-to date on SMASHSpec.",
       "ImagePath": null,
@@ -842,6 +842,40 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Matias Gonzalez, Vicente Coopman, Jonathan Antognini",
+      "PaperNumber": "14155-46",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 16:30 - 16:50 CEST | Room B4-M7",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "26167e16-88d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "26167e16-88d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "AI Assisted Exploration of Dynamic Web Interfaces for Improving Test Reliability in ALMA Operational Dashboards",
+      "Description": null,
+      "Abstract": "Modern observatories rely on dynamic web applications whose structure changes as users interact with them, making regression testing fragile and costly. This issue is relevant at the Atacama Large Millimeter/submillimeter Array (ALMA), where new operational dashboards such as the Integrated Alarm System (IAS) are being developed. We are creating a prototype tool that automatically explores a web application and observes how the interface responds to realistic interactions. It combines automated browser actions with AI-assisted analysis to detect interactive elements, group interface states, and identify unstable selectors. Early results on IAS reveal hidden interaction paths, structural inconsistencies, and selector behaviors that affect testing. This approach reduces manual trial-and-error and helps focus verification on unstable areas, with potential application to other observatory web systems. Integration into ALMA automation workflows is underway.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/AI-Assisted-Exploration-of-Dynamic-Web-Interfaces-for-Improving-Test/14155-46",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 16:30 - 16:50 CEST | Room B4-M7",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Adrien Bolliand, Eloïse Bernaud, Michel Marcos, Eduard Muslimov, Jiawei Liu, Gérard Lemaître, Samuel Boissier, Emmanuel Hugot",
       "PaperNumber": "14154-59",
       "DateTimeLocationDataList": [
@@ -907,40 +941,6 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 16:30 - 16:50 CEST | Room B3-M6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Yi Hu, Junhui Shi, Jia Ma, Zhenyao Yang, Zhongyue Chen, Zhongna Dong, Yiming Liang, Jiacheng Zhang, Zhichao Zheng, Yuqi Wang, Yongxiong Xiao, Haoyuan Du, Xu Yang, Zhaohui Shang, Yongna Mao, Jifeng Liu",
-      "PaperNumber": "14155-45",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 16:30 - 16:50 CEST | Room B4-M7",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "ad07c009-dcd1-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "ad07c009-dcd1-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Embodied artificial intelligence telescope: an effective solution for high-level autonomous operation requirements of GOTTA project",
-      "Description": null,
-      "Abstract": "Future time-domain astronomy will rely on globally distributed arrays of wide-field telescopes capable of tracking the most rapid and violent cosmic phenomena in real time. This facility can only operate effectively if it is fully autonomous, distributed, and continuously adaptive—capabilities that far exceed the limits of today’s open-loop robotic telescope software. We therefore introduce the Embodied Artificial Intelligence Telescope (EAIT), an AI-native closed-loop observational system that integrates perception, interpretation, planning, and action within each telescope. EAIT transforms a telescope from a passive data-collection instrument into an intelligent agent capable of real-time decision-making and autonomous coordination across a global array. Our results highlight the feasibility of EAIT and its potential to redefine the operational paradigm for next-generation transient astronomy.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Embodied-artificial-intelligence-telescope--an-effective-solution-for-high/14155-45",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 16:30 - 16:50 CEST | Room B4-M7",
       "ErrorMessage": null
     },
     {
@@ -1284,40 +1284,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Matias Gonzalez, Vicente Coopman, Jonathan Antognini",
-      "PaperNumber": "14155-46",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 16:50 - 17:10 CEST | Room B4-M7",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "26167e16-88d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "26167e16-88d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "AI Assisted Exploration of Dynamic Web Interfaces for Improving Test Reliability in ALMA Operational Dashboards",
-      "Description": null,
-      "Abstract": "Modern observatories rely on dynamic web applications whose structure changes as users interact with them, making regression testing fragile and costly. This issue is relevant at the Atacama Large Millimeter/submillimeter Array (ALMA), where new operational dashboards such as the Integrated Alarm System (IAS) are being developed. We are creating a prototype tool that automatically explores a web application and observes how the interface responds to realistic interactions. It combines automated browser actions with AI-assisted analysis to detect interactive elements, group interface states, and identify unstable selectors. Early results on IAS reveal hidden interaction paths, structural inconsistencies, and selector behaviors that affect testing. This approach reduces manual trial-and-error and helps focus verification on unstable areas, with potential application to other observatory web systems. Integration into ALMA automation workflows is underway.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/AI-Assisted-Exploration-of-Dynamic-Web-Interfaces-for-Improving-Test/14155-46",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 16:50 - 17:10 CEST | Room B4-M7",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Emiliano Cordelli, Ernesto Dölling, Dora Föhring, Pablo Ramirez-Moreta, Luca Conversi, Peter Droll, Johannes Klug, Richard Moissl, Vanshika Agrawal, Francisco Ocana, Marta Cametti, Elmar Brendel",
       "PaperNumber": "14147-42",
       "DateTimeLocationDataList": [
@@ -1512,7 +1478,7 @@
       "HTMLTitle": "",
       "Title": "Next-generation 3D CdZnTe matrix detector with reduced noise and minimal readout requirements",
       "Description": null,
-      "Abstract": "Accurate and compact radiation detectors are increasingly needed in MeV space missions, yet current semiconductor technologies are limited by electronic noise, capacitance, and system complexity. We present a next-generation 3D CZT Matrix Detector that uses a novel fine pitch electrode geometry to significantly reduce electronic noise and pixel capacitance. By optimizing weighting fields and charge sharing behavior, the design enhances signal fidelity and supports superior spatial and energy resolution at room temperature. Our approach combines 3D charge transport and field simulations with experimental studies that are used to validate detector performance.     We will also explore machine learning as a supporting tool for real time event identification and noise filtering. A key advantage of the electrode geometry is that it extracts complete radiation information with very few readout channels, reducing detector size, mass, and power - making the system well suited for space missions.",
+      "Abstract": "Accurate and compact radiation detectors are increasingly needed in MeV space missions, yet current semiconductor technologies are limited by electronic noise, capacitance, and system complexity. We present a next-generation 3D CZT Matrix Detector that uses a novel fine pitch electrode geometry to significantly reduce electronic noise and pixel capacitance. By optimizing weighting fields and charge sharing behavior, the design enhances signal fidelity and supports superior spatial and energy resolution at room temperature. Our approach combines 3D charge transport and field simulations with experimental studies that are used to validate detector performance.     A key advantage of the electrode geometry is that it extracts complete radiation information with very few readout channels, reducing detector size, mass, and power - making the system well suited for space missions.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Next-generation-3D-CdZnTe-matrix-detector-with-reduced-noise-and/14146-63",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 17:00 - 17:15 CEST | Room B2-M4",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Jonah T. Hansen, Thomas Birbacher, Germain Garreau, Julio Pino Jiménez, Emilie Bouzerand, Felix A. Dannert, David Eglin, Lee Feinberg, Adrian M. Glauser, Maximillian Kirchhoff, Oliver Pitz, Eckhart Spalding, Sascha P. Quanz",
+      "PaperNumber": "14148-26",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:10 - 17:30 CEST | Room B4-M5",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "7cd0d9ad-25d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "7cd0d9ad-25d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "A NICE (Nulling Interferometer Cryogenic Experiment) update: beyond 1e-5 and towards cryogenic operation",
+      "Description": null,
+      "Abstract": "We share an update on the Nulling Interferometer Cryogenic Experiment (NICE), a mid-infrared laboratory testbed at ETH Zürich that aims to not only reproduce the deep (<1e-5) broadband nulls of the earlier nulling testbeds of the early 2000s, but also at the required sensitivity levels expected for the LIFE space mission. This sensitivity enforces the experiment to go cryogenic at temperatures around 15K; an ambitious task for an ultra-precise interferometer. We will share our results of the ambient precursor experiment, demonstrating repeatable <1e-5 nulls at a single wavelength and high throughput, and new results across a broader bandpass with dual polarisation states. We will also highlight the push towards cryogenic operation, with the instalment of a new 15K test cryostat that will inform our choices of materials and optomechanical mounting techniques.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/A-NICE-Nulling-Interferometer-Cryogenic-Experiment-update--beyond-1e/14148-26",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:10 - 17:30 CEST | Room B4-M5",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

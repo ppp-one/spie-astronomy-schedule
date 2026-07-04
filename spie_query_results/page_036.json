@@ -26,108 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Helawae Kelemu, Alejandro Buendía, Deborah Malone, Saúl Perez, Francisco Javier De Cos Juez, Nazim Ali Bharmal, Tim Morris",
-      "PaperNumber": "14150-238",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "8f3d29e8-6acf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "8f3d29e8-6acf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Wavefront predictor performance comparison between artificial neural network and linear model-based predictors",
-      "Description": null,
-      "Abstract": "Modern astronomical telescopes employ high-dimensional adaptive optics (AO) systems. In such systems, wavefront prediction is essential for mitigating temporal-lag errors. Neural network–based predictors have seen increased interest, yet direct comparisons with linear model-based predictors remain scarce.  This work presents a comparative evaluation of a linear predictor in an LQG control framework and a 2D-LSTM neural network predictor. Under non-stationary turbulence, the two approaches show distinct performance characteristics, with the neural network exhibiting greater adaptability. These findings support the development of self-calibrating model-based prediction strategies for future AO systems.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Wavefront-predictor-performance-comparison-between-artificial-neural-network-and-linear/14150-238",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Andrew W. Serio, Sharon E. Hunt, Josie Fenske, Hernan Chacana, Carolina Vargas",
-      "PaperNumber": "14151-98",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "978e7a25-a8d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "978e7a25-a8d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "What does it mean? Introduction to NOIRLab’s terminology extension",
-      "Description": null,
-      "Abstract": "NSF NOIRLab, which is funded by the U.S. National Science Foundation (NSF), was formed in 2019 by consolidating three observatories (NOAO, International Gemini Observatory, and NSF–DOE Vera C. Rubin Observatory). As a result, the organization inherited multiple disparate terminology databases from its Programs, leading to confusion and duplication of effort regarding the meaning and usage of terms and abbreviations. We have consolidated these terminology sources into a single, authoritative database that includes terms and abbreviations for common astronomical language, job titles, Program-specific items, organizations and institutions, and instrumentation, with both English and Spanish translations to support our multilingual, international organization. The database powers the NOIRLab Terminology Extension, a Chrome extension that provides an easy search feature overlayable on any web page. Users can find the expanded forms of acronyms and see term usage differences across NOIRLab.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/What-does-it-mean-Introduction-to-NOIRLabs-terminology-extension/14151-98",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Nicholas B. Galitzki",
-      "PaperNumber": "14147-45",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:50 - 18:10 CEST | Room B3-M6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "cc93eac2-60d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "cc93eac2-60d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The Simons Observatory: commissioning and initial science observations",
-      "Description": null,
-      "Abstract": "The Simons Observatory (SO) measures the cosmic microwave background (CMB) from a high altitude (5,200 m) site in Chile’s Atacama Desert. SO makes precision temperature and polarization maps on angular scales between one arcminute and tens of degrees using over 120,000 detectors operating below 100 mK and sampling frequencies between 24 and 315 GHz. SO consists of one six-meter-aperture telescope and an array of half-meter aperture refractive cameras with a photovoltaic system designed to supply 70% of the observatory’s energy needs. The observatory is fully operational and work on initial science publications and data products is advancing rapidly. We present the status of the observatory, covering the current configuration’s commissioning, operations, and initial observations as well as progress towards expanded capabilities.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Simons-Observatory-commissioning-and-initial-science-observations/14147-45",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:50 - 18:10 CEST | Room B3-M6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Carole G. Mundell",
       "PaperNumber": "14152-500",
       "DateTimeLocationDataList": [
@@ -230,7 +128,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Roberta Zanin, David Green, Michele Doro, Matthias Füßling, Karl Kosak, Igor Oya, Orel Gueta",
+      "Authors": "Roberta Zanin, David Green, Michele Doro, Matthias Füßling, Karl Kosak, Igor Oya, Orel Gueta, Ivana Batkovic, Karl Kosack, Bruno Khelifi, Catherine Boisson, Mathieu Servillant, Maximilian Linhoff, Mieke Bouwhuis, Alba Fernandez-Barral, Stuart McMuldroch, Markus Gaug, Stefan schlenstedt, Samuel Spencer",
       "PaperNumber": "14155-47",
       "DateTimeLocationDataList": [
         {
@@ -254,7 +152,7 @@
       "HTMLTitle": "",
       "Title": "CTAO as a Game Changer for Open Science in ground-based gamma-ray astronomy",
       "Description": null,
-      "Abstract": "The Cherenkov Telescope Array Observatory (CTAO) is a next-generation, distributed facility for very-high-energy gamma-ray astronomy, built to operate openly and over multiple decades. Aligned with the Berlin Declaration, CTAO embraces open science by ensuring that its publications, data products, and software are publicly accessible with proper credit. This approach marks a major shift within gamma-ray and astroparticle physics, fields long shaped by proprietary data and experiment-specific tools. The paper outlines the policies, infrastructure, and technical solutions enabling the CTAO open-access framework, as well as its active role in community efforts to establish a common data model for diverse astroparticle detectors. By supporting the development of a Virtual Observatory standard, the CTAO ensures interoperability and long-term usability of its data for multi-wavelength and multi-messenger studies, enabling robust multi-instrument analyses and maximizing scientific return.",
+      "Abstract": "The Cherenkov Telescope Array Observatory is the next-generation facility for very-high-energy gamma-ray astronomy, designed to operate as a distributed, open, proposal-driven observatory over multiple decades. The CTAO is fully committed to open science which advocates that both scientific publications and research outputs should be publicly accessible while ensuring proper credit and authorship.    The CTAO is acting as a game changer within the gamma-ray astronomy community and, more broadly, within the astroparticle physics field, which has traditionally been characterized by proprietary data and experiment-specific software. In support of its open-science philosophy, the CTAO actively promotes transparency, reproducibility, and community engagement by making its data products and software tools accessible to researchers worldwide. The paper describes how this approach is being pursued across the observatory’s operations, detailing the policies, infrastructures.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/CTAO-as-a-Game-Changer-for-Open-Science-in-ground/14155-47",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -706,7 +604,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jordan Israel Diaz, Rebecca Jensen-Clem, Daren Dillon, Philip M. Hinz, Dan Sirbu, Benjamin L. Gerard, Sarah A. Tedder, Brian Vyhnalek, Steph Sallum, Matthew C. DeMartino, Kevin Bundy, Pradip Gatkine, Stephen Eikenberry, Peter Delfyett, Rodrigo Amezcua-Correa",
+      "Authors": "Jordan Israel Diaz, Rebecca Jensen-Clem, Philip M. Hinz, Daren Dillon, Pradip Gatkine, Aditya R. Sengupta, Dan Sirbu, Sarah A. Tedder, Kevin Bundy, Brian Vyhnalek, Steph Sallum, Matthew C. DeMartino, Stephen Eikenberry, Peter Delfyett, Rodrigo Amezcua-Correa",
       "PaperNumber": "14148-29",
       "DateTimeLocationDataList": [
         {
@@ -728,11 +626,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Development of an all-fiber-based nulling interferometer for the detection of accreting companions",
+      "Title": "Demonstrating the integration of a photonic lantern with an all-fiber-based nulling interferometer",
       "Description": null,
-      "Abstract": "Photonic technologies offer unique functionalities for manipulating light, including the inherent modal noise filtering of single-mode waveguides, which enables near diffraction-limited point-spread functions. Combining these benefits with the multi-mode to single-mode conversion capabilities of photonic lanterns (PLs) provides new avenues to implement techniques such as nulling interferometry. Previously, we demonstrated a proof-of-concept of an all-fiber-based focal plane nulling interferometer using off-the-shelf components with narrowband light at 632 nm. In this work, we expand the concept of the instrument to operate in the J and H bands. We present preliminary laboratory results on the nulling performance of this upgrade and explore the implementation of a PL for coupling light into the instrument. Additionally, we discuss the use of 3D nanoprinted PLs and photonic integrated circuits as another potential path for implementing the nulling interferometry technique.",
+      "Abstract": "High-contrast imaging of Solar System scale exoplanets and protoplanets demands advancements in instrumentation to access deeper starlight suppression at smaller angular separations than today's state-of-the-art. The multi-mode to single-mode conversion capabilities of photonic lanterns (PLs) provide new avenues to implement techniques such as nulling interferometry due to the inherent spatial filtering of single-mode waveguides. In this work, we present laboratory results on an all-fiber-based focal plane nulling interferometer using off-the-shelf components operating at 1550 nm. We demonstrate the implementation of a PL for coupling light into the instrument, and compare it to the case when laser light is directly fed into the interferometer. The integration of a PL with the interferometer evidences their potential for feeding photonic-based instruments. Additionally, we discuss expanding the concept of the instrument for the detection of accreting protoplanets.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-an-all-fiber-based-nulling-interferometer-for-the/14148-29",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Demonstrating-the-integration-of-a-photonic-lantern-with-an-all/14148-29",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1512,7 +1410,7 @@
       "HTMLTitle": "",
       "Title": "Design and modeling of an oblique incidence dichroic mirror for a high contrast imaging system",
       "Description": null,
-      "Abstract": "The proposed Habitable Worlds Observatory (HWO) aims to detect and characterize Earth-like planets around Sun-like stars from the ultraviolet to the infrared using high-contrast imaging. A dichroic mirror is a natural choice for splitting light between multiple wavelength channels in such a system, but the coating must meet strict spectral requirements to avoid limiting contrast. We present the design of a long-pass dichroic mirror operated at a 15° angle of incidence that provides high reflection in the short-wavelength band, high transmission in the long-wavelength band, and a sharp cut-on near 550 nm. A multilayer thin-film design process was used to meet these spectral targets while reducing polarization sensitivity at oblique incidence. The resulting design satisfies the required band separation, and system modeling shows that the coating does not limit the coronagraph’s contrast performance.",
+      "Abstract": "The proposed Habitable Worlds Observatory aims to detect and characterize Earth-like planets around Sun-like stars from the ultraviolet to the infrared using high-contrast imaging. A dichroic mirror is a natural choice for splitting light between multiple wavelength channels in such a system, but the coating must introduce minimal polarization aberrations and chromatic wavefront errors to avoid limiting contrast. We present the design of a long-pass dichroic mirror operated at a 7° AOI that provides high reflection from 400-540nm and high transmission from 560-750nm. A multilayer thin-film design process was used to meet these spectral requirements while reducing polarization aberrations and chromatic WFE sensitivity. The resulting coating-induced WFE was propagated through simulations of a VVC to assess contrast performance. Simulations predict dark-hole contrast residuals at the 10^(−12) level, indicating that the optimized dichroic mirror does not limit coronagraph performance.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Design-and-modeling-of-an-oblique-incidence-dichroic-mirror-for/14154-66",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1724,13 +1622,115 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 11:30 - 12:00 CEST | Room B3-M6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Elijah Kane, Chris Albert, Andrew Beyer, Charles Bradford, Pierre Echternach, Logan Foote, Jason Glenn, Henry LeDuc, Jonas Zmuidzinas",
+      "PaperNumber": "14156-21",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 11:30 - 11:50 CEST | Room B5-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "8e330981-acd0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "8e330981-acd0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Ultrasensitive kilo-pixel kinetic inductance detector arrays for PRIMA FIRESS: preserving sensitivity in the space radiation environment",
+      "Description": null,
+      "Abstract": "The Probe far-Infrared Mission for Astrophysics (PRIMA) is a proposed space observatory at wavelengths between 25 and 265 microns. Kinetic inductance detector (KID) arrays fabricated for PRIMA at the NASA Jet Propulsion Laboratory have achieved background-limited sensitivities for the space environment. In this talk, I summarize the yield and sensitivity of prototype arrays for PRIMA’s spectrometer, FIRESS. I also discuss the measures taken to qualify the arrays for use in the energetic proton environment of the L2 orbit. We demonstrate that a backside metal layer is effective in reducing cosmic ray glitch rates and infer a dead time due to proton impacts of well below 10%. We have also performed an experiment to demonstrate that total dose is not a concern for aluminum KIDs. We cryogenically irradiate the array with alpha particles to many times the expected total displacement damage dose in PRIMA’s 5-year lifetime, finding no change in performance.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Ultrasensitive-kilo-pixel-kinetic-inductance-detector-arrays-for-PRIMA-FIRESS/14156-21",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 11:30 - 11:50 CEST | Room B5-M3",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Maren Cosens, Nicholas P. Konidaris, Gwen C. Rudie, Andrew B. Newman, Leon Aslan, Robert Barkhouser, Christoph Birk, Julia Brady, Mathias Gumy, Tyson Hare, Stephen C. Hope, Charlie Hull, Karim Kaismoune, Daniel D. Kelson, Gerrad Killion, Alicia Lanz, Jacob McCloskey, Solange Ramirez, Cyril Rupf, William Schoenell, Patricio Schurter, Stephen A. Smee, Peter Spanoudakis, Jason E. Williams",
+      "PaperNumber": "14149-49",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 11:30 - 11:50 CEST | Auditorium 15",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "a113b5dd-83c9-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "a113b5dd-83c9-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Update on the Magellan InfraRed Multi-Object Spectrograph (MIRMOS)",
+      "Description": null,
+      "Abstract": "The Magellan InfraRed Multi-Object Spectrograph (MIRMOS) will be a next generation multi-object (MOS) and integral field spectrograph (IFS) for the 6.5m Magellan telescopes at Las Campanas Observatory in Chile. MIRMOS will perform R~3700 spectroscopy over a simultaneous wavelength range of 0.886 - 2.404um (Y, J, H, and K bands) in addition to imaging over the range of 0.7 - 0.886um. Target selection in the MOS mode is achieved through a cryogenic mechanism capable of making up to 92 slits over a 13’x3’ field of view (FoV). The IFS mode of operation for MIRMOS will be achieved via an image slicer style integral field unit (IFU) which provides an ~18”x26” FoV made up of 0.84”x26” slices. We will describe here the design of the MIRMOS instrument -- now at the end of the preliminary design phase.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Update-on-the-Magellan-InfraRed-Multi-Object-Spectrograph-MIRMOS/14149-49",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 11:30 - 11:50 CEST | Auditorium 15",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Matthijs Mars, Sebastiaan Y. Haffert, Joseph D. Long, Rico Landman, Louis Desdoigts, Olivier Guyon, Jared R. Males, Laird M. Close, Kyle van Gorkum, Alexander D. Hedglen, Sandrine Juillard",
+      "PaperNumber": "14150-55",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 11:35 - 11:50 CEST | Room B3-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "8a016952-0fd0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "8a016952-0fd0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Physics-informed digital twin for forward modelling low-order aberrations in high-contrast imaging",
+      "Description": null,
+      "Abstract": "We develop a physics-informed, fully differentiable digital twin of a high-contrast imager’s science path and low-order wavefront sensor to forward-model residual low-order aberrations and reconstruct the stellar PSF. By explicitly modelling the aberrations measured by the LOWFS, the approach improves stellar leakage subtraction compared to methods that rely solely on science camera data. This hybrid physics/data framework improves robustness, reduces calibration requirements, and adapts easily to different coronagraph configurations. We present initial laboratory validation on MagAO-X, demonstrating the feasibility of telemetry-driven forward modelling.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Physics-informed-digital-twin-for-forward-modelling-low-order-aberrations/14150-55",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 11:35 - 11:50 CEST | Room B3-M2",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

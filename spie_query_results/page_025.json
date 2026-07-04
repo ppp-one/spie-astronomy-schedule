@@ -50,7 +50,7 @@
       "HTMLTitle": "",
       "Title": "Ensuring the system integrity of ALMA 2030: managing the distributed systems engineering effort for delivering the wideband sensitivity upgrade",
       "Description": null,
-      "Abstract": "The Atacama Large Millimeter/submillimeter Array (ALMA) has operated successfully for more than a decade, remaining the world’s premier telescope for high-resolution observations at millimeter/submillimeter wavelengths, with more than 4500 refereed publications to date. The next stage for ALMA is the Wideband Sensitivity Upgrade (WSU), which will increase the instantaneous bandwidth by 4x (initially delivered as 2x), improving its sensitivity and digital efficiency, while keeping the existing system in operation. This complex program requires dedicated systems engineering (SE) to maintain system integrity while scientific observations continue. We describe the complementary SE efforts at project and program levels, based on collaboration between the WSU Program Management Office, the Integrated Development Team, the JAO Systems Engineering Group, and regional development projects. We summarize the progress made towards System PDR and reflect on the SE and program management interplay.",
+      "Abstract": "The Atacama Large Millimeter/submillimeter Array (ALMA) has operated successfully for more than a decade, remaining the world’s premier telescope for high-resolution observations at millimeter/submillimeter wavelengths, with around 5000 refereed publications to date. The next stage for ALMA is the Wideband Sensitivity Upgrade (WSU), which will increase the instantaneous bandwidth by 4x (initially delivered as 2x), improving its sensitivity and digital efficiency, while keeping the existing system in operation. This complex program requires dedicated systems engineering (SE) to maintain system integrity while scientific observations continue. We describe the complementary SE efforts at project and program levels, based on collaboration between the WSU Program Management Office, the Integrated Development Team, the JAO Systems Engineering Group, and regional development projects. We summarize the progress made towards System PDR and reflect on the SE and program management interplay.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Ensuring-the-system-integrity-of-ALMA-2030--managing-the/14152-34",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -604,7 +604,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Christopher A. Haniff, David F. Buscher, Martin Fisher, Eugene B. Seneta, John S. Young, Donald Wilson, Juan Paulo Barios, Van D. Romero, Michelle J. Creech-Eakman, Andres Olivares, Chris Salcido, James Luis, Emma Floyd, Ian S. Schofield, Raphael Santoro, Anders M. Jorgensen",
+      "Authors": "Christopher A. Haniff, Juan Paulo Barios, David F. Buscher, Martin Fisher, Eugene B. Seneta, John S. Young, Van D. Romero, Michelle J. Creech-Eakman, Caelan F Eakman, Emma Floyd, Anders M. Jorgensen, James Luis, Jeffrey C Mason, Andres Olivares, Sam Rochelle, Chris Salcido, Raphael Santoro, Ian S. Schofield",
       "PaperNumber": "14148-20",
       "DateTimeLocationDataList": [
         {
@@ -628,7 +628,7 @@
       "HTMLTitle": "",
       "Title": "Validating the capability of the Magdalena Ridge Observatory Interferometer (MROI) for GEO satellite imaging",
       "Description": null,
-      "Abstract": "A primary goal of the Magdalena Ridge Observatory Interferometer (MROI) is to enable model-independent imaging of faint targets. Such a capability would address a key problem in the monitoring of satellites in geosynchronous orbits (GEO) where most optical imaging modalities struggle to deliver the milliarcsecond angular resolution and faint-source capability required. We report here on initial MROI observations of a sample of GEO targets aimed at realizing an imaging capability using this sparse ground-based array. Our focus has been on validating the performance of the most critical optomechanical subsystems required to deliver this capability, on the management of observations of objects moving at non-sidereal rates, and on the overall operability of the array for studies of faint resolved GEO satellites. The impact of these data on the future development of the MROI and the capability of ground-based spatial interferometers for GEO asset situational awareness are discussed.",
+      "Abstract": "A goal of the Magdalena Ridge Observatory Interferometer (MROI) is to enable model-independent imaging of faint targets. This addresses a key problem for satellites in geosynchronous (GEO) and medium Earth orbit (MEO) where imaging modalities struggle to deliver the milliarcsecond resolution and faint-source capability required. We report on initial MROI observations of a sample of GEO targets aimed at realising an imaging capability with a sparse ground-based optical array and confirm the sustained detection of interferometric fringes from the communications satellite Eutelsat West 115B. Our focus has been on validating the performance of the most critical optomechanical subsystems of the MROI required for GEO imaging, on the management of observations of non-sidereal objects, and on the operability of the array for studies of resolved GEO satellites. The impact of these data on the development of the MROI and the capability of spatial interferometry for GEO asset SSA is discussed.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Validating-the-capability-of-the-Magdalena-Ridge-Observatory-Interferometer-MROI/14148-20",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -876,7 +876,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Juan Paolo Lorenzo Gerardo Barrios, Christopher A. Haniff, David F. Buscher, John S. Young, Eugene B. Seneta, Michelle J. Creech-Eakman, Andres Olivares, Chris Salcido, James Luis, Emma Floyd, Ian S. Schofield, Rafael Santoro, Daniel J. Ahrer, Ian Baker, Leander Mehrgan",
+      "Authors": "Juan Paolo Lorenzo Gerardo Barrios, David F. Buscher, Michelle J. Creech-Eakman, Alireza Esmaeilzadeh, Emma Floyd, Christopher A. Haniff, James Luis, Andres Olivares, Chris Salcido, Rafael Santoro, Ian S. Schofield, Eugene B. Seneta, John S. Young, Daniel J. Ahrer, Ian Baker, Leander Mehrgan",
       "PaperNumber": "14148-21",
       "DateTimeLocationDataList": [
         {
@@ -900,7 +900,7 @@
       "HTMLTitle": "",
       "Title": "Commissioning FOURIER: the Magdalena Ridge Observatory Interferometer’s first-generation science beam combiner",
       "Description": null,
-      "Abstract": "The Magdalena Ridge Observatory Interferometer (MROI) is a 10-telescope optical interferometer under construction in NM, USA. MROI’s first-generation science beam combiner, FOURIER, measures observables from wavelengths of 1.1 to 2.4 microns using spectrally-dispersed fringes from up to 3 telescopes. Predicted limiting magnitudes of up to 12.3, 13.2, and 11.7 are expected in the J, H, and K bands, and are mainly achieved via a low-noise SAPHIRA detector in a liquid-nitrogen cooled cryostat, optical baffling, and minimal optical components to minimise throughput losses. In this paper, we report on the results of FOURIER's pre-shipment tests and the instrument's ongoing commissioning after installation. We discuss FOURIER’s cryostat and detector characteristics, visibility measurements, and wavelength coverage. Having achieved on-sky fringes in July 2025, we also present the results from initial live tests, including measurements of atmospheric parameters and instrumental stability.",
+      "Abstract": "The Magdalena Ridge Observatory Interferometer (MROI) is a 10-telescope optical interferometer under construction in NM, USA as an international collaboration between the New Mexico Institute of Mining and Technology and the University of Cambridge. MROI’s first-generation science beam combiner, FOURIER, measures observables from wavelengths of 1.1 to 2.4 microns using spectrally-dispersed fringes from up to 3 telescopes. In this paper, we report on the results of FOURIER's ongoing commissioning after it was installed at the MROI. We discuss the performance of the instrument's cryostat in terms of vacuum and temperature holding times. We also present the results of detector tests from within the cryostat, including FOURIER's gain curve, photon transfer curves, and system noise. Finally, having achieved our first stellar fringes in July 2025, we present measurements of FOURIER's wavelength calibration, dispersion axis brightness profile, and visibility based on preliminary on-sky tests",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Commissioning-FOURIER--the-Magdalena-Ridge-Observatory-Interferometers-first-generation/14148-21",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1624,8 +1624,8 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Giulio Capasso, Carmelo Arcidiacono, Marco Baldini, Andrea Balestra, Massimiliano Belluso, Andrea Bulgarelli, Alessandro Cabras, Marco Citossi, Mirko Colapietro, Stefano Giovannini, David Goz, Marco Landoni, Enrico Licata, Ugo Lo Cicero, Sara Elisa Motta, Amedeo Petrella, Simone Riggi, Salvatore Savarese, Francesco Schillirò, Pietro Schipani, Riccardo Smareglia, Roberto Vecchiato",
-      "PaperNumber": "14155-43",
+      "Authors": "Luis Alberto Rodriguez Garcia, Raul Dominguez Dominguez, Héctor de Paz Martín, Manuel Huertas López, Sebastian Fernandez Garcia, Francisco J. Rodríguez, Jorge de La Rosa, Camilo E. Jiménez, Romano Corradi, Axel Yanes, Fernando Rueda, Sergio Rueda, Antonio Marin-Franch, Javier Cenarro",
+      "PaperNumber": "14155-44",
       "DateTimeLocationDataList": [
         {
           "date_time_location": "7 July 2026 • 15:50 - 16:10 CEST | Room B4-M7",
@@ -1639,18 +1639,18 @@
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
       "MatchingFrag": "",
-      "UniqueId": "10cd69e1-9ccf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "10cd69e1-9ccf-f011-a9ad-005056914f1c",
+      "UniqueId": "2c9a8ad3-d1cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "2c9a8ad3-d1cf-f011-a9ae-00505691c5e1",
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Generative AI: strategies and use cases for astronomy",
+      "Title": "Cognitive artificial intelligence ecosystem with intelligent agents for GTC operations",
       "Description": null,
-      "Abstract": "Generative AI promises to revolutionize astrophysics and astronomical instrumentation, yet its adoption requires systemic governance to ensure scientific reproducibility. This presentation details the strategy of Gen.IA, a study group at the Italian National Institute for Astrophysics (INAF), designed to bridge the gap between experimental AI and operational deployment.    We present preliminary results from an internal survey assessing AI adoption, expectations, and ethical sentiment within INAF. We further outline a strategic roadmap focusing on knowledge sharing, staff upskilling, and regulatory compliance. Key use cases under investigation include Retrieval-Augmented Generation (RAG) for complex technical documentation, AI-driven requirement management in systems engineering, Agentic AI for automated data analysis, and AI-assisted literature review. This work offers a pathway to leverage Generative AI while balancing innovation with scientific integrity.",
+      "Abstract": "This work presents a cognitive AI ecosystem for the Gran Telescopio Canarias that combines edge-level deep learning with intelligent agents orchestrating actions across control, maintenance and administrative systems.     A three-layer architecture is introduced—cognitive, orchestration and operational—together with a phased roadmap towards operational, predictive and institutional intelligence. The contribution highlights governance principles and organizational requirements, and showcases practical use cases.     The approach aims to evolve the GTC into a cognitive observatory where the digital twin becomes an active, learning component that enhances resilience and reduces cognitive load for human teams.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Generative-AI-strategies-and-use-cases-for-astronomy/14155-43",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Cognitive-artificial-intelligence-ecosystem-with-intelligent-agents-for-GTC-operations/14155-44",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1727,10 +1727,10 @@
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }

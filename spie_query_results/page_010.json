@@ -230,7 +230,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Nico Van der Merwe, Lisa Crause, Eben Wiid, Francois Strumpfer, Willem Van Der Westhuizen, Michael Sam, Nicolaas Jacobs, Denville Gibbons, Johan Hendricks, John A. Booth",
+      "Authors": "Nico Van der Merwe, Lisa Crause, Eben Wiid, Francois Strumpfer, John A. Booth, Willem Van Der Westhuizen, Michael Sam, Nicolaas Jacobs, Denville Gibbons, Johan Hendricks",
       "PaperNumber": "14147-92",
       "DateTimeLocationDataList": [
         {
@@ -264,7 +264,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Ryan D. Hersey, Max Millar-Blanchaer, Skyler Palatnick, Jaren Ashcraft, Daniel Shanks, James K. Wallace, Tobias Wenger",
+      "Authors": "Ryan D. Hersey, Max Millar-Blanchaer, Skyler Palatnick, Jaren Ashcraft, Daniel Shanks, James K. Wallace, Tobias Wenger, Sarah Choi, Courtney Duong",
       "PaperNumber": "14154-312",
       "DateTimeLocationDataList": [
         {
@@ -298,7 +298,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jeffrey A. De Lucca, Alexandra N. Higley, Bridget C. O'Meara, Randall L. McEntaffer, Nathaniel Hamme, Ross C. McCurdy, James H. Tutt, Cooper B. Akers, Garrett A. Brady, Ivonne Ferrera, Aditi M. Gangadharan, Jake A. McCoy, Nolan McPhaul, Lily McEntaffer, Natasha Patel, Tristen M. Sextro, Joshua Wang, Vadim Burwitz, Gisela D. Hartner, Andreas Langmeier, Thomas G. Müller, Surangkhana Rukdee, Thomas Schmidt, David Colebrook, David Gopinath, Andrew D. Holland, Karen Holland, Daniel Evan, Stefano Basso, Alberto Moretti, Daniele Spiga, Casey T. DeRoo",
+      "Authors": "Jeffrey A. De Lucca, Alexandra N. Higley, Bridget C. O'Meara, Randall L. McEntaffer, Nathaniel Hamme, Ross C. McCurdy, James H. Tutt, Cooper B. Akers, Garrett A. Brady, Suraj P. Chandran, Ivonne Ferrera, Aditi M. Gangadharan, Jake A. McCoy, Nolan McPhaul, Lily McEntaffer, Natasha Patel, Tristen M. Sextro, Cora Tebbe, Zoey Tran, Joshua Wang, Vadim Burwitz, Gisela D. Hartner, Andreas Langmeier, Thomas G. Müller, Surangkhana Rukdee, Thomas Schmidt, David Colebrook, David Gopinath, Andrew D. Holland, Karen Holland, Daniel Evan, Stefano Basso, Alberto Moretti, Daniele Spiga, Casey T. DeRoo",
       "PaperNumber": "14154-127",
       "DateTimeLocationDataList": [
         {
@@ -456,11 +456,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Robust and compact origami pyramid wavefront sensor design for small telescopes",
+      "Title": "Robust and Compact Origami Pyramid Wavefront Sensor Design for Small Telescopes",
       "Description": null,
-      "Abstract": "In this work, we present the hardware and software methodologies underlying a compact, robust, and unmodulated pyramid wavefront sensor. We outline a practical design procedure tailored for single-conjugate adaptive optics on small- to medium-aperture telescopes, and describe our hardware integration with our machine learning wavefront reconstructor. This design introduces a folded-path “origami pyramid” architecture that substantially shortens track length, relaxes manufacturing and alignment tolerances, and potentially reduces fabrication cost. Furthermore, our transformer-based neural network provides improved wavefront estimation in nonlinear regimes, where traditional interaction-matrix reconstructors fail in the absence of modulation.",
+      "Abstract": "Here, we present a compact, robust, and unmodulated PyWFS architecture. We combine an economical double-roof-prism configuration with a geometrically optimized folded ”origami” relay that reduces the physical package length by  about 74% relative to the unfolded configuration, and a custom machined structure fixes the optimized  mirror positions and separations, reducing alignment degrees of freedom and improving mechanical stability. A  neural network (NN) based non-linear wavefront reconstruction eliminates high-speed mechanical modulation  required by linearized interaction-matrix (IM) reconstruction, thereby also extending the sensor’s operating  range, and a laboratory validation of wavefront reconstruction is performed with multiple atmospheric scenes. The proposed unmodulated PyWFS optical design coupled with an NN-based reconstruction approach provides a practical pathway toward compact PyWFS deployment on small-aperture telescopes.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Robust-and-compact-origami-pyramid-wavefront-sensor-design-for-small/14154-122",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Robust-and-Compact-Origami-Pyramid-Wavefront-Sensor-Design-for-Small/14154-122",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -536,7 +536,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Eric Stadler, Emiliano Diolaiti, Laura Schreiber, Manal Chebbo, Fausto Cortecchia, Alain Delboulbé, Matteo Lombini, Yves Magnard, Sylvain Rochat, Alain Spang, Gaële Barbary, Olivier Boebion, Gaël Chauvin, Anne Costille, Kjetil Dohlen, Markus Feldt, Florian Ferreira, Raffaele Gratton, Markus Kasper, Maud Langlois, Miska Le Louarn, Magali Loupias, Johan Mazoyer, Julien Milli, David Mouillet, Mamadou N'Diaye, Michel Tallon, Fabrice Vidal, François Wildi, Gérard Zins, Anthony Boccaletti, Philippe Delorme",
+      "Authors": "Eric Stadler, Laura Schreiber, Emiliano Diolaiti, Olivier Boebion, Yan Caujolle, Fausto Cortecchia, Alain Delboulbé, Matteo Lombini, Yves Magnard, Youssef Mohamed, Sylvain Rochat, Alain Spang, François Wildi, Gérard Zins, Gaël Chauvin, Manal Chebbo, Anne Costille, Philippe Delorme, Adriano De Rosa, Kjetil Dohlen, Markus Feldt, Florian Ferreira, Eric Gendron, Raffaele Gratton, Markus Kasper, Maud Langlois, Miska Le Louarn, Magali Loupias, Giuseppe Malaguti, Didier Maurel, Johan Mazoyer, Julien Milli, Gianluca Morgante, David Mouillet, Mamadou N'Diaye, Patrick Rabou, Filomena Schiavone, Alessandro Tacchini, Michel Tallon, Luca Terenzi, Fabrice Vidal, Gaële Barbary, Anthony Boccaletti",
       "PaperNumber": "14154-265",
       "DateTimeLocationDataList": [
         {
@@ -706,7 +706,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jeff Kuhn, Nicolas Lodieu, Ricardo Diego, Sergio Salata, Mikel Armendia, Jose Antonio González, Ismael Ruiz de Argandoña, Ye Zhou",
+      "Authors": "Sergio Salata, Jeff Kuhn, Nicolas Lodieu, Ricardo Diego, Mikel Armendia, Jose Antonio González, Ismael Ruiz de Argandoña, Ye Zhou",
       "PaperNumber": "14147-112",
       "DateTimeLocationDataList": [
         {
@@ -728,11 +728,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "S-ELF 3.5m Telescope: manufacture of mechanical structure and integration of motion control system",
+      "Title": "S-ELF 3.5m telescope: manufacture of mechanical structure and integration of motion control system",
       "Description": null,
       "Abstract": "The IAC’s Laboratory for Innovation in Opto-Mechanics (LIOM) is developing the 3.5 m Small-ELF (S-ELF) prototype as a testbed for the future 50 m ExoLife Finder (ELF), aimed at achieving unprecedented exoplanet imaging performance through Fizeau interferometry. AVS manufactured the telescope from a DiSL design, delivering a lightweight, high-stiffness mount. The system uses top-grade components, dual encoders, and direct-drive torque motors for smooth, accurate tracking. Tekniker implemented the Beckhoff-based real-time control system with cascade controllers and sensor fusion for enhanced pointing accuracy. Factory tests confirmed <1 arcsec repeatability and validated structural behaviour under thermal and load conditions. The telescope will arrive at IACTEC in early 2026 for further integration and commissioning. This paper aims at demonstrating the successful integration of a lightweight design to serve as a cost-effective foundation for innovative astronomical applications.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/S-ELF-35m-Telescope--manufacture-of-mechanical-structure-and/14147-112",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/S-ELF-35m-telescope--manufacture-of-mechanical-structure-and/14147-112",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -830,11 +830,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Simulation and Experimental Validation of a Three-Mirror Reflective Element Polarizer",
+      "Title": "Simulation and experimental demonstration of a three-mirror reflective element polarizer",
       "Description": null,
-      "Abstract": "This work presents the design and initial validation of a reflective element polarizer (REP) for future far-ultraviolet (FUV) astrophysical instrumentation. Polarimetry provides unique diagnostics of dust alignment, magnetic fields, and potential biosignature-related scattering, yet traditional transmissive polarizers have low throughput in the UV. A 3-mirror REP configuration is evaluated through Zemax (ZOS-API) simulations to quantify polarization-dependent throughput as a function of wavelength, coating, and incidence angle. Complementary benchtop measurements at 405, 520, and 639 nm provide early experimental verification of polarization behavior. This proof-of-concept establishes a pathway toward efficient reflective polarizers that could enable next-generation FUV instrumentation for studies of dust, star and planet formation, and UV-sensitive biosignatures.",
+      "Abstract": "This work presents the design and initial validation of an optical benchtop proof-of-concept (PoC) reflective element polarizer (REP) for future far-ultraviolet (FUV) astrophysical instrumentation. Polarimetry provides unique diagnostics of dust alignment, magnetic fields, and potential biosignature-related scattering, yet traditional transmissive polarizers suffer from low throughput in the FUV. A 3-mirror REP configuration is evaluated through Zemax (ZOS-API) simulations to quantify polarization-dependent throughput as a function of wavelength, coating, and incidence angle. Complementary benchtop measurements at 405, 520, and 639 nm provide experimental verification of polarization behavior. This proof-of-concept establishes a pathway toward efficient reflective polarizers that could enable next-generation FUV instrumentation for studies of dust, star and planet formation, and UV-sensitive biosignatures. This work also provides a framework for understanding polarization systems.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Simulation-and-Experimental-Validation-of-a-Three-Mirror-Reflective-Element/14146-122",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Simulation-and-experimental-demonstration-of-a-three-mirror-reflective-element/14146-122",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -978,7 +978,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Federico Battaini, Pietro Schipani, Kalyan Radhakrishnan, Simone Di Filippo, Mirko Colapietro, Davide Ricci",
+      "Authors": "Federico Battaini, Mirko Colapietro, Pietro Schipani, Kalyan Radhakrishnan, Simone Di Filippo, Davide Ricci, Paolo D'Avanzo, Ricardo Zanmar Sanchez, Matteo Munari, Matteo Aliverti, Riccardo Claudi, Sergio Campana, Jani Achrén, José Antonio Araiza-Durán, Iair Arcavi, Laura Asquini, Andrea Baruffolo, Sagi Ben-Ami, Alex Bichkovsky, Federico Biondi, Anna Brucalassi, Lorenzo Cabona, Giulio Capasso, Enrico Cappellaro, Rosario Cosentino, Francesco D'Alessio, Sergio D'Orsi, Massimo Della Valle, Rosario Di Benedetto, Avishay Gal-Yam, matteo Genoni, Marcos Hernandez Díaz, Ofir Hershko, Hanindyo Kuncarayakti, Marco Landoni, Luigi Lessio, Gianluca Li Causi, Laurent Marty, Seppo Mattila, Luca Oggioni, Giorgio Pariani, Giuliano Pignata, Michael Rappaport, Marco Riva, Adam Rubin, Bernardo Salasnich, Slvatore Savarese, Salvatore Scuderi, Maximilian Stritzinger, Stephen Smartt, Hector Pérez Ventura, Fabrizio Vitali, David Young",
       "PaperNumber": "14149-157",
       "DateTimeLocationDataList": [
         {
@@ -1000,7 +1000,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "SOXS at NTT: ADC journey from integration to on-sky performances",
+      "Title": "SOXS at NTT: ADC journey from integration to on-sky performance",
       "Description": null,
       "Abstract": "The Son Of X-Shooter (SOXS) is the specialized spectroscopy-follow-up facility for transient events with a flexible scheduler at the ESO NTT. The instrument spans from 350nm up to 2000nm with an average of R∼4500 for a 1” slit. The visible arm (350-800nm), includes an Atmospheric Dispersion Corrector (ADC) composed of two powered quadruplets. In a previous work we presented the alignment and integration strategy and results. The ADC is now working at the telescope and we can summarize its peculiarity, the optical performance as measured in the laboratory and the on-sky verification after the telescope-AIV in 2025.",
       "ImagePath": null,
@@ -1114,7 +1114,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Stephen E. Levine",
+      "Authors": "Stephen E. Levine, Timothy Ellsworth-Bowers",
       "PaperNumber": "14147-89",
       "DateTimeLocationDataList": [
         {
@@ -1136,11 +1136,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Status of the 4.3-meter Lowell Discovery Telescope",
+      "Title": "Status of the 4.3-meter Lowell Discovery Telescope (LDT): new instruments, same notable performance",
       "Description": null,
-      "Abstract": "The Lowell Discovery Telescope (LDT) is a 4.3-m telescope designed and constructed for optical and near infrared astronomical observation. This report looks at the evolution over time of the performance of the facility. We look at recent improvements, changes to the instrument suite and discuss next steps for the telescope and facility.",
+      "Abstract": "The Lowell Discovery Telescope (LDT) is a 4.3-m telescope designed and constructed for optical and near infrared astronomical observation [1,2]. This report looks at the evolution over time of the performance of the facility. We are planning for the addition of three new instruments and new facility monitoring systems.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Status-of-the-43-meter-Lowell-Discovery-Telescope/14147-89",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Status-of-the-43-meter-Lowell-Discovery-Telescope-LDT/14147-89",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1376,7 +1376,7 @@
       "HTMLTitle": "",
       "Title": "Subaru Telescope’s reflectivity measurements: 8.5-years measurements and results",
       "Description": null,
-      "Abstract": "Subaru Telescope has developed the Subaru Portable Spectrophotometer (SPS) and has been continuously in-situ measuring the reflectivity of the primary mirror and other mirrors on the telescope since October 2017, and it will be ~8.5 years in July 2026. To understand reflectivity degradation of mirrors, we developed reflectivity models for aluminum and silver mirrors. Over these 8.5 years, the telescope has also experienced at least 5 times of major volcanic events and 4 times of close encounters with hurricanes and tropical storms. We found that the impact of volcanic events was limited, while high-humidity events caused significant degradation in reflectivity. We also applied reflectivity measurement to study wash cleaning and mirror damage evaluation. The continuous reflectivity measurements in the 8.5 years has been contributed to deciding the maintenance schedule, including the renovations of the coating chamber control and the air conditioning system of the enclosure.",
+      "Abstract": "Subaru Telescope has developed the Subaru Portable Spectrophotometer (SPS) and has been continuously in-situ measuring the reflectivity of the primary mirror and other mirrors on the telescope since October 2017, and it becomes ~8.5 years in July 2026. To understand reflectivity degradation of mirrors, we developed reflectivity models for aluminum and silver mirrors. Over these 8.5 years, the telescope has also experienced at least 5 times of major volcanic events and 4 times of close encounters with hurricanes and tropical storms. We found that the impact of volcanic events was limited, while high-humidity events caused significant degradation in reflectivity. We also applied reflectivity measurement to study wash cleaning and mirror damage evaluation. The continuous reflectivity measurements in the 8.5 years has been contributed to deciding the maintenance schedule, including the renovations of the coating chamber control and the air conditioning system of the enclosure.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Subaru-Telescopes-reflectivity-measurements-85-years-measurements-and-results/14154-224",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1590,40 +1590,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Meghna Sitaram, David Schiminovich, Ignacio Cevallos-Aleman, Nicole Melso, Anaelle Roc",
-      "PaperNumber": "14149-117",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "c5d93a5f-99d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "c5d93a5f-99d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Targeted upgrades, narrowband filters and high-resolution modes for the deep survey of the circumgalactic H-alpha spectrograph",
-      "Description": null,
-      "Abstract": "The Circumgalactic H-alpha Spectrograph (CHaS) is an integral-field spectrograph (IFS) optimized to observe faint optical emission lines from the ionized circumgalactic medium (CGM) of nearby galaxies. CHaS has a wide (10’x10’) field of view with moderate velocity resolution (R~10000) over a narrow bandpass (30 A). Instrument upgrades are in progress prior to a deep survey aiming to collect 50 hours of data on multiple nearby galaxies. We present the performance of new custom narrowband filters centered on the OIII, Ha and NII lines, alignment upgrades reducing field-dependent aberrations and active control of the microlens array to minimize mechanical flexure during observations. We also report on tests of high-resolution modes (R~15000-30000) using higher-pitch microlens arrays and gratings. The targeted upgrades will allow deeper observations of the CGM while informing crucial design decisions needed to optimize similar wide-field, narrowband IFUs like the upcoming LIONESS cubesat.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Targeted-upgrades-narrowband-filters-and-high-resolution-modes-for-the/14149-117",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Hemanth Pruthvi, Hans-Peter Doerr, Michael Sigwarth, Markus Roth",
       "PaperNumber": "14149-99",
       "DateTimeLocationDataList": [
@@ -1692,8 +1658,8 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Rasjied Sloot, Rudy Wijnands, Steven Bloemen, Hans Ellermeijer, Alexander Hoogerbrug, Rik ter Horst",
-      "PaperNumber": "14147-116",
+      "Authors": "Anthony Santini, David Morris, Andres Parraguez Carcamo, Alexandra Tritschler",
+      "PaperNumber": "14149-104",
       "DateTimeLocationDataList": [
         {
           "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
@@ -1707,18 +1673,52 @@
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
       "MatchingFrag": "",
-      "UniqueId": "c4c44d1d-e499-f011-a9ac-00505691c5e1---crmrecord",
-      "GUID": "c4c44d1d-e499-f011-a9ac-00505691c5e1",
+      "UniqueId": "41a0e05f-a9cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "41a0e05f-a9cf-f011-a9ae-00505691c5e1",
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Technical and atmospheric performance testing of proto-NUX, a prototype ground-based near-UV (300–350nm) telescope",
+      "Title": "Techniques for analyzing the Daniel K. Inouye Solar Telescope Engineering Data Store",
       "Description": null,
-      "Abstract": "The Near-Ultraviolet eXplorer (NUX) is a ground-based observatory designed to expand near-ultraviolet (NUV) astronomy by enabling observations in the 300–350 nm range from Earth. The system will comprise four 36 cm (14”) modified Celestron RASA telescopes with custom NUV-optimized optics and CMOS detectors, providing a total field of view of ~67 square degrees, well suited for detecting fast, hot transients (see Wijnands et al. 2024). To validate the concept, a prototype (proto-NUX) has been constructed. Its optical design and development are detailed in Sloot et al. (2026). Extensive sea-level testing in the Netherlands has shown that proto-NUX meets all technical requirements. Site tests at altitudes above 2000m in continental Europe are scheduled for spring 2026 to determine the NUV characteristics of the atmosphere and sensitivity of proto-NUX. This paper reports the results of these tests and evaluates the viability of the full NUX observatory.",
+      "Abstract": "The Daniel K. Inouye Solar Telescope implements a constant, high cadence monitoring of many key observational metrics including summit weather, instrument status, wavefront status, telescope position, optical path status and calibration script results. This data is stored in the Engineering Data Store database (EDS) and can be used as reference when determining the exact status of the observatory at any arbitrary time. The cumulation of this data over the last five years has generated a substantial archive of data, the processing of which allows for the construction of historical trends and statistical analysis of observational methods. These analyses are used to determine and quantify issues and analyze observing conditions which enables various improvements to operational efficiency. The process of implementing this from the creation of the software tools to query from the EDS to the processing and interpretation will be described in this paper.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Technical-and-atmospheric-performance-testing-of-proto-NUX-a-prototype/14147-116",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Techniques-for-analyzing-the-Daniel-K-Inouye-Solar-Telescope-Engineering/14149-104",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Andrea Bianco, Marco Riva, Letizia Caito, Enrico Giro, Sofia Randich, Emma Fernández-Alvar, Oscar Gonzalez, Sergio G. Sousa, Laura Magrini",
+      "PaperNumber": "14154-154",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "1f86386d-3ecd-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "1f86386d-3ecd-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Technologies challenges and developments for HRMOS at the VLT",
+      "Description": null,
+      "Abstract": "HRMOS (https://www.hrmos.eu/) is a new instrument we plan to propose for the ESO VLT. HRMOS target resolving power is 80000 in three spectral windows with a total range of 140nm in the visible. It will have Multiplexing capabilities in the range of 40 to 80 and will be characterized by a radial velocity precision of 10m/s. Such an ambitious instrument presents some technological challenges to be addressed that will turn into important “enabling” technological activities. These activities will be crucial for the instrument itself, but they align with known challenges in ELT instrumentation. Examples of such technologies are: i) Large size (400 mm in diameter) and high dispersion diffraction gratings; ii) optical fibers; iii) CMOS instead of CCD detectors.  This paper will highlight these technological developments showing the impact on HRMOS and future optical instrumentation.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Technologies-challenges-and-developments-for-HRMOS-at-the-VLT/14154-154",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1727,10 +1727,10 @@
     }
   ],
   "Facets": [],
-  "Count": 2928,
+  "Count": 2925,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 695783
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696011
 }
