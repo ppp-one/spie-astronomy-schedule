@@ -271,13 +271,24 @@ DTL_RE = re.compile(
     r"^(?P<date>.+?)\s+•\s+(?P<time_slot>.+?)(?:\s+\|\s+(?P<room>.+))?$"
 )
 
+ON_DEMAND_RE = re.compile(
+    r"^On demand\s*\|\s*Presenting live\s+(?P<date>\d{1,2}\s+\w+\s+\d{4})$"
+)
+
+POSTER_SLOT = "17:30 - 19:00 CEST"
+
 
 def e(s: str) -> str:
     return _html.escape(str(s), quote=True)
 
 
 def parse_dtl(s: str):
-    m = DTL_RE.match(s.strip())
+    s = s.strip()
+    m = ON_DEMAND_RE.match(s)
+    if m:
+        # On-demand poster presented live during that day's poster session.
+        return (m.group("date"), POSTER_SLOT, "On demand")
+    m = DTL_RE.match(s)
     if not m:
         return None
     room = (m.group("room") or "").strip() or "Room TBC"
@@ -1996,7 +2007,7 @@ function _renderPosterItem(t, conf, date_iso, dayLabel) {
     `<div class="poster-item-body">` +
     `<div class="poster-item-title"><span class="talk-link" onclick="openTalkModal(this)">${he(t.title)}</span></div>` +
     `<div class="poster-item-meta"><span class="poster-item-conf" style="color:${color}">${he(short)}</span>` +
-    ` &middot; [${id}] ${he(t.author)}</div></div>` +
+    ` &middot; [${id}] ${he(t.author)}${t.room === 'On demand' ? ' &middot; On demand' : ''}</div></div>` +
     `<div class="poster-actions">` +
     `<button class="poster-skip-btn" onclick="togglePosterSkip(this)" title="Not interested">&#10005;</button>` +
     `<button class="poster-star-btn" onclick="togglePosterBookmark(this)" title="Save to My Schedule">&#9734;</button>` +
