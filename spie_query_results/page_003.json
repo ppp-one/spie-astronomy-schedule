@@ -1727,10 +1727,10 @@
     }
   ],
   "Facets": [],
-  "Count": 2925,
+  "Count": 2922,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 696011
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696015
 }

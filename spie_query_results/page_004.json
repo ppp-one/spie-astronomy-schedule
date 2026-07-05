@@ -200,9 +200,9 @@
       "PaperNumber": "14147-119",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -226,7 +226,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -254,7 +254,7 @@
       "HTMLTitle": "",
       "Title": "3D-printed vs lithographic microlens arrays: a scientific evaluation for MOSAIC and astronomical applications",
       "Description": null,
-      "Abstract": "The focus of this work is the analysis and evaluation of the suitability of 3D-printed microlens arrays (MLAs) for use in astronomical instrumentation, in particular for the MOSAIC Multi-Object Spectrograph. This study is based on a theoretical comparison between conventionally manufactured microlenses and 3D-printed microlenses, complemented by a laboratory characterization and performance comparison between two similar 19-microlens arrays.",
+      "Abstract": "We present the design, fabrication, and characterization of microlens arrays (MLAs) developed for the MOSAIC instrument NIR channel. The study focuses on comparing two fabrication approaches: two-photon polymerization (2PP) 3D printing and lithography-based processes. 2PP enables highly flexible freeform optical geometries and integrated optomechanical structures, making it suitable for complex astronomical applications. However, optical performance requirements for long-term astronomical instrumentation demand high stability, low surface roughness, and precise wavefront control.    We manufactured and tested MLAs produced via 2PP and lithographic processes, including RIE-ICP fabricated microlens arrays, and evaluated their optical performance using optical profilometry methods. Key parameters such as surface roughness, pitch accuracy, clear aperture ratio, and optical path difference were compared.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/3D-printed-vs-lithographic-microlens-arrays--a-scientific-evaluation/14154-197",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -268,9 +268,9 @@
       "PaperNumber": "14149-107",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -294,7 +294,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -336,9 +336,9 @@
       "PaperNumber": "14149-114",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -362,7 +362,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -370,9 +370,9 @@
       "PaperNumber": "14149-101",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -396,7 +396,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -404,9 +404,9 @@
       "PaperNumber": "14146-158",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -430,7 +430,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -472,9 +472,9 @@
       "PaperNumber": "14154-223",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -498,7 +498,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -540,9 +540,9 @@
       "PaperNumber": "14150-132",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -566,7 +566,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -574,9 +574,9 @@
       "PaperNumber": "14154-153",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -600,7 +600,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -642,9 +642,9 @@
       "PaperNumber": "14154-271",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -668,7 +668,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -676,9 +676,9 @@
       "PaperNumber": "14154-300",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -702,7 +702,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -710,9 +710,9 @@
       "PaperNumber": "14146-148",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -736,7 +736,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -744,9 +744,9 @@
       "PaperNumber": "14145-295",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -770,7 +770,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -846,9 +846,9 @@
       "PaperNumber": "14150-126",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -872,7 +872,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -880,9 +880,9 @@
       "PaperNumber": "14154-186",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -906,7 +906,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -982,9 +982,9 @@
       "PaperNumber": "14146-112",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1008,7 +1008,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1016,9 +1016,9 @@
       "PaperNumber": "14150-115",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1042,7 +1042,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1050,9 +1050,9 @@
       "PaperNumber": "14154-305",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1076,7 +1076,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1118,9 +1118,9 @@
       "PaperNumber": "14145-137",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1144,7 +1144,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1186,9 +1186,9 @@
       "PaperNumber": "14145-118",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1212,7 +1212,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1220,9 +1220,9 @@
       "PaperNumber": "14154-288",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1246,7 +1246,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1254,9 +1254,9 @@
       "PaperNumber": "14154-333",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1280,7 +1280,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1288,9 +1288,9 @@
       "PaperNumber": "14146-126",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1314,7 +1314,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1322,9 +1322,9 @@
       "PaperNumber": "14154-204",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1348,7 +1348,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1356,9 +1356,9 @@
       "PaperNumber": "14149-134",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1382,7 +1382,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1390,9 +1390,9 @@
       "PaperNumber": "14154-236",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1416,7 +1416,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1424,9 +1424,9 @@
       "PaperNumber": "14154-190",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1450,7 +1450,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1458,9 +1458,9 @@
       "PaperNumber": "14150-142",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1484,7 +1484,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1526,9 +1526,9 @@
       "PaperNumber": "14145-129",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1552,7 +1552,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1560,9 +1560,9 @@
       "PaperNumber": "14150-123",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1586,7 +1586,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1594,9 +1594,9 @@
       "PaperNumber": "14145-106",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1620,7 +1620,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1628,9 +1628,9 @@
       "PaperNumber": "14150-113",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1654,7 +1654,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1662,9 +1662,9 @@
       "PaperNumber": "14145-124",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1688,7 +1688,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1727,10 +1727,10 @@
     }
   ],
   "Facets": [],
-  "Count": 2925,
+  "Count": 2922,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 696011
+  "DLCount": 696015
 }

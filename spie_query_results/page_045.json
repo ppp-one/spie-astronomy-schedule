@@ -26,149 +26,13 @@
   },
   "Items": [
     {
-      "Authors": "Emanuele Perinati, Michael J. Freyberg, Michael C. Yeung, Konrad Dennerl, Christian Pommranz, Susanne Friedrich, Ritika Singh, Bastian Hess, Sebastian Diebold, Chris Tenzer, Andrea Santangelo",
-      "PaperNumber": "14146-297",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "7b53bf54-a3ce-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "7b53bf54-a3ce-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Soft proton induced background in SRG/eROSITA: a follow-up study",
-      "Description": null,
-      "Abstract": "The X-ray telescope eROSITA aboard the SRG spacecraft provided measurements of instrumental background at L2, that can be used to acquire knowledge about the experienced radiation environment. In this paper, we aim to make the previously published picture on soft protons more complete and present some results from the analysis of eRASS5 background data. We also compare background data taken in fully open position of the filter-wheel (i.e. without external filter) during a PV-phase Comet observation with that in closed position, so as to quantify the effect of the external filter on background.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Soft-proton-induced-background-in-SRG-eROSITA--a-follow/14146-297",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Zhiyuan Ma, Grant Wilson, Itziar Aretxaga, Daniela Espitia-Mosquera, Joseph Golec, Michael McCrackan, Alfredo Montaña, Kamal Souccar",
-      "PaperNumber": "14155-157",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "98d5db4e-64c9-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "98d5db4e-64c9-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Software framework for TolTEC operation and data automation",
-      "Description": null,
-      "Abstract": "The TolTEC Camera, mounted on the Large Millimeter Telescope (LMT), is a continuum imaging polarimeter  that simultaneously observes at 1.1, 1.4, and 2.0 mm wavelengths. TolTECA v3 is the third major release of the  TolTEC data handling software stack that facilitates TolTEC operation and TolTEC data automation. In this  version, we rewrite the implementation of the data model using a schema-driven design focusing on structured  metadata, and the tolteca_db submodule is now a separate dedicated package built on top of the data models,  providing layered API endpoints for interacting with the data acquisition system, initializing data ingestion  tasks, orchestration of data reduction pipelines, and working as the visualization tooling backend, both during  observation and during post-observation analysis sessions. With TolTECA v3, TolTEC operation is fully automated  throughout the data product lifecycle, from raw data ingestion to data product management.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Software-framework-for-TolTEC-operation-and-data-automation/14155-157",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Fabrizio Vitali, Matteo Aliverti, Kalyan Radhakrishnan, Mirko Colapietro, Federico Battaini, Simone Di Filippo, Sergio D'Orsi, Eugenio Martinetti, Antonio Miccichè, Gaetano Nicotra, Francesco D'Alessio, Davide Ricci, Simone Doniselli, Silvio Di Rosa, Matteo Genoni, Matteo Munari, Salvatore Scuderi, Marco Landoni, Paolo D'Avanzo, Pietro Schipani, Sergio Campana, Armin Silber, Bao Le Van, Ivo Saviane, Derek ives, Mstteo Accardo, Riccardo Claudi, Giulio Capasso, José A. Araiza-Durán, Iair Arcavi, Andrea Baruffolo, Sagi Ben-Ami, Alex Bichkovsky, Anna Brucalassi, Enrico Cappellaro, Rosario Cosentino, Massimo Della Valle, Avishay Gal-Yam, Ofir Hershko, Hanindyo Kuncarayakti, Luigi Lessio, Laurent Marty, Seppo Mattila, Leander Mehrgan, Giuliano Pignata, Michael Rappaport, Marco Riva, Adam Rubin, Bernardo Salasnich, Ricardo Zanmar Sanchez, Salvatore Savarese, Andrea Scaudo, Stephen Smartt, Maximilian Stritzinger, David Young",
-      "PaperNumber": "14149-381",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "223f4499-50d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "223f4499-50d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "SOXS at the NTT: installation and commissioning of the NIR arm",
-      "Description": null,
-      "Abstract": "SOXS (Son Of X-Shooter) is a single object spectrograph, built by an international consortium for the 3.58-m ESO New Technology Telescope at the La Silla Observatory. It offers a simultaneous spectral coverage over 350-2000 nm, with two separate spectrographs. SOXS is currently mounted at the Nasmyth focus of NTT and, at the time of writing, is completing the technical and scientific commissioning. In this paper we describe the status and the performances of the Near InfraRed arm, as derived from the commissioning in Chile.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/SOXS-at-the-NTT--installation-and-commissioningof-the-NIR/14149-381",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Salvatore Savarese, Marco Landoni, David Young, Davide Ricci, Stephen Smartt, Paolo D'Avanzo, Sergio Campana, Pietro Schipani, Matteo Aliverti, José A. Araiza-Durán, Iair Arcavi, Andrea Baruffolo, Federico Battaini, Sagi Ben-Ami, Alex Bichkovsky, Anna Brucalassi, Giulio Capasso, Enrico Cappellaro, Riccardo Claudi, Mirko Colapietro, Rosario Cosentino, Francesco D'Alessio, Sergio D'Orsi, Massimo Della Valle, Simone Di Filippo, Avishay Gal-Yam, Matteo Genoni, Ofir Hershko, Hanindyo Kuncarayakti, Luigi Lessio, Laurent Marty, Seppo Mattila, Matteo Munari, Giuliano Pignata, Kalyan Radhakrishnan, Michael Rappaport, Marco Riva, Adam Rubin, Bernardo Salasnich, Maximilian Stritzinger, Fabrizio Vitali, Ricardo Zanmar Sánchez, Salvatore Scuderi",
-      "PaperNumber": "14155-158",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "bbe09be0-65d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "bbe09be0-65d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "SOXS quality control system for operations at the NTT",
-      "Description": null,
-      "Abstract": "The SOXS spectrograph at the ESO NTT has completed its AIV and Commissioning phases, and a dedicated Quality Control (QC) system is required to monitor performance during routine operations. The SOXS QC framework is organised in two complementary layers. The first relies on ESO Datalab and Grafana to monitor critical telemetry parameters, providing real-time dashboards and a redundant email-based alarm system for the observatory staff and the SOXS Consortium support team whenever predefined thresholds are exceeded. The second focuses on instrument performance by collecting quality metrics produced by the SOXS pipeline from daily calibrations and engineering data. These metrics are consolidated into a dedicated monitoring database and presented as long-term trends, allowing the operations team and the community to verify instrument stability against commissioning baselines and identify gradual performance degradations for predictive maintenance.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/SOXS-quality-control-system-for-operations-at-the-NTT/14155-158",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Carmelo Arcidiacono, Matteo Simioni, Simone Zaggia, Patrizia Borin, Luca Cortese, Marco Dima, Rosanna Sordo, Marco Gullieuszik",
       "PaperNumber": "14151-119",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -192,7 +56,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -200,9 +64,9 @@
       "PaperNumber": "14154-343",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -226,7 +90,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -234,9 +98,9 @@
       "PaperNumber": "14156-158",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -260,7 +124,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -268,9 +132,9 @@
       "PaperNumber": "14149-313",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -294,7 +158,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -302,9 +166,9 @@
       "PaperNumber": "14154-371",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -328,7 +192,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -336,9 +200,9 @@
       "PaperNumber": "14150-295",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -362,7 +226,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -370,9 +234,9 @@
       "PaperNumber": "14149-368",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -396,7 +260,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -472,9 +336,9 @@
       "PaperNumber": "14150-284",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -498,7 +362,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -506,9 +370,9 @@
       "PaperNumber": "14149-353",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -532,7 +396,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -608,9 +472,9 @@
       "PaperNumber": "14156-125",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -634,7 +498,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -642,9 +506,9 @@
       "PaperNumber": "14145-246",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -668,7 +532,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -676,9 +540,9 @@
       "PaperNumber": "14156-156",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -702,7 +566,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -710,9 +574,9 @@
       "PaperNumber": "14155-191",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -736,7 +600,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -744,9 +608,9 @@
       "PaperNumber": "14149-340",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -770,7 +634,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -778,9 +642,9 @@
       "PaperNumber": "14154-361",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -804,7 +668,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -812,9 +676,9 @@
       "PaperNumber": "14155-170",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -838,7 +702,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -846,9 +710,9 @@
       "PaperNumber": "14147-162",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -872,7 +736,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -880,9 +744,9 @@
       "PaperNumber": "14154-347",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -906,7 +770,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -914,9 +778,9 @@
       "PaperNumber": "14149-315",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -940,7 +804,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -982,9 +846,9 @@
       "PaperNumber": "14149-352",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1008,7 +872,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1050,9 +914,9 @@
       "PaperNumber": "14146-298",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1076,7 +940,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1118,9 +982,9 @@
       "PaperNumber": "14150-319",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1144,7 +1008,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1152,9 +1016,9 @@
       "PaperNumber": "14148-118",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1178,7 +1042,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1186,9 +1050,9 @@
       "PaperNumber": "14148-132",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1212,7 +1076,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1254,9 +1118,9 @@
       "PaperNumber": "14149-396",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1280,7 +1144,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1288,9 +1152,9 @@
       "PaperNumber": "14145-232",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1314,7 +1178,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1322,9 +1186,9 @@
       "PaperNumber": "14155-182",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1348,7 +1212,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1390,9 +1254,9 @@
       "PaperNumber": "14155-184",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1416,7 +1280,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1424,9 +1288,9 @@
       "PaperNumber": "14154-351",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1450,7 +1314,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1458,9 +1322,9 @@
       "PaperNumber": "14151-85",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1484,7 +1348,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1662,9 +1526,9 @@
       "PaperNumber": "14149-388",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1688,7 +1552,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1724,13 +1588,149 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Mathieu Motte, Vincent Chambouleyron, Romain Fétick, Thierry Fusco, Benoît Neichel, Cedric Taïssir Heritier, Jean-François Sauvage, Nicolas Blind, Christophe Lovis",
+      "PaperNumber": "14150-301",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "9d14f9b6-29d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "9d14f9b6-29d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Theory, simulation, and correction of the atmospheric chromatic refraction effect on XAO instrument",
+      "Description": null,
+      "Abstract": "The RISTRETTO instrument aims for the observation and characterisation of the atmosphere of the exoplanet Proxima b. This requires an extreme adaptive optics system. At such a level of performance, finer effects emerge. One such phenomenon is the chromatic pupil shift (CPS). This is directly due to the chromatic refraction effect in the atmosphere. Usually, in astronomy, the wavefront sensing is performed at wavelengths different from those of the science path. Due to refraction, the light at the WFS wavelength does not follow the same atmospheric path as that at the science wavelength and therefore experiences slightly different turbulence, inducing an imperfect estimation and a small residual error in the correction.  We propose a direct theoretical model to quantify the impact of CPS on the XAO error budget for instruments such as RISTRETTO, confirm this model through simulations, and provide methods to measure and correct this effect",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Theory-simulation-and-correction-of-the-atmospheric-chromatic-refraction-effect/14150-301",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "David Smith, Tomasz Lis, Joshua Hopson, Conrad Wells, Bijan Nemati, H. Philip Stahl",
+      "PaperNumber": "14145-252",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "0399aa13-b3d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "0399aa13-b3d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Thermal Modulation Test (TMT) method and recent results in the mini-Precision Thermal Control (PTC) testbed",
+      "Description": null,
+      "Abstract": "Habitable Worlds Observatory (HWO) requires picometer wavefront stability to detect and characterize Earth-like exoplanets using a coronagraph. Critical to this need is thermo-optical stability of the primary mirror assembly. MSFC’s Center for Mirror System Characterization and Acceptance Testing has developed a thermal modulation test (TMT) that measures a mirror’s thermal transfer function with high SNR even in relatively noisy environments by leveraging coherent averaging and large modulation amplitudes and have demonstrated fractional errors lower than 1 pm/mK in initial tests. Additionally, MSFC has build an 80-cm mini-PTC (Precision Thermal Control) testbed with 25-zones of active thermal control. These advances provide a robust path for validating HWO-class stability models.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Thermal-Modulation-Test-TMT-method-and-recent-results-in-the/14145-252",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Matthew East, Emily Lunde, Peter Miller, Christopher R. Sullivan, Josh Johnson, Scott Paine",
+      "PaperNumber": "14154-279",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "23639b5d-87d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "23639b5d-87d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Thermal testing of stable telescope mirrors",
+      "Description": null,
+      "Abstract": "Detecting Earth-like exoplanets requires telescope stability at millikelvin and picometer levels. Under NASA's Critical Technologies for Large Telescopes effort for the Habitable Worlds Observatory, we report Mini-MUST thermal-forcing tests of lightweight and heavyweight mirror architectures in the NASA GSFC Ultra-Stable Structures Laboratory. Front- and back-side sinusoidal thermal stimuli (10-hour, 3-hour, 1-hour, and 20-minute bands) were applied under repeatable conditions to assess thermal transfer (primary objective) and optical transfer (secondary objective). Model-test agreement is strongest for back-side forcing, while front-side coupling is lower and consistent with coated-surface emissivity effects. Lightweight mirrors generally show larger response amplitude than heavyweight mirrors. Optical baseline data remain noise-floor limited, but a repeatable front-side addendum candidate of about 62 pm RMS is encouraging for future large-scale HWO stability testing.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Thermal-testing-of-stable-telescope-mirrors/14154-279",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "J. Duane Gibson, William Goble, Kenneth Duffek, Dallan Porter, Jerome Musselman, Thomas Gansheimer",
+      "PaperNumber": "14155-175",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "cae6bca5-2fc2-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "cae6bca5-2fc2-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Time- and frequency-domain analysis of telescope mount tracking data at the MMTO",
+      "Description": null,
+      "Abstract": "High-resolution telemetry data (100 Hz) from the MMT Observatory telescope mount, including altitude, azimuth, and rotator axes, are analyzed in the time and frequency domains to evaluate tracking performance. Data are sampled for 2 minutes every 10 minutes during active observing. Using Python tools, including Welch power spectral density (PSD) estimates, data are evaluated over multiple years across various telescope configurations (secondary mirrors, instruments, counterweight settings). The analysis employs dual methods: time-domain standard deviation regression and frequency-domain PSD analysis, with directional separation to distinguish upward/downward motion in elevation and clockwise/counterclockwise motion in azimuth and rotation. Results indicate overall smooth tracking, with identifiable trends suggesting possible operational improvements. These tools help assess how environmental and mechanical factors impact tracking performance, supporting future upgrades.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Time--and-frequency-domain-analysis-of-telescope-mount-tracking/14155-175",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2925,
+  "Count": 2922,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 696011
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696015
 }

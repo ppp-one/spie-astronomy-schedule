@@ -26,108 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Jasmina Lazendic-Galloway, Maria Rita Eusébio Vale Lima, Jan Geralt bij de Vaate, Raj Rajan, Pietro Zucca, Mark Bentum, Peter Roelfsema, Wouter Laauwen, Antonio Vecchio, Christiaan Brinkering",
-      "PaperNumber": "14153-43",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 14:20 - 14:40 CEST | Room B2-M8",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "78598fcb-78d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "78598fcb-78d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "L‑FIRE: A space‑based interferometric array for low‑frequency (1–40 MHz) radio astronomy",
-      "Description": null,
-      "Abstract": "L-FIRE (Low-Frequency Interferometric Radio Explorer) is a mission concept for a spaceborne low-frequency radio interferometer operating from 1–40 MHz, a regime inaccessible from the ground. A scalable cluster of free-flying spacecraft forms a long-baseline distributed aperture using orthogonal dipole antennas and onboard correlation. The design addresses key challenges in antenna performance, formation flying, calibration, RFI mitigation, and high-volume data processing, while enabling future growth to larger constellations. L-FIRE will open a new observational window for heliospheric physics, star–planet interactions, and Galactic studies, and will deliver the first comprehensive sky survey at ultra-low radio frequencies.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/LFIRE--A-spacebased-interferometric-array-for-lowfrequency-140-MHz/14153-43",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 14:20 - 14:40 CEST | Room B2-M8",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "R. Lynne Jones, Peter Yoachim, Eric H. Neilsen, Tiago Ribeiro, Erik Dennihy, Sean MacBride",
-      "PaperNumber": "14151-33",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 14:20 - 14:40 CEST | Room B2-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "879476cd-d1cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "879476cd-d1cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Scheduling the LSST: commissioning the Rubin Feature Based Scheduler",
-      "Description": null,
-      "Abstract": "Rubin Observatory will acquire about two million science observations during the course of the ten year Legacy Survey of Space and Time (LSST). Planning these observations is the work of the Rubin Feature Based Scheduler (FBS), every 30 seconds, every twilight to twilight. The FBS has been generating simulated observations for over ten years, driving the development and co-optimization the LSST survey strategy and FBS algorithms, in a collaborative process between the project and the astronomical community under the guidance of the LSST Survey Cadence Optimization Committee (SCOC). The FBS has been in active use with the Rubin Auxiliary Telescope for several years building the framework for interactions between the FBS and summit system. The commissioning of LSSTCam in 2025 marked the first on-sky use of the FBS with the Simonyi Telescope, with an FBS configuration representative of the full LSST. We report on successes and lessons learned.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Scheduling-the-LSST-commissioning-the-Rubin-Feature-Based-Scheduler/14151-33",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 14:20 - 14:40 CEST | Room B2-M2",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Gregory J. Fetzer, Steven E. Rako, Nathan Woody, Katie Baldwin, Philip Hinz, Daren Dillon, Jeffery Roark, Elinor Gates, Juan Chilla, Celine D'Orgeville, Noelia Martinez Rey, Robert Johnson",
-      "PaperNumber": "14150-61",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 14:25 - 14:40 CEST | Room B3-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "0ac74fa4-3ccd-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "0ac74fa4-3ccd-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "On-sky demonstration of a semiconductor VECSEL-based sodium guide-star system",
-      "Description": null,
-      "Abstract": "This presentation will address a semiconductor laser sodium guidestar system operated on sky from the Lick Observatory Shane Telescope. The speaker will discuss design, laboratory performance measurements, telescope installation (September of 2025) and subsequent operation with Shane Telescope AO systems. The system has been operated to support both system performance analysis and astronomical observations for many months.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/On-sky-demonstration-of-a-semiconductor-VECSEL-based-sodium-guide/14150-61",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 14:25 - 14:40 CEST | Room B3-M2",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Haoran Kang, Takafumi Kojima, Takeshi Sakai, Yoichi Tamura, Shun Ishii, Akio Taniguchi, Masato Hagimoto, Masato Kato, Taku Nakajima, Tai Oshima, Sho Masui, Issei Watanabe",
       "PaperNumber": "14156-27",
       "DateTimeLocationDataList": [
@@ -672,7 +570,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Gary J. Hill, Hanshin Lee, John M. Good, Casey Kyte, Jason G. Vestuto, Joshua Oppor, Brian L. Vattiat, Niv Drory, Gregory R. Zeimann, Michael P. Smith, Joseph R. Tufts, Greg Bredthauer, Briana L Indahl, Christian Haubitz-Reinke, Ripley C. Gregg",
+      "Authors": "Gary J. Hill, Hanshin Lee, John M. Good, Casey Kyte, Jason G. Vestuto, Joshua Oppor, Brian L. Vattiat, Niv Drory, Gregory R. Zeimann, Michael P. Smith, Joseph R. Tufts, Greg Bredthauer, Briana L. Indahl, Christian Haubitz-Reinke, Ripley C. Gregg",
       "PaperNumber": "14149-55",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1622,115 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 16:20 - 16:40 CEST | Room B4-M5",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Holger Drass, Chuck Claver, David Cabrera, Diane Hascall, Kevin Siruno, Matthew Rumore, Mostafa Lutfi, Pablo Zorzi, Felipe Bustos, Brian Stalder",
+      "PaperNumber": "14152-58",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 16:20 - 16:40 CEST | Room B2-M6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "30d14334-c2cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "30d14334-c2cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Rubin Systems Engineering: lessons learned for verification and validation of large observatories",
+      "Description": null,
+      "Abstract": "The Vera C. Rubin Observatory is in operation! The Observatory has come a long way from individual components and subsystems built at factories in the US and Europe to a fully operational Observatory composed of an 8-meter class Telescope, the largest Camera in the world and a wealth of supporting systems. The Rubin Team refined the Systems Engineering processes, methodologies, and tools suitable for large Astronomical Observatories. We specifically focus on the processes for Verification and Validation, the Failure Reporting, Analysis, Corrective Action System (FRACAS) handling, as well as Hazard Mitigation Analysis. Here, we share updates and lessons learned on each topic’s workflows, experiences, and difficulties with the community.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Rubin-Systems-Engineering--lessons-learned-for-verification-and-validation/14152-58",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 16:20 - 16:40 CEST | Room B2-M6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Tiffany M. Glassman, Jonathan Arenberg, Andre Aroyan, Nick Burst, Suzanne Casement, Scott Colby, Todd Lawton, Gordon Reese, Blake Shepherd, James Tucker",
+      "PaperNumber": "14145-65",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 16:20 - 16:40 CEST | Room B4-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "4729fc98-13cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "4729fc98-13cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "STABLE study for the Habitable Worlds Observatory",
+      "Description": null,
+      "Abstract": "We report on progress on the Systems Technologies for Architecture BaseLinE (STABLE) study, which was awarded on the NASA 2023 ROSES D.19 opportunity. In the study, we are developing technologies for the Habitable Worlds Observatory (HWO) in four areas: Micrometeoroid Impact Mitigation, Telescope Temperature Control, Ultra-Stable Telescope Structure Materials and Modeling, and Improvement of Thermal Expansion Test Capability. This study is a collaboration between Northrop Grumman, Kratos, NeXolve, JPL, STScI, NASA’s White Sands Test Facility, and NASA Goddard’s Ultra-Stable Test Facility. We will also discuss our plans for our follow-on study as part of NASA’s 2024 ROSES D.19. In this study, we will address additional technologies as well as perform analysis of HWO architecture options.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/STABLE-study-for-the-Habitable-Worlds-Observatory/14145-65",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 16:20 - 16:40 CEST | Room B4-M3",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "David R. Ardila, Evgenya Shkolnik, Tahina Ramiaramanantsoa, Travis Barman, Judd Bowman, Christophe Basset, Dawn Gregory, Daniel Jacobs, Logan Jensen, April Jewell, Matthew Kolopanis, Mary Knapp, Cristy Ladwig, Joe Llama, Victoria Meadows, Shouleh Nikzad, Sarah Peacock, Paul Scowen, Nathaniel Struebel, Mark Swain",
+      "PaperNumber": "14146-74",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 16:20 - 16:40 CEST | Room B4-M1",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "217e8338-09cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "217e8338-09cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The Star-Planet Activity Research CubeSat (SPARCS): results of commissioning and early science observations",
+      "Description": null,
+      "Abstract": "The Star-Planet Activity Research CubeSat (SPARCS) is a NASA-funded 6U CubeSat designed to advance our understanding of the ultraviolet (UV) radiation environment around M and K dwarf stars. After its launch in early 2026, the spacecraft underwent a 1 month commissioning phase, followed by science operations. This paper presents the results of the on-orbit performance and verification of the spacecraft’s key systems, including its detectors, the autonomous exposure control algorithm, and the fine pointing system. Furthermore, we present the first results from the early science phase, covering continuous monitoring of high-priority targets over multiple stellar rotation periods. These early light curves will reveal high-cadence details of strong flare events and rotational modulation of active regions, providing unprecedented time-domain data crucial for planetary atmosphere modeling.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Star-Planet-Activity-Research-CubeSat-SPARCS--results-of/14146-74",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 16:20 - 16:40 CEST | Room B4-M1",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2925,
+  "Count": 2922,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 696011
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696015
 }

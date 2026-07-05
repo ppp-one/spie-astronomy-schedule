@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Juan de Dios Santander-Vela, Denis Barkats, Felipe Besser, Rodrigo Cabezas, John Carpenter, Carla Crovari, Álvaro González, Todd Hunter, Shun Ishii, Norikazu Mizuno, Hiroshi Nagai, Theodoros Nakos, Roberto Price, Jaime Robles, Christian Saldias, Tzu-Chiang Shen, Eric Villard",
-      "PaperNumber": "14152-34",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 14:10 - 14:30 CEST | Room B2-M6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "4b35b72b-90cc-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "4b35b72b-90cc-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Ensuring the system integrity of ALMA 2030: managing the distributed systems engineering effort for delivering the wideband sensitivity upgrade",
-      "Description": null,
-      "Abstract": "The Atacama Large Millimeter/submillimeter Array (ALMA) has operated successfully for more than a decade, remaining the world’s premier telescope for high-resolution observations at millimeter/submillimeter wavelengths, with around 5000 refereed publications to date. The next stage for ALMA is the Wideband Sensitivity Upgrade (WSU), which will increase the instantaneous bandwidth by 4x (initially delivered as 2x), improving its sensitivity and digital efficiency, while keeping the existing system in operation. This complex program requires dedicated systems engineering (SE) to maintain system integrity while scientific observations continue. We describe the complementary SE efforts at project and program levels, based on collaboration between the WSU Program Management Office, the Integrated Development Team, the JAO Systems Engineering Group, and regional development projects. We summarize the progress made towards System PDR and reflect on the SE and program management interplay.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Ensuring-the-system-integrity-of-ALMA-2030--managing-the/14152-34",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 14:10 - 14:30 CEST | Room B2-M6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Mallory M. Whalen, Brandon Chalifoux, Alan Garner, Sarah Heine, Herman Marshall, Ralf Heilmann, Mark Schattenburg",
-      "PaperNumber": "14146-54",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 14:10 - 14:25 CEST | Room B4-M1",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "d90bf98a-c5d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "d90bf98a-c5d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Metrology advancements for X-ray optics: Lynx and beyond",
-      "Description": null,
-      "Abstract": "Next generation X-ray missions require figure errors around 1-5 nm and sub-nanometer metrology. This works discusses improvements to Fizeau metrology of segmented optics as well as progress towards at-wavelength metrology of X-ray mirrors at MIT through the development of an in-house soft X-ray mirror metrology system. Segmented optics currently can be figured to about 5 nm RMS surface height error using IBF. Since IBF is deterministic, the figure errors are believed to be from limitations in the reference optics of the Fizeau metrology used. We have developed a lateral shearing self-referencing interferometric technique to measure cylindrical mirrors. By shifting the optic under test, the errors from the reference optics can be backed out. A 4.4 nm RMS surface height measurement repeatability of the axial figure of cylindrical mirrors was achieved. This work shall discuss improvements to ASM so that mirrors with curvature in two directions, such as Wolter optics.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Metrology-advancements-for-X-ray-optics-Lynx-and-beyond/14146-54",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 14:10 - 14:25 CEST | Room B4-M1",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "David J. McKenna, Cees G. Bassa, Cristina-Maria Cordun, Michiel A. Brentjens",
       "PaperNumber": "14153-25",
       "DateTimeLocationDataList": [
@@ -604,7 +536,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Christopher A. Haniff, Juan Paulo Barios, David F. Buscher, Martin Fisher, Eugene B. Seneta, John S. Young, Van D. Romero, Michelle J. Creech-Eakman, Caelan F Eakman, Emma Floyd, Anders M. Jorgensen, James Luis, Jeffrey C Mason, Andres Olivares, Sam Rochelle, Chris Salcido, Raphael Santoro, Ian S. Schofield",
+      "Authors": "Christopher A. Haniff, Juan Paulo Barios, David F. Buscher, Martin Fisher, Eugene B. Seneta, John S. Young, Van D. Romero, Michelle J. Creech-Eakman, Caelan F. Eakman, Emma Floyd, Anders M. Jorgensen, James Luis, Jeffrey C. Mason, Andres Olivares, Sam Rochelle, Chris Salcido, Raphael Santoro, Ian S. Schofield",
       "PaperNumber": "14148-20",
       "DateTimeLocationDataList": [
         {
@@ -1284,8 +1216,8 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Bradley Frank, Younes Chahid, Chris Waring, Amna Waris, Robert Beswick, Louise Chisholm, Chris Pearson",
-      "PaperNumber": "14155-42",
+      "Authors": "Luis Alberto Rodriguez Garcia, Raul Dominguez Dominguez, Héctor de Paz Martín, Manuel Huertas López, Sebastian Fernandez Garcia, Francisco J. Rodríguez, Jorge de La Rosa, Camilo E. Jiménez, Romano Corradi, Axel Yanes, Fernando Rueda, Sergio Rueda, Antonio Marin-Franch, Javier Cenarro",
+      "PaperNumber": "14155-44",
       "DateTimeLocationDataList": [
         {
           "date_time_location": "7 July 2026 • 15:30 - 15:50 CEST | Room B4-M7",
@@ -1299,18 +1231,18 @@
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
       "MatchingFrag": "",
-      "UniqueId": "7e38f1bc-60d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "7e38f1bc-60d0-f011-a9ae-00505691c5e1",
+      "UniqueId": "2c9a8ad3-d1cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "2c9a8ad3-d1cf-f011-a9ae-00505691c5e1",
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Enabling AI in Astronomy: Platforms and Prototypes Across the UK’s Scientific and Instrumentation Landscape",
+      "Title": "Cognitive artificial intelligence ecosystem with intelligent agents for GTC operations",
       "Description": null,
-      "Abstract": "This paper details two UK STFC studies crucial for accelerating AI adoption in astronomy, addressing the complexity of next-generation facilities like SKA.    The first study focused on technical prototypes, resulting in four ML applications for instrumentation: optimized optomechanical design, real-time adaptive optics control, hardware-in-the-loop testing, and novel radio astronomy data processing.    The second study produced a strategic report based on stakeholder engagement and use-case analysis. This report identifies enabling platforms and provides policy guidance, ensuring sustainable AI deployment that adheres to FAIR data requirements.    We present key technical outcomes and critical lessons learned in both software engineering and project management, outlining a necessary roadmap to integrate these ML solutions into robust, production-grade cyberinfrastructure for the UK community.",
+      "Abstract": "This work presents a cognitive AI ecosystem for the Gran Telescopio Canarias that combines edge-level deep learning with intelligent agents orchestrating actions across control, maintenance and administrative systems.     A three-layer architecture is introduced—cognitive, orchestration and operational—together with a phased roadmap towards operational, predictive and institutional intelligence. The contribution highlights governance principles and organizational requirements, and showcases practical use cases.     The approach aims to evolve the GTC into a cognitive observatory where the digital twin becomes an active, learning component that enhances resilience and reduces cognitive load for human teams.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Enabling-AI-in-Astronomy--Platforms-and-Prototypes-Across-the/14155-42",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Cognitive-artificial-intelligence-ecosystem-with-intelligent-agents-for-GTC-operations/14155-44",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1624,8 +1556,8 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Luis Alberto Rodriguez Garcia, Raul Dominguez Dominguez, Héctor de Paz Martín, Manuel Huertas López, Sebastian Fernandez Garcia, Francisco J. Rodríguez, Jorge de La Rosa, Camilo E. Jiménez, Romano Corradi, Axel Yanes, Fernando Rueda, Sergio Rueda, Antonio Marin-Franch, Javier Cenarro",
-      "PaperNumber": "14155-44",
+      "Authors": "Yi Hu, Junhui Shi, Jia Ma, Zhenyao Yang, Zhongyue Chen, Zhongna Dong, Yiming Liang, Jiacheng Zhang, Zhichao Zheng, Yuqi Wang, Yongxiong Xiao, Haoyuan Du, Xu Yang, Zhaohui Shang, Yongna Mao, Jifeng Liu",
+      "PaperNumber": "14155-45",
       "DateTimeLocationDataList": [
         {
           "date_time_location": "7 July 2026 • 15:50 - 16:10 CEST | Room B4-M7",
@@ -1639,18 +1571,18 @@
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
       "MatchingFrag": "",
-      "UniqueId": "2c9a8ad3-d1cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "2c9a8ad3-d1cf-f011-a9ae-00505691c5e1",
+      "UniqueId": "ad07c009-dcd1-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "ad07c009-dcd1-f011-a9ae-00505691c5e1",
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Cognitive artificial intelligence ecosystem with intelligent agents for GTC operations",
+      "Title": "Embodied artificial intelligence telescope: an effective solution for high-level autonomous operation requirements of GOTTA project",
       "Description": null,
-      "Abstract": "This work presents a cognitive AI ecosystem for the Gran Telescopio Canarias that combines edge-level deep learning with intelligent agents orchestrating actions across control, maintenance and administrative systems.     A three-layer architecture is introduced—cognitive, orchestration and operational—together with a phased roadmap towards operational, predictive and institutional intelligence. The contribution highlights governance principles and organizational requirements, and showcases practical use cases.     The approach aims to evolve the GTC into a cognitive observatory where the digital twin becomes an active, learning component that enhances resilience and reduces cognitive load for human teams.",
+      "Abstract": "Future time-domain astronomy will rely on globally distributed arrays of wide-field telescopes capable of tracking the most rapid and violent cosmic phenomena in real time. This facility can only operate effectively if it is fully autonomous, distributed, and continuously adaptive—capabilities that far exceed the limits of today’s open-loop robotic telescope software. We therefore introduce the Embodied Artificial Intelligence Telescope (EAIT), an AI-native closed-loop observational system that integrates perception, interpretation, planning, and action within each telescope. EAIT transforms a telescope from a passive data-collection instrument into an intelligent agent capable of real-time decision-making and autonomous coordination across a global array. Our results highlight the feasibility of EAIT and its potential to redefine the operational paradigm for next-generation transient astronomy.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Cognitive-artificial-intelligence-ecosystem-with-intelligent-agents-for-GTC-operations/14155-44",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Embodied-artificial-intelligence-telescope--an-effective-solution-for-high/14155-45",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1724,13 +1656,81 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 15:50 - 16:10 CEST | Room B4-M3",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Jamie A. Kennea",
+      "PaperNumber": "14151-23",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 15:50 - 16:10 CEST | Room B2-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "e3fadd0a-86cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "e3fadd0a-86cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The Constant Operational Evolution of the Neil Gehrels Swift Observatory",
+      "Description": null,
+      "Abstract": "The Neil Gehrels Swift Observatory, a pioneering time-domain and multi-messenger mission, predates the term “TDAMM.” Initially conceived to unravel the mystery of short Gamma Ray Bursts, Swift’s automated rapid response and multi-wavelength capabilities make it ideal for TDAMM research. Its continuous capability development, fostered by a highly motivated partnership between Flight and Science Operations teams, transformed Swift from a GRB detection and follow-up mission to a TOO machine, averaging 6 TOOs daily and capable of automated response within seconds. Swift also boasts unique capabilities in Gravitational Wave follow-up, including deep sensitive detection of prompt emission, large-scale tiling of probable counterpart galaxies, and the possibility of repointing before the merger to catch the emission “on the fly”.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Constant-Operational-Evolution-of-the-Neil-Gehrels-Swift-Observatory/14151-23",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 15:50 - 16:10 CEST | Room B2-M2",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Alessandro Marconi, Paolo Di Marcantonio, Alessio Zanutta, Roberto Maiolino, Livia Origlia, Marco Landoni, Ernesto Oliva, Marco Riva, on behalf of ANDES Consortium",
+      "PaperNumber": "14149-42",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 15:55 - 16:15 CEST | Auditorium 15",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "856bb701-24ca-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "856bb701-24ca-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "ANDES, the high-resolution spectrograph for the ELT: science drivers, instrument overview, and project status",
+      "Description": null,
+      "Abstract": "ANDES is the high-resolution optical/NIR spectrograph for the ELT, simultaneously covering 0.40–1.8 μm (goal: 0.35–2.4 μm) at R≈100,000. Its fiber-fed, modular design provides high stability, wide coverage, and multiple modes, including seeing-limited spectroscopy, a SCAO-assisted NIR IFU, a high-dispersion coronagraph, and a faint-target mode. ANDES will enable major advances in exoplanet atmospheres, the first stars, fundamental physics, and cosmic acceleration. Developed by a consortium of 30+ institutes in 13 countries, the project has completed the System Architecture Review and is advancing toward the Preliminary Design Review in mid-2026, including work on the U- and K-band extensions.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/ANDES-the-high-resolution-spectrograph-for-the-ELT--science/14149-42",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 15:55 - 16:15 CEST | Auditorium 15",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2925,
+  "Count": 2922,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 696011
+  "DLCount": 696015
 }

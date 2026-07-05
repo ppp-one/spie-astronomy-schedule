@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Paolo Chioetto, José Araiza-Durán, Umberto Barozzi, Lorenzo Barubiani, Andrea Bocchieri, Pasquale Bonfà, Daniele Brienza, Anna Brucalassi, Vincenzo Davide Cardinale, Riccardo Claudi, Fabio D'Anca, Paul Eccleston, Alejandro Fernández-Soler, Debora Ferruzzi, Iacopo Ficai Veltroni, Manuele Gangi, Andrés García Pérez, Gabriele Grisoni, Elisa Guerriero, Riccardo Lilli, Lorenzo Maddii Fabiani, Giuseppe Malaguti, Giuseppina Micela, Federico Miceli, Angelo Olivieri, Emanuele Pace, Enzo Pascale, Andrea Paternoster, Javier Pérez Álvarez, Paolo Picchi, Giampaolo Preti, Monica Rainer, Antonio Scippa, Giovanna Tinetti, Elisabetta Tommasi, Andrea Tozzi, Dervis Vernani, Paola Zuppella",
-      "PaperNumber": "14154-30",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 13:45 - 14:00 CEST | Room B2-M4",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "a762e040-55cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "a762e040-55cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Absolute reflectivity measurement for large telescope mirrors: setup and first insights",
-      "Description": null,
-      "Abstract": "Accurate mirror reflectivity is crucial for predicting telescope performance. For Ariel’s primary mirror (M1) Engineering Model, an absolute reflectivity measurement setup was developed to obtain values directly from the coated surface and validate sample-based results. The system uses a broadband light source, integrating sphere with spectrometer, and a custom configuration to compare incident and reflected intensities. Mounted on a dedicated structure, it ensures safe handling of large mirrors in various orientations. Verified with reference mirrors, the setup showed good repeatability. Measurements on multiple M1 positions provide an independent benchmark for optical models and confirm feasibility of in-situ characterization.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Absolute-reflectivity-measurement-for-large-telescope-mirrors--setup-and/14154-30",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 13:45 - 14:00 CEST | Room B2-M4",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Alfredo Dubra",
       "PaperNumber": "14150-30",
       "DateTimeLocationDataList": [
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "6 July 2026 • 15:40 - 15:55 CEST | Room B4-M1",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Arjo Bos, Pim van Wershoven, Bart Speet, Fred Kamphues, Wouter Jonker",
+      "PaperNumber": "14154-36",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 15:45 - 16:00 CEST | Room B2-M4",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "88e458dd-f3d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "88e458dd-f3d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Sensitivity analysis and design of a segmented active M1 for the next-generation telescopes",
+      "Description": null,
+      "Abstract": "In the current generation of Extremely Large Telescopes (ELTs), relatively thick segmented M1 mirror segments are applied. These mirror segments of significant mass have complex mechanical support structures that warp and co-phase each element such that a single mirror surface is achieved. TNO believes that with recent developments, the next-generation telescopes can be made possible by decreasing mass, making the M1 segments active (or even adaptive), and significantly decreasing the cost of the glass mirror segments.   In this paper we present a sensitivity analysis and concept design of a segmented active thin-shell M1 segment for the next-generation telescopes. Multiple applications are foreseen, from retrofitting existing telescopes such as a 15m 'Keck 2.0', application in the Wide-field Spectroscopic Telescope (WST), or even a 60+ meter ELT.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Sensitivity-analysis-and-design-of-a-segmented-active-M1-for/14154-36",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 15:45 - 16:00 CEST | Room B2-M4",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2925,
+  "Count": 2922,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 696011
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696015
 }

@@ -26,108 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "William J. Marshall, Henry Corbett, Shannon Fitton, Megan Dubay, Nicholas M. Law, Thomas Procter, Alan Vasquez Soto, Jonah L Aponte, Alex Bucheli, Jonathan Carney, Thomas Cowart, James Dockery, Katie M Fasbender, Collin H Grimes, Amy S Ishiguro, Lawrence Machia, Michael Ronco, Donovan Schlekat, Glenn Walters",
-      "PaperNumber": "14157-55",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 11:40 - 12:00 CEST | Room B5-M1",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "feb6d74b-9fd0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "feb6d74b-9fd0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Electron umbrellas and photon rain: An investigation into several noise and charge effects in CMOS detectors",
-      "Description": null,
-      "Abstract": "Astronomical surveys like the upcoming Argus Array, a 1,200-telescope optical survey instrument which will image 8,000 square degrees every minute, rely on the combination of many images from CMOS detectors to meet their scientific objectives. It is therefore important to know exactly how the images from these detectors behave when stacked. Here, we show that certain artifacts, which may not cause issues in single frames, could become relevant when large numbers of these images are co-added for additional depth. We have conducted an investigation into the behavior of one such class of artifact, here referred to as “umbrellas” for their shape, and their potential impact on image calibration and co-addition. These artifacts appear 100s of times in every Sony IMX455 and IMX461 image we examined and pollute 10-15 nearby pixels each. We discuss hot pixel detection methods and calibration routines which will mitigate the impact of these artifacts on Argus science products.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Electron-umbrellas-and-photon-rain--An-investigation-into-several/14157-55",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 11:40 - 12:00 CEST | Room B5-M1",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Anastasia Galkin, Kirill Makan, Wail Abbas Ahmed, Ole Streicher, Simeon Reusch",
-      "PaperNumber": "14155-50",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 11:40 - 12:00 CEST | Room B4-M7",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "0afade71-87cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "0afade71-87cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The 4MOST public archive (4PA)",
-      "Description": null,
-      "Abstract": "The Research Data Infrastructure group at the Leibniz Institute for Astrophysics  Potsdam (AIP) is leading the implementation of the 4MOST Public Archive (4PA),  the archive for processed and science-ready products from the 4-metre  Multi-Object Spectroscopic Telescope. 4PA is built on the Daiquiri publication  framework and deployed with the containerized dq-dev environment. The archive  will publish Level 1 spectra and Level 2 science products, initially to the  4MOST science community and later publicly according to the agreed release  policy.  This contribution describes the practical implementation of 4PA: the path from  provider-curated release tables and associated files to an access-controlled  archive, the use of metadata curation as the basis for web and  Virtual Observatory (VO) access, the deployment model, and 4PA-specific user  interfaces such as survey search, object pages, spectrum pages, file download,  and scripted Table Access Protocol (TAP) access.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-4MOST-public-archive-4PA/14155-50",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 11:40 - 12:00 CEST | Room B4-M7",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Joost A. van den Born, Rico Landman, David S. Doelman, Frans Snik, Yuki Nishie, Yuta Watanabe, Masakazu Shoda, Felix Bettonvil, Ester Aranzana, Jeroen Rietjens, Pierre Baudoz, Olivier Absil, Gilles Orban de Xivry, Dennis Dolkens, Thomas Wijnen",
-      "PaperNumber": "14154-67",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 11:45 - 12:00 CEST | Room B2-M4",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "e955cd7e-93cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "e955cd7e-93cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Vector apodizing phase plates for the ELT: from prototype to final optics for METIS and MICADO",
-      "Description": null,
-      "Abstract": "The first generation of instruments for the upcoming Extremely Large Telescope (ELT) will allow for the direct imaging of many exoplanets that were previously below the sensitivity or resolution limits of existing facilities. Three different Vector Apodizing Phase Plates, a liquid crystal based pupil coronagraph, will be available in both first light instruments; two in METIS, the mid-infrared imaging and spectroscopy instrument, and one in MICADO, the near infrared imaging instrument. In this work, we will present an overview of the current status of these optics, including the manufacturing, lab measurements and discuss the expected final performance.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Vector-apodizing-phase-plates-for-the-ELT--from-prototype/14154-67",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 11:45 - 12:00 CEST | Room B2-M4",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Mayukh Bagchi, Felix M. Thiel, Laura M. Fissel, Maggie Oxford, Lindy L. Blackburn, Rafael Costa, Vincent L. Fish, Daryl Haggard, Michael D. Johnson, Dominic W. Pesce, Ganesh Rajagopalan, Javier L. Romualdez, Aarchi Shah, Adrian K. Sinclair, Stephanie St-Jean, Terry Yang",
       "PaperNumber": "14153-39",
       "DateTimeLocationDataList": [
@@ -1724,13 +1622,115 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 14:20 - 14:40 CEST | Room B3-M6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Jasmina Lazendic-Galloway, Maria Rita Eusébio Vale Lima, Jan Geralt bij de Vaate, Raj Rajan, Pietro Zucca, Mark Bentum, Peter Roelfsema, Wouter Laauwen, Antonio Vecchio, Christiaan Brinkering",
+      "PaperNumber": "14153-43",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 14:20 - 14:40 CEST | Room B2-M8",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "78598fcb-78d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "78598fcb-78d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "L‑FIRE: A space‑based interferometric array for low‑frequency (1–40 MHz) radio astronomy",
+      "Description": null,
+      "Abstract": "L-FIRE (Low-Frequency Interferometric Radio Explorer) is a mission concept for a spaceborne low-frequency radio interferometer operating from 1–40 MHz, a regime inaccessible from the ground. A scalable cluster of free-flying spacecraft forms a long-baseline distributed aperture using orthogonal dipole antennas and onboard correlation. The design addresses key challenges in antenna performance, formation flying, calibration, RFI mitigation, and high-volume data processing, while enabling future growth to larger constellations. L-FIRE will open a new observational window for heliospheric physics, star–planet interactions, and Galactic studies, and will deliver the first comprehensive sky survey at ultra-low radio frequencies.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/LFIRE--A-spacebased-interferometric-array-for-lowfrequency-140-MHz/14153-43",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 14:20 - 14:40 CEST | Room B2-M8",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "R. Lynne Jones, Peter Yoachim, Eric H. Neilsen, Tiago Ribeiro, Erik Dennihy, Sean MacBride",
+      "PaperNumber": "14151-33",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 14:20 - 14:40 CEST | Room B2-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "879476cd-d1cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "879476cd-d1cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Scheduling the LSST: commissioning the Rubin Feature Based Scheduler",
+      "Description": null,
+      "Abstract": "Rubin Observatory will acquire about two million science observations during the course of the ten year Legacy Survey of Space and Time (LSST). Planning these observations is the work of the Rubin Feature Based Scheduler (FBS), every 30 seconds, every twilight to twilight. The FBS has been generating simulated observations for over ten years, driving the development and co-optimization the LSST survey strategy and FBS algorithms, in a collaborative process between the project and the astronomical community under the guidance of the LSST Survey Cadence Optimization Committee (SCOC). The FBS has been in active use with the Rubin Auxiliary Telescope for several years building the framework for interactions between the FBS and summit system. The commissioning of LSSTCam in 2025 marked the first on-sky use of the FBS with the Simonyi Telescope, with an FBS configuration representative of the full LSST. We report on successes and lessons learned.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Scheduling-the-LSST-commissioning-the-Rubin-Feature-Based-Scheduler/14151-33",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 14:20 - 14:40 CEST | Room B2-M2",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Gregory J. Fetzer, Steven E. Rako, Nathan Woody, Katie Baldwin, Philip Hinz, Daren Dillon, Jeffery Roark, Elinor Gates, Juan Chilla, Celine D'Orgeville, Noelia Martinez Rey, Robert Johnson",
+      "PaperNumber": "14150-61",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 14:25 - 14:40 CEST | Room B3-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "0ac74fa4-3ccd-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "0ac74fa4-3ccd-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "On-sky demonstration of a semiconductor VECSEL-based sodium guide-star system",
+      "Description": null,
+      "Abstract": "This presentation will address a semiconductor laser sodium guidestar system operated on sky from the Lick Observatory Shane Telescope. The speaker will discuss design, laboratory performance measurements, telescope installation (September of 2025) and subsequent operation with Shane Telescope AO systems. The system has been operated to support both system performance analysis and astronomical observations for many months.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/On-sky-demonstration-of-a-semiconductor-VECSEL-based-sodium-guide/14150-61",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 14:25 - 14:40 CEST | Room B3-M2",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2925,
+  "Count": 2922,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 696011
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696015
 }

@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Vadim Burwitz, Maximilien Collon, Giuseppe Vacanti, Adam Lassise, Nicolas Barriere, Boris Landgraf, Marcos Bavdaz, Ivo Ferreira, Gisela Hartner, Andreas Langmeier, Thomas Müller, Surangkhana Rukdee, Thomas Schmidt",
-      "PaperNumber": "14146-167",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "e51372fb-43d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "e51372fb-43d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "X-ray parallel beam measurements of NewAthena silicon pore optics at PANTER",
-      "Description": null,
-      "Abstract": "The ESA NewATHENA X-ray observatory is slated for mission adoption in 2027 and launch in the late 2030s. NewATHENA features a 2.5 m diameter and 12 m focal length X-ray Mirror Assembly (XMA) that supports up to 600 Silicon Pore Optic (SPO) mirror modules (MMs). The PANTER X-ray test facility has been key to this process of characterising the SPO MMs. Usually, the TMMs are characterised using the divergent beam with the X-ray source located at 120 m from the X-ray optic. A new setup at PANTER has been implemented using a Fresnel zone plate to produce a parallel X-ray beam that can fully illuminate a SPO MM. The results of divergent and parallel beam measurements of a calibration master mirror module MM-0037 composed of a primary and a secondary silicon mandrel, and the first NewATHENA flight-like SPO MM-0058 will be presented.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/X-ray-parallel-beam-measurements-of-NewAthena-silicon-pore-optics/14146-167",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Giorgio Savini, Ji Qi, Enzo Pascale, José Antonio Araiza-Durán, Martin Caldwell, Stavros Misopoulos, Anna Brucalassi, Paolo Chioetto, Piotr Wawer, Grzegorz Szymanski, Anne Philippon, Benoit Lecomte, Andrea Bocchieri, Salma Fahmy, Yannis Argyriou Tsikrikonis, Andreas Papageorgiou, Lorenzo Mugnai",
-      "PaperNumber": "14145-159",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "5a46e2ba-6fd0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "5a46e2ba-6fd0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Zemax macro-enabled pan-chromatic and dynamic PSF simulations for fine guidance sensor spot modelling",
-      "Description": null,
-      "Abstract": "This paper aims to present a simple way of using outputs of Zemax raytracing to improve prediction of the point spread function of space telescope outputs on Fine Guidance Sensors. This is done both to evaluate changes caused by different spectral type stars as well as variations potentially caused by known models of pointing jitter.   Macros in ZPL language can easily be coded to provide ray incidence on a given surface at a variety of wavelengths and field positions. This provides a reference grid in which a separate accurate pointing model can navigate by switching to the nearest neighbour spot and produce for a given integration time the resulting spot cloud at the detector.  This code procedure also aims to facilitate and optimise of the M2 mirror positioning on the Ariel satellite telescope during Commissioning phase.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Zemax-macro-enabled-pan-chromatic-and-dynamic-PSF-simulations-for/14145-159",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Prakriti Gupta, Yashvi Sharma, John I. Bailey",
       "PaperNumber": "14155-97",
       "DateTimeLocationDataList": [
@@ -264,7 +196,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "G. Barbieri Ripamonti, F. Columbro, P. de Bernardis, T. Iida, S. Masi, R. Akizawa, E. Battistelli, A. Coppolecchia, M. De Petris, L. Lamagna, E. Marchitelli, T. Matsumura, M. Najafi, A. Occhiuzzi, H. Ohsaki, S. Okumura, A. Paiella, F. Piacentini, G. Pisano, S. Stellati",
+      "Authors": "G. Barbieri Ripamonti, F. Columbro, P. de Bernardis, T. Iida, S. Masi, R. Akizawa, E. Battistelli, M. De Petris, A. Coppolecchia, L. Lamagna, E. Marchitelli, T. Matsumura, M. Najafi, A. Occhiuzzi, H. Ohsaki, S. Okumura, A. Paiella, F. Piacentini, G. Pisano, S. Stellati",
       "PaperNumber": "14156-1",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1656,81 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 11:30 - 12:00 CEST | Room B3-M6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Jared R. Males, Laird M. Close, Sebastiaan Y. Haffert, Olivier Guyon, Victor Gasho, Douglas M. Kelly, Adam Fletcher, John Ford, Tommy Salanski, Maggie Kautz, Olivier F. Durney, Jamison Noenickx, Logan Pearce, Jay Kueny, Alycia Weinberger, Joseph D Long, Eden McEwen, Katie Twitchell, Joshua Liberman, Tiffany Nguyen, Adam Kraus, Jason Wang, Parker Johnson, Miles Lucas, Elena Tonucci, Rico Landman",
+      "PaperNumber": "14149-35",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 11:30 - 11:50 CEST | Auditorium 15",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "2dd6955f-f9cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "2dd6955f-f9cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The final design of GMagAO-X: high-contrast imaging at first-light of the GMT",
+      "Description": null,
+      "Abstract": "GMagAO-X will be the first-light high-contrast imager on the 25 m Giant Magellan Telescope. The driving science case for GMagAO-X is characterization of the atmospheres of nearby rocky exoplanets such as Proxima Centauri b. This, and many more science cases will be enabled by a 21,000 actuator extreme adaptive optics (ExAO) system, an integrated coronagraphic wavefront control system with dedicated deformable mirrors, and a suite of imagers and spectrographs. GMagAO-X is on track to be ready at first-light of the GMT in the mid 2030s. We will provide an updated overview of the instrument designed to achieve our ambitious performance targets and the resultant expected scientific yield. We will discuss the results of risk reduction activities and prototyping. We will also briefly review progress towards demonstrating scaled performance targets with the recently commissioned MagAO-X on the 6.5 m Clay Telescope.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-final-design-of-GMagAO-X--high-contrast-imaging/14149-35",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 11:30 - 11:50 CEST | Auditorium 15",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Michel Tallon, Clémentine Béchet, Isaac Dinis, Florian Ferreira, Paul Fontanillas, Nicolas Galland, Charles Goulas, Markus Kasper, Caroline Kulcsár, Jalo Nousiainen, Henri-François Raynaud, Isabelle Tallon-Bosc, Éric Thiébaut, Maud Langlois, Anthony Boccaletti, Emiliano Diolaiti, Raphaël Galicher, Miska Le Louarn, Magali Loupias, Johan Mazoyer, Julien Milli, Laura Schreiber, Fabrice Vidal, Gaële Barbary, François Wildi",
+      "PaperNumber": "14150-38",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 11:35 - 11:50 CEST | Room B3-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "39eb11d0-61d1-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "39eb11d0-61d1-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "SAXO+, the second-stage adaptive optics for SPHERE: a review of six selected control algorithms and the results achieved to date",
+      "Description": null,
+      "Abstract": "SAXO+ is the second-stage adaptive optics (AO) system to be inserted in cascade after SPHERE extreme AO at the VLT, aiming to improve coronagraphic contrast closer to the star and enable observations of fainter, redder stars. This leads to the use of a modulated pyramid wavefront sensor and a twice as fast AO loop. A classical optimal modal-gain integrator is the baseline control algorithm. We test five alternative algorithms offering prediction to mitigate delay, improved reconstruction, or better tolerance to PyWFS non-linearities. Three are based on linear estimation methods (Linear Quadratic Gaussian, data-driven, and iterative minimum-variance reconstructor) and two use neural networks and reinforcement learning (Policy Optimization for AO and Dual-stage Supervised & Reinforcement Learning). So all employ machine learning. Algorithms are compared with the COMPASS simulator, modeling two cascaded AO. On-sky tests with the RTC COSMIC will validate final performance and operability.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/SAXO-the-second-stage-adaptive-optics-for-SPHERE--a/14150-38",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 11:35 - 11:50 CEST | Room B3-M2",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2925,
+  "Count": 2922,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 696011
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696015
 }

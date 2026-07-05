@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Vishambhar Nath Pandey, Bram Veenboer, Wilco Baan Hofman, Julian Kootstra, Jason Hessels, Ziggy Pleunis, Steven van der Vlugt, Jan David Mol",
-      "PaperNumber": "14153-3",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 11:10 - 11:30 CEST | Room B2-M8",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "c1728e0f-d9ca-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "c1728e0f-d9ca-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Scalable HPC cluster design for radio telescope front end and astronomical data processing",
-      "Description": null,
-      "Abstract": "Modern radio telescopes and other data-intensive instruments require scalable, energy-efficient HPC infrastructures to support real-time signal processing and data intensive pipelines. We present a design approach for next-generation HPC clusters applicable from real-time front-ends to large-scale offline analytics. Drawing on experience from production systems - including GPU correlator/beamformer subsystems for LOFAR, the EuroFlash cluster with its integrated GPU beamformer, high-throughput BeeGFS-based storage architecture, and CPU-based production system - we outline key design patterns and lessons learned. We discuss architectural choices in heterogeneous computing, focusing on compute and I/O challenges such as CPU/accelerator balance, PCIe topology, and network design, along with low-latency high-throughput multi-petabyte storage systems. We address sustainability via performance, efficiency, and total cost of ownership showing how strategic choices lead to efficient solutions.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Scalable-HPC-cluster-design-for-radio-telescope-front-end-and/14153-3",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 11:10 - 11:30 CEST | Room B2-M8",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "David Polishook, Eran Ofek, Sagi Ben-Ami, Ofer Yaron, Ruslan Konno, Simone Garrappa, Oren Ironi, Yahel Sofer-Rimlat, Alex Bichkovsky, Alexander Krassikchtchikova, Arie Blumenzweig, Enrico Segre, Michael Engel, Ofir Hershko, Omer Oreg",
       "PaperNumber": "14151-4",
       "DateTimeLocationDataList": [
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "6 July 2026 • 13:40 - 14:00 CEST | Room B4-M3",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Paolo Chioetto, José Araiza-Durán, Umberto Barozzi, Lorenzo Barubiani, Andrea Bocchieri, Pasquale Bonfà, Daniele Brienza, Anna Brucalassi, Vincenzo Davide Cardinale, Riccardo Claudi, Fabio D'Anca, Paul Eccleston, Alejandro Fernández-Soler, Debora Ferruzzi, Iacopo Ficai Veltroni, Manuele Gangi, Andrés García Pérez, Gabriele Grisoni, Elisa Guerriero, Riccardo Lilli, Lorenzo Maddii Fabiani, Giuseppe Malaguti, Giuseppina Micela, Federico Miceli, Angelo Olivieri, Emanuele Pace, Enzo Pascale, Andrea Paternoster, Javier Pérez Álvarez, Paolo Picchi, Giampaolo Preti, Monica Rainer, Antonio Scippa, Giovanna Tinetti, Elisabetta Tommasi, Andrea Tozzi, Dervis Vernani, Paola Zuppella",
+      "PaperNumber": "14154-30",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 13:45 - 14:00 CEST | Room B2-M4",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "a762e040-55cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "a762e040-55cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Absolute reflectivity measurement for large telescope mirrors: setup and first insights",
+      "Description": null,
+      "Abstract": "Accurate mirror reflectivity is crucial for predicting telescope performance. For Ariel’s primary mirror (M1) Engineering Model, an absolute reflectivity measurement setup was developed to obtain values directly from the coated surface and validate sample-based results. The system uses a broadband light source, integrating sphere with spectrometer, and a custom configuration to compare incident and reflected intensities. Mounted on a dedicated structure, it ensures safe handling of large mirrors in various orientations. Verified with reference mirrors, the setup showed good repeatability. Measurements on multiple M1 positions provide an independent benchmark for optical models and confirm feasibility of in-situ characterization.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Absolute-reflectivity-measurement-for-large-telescope-mirrors--setup-and/14154-30",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 13:45 - 14:00 CEST | Room B2-M4",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2925,
+  "Count": 2922,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 696011
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696015
 }

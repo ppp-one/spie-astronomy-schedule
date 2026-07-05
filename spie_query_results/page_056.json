@@ -26,115 +26,13 @@
   },
   "Items": [
     {
-      "Authors": "Viljon Sekseni, Freerk Schütt, Kersten Mumme, Dhruti Mavani, Tobias Brunken, Mohamed Shehata, Miriam Brandt, Philipp Huke",
-      "PaperNumber": "14154-386",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "7c576e8d-68cc-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "7c576e8d-68cc-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Three-port Fourier-transform spectrometer for high precision differential measurements",
-      "Description": null,
-      "Abstract": "To get a high resolution with a Fourier-transform Spectrometer (FTS) long paths are needed, even though a few cm already suffice to exceed resolutions of most echelle spectrographs. This allows to build compact FTS for monitoring calibration sources with high precision and accuracy when calibrated properly. The slow speed of the moving mirror(s) require a sophisticated detector-architecture. Especially for broad-band or incoherent sources strong averaging is needed to compensate for the small SNR outside the coherence length.  Here, we report about a FTS with three input-ports. Three input-ports allows to measure two ports in a differential mode, thereby using the third port for reference. This is particularly useful to measure differentially the behaviour of fibers. The detector architecture is based on fast, low-noise photodiodes with low amplification and a conventional ADC. The six output ports enhance the SNR and enable relatively fast measurement of broad-band light sources.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Three-port-Fourier-transform-spectrometer-for-high-precision-differential-measurements/14154-386",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Ahmed Sanny, Pradip Gatkine, Darshpreet Kaur Saini, Bibhudutta Rout, Hugo García-Vázquez, Diego Portero-Rodríguez, Luis Ramos, Nemanja Jovanovic",
-      "PaperNumber": "14148-162",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "1c7583ec-f8cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "1c7583ec-f8cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Toward space-qualification of astrophotonic spectrographs for space telescopes",
-      "Description": null,
-      "Abstract": "Astrophotonics has rapidly matured into a key technology for ground-based observatories, replacing bulky optics with compact, stable photonic components for high-angular-resolution and high-contrast astronomy. As future space missions such as HWO and LIFE demand reliable photonic systems operating from the visible to the infrared, rigorous environmental qualification per NASA and ECSS standards is essential. This work presents a space-environment evaluation of near-infrared passive AWG-based spectrographs fabricated in doped-SiO₂ with square waveguides, compatible with future upgrades to active photonic integrated circuits. With a resolving power of ~200 over the 200–350 nm range, the devices are tested as standalone chips and packaged assemblies under LEO-relevant thermal-vacuum cycling and keV–MeV energetic ion irradiation. Performance degradation, failure modes, and robustness are assessed to inform the design and packaging of astrophotonic systems for space missions.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Toward-space-qualification-of-astrophotonic-spectrographs-for-space-telescopes/14148-162",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Michał Kossakowski, Selina Ringsborg Howalt Owe, Rikke Stougaard Klausen, Alexander Cherlin, Denis Tcherniak, Alejandro Valverde Mahou, Søren Hauberg, Irfan Kuvvetli",
-      "PaperNumber": "14146-331",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "d55d1fae-61d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "d55d1fae-61d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Toward tracker-free Compton imaging: deep learning of charge cloud geometry in 3D CZT drift strip detectors",
-      "Description": null,
-      "Abstract": "Recoil electron tracking is a key missing capability in Compton imaging for both high-sensitivity MeV gamma-ray astronomy and advanced medical imaging. This work presents a machine learning feasibility study investigating whether recoil electron direction and charge cloud geometry can be inferred directly from CZT detector pulse shapes. Synthetic data are generated using an Advanced Theoretical Detector Model of a 3D CZT Drift Strip Detector combined with recoil electron tracks simulated in GATE. The study defines the practical feasibility limits of AI-based electron tracking for next-generation Compton imaging systems.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Toward-tracker-free-Compton-imaging--deep-learning-of-charge/14146-331",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Alain Cournoyer, Hugo Bourque, Éric Carbonneau, Patrick Gilbert, Simon Houle, Jean-Alexis Boulet, Ian Silversides, Martin Larouche, Natalia Milaniak, Frédéric Grandmont, David Naylor, Brad Gom, Adam Christiansen, Matthew Buchan",
       "PaperNumber": "14145-272",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -158,7 +56,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -166,9 +64,9 @@
       "PaperNumber": "14145-283",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -192,7 +90,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -234,9 +132,9 @@
       "PaperNumber": "14147-176",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -260,7 +158,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -268,9 +166,9 @@
       "PaperNumber": "14146-349",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -294,7 +192,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -302,9 +200,9 @@
       "PaperNumber": "14146-347",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -328,7 +226,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -336,9 +234,9 @@
       "PaperNumber": "14146-342",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -362,7 +260,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -370,9 +268,9 @@
       "PaperNumber": "14155-196",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -396,7 +294,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -404,9 +302,9 @@
       "PaperNumber": "14154-391",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -430,7 +328,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -438,9 +336,9 @@
       "PaperNumber": "14149-452",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -464,7 +362,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -472,9 +370,9 @@
       "PaperNumber": "14150-367",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -498,7 +396,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -506,9 +404,9 @@
       "PaperNumber": "14145-275",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -532,7 +430,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -540,9 +438,9 @@
       "PaperNumber": "14149-408",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -566,7 +464,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -608,9 +506,9 @@
       "PaperNumber": "14146-354",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -634,7 +532,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -676,9 +574,9 @@
       "PaperNumber": "14154-408",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -702,7 +600,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -744,9 +642,9 @@
       "PaperNumber": "14149-429",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -770,7 +668,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -812,9 +710,9 @@
       "PaperNumber": "14148-155",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -838,7 +736,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1724,13 +1622,115 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "10 July 2026 • 09:20 - 09:40 CEST | Room B4-M3",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Stefan Kraus, Sylvestre Lacour, Mathias Nowak, Michael Ireland, Frantz Martinache",
+      "PaperNumber": "14148-55",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 09:20 - 09:40 CEST | Room B4-M5",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "cf9503ed-91d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "cf9503ed-91d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "VLTI down to 1.0 micron: science drivers for a high-contrast, high-sensitivity 3rd-generation facility instrument",
+      "Description": null,
+      "Abstract": "We present the science case for a 3rd-generation VLTI instrument operating in YJH bands. Extending the VLTI to shorter wavelengths opens a new window with diagnostics complementary to current instruments, giving access to molecular tracers of exoplanet atmospheres and lines probing accretion, outflows, and circumplanetary environments. Combined with improved vibration control, shorter wavelengths boost astrometric precision for detecting exomoons, searching for intermediate-mass black holes, and enabling resolved microlensing to probe the neutron-star/black-hole mass gap. High-contrast dual-field capability enables spectroscopy of giant and rocky planets from 0.03 to 1″, including GAIA DR4 and RV targets; polarimetry constrains clouds, hazes, surfaces, and stellar spin–orbit alignment. In the extragalactic domain, resolving AGN broad-line regions enables dynamical masses and reverberation mapping, in synergy with the ELT to help address the Hubble tension.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/VLTI-down-to-10-micron--science-drivers-for-a/14148-55",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 09:20 - 09:40 CEST | Room B4-M5",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Sheperd Doeleman, Dominic Pesce, Lindy Blackburn, Garret Fitzpatrick, Jose Soto, Ranjani Srinivasan, Nimesh Patel",
+      "PaperNumber": "14153-59",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 09:25 - 09:45 CEST | Room B2-M8",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "83642ace-c1d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "83642ace-c1d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The next-generation Event Horizon Telescope",
+      "Description": null,
+      "Abstract": "The next-generation Event Horizon Telescope (ngEHT) is a project to transform the Event Horizon Telescope, allowing it to capture real-time and time-lapse movies of supermassive black holes on event horizon scales. These movies will resolve complex structure and dynamics in the immediate vicinity of the event horizon, bringing into focus not just the persistent strong-field gravity features predicted by General Relativity (GR), but details of active accretion and relativistic jet-launching that drive large scale structure in the Universe. This effort builds upon recent results by the Event Horizon Telescope (EHT): the first image of M87’s supermassive black hole and its magnetic field structure, as well as resolved images of Sgr A*, the central black hole at the heart of the Milky Way.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-next-generation-Event-Horizon-Telescope/14153-59",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 09:25 - 09:45 CEST | Room B2-M8",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Jonah T. Hansen, Emilie Bouzerand, Adrian M. Glauser, Bastien Rouzé, Noah Stocker, Walter Bachmann, Marcel Baer, Cindy Bellanger, Thomas Birbacher, Germain Garreau, Julio Pino Jiménez, Jérôme Primot, Eckhart Spalding, Sascha P. Quanz",
+      "PaperNumber": "14154-97",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 09:30 - 09:45 CEST | Room B2-M4",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "ef18f5aa-22d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "ef18f5aa-22d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Cryogenic characterisation for the nulling interferometry cryogenic experiment (NICE)",
+      "Description": null,
+      "Abstract": "The Nulling Interferometry Cryogenic Experiment (NICE) is an experimental testbed for the beam combiner of the Large Interferometer For Exoplanets (LIFE) space mission. Until now, progress on NICE has been confined to an ambient bench, where we have recorded progress in deep (<1e-5) nulls at wavelengths between 4 and 5µm at 300K. However, the ultimate goal and requirement of NICE is to repeat these measurements at the sensitivity levels expected for a planetary system, requiring deep cryogenic conditions at 15K.    In this presentation, we will describe the \"Ice Cube\" cryostat, a small version of the future NICE cryostat that is used for component and subsystem level cryogenic testing. This is interfaced with a measurement setup using a segmented aperture interferometer and a wavefront sensor. We will also describe the testing campaign for understanding the material and mounting challenges that will be faced when translating the warm bench to cryogenic operations.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Cryogenic-characterisation-for-the-nulling-interferometry-cryogenic-experiment-NICE/14154-97",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 09:30 - 09:45 CEST | Room B2-M4",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2925,
+  "Count": 2922,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 696011
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696015
 }

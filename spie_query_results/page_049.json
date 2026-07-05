@@ -26,110 +26,8 @@
   },
   "Items": [
     {
-      "Authors": "Miska Le Louarn, Jose Acosta-Pulido, Julio A. Castro-Almazán, Donaji Esparza-Arredondo, Maria Begoña García-Lorenzo, Johann Kolb, Angel C. Otarola, Jerome Paufique, Camila de Sa Freitas",
-      "PaperNumber": "14150-86",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 16:20 - 16:35 CEST | Room B3-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "be410815-33b6-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "be410815-33b6-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Comparing turbulence outer scale measurements on-sky between LGS-WFS data and MUSE image-cubes at the VLT",
-      "Description": null,
-      "Abstract": "The Outer scale of turbulence (L0) will play a significant role in the performance of Adaptive Optics (AO) instruments at the ELT, especially those based on laser guide stars (LGS), through the distribution of turbulent power in the low order modes. It is therefore important to understand this parameter. In this contribution, we present results from a measurement campaign at the Very Large Telescope (VLT) at Paranal Observatory to measure simultaneously the outer scale through two independent methods. The first method is based on LGS wavefront sensor measurements, using the AO facility (AOF). The second method relies on the variation of image quality (IQ) with wavelength at the focal plane of the MUSE Integral Field Spectrograph (IFS) in its Wide Field Mode (MUSE-WFM). We compare the L0 values obtained through the two methods, using different AO modes. With weak Tip-Tilt (TT) correction we find a good correlation between the two methods, giving confidence in their accuracy.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Comparing-turbulence-outer-scale-measurements-on-sky-between-LGS-WFS/14150-86",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 16:20 - 16:35 CEST | Room B3-M2",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Kenichi Karatsu, Shahab Dabironezare, Louis Marting, Leon Olde Scholtenhuis, Daniela Perez Capelo, David Thoen, Alejandro Pascual Laguna, Sten Vollebregt, Akira Endo, Jochem Baselmans",
-      "PaperNumber": "14156-48",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 16:20 - 16:40 CEST | Room B5-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "c114f738-61cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "c114f738-61cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Development of broadband spectro-polarimetric arrays for next-generation CMB observations",
-      "Description": null,
-      "Abstract": "A new spectro-polarimeter array has been developed for next-generation Cosmic Microwave Background (CMB) instruments. The design features 14 spatial pixels, each consisting of a polarization-separating broadband leaky-wave lens-antenna, with each single-polarization output connected to a high-sensitivity, low-resolution 22-channel mm/sub-mm on-chip filterbank operating in a frequency range from 135–270 GHz. The device uses kinetic inductance detectors (KIDs) to detect the power in each spectral band. The array with ~600 KIDs was fabricated and measured, demonstrating a cross-polarization level lower than –15 dB and an averaged filter peak efficiency of 67%. The design is compact and scalable towards larger arrays. The results show promise for achieving a large-format spectro-polarimetric focal plane array for future CMB instruments.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-broadband-spectro-polarimetric-arrays-for-next-generation-CMB/14156-48",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 16:20 - 16:40 CEST | Room B5-M3",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Felix A. Dannert, Philipp A. Huber, Romain Laugier, Thomas Birbacher, Jonah T. Hansen, Adrian M. Glauser, Quanz P. Sascha",
-      "PaperNumber": "14148-51",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 16:20 - 16:40 CEST | Room B4-M5",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "0b6a061d-34d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "0b6a061d-34d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The impact of instrumental perturbations on exoplanet yields for the LIFE Space Mission",
-      "Description": null,
-      "Abstract": "Exoplanet yield estimates used to assess the scientific return of future high-contrast imaging missions systematically underestimate mission risks, because they do not explicitly include instrumental systematics. For the first time, and in the context of the Large Interferometer For Exoplanets (LIFE), we quantify how instrument perturbations propagate into the yield estimates, which allows us to put robust requirements on instrument stability. Beyond nulling interferometry, this framework could offer a pathway towards addressing similar open questions for future single aperture telescopes, where stability is known to play an equally important role.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-impact-of-instrumental-perturbations-on-exoplanet-yields-for-the/14148-51",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 16:20 - 16:40 CEST | Room B4-M5",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Guido Cupani, Valentina D'Odorico, Stefano Cristiani, Simona Di Stefano, Christian Piscitelli, Andrea Trost",
-      "PaperNumber": "14155-74",
+      "Authors": "Nuwanthika Fernando, Brent Miszalski, Nuria Lorente, Anthony Horton",
+      "PaperNumber": "14155-73",
       "DateTimeLocationDataList": [
         {
           "date_time_location": "9 July 2026 • 16:30 - 16:50 CEST | Room B4-M7",
@@ -143,56 +41,22 @@
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
       "MatchingFrag": "",
-      "UniqueId": "613d70ee-caca-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "613d70ee-caca-f011-a9ae-00505691c5e1",
+      "UniqueId": "fb243686-9bd0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "fb243686-9bd0-f011-a9ad-005056914f1c",
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Astrocook v2: LLM-Ready Foundation for Autonomous Analysis of Quasar Spectra",
+      "Title": "MAVIS- Final design of the data reduction pipeline",
       "Description": null,
-      "Abstract": "Astrocook v2 represents a major architectural redesign of the well-known quasar analysis tool. It is built on an immutable data core, a decoupled API, and a new PySide6 GUI. This system guarantees stability, high performance, and readiness for external integration.    We highlight the successful implementation of a robust SciPy-based Voigt Fitter and a powerful Parameter Constraints workflow. This system enables full parameter linking (Value/Thermal modes) and dynamic evaluation. The core strength is reproducible, controlled analysis, supported by the SystemListV2 as the Single Source of Truth for component grouping and the interactive System Inspector for efficient component manipulation.    This stable foundation, with its immutable API and fully constrained physical model, is engineered for integration with Large Language Models (LLMs). Astrocook will leverage AI reasoning for guiding complex analysis sequences, advancing toward autonomous pipelines for future spectroscopic surveys.",
+      "Abstract": "MAVIS is the MCAO Assisted Visible Imager and Spectrograph, the first MCAO-facility instrument planned for the VLT which will provide a near diffraction-limited view of the visible wavelength. We present the final design for the Data Reduction Pipeline of the instrument, and describe the prototyping for the design of calibration methods and dataflows. For the spectrograph calibrations, the geometry of the slices is determined using a series of moving pinhole mask exposures. Prototyping the geometry recipe resulted in the change to the pinhole mask design. This also confirmed the need for etalons for the wavelength calibration, to achieve required accuracies in the low resolution blue mode. Early prototyping of the DRS has been beneficial to the design of the entire instrument. The critical algorithms used ESO’s PyCPL libraries, the GNU Scientific Library, and data workflows at each stage were drafted using the new EDPS (ESO Data Processing System) libraries.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Astrocook-v2--LLM-Ready-Foundation-for-Autonomous-Analysis-of/14155-74",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/MAVIS--Final-design-of-the-data-reduction-pipeline/14155-73",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 16:30 - 16:50 CEST | Room B4-M7",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Leanne P. Guy, Connor Yablonski, Aaron Meisner, Guillem Megias Homar, Merlin Fisher-Levine, Eman E. Ali, Tiger J. Hu, Christopher W. Stubbs",
-      "PaperNumber": "14151-51",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 16:30 - 16:50 CEST | Room B2-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "62177a0c-11cb-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "62177a0c-11cb-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Development of a Retrieval-Augmented Generation Chatbot for Enhanced Information Discovery at Rubin Observatory",
-      "Description": null,
-      "Abstract": "The Vera C. Rubin Observatory’s LSST will produce petabytes of data supported by a large, heterogeneous set of technical documents, operational guides, and scientific notes. Because this material is distributed across numerous platforms and formats, including internal systems, users and general-purpose language models often find it difficult to locate reliable Rubin-specific information. To address this, we developed a Retrieval-Augmented Generation (RAG) virtual assistant that provides context-aware, factual access to Rubin’s documentation ecosystem. The system aggregates content from multiple sources and performs semantic search through a conversational interface, using Weaviate for embeddings, LangChain for query orchestration, and an OpenAI GPT model as the LLM backend. Grounding responses in domain-specific knowledge reduces hallucinations, improves accuracy, and demonstrates the potential of RAG to streamline workflows and support effective use of LSST data products.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-a-Retrieval-Augmented-Generation-Chatbot-for-Enhanced-Information/14151-51",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 16:30 - 16:50 CEST | Room B2-M2",
       "ErrorMessage": null
     },
     {
@@ -434,6 +298,40 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Guido Cupani, Valentina D'Odorico, Stefano Cristiani, Simona Di Stefano, Christian Piscitelli, Andrea Trost",
+      "PaperNumber": "14155-74",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 16:50 - 17:10 CEST | Room B4-M7",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "613d70ee-caca-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "613d70ee-caca-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Astrocook v2: LLM-Ready Foundation for Autonomous Analysis of Quasar Spectra",
+      "Description": null,
+      "Abstract": "Astrocook v2 represents a major architectural redesign of the well-known quasar analysis tool. It is built on an immutable data core, a decoupled API, and a new PySide6 GUI. This system guarantees stability, high performance, and readiness for external integration.    We highlight the successful implementation of a robust SciPy-based Voigt Fitter and a powerful Parameter Constraints workflow. This system enables full parameter linking (Value/Thermal modes) and dynamic evaluation. The core strength is reproducible, controlled analysis, supported by the SystemListV2 as the Single Source of Truth for component grouping and the interactive System Inspector for efficient component manipulation.    This stable foundation, with its immutable API and fully constrained physical model, is engineered for integration with Large Language Models (LLMs). Astrocook will leverage AI reasoning for guiding complex analysis sequences, advancing toward autonomous pipelines for future spectroscopic surveys.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Astrocook-v2--LLM-Ready-Foundation-for-Autonomous-Analysis-of/14155-74",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 16:50 - 17:10 CEST | Room B4-M7",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Laurane Fréour, Anna Puglisi, Amelia Bayo, Fatemeh Zahra Majidi, Sabine Thater, Francesca Primas, Laurence Tresse, Umberto Rescigno, Maria Cristina Fortuna, Stéphanie Escoffier, Letizia P. Cassarà, Roland Bacon, Vincenzo Mainieri, Sofia Randich",
       "PaperNumber": "14151-52",
       "DateTimeLocationDataList": [
@@ -499,40 +397,6 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 16:50 - 17:10 CEST | Auditorium 15",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Mrunmayi S. Deshpande, Nuria P. F. Lorente, Tony Farrell, Satyam Mishra",
-      "PaperNumber": "14155-154",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 16:50 - 17:10 CEST | Room B4-M7",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "48fa6e4e-10d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "48fa6e4e-10d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Modernising Observatory Control: Integrating Legacy DRAMA with Next-Generation Instrumentation",
-      "Description": null,
-      "Abstract": "The DRAMA (Distributed Real-Time AAO Monitor for Astronomy) framework was first developed at Anglo-Australian Observatory (AAO) in the early 1990s, Designed in C, C++, DRAMA provides a distributed, message-based control architecture. This robust design powers some of the most important astronomical instruments assembled at AAO — from the robot fibre positioner 2dF, spectrographs such as AAOmega, HERMES. DRAMA’s reliability and modular, task-oriented, real-time behaviour have also attracted international adoption. As new instruments are being developed at the AAO we are updating the DRAMA environment to meet modern software engineering and deployment practices. Recent efforts include containerising DRAMA using Docker and creating a modern Python interface. Currently, DRAMA continues to play an active role: it is used in the newly built KSPEC spectrograph for the KMTNet telescope, and forms the control architecture for the high-resolution spectrograph for the Devasthal Optical Telescope",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Modernising-Observatory-Control--Integrating-Legacy-DRAMA-with-Next-Generation/14155-154",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 16:50 - 17:10 CEST | Room B4-M7",
       "ErrorMessage": null
     },
     {
@@ -672,8 +536,8 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Camilo E. Jiménez Ángel, Ditte Slumstrup, Antonio L. Cabrera Lavers, Daniel Reverte Payá, José A. Rodríguez Losada, Víctor Rodríguez Herreros, Juan J. Fernández-Valdivia, Alfonso G. Cardell Bilbao",
-      "PaperNumber": "14155-76",
+      "Authors": "Mrunmayi S. Deshpande, Nuria P. F. Lorente, Tony Farrell, Satyam Mishra",
+      "PaperNumber": "14155-154",
       "DateTimeLocationDataList": [
         {
           "date_time_location": "9 July 2026 • 17:10 - 17:30 CEST | Room B4-M7",
@@ -687,18 +551,18 @@
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
       "MatchingFrag": "",
-      "UniqueId": "7f163fff-9fcf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "7f163fff-9fcf-f011-a9ad-005056914f1c",
+      "UniqueId": "48fa6e4e-10d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "48fa6e4e-10d0-f011-a9ae-00505691c5e1",
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Fully Autonomous Data Processing for the GTC: The DRAGO System",
+      "Title": "Modernising Observatory Control: Integrating Legacy DRAMA with Next-Generation Instrumentation",
       "Description": null,
-      "Abstract": "The DRAGO system is a fully automated platform that executes the Data Reduction Process (DRP) for all GTC instruments without human intervention. It transforms raw data into standardized scientific products through automated orchestration, intelligent workflow management, and robust reprocessing. DRAGO is DRP-agnostic, integrating pipelines in any format or programming language. Its core functions include automatic observing block detection, calibration management, autonomous DRP configuration, and standardized output generation. These operate within a scalable architecture featuring data management, process scheduling, automatic quality control, and a user interface with API access. DRAGO enables fast, reliable, and reproducible reductions, representing a major step toward fully autonomous data handling in modern observatories.",
+      "Abstract": "The DRAMA (Distributed Real-Time AAO Monitor for Astronomy) framework was first developed at Anglo-Australian Observatory (AAO) in the early 1990s, Designed in C, C++, DRAMA provides a distributed, message-based control architecture. This robust design powers some of the most important astronomical instruments assembled at AAO — from the robot fibre positioner 2dF, spectrographs such as AAOmega, HERMES. DRAMA’s reliability and modular, task-oriented, real-time behaviour have also attracted international adoption. As new instruments are being developed at the AAO we are updating the DRAMA environment to meet modern software engineering and deployment practices. Recent efforts include containerising DRAMA using Docker and creating a modern Python interface. Currently, DRAMA continues to play an active role: it is used in the newly built KSPEC spectrograph for the KMTNet telescope, and forms the control architecture for the high-resolution spectrograph for the Devasthal Optical Telescope",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Fully-Autonomous-Data-Processing-for-the-GTC--The-DRAGO/14155-76",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Modernising-Observatory-Control--Integrating-Legacy-DRAMA-with-Next-Generation/14155-154",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -846,9 +710,9 @@
       "PaperNumber": "14149-439",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -872,7 +736,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -880,9 +744,9 @@
       "PaperNumber": "14153-113",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -906,7 +770,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -914,9 +778,9 @@
       "PaperNumber": "14146-326",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -940,7 +804,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -948,9 +812,9 @@
       "PaperNumber": "14148-164",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -974,7 +838,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1016,9 +880,9 @@
       "PaperNumber": "14145-306",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1042,7 +906,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1050,9 +914,9 @@
       "PaperNumber": "14145-298",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1076,7 +940,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1118,9 +982,9 @@
       "PaperNumber": "14153-114",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1144,7 +1008,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1186,9 +1050,9 @@
       "PaperNumber": "14156-170",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1212,7 +1076,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1254,9 +1118,9 @@
       "PaperNumber": "14149-444",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1280,7 +1144,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1288,9 +1152,9 @@
       "PaperNumber": "14149-432",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1314,7 +1178,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1322,9 +1186,9 @@
       "PaperNumber": "14146-357",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1348,7 +1212,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1356,9 +1220,9 @@
       "PaperNumber": "14148-142",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1382,7 +1246,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1390,9 +1254,9 @@
       "PaperNumber": "14149-415",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1416,7 +1280,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1458,9 +1322,9 @@
       "PaperNumber": "14154-383",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1484,7 +1348,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1492,9 +1356,9 @@
       "PaperNumber": "14154-389",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1518,7 +1382,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1526,9 +1390,9 @@
       "PaperNumber": "14155-212",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1552,7 +1416,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1560,9 +1424,9 @@
       "PaperNumber": "14155-230",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1586,7 +1450,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1594,9 +1458,9 @@
       "PaperNumber": "14155-225",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1620,7 +1484,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1628,9 +1492,9 @@
       "PaperNumber": "14145-296",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1654,7 +1518,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1662,9 +1526,9 @@
       "PaperNumber": "14150-346",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1688,7 +1552,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1696,9 +1560,9 @@
       "PaperNumber": "14147-206",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1722,15 +1586,151 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Noemi Mezzanzanica, Ludovico Bizzarri, Giulia Rancati Cattaneo, Andrea Limonta, Mario Zannoni, Giuseppe Addamo, Mauro Lumia, Oscar A. Peverini",
+      "PaperNumber": "14156-203",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "99b87e1d-e5fb-f011-a9ae-005056914f1c---crmrecord",
+      "GUID": "99b87e1d-e5fb-f011-a9ae-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Additive manufacturing ultralight profiled feed horns for space-based sky observations",
+      "Description": null,
+      "Abstract": "Profiled horn antennas for spaceborne astronomical observations have been prototyped in the 80-170 GHz band using Laser Powder Bed Fusion on Metal (LPBF/M) technology, enabling the fabrication of lightweight, monolithic metallic structures with highly controlled geometries. The LPBF/M process allows the realization of optimized horn profiles capable of delivering low return loss, high beam symmetry, and stable broadband performance essential for cosmic microwave background and sub-millimeter astrophysics missions. The flexibility of additive manufacturing also supports rapid design iteration and scalable array production, making LPBF/M a promising pathway for next-generation high-frequency focal-plane architectures in space astronomy. Towards the assessment of a high TRL, mechanical tests and cryogenic thermal cycling are foreseen.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Additive-manufacturing-ultralight-profiled-feed-horns-for-space-based-sky/14156-203",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Claire Tonsa, Enrico Virgilli, Adriano De Rosa, Carmelo Gargano, Natalia Auricchio, Giovanni De Cesare, Claudio Ferrari, Elena Ferrari, Giuseppe Baldazzi, Riccardo Campana, Ezio Caroli, Marta Civitani, Raffaella Landi, Giuseppe Levi, John B. Stephen, John Rankin, Alfonso Pisapia",
+      "PaperNumber": "14146-337",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "5e7b9537-34d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "5e7b9537-34d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Adjustable gamma-ray optics (AGO): active alignment for high-precision Laue lenses",
+      "Description": null,
+      "Abstract": "Hard X-ray and gamma-ray astronomy above ~70 keV needs focusing optics beyond current capabilities. Laue lenses are the most promising solution, but their development is limited by the challenge of aligning thousands of crystals with arcsecond precision. Adhesive-based mountings introduce angular deviations that exceed requirements. We present “Adjustable Gamma-ray Optics” (AGO), a concept enabling arcsecond alignment and active tuning of each Laue-lens crystal via monolithic flexures actuated by miniature piezo stacks. Each Si(111) crystal is mounted on a tunable lamella, allowing sub-arcsecond Bragg-angle control with minimal area loss. This architecture improves alignment, reduces thermal and mechanical sensitivity, and enables in-flight tuning. A 9-crystal demonstrator with bent crystals, optimized flexures, low-absorption routing, and first alignment strategies validates the approach, paving the way for tunable, high-precision lenses for future missions.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Adjustable-gamma-ray-optics-AGO--active-alignment-for-high/14146-337",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Wim Pessemier, Gert Raskin, Jacob Pember, Jesus Pérez Padilla, Pieter Vuylsteke, Wim De Meester, Maddalena Reggiani, Christian Schwab, Bart Vandenbussche, Hans Van Winckel",
+      "PaperNumber": "14155-208",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "45a66c45-9ad0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "45a66c45-9ad0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Advanced PLC-based control at the heart of the MARVEL telescope array",
+      "Description": null,
+      "Abstract": "MARVEL is a high-resolution spectrograph fed by four telescopes, currently being commissioned at the Mercator Observatory on La Palma. At the core of the facility's control architecture is a powerful TwinCAT PLC, which not only manages local devices but also coordinates large parts of the entire facility. We highlight the use of industrial vision for fast tip-tilt guiding, the integration of ASCOM/Alpaca devices, and the implementation of a flexible task sequencer for instrument configuration, all on the PLC platform. The system makes extensive use of a web-based TwinCAT HMI for visualizing these features and for rendering basic 3D views of parts of the facility. Additionally, we describe how an improved model-driven code generation framework has enabled us to efficiently deploy fundamental code changes across the system, to migrate decade-old Mercator code to the most recent PLC platforms, and to drastically reduce HMI CPU load by introducing a Model-View-Controller architecture.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Advanced-PLC-based-control-at-the-heart-of-the-MARVEL/14155-208",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Matteo Canzari, Fiore De Luise, Mauro Dolci, Gaetano Valentini, Andrea Baldassarre, Simone Benedetti, Filippo Boschi, Amico Di Cianno, Nicola Napoleone, Massimo Quintini, Angelo Valentini",
+      "PaperNumber": "14155-200",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "00d6ea70-a3d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "00d6ea70-a3d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Advancing operations at the Campo Imperatore observing station: integrated modernization of telescopes and infrastructure",
+      "Description": null,
+      "Abstract": "The Campo Imperatore observing station on the Gran Sasso plateau hosts Italy’s highest professional VIS/NIR facility. Two 1-m telescopes, VIT and WOT, are undergoing a coordinated modernization of hardware, control systems, and software infrastructure. VIT is being upgraded with the new CI2RCE InGaAs NIR imager and enhanced control capabilities, while WOT receives updated electronics. Additional developments include site-wide environmental monitoring, extended control hardware, and an integrated software layer for unified operations. This work presents the current configuration of the station and the ongoing refurbishment efforts, aimed at improving reliability, availability, and full remote operability, and outlines the planned return of VIT to scientific operations with its upgraded instrumentation.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Advancing-operations-at-the-Campo-Imperatore-observing-station--integrated/14155-200",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2925,
+  "Count": 2922,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 696011
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696015
 }

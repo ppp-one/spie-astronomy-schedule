@@ -1731,31 +1731,31 @@
       "Values": [
         {
           "Name": "Sunday, 05 July",
-          "Count": 569,
+          "Count": 568,
           "QueryValue": "20260705",
           "Selected": false
         },
         {
           "Name": "Monday, 06 July",
-          "Count": 534,
+          "Count": 533,
           "QueryValue": "20260706",
           "Selected": false
         },
         {
           "Name": "Tuesday, 07 July",
-          "Count": 647,
+          "Count": 646,
           "QueryValue": "20260707",
           "Selected": false
         },
         {
           "Name": "Wednesday, 08 July",
-          "Count": 525,
+          "Count": 524,
           "QueryValue": "20260708",
           "Selected": false
         },
         {
           "Name": "Thursday, 09 July",
-          "Count": 500,
+          "Count": 501,
           "QueryValue": "20260709",
           "Selected": false
         },
@@ -1778,7 +1778,7 @@
       "Values": [
         {
           "Name": "Poster",
-          "Count": 1906,
+          "Count": 1903,
           "QueryValue": "Poster",
           "Selected": false
         },
@@ -1802,7 +1802,7 @@
       "Values": [
         {
           "Name": "Astrophotonics",
-          "Count": 821,
+          "Count": 820,
           "QueryValue": "Astrophotonics",
           "Selected": false
         },
@@ -1814,7 +1814,7 @@
         },
         {
           "Name": "Sustainability",
-          "Count": 63,
+          "Count": 64,
           "QueryValue": "Sustainability",
           "Selected": false
         }
@@ -1826,7 +1826,7 @@
       "Values": [
         {
           "Name": "Telescopes and Systems",
-          "Count": 2048,
+          "Count": 2045,
           "QueryValue": "Telescopes_and_Systems",
           "Selected": false
         },
@@ -1841,10 +1841,10 @@
       "QueryParameter": "track"
     }
   ],
-  "Count": 2925,
+  "Count": 2922,
   "Success": true,
   "Error": null,
   "ContainsFacets": true,
-  "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 696011
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696015
 }

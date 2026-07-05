@@ -26,47 +26,13 @@
   },
   "Items": [
     {
-      "Authors": "Malak Galal, Maxime Rombach, Jean-Paul Kneib",
-      "PaperNumber": "14154-134",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "160ae7ef-e8c6-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "160ae7ef-e8c6-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Ultra-precise multi-fiber optical connectors for astronomy",
-      "Description": null,
-      "Abstract": "The increasing sensitivity and precision of modern astronomical instruments demand optical fiber connections with high stability in cross-mating and exceptionally low insertion loss reaching 1% (0.05 dB). Conventional multi-fiber connectors, though suitable for telecommunications, introduce excess attenuation, Fresnel reflections, and alignment instabilities that degrade throughput and calibration accuracy in astronomy. This work presents the design of ultra-precise optical multi-fiber connectors developed for astronomical use. Fabricated using femtosecond-laser 3D printing, they achieve sub-micron ferrule tolerances. Preliminary metrology shows excellent hole alignment and roundness indicating strong potential for achieving high fiber-to-fiber coupling efficiency. Initial throughput tests for three simultaneously connected fibers show losses as low as 0.95% (0.04 dB). Further throughput and FRD characterization will assess stability and repeatability of such connectors.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Ultra-precise-multi-fiber-optical-connectors-for-astronomy/14154-134",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Ueejeong Jeong, Gregory N. Mace, Hyun-Jeong Kim, Sanghyuk Kim, Kyle F. Kaplan, Erica Sawczynec, Hye-In Lee, Darrin Crook, Coyne Gibson, Woojin Park, Heeyoung Oh, Chan Park, Jae-Joon Lee, Markus Loose, Richard Blank, Daniel T. Jaffe",
       "PaperNumber": "14149-100",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -90,7 +56,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -98,9 +64,9 @@
       "PaperNumber": "14147-104",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -124,7 +90,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -200,9 +166,9 @@
       "PaperNumber": "14154-280",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -226,7 +192,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -234,9 +200,9 @@
       "PaperNumber": "14154-200",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -260,7 +226,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -336,9 +302,9 @@
       "PaperNumber": "14154-187",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -362,7 +328,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -370,9 +336,9 @@
       "PaperNumber": "14146-108",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -396,7 +362,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -404,9 +370,9 @@
       "PaperNumber": "14154-318",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -430,11 +396,11 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
-      "Authors": "Simone Di Filippo, Gabriele Umbriaco, Jacopo Farinato, Demetrio Magrin, Mirko Colapietro, Salvatore Savarese, Sergio D'Orsi, Pietro Schipani, Giulio Capasso, Stefano Covino, Laurent Marty, Francesco Perrotta",
+      "Authors": "Simone Di Filippo, Gabriele Umbriaco, Jacopo Farinato, Demetrio Magrin, Mirko Colapietro, Salvatore Savarese, Pietro Schipani, Sergio D'Orsi, Laurent Marty, Giulio Capasso, Francesco Perrotta, Stefano Covino, Silvio Di Rosa",
       "PaperNumber": "14149-167",
       "DateTimeLocationDataList": [
         {
@@ -456,11 +422,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "VSTPOL: the commissioning plan",
+      "Title": "VSTPOL: The Commissioning Plan",
       "Description": null,
       "Abstract": "VSTPOL is a polarimetric module upgrading the 2.6-m VLT Survey Telescope (VST) for wide-field optical imaging polarimetry, making it the first large survey telescope capable of linear polarimetry. It supports key science, including optical follow-up of sources from the co-located Cherenkov Telescope Array (CTA). VSTPOL replaces the existing opto-mechanical assembly between the primary mirror cell and OmegaCAM with a redesigned unit, combining two plano-spherical lenses and a linear polarizer, operated via synchronized linear and rotational stages for filter insertion, polarization-angle setting, and continuous field-rotation compensation. This paper presents the Assembly, Integration, and Verification plan for installation and commissioning at Paranal, covering removal of the old system, verification, optical alignment, and final re-installation. Completion is expected by the end of 2026.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/VSTPOL-the-commissioning-plan/14149-167",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/VSTPOL-The-Commissioning-Plan/14149-167",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -506,9 +472,9 @@
       "PaperNumber": "14149-123",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -532,7 +498,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -540,9 +506,9 @@
       "PaperNumber": "14154-268",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -566,7 +532,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -574,9 +540,9 @@
       "PaperNumber": "14147-100",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -600,7 +566,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -608,9 +574,9 @@
       "PaperNumber": "14154-151",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -634,7 +600,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -642,9 +608,9 @@
       "PaperNumber": "14147-109",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 5 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -668,7 +634,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "6 July 2026 • 11:10 - 11:30 CEST | Room B5-M1",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Vishambhar Nath Pandey, Bram Veenboer, Wilco Baan Hofman, Julian Kootstra, Jason Hessels, Ziggy Pleunis, Steven van der Vlugt, Jan David Mol",
+      "PaperNumber": "14153-3",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 11:10 - 11:30 CEST | Room B2-M8",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "c1728e0f-d9ca-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "c1728e0f-d9ca-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Scalable HPC cluster design for radio telescope front end and astronomical data processing",
+      "Description": null,
+      "Abstract": "Modern radio telescopes and other data-intensive instruments require scalable, energy-efficient HPC infrastructures to support real-time signal processing and data intensive pipelines. We present a design approach for next-generation HPC clusters applicable from real-time front-ends to large-scale offline analytics. Drawing on experience from production systems - including GPU correlator/beamformer subsystems for LOFAR, the EuroFlash cluster with its integrated GPU beamformer, high-throughput BeeGFS-based storage architecture, and CPU-based production system - we outline key design patterns and lessons learned. We discuss architectural choices in heterogeneous computing, focusing on compute and I/O challenges such as CPU/accelerator balance, PCIe topology, and network design, along with low-latency high-throughput multi-petabyte storage systems. We address sustainability via performance, efficiency, and total cost of ownership showing how strategic choices lead to efficient solutions.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Scalable-HPC-cluster-design-for-radio-telescope-front-end-and/14153-3",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 11:10 - 11:30 CEST | Room B2-M8",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2925,
+  "Count": 2922,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 696011
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696015
 }

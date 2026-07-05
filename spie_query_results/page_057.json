@@ -26,108 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Stefan Kraus, Sylvestre Lacour, Mathias Nowak, Michael Ireland, Frantz Martinache",
-      "PaperNumber": "14148-55",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 09:20 - 09:40 CEST | Room B4-M5",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "cf9503ed-91d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "cf9503ed-91d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "VLTI down to 1.0 micron: science drivers for a high-contrast, high-sensitivity 3rd-generation facility instrument",
-      "Description": null,
-      "Abstract": "We present the science case for a 3rd-generation VLTI instrument operating in YJH bands. Extending the VLTI to shorter wavelengths opens a new window with diagnostics complementary to current instruments, giving access to molecular tracers of exoplanet atmospheres and lines probing accretion, outflows, and circumplanetary environments. Combined with improved vibration control, shorter wavelengths boost astrometric precision for detecting exomoons, searching for intermediate-mass black holes, and enabling resolved microlensing to probe the neutron-star/black-hole mass gap. High-contrast dual-field capability enables spectroscopy of giant and rocky planets from 0.03 to 1″, including GAIA DR4 and RV targets; polarimetry constrains clouds, hazes, surfaces, and stellar spin–orbit alignment. In the extragalactic domain, resolving AGN broad-line regions enables dynamical masses and reverberation mapping, in synergy with the ELT to help address the Hubble tension.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/VLTI-down-to-10-micron--science-drivers-for-a/14148-55",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 09:20 - 09:40 CEST | Room B4-M5",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Sheperd Doeleman, Dominic Pesce, Lindy Blackburn, Garret Fitzpatrick, Jose Soto, Ranjani Srinivasan, Nimesh Patel",
-      "PaperNumber": "14153-59",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 09:25 - 09:45 CEST | Room B2-M8",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "83642ace-c1d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "83642ace-c1d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The next-generation Event Horizon Telescope",
-      "Description": null,
-      "Abstract": "The next-generation Event Horizon Telescope (ngEHT) is a project to transform the Event Horizon Telescope, allowing it to capture real-time and time-lapse movies of supermassive black holes on event horizon scales. These movies will resolve complex structure and dynamics in the immediate vicinity of the event horizon, bringing into focus not just the persistent strong-field gravity features predicted by General Relativity (GR), but details of active accretion and relativistic jet-launching that drive large scale structure in the Universe. This effort builds upon recent results by the Event Horizon Telescope (EHT): the first image of M87’s supermassive black hole and its magnetic field structure, as well as resolved images of Sgr A*, the central black hole at the heart of the Milky Way.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-next-generation-Event-Horizon-Telescope/14153-59",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 09:25 - 09:45 CEST | Room B2-M8",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Jonah T. Hansen, Emilie Bouzerand, Adrian M. Glauser, Bastien Rouzé, Noah Stocker, Walter Bachmann, Marcel Baer, Cindy Bellanger, Thomas Birbacher, Germain Garreau, Julio Pino Jiménez, Jérôme Primot, Eckhart Spalding, Sascha P. Quanz",
-      "PaperNumber": "14154-97",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 09:30 - 09:45 CEST | Room B2-M4",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "ef18f5aa-22d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "ef18f5aa-22d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Cryogenic characterisation for the nulling interferometry cryogenic experiment (NICE)",
-      "Description": null,
-      "Abstract": "The Nulling Interferometry Cryogenic Experiment (NICE) is an experimental testbed for the beam combiner of the Large Interferometer For Exoplanets (LIFE) space mission. Until now, progress on NICE has been confined to an ambient bench, where we have recorded progress in deep (<1e-5) nulls at wavelengths between 4 and 5µm at 300K. However, the ultimate goal and requirement of NICE is to repeat these measurements at the sensitivity levels expected for a planetary system, requiring deep cryogenic conditions at 15K.    In this presentation, we will describe the \"Ice Cube\" cryostat, a small version of the future NICE cryostat that is used for component and subsystem level cryogenic testing. This is interfaced with a measurement setup using a segmented aperture interferometer and a wavefront sensor. We will also describe the testing campaign for understanding the material and mounting challenges that will be faced when translating the warm bench to cryogenic operations.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Cryogenic-characterisation-for-the-nulling-interferometry-cryogenic-experiment-NICE/14154-97",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 09:30 - 09:45 CEST | Room B2-M4",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "John W. Appel, Kyuyoung Bae, Charles L. Bennett, Michael K. Brewer, Sarah Marie Bruno, Carol Yan Yan Chan, Joseph Cleary, Sumit Dahal, Jullianna Denes Couto, Kevin L. Denis, Shannon M. Duff, Joseph R. Eimer, Thomas Essinger-Hileman, Naina Gupta, Johannes Hubmayr, Gregory Jaehnig, John Karakla, Matthew Koc, Jeff van Lanen, Yunyang Li, Michael J. Link, Tammy Lucas, Tobias Marriage, Carolina Morales Perez, Matthew A. Petroff, Caleigh Ryan, Rui Shi, Deniz A. N. Valle, Edward J. Wollack",
       "PaperNumber": "14156-55",
       "DateTimeLocationDataList": [
@@ -560,7 +458,7 @@
       "HTMLTitle": "",
       "Title": "Monolith tiny telescope thermal performance under space extreme environment",
       "Description": null,
-      "Abstract": "Through this work, the thermal performance for the space environment of the Tiny Telescope space assembly (monolithic Tiny Telescope within its housing and camera ) has been studied and demonstrated through analysis and testing. The operation environment ranges from Low Earth Orbit to a plunge in the atmosphere of the Enceladus moon orbiting Saturn.  The product design- and workmanship verification have been corroborated through an exhaustive qualification program in a vacuum and at extreme temperatures, mimicking space conditions where the telescope multispectral performance and image quality has been characterised, studied and tested. This testing is crucial for ensuring that the Tiny Telescope can operate as expected in the harsh space conditions.",
+      "Abstract": "Through this work, the first part of the results of the thermal qualification campaign for the space mission of the Tiny Telescope Assembly (monolithic optical system, 40 mm aperture model, within its housing and camera) are presented. The current paper only covers the initial part of the study for the Low Earth Orbit environment. The complete thermal qualification campaign considers as the mission environments the Low Earth Orbit and a plunge in the atmosphere of the Enceladus moon orbiting Saturn.   The product design- and manufacture verification is being corroborated through an exhaustive qualification program in a vacuum and at extreme temperatures, mimicking space conditions. This testing is crucial for ensuring that the Tiny Telescope can operate as expected in the harsh conditions of space.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Monolith-tiny-telescope-thermal-performance-under-space-extreme-environment/14154-100",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1724,13 +1622,115 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "10 July 2026 • 11:35 - 11:55 CEST | Room B2-M8",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Clémentine Béchet, Éric Thiébaut, Michel Tallon, Isabelle Tallon-Bosc, Bernard Gelly, Richard Douet",
+      "PaperNumber": "14150-97",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 11:40 - 11:55 CEST | Room B3-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "756216df-62d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "756216df-62d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Self-calibration of an adaptive optics system and its application to THEMIS solar telescope",
+      "Description": null,
+      "Abstract": "Since 2021, THEMIS solar telescope (Spain) is equipped with an adaptive optics (AO) system developed by the Airi team at CRAL. This led us to revisit AO calibration in the working conditions of the AO system and with original features. Random probing commands are sent to the deformable mirror in open or close-loop at the AO loop framerate to fit an affine model of the system by weighted least-squares. Equations are analyzed to compare estimates directly from the data to estimates using the difference of two successive data (differential data) which reduces the variance of the nuisance. Differential data methods include widely spread push-pull calibration, although we show that differential data can be used generally without push-pull sequence. In addition, simple updating rules compatible with large AO systems are derived from a generalisation of the Recursive Least Squares. Finally, we review the benefits of this approach from data registered on the Sun with THEMIS.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Self-calibration-of-an-adaptive-optics-system-and-its-application/14150-97",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 11:40 - 11:55 CEST | Room B3-M2",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Melissa Pesce-Rollins, Hamish Reid, Daniel Ryan, Alexander Warmuth, Samuel Krucker, Philippe Laurent, Olivier Limousin, Jake Mitchell, Albert Y. Shih, Nicole Vilmer, Andrea Battaglia, Shane Maloney, Sophie Musset, Hakan Onel, Anna Driutti",
+      "PaperNumber": "14146-103",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 11:40 - 12:00 CEST | Room B4-M1",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "cc5cdb9b-66cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "cc5cdb9b-66cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The Large Area Spectrometer for Solar Accelerated Nuclei (LASSAN): a next-generation solar gamma-ray spectroscopic instrument concept",
+      "Description": null,
+      "Abstract": "We present the Large Area Spectrometer for Solar Accelerated Nuclei (LASSAN), one of two instruments on the Solar Particle Acceleration Radiation and Kinematics (SPARK) mission, currently in Step 2 of ESA’s M-class Mission Opportunity 2025. LASSAN provides spectroscopy from 40 keV to 100 MeV on ≤10 s timescales and offers over 40 times the effective area of previous instruments such as RHESSI, enabled by high-resolution pixelated gadolinium–aluminum–gallium garnet (GAGG) scintillator detectors. Its large effective area and high spectral resolution will, for the first time, enable routine simultaneous detection of bremsstrahlung, nuclear de-excitation lines, and pion-decay emission on sub-10 s timescales. These measurements will constrain electron and ion spectra, composition, timing, and energy content across hundreds of flares, addressing key open questions on solar particle acceleration and the origins of space-weather disturbances",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Large-Area-Spectrometer-for-Solar-Accelerated-Nuclei-LASSAN/14146-103",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 11:40 - 12:00 CEST | Room B4-M1",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Kathleen Harrington, The Simons Observatory Collaboration",
+      "PaperNumber": "14156-60",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 11:40 - 12:00 CEST | Room B5-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "12adab2c-87d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "12adab2c-87d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The Simons Observatory: on-sky noise performance of the small aperture telescopes",
+      "Description": null,
+      "Abstract": "The Simons Observatory (SO) is a next generation cosmic microwave background (CMB) experiment now operating in the Chilean Atacama Desert. The initial SO configuration includes three 0.5-meter Small Aperture Telescopes (SATs) that are targeting observations of the larger angular scales of the CMB polarization anisotropy in a search for the B-mode polarization signature that would indicate the presence of inflation-sourced primordial gravitation waves. Each SAT contains over 12,000 transition edge sensor detectors; the two Mid-frequency SATs, observing in bands around 90 and 150 GHz, completed commissioning in the Fall of 2024 and the ultra-high frequency SAT, observing bands around 220 and 280 GHz, began commissioning in the Fall of 2025. I will discuss the efficiency calibrations and noise performance of deployed instruments as well as compare the achieved performance to forecasting and instrument modeling expectations.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Simons-Observatory--on-sky-noise-performance-of-the/14156-60",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 11:40 - 12:00 CEST | Room B5-M3",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2925,
+  "Count": 2922,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 696011
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696015
 }

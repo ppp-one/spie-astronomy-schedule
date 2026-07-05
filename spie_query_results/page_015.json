@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Arjo Bos, Pim van Wershoven, Bart Speet, Fred Kamphues, Wouter Jonker",
-      "PaperNumber": "14154-36",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 15:45 - 16:00 CEST | Room B2-M4",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "88e458dd-f3d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "88e458dd-f3d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Sensitivity analysis and design of a segmented active M1 for the next-generation telescopes",
-      "Description": null,
-      "Abstract": "In the current generation of Extremely Large Telescopes (ELTs), relatively thick segmented M1 mirror segments are applied. These mirror segments of significant mass have complex mechanical support structures that warp and co-phase each element such that a single mirror surface is achieved. TNO believes that with recent developments, the next-generation telescopes can be made possible by decreasing mass, making the M1 segments active (or even adaptive), and significantly decreasing the cost of the glass mirror segments.   In this paper we present a sensitivity analysis and concept design of a segmented active thin-shell M1 segment for the next-generation telescopes. Multiple applications are foreseen, from retrofitting existing telescopes such as a 15m 'Keck 2.0', application in the Wide-field Spectroscopic Telescope (WST), or even a 60+ meter ELT.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Sensitivity-analysis-and-design-of-a-segmented-active-M1-for/14154-36",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 15:45 - 16:00 CEST | Room B2-M4",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Marianne Cox, Jose M. Filgueira, Chien Peng, Jordi Molgó, Hector Swett, Jorge Barrios, Paulo H. Silva, William Baumgartner, Jenna Snead, Brian Hicks",
       "PaperNumber": "14155-27",
       "DateTimeLocationDataList": [
@@ -1628,9 +1594,9 @@
       "PaperNumber": "14157-78",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 6 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1654,7 +1620,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1662,9 +1628,9 @@
       "PaperNumber": "14145-144",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 6 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1688,7 +1654,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Daiana Ribeiro Bortoletto, José Octavio Armani Paschoal, Cláudia Mendes de Oliveira, Laerte Sodré, Rafael Alves de Souza Ribeiro",
+      "PaperNumber": "14152-72",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 6 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "042289e2-6dd0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "042289e2-6dd0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "A decade overview of the GMT-Brazil project",
+      "Description": null,
+      "Abstract": "The GMT/FAPESP project, initiated in 2014 in Brazil, enabled the formation in 2015 of a highly qualified group, designated GMT Brazil Office, focused on the development of engineering projects in astronomical instrumentation, as well as innovation in management and auxiliary systems. The team, composed of more than 70 people, has a broad scope of work in various areas related to the GMT telescope, such as its participation in the development of GMT instrumentation projects; the generation of content and production of videos for scientific dissemination; the improvement and execution of advanced astronomy courses for high school teachers; the promotion of institutional relations and interaction with companies; and the development and improvement of management and governance systems. This article presents the team's trajectory in the GMT/FAPESP project, the management tools and processes developed, and the main results achieved in their areas of activity over the 10 years of the project.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/A-decade-overview-of-the-GMT-Brazil-project/14152-72",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2925,
+  "Count": 2922,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 696011
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696015
 }

@@ -26,142 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Siddharth Maharana, Chris Dennison-Farrar, Sabyasachi Chattopadhyay, Nikita Rawat, Nidhi Mehandiratta, JC Viljoen, Matthew Bershady, David Buckley, Lisa Crause, Hitesh Gajjar, Stephen Potter",
-      "PaperNumber": "14149-63",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 11:10 - 11:30 CEST | Auditorium 15",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "634c0038-a4ce-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "634c0038-a4ce-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Commissioning and on-sky performance of FiberPol: a fiber-fed spectropolarimetric system for the SAAO 1.9 m telescope",
-      "Description": null,
-      "Abstract": "FiberPol is a compact, low-cost fiber-fed spectropolarimetric front-end for the SpUpNIC long-slit spectrograph on the SAAO 1.9-m telescope, built to make high-accuracy spectropolarimetry more accessible and easily adaptable to other facilities, including 10m SALT. Implemented as a modular add-on within the existing acquisition box, it uses mainly commercial off-the-shelf components. A rotating half-wave plate, Wollaston prism and custom three-fiber system in a reducer–fiber–expander layout perform dual-beam polarimetry and deliver Stokes I, q and u over 380–800 nm. Key challenges included controlling fiber-induced systematics and adhering to stringent volume limitations. Commissioned in early 2025, FiberPol already achieves 0.2–0.3% accuracy in q and u in 5 nm bins with a preliminary pipeline and is on track to reach its 0.1% design goal. Planned upgrades include higher throughput, internal calibration/acquisition optics and IFU or multi-object modes.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Commissioning-and-on-sky-performance-of-FiberPol--a-fiber/14149-63",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 11:10 - 11:30 CEST | Auditorium 15",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Florian Ferreira, Arnaud Sevin, Paul Fontanillas, Jordan Raffard, Bartomeu Pou, Julien Bernard, Nicolas Doucet, Damien Gratadour",
-      "PaperNumber": "14155-64",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 11:10 - 11:30 CEST | Room B4-M7",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "552d86c4-53d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "552d86c4-53d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "COSMIC: a modern scalable framework for real-time adaptive optics control on astronomical instruments",
-      "Description": null,
-      "Abstract": "COSMIC is a comprehensive software framework developed for next-generation adaptive optics real-time control systems on large astronomical telescopes. The architecture comprises: OCTOPUS, an Inter-Process (IPC) abstraction layer built on the CACAO/MILK shared memory infrastructure with CUDA-enabled interfaces; MARLIN, a C++/CUDA task-based RTC engine enabling reconfigurable real-time pipelines; KRAKEN, a Python-based controller providing dynamic pipeline configuration and high-level AO control; TIDES (Telemetry Interface and Data Exchange System), handling real-time telemetry streaming; COMPASS (COMputing Platform for Adaptive optics SystemS), a GPU-accelerated end-to-end AO simulation tool. Recent developments have focused on several key areas: (1) Machine Learning integration; (2) Hardware flexibility; (3) End-to-end simulation interface with the RTC for functional tests; (4) Deployment automation; and (5) Modern monitoring interfaces.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/COSMIC--a-modern-scalable-framework-for-real-time-adaptive/14155-64",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 11:10 - 11:30 CEST | Room B4-M7",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Iva Laginja, Pierre Baudoz, Axel Potier, Johan Mazoyer, Raphaël Galicher, Emiel H. Por, Rémi Soummer, Arnaud Sevin, Erin Pougheon, Corentin Paviot, David Doelman, Rico Landman, Frans Snik, Felix Bettonvil, Jeroen Rietjens, Chris van Dijk, Kristien Peeters, Alexander Eigenraam, Mariya Krasteva, Matteo Taccola",
-      "PaperNumber": "14145-70",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 11:10 - 11:30 CEST | Room B4-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "2aed987a-fcbb-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "2aed987a-fcbb-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "First high-contrast results on THD2 testbed after infrastructure upgrade",
-      "Description": null,
-      "Abstract": "We present the first scientific results by the upgraded THD2 high-contrast imaging testbed. First, for the Nancy Grace Roman Space Telescope, we demonstrate how single-actuator probes outperform the baseline sinc probes by reducing non-linearities, supporting higher probe amplitudes, and improving electric-field estimation. These results led to their prioritisation as an enhanced commissioning mode for Roman. Second, within ESA’s SUPPPPRESS project, we test new polarization-independent Vector Vortex Coronagraphs designed to achieve contrasts approaching 1e-10 over >20% bandwidth in simulations. We assess their behavior on the testbed in narrow- and broadband light with active focal-plane wavefront control. Together, these results show how THD2 strengthens Europe’s capability in high-contrast imaging, providing a unique platform reaching contrasts of 1e-8 to 1e-9 for developing next-generation coronagraphic technologies.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/First-high-contrast-results-on-THD2-testbed-after-infrastructure-upgrade/14145-70",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 11:10 - 11:30 CEST | Room B4-M3",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Julien Drevon, Margaux Abello, Florentin Millour, Anthony Meilland, Armando Domiciano",
-      "PaperNumber": "14148-42",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 11:10 - 11:30 CEST | Room B4-M5",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "a82efa81-d2af-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "a82efa81-d2af-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "PYRA and MYTHRA: new statistical analysis for image reconstruction",
-      "Description": null,
-      "Abstract": "Optical interferometry combined with 4 beam-combiner instruments achieves sub-milliarcsecond resolution using the VLTI, allowing detailed imaging of complex astrophysical environments. Reconstructing such images from interferometric observables like visibilities and closure phases requires sophisticated algorithms such as the one provided in the MiRA, SQUEEZE, IRBis, and SPARCO. However, statistical assessment of reconstructed images remains challenging.  We present PYRA and MYTHRA, two Python wrappers designed to make image reconstruction analysis more intuitive, automated, and statistically robust. These tools combine multiple reconstructions to produce a final statistically weighted image, enabling reliable confirmation of observed structures. PYRA/MYTHRA drastically reduce analysis time (from weeks to under an hour) and are now official MiRA companion tools, already adopted in several published studies.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/PYRA-and-MYTHRA-new-statistical-analysis-for-image-reconstruction/14148-42",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 11:10 - 11:30 CEST | Room B4-M5",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Johannes Wüthrich, Banan Yamani, Andrin Fazan, Léonard Lebrun, Sean MacBride, Felipe Andrade-Oliveira, Marcelle Soares-Santos, Guandi Zhao",
       "PaperNumber": "14154-80",
       "DateTimeLocationDataList": [
@@ -944,7 +808,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Renzo Ramelli, Andrea F. Battaglia, Franziska Zeuner, Svetlana Berdyugina, Michele Bianda, Francesco Vitali, Daniele Allegri, Roberto Gardenghi, Marco Rogantini, Giuseppe Di Dato",
+      "Authors": "Renzo Ramelli, Andrea F. Battaglia, Franziska Zeuner, Svetlana Berdyugina, Michele Bianda, Francesco Vitali, Daniele Allegri, Roberto Gardenghi, Marco Rogantini, Giuseppe Di Dato, Luca N. Bezzola",
       "PaperNumber": "14149-66",
       "DateTimeLocationDataList": [
         {
@@ -1046,7 +910,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jenna Samra, Vanessa Marquez, Aaron Oppenheimer, Ryan Chaves, Peter Cheimets, Edward DeLuca, Giulio Del Zanna, Gabriel Dubinsky, Daniel Durusky, Mark Freeman, Leon Golub, Jacob Hawthorne, Alan Hsu, Vladimir Kradinov, Maxim Kramar, Hannah Levin, Haosheng Lin, Kyle MacKenzie, Chad Madsen, Cem Onyuksel, Hannah Rana, Patrick Rohleder, Andrew Schalk, Paola Testa, Steven Tomczyk, Edward Udinski, Abigail Unger, Patrick Zmarzly",
+      "Authors": "Jenna Samra, Alan Hsu, Vanessa Marquez, Aaron Oppenheimer, Ryan Chaves, Peter Cheimets, Edward DeLuca, Giulio Del Zanna, Gabriel Dubinsky, Daniel Durusky, Mark Freeman, Leon Golub, Jacob Hawthorne, Vladimir Kradinov, Maxim Kramar, Hannah Levin, Haosheng Lin, Kyle MacKenzie, Chad Madsen, Cem Onyuksel, Hannah Rana, Patrick Rohleder, Andrew Schalk, Paola Testa, Steven Tomczyk, Edward Udinski, Abigail Unger, Patrick Zmarzly",
       "PaperNumber": "14149-67",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1588,149 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 14:00 - 14:20 CEST | Room B4-M7",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Giorgio Savini, Peter A.R. Ade, Peter Hargrave, Alexey Shitvov, Carole Tucker, Giampaolo Pisano, Jin Zhang",
+      "PaperNumber": "14156-42",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 14:10 - 14:30 CEST | Room B5-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "798cf29c-69d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "798cf29c-69d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "A novel metamaterial telescope technology for broadband mm-wave refractive observations",
+      "Description": null,
+      "Abstract": "In this paper we present a novel metamaterial telescope composed exclusively of thin, flat elements, each being a tested hot-pressed photo-lithographic structure combining the properties of a lens, tuned anti-reflection and frequency selection or filtering.   We discuss the design process from ab-initio physical metamaterial properties of the single periodic cell structure to the  lens concept which constitutes the building block of the telescope design and the iterative process that is part of the lens optimization.   We discuss the results of a testing campaign using the single lens elements for different telescope designs showing on- and off-axis performance.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/A-novel-metamaterial-telescope-technology-for-broadband-mm-wave-refractive/14156-42",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 14:10 - 14:30 CEST | Room B5-M3",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Elsa Huby, Sébastien Vievard, Sylvestre Lacour, Olivier Guyon, Manon Lallement, Mathias Nowak, Yoo Jung Kim, Aidan Walk, Jehanne Sarrazin, Sergio Leon-Saval, Christopher Betters, Julien Lozi, Miles Lucas, Vincent Deo, Michael Fitzgerald, Barnaby Norris, Thayne Currie, Guy Perrin",
+      "PaperNumber": "14149-69",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 14:10 - 14:40 CEST | Auditorium 15",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "ec9936a1-b2ce-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "ec9936a1-b2ce-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "FIRST-PL: On-sky commissioning of a visible photonic lantern for high angular resolution spectro-imaging on Subaru/SCExAO",
+      "Description": null,
+      "Abstract": "FIRST-PL is a post-ExAO instrument on the SCExAO platform at the Subaru Telescope, to be commissioned early 2026. The PL is a multi-mode fiber transitioning into 19 single-mode fibers, placed in the focal plane to couple the telescope beam efficiently. The 19 outputs are imaged and dispersed at a spectral resolution of 3000 over 630–790 nm. The PL response depends on the input wavefront, producing distinct flux distributions for an on-axis star and an off-axis companion. By calibrating this spatial response and inverting the model, images can be reconstructed at each spectral channel, enabling integral-field capabilities at very high angular resolution. Several observing modes are offered, enabling ultra-precise spectro-astrometry on the Halpha line and image reconstruction, including Halpha differential imaging. We will present the on-sky demonstration of FIRST-PL, covering sensitivity and contrast limits as well as the expected performance for each of these observing modes.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/FIRST-PL--On-sky-commissioning-of-a-visible-photonic/14149-69",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 14:10 - 14:40 CEST | Auditorium 15",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Francesco Berrilli, Luca Giovannelli, Dario Del Moro, Archana Giri Nair, Letizia Casara, Matteo Cantoresi, Valerio Di Tana, Francesco Iovanna, Antonio Turi, Laura Marcelli, Marco Casolino, Enzo Reali, Fabio Curti, Mark Anthony De Guzman, Alessandro Rossi, Matteo Marmonti, Massimiliano Musazzi, Matteo Cilia, Alessandro Turchi, Daniele Urban, Silvia Natalucci, Simone Illiano, Rita Carpentiero, Elisabetta Cavazzuti, Alberto Fedele, Alessio Di Salvo",
+      "PaperNumber": "14146-86",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 14:10 - 14:30 CEST | Room B4-M1",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "0b13f5ab-76d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "0b13f5ab-76d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "SEE: a CubeSat to study solar activity and space weather",
+      "Description": null,
+      "Abstract": "The Sun cubE onE (SEE) is a 12U CubeSat mission in LEO that will investigate UV solar emission and Gamma and X-ray fluxes to support studies in Sun-Earth interaction and Space Weather. The mission's development, part of the Italian Space Agency's ALCOR program, is handled by a team that includes the University of Rome Tor Vergata, Sapienza University, INFN, Argotec, Optec, and NEXT. SEE's objective is to monitor the emission of solar flares, from soft-X to Gamma rays, and the solar activity through images of the Sun in the Mg II doublet (280 nm). SEE mission will study Gamma and X-ray fluxes with unprecedented temporal resolution and a multi-wavelength approach, utilizing combined silicon photodiode and SiPM-based detectors. The payload will explore the flare spectrum from the keV to MeV range at a high cadence of over 10 kHz. Additionally, a UV telescope will observe the evolution of solar disk UV emission throughout part of the solar cycle and during flares.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/SEE--a-CubeSat-to-study-solar-activity-and-space/14146-86",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 14:10 - 14:30 CEST | Room B4-M1",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Matthew C. DeMartino, Kevin Bundy, Stephen Eikenberry, Aditya Sengupta, Anna Gagnebin, Avi Patel, Tara Crowe, Caleb Dobias, Rodrigo Amezcua Correa, Stephanos Yerolatsitis, Holger Schmidt",
+      "PaperNumber": "14154-89",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 14:15 - 14:30 CEST | Room B2-M4",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "737fc53f-77d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "737fc53f-77d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Neural-network spectral reconstruction with photonic lanterns",
+      "Description": null,
+      "Abstract": "We investigate photonic lanterns as compact, fiber-based spectrometers, using neural networks to reconstruct spectra from single-mode output intensity patterns. Unlike conventional dispersive optics, our approach directly maps lantern outputs to input spectra via a PyTorch feedforward network with residual connections. A testbed with near-monochromatic light and reference spectra enabled training on multi-feature inputs. In the optical regime (650–700 nm), single-feature reconstructions achieved correlations near 0.99; multi-feature cases with two components reached 0.50–0.60, with greater variability for six features due to limited training data. Extending to short-wave infrared (1300–1450 nm), results remained comparable despite detector noise. These findings demonstrate the feasibility of lantern-based spectroscopy and establish a framework for neural-network spectral reconstruction, with future work focused on larger datasets and improved architectures.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Neural-network-spectral-reconstruction-with-photonic-lanterns/14154-89",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 14:15 - 14:30 CEST | Room B2-M4",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2925,
+  "Count": 2922,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 696011
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696015
 }

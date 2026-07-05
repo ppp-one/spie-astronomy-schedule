@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Jamie A. Kennea",
-      "PaperNumber": "14151-23",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 15:50 - 16:10 CEST | Room B2-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "e3fadd0a-86cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "e3fadd0a-86cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The Constant Operational Evolution of the Neil Gehrels Swift Observatory",
-      "Description": null,
-      "Abstract": "The Neil Gehrels Swift Observatory, a pioneering time-domain and multi-messenger mission, predates the term “TDAMM.” Initially conceived to unravel the mystery of short Gamma Ray Bursts, Swift’s automated rapid response and multi-wavelength capabilities make it ideal for TDAMM research. Its continuous capability development, fostered by a highly motivated partnership between Flight and Science Operations teams, transformed Swift from a GRB detection and follow-up mission to a TOO machine, averaging 6 TOOs daily and capable of automated response within seconds. Swift also boasts unique capabilities in Gravitational Wave follow-up, including deep sensitive detection of prompt emission, large-scale tiling of probable counterpart galaxies, and the possibility of repointing before the merger to catch the emission “on the fly”.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Constant-Operational-Evolution-of-the-Neil-Gehrels-Swift-Observatory/14151-23",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 15:50 - 16:10 CEST | Room B2-M2",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Alessandro Marconi, Paolo Di Marcantonio, Alessio Zanutta, Roberto Maiolino, Livia Origlia, Marco Landoni, Ernesto Oliva, Marco Riva, on behalf of ANDES Consortium",
-      "PaperNumber": "14149-42",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 15:55 - 16:15 CEST | Auditorium 15",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "856bb701-24ca-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "856bb701-24ca-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "ANDES, the high-resolution spectrograph for the ELT: science drivers, instrument overview, and project status",
-      "Description": null,
-      "Abstract": "ANDES is the high-resolution optical/NIR spectrograph for the ELT, simultaneously covering 0.40–1.8 μm (goal: 0.35–2.4 μm) at R≈100,000. Its fiber-fed, modular design provides high stability, wide coverage, and multiple modes, including seeing-limited spectroscopy, a SCAO-assisted NIR IFU, a high-dispersion coronagraph, and a faint-target mode. ANDES will enable major advances in exoplanet atmospheres, the first stars, fundamental physics, and cosmic acceleration. Developed by a consortium of 30+ institutes in 13 countries, the project has completed the System Architecture Review and is advancing toward the Preliminary Design Review in mid-2026, including work on the U- and K-band extensions.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/ANDES-the-high-resolution-spectrograph-for-the-ELT--science/14149-42",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 15:55 - 16:15 CEST | Auditorium 15",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Martin de Wit, Kenichiro Nagayoshi, Luciano Gottardi, Emanuele Taralli, Sven Visser, Kevin Ravensberg, Jian-Rong Gao, Jan-Willem A. den Herder",
       "PaperNumber": "14146-59",
       "DateTimeLocationDataList": [
@@ -332,8 +264,8 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Yi Hu, Junhui Shi, Jia Ma, Zhenyao Yang, Zhongyue Chen, Zhongna Dong, Yiming Liang, Jiacheng Zhang, Zhichao Zheng, Yuqi Wang, Yongxiong Xiao, Haoyuan Du, Xu Yang, Zhaohui Shang, Yongna Mao, Jifeng Liu",
-      "PaperNumber": "14155-45",
+      "Authors": "Matias Gonzalez, Vicente Coopman, Jonathan Antognini",
+      "PaperNumber": "14155-46",
       "DateTimeLocationDataList": [
         {
           "date_time_location": "7 July 2026 • 16:10 - 16:30 CEST | Room B4-M7",
@@ -347,18 +279,18 @@
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
       "MatchingFrag": "",
-      "UniqueId": "ad07c009-dcd1-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "ad07c009-dcd1-f011-a9ae-00505691c5e1",
+      "UniqueId": "26167e16-88d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "26167e16-88d0-f011-a9ae-00505691c5e1",
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Embodied artificial intelligence telescope: an effective solution for high-level autonomous operation requirements of GOTTA project",
+      "Title": "AI Assisted Exploration of Dynamic Web Interfaces for Improving Test Reliability in ALMA Operational Dashboards",
       "Description": null,
-      "Abstract": "Future time-domain astronomy will rely on globally distributed arrays of wide-field telescopes capable of tracking the most rapid and violent cosmic phenomena in real time. This facility can only operate effectively if it is fully autonomous, distributed, and continuously adaptive—capabilities that far exceed the limits of today’s open-loop robotic telescope software. We therefore introduce the Embodied Artificial Intelligence Telescope (EAIT), an AI-native closed-loop observational system that integrates perception, interpretation, planning, and action within each telescope. EAIT transforms a telescope from a passive data-collection instrument into an intelligent agent capable of real-time decision-making and autonomous coordination across a global array. Our results highlight the feasibility of EAIT and its potential to redefine the operational paradigm for next-generation transient astronomy.",
+      "Abstract": "Modern observatories rely on dynamic web applications whose structure changes as users interact with them, making regression testing fragile and costly. This issue is relevant at the Atacama Large Millimeter/submillimeter Array (ALMA), where new operational dashboards such as the Integrated Alarm System (IAS) are being developed. We are creating a prototype tool that automatically explores a web application and observes how the interface responds to realistic interactions. It combines automated browser actions with AI-assisted analysis to detect interactive elements, group interface states, and identify unstable selectors. Early results on IAS reveal hidden interaction paths, structural inconsistencies, and selector behaviors that affect testing. This approach reduces manual trial-and-error and helps focus verification on unstable areas, with potential application to other observatory web systems. Integration into ALMA automation workflows is underway.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Embodied-artificial-intelligence-telescope--an-effective-solution-for-high/14155-45",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/AI-Assisted-Exploration-of-Dynamic-Web-Interfaces-for-Improving-Test/14155-46",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -839,40 +771,6 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 16:30 - 16:50 CEST | Room B2-M2",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Matias Gonzalez, Vicente Coopman, Jonathan Antognini",
-      "PaperNumber": "14155-46",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 16:30 - 16:50 CEST | Room B4-M7",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "26167e16-88d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "26167e16-88d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "AI Assisted Exploration of Dynamic Web Interfaces for Improving Test Reliability in ALMA Operational Dashboards",
-      "Description": null,
-      "Abstract": "Modern observatories rely on dynamic web applications whose structure changes as users interact with them, making regression testing fragile and costly. This issue is relevant at the Atacama Large Millimeter/submillimeter Array (ALMA), where new operational dashboards such as the Integrated Alarm System (IAS) are being developed. We are creating a prototype tool that automatically explores a web application and observes how the interface responds to realistic interactions. It combines automated browser actions with AI-assisted analysis to detect interactive elements, group interface states, and identify unstable selectors. Early results on IAS reveal hidden interaction paths, structural inconsistencies, and selector behaviors that affect testing. This approach reduces manual trial-and-error and helps focus verification on unstable areas, with potential application to other observatory web systems. Integration into ALMA automation workflows is underway.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/AI-Assisted-Exploration-of-Dynamic-Web-Interfaces-for-Improving-Test/14155-46",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 16:30 - 16:50 CEST | Room B4-M7",
       "ErrorMessage": null
     },
     {
@@ -1454,7 +1352,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Rikke Stougaard Klausen, Irfan Kuvvetli, Selina R. H. Owe, Michał Kossakowski, Denis Tcherniak, Alexander Cherlin, Carl Budtz-Jørgensen",
+      "Authors": "Rikke Stougaard Klausen, Irfan Kuvvetli, Selina R. H. Owe, Michał Kossakowski, Denis Tcherniak, Alexander Cherlin, Carl Budtz-Jørgensen, Guillermo B. Guinea",
       "PaperNumber": "14146-63",
       "DateTimeLocationDataList": [
         {
@@ -1714,23 +1612,125 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "A NICE (Nulling Interferometer Cryogenic Experiment) update: beyond 1e-5 and towards cryogenic operation",
+      "Title": "A NICE (Nulling Interferometry Cryogenic Experiment) update: beyond 1e-5 and towards cryogenic operation",
       "Description": null,
-      "Abstract": "We share an update on the Nulling Interferometer Cryogenic Experiment (NICE), a mid-infrared laboratory testbed at ETH Zürich that aims to not only reproduce the deep (<1e-5) broadband nulls of the earlier nulling testbeds of the early 2000s, but also at the required sensitivity levels expected for the LIFE space mission. This sensitivity enforces the experiment to go cryogenic at temperatures around 15K; an ambitious task for an ultra-precise interferometer. We will share our results of the ambient precursor experiment, demonstrating repeatable <1e-5 nulls at a single wavelength and high throughput, and new results across a broader bandpass with dual polarisation states. We will also highlight the push towards cryogenic operation, with the instalment of a new 15K test cryostat that will inform our choices of materials and optomechanical mounting techniques.",
+      "Abstract": "The Nulling Interferometry Cryogenic Experiment (NICE) is a mid-infrared laboratory testbed at ETH Zurich  that aims to not only reproduce the deep (<1e−5) broadband nulls of the nulling testbeds of the early 2000s,  but also at the required sensitivity levels expected for the LIFE space mission. This sensitivity enforces the  experiment to go cryogenic at temperatures around 15 K; an ambitious task for an ultra-precise interferometer.  We share our results of the ambient precursor experiment, demonstrating repeatable < 1e−5 nulls at a single  wavelength and high throughput, and investigations into the nulling performance across a broader bandpass and  with dual polarisation states. We will also highlight the push towards cryogenic operation, with the instalment  of a new 15 K test cryostat that will inform our choices of materials and optomechanical mounting techniques",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/A-NICE-Nulling-Interferometer-Cryogenic-Experiment-update--beyond-1e/14148-26",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/A-NICE-Nulling-Interferometry-Cryogenic-Experiment-update--beyond-1e/14148-26",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 17:10 - 17:30 CEST | Room B4-M5",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Michael J. Freyberg, Norbert Meidinger, Michael Smith, Emanuele Perinati",
+      "PaperNumber": "14157-51",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:10 - 17:30 CEST | Room B5-M1",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "0f954040-9dcf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "0f954040-9dcf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Long-term evolution of micrometeoroid impact effects in pnCCDs (EPIC-pn, eROSITA)",
+      "Description": null,
+      "Abstract": "Impacts of micro-meteoroids as micron-sized dust particles at hypervelocities onto X-ray astromonmical CCDs in space can cause performance degradation but also lead to fatal failures.  Here we report on the 3 impacts onto the pn-CCDs of XMM-Newton (EPIC-pn camera) and the 7 onto eROSITA aboard Spectum-Roentgen-Gamma.  We analyze in detail the long-term evolution of the damage effects in these back-illuminated silicon devices.  We discuss the presence and absence of associated optical flashes.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Long-term-evolution-of-micrometeoroid-impact-effects-in-pnCCDs-EPIC/14157-51",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:10 - 17:30 CEST | Room B5-M1",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Jianan Cong, Zhengyang Li, Xiaoyan Li",
+      "PaperNumber": "14147-43",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:10 - 17:30 CEST | Room B3-M6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "1b7551e1-38d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "1b7551e1-38d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "System design of the wide-field near-infrared telescope at Dome A, Antarctica, and first daytime near-infrared observations",
+      "Description": null,
+      "Abstract": "Dome A in Antarctica likely has the best observing conditions on the Earth's surface in the near-infrared owing to its sky-light background and superior seeing conditions. This work introduces the system design of the first wide field-of-view near-infrared telescope at Dome A. We present the telescope’s optical system as well as the design of the direct-drive motor mount and mechanical defrosting system capable of withstanding the extreme Antarctic environment. Through this project, we validated the key technologies described above and achieved the first daytime J-band bright-star observations during the Antarctic summer. Stars as faint as J- 10.06 mag were significantly detected with an effective exposure time of 175 s around midnight.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/System-design-of-the-wide-field-near-infrared-telescope-at/14147-43",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:10 - 17:30 CEST | Room B3-M6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "James H. Tutt, Bruce Lairson, Jeffrey De Lucca, Alexandra Higley, Ross McCurdy, Randall L. McEntaffer, Drew M. Miles, Keith Rice",
+      "PaperNumber": "14146-64",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:10 - 17:25 CEST | Room B4-M1",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "5dcd9604-56cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "5dcd9604-56cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Testing of SiC grid-based blocking filters to increase their technology readiness level",
+      "Description": null,
+      "Abstract": "Progress over the past year has advanced mitigation of contamination buildup on cold focal-plane detectors using free-standing, actively heated blocking filters. Development, fabrication, and environmental testing of large-format SiC support grids have continued, enabling room-temperature X-ray filters with minimal power. Multiple square-grid designs suitable for the AXIS mission have been produced and mechanically tested, including vibration evaluations for launch survivability. Thermal-vacuum experiments have mapped steady-state and transient temperature behavior, refining power-budget models for reheating under radiative cooling. Next steps include additional vibration tests, long-duration thermal-vacuum cycles, and studies of filter thermal conductivity to further raise TRL. These results position SiC room-temperature blocking filters as a strong solution for future missions requiring contamination control and thermal efficiency.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Testing-of-SiC-grid-based-blocking-filters-to-increase-their/14146-64",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:10 - 17:25 CEST | Room B4-M1",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2925,
+  "Count": 2922,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 696011
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696015
 }

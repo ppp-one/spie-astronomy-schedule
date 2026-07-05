@@ -26,183 +26,13 @@
   },
   "Items": [
     {
-      "Authors": "Osamu Tajima",
-      "PaperNumber": "14156-179",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "1200ab25-afc9-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "1200ab25-afc9-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Experimental concepts for probing wavy dark matter using coherent detection techniques for CMB observations",
-      "Description": null,
-      "Abstract": "Direct detection of dark matter remains a major challenge, as its mass and non-gravitational interactions are still unknown despite strong astronomical evidence. Wavy dark matter candidates, such as axions and dark photons, motivate searches across wide mass ranges. Radio-astronomy-based techniques are promising; recent experiments like DOSUE-RR have explored the 100 μeV region using 24-GHz conversion searches. Current experiments constrain only mass and coupling, leaving polarization and arrival direction unprobed. Coherent detection, widely used in CMB measurements, can access these properties thanks to the long coherence length of wavy dark matter. This presentation introduces experimental concepts that apply coherent detection to such searches.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Experimental-concepts-for-probing-wavy-dark-matter-using-coherent-detection/14156-179",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Shoken Myozen, Kosuke Aizawa, Ryosuke Akizawa, Ludovico Bizzarri, Thomas Essinger-Hileman, Tommaso Ghigna, Shotaro Kawano, Kuniaki Konishi, Asuka Maeda, Tomotake Matsumura, Noemi Mezzanzanica, Haruyuki Sakurai, Ryota Takaku, Mario Zannoni",
-      "PaperNumber": "14156-194",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "2d8b9fe4-95cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "2d8b9fe4-95cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Exploration of simplified W-band feedhorn design and fabrication",
-      "Description": null,
-      "Abstract": "We present on the development of a simplified design and fabrication approach for a W-band feedhorn for measurements of cosmic microwave background (CMB) polarization. The next generation CMB observations need scales of order up to 1,000,000 for ground-based telescopes. Feedhorns, optical coupling elements, must be produced in quantities of at least one quarter of the total detector count. The fabrication of the multi-array feedhorn has been one of the bottlenecks in the development step. We explore ways to simplify the feedhorn fabrication. We approximated the profile to be a straight line within one segment of which the feedhorn is divided into five. The simulations show the segmented design achieves 22.05 dB gain at 90 GHz and 30% bandwidth around 90 GHz, which is comparable to that of the profiled feedhorn. We report the design results. We also report the status of the further explorations using multi-layer feedhorn approaches using laser machining.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Exploration-of-simplified-W-band-feedhorn-design-and-fabrication/14156-194",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Zongliang Xie",
-      "PaperNumber": "14148-167",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "5427413d-4712-f111-a9b1-00505691c5e1---crmrecord",
-      "GUID": "5427413d-4712-f111-a9b1-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Extended object image-based piston sensing",
-      "Description": null,
-      "Abstract": "JWST’s success has motivated interest in large-aperture segmented telescopes for Earth observation, offering the potential for unprecedented ground resolution. A key challenge, however, is phasing such systems directly from remote sensing images. Here we report a remote sensing image-based optical differential piston sensing approach, capable of detecting large optical path length differences, i.e. coarse phasing. Initially the features respond to the pistons of each non-reference segment are extracted through both continuous piston modulation and differential operation. Then the Gaussian fitting is performed to identify the optimal response, and the coarse piston inversion can be realized. With this strategy, large piston errors can be corrected to within one wavelength using remote sensing images, free from constraints on the number of segments. The proposed method may contribute to the development of the extremely large Earth observation systems with hundreds of segments.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Extended-object-image-based-piston-sensing/14148-167",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "P. Ashworth, P. S. Barry, C. S. Benson, K. Dibert, H. Gordon-Moys, P. Hunyor, K. S. Karkare, I. Morris, A. Tan",
-      "PaperNumber": "14156-171",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "91edf274-5ad0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "91edf274-5ad0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Fabrication of silicon etched vacuum waveguides for a superconducting millimeter-wave spectrometer",
-      "Description": null,
-      "Abstract": "We present a prototype device using micromachined silicon waveguides, coated with superconducting niobium. A simple channelising filter-bank composed of single pole iris-coupled cavity resonators disperses the incident light, with each spectral channel coupled to an in-plane waveguide that enables efficient, straightforward detector integration. Implementing detailed electromagnetic simulations, we report the design, optimisation, and fabrication of a small-scale prototype R = 500 waveguide spectrometer based on the standard WR3 geometry operating across the 1 mm (220–310 GHz) atmospheric window.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Fabrication-of-silicon-etched-vacuum-waveguides-for-a-superconducting-millimeter/14156-171",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Binbin Xiang, Shike Mo, XueTong Yang, Wei Wang, Longfei Niu",
-      "PaperNumber": "14153-103",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "8a26358a-85cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "8a26358a-85cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Fault diagnosis technique for radio telescope antenna drive reducer gears based on the fused model",
-      "Description": null,
-      "Abstract": "Low-speed operation of antenna drive reducer gears suffers from reduced SNR, obscuring fault features under noise interference where traditional methods fail. This study proposes an RBMO-optimized SVMD-MCKD-CNN-LSTM fusion model (RSM-CL) for fault diagnosis. RBMO-optimized SVMD-MCKD first enhances raw signals via noise reduction and feature amplification. Subsequently, CNN extracts localized spatial features while LSTM captures temporal dependencies for deep fault characterization. Experimental validation demonstrates the model achieves >97% average classification accuracy, outperforming conventional single-decomposition/single-model approaches in both diagnostic precision and computational efficiency (reduced processing time). This framework establishes a novel solution for low-speed reducer gear fault diagnosis.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Fault-diagnosis-technique-for-radio-telescope-antenna-drive-reducer-gears/14153-103",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Luke M. Schmidt, Hudson Malone, Noah Siebersma, Erika Cook, Jennifer L. Marshall, Darren L. DePoy, Ryan J. Oelkers, Silvana Delgado Andrade, Enrique Gonzalez Vega, Shravan Menon, Chelsea Taylor, Lars Walker",
       "PaperNumber": "14154-396",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -226,7 +56,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -234,9 +64,9 @@
       "PaperNumber": "14150-363",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -260,7 +90,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -268,9 +98,9 @@
       "PaperNumber": "14150-335",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -294,7 +124,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -302,9 +132,9 @@
       "PaperNumber": "14151-131",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -328,7 +158,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -336,9 +166,9 @@
       "PaperNumber": "14155-192",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -362,7 +192,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -404,9 +234,9 @@
       "PaperNumber": "14155-195",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -430,7 +260,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -472,9 +302,9 @@
       "PaperNumber": "14155-224",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -498,7 +328,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -506,9 +336,9 @@
       "PaperNumber": "14149-440",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -532,7 +362,41 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Camilo E. Jiménez Ángel, Ditte Slumstrup, Antonio L. Cabrera Lavers, Daniel Reverte Payá, José A. Rodríguez Losada, Víctor Rodríguez Herreros, Juan J. Fernández-Valdivia, Alfonso G. Cardell Bilbao",
+      "PaperNumber": "14155-76",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 17:50 CEST | Room B4-M7",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "7f163fff-9fcf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "7f163fff-9fcf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Fully Autonomous Data Processing for the GTC: The DRAGO System",
+      "Description": null,
+      "Abstract": "The DRAGO system is a fully automated platform that executes the Data Reduction Process (DRP) for all GTC instruments without human intervention. It transforms raw data into standardized scientific products through automated orchestration, intelligent workflow management, and robust reprocessing. DRAGO is DRP-agnostic, integrating pipelines in any format or programming language. Its core functions include automatic observing block detection, calibration management, autonomous DRP configuration, and standardized output generation. These operate within a scalable architecture featuring data management, process scheduling, automatic quality control, and a user interface with API access. DRAGO enables fast, reliable, and reproducible reductions, representing a major step toward fully autonomous data handling in modern observatories.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Fully-Autonomous-Data-Processing-for-the-GTC--The-DRAGO/14155-76",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 17:50 CEST | Room B4-M7",
       "ErrorMessage": null
     },
     {
@@ -540,9 +404,9 @@
       "PaperNumber": "14146-323",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -566,7 +430,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -608,9 +472,9 @@
       "PaperNumber": "14150-341",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -634,7 +498,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -676,9 +540,9 @@
       "PaperNumber": "14149-404",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -699,6 +563,40 @@
       "Abstract": "The Wide-field Spectroscopic Telescope (WST) is a proposed 12-meter segmented telescope optimized for seeing-limited observations in the visible. It is designed for the simultaneous operation of a high-multiplex multi-object spectrograph (30,000 fibers) and a large panoramic integral field spectrograph (3×3 arcmin). This paper presents the integrated design approach adopted for the IFS, focusing on a trade study of spectrograph architectures. We explore design choices such as pixel pitch, detector format, and camera optical design against throughput, image quality, error budgets, volume, cost, and image slicer geometry. The study adds one ecological metric: the CO₂ footprint of building each spectrograph, to inform design sustainability. The study also explores the potential of curved detectors, which can improve aberration control and throughput. Early results suggest that many simpler spectrographs outperform fewer complex units technically and economically.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Guiding-design-choices-for-wide-field-IFS--trade-off/14149-404",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "John Nijim, Zoran Ninkov, Dmitry Vorobiev, Aditya Kinjawadekar",
+      "PaperNumber": "14145-307",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "15aa3116-1ad0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "15aa3116-1ad0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Hadamard Transform Spectral Imaging (HTSI): Dealing with incomplete data and optimizing masks",
+      "Description": null,
+      "Abstract": "Hadamard Transform Spectral Imaging (HTSI) is a signal multiplexing technique used to obtain spectra at every spatial point in the field of view of an instrument, similar to an Integral Field Unit (IFU) spectrograph. Its main advantage is to provide a signal-to-noise (SNR) increase over direct measurements within the same observation time, where the multiplex advantage is realized. Instruments equipped with micro-electromechanical systems (MEMS) such as digital micromirror devices (DMDs) or micro-shutter arrays (MSAs) can implement the masks efficiently, and HTSI can be an observing mode in upcoming astrophysics space-based missions with instruments that use MEMS devices, such as CASTOR and HWO. In this study, an alternative to the inverse Hadamard transform is implemented, by use of a total variation inverse regularization problem with compressive sensing, and methods are explored which reduce the SNR degradation of weaker signals due to Poisson photon noise from stronger signals.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Hadamard-Transform-Spectral-Imaging-HTSI--Dealing-with-incomplete-data/14145-307",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -744,9 +642,9 @@
       "PaperNumber": "14154-401",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -770,7 +668,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -812,9 +710,9 @@
       "PaperNumber": "14155-198",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -838,7 +736,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -846,9 +744,9 @@
       "PaperNumber": "14147-184",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -872,7 +770,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -880,9 +778,9 @@
       "PaperNumber": "14149-443",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -906,7 +804,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -914,9 +812,9 @@
       "PaperNumber": "14155-226",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -940,7 +838,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -948,9 +846,9 @@
       "PaperNumber": "14149-441",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -974,7 +872,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1002,7 +900,7 @@
       "HTMLTitle": "",
       "Title": "HRMOS: towards the spectrograph design",
       "Description": null,
-      "Abstract": "The High-Resolution Multi-Object Spectrograph (HRMOS) is a facility instrument that we plan to propose for the Very Large Telescope (VLT) of the European Southern Observatory (ESO). HRMOS offers a combination of capabilities that are crucial for enabling breakthrough science across a wide range of active research fields, including stellar astrophysics, exoplanet studies, and Galactic and Local Group archaeology. It addresses a significant gap in the suite of instruments planned for the coming decade. The key features of HRMOS include high spectral resolution (R~80,000), multi-object capability (50-80 targets), and long-term stability, enabling considerable radial-velocity precision and accuracy (10 m/s). In this work, we present the ongoing development of the opto-mechanical design for a next-generation high-resolution spectrograph, with a focus on key engineering solutions implemented to fulfill the instrument demanding scientific requirements.",
+      "Abstract": "The High-Resolution Multi-Object Spectrograph (HRMOS) is a facility instrument that we plan to propose for the Very Large Telescope (VLT) of the European Southern Observatory (ESO). HRMOS offers a combination of capabilities that are crucial for enabling breakthrough science across a wide range of active research fields, nucleo-cosmochronology, exoplanet studies, the origin of elements, and hierarchical galaxy assembly. It addresses a significant gap in the suite of instruments planned for the coming decade. The key features of HRMOS include high spectral resolution (R=80,000), multi-object capability (50-60 targets), and long-term stability, enabling considerable radial-velocity precision and accuracy (10 m/s). In this work, we present the ongoing development of the opto-mechanical design for a next-generation high-resolution spectrograph, with a focus on key engineering solutions implemented to fulfill the instrument demanding scientific requirements.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/HRMOS-towards-the-spectrograph-design/14149-433",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1050,9 +948,9 @@
       "PaperNumber": "14155-211",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1076,7 +974,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1084,9 +982,9 @@
       "PaperNumber": "14155-219",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1110,7 +1008,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1118,9 +1016,9 @@
       "PaperNumber": "14146-344",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1144,6 +1042,40 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Caleb Cook, Nico Deshler, Logan Pawlowski, Amit Ashok",
+      "PaperNumber": "14154-159",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "c3a987fb-4cce-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "c3a987fb-4cce-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Imaging sub-diffraction star clusters with spatial mode sorting",
+      "Description": null,
+      "Abstract": "Passive super-resolution imaging using spatial mode sorting has been vigorously analyzed as a technique to approach fundamental limits of resolution. However, a comprehensive experimental validation of this approach has been limited by the fidelity of hardware implementation of spatial mode sorters in terms of throughput, cross-talk, and spectral bandwidth. The recent availability of high-fidelity MPLC-based spatial mode sorters, such as those from Cailabs, enables a comprehensive experimental validation. In this work, we demonstrate sub-diffraction localization of point emitters, emulating star clusters, in various configurations and different spectral bandwidths. Our experiment employs a hybrid measurement method that combines direct imaging and spatial mode sorting measurements. Our measurement model and image estimation algorithm incorporates various error sources such as shot noise, detector dark current, read noise, residual wavefront error, and pointing error.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Imaging-sub-diffraction-star-clusters-with-spatial-mode-sorting/14154-159",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
     },
@@ -1152,9 +1084,9 @@
       "PaperNumber": "14150-370",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1178,7 +1110,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1186,9 +1118,9 @@
       "PaperNumber": "14149-424",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1212,7 +1144,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1220,9 +1152,9 @@
       "PaperNumber": "14149-437",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1246,7 +1178,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1254,9 +1186,9 @@
       "PaperNumber": "14145-269",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1280,7 +1212,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1288,9 +1220,9 @@
       "PaperNumber": "14146-314",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1314,7 +1246,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1322,9 +1254,9 @@
       "PaperNumber": "14146-358",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1348,7 +1280,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1390,9 +1322,9 @@
       "PaperNumber": "14146-164",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1416,7 +1348,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1424,9 +1356,9 @@
       "PaperNumber": "14146-311",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1450,7 +1382,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1526,9 +1458,9 @@
       "PaperNumber": "14150-364",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1552,7 +1484,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1594,9 +1526,9 @@
       "PaperNumber": "14146-345",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1620,7 +1552,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1662,9 +1594,9 @@
       "PaperNumber": "14150-337",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1688,7 +1620,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1696,9 +1628,9 @@
       "PaperNumber": "14149-463",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1722,15 +1654,83 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Shutaro Ueda, Yasuhiro Shoji, Daisuke Yonetoku, Tatsuya Sawano, Makoto Arimoto, Shoya Matsuda, Yoshiyuki Ando, Ryota Heibatake, Sohei Kawashima, Kaito Ozawa, Kimiyoshi Ichikawa, Norio Tokuda",
+      "PaperNumber": "14146-321",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "2b1c9a7f-10d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "2b1c9a7f-10d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "KSAT3-X01: a 3U-size CubeSat mission for exploring charged particles in the Earth's magnetosphere with diamond detectors",
+      "Description": null,
+      "Abstract": "We present a concept of the KSAT3-X01 project led by Kanazawa University. KSAT3-X01 is a 3U-size CubeSat mission planning for launch in 2027, aiming to explore charged particles in the Earth's magnetosphere with diamond detectors developed by Kanazawa University. Observations of charged particles, including electrons, protons, and ions, in the Earth's magnetosphere have revealed that an amount of charged particles is escaped from the Earth's magnetosphere. However, mechanism(s) to accelerate such particles remains unclear. In addition, it is challenging to measure the population of lower-energy particles at a few 10 keV. To address these problems, we have been developing our diamond detectors onboard KSAT3-X01. We measure the X-ray spectroscopic performance of the diamond detectors to evaluate signal charge corrections inside the diamond with several radioisotopes such as 241Am, 133Ba, and 109Cd. We find that our diamond detectors can detect X-rays above at least 10 keV.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/KSAT3-X01--a-3U-size-CubeSat-mission-for-exploring/14146-321",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Rosario Cosentino, Luca Di Fabrizio, Guillermo González-de-Rivera, Álvaro Quintana, Marcos Hernández Díaz, Luis Riverol, Héctor Ventura Perez, Manuel González, Carmen Vélez, Kashif Buland, Juan Antonio Leñero Bardallo, Sergio López-Buedo, Ángel Rodríguez-Vázquez, Enrique Pérez, Ester Amou-Loumagne, Robert Content, Adriano Ghedina, Francisco Prada",
+      "PaperNumber": "14149-423",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "4315532c-91ce-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "4315532c-91ce-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "La Palma Quantum Interferometer (LPQI): integrated cryogenic SPAD camera head with thermal validation and FPGA-based acquisition architecture",
+      "Description": null,
+      "Abstract": "We present the latest developments of the LPQI SPAD sensor module, designed as a compact, thermally stabilized platform integrating the SPAD array, the readout FPGA, and the cooling system on a single PCB. A dedicated cryogenic chamber was characterized using the operational detector board, validating the Peltier-based thermal architecture with stable −20 °C operation and <±0.1 °C fluctuations under simulated 0–3 W loads. In parallel, the FPGA acquisition chain demonstrated reliable handling of asynchronous SPAD events, fine timestamping, and sub-nanosecond synchronization when disciplined by a White Rabbit clock. These results confirm the readiness of the integrated module for the upcoming electro-optical tests, including photon detection efficiency, dark count rate, and full timing performance.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/La-Palma-Quantum-Interferometer-LPQI--integrated-cryogenic-SPAD-camera/14149-423",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2925,
+  "Count": 2922,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 696011
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696015
 }

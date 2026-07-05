@@ -26,149 +26,13 @@
   },
   "Items": [
     {
-      "Authors": "Mathieu Motte, Vincent Chambouleyron, Romain Fétick, Thierry Fusco, Benoît Neichel, Cedric Taïssir Heritier, Jean-François Sauvage, Nicolas Blind, Christophe Lovis",
-      "PaperNumber": "14150-301",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "9d14f9b6-29d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "9d14f9b6-29d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Theory, simulation, and correction of the atmospheric chromatic refraction effect on XAO instrument",
-      "Description": null,
-      "Abstract": "The RISTRETTO instrument aims for the observation and characterisation of the atmosphere of the exoplanet Proxima b. This requires an extreme adaptive optics system. At such a level of performance, finer effects emerge. One such phenomenon is the chromatic pupil shift (CPS). This is directly due to the chromatic refraction effect in the atmosphere. Usually, in astronomy, the wavefront sensing is performed at wavelengths different from those of the science path. Due to refraction, the light at the WFS wavelength does not follow the same atmospheric path as that at the science wavelength and therefore experiences slightly different turbulence, inducing an imperfect estimation and a small residual error in the correction.  We propose a direct theoretical model to quantify the impact of CPS on the XAO error budget for instruments such as RISTRETTO, confirm this model through simulations, and provide methods to measure and correct this effect",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Theory-simulation-and-correction-of-the-atmospheric-chromatic-refraction-effect/14150-301",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "David Smith, Tomasz Lis, Joshua Hopson, Conrad Wells, Bijan Nemati, H. Philip Stahl",
-      "PaperNumber": "14145-252",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "0399aa13-b3d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "0399aa13-b3d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Thermal Modulation Test (TMT) method and recent results in the mini-Precision Thermal Control (PTC) testbed",
-      "Description": null,
-      "Abstract": "Habitable Worlds Observatory (HWO) requires picometer wavefront stability to detect and characterize Earth-like exoplanets using a coronagraph. Critical to this need is thermo-optical stability of the primary mirror assembly. MSFC’s Center for Mirror System Characterization and Acceptance Testing has developed a thermal modulation test (TMT) that measures a mirror’s thermal transfer function with high SNR even in relatively noisy environments by leveraging coherent averaging and large modulation amplitudes and have demonstrated fractional errors lower than 1 pm/mK in initial tests. Additionally, MSFC has build an 80-cm mini-PTC (Precision Thermal Control) testbed with 25-zones of active thermal control. These advances provide a robust path for validating HWO-class stability models.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Thermal-Modulation-Test-TMT-method-and-recent-results-in-the/14145-252",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Matthew East, Emily Lunde, Peter Miller, Christopher R. Sullivan, Josh Johnson, Scott Paine",
-      "PaperNumber": "14154-279",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "23639b5d-87d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "23639b5d-87d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Thermal testing of stable telescope mirrors",
-      "Description": null,
-      "Abstract": "Detecting Earth-like exoplanets requires telescope stability at millikelvin and picometer levels. Under NASA's Critical Technologies for Large Telescopes effort for the Habitable Worlds Observatory, we report Mini-MUST thermal-forcing tests of lightweight and heavyweight mirror architectures in the NASA GSFC Ultra-Stable Structures Laboratory. Front- and back-side sinusoidal thermal stimuli (10-hour, 3-hour, 1-hour, and 20-minute bands) were applied under repeatable conditions to assess thermal transfer (primary objective) and optical transfer (secondary objective). Model-test agreement is strongest for back-side forcing, while front-side coupling is lower and consistent with coated-surface emissivity effects. Lightweight mirrors generally show larger response amplitude than heavyweight mirrors. Optical baseline data remain noise-floor limited, but a repeatable front-side addendum candidate of about 62 pm RMS is encouraging for future large-scale HWO stability testing.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Thermal-testing-of-stable-telescope-mirrors/14154-279",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "J. Duane Gibson, William Goble, Kenneth Duffek, Dallan Porter, Jerome Musselman, Thomas Gansheimer",
-      "PaperNumber": "14155-175",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "cae6bca5-2fc2-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "cae6bca5-2fc2-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Time- and frequency-domain analysis of telescope mount tracking data at the MMTO",
-      "Description": null,
-      "Abstract": "High-resolution telemetry data (100 Hz) from the MMT Observatory telescope mount, including altitude, azimuth, and rotator axes, are analyzed in the time and frequency domains to evaluate tracking performance. Data are sampled for 2 minutes every 10 minutes during active observing. Using Python tools, including Welch power spectral density (PSD) estimates, data are evaluated over multiple years across various telescope configurations (secondary mirrors, instruments, counterweight settings). The analysis employs dual methods: time-domain standard deviation regression and frequency-domain PSD analysis, with directional separation to distinguish upward/downward motion in elevation and clockwise/counterclockwise motion in azimuth and rotation. Results indicate overall smooth tracking, with identifiable trends suggesting possible operational improvements. These tools help assess how environmental and mechanical factors impact tracking performance, supporting future upgrades.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Time--and-frequency-domain-analysis-of-telescope-mount-tracking/14155-175",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Lisa-Marie Mazzolo, Benoit Neichel, Guido Agapito, Arseniy Kuznetsov, Fabio Rossi, Cédric Plantet, Carlo Felice Manara, Romain Fetick, Alice Concas, Joël Vernet, Olivier Hainaut, Thomas Bierwirth, Giulia Carlà, Jean-Francois Sauvage, Michele Cirasuolo, Carlos Correia, Cédric Taissir Héritier, Thierry Fusco",
       "PaperNumber": "14150-303",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -192,7 +56,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -200,9 +64,9 @@
       "PaperNumber": "14145-258",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -226,7 +90,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -234,9 +98,9 @@
       "PaperNumber": "14145-223",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -260,7 +124,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -302,9 +166,9 @@
       "PaperNumber": "14150-325",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -328,7 +192,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -370,9 +234,9 @@
       "PaperNumber": "14151-120",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -396,7 +260,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -404,9 +268,9 @@
       "PaperNumber": "14151-126",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -430,7 +294,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -438,9 +302,9 @@
       "PaperNumber": "14149-317",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -464,7 +328,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -472,9 +336,9 @@
       "PaperNumber": "14155-181",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -498,7 +362,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -506,9 +370,9 @@
       "PaperNumber": "14150-321",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -532,7 +396,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -540,9 +404,9 @@
       "PaperNumber": "14145-234",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -566,7 +430,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -574,9 +438,9 @@
       "PaperNumber": "14155-160",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -600,7 +464,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -642,9 +506,9 @@
       "PaperNumber": "14149-363",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -668,7 +532,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -676,9 +540,9 @@
       "PaperNumber": "14149-365",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -702,7 +566,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -710,9 +574,9 @@
       "PaperNumber": "14149-318",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -736,7 +600,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -744,9 +608,9 @@
       "PaperNumber": "14154-355",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -770,7 +634,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -846,9 +710,9 @@
       "PaperNumber": "14149-335",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -872,7 +736,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1692,7 +1556,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Bruno Maffei, Nabila Aghanim, Jonathan Aumont, Alexandre Beelen, Anaïs Besnard, Bruno Borgo, Ivan Charles, Jens Chluba, Xavier Coulon, Francesco Cuttaia, Paolo de Bernardis, Clémence De Jabrun, José Javier Díaz García, Jean-Marc Duval, Giulio Fabbian, Lorenza Ferrari, Fabio Finelli, Thomas Gascard, Alan J. Kogut, Guilaine Lagache, Morgane Loquet Le Gall, Sylvain Martin, Silvia Masi, Alessandro Monfardini, Louise Mousset, Créidhe O'Sullivan, Luca Pagano, Giampaolo Pisano, Nicolas Ponthieu, Vincent Revéret, Louis Rodriguez, José Alberto Rubiño-Martín, Valentin Sauvage, Giorgio Savini, Ana Isabel Silva Martins, Locke Spencer, Andrea Tartari, Neal Trappe, Duncan Watts, Berend Winter",
+      "Authors": "Bruno Maffei, Nabila Aghanim, Valentin Sauvage, Morgane Loquet Le Gall, Xavier Coulon, Bruno Borgo, Clémence De Jabrun, Anaïs Besnard, Sandrine Couturier, Créidhe O'Sullivan, Neal Trappe, Sylvain Martin, Ivan Charles, Jens Chluba, Giorgio Savini, Francesco Cuttaia, Luca Terenzi, José Javier Díaz García, José Alberto Rubiño-Martín, Luca Pagano, Lorenza Ferrari, Alessandro Monfardini, Giampaolo Pisano, Alan J. Kogut, Thomas Gascard, Locke Spencer, Andrea Tartari, Jonathan Aumont, Elia Battistelli, Alexandre Beelen, Paolo de Bernardis, Jean-Marc Duval, Giulio Fabbian, Fabio Finelli, Guilaine Lagache, Silvia Masi, Louise Mousset, Nicolas Ponthieu, Vincent Revéret, Louis Rodriguez, Ana Isabel Silva Martins, Duncan Watts, Berend Winter",
       "PaperNumber": "14156-39",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1588,149 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 11:10 - 11:30 CEST | Room B5-M3",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Siddharth Maharana, Chris Dennison-Farrar, Sabyasachi Chattopadhyay, Nikita Rawat, Nidhi Mehandiratta, JC Viljoen, Matthew Bershady, David Buckley, Lisa Crause, Hitesh Gajjar, Stephen Potter",
+      "PaperNumber": "14149-63",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 11:10 - 11:30 CEST | Auditorium 15",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "634c0038-a4ce-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "634c0038-a4ce-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Commissioning and on-sky performance of FiberPol: a fiber-fed spectropolarimetric system for the SAAO 1.9 m telescope",
+      "Description": null,
+      "Abstract": "FiberPol is a compact, low-cost fiber-fed spectropolarimetric front-end for the SpUpNIC long-slit spectrograph on the SAAO 1.9-m telescope, built to make high-accuracy spectropolarimetry more accessible and easily adaptable to other facilities, including 10m SALT. Implemented as a modular add-on within the existing acquisition box, it uses mainly commercial off-the-shelf components. A rotating half-wave plate, Wollaston prism and custom three-fiber system in a reducer–fiber–expander layout perform dual-beam polarimetry and deliver Stokes I, q and u over 380–800 nm. Key challenges included controlling fiber-induced systematics and adhering to stringent volume limitations. Commissioned in early 2025, FiberPol already achieves 0.2–0.3% accuracy in q and u in 5 nm bins with a preliminary pipeline and is on track to reach its 0.1% design goal. Planned upgrades include higher throughput, internal calibration/acquisition optics and IFU or multi-object modes.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Commissioning-and-on-sky-performance-of-FiberPol--a-fiber/14149-63",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 11:10 - 11:30 CEST | Auditorium 15",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Florian Ferreira, Arnaud Sevin, Paul Fontanillas, Jordan Raffard, Bartomeu Pou, Julien Bernard, Nicolas Doucet, Damien Gratadour",
+      "PaperNumber": "14155-64",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 11:10 - 11:30 CEST | Room B4-M7",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "552d86c4-53d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "552d86c4-53d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "COSMIC: a modern scalable framework for real-time adaptive optics control on astronomical instruments",
+      "Description": null,
+      "Abstract": "COSMIC is a comprehensive software framework developed for next-generation adaptive optics real-time control systems on large astronomical telescopes. The architecture comprises: OCTOPUS, an Inter-Process (IPC) abstraction layer built on the CACAO/MILK shared memory infrastructure with CUDA-enabled interfaces; MARLIN, a C++/CUDA task-based RTC engine enabling reconfigurable real-time pipelines; KRAKEN, a Python-based controller providing dynamic pipeline configuration and high-level AO control; TIDES (Telemetry Interface and Data Exchange System), handling real-time telemetry streaming; COMPASS (COMputing Platform for Adaptive optics SystemS), a GPU-accelerated end-to-end AO simulation tool. Recent developments have focused on several key areas: (1) Machine Learning integration; (2) Hardware flexibility; (3) End-to-end simulation interface with the RTC for functional tests; (4) Deployment automation; and (5) Modern monitoring interfaces.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/COSMIC--a-modern-scalable-framework-for-real-time-adaptive/14155-64",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 11:10 - 11:30 CEST | Room B4-M7",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Iva Laginja, Pierre Baudoz, Axel Potier, Johan Mazoyer, Raphaël Galicher, Emiel H. Por, Rémi Soummer, Arnaud Sevin, Erin Pougheon, Corentin Paviot, David Doelman, Rico Landman, Frans Snik, Felix Bettonvil, Jeroen Rietjens, Chris van Dijk, Kristien Peeters, Alexander Eigenraam, Mariya Krasteva, Matteo Taccola",
+      "PaperNumber": "14145-70",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 11:10 - 11:30 CEST | Room B4-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "2aed987a-fcbb-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "2aed987a-fcbb-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "First high-contrast results on THD2 testbed after infrastructure upgrade",
+      "Description": null,
+      "Abstract": "We present the first scientific results by the upgraded THD2 high-contrast imaging testbed. First, for the Nancy Grace Roman Space Telescope, we demonstrate how single-actuator probes outperform the baseline sinc probes by reducing non-linearities, supporting higher probe amplitudes, and improving electric-field estimation. These results led to their prioritisation as an enhanced commissioning mode for Roman. Second, within ESA’s SUPPPPRESS project, we test new polarization-independent Vector Vortex Coronagraphs designed to achieve contrasts approaching 1e-10 over >20% bandwidth in simulations. We assess their behavior on the testbed in narrow- and broadband light with active focal-plane wavefront control. Together, these results show how THD2 strengthens Europe’s capability in high-contrast imaging, providing a unique platform reaching contrasts of 1e-8 to 1e-9 for developing next-generation coronagraphic technologies.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/First-high-contrast-results-on-THD2-testbed-after-infrastructure-upgrade/14145-70",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 11:10 - 11:30 CEST | Room B4-M3",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Julien Drevon, Margaux Abello, Florentin Millour, Anthony Meilland, Armando Domiciano",
+      "PaperNumber": "14148-42",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 11:10 - 11:30 CEST | Room B4-M5",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "a82efa81-d2af-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "a82efa81-d2af-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "PYRA and MYTHRA: new statistical analysis for image reconstruction",
+      "Description": null,
+      "Abstract": "Optical interferometry combined with 4 beam-combiner instruments achieves sub-milliarcsecond resolution using the VLTI, allowing detailed imaging of complex astrophysical environments. Reconstructing such images from interferometric observables like visibilities and closure phases requires sophisticated algorithms such as the one provided in the MiRA, SQUEEZE, IRBis, and SPARCO. However, statistical assessment of reconstructed images remains challenging.  We present PYRA and MYTHRA, two Python wrappers designed to make image reconstruction analysis more intuitive, automated, and statistically robust. These tools combine multiple reconstructions to produce a final statistically weighted image, enabling reliable confirmation of observed structures. PYRA/MYTHRA drastically reduce analysis time (from weeks to under an hour) and are now official MiRA companion tools, already adopted in several published studies.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/PYRA-and-MYTHRA-new-statistical-analysis-for-image-reconstruction/14148-42",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 11:10 - 11:30 CEST | Room B4-M5",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2925,
+  "Count": 2922,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 696011
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696015
 }

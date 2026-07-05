@@ -26,142 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Giorgio Savini, Peter A.R. Ade, Peter Hargrave, Alexey Shitvov, Carole Tucker, Giampaolo Pisano, Jin Zhang",
-      "PaperNumber": "14156-42",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 14:10 - 14:30 CEST | Room B5-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "798cf29c-69d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "798cf29c-69d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "A novel metamaterial telescope technology for broadband mm-wave refractive observations",
-      "Description": null,
-      "Abstract": "In this paper we present a novel metamaterial telescope composed exclusively of thin, flat elements, each being a tested hot-pressed photo-lithographic structure combining the properties of a lens, tuned anti-reflection and frequency selection or filtering.   We discuss the design process from ab-initio physical metamaterial properties of the single periodic cell structure to the  lens concept which constitutes the building block of the telescope design and the iterative process that is part of the lens optimization.   We discuss the results of a testing campaign using the single lens elements for different telescope designs showing on- and off-axis performance.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/A-novel-metamaterial-telescope-technology-for-broadband-mm-wave-refractive/14156-42",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 14:10 - 14:30 CEST | Room B5-M3",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Elsa Huby, Sébastien Vievard, Sylvestre Lacour, Olivier Guyon, Manon Lallement, Mathias Nowak, Yoo Jung Kim, Aidan Walk, Jehanne Sarrazin, Sergio Leon-Saval, Christopher Betters, Julien Lozi, Miles Lucas, Vincent Deo, Michael Fitzgerald, Barnaby Norris, Thayne Currie, Guy Perrin",
-      "PaperNumber": "14149-69",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 14:10 - 14:40 CEST | Auditorium 15",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "ec9936a1-b2ce-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "ec9936a1-b2ce-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "FIRST-PL: On-sky commissioning of a visible photonic lantern for high angular resolution spectro-imaging on Subaru/SCExAO",
-      "Description": null,
-      "Abstract": "FIRST-PL is a post-ExAO instrument on the SCExAO platform at the Subaru Telescope, to be commissioned early 2026. The PL is a multi-mode fiber transitioning into 19 single-mode fibers, placed in the focal plane to couple the telescope beam efficiently. The 19 outputs are imaged and dispersed at a spectral resolution of 3000 over 630–790 nm. The PL response depends on the input wavefront, producing distinct flux distributions for an on-axis star and an off-axis companion. By calibrating this spatial response and inverting the model, images can be reconstructed at each spectral channel, enabling integral-field capabilities at very high angular resolution. Several observing modes are offered, enabling ultra-precise spectro-astrometry on the Halpha line and image reconstruction, including Halpha differential imaging. We will present the on-sky demonstration of FIRST-PL, covering sensitivity and contrast limits as well as the expected performance for each of these observing modes.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/FIRST-PL--On-sky-commissioning-of-a-visible-photonic/14149-69",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 14:10 - 14:40 CEST | Auditorium 15",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Francesco Berrilli, Luca Giovannelli, Dario Del Moro, Archana Giri Nair, Letizia Casara, Matteo Cantoresi, Valerio Di Tana, Francesco Iovanna, Antonio Turi, Laura Marcelli, Marco Casolino, Enzo Reali, Fabio Curti, Mark Anthony De Guzman, Alessandro Rossi, Matteo Marmonti, Massimiliano Musazzi, Matteo Cilia, Alessandro Turchi, Daniele Urban, Silvia Natalucci, Simone Illiano, Rita Carpentiero, Elisabetta Cavazzuti, Alberto Fedele, Alessio Di Salvo",
-      "PaperNumber": "14146-86",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 14:10 - 14:30 CEST | Room B4-M1",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "0b13f5ab-76d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "0b13f5ab-76d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "SEE: a CubeSat to study solar activity and space weather",
-      "Description": null,
-      "Abstract": "The Sun cubE onE (SEE) is a 12U CubeSat mission in LEO that will investigate UV solar emission and Gamma and X-ray fluxes to support studies in Sun-Earth interaction and Space Weather. The mission's development, part of the Italian Space Agency's ALCOR program, is handled by a team that includes the University of Rome Tor Vergata, Sapienza University, INFN, Argotec, Optec, and NEXT. SEE's objective is to monitor the emission of solar flares, from soft-X to Gamma rays, and the solar activity through images of the Sun in the Mg II doublet (280 nm). SEE mission will study Gamma and X-ray fluxes with unprecedented temporal resolution and a multi-wavelength approach, utilizing combined silicon photodiode and SiPM-based detectors. The payload will explore the flare spectrum from the keV to MeV range at a high cadence of over 10 kHz. Additionally, a UV telescope will observe the evolution of solar disk UV emission throughout part of the solar cycle and during flares.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/SEE--a-CubeSat-to-study-solar-activity-and-space/14146-86",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 14:10 - 14:30 CEST | Room B4-M1",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Matthew C. DeMartino, Kevin Bundy, Stephen Eikenberry, Aditya Sengupta, Anna Gagnebin, Avi Patel, Tara Crowe, Caleb Dobias, Rodrigo Amezcua Correa, Stephanos Yerolatsitis, Holger Schmidt",
-      "PaperNumber": "14154-89",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 14:15 - 14:30 CEST | Room B2-M4",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "737fc53f-77d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "737fc53f-77d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Neural-network spectral reconstruction with photonic lanterns",
-      "Description": null,
-      "Abstract": "We investigate photonic lanterns as compact, fiber-based spectrometers, using neural networks to reconstruct spectra from single-mode output intensity patterns. Unlike conventional dispersive optics, our approach directly maps lantern outputs to input spectra via a PyTorch feedforward network with residual connections. A testbed with near-monochromatic light and reference spectra enabled training on multi-feature inputs. In the optical regime (650–700 nm), single-feature reconstructions achieved correlations near 0.99; multi-feature cases with two components reached 0.50–0.60, with greater variability for six features due to limited training data. Extending to short-wave infrared (1300–1450 nm), results remained comparable despite detector noise. These findings demonstrate the feasibility of lantern-based spectroscopy and establish a framework for neural-network spectral reconstruction, with future work focused on larger datasets and improved architectures.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Neural-network-spectral-reconstruction-with-photonic-lanterns/14154-89",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 14:15 - 14:30 CEST | Room B2-M4",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Erin Holdorf, Noelia Martínez Rey, Jesse Cranney, Domenico Bonaccini-Calia",
       "PaperNumber": "14150-80",
       "DateTimeLocationDataList": [
@@ -842,6 +706,40 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Bradley Frank, Younes Chahid, Chris Waring, Amna Waris, Robert Beswick, Louise Chisholm, Chris Pearson",
+      "PaperNumber": "14155-42",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 15:00 - 15:20 CEST | Room B4-M7",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "7e38f1bc-60d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "7e38f1bc-60d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Enabling AI in Astronomy: Platforms and Prototypes Across the UK’s Scientific and Instrumentation Landscape",
+      "Description": null,
+      "Abstract": "This paper details two UK STFC studies crucial for accelerating AI adoption in astronomy, addressing the complexity of next-generation facilities like SKA.    The first study focused on technical prototypes, resulting in four ML applications for instrumentation: optimized optomechanical design, real-time adaptive optics control, hardware-in-the-loop testing, and novel radio astronomy data processing.    The second study produced a strategic report based on stakeholder engagement and use-case analysis. This report identifies enabling platforms and provides policy guidance, ensuring sustainable AI deployment that adheres to FAIR data requirements.    We present key technical outcomes and critical lessons learned in both software engineering and project management, outlining a necessary roadmap to integrate these ML solutions into robust, production-grade cyberinfrastructure for the UK community.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Enabling-AI-in-Astronomy--Platforms-and-Prototypes-Across-the/14155-42",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 15:00 - 15:20 CEST | Room B4-M7",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Olivier Guyon, Naoshi Murakami, Taro Matsuo, Keigo Enya, Satoshi Itoh, Masayuki Kuzuhara, Jun Nishikawa, Julien Lozi, Sebastien Vievard, Takayuki Kotani, Mona El Morsy, Hajime Kawahara, Manon Lallement, Sandrine Juillard, Jared Males, Michael Bottom, Yoo Jung Kim, Elsa Huby, Nemanja Jovanovic, Michael Fitzgerald, Sylvestre Lacour, Guillermo Martin, Sergio Leon-Saval, Peter Tuthill, Barnaby Norris, Simon Gross, Ruslan Belikov",
       "PaperNumber": "14145-79",
       "DateTimeLocationDataList": [
@@ -1352,40 +1250,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Ashley Thomas Barnes, Juan Manuel Carmona-Loaiza, Alberto Micol, Martino Romaniello, Stefano Zampieri, Vincenzo Forchì, Diego Rodriguez Mancini, Miguel Vioque, Paula Sánchez-Sáez",
-      "PaperNumber": "14155-72",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 15:50 - 16:10 CEST | Room B4-M7",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "0c3dd8c0-44cc-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "0c3dd8c0-44cc-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Evolving programmatic access to the ESO science archive: from astroquery workflows to natural-language interfaces",
-      "Description": null,
-      "Abstract": "The ESO Science Archive now supports a richer ecosystem for programmatic access, built around TAP services, the astroquery package, and curated Jupyter notebooks. I will show how recent and planned developments in astroquery.eso and related tools enable common archive tasks — from download-by-programme-ID to multi-mission cross-matching — within a single, reproducible Python environment and a common API shared across multiple observatories. I will also outline an outlook in which natural-language interfaces form a new “bottom rung” of this access ladder, allowing users to ask questions in plain language and obtain concrete datasets and scripts without needing prior experience with ADQL, astroquery, or the Science Archive Portal.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Evolving-programmatic-access-to-the-ESO-science-archive--from/14155-72",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 15:50 - 16:10 CEST | Room B4-M7",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Katherine Elder, Paul Demorest",
       "PaperNumber": "14153-53",
       "DateTimeLocationDataList": [
@@ -1556,8 +1420,8 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Nuwanthika Fernando, Brent Miszalski, Nuria Lorente, Anthony Horton",
-      "PaperNumber": "14155-73",
+      "Authors": "Ashley Thomas Barnes, Juan Manuel Carmona-Loaiza, Alberto Micol, Martino Romaniello, Stefano Zampieri, Vincenzo Forchì, Diego Rodriguez Mancini, Miguel Vioque, Paula Sánchez-Sáez",
+      "PaperNumber": "14155-72",
       "DateTimeLocationDataList": [
         {
           "date_time_location": "9 July 2026 • 16:10 - 16:30 CEST | Room B4-M7",
@@ -1571,18 +1435,18 @@
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
       "MatchingFrag": "",
-      "UniqueId": "fb243686-9bd0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "fb243686-9bd0-f011-a9ad-005056914f1c",
+      "UniqueId": "0c3dd8c0-44cc-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "0c3dd8c0-44cc-f011-a9ad-005056914f1c",
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "MAVIS- Final design of the data reduction pipeline",
+      "Title": "Evolving programmatic access to the ESO science archive: from astroquery workflows to natural-language interfaces",
       "Description": null,
-      "Abstract": "MAVIS is the MCAO Assisted Visible Imager and Spectrograph, the first MCAO-facility instrument planned for the VLT which will provide a near diffraction-limited view of the visible wavelength. We present the final design for the Data Reduction Pipeline of the instrument, and describe the prototyping for the design of calibration methods and dataflows. For the spectrograph calibrations, the geometry of the slices is determined using a series of moving pinhole mask exposures. Prototyping the geometry recipe resulted in the change to the pinhole mask design. This also confirmed the need for etalons for the wavelength calibration, to achieve required accuracies in the low resolution blue mode. Early prototyping of the DRS has been beneficial to the design of the entire instrument. The critical algorithms used ESO’s PyCPL libraries, the GNU Scientific Library, and data workflows at each stage were drafted using the new EDPS (ESO Data Processing System) libraries.",
+      "Abstract": "The ESO Science Archive now supports a richer ecosystem for programmatic access, built around TAP services, the astroquery package, and curated Jupyter notebooks. I will show how recent and planned developments in astroquery.eso and related tools enable common archive tasks — from download-by-programme-ID to multi-mission cross-matching — within a single, reproducible Python environment and a common API shared across multiple observatories. I will also outline an outlook in which natural-language interfaces form a new “bottom rung” of this access ladder, allowing users to ask questions in plain language and obtain concrete datasets and scripts without needing prior experience with ADQL, astroquery, or the Science Archive Portal.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/MAVIS--Final-design-of-the-data-reduction-pipeline/14155-73",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Evolving-programmatic-access-to-the-ESO-science-archive--from/14155-72",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1724,13 +1588,149 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 16:20 - 16:40 CEST | Room B4-M1",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Miska Le Louarn, Jose Acosta-Pulido, Julio A. Castro-Almazán, Donaji Esparza-Arredondo, Maria Begoña García-Lorenzo, Johann Kolb, Angel C. Otarola, Jerome Paufique, Camila de Sa Freitas",
+      "PaperNumber": "14150-86",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 16:20 - 16:35 CEST | Room B3-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "be410815-33b6-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "be410815-33b6-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Comparing turbulence outer scale measurements on-sky between LGS-WFS data and MUSE image-cubes at the VLT",
+      "Description": null,
+      "Abstract": "The Outer scale of turbulence (L0) will play a significant role in the performance of Adaptive Optics (AO) instruments at the ELT, especially those based on laser guide stars (LGS), through the distribution of turbulent power in the low order modes. It is therefore important to understand this parameter. In this contribution, we present results from a measurement campaign at the Very Large Telescope (VLT) at Paranal Observatory to measure simultaneously the outer scale through two independent methods. The first method is based on LGS wavefront sensor measurements, using the AO facility (AOF). The second method relies on the variation of image quality (IQ) with wavelength at the focal plane of the MUSE Integral Field Spectrograph (IFS) in its Wide Field Mode (MUSE-WFM). We compare the L0 values obtained through the two methods, using different AO modes. With weak Tip-Tilt (TT) correction we find a good correlation between the two methods, giving confidence in their accuracy.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Comparing-turbulence-outer-scale-measurements-on-sky-between-LGS-WFS/14150-86",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 16:20 - 16:35 CEST | Room B3-M2",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Kenichi Karatsu, Shahab Dabironezare, Louis Marting, Leon Olde Scholtenhuis, Daniela Perez Capelo, David Thoen, Alejandro Pascual Laguna, Sten Vollebregt, Akira Endo, Jochem Baselmans",
+      "PaperNumber": "14156-48",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 16:20 - 16:40 CEST | Room B5-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "c114f738-61cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "c114f738-61cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Development of broadband spectro-polarimetric arrays for next-generation CMB observations",
+      "Description": null,
+      "Abstract": "A new spectro-polarimeter array has been developed for next-generation Cosmic Microwave Background (CMB) instruments. The design features 14 spatial pixels, each consisting of a polarization-separating broadband leaky-wave lens-antenna, with each single-polarization output connected to a high-sensitivity, low-resolution 22-channel mm/sub-mm on-chip filterbank operating in a frequency range from 135–270 GHz. The device uses kinetic inductance detectors (KIDs) to detect the power in each spectral band. The array with ~600 KIDs was fabricated and measured, demonstrating a cross-polarization level lower than –15 dB and an averaged filter peak efficiency of 67%. The design is compact and scalable towards larger arrays. The results show promise for achieving a large-format spectro-polarimetric focal plane array for future CMB instruments.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-broadband-spectro-polarimetric-arrays-for-next-generation-CMB/14156-48",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 16:20 - 16:40 CEST | Room B5-M3",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Felix A. Dannert, Philipp A. Huber, Romain Laugier, Thomas Birbacher, Jonah T. Hansen, Adrian M. Glauser, Quanz P. Sascha",
+      "PaperNumber": "14148-51",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 16:20 - 16:40 CEST | Room B4-M5",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "0b6a061d-34d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "0b6a061d-34d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The impact of instrumental perturbations on exoplanet yields for the LIFE Space Mission",
+      "Description": null,
+      "Abstract": "Exoplanet yield estimates used to assess the scientific return of future high-contrast imaging missions systematically underestimate mission risks, because they do not explicitly include instrumental systematics. For the first time, and in the context of the Large Interferometer For Exoplanets (LIFE), we quantify how instrument perturbations propagate into the yield estimates, which allows us to put robust requirements on instrument stability. Beyond nulling interferometry, this framework could offer a pathway towards addressing similar open questions for future single aperture telescopes, where stability is known to play an equally important role.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-impact-of-instrumental-perturbations-on-exoplanet-yields-for-the/14148-51",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 16:20 - 16:40 CEST | Room B4-M5",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Leanne P. Guy, Connor Yablonski, Aaron Meisner, Guillem Megias Homar, Merlin Fisher-Levine, Eman E. Ali, Tiger J. Hu, Christopher W. Stubbs",
+      "PaperNumber": "14151-51",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 16:30 - 16:50 CEST | Room B2-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "62177a0c-11cb-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "62177a0c-11cb-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Development of a Retrieval-Augmented Generation Chatbot for Enhanced Information Discovery at Rubin Observatory",
+      "Description": null,
+      "Abstract": "The Vera C. Rubin Observatory’s LSST will produce petabytes of data supported by a large, heterogeneous set of technical documents, operational guides, and scientific notes. Because this material is distributed across numerous platforms and formats, including internal systems, users and general-purpose language models often find it difficult to locate reliable Rubin-specific information. To address this, we developed a Retrieval-Augmented Generation (RAG) virtual assistant that provides context-aware, factual access to Rubin’s documentation ecosystem. The system aggregates content from multiple sources and performs semantic search through a conversational interface, using Weaviate for embeddings, LangChain for query orchestration, and an OpenAI GPT model as the LLM backend. Grounding responses in domain-specific knowledge reduces hallucinations, improves accuracy, and demonstrates the potential of RAG to streamline workflows and support effective use of LSST data products.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-a-Retrieval-Augmented-Generation-Chatbot-for-Enhanced-Information/14151-51",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 16:30 - 16:50 CEST | Room B2-M2",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2925,
+  "Count": 2922,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 696011
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696015
 }

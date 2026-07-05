@@ -26,108 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Clémentine Béchet, Éric Thiébaut, Michel Tallon, Isabelle Tallon-Bosc, Bernard Gelly, Richard Douet",
-      "PaperNumber": "14150-97",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 11:40 - 11:55 CEST | Room B3-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "756216df-62d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "756216df-62d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Self-calibration of an adaptive optics system and its application to THEMIS solar telescope",
-      "Description": null,
-      "Abstract": "Since 2021, THEMIS solar telescope (Spain) is equipped with an adaptive optics (AO) system developed by the Airi team at CRAL. This led us to revisit AO calibration in the working conditions of the AO system and with original features. Random probing commands are sent to the deformable mirror in open or close-loop at the AO loop framerate to fit an affine model of the system by weighted least-squares. Equations are analyzed to compare estimates directly from the data to estimates using the difference of two successive data (differential data) which reduces the variance of the nuisance. Differential data methods include widely spread push-pull calibration, although we show that differential data can be used generally without push-pull sequence. In addition, simple updating rules compatible with large AO systems are derived from a generalisation of the Recursive Least Squares. Finally, we review the benefits of this approach from data registered on the Sun with THEMIS.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Self-calibration-of-an-adaptive-optics-system-and-its-application/14150-97",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 11:40 - 11:55 CEST | Room B3-M2",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Melissa Pesce-Rollins, Hamish Reid, Daniel Ryan, Alexander Warmuth, Samuel Krucker, Philippe Laurent, Olivier Limousin, Jake Mitchell, Albert Y. Shih, Nicole Vilmer, Andrea Battaglia, Shane Maloney, Sophie Musset, Hakan Onel, Anna Driutti",
-      "PaperNumber": "14146-103",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 11:40 - 12:00 CEST | Room B4-M1",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "cc5cdb9b-66cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "cc5cdb9b-66cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The Large Area Spectrometer for Solar Accelerated Nuclei (LASSAN): a next-generation solar gamma-ray spectroscopic instrument concept",
-      "Description": null,
-      "Abstract": "We present the Large Area Spectrometer for Solar Accelerated Nuclei (LASSAN), one of two instruments on the Solar Particle Acceleration Radiation and Kinematics (SPARK) mission, currently in Step 2 of ESA’s M-class Mission Opportunity 2025. LASSAN provides spectroscopy from 40 keV to 100 MeV on ≤10 s timescales and offers over 40 times the effective area of previous instruments such as RHESSI, enabled by high-resolution pixelated gadolinium–aluminum–gallium garnet (GAGG) scintillator detectors. Its large effective area and high spectral resolution will, for the first time, enable routine simultaneous detection of bremsstrahlung, nuclear de-excitation lines, and pion-decay emission on sub-10 s timescales. These measurements will constrain electron and ion spectra, composition, timing, and energy content across hundreds of flares, addressing key open questions on solar particle acceleration and the origins of space-weather disturbances",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Large-Area-Spectrometer-for-Solar-Accelerated-Nuclei-LASSAN/14146-103",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 11:40 - 12:00 CEST | Room B4-M1",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Kathleen Harrington, The Simons Observatory Collaboration",
-      "PaperNumber": "14156-60",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 11:40 - 12:00 CEST | Room B5-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "12adab2c-87d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "12adab2c-87d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The Simons Observatory: on-sky noise performance of the small aperture telescopes",
-      "Description": null,
-      "Abstract": "The Simons Observatory (SO) is a next generation cosmic microwave background (CMB) experiment now operating in the Chilean Atacama Desert. The initial SO configuration includes three 0.5-meter Small Aperture Telescopes (SATs) that are targeting observations of the larger angular scales of the CMB polarization anisotropy in a search for the B-mode polarization signature that would indicate the presence of inflation-sourced primordial gravitation waves. Each SAT contains over 12,000 transition edge sensor detectors; the two Mid-frequency SATs, observing in bands around 90 and 150 GHz, completed commissioning in the Fall of 2024 and the ultra-high frequency SAT, observing bands around 220 and 280 GHz, began commissioning in the Fall of 2025. I will discuss the efficiency calibrations and noise performance of deployed instruments as well as compare the achieved performance to forecasting and instrument modeling expectations.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Simons-Observatory--on-sky-noise-performance-of-the/14156-60",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 11:40 - 12:00 CEST | Room B5-M3",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Krittapas Chanchaiworawit, Kantapong Tharawan, That Chomchuen, Jitsupa Paenoi, Thansita Thomrungpiyathan, Pakawat Prasit, Samattachai Tanun, Teerawat Kuha, Auychai Laoyang, Pathompong Butpan, Rungrit Anutarawiramkul, Anuphong Inpan, Suchinno Kanthum, Picha Ruenarrom, Tarathon Intaros, Manlika Pinkaew, Apichat Leckngam",
       "PaperNumber": "14149-84",
       "DateTimeLocationDataList": [
@@ -1724,13 +1622,115 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "10 July 2026 • 15:05 - 15:25 CEST | Auditorium 15",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Steven Li, Pablo Trujillo, Jason VazBrown, Javier Romualdez, John Hartley",
+      "PaperNumber": "14149-92",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 15:25 - 15:45 CEST | Auditorium 15",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "46fc1e1b-ccd0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "46fc1e1b-ccd0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Generative-design-driven gondola for the POEMM balloon telescope: adapting topology optimization for truss fabrication",
+      "Description": null,
+      "Abstract": "StarSpec developed a structural framework for the Gondola Element (GE) of the 1.8-m Nasmyth balloon-borne telescope for the Planetary Origins and Evolution Multispectral Monochromator (POEMM). We implemented a Fusion 360 generative-design pipeline to minimize the structural envelope and balance component placement about the azimuth pivot. This pipeline integrates Optical Telescope Element (OTE) and Science Instrument Element (SIE) keep-out zones, remote-mass attachment sites, and certification flight load cases, executing multi-case gradient-based optimization against worst-case scenarios. To scale the organic topology for 20-ft manufacturing, we used a homogenized material model for beam-and-sheet assemblies. A rule-based skeletonization workflow converted these topologies into standard beam/panel architectures, while a parameterized, scripted design loop minimized redesign iterations. The final memberized GE is predicted to meet all structural, modal, and opto-mechanical targets.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Generative-design-driven-gondola-for-the-POEMM-balloon-telescope/14149-92",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 15:25 - 15:45 CEST | Auditorium 15",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Johan Mazoyer, Charles Goulas, Raphaël Galicher, Fabrice Vidal, Axel Potier, Florian Ferreira, Arnaud Sevin, Clémentine Béchet, Isaac Dinis, Anthony Boccaletti, Gaël Chauvin, Fausto Cortecchia, Nicolas Galland, Caroline Kulcsár, Maud Langlois, Matteo Lombini, Julien Milli, Mamadou N'Diaye, Henri-François Raynaud, Laura Schreiber, Michel Tallon, François Wildi",
+      "PaperNumber": "14150-105",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 15:25 - 15:40 CEST | Room B3-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "6b19225c-5ecc-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "6b19225c-5ecc-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "SAXO+, the second-stage adaptive optics for SPHERE: NCPA compensation and dark hole loop with a pyramid wavefront sensing",
+      "Description": null,
+      "Abstract": "High-contrast imaging aims to detect faint exoplanets close to their host stars. Coronagraphs suppress stellar diffraction but remain limited by optical aberrations. With advanced AO systems like SPHERE/SAXO, quasi-static speckles from non-common path aberrations (NCPA) often dominate ground-based coronagraphic images, while instrument-induced aberrations similarly limit space coronagraphs. The SAXO+ upgrade adds a second fast AO loop with a near-infrared pyramid WFS, making SPHERE the first multi-stage AO facility and a key demonstrator for future systems like ELT/PCS. We study two essential techniques: static NCPA compensation using Zernike wavefront sensing, and closed-loop dark-hole control using Pair-Wise Probing and Electric Field Conjugation. COMPASS simulations show NCPA correction restores AO-limited contrast, while dark-hole control yields up to ×100 speckle suppression. These results define the SAXO+ on-sky strategy and support future ground and space coronagraphs.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/SAXO-the-second-stage-adaptive-optics-for-SPHERE--NCPA/14150-105",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 15:25 - 15:40 CEST | Room B3-M2",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Mohammad N. Islam, Tayron Dueck, Richard Hellyer, Gordon Lacy, Elena Bergeron, Brian Hoff, Julie Levesque-Robb, Bryan Schellenberg",
+      "PaperNumber": "14153-72",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 15:30 - 15:50 CEST | Room B2-M8",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "cdfbb82d-d6cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "cdfbb82d-d6cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "From concept to production: the making of composite reflectors for the Canadian Hydrogen Observatory and Radio-transient Detector",
+      "Description": null,
+      "Abstract": "This paper outlines the development and production of composite reflectors for the Canadian Hydrogen Observatory and Radio-transient Detector (CHORD) at the Dominion Radio Astrophysical Observatory in British Columbia. DRAO developed and now fabricates 512 six‑meter composite antennas using molds, custom jigs, fixtures, and optimized workflows to ensure manufacturing repeatability. The paper details the transition from R&D to full-scale production, addressing challenges in composite fabrication and highlighting innovations that improved reflector accuracy, reduced cost, and increased production efficiency.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/From-concept-to-production--the-making-of-composite-reflectors/14153-72",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 15:30 - 15:50 CEST | Room B2-M8",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2925,
+  "Count": 2922,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH02",
-  "DLCount": 696011
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696015
 }
