@@ -894,6 +894,31 @@ body {
   z-index: 5;
   display: none;
 }
+.agenda-now-line {
+  display: none;
+  position: relative;
+  border-top: 2px solid #e63946;
+  z-index: 5;
+  pointer-events: none;
+}
+.agenda-now-line::before {
+  content: '';
+  position: absolute;
+  left: 2px; top: -5px;
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: #e63946;
+}
+.agenda-now-line span {
+  position: absolute;
+  right: 6px; top: -8px;
+  font-size: 9px;
+  font-weight: 700;
+  color: #e63946;
+  background: #fff;
+  padding: 0 3px;
+  border-radius: 3px;
+}
 .cal-cols {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
@@ -1885,7 +1910,7 @@ function _renderAgendaDay(day) {
     const ts      = String(Math.floor(t.start_min/60)).padStart(2,'0') + ':' + String(t.start_min%60).padStart(2,'0');
     const endH    = t.end_str ? `<span class="agenda-time-end">${he(t.end_str)}</span>` : '';
     const meta    = [t.room, t.author].filter(p=>p&&p!=='Room TBC').map(p=>he(p)).join(' · ');
-    rows += `<div class="agenda-row talk${plenary?' agenda-row--plenary':''}" data-search="${search}" data-id="${he(id)}" ${_modalAttrs(t, day.label)} style="border-left-color:${color}">` +
+    rows += `<div class="agenda-row talk${plenary?' agenda-row--plenary':''}" data-search="${search}" data-id="${he(id)}" data-start="${t.start_min}" ${_modalAttrs(t, day.label)} style="border-left-color:${color}">` +
       `<div class="agenda-time-col"><span class="agenda-time-start">${ts}</span>${endH}</div>` +
       `<div class="agenda-event-col"><span class="agenda-conf" style="color:${color}">${he(short)}</span>` +
       `<div class="agenda-title"><span class="talk-link" onclick="openTalkModal(this)">${he(t.title)}</span></div>` +
@@ -1893,7 +1918,7 @@ function _renderAgendaDay(day) {
       `<button class="star-btn" onclick="toggleBookmark(this)" title="Save to My Schedule">&#9734;</button>` +
       `</div>`;
   }
-  return `<div class="cal-agenda">${rows}</div>`;
+  return `<div class="cal-agenda"><div class="agenda-now-line" data-day="${day.date_iso}"><span></span></div>${rows}</div>`;
 }
 
 // ── Build one schedule day on demand ───────────────────────────────────────
@@ -1922,16 +1947,34 @@ function getCopenhagenParts() {
 
 function updateNowLine() {
   const { dateIso, minutes } = getCopenhagenParts();
-  document.querySelectorAll('.cal-now-line, .cal-now-mark').forEach(el => {
+  const hhmm = String(Math.floor(minutes/60)).padStart(2,'0') + ':' + String(minutes%60).padStart(2,'0');
+  const dayInRange = el => {
     const day = ALL_DAYS.find(d => d.date_iso === el.dataset.day);
-    const inRange = day && el.dataset.day === dateIso &&
-      minutes >= day.day_start_min && minutes <= day.day_end_min;
-    if (!inRange) { el.style.display = 'none'; return; }
+    return day && el.dataset.day === dateIso &&
+      minutes >= day.day_start_min && minutes <= day.day_end_min ? day : null;
+  };
+  document.querySelectorAll('.cal-now-line, .cal-now-mark').forEach(el => {
+    const day = dayInRange(el);
+    if (!day) { el.style.display = 'none'; return; }
     const top = (minutes - day.day_start_min) * CAL_PX_MIN;
     el.style.top = top + 'px';
-    el.style.display = '';
-    if (el.classList.contains('cal-now-mark'))
-      el.textContent = String(Math.floor(minutes/60)).padStart(2,'0') + ':' + String(minutes%60).padStart(2,'0');
+    el.style.display = 'block';
+    if (el.classList.contains('cal-now-mark')) el.textContent = hhmm;
+  });
+  // Agenda (mobile) view: move the marker between the rows around "now".
+  document.querySelectorAll('.agenda-now-line').forEach(el => {
+    if (!dayInRange(el)) { el.style.display = 'none'; return; }
+    const agenda = el.parentElement;
+    let anchor = null;
+    for (const row of agenda.querySelectorAll('.agenda-row')) {
+      if (parseInt(row.dataset.start, 10) > minutes) { anchor = row; break; }
+    }
+    if (anchor && anchor.previousElementSibling &&
+        anchor.previousElementSibling.classList.contains('agenda-hour-sep'))
+      anchor = anchor.previousElementSibling;
+    agenda.insertBefore(el, anchor);
+    el.querySelector('span').textContent = hhmm;
+    el.style.display = 'block';
   });
 }
 
