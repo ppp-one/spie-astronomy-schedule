@@ -1495,6 +1495,21 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 .talk-list-item.bookmarked .star-btn { color: #f5a623; }
 .talk-list-item.skipped { opacity: 0.35; }
 .talk-list-item.skipped .talk-skip-btn { color: #e15759; }
+.talk-list-item.agenda-now { background: #fff4f4; }
+.talk-list-item.agenda-now .talk-list-time::after {
+  content: 'now';
+  display: block;
+  width: fit-content;
+  margin-top: 3px;
+  padding: 1px 5px;
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: #fff;
+  background: #e63946;
+  border-radius: 3px;
+}
 .talk-skip-btn {
   background: none;
   border: none;
@@ -1972,6 +1987,11 @@ function updateNowLine() {
       row.classList.toggle('agenda-now', live && s <= minutes && minutes < e);
     });
   });
+  // Talk list / special events: same "now" highlight per item.
+  document.querySelectorAll('.talk-list-item').forEach(row => {
+    const s = parseInt(row.dataset.start, 10), e = parseInt(row.dataset.end, 10);
+    row.classList.toggle('agenda-now', row.dataset.day === dateIso && s <= minutes && minutes < e);
+  });
 }
 
 // ── Talk list ──────────────────────────────────────────────────────────────
@@ -1984,7 +2004,8 @@ function _renderTalkListItem(t, date_iso, dayLabel) {
   const tl    = t.end_str ? ts + '\\u2013' + t.end_str : ts;
   const meta  = t.paper ? `[${he(t.paper)}] ${he(t.author)}` : '';
   return `<div class="talk-list-item" data-search="${search}" data-id="${he(id)}" ` +
-    `data-day="${he(date_iso)}" data-day-label="${he(dayLabel)}" ${_modalAttrs(t)}>` +
+    `data-day="${he(date_iso)}" data-day-label="${he(dayLabel)}" ` +
+    `data-start="${t.start_min}" data-end="${_timeBounds(t)[1]}" ${_modalAttrs(t)}>` +
     `<div class="talk-list-time">${tl}<br>${he(t.room)}</div>` +
     `<div class="talk-list-body"><span class="talk-list-conf" style="color:${color}">${he(short)}</span>` +
     `<div class="talk-list-title"><span class="talk-link" onclick="openTalkModal(this)">${he(t.title)}</span></div>` +
@@ -2012,6 +2033,7 @@ function _ensureTalkListBuilt() {
   body.innerHTML = `<div class="tabs">${tabs}</div>` + panels;
   _applyState(body);
   updateTalkListCount();
+  updateNowLine();
 }
 
 // ── Special events list (plenaries + special events) ───────────────────────
@@ -2032,6 +2054,7 @@ function _ensureSpecialsBuilt() {
   body.innerHTML = `<div class="tabs">${tabs}</div>` + panels;
   _applyState(body);
   updateSpecialsCount();
+  updateNowLine();
 }
 
 // ── Poster list ────────────────────────────────────────────────────────────
@@ -2543,7 +2566,7 @@ function switchView(view) {
   if (label) label.textContent = document.querySelector('.view-btn[data-view="' + view + '"]').textContent.trim();
   document.querySelector('.view-nav').classList.remove('open');
   updateStickyOffset();
-  if (view === 'talklist') _ensureTalkListBuilt();
+  if (view === 'talklist') { _ensureTalkListBuilt(); _talkListJumpToNow(); }
   if (view === 'posters')  _ensurePosterBuilt();
   if (view === 'specials') _ensureSpecialsBuilt();
   if (view === 'swipe')    { _ensurePosterBuilt(); initSwipe(); }
@@ -2560,6 +2583,27 @@ function switchView(view) {
   document.getElementById('match-count').textContent = '';
   document.getElementById('back-to-top').classList.remove('visible');
   applySearch();
+}
+
+// First time the talk list opens: select today's tab and scroll to "now".
+// If today isn't a conference day (or the day is over), show the first day from the top.
+let _talkListJumpDone = false;
+function _talkListJumpToNow() {
+  if (_talkListJumpDone) return;
+  _talkListJumpDone = true;
+  const { dateIso, minutes } = getCopenhagenParts();
+  const today = ALL_DAYS.find(d => d.date_iso === dateIso);
+  if (!today || minutes > today.day_end_min) {
+    switchTalkListDay(ALL_DAYS[0].date_iso);
+    return;
+  }
+  switchTalkListDay(dateIso);
+  const target = Array.from(document.querySelectorAll('#talklist-day-' + dateIso + ' .talk-list-item'))
+    .find(it => parseInt(it.dataset.end, 10) > minutes);
+  if (!target) return;
+  const body = document.getElementById('talklist-body');
+  body.scrollTop += target.getBoundingClientRect().top - body.getBoundingClientRect().top -
+    body.querySelector('.tabs').offsetHeight - 6;
 }
 
 function switchTalkListDay(iso) {
