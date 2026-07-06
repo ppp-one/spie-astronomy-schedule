@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Roberta Zanin, David Green, Michele Doro, Matthias Füßling, Karl Kosak, Igor Oya, Orel Gueta, Ivana Batkovic, Karl Kosack, Bruno Khelifi, Catherine Boisson, Mathieu Servillant, Maximilian Linhoff, Mieke Bouwhuis, Alba Fernandez-Barral, Stuart McMuldroch, Markus Gaug, Stefan schlenstedt, Samuel Spencer",
-      "PaperNumber": "14155-47",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 10:30 - 11:00 CEST | Room B4-M7",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "8a018304-a0cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "8a018304-a0cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "CTAO as a Game Changer for Open Science in ground-based gamma-ray astronomy",
-      "Description": null,
-      "Abstract": "The Cherenkov Telescope Array Observatory is the next-generation facility for very-high-energy gamma-ray astronomy, designed to operate as a distributed, open, proposal-driven observatory over multiple decades. The CTAO is fully committed to open science which advocates that both scientific publications and research outputs should be publicly accessible while ensuring proper credit and authorship.    The CTAO is acting as a game changer within the gamma-ray astronomy community and, more broadly, within the astroparticle physics field, which has traditionally been characterized by proprietary data and experiment-specific software. In support of its open-science philosophy, the CTAO actively promotes transparency, reproducibility, and community engagement by making its data products and software tools accessible to researchers worldwide. The paper describes how this approach is being pursued across the observatory’s operations, detailing the policies, infrastructures.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/CTAO-as-a-Game-Changer-for-Open-Science-in-ground/14155-47",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 10:30 - 11:00 CEST | Room B4-M7",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Weiye Zhong",
       "PaperNumber": "14153-35",
       "DateTimeLocationDataList": [
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 11:45 - 12:00 CEST | Room B2-M4",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Mayukh Bagchi, Felix M. Thiel, Laura M. Fissel, Maggie Oxford, Lindy L. Blackburn, Rafael Costa, Vincent L. Fish, Daryl Haggard, Michael D. Johnson, Dominic W. Pesce, Ganesh Rajagopalan, Javier L. Romualdez, Aarchi Shah, Adrian K. Sinclair, Stephanie St-Jean, Terry Yang",
+      "PaperNumber": "14153-39",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 11:50 - 12:10 CEST | Room B2-M8",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "76966bf0-22c7-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "76966bf0-22c7-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "An RFSoC-based backend and timing system for the balloon‑borne very long baseline interferometry experiment",
+      "Description": null,
+      "Abstract": "We present a novel RFSoC-based digital backend and precision timing system for the Balloon-borne Very Long Baseline Interferometry Experiment (BVEX), a 22 GHz pathfinder mission for future high-frequency stratospheric mobile VLBI stations. The system employs an AMD-Xilinx RFSoC 4x2 for a high-resolution spectrometer and real-time 2-bit requantization of 4.096 GSPS sampled data, streaming at 8.2 Gbps via 100 Gigabit Ethernet to a 16 TB NVMe storage array. Timing stability is maintained by a Rakon OCXO with continuous GPS-based drift monitoring at 60-picosecond resolution. Ground testing validated system performance, demonstrating exceptional timing stability despite platform dynamics. This represents the first deployment of RFSoC-based VLBI instrumentation and precise timing systems on balloon platforms. For the 2027 reflight, we are implementing enhanced thermal management and expanded storage capacity, along with direct NIC to NVMe firmware, for improved power efficiency.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/An-RFSoC-based-backend-and-timing-system-for-the-balloonborne/14153-39",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 11:50 - 12:10 CEST | Room B2-M8",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

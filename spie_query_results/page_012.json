@@ -26,181 +26,11 @@
   },
   "Items": [
     {
-      "Authors": "Ueejeong Jeong, Gregory N. Mace, Hyun-Jeong Kim, Sanghyuk Kim, Kyle F. Kaplan, Erica Sawczynec, Hye-In Lee, Darrin Crook, Coyne Gibson, Woojin Park, Heeyoung Oh, Chan Park, Jae-Joon Lee, Markus Loose, Richard Blank, Daniel T. Jaffe",
-      "PaperNumber": "14149-100",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "81358a8c-67cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "81358a8c-67cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Upgrade of detector control electronics for IGRINS",
-      "Description": null,
-      "Abstract": "We present the recent upgrade to the detector control electronics of the Immersion Grating Infrared Spectrograph (IGRINS). IGRINS includes H- and K-band cameras and a slit camera, each using H2RG controlled by SIDECAR boards. For the past decade, this system relied on discontinued JADE2 controllers, which connect to the detector control computers (DCCs) by USB. To ensure long-term maintainability and improve efficiency, we implemented new detector control electronics based on Astroblank’s MACIE controller, which supports Ethernet connection to the DCCs. The upgrade involves replacing controllers, changing power supply units, installing new DCCs, and restructuring the control network. We also developed a new detector control software that enables acquisition from the detector via the MACIE without modifying the existing IGRINS observing software at McDonald Observatory. IGRINS has been in operation since August 2025 with the upgraded system.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Upgrade-of-detector-control-electronics-for-IGRINS/14149-100",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Chao Zhang, Qishuai Lu, Hua Bai, Yong Zhang, Hemin Sun, Yuefei Yang, Dehua Yang, Xiangqun Cui",
-      "PaperNumber": "14147-104",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "76275ae3-1fd0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "76275ae3-1fd0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Upgrade of the LAMOST telescope tracking control servo system based on a proprietary hardware architecture",
-      "Description": null,
-      "Abstract": "To address the aging of the original imported controllers and servo drives, this paper proposes and implements a  low-level hardware modification scheme based on independently developed controllers and drives. The  system abandons the traditional network bus communication architecture and reconstructs a three-loop  integrated fully closed-loop control architecture based on physical hard-wired Pulse Width Modulation  (PWM) connections. At the algorithmic level, a dual-feedback fusion mechanism combining  sine-cosine gratings and EnDat absolute encoders was introduced, and an extended PID control  algorithm incorporating speed and acceleration feedforward, along with a virtual motor error correction  and decoupling algorithm, was configured. Field test results show that the modified MA mount  achieved root mean square (RMS) tracking errors of 0.14'' on the azimuth axis and 0.12''on the altitude  axis during star-less tracking.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Upgrade-of-the-LAMOST-telescope-tracking-control-servo-system-based/14147-104",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Lorenzo Cabona, Davide Ricci, Silvano Tosi, Filippo Zerbi, Sandro Zappatore",
-      "PaperNumber": "14147-94",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "Cancelled",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "39ec1a8a-c2d1-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "39ec1a8a-c2d1-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Upgrades at OARPAF the Regional Astronomical Observatory of the Antola Park",
-      "Description": null,
-      "Abstract": "The Regional Astronomical Observatory of the Antola Park (OARPAF), inaugurated in 2011, hosts an optical telescopes: an Astelco 80 cm F/8 Cassegrain with a 45′ unvignetted field of view and two Nasmyth foci. The primary focus, equipped with a field derotator, is dedicated to scientific observations, while the secondary focus serves amateur astronomers.  OARPAF has participated in numerous observational campaigns on exoplanets, Gamma-Ray Bursts (GRBs), and other transient events. Major upcoming technological upgrades include: re-aluminization of the primary, secondary, and tertiary mirrors in January 2026 to restore optical performance; replacement of the current radio-based internet connection with high-bandwidth fiber optics for full remotization; installation of a new set of SDSS filters for photometry and imaging; and integration of a new instrument, Cerberus, enabling light to be redirected to dual channels for long-slit and échelle spectroscopy.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Upgrades-at-OARPAF-the-Regional-Astronomical-Observatory-of-the-Antola/14147-94",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Kevin R. Wagner, Steve Ertel, Samuel Ronayette, Éric Pantin, Olivier Absil, Pontus Forsberg, Mikael Karlsson, Denis Defrère, Vivek Vijayakumar, Sebastián Jorquera, Dániel Apai, Laird Close, Hervé Le Coroller, Jamie Dietrich, Ewan Douglas, Olivier Guyon, Kyran Grattan, Markus Kasper, Jarron Leisenring, Mark Marley, Jared Males, Brittany Miles, Sascha Quanz, Eckhart Spalding, Jordan Stone, Zach Werber, Andre Wong, S. Pete Worden",
-      "PaperNumber": "14154-340",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "51ec486d-89d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "51ec486d-89d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Upgrading LBTI/NOMIC with a quadruple annular groove phase mask and GeoSnap detector for imaging nearby, habitable-zone exoplanets",
-      "Description": null,
-      "Abstract": "The Large Binocular Telescope Interferometer (LBTI)’s Nulling Optimized Mid-Infared Camera (NOMIC) is among the most capable thermal infrared imaging systems available for high-contrast, high angular resolutuon astronomial observations. Here, we describe two in-progress upgrades to LBTI/NOMIC: 1) the design and installation of a quadruple annular groove phase mask (Q-AGPM) coronagraph, and 2) the installation of a 13 micron cutoff Teledyne GeoSnap array. The Q-AGPM will be the first coronagraph installed within NOMIC and among the first produced that is optimized for N-band (~11 micron) observations. The GeoSnap array will replace NOMIC’s original AQUARIUS array. Finally, we will describe the role of the upgraded LBTI/NOMIC instrument within the Breakthrough Watch Program at the University of Arizona, which aims to perform the deepest observations yet for nearby habitable-zone exoplanets around nearby Sun-like stars.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Upgrading-LBTI-NOMIC-with-a-quadruple-annular-groove-phase-mask/14154-340",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Siddharth Maharana, Ryan Griffiths, Matthias Tecza",
-      "PaperNumber": "14154-280",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "15f79757-89d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "15f79757-89d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Upgrading the Oxford-PCS IFS testbench for comparative IFU trade-off study",
-      "Description": null,
-      "Abstract": "ELT–PCS aims to directly detect and characterize nearby Earth-like exoplanets, targeting 10^-9 contrast at inner working angles of 2-3 λ/D. At Oxford, we have built a modular IFS testbench to compare microlens and image-slicer IFUs using the same spectrograph and similar pipeline to identify the optimal IFS system for achieving the contrasts needed for PCS. Major upgrades to the testbench are currently underway, including an SLM-based AO-residual simulator, an integrated coronagraph, and a travelling instrument design for integration with and validation at ESO’s GHOST system. These upgrades will make the IFS comparison more realistic and enable on-sky-like testing. We summarize the testbench, upgrade details and status, and some initial IFU trade-study results.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Upgrading-the-Oxford-PCS-IFS-testbench-for-comparative-IFU-trade/14154-280",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Adrián Sánchez-Chaves, Auxiliadora Padrón-Brito, Natalia Arteaga-Marrero, Max Dobat, Diego Tamayo-Guzmán, Nicolas Lodieu, Jordi Iborra-Luis, Patricia Fernández-Izquierdo, Jeff Kuhn",
       "PaperNumber": "14154-200",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -226,7 +56,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -302,7 +132,7 @@
       "PaperNumber": "14154-187",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -328,41 +158,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Greyson W. Davis, Edwin Fernando Cruz Aguirre, Keri Hoadley, Jessica S. Li",
-      "PaperNumber": "14146-108",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "b2988008-c0cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "b2988008-c0cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "UVIa SmallSat mission power and data budgets",
-      "Description": null,
-      "Abstract": "UVIa is a proposed Pioneers Mission with the science goals of observing early Type Ia supernovae in the UV and optical shortly after explosions and creating the first UV reference sample light curves anchored with optical observations between explosion events. One defining feature is UVIa's ability to perform follow-up observations shortly after supernova events are detected by ground-based all-sky surveyors. This flexibility must be built into the design of the SmallSat. We discuss the driving requirements and factors influencing the power and data budgets for the UVIa SmallSat. Calculations for peak power consumption, power consumption per orbit, total data volume, and the derivation of telemetry requirements are detailed as well. These calculations helped inform the feasibility of major design aspects, like Day/Night vs Dawn/Dusk low Earth orbits. Overall, UVIa’s power and data budget goals are achievable, and the design allows room for comfortable margin.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/UVIa-SmallSat-mission-power-and-data-budgets/14146-108",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -370,7 +166,7 @@
       "PaperNumber": "14154-318",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -396,7 +192,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -472,7 +268,7 @@
       "PaperNumber": "14149-123",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -498,7 +294,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -506,7 +302,7 @@
       "PaperNumber": "14154-268",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -532,7 +328,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -540,7 +336,7 @@
       "PaperNumber": "14147-100",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -566,7 +362,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -574,7 +370,7 @@
       "PaperNumber": "14154-151",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -600,7 +396,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -608,7 +404,7 @@
       "PaperNumber": "14147-109",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -634,7 +430,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1724,13 +1520,217 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "6 July 2026 • 11:10 - 11:30 CEST | Room B2-M8",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "David Polishook, Eran Ofek, Sagi Ben-Ami, Ofer Yaron, Ruslan Konno, Simone Garrappa, Oren Ironi, Yahel Sofer-Rimlat, Alex Bichkovsky, Alexander Krassikchtchikova, Arie Blumenzweig, Enrico Segre, Michael Engel, Ofir Hershko, Omer Oreg",
+      "PaperNumber": "14151-4",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 11:10 - 11:30 CEST | Room B2-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "38e3d864-0ad1-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "38e3d864-0ad1-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The new Weizmann Astrophysical Observatory (WAO)",
+      "Description": null,
+      "Abstract": "The Weizmann Astrophysical Observatory is a new facility constructed and operated by the Weizmann Institute of Science (code M01; 35.041°E, 30.053°N; 400 m). The observatory focuses on arrays of small telescopes to demonstrate that such arrays can outperform a single seeing-limited large telescope of equal collecting area. The site will ultimately host 100 telescopes across two major arrays, the Large Array Survey Telescopes (LAST) and the Multi-Aperture Spectroscopic Telescope (MAST).",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-new-Weizmann-Astrophysical-Observatory-WAO/14151-4",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 11:10 - 11:30 CEST | Room B2-M2",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Kristin K. Madsen, Andrew Ptak, Kimberly Banks, Simon Bandler, Barbara Grofic, Abe Falcone, Sven Herrmann, Steven Allen",
+      "PaperNumber": "14146-24",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 11:10 - 11:25 CEST | Room B4-M1",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "05983a08-9acf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "05983a08-9acf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The status of US NASA contributions to NewAthena",
+      "Description": null,
+      "Abstract": "The ESA L-class mission, the Advanced Telescope for High Energy Astrophysics (Athena), was chosen for the Cosmic Vision program in 2014 to study the Hot and Energetic X-ray Universe. It was recently reformulated into NewAthena, a modified version of the original Athena. NASA has contributed to the technology and science since the early selection, and most recently, due to the redefinition, increased the scope of the contribution. The major hardware contribution is the kilo-pixel sensor for the X-ray Integral Field Unit (X-IFU) and the readout circuits for it based on time-division multiplexing (TDM) with superconducting quantum interference devices (SQUIDs). NASA will also contribute the 4K cryocooler for the X-IFU and a vibration isolation system. AAdditional contributions include *support for* the Science Ground Segment *, design consultation* for the Wide Field Imager (WFI) *readout* ASIC and background analysis modeling for the WFI.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-status-of-US-NASA-contributions-to-NewAthena/14146-24",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 11:10 - 11:25 CEST | Room B4-M1",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Richard D. Stelter, Andrew Skemer, Steph Sallum, Nicholas K. Mac Donald, Renate Kupke, Christopher Ratliff, Ravinder Banyal, Thirupati Sivarani, Michael P. Fitzgerald, Emily Plume, Marc Kassis, Olivier Abseil, Natasha Batalha, Marc-Andre Boucher, Cyril Bourgenot, Will Deich, Devika Divakar, Michael Gonzales, Thomas Greene, Amirul Hasan, Phil Hinz, Becky Jensen-Clem, Chris Johnson, Govinda K. V., Isabel J. Kain, Mackenzie Lach, Jean-Thomas Landry, Jim Lyke, Ken Magone, Eduardo Marin, Rosalie McGurk, Raquel M. Martinez, Dimitri Mawet, Dale Sandford, Ramya Sethuam, Arun Surya, Eric Wang, Peyton Benac",
+      "PaperNumber": "14149-19",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 11:10 - 11:30 CEST | Auditorium 15",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "fe06e468-a7d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "fe06e468-a7d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Update on SCALES: the slicer combined with array of lenslets for exoplanet spectroscopy",
+      "Description": null,
+      "Abstract": "We give an update on the status of the thermal infrared (2-5 micron) low- to mid-spectral resolution (R=lambda/delta_lambda~20-5,000), lenslet-based, integral-field spectrograph and 1-5 micron imager, the Slicer Combined with Array of Lenslets for Exoplanet Science (SCALES). SCALES is deployed at the W. M. Keck Observatory behind the Keck II telescope’s Adaptive Optics (AO) system, and delivers diffraction-limited performance across its bandpass. The instrument has several key design features, including a selectable-wavelength monochromator for wavelength calibration; homologous construction of its bench, mechanisms, mounts, and optics; a slicer reimager to provide a discontinuous pseudoslit for mid-resolution spectroscopy; and a large, static lenslet array with two sub-arrays of lenslets used to feed a common spectrograph for both low- and mid-resolution modes. Since the 2024 SPIE meeting, SCALES has been fully integrated at UCSC and is expected to achieve first light in Spring 2026.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Update-on-SCALES--the-slicer-combined-with-array-of/14149-19",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 11:10 - 11:30 CEST | Auditorium 15",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Andreea Petric, Sarah Kendrew, Alberto Noriega-Crespo, Bryan Holler, Jane Morrison, Jonathan Aguillar, Stacey Alberts, Dean Hines, Greg Sloan",
+      "PaperNumber": "14145-23",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 11:10 - 11:30 CEST | Room B4-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "d4193752-a8cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "d4193752-a8cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Wide field slitless spectroscopy with JWST's MIRI",
+      "Description": null,
+      "Abstract": "Massively multiplexed spectroscopy enables efficient, statistically robust surveys of large cosmic volumes. Space-based wide-field slitless spectroscopy reduces cosmic variance by covering extensive sky areas with consistent sensitivity and calibration. In Cycle 5, JWST introduced a new MIRI prime observing mode—Wide Field Slitless Spectroscopy (WFSS)—which utilizes the P750L double prism to deliver low-resolution (R ~ 100) spectroscopy from 5 to 14 μm across an unobstructed 74″ × 113″ field of view. We present the MIRI WFSS calibration plans and their expected accuracy. We utilized established slitless-spectroscopy techniques from HST and JWST, archival P750L and MIRI imaging data, and dedicated calibration observations for flux/trace and wavelength calibration, including adjustments for positional dependencies. We present the most recent calibration reference files used for flat-fielding, background subtraction, and flux and wavelength calibration, and outline improvement plans.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Wide-field-slitless-spectroscopy-with-JWSTs-MIRI/14145-23",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 11:10 - 11:30 CEST | Room B4-M3",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Aafaque R. Khan, William Verts, Harrison Bradley, Nazende Kerkeser, Daniel Turong, Elijah Garcia, Heejoo Choi, Haeun Chung, Daewook Kim, Carlos Vargas, Erika Hamden, Dave Hamara, Hannah Tanquary, Tom McMahon",
+      "PaperNumber": "14154-24",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 11:15 - 11:30 CEST | Room B2-M4",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "09cd1948-dcd0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "09cd1948-dcd0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Precision optical alignment of the Aspera far-ultraviolet (FUV) spectrographs using computer-generated hologram (CGH) interferometry and vacuum ultraviolet (VUV) techniques",
+      "Description": null,
+      "Abstract": "Aspera is a NASA SmallSat carrying two far-ultraviolet (FUV) spectrographs to detect O VI emission near 1032 Å from the circumgalactic medium. The payload has a compact opto-mechanical layout and requires tight alignment tolerances and stringent contamination-control procedures. We report a multiphase optical alignment approach using computer-generated hologram (CGH) interferometry and FUV vacuum alignment. Reflective optics and gratings were aligned with a Zygo Fizeau interferometer and custom CGH in a class-1000 cleanroom under nitrogen purge. The two slits were aligned confocal with the off-axis parabola focus using a microscope system referenced to the Zygo laser spot, and the spacecraft star tracker was aligned to the instrument boresight with a 3D scanner. Final detector alignment and focus were performed in a vacuum VUV facility using a collimator, monochromator, and hollow-cathode flow lamp. The alignment is complete, and the instrument in preparation for launch in 2026.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Precision-optical-alignment-of-the-Aspera-far-ultraviolet-FUV-spectrographs/14154-24",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 11:15 - 11:30 CEST | Room B2-M4",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Florentin Millour, Bruno Lopez, Romain Petrov, Anthony Soulain, Philippe Bério, Alexis Matter, James Leftley, Julien Woillez, Jens Kammerer, Sylvestre Lacour, Jean-Baptiste Lebouquin, Walter Jaffe, Stéphane Lagarde, The MATISSE Team",
+      "PaperNumber": "14148-3",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 11:20 - 11:40 CEST | Room B4-M5",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "4cd3899d-d3ce-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "4cd3899d-d3ce-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "MATISSE in the Laser Guide Stars Era: updated performance with the new GPAO adaptive optics, its LGS, and a new version of its DRS",
+      "Description": null,
+      "Abstract": "We provide an overview of MATISSE at the VLTI in the context of GRAVITY+, following its performance update following the installation of GPAO in 2024 and LGS in 2025. We summarize the key instrumental features and observing modes, global data-reduction options, the new ergonomics of the user-friendly DRS, measurable quantities, and performance. MATISSE can be operated alone or with the GRAVITY fringe tracker in the so-called GRA4MAT mode. We present the updated MATISSE performance with GRA4MAT. When using the UTs, the added capabilities of GPAO and LGS are boosting the performance.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/MATISSE-in-the-Laser-Guide-Stars-Era--updated-performance/14148-3",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 11:20 - 11:40 CEST | Room B4-M5",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

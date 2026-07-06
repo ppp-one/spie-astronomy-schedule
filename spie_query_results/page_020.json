@@ -26,108 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Meghna Mohamed, Alessandro Meoli, Walter Seifert, Andreas Kelz, Myriam Rodrigues, Alondra Solá, Wenli Xu, Carlos Rodriguez Alvarez, Gavin Dalton, Thomas Augusteijn, Kacem El Hadi, Marísa Luisa García-Vargas, Marie Larrieu, Roser Pello, Mathieu Puech, Rubén Sanchez-Janssen, Hermine Schnetler, Jay Stephan, Christian Surace",
-      "PaperNumber": "14152-97",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 6 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "46a47571-cdcf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "46a47571-cdcf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "MOSAIC on ELT: VIS channel transmission budget and estimates from SAR to preliminary design phase",
-      "Description": null,
-      "Abstract": "MOSAIC for the 39 m ELT comes with MOS and mIFU capabilities in the wavelength range from 390 nm to 1800 nm and is currently in phase B2 leading up to PDR. The VIS Science Channel is intended to have separate low- and high-resolution fibre link feeds and a dual-beam two-camera design to split the spectrum (in blue and red arms), providing simultaneous coverage from 390 nm to 950 nm in low resolution and multiple high resolution bands in the same wavelength range. Transmission estimates of the VIS channel have helped in assessing potential risks in compliance and identifying the critical contributors impacting the transmission budget. This paper looks into VIS Channel transmission budget, the critical contributors impacting the transmission performance, and the evolution of the transmission estimates (and the methodology), from the System Architecture Review to the ongoing Preliminary Design phase.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/MOSAIC-on-ELT--VIS-channel-transmission-budget-and-estimates/14152-97",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Dani Guzman, Nirmala Kunwar, Jake Linden, Slavko Mali, Cam Brown, Michael Boers, Jafar Shojaii, Mark Casali, Tayyaba Zafar, Benjamin Pope, Lee Spitler",
-      "PaperNumber": "14157-79",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 6 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "12f38ba8-16cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "12f38ba8-16cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "MQ-Zero: ultracompact detector controller for in-vacuum FPA readout",
-      "Description": null,
-      "Abstract": "The Readout Sensors Initiative (RSI) at Australian Astronomical Optics, Macquarie University develops detector readout electronics for astronomy, space missions, and related fields. This paper presents MQ-Zero, a prototype controller designed to demonstrate the feasibility of co-locating readout electronics with infrared focal plane arrays in vacuum cryogenic environments. MQ-Zero incorporates a modern signal chain, including a high-performance analogue-to-digital converter and an on-board field-programmable gate array, while addressing the thermal and mechanical constraints of in-vacuum operation. The compact form factor enables placement immediately adjacent to a detector, reducing cable capacitance and susceptibility to electromagnetic interference. A key focus of the current development phase is the thermal management strategy. This paper reports the design methodology, thermal modelling results, and preliminary electronics testing.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/MQ-Zero--ultracompact-detector-controller-for-in-vacuum-FPA/14157-79",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Chiara D'Amato, Andrea Bianco, Giorgio Pariani, Fabrizio Fornasiero, Robert J. Harris, Sajjad Mahdizadeh, Sebastiaan Haffert, Aurelien Benoit, Viktoria Kutnohorsky, David MacLachlan, Tim Birks, Joss Guy, Robert R. Thomson, Jared R. Males, Laird M. Close, Olivier Guyon",
-      "PaperNumber": "14149-187",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 6 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "3e852a57-69d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "3e852a57-69d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Multicore integral field unit (MCIFU v2): design and optimization of the integral field spectrograph with multiplexed VPH gratings",
-      "Description": null,
-      "Abstract": "The Multi-Core Integral Field Unit (MCIFUv2) is a unit enabling infrared integral field spectroscopy for the MagAO-X adaptive optics system on the Magellan Clay telescope. Its fibre-fed integral field spectrograph was designed and optimized for exoplanet atmosphere characterization in the near-infrared. The design achieves diffraction-limited performance across the Y, J, and H bands with medium spectral resolution (R = 5000-7880), using a novel configuration of multiplexed volume phase holographic gratings and custom optics. The system was optimised with theoretical modelling in MATLAB and ray-tracing in Zemax OpticStudio, obtaining an improved set of lenses to control aberrations across the wide operating bandwidth. The final design achieves high diffraction efficiency (> 80%), low crosstalk (< 1%), and a compact configuration, making it a suitable candidate for future integration with the MagAO-X extreme adaptive optics system.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Multicore-integral-field-unit-MCIFU-v2--design-and-optimization/14149-187",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Sajjad Mahdizadeh, Robert J. Harris, Aurélien Benoît, David MacLachlan, Tim Birks, Chiara D'Amato, Sebastiaan Haffert, Andrea Bianco, Joss Guy, Viktoria Kutnohorsky, Robert R. Thomson, Jared R. Males, Olivier Guyon, Laird M. Close",
       "PaperNumber": "14149-184",
       "DateTimeLocationDataList": [
@@ -332,7 +230,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Maria Bergomi, Remon van Gaalen, Carmelo Arcidiacono, Luca Marafatto, Kalyan Radhakrishnan, Gabriele Umbriaco, Paolo Cerpelloni, Thomas M. Herbst, Marco Dima, Davide Greggio, Oleksandra Rebrysh, Silvio Di Rosa, Florian Briegel, Lars Mohr, Jacopo Farinato, Roberto Ragazzoni, Valentina Viotto, Simone Antoniucci, Gianluca Li Causi, Fernando Pedichini, Roberto Piazzesi, Alessio Caratti o Garatti, Al Conrad, Fabrizio Massi, Sam Ragland",
+      "Authors": "Maria Bergomi, Remon van Gaalen, Carmelo Arcidiacono, Luca Marafatto, Kalyan Radhakrishnan, Gabriele Umbriaco, Paolo Cerpelloni, Thomas M. Herbst, Marco Dima, Davide Greggio, Oleksandra Rebrysh, Silvio Di Rosa, Florian Briegel, Lars Mohr, Jacopo Farinato, Roberto Ragazzoni, Valentina Viotto, Simone Antoniucci, Gianluca Li Causi, Fernando Pedichini, Roberto Piazzesi, Alessio Caratti o Garatti, Al Conrad, Fabrizio Massi, Sam Ragland, Luca Cortese",
       "PaperNumber": "14149-450",
       "DateTimeLocationDataList": [
         {
@@ -356,7 +254,7 @@
       "HTMLTitle": "",
       "Title": "NirvanaVIS: the visible GLAO-assisted speckle holography imager for LBT approaching first light",
       "Description": null,
-      "Abstract": "NirvanaVIS is designed to leverage the wide-field, Ground-Layer Adaptive Optics (GLAO) correction provided by LINC-NIRVANA on the Large Binocular Telescope. Its primary goal is to extend high-resolution imaging into the visible band, retrieving images with a highly uniform PSF across the field.  Implemented on the LN bench, it employs speckle holography to achieve near-diffraction-limited imagery over 52 x 52 arcsec FoV, with a pixel-scale of 6.5 mas/pixel. This yields a spatial resolving power below 20 mas corresponding to a factor of three better than HST and two times better than JWST, enabling diverse science programs.  With the core hardware secured by the end of 2025, if approved for installation, the project is on track to achieve first light in early 2027.  This work presents the current status, AIV procedures and commissioning steps. We also detail final solutions for challenges related to the 8K Teledyne COSMOS camera interface to the telescope and the data management strategy.",
+      "Abstract": "NirvanaVIS is designed to leverage the wide-field, Ground-Layer Adaptive Optics (GLAO) correction provided by LINC-NIRVANA on the Large Binocular Telescope. Its primary goal is to extend high-resolution imaging into the visible band, retrieving images with a highly uniform PSF across the field.  Implemented on the LN bench, it employs speckle holography to achieve near-diffraction-limited imagery over 52 x 52 arcsec FoV, with a pixel-scale of 6.5 mas/pixel. This yields a spatial resolving power below 20 mas corresponding to a factor of three better than HST and two times better than JWST, enabling diverse science programs.  With the core hardware secured by the end of 2025, if approved for installation, the project is on track to achieve first light in 2027.  This work presents the current status, AIV procedures and commissioning steps. We also detail final solutions for challenges related to the 8K Teledyne COSMOS camera interface to the telescope and the data management strategy.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/NirvanaVIS--the-visible-GLAO-assisted-speckle-holography-imager-for/14149-450",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1724,13 +1622,115 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Eemil Halonen, Jalo Nousiainen, Markus Kasper, Nuutti Hyvönen",
+      "PaperNumber": "14150-197",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 6 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "95b97aff-86cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "95b97aff-86cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Pseudo closed-loop bootstrapping for reinforcement learning-based AO control",
+      "Description": null,
+      "Abstract": "Direct imaging of Earth-like exoplanets around nearby stars requires extreme AO (XAO) that delivers high contrast at very small angles. Performance is limited by fast XAO residuals and quasi-static speckles, requiring ultra-sensitive yet highly nonlinear wavefront sensors. Greater sensitivity amplifies the response to critical aberrations, such as low-wind-effect petal modes, but severely challenges conventional linear reconstructors. Reinforcement learning (RL) has emerged as a powerful XAO control tool, with model-based RL variants already reducing latency, misregistration, and moderate nonlinearities. We propose a robust learning strategy in which original PO4AO or a pixel-based variant (PiPO4AO) is pre-calibrated using an internal light source and a DM mirror, enabling direct on-sky closed-loop operation without a stable integrator controller.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Pseudo-closed-loop-bootstrapping-for-reinforcement-learning-based-AO-control/14150-197",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Lukas Stock, Andreas Schrimpf",
+      "PaperNumber": "14152-102",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 6 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "37b5d01f-07ce-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "37b5d01f-07ce-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "PSF modeling for inexpensive oﬀ-the-shelf echelle spectrographs",
+      "Description": null,
+      "Abstract": "Various spectroscopic target systems, such as close binary stars, require a very high cadence in the range of minutes to hours in order to determine their orbits using the radial velocity method. Due to limited observation time, this high cadence cannot be achieved by high-resolution spectrographs. However, for bright target systems (approx. Vmag <= 10), off-the-shelf echelle spectrographs on small telescopes (diameter <= 50 cm) can perform this task.  Due to their comparatively low price such instruments exhibit optical imperfections that limit the effective resolution of the instrument. Thus, ThAr calibration lines are distorted on the camera chip. I will present a way to increase the resolution through PSF modeling of these emission lines in the extraction software. This new extraction method is part of a new, open-source data reduction software written in Python 3 called PyVesta, which will be released shortly.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/PSF-modeling-for-inexpensive-o%ef%ac%80-the-shelf-echelle-spectrographs/14152-102",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Martin M. Roth, Paško Roje, Stella Vješnica, Stefan Cikota, Alex J. Brown, Mike Kretlow, Marco Azzaro, Santiago Reinhart, Jesús Aceituno, Thomas Kupfer",
+      "PaperNumber": "14157-60",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "bc08c38f-5cc5-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "bc08c38f-5cc5-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "qCMOS on sky: commissioning of the ORCA-TWIN project",
+      "Description": null,
+      "Abstract": "Quanta image sensors have attracted attention for their unique capabilities for time domain astronomy and other applications requiring photon counting with high quantum efficiency and a large dynamic range, combined with very low noise and fast readout. The Hamamatsu ORCA-Quest 2 model C15550-22UP is an off-the-shelf camera delivering such capabilities. ORCA-TWIN is a fast track project of the emerging German Center for Astrophysics (DZA) that aspires to implement simultaneous observation at fast cadence from 1m class telescopes at two sites with a baseline of 1800 km, the Calar Alto and Teide observatories. We present the scientific rationale for LEOs, NEO and other solar system objects, as well as time domain astronomy, and first results form commissioning at Calar Alto.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/qCMOS-on-sky-commissioning-of-the-ORCA-TWIN-project/14157-60",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

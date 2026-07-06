@@ -26,108 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Claudio Macculi, Matteo D'Andrea, Lorenzo Ferrari Barusso, Giacomo Gorla, Simone Lotti, Gabriele Minervini, Francesco Monastra, Luigi Piro, Marcello Celasco, Flavio Gatti, Daniele Grosso, Manuela Rigano, Fabio Chiarello, Guido Torrioli, Mauro Fiorini, Michela C. A. Uslenghi, Daniele Brienza, Elisabetta Cavazzuti, Chiara Grappasonni, Simonetta Puccetti, Angela Volpe, Paolo Bastia, Artur Cardoso Coimbra, Francesco Villa",
-      "PaperNumber": "14146-184",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 6 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "2e414b58-e0c9-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "2e414b58-e0c9-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The cryogenic anticoincidence detector for the Athena X-IFU instrument: status towards the TRL5",
-      "Description": null,
-      "Abstract": "The Cryogenic AntiCoincidence detector (CryoAC) is a particle detector aimed at increasing the X-IFU instrument sensitivity, a cryogenic TES microcalorimeter on-board the Athena mission, the next ESA X-ray Large mission planned for the Adoption in early 2027. Athena will host two complementary instruments optimized for energy resolution and FoV: the X-IFU and the WFI. The X-IFU main TES array detector, a high-grade imaging spectrometer, cannot distinguish among in-band energy depositions from charged particles crossing its absorbers, the Non X-ray Background (NXB), and the X-ray photons that make the scientific signal. The CryoAC will detect these charged particles thus enabling NXB level of 5E-3 cts/cm2/s/keV. It is a 4-pixel TES based microcalorimeter detector operating at 50 mK developed by an Italian team made by ASI, INAF, Genova University and CNR/IFN Roma. In this contribution we present the current status of CryoAC development toward TRL5, and outline the programmatic roadmap.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-cryogenic-anticoincidence-detector-for-the-Athena-X-IFU-instrument/14146-184",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Claire Juramy, Pierre Antilogus, Pierre Astier, John Banovetz, Sean Patrick MacBride, Andrew P. Rasmussen, Yousuke Utsumi",
-      "PaperNumber": "14157-72",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 6 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "fc551028-c3ce-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "fc551028-c3ce-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The dark dips phenomenon in the LSST camera on-sky images",
-      "Description": null,
-      "Abstract": "When the LSST Camera started taking on-sky images at the Vera Rubin Observatory, some of the ITL STA3800 CCDs exhibited a previously undocumented effect. When a sufficiently bright star is superimposed over the sky background, the sensor columns that contain the star appear slightly darker than the background, both above and below the position of the star. This effect is not uniform across sensors, reaching an amplitude of up to seven percent of the background in the worst cases, but being undetectable in other sensors. For the affected sensors, the threshold required for the dips to become detectable also varies, from a few hundreds to a few thousands saturated pixels.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-dark-dips-phenomenon-in-the-LSST-camera-on-sky/14157-72",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Mariachiara Celato, Paul Hedderman, Christoph Tenzer, Andrea E. Santangelo, Hannah Lerman, Melissa McHugh, Ian Hutchinson, Paul T. O'Brien",
-      "PaperNumber": "14146-227",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 6 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "53846134-6dd0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "53846134-6dd0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The data processing pipeline for the THESEUS soft x-ray imager",
-      "Description": null,
-      "Abstract": "The THESEUS mission is designed to detect Gamma-Ray Bursts, X-ray transients, and infrared afterglows in order to probe the high-redshift Universe and advance time-domain and multi-messenger astrophysics. Its scientific capabilities rely on a coordinated payload, including the Soft X-ray Imager (SXI). This contribution presents the SXI data-processing pipeline developed during the ESA M7 Phase A study. The SXI consists of two wide-field lobster-eye cameras covering the 0.3 to 5 keV energy band and producing high-speed data streams that require efficient onboard processing. We outline the detection and imaging chain, describe the modelling of the lobster-eye PSF and the localisation method, and detail the logic and expected performance of the onboard transient trigger algorithm.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-data-processing-pipeline-for-the-THESEUS-soft-x-ray/14146-227",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Brian T. Fleming, Kevin France, Allison Youngblood",
       "PaperNumber": "14146-214",
       "DateTimeLocationDataList": [
@@ -1080,6 +978,40 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Greyson W. Davis, Edwin Fernando Cruz Aguirre, Keri Hoadley, Jessica S. Li",
+      "PaperNumber": "14146-108",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 6 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "b2988008-c0cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "b2988008-c0cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "UVIa SmallSat mission power and data budgets",
+      "Description": null,
+      "Abstract": "UVIa is a proposed Pioneers Mission with the science goals of observing early Type Ia supernovae in the UV and optical shortly after explosions and creating the first UV reference sample light curves anchored with optical observations between explosion events. One defining feature is UVIa's ability to perform follow-up observations shortly after supernova events are detected by ground-based all-sky surveyors. This flexibility must be built into the design of the SmallSat. We discuss the driving requirements and factors influencing the power and data budgets for the UVIa SmallSat. Calculations for peak power consumption, power consumption per orbit, total data volume, and the derivation of telemetry requirements are detailed as well. These calculations helped inform the feasibility of major design aspects, like Day/Night vs Dawn/Dusk low Earth orbits. Overall, UVIa’s power and data budget goals are achievable, and the design allows room for comfortable margin.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/UVIa-SmallSat-mission-power-and-data-budgets/14146-108",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Athira Unni, Steph Sallum, Andy Skemer, Max Brodheim, Peyton Benac, Rosalie McGurk, William T. S. Deich, Michael P. Fitzgerald, Richard Deno Stelter, Mackenzie Lach, Isabel J. Kain",
       "PaperNumber": "14149-181",
       "DateTimeLocationDataList": [
@@ -1724,13 +1656,81 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 6 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Prakriti Gupta, Yashvi Sharma, John I. Bailey",
+      "PaperNumber": "14155-97",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "5a0f5872-a4d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "5a0f5872-a4d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "ZShooter: ScopeSim and early data reduction prototyping to enhance design",
+      "Description": null,
+      "Abstract": "We are building a ZShooter‑specific extension of the ScopeSim instrument‑simulation framework and coupling it to existing open‑source echelle pipelines such as PyReduce and PypeIt. This end‑to‑end setup produces realistic detector‑level frames for the three‑arm ZSpec spectrograph and tri‑band ZImager camera and immediately feeds them into prototype reduction recipes. Here we will demonstrate how this approach lets a small team explore performance trades, observing strategies, and calibration plans very early in the design, while simultaneously de‑risking the future data‑reduction pipeline and quick‑look tools.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/ZShooter--ScopeSim-and-early-data-reduction-prototyping-to-enhance/14155-97",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Pontsho L. Maruping",
+      "PaperNumber": "14151-500",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 08:30 - 09:10 CEST | Hall A",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "0c9ac3dc-6555-f111-a9b3-00505691c5e1---crmrecord",
+      "GUID": "0c9ac3dc-6555-f111-a9b3-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Big telescopes, real communities: maintaining a “social licence to operate” through MeerKAT to SKA",
+      "Description": null,
+      "Abstract": "World-class telescopes don’t succeed on engineering alone. For facilities built to operate for decades, scientific output depends on stable site access, predictable operations, and trusted relationships with host communities. The people need to feel respected, heard, and able to share in the benefits. Drawing on SARAO’s experience building and operating MeerKAT and participating in construction of the SKA, this talk distils practical ways to earn and sustain a “social licence to operate”. It covers continuous engagement with visible feedback loops; clear communication about constraints and trade-offs; fair, auditable local procurement and supplier development; skills pathways that convert training into real work; and accessible mechanisms to resolve concerns when they arise. The talk closes with lessons learned about expectation management through various phases, from construction, operations, and expansion in order to maintain trust and treat community partnership as an operational KPI, not a communications exercise.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Big-telescopes-real-communities--maintaining-a-social-licence-to/14151-500",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 08:30 - 09:10 CEST | Hall A",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

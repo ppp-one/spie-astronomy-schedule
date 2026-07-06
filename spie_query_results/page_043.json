@@ -26,6 +26,40 @@
   },
   "Items": [
     {
+      "Authors": "Thomas J. Mozdzen, Richard M. Scott, Isaac Smith, Phil D. Mauskopf, Mickey Martini, Mereia Perera-Gonzalez",
+      "PaperNumber": "14148-129",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "5db39aad-7cd0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "5db39aad-7cd0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Improved timing jitter in stellar intensity interferometry while observing Sirius with 0.25m telescopes",
+      "Description": null,
+      "Abstract": "We improve upon our intensity interferometry results from early 2024 of our observations of Sirius by using lower jitter firmware on our Swabian Time Tagger and a shorter fiber optics cable with a graded instead of a step index. We also present preliminary results showing the suppression of t=0 crosstalk noise in the Timetagger by using two Timetaggers and a Synchronizer unit, which replaces the need for coax delay cable on a single channel that is susceptible to timing variations and thus jitter. Preliminary work using a spectrometer and a linear SPAD array to decrease data collection time while maintaining a strong SNR will also be presented.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Improved-timing-jitter-in-stellar-intensity-interferometry-while-observing-Sirius/14148-129",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Saanika Choudhary, Dmitry Savransky, Clarissa R. Do O",
       "PaperNumber": "14145-225",
       "DateTimeLocationDataList": [
@@ -1690,47 +1724,13 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
-    },
-    {
-      "Authors": "Riccardo Grignaffini, Luca Oggioni, Runa Briguglio, Giorgio Pariani, Pietro Ferraiuolo, Marco Xompero, Nicolò Azzaroli, Matteo Menessini",
-      "PaperNumber": "14150-327",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "1654ddee-99cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "1654ddee-99cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Optical calibration of the ELT-M4: validation of the local calibration of capacitive position sensors on the demonstration prototype",
-      "Description": null,
-      "Abstract": "Adaptive optics is becoming essential for modern telescopes, driving larger and more complex adaptive mirrors such as ELT's M4, whose full performance requires a new flexible and efficient calibration.    In previous work, we proposed an optical calibration method for adaptive mirrors and validated it in a controlled laboratory setup. Its application to the M4 Demonstration Prototype, however, revealed stronger and faster environmental disturbances, which can prevent the reconstruction in time of the phase-ambiguous interferometric measurements.    Here, we further develop the proposed procedure and investigate several strategies to recover a reliable reconstruction under these conditions. In particular, we show that using a stationary shell as an in-frame reference reduces common-mode disturbances and enables robust calibration. The resulting calibration coefficients are physically consistent, validating the procedure for future application to the final ELT-M4 mirror.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-calibration-of-the-ELT-M4--validation-of-the/14150-327",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
-      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

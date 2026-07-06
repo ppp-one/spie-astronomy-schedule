@@ -26,6 +26,40 @@
   },
   "Items": [
     {
+      "Authors": "Marianna Fulara, Piotr Wawer, Mateusz Sobiecki, Markus Czupalla, Mirosław Rataj, Konrad Skup",
+      "PaperNumber": "14149-448",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "dc8094ef-37d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "dc8094ef-37d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "STOP analysis for ESA ARIEL fine guidance system instrument",
+      "Description": null,
+      "Abstract": "The FGS instrument, built by a consortium led by the CBK PAN, will provide scientific data and guide ESA's ARIEL telescope to selected targets. It will be located at the L2 point and experiencing cryogenic temperatures at which it must maintain good optical performance. The instrument housing holds the cages and holders that support the optical elements in the correct configuration. The materials used in the design are aluminium, titanium, N-BK7 and SF6. Using STOP analysis, the influence of environmental conditions, especially extreme temperatures, on the optical performance of the instrument was checked. Displacements and deformations of the optical surfaces resulting from FEMAP/Nastran structural analyses were transferred to Ansys Zemax OpticsStudio using Matlab scripts. Parameters used for performance evaluation are line of sight, RMS spot, wavefront error, encircled energy and spectral resolution.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/STOP-analysis-for-ESA-ARIEL-fine-guidance-system-instrument/14149-448",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Maida Anwar, Jacopo Nanni, Federico Perini, Enrico Lenzi, Andrea Mattana, Luca Lepri, Giovanni Tartarini, Jader Monari",
       "PaperNumber": "14153-111",
       "DateTimeLocationDataList": [
@@ -1690,47 +1724,13 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
-    },
-    {
-      "Authors": "Michał Kossakowski, Selina Ringsborg Howalt Owe, Rikke Stougaard Klausen, Alexander Cherlin, Denis Tcherniak, Alejandro Valverde Mahou, Søren Hauberg, Irfan Kuvvetli",
-      "PaperNumber": "14146-331",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "d55d1fae-61d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "d55d1fae-61d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Toward tracker-free Compton imaging: deep learning of charge cloud geometry in 3D CZT drift strip detectors",
-      "Description": null,
-      "Abstract": "Recoil electron tracking is a key missing capability in Compton imaging for both high-sensitivity MeV gamma-ray astronomy and advanced medical imaging. This work presents a machine learning feasibility study investigating whether recoil electron direction and charge cloud geometry can be inferred directly from CZT detector pulse shapes. Synthetic data are generated using an Advanced Theoretical Detector Model of a 3D CZT Drift Strip Detector combined with recoil electron tracks simulated in GATE. The study defines the practical feasibility limits of AI-based electron tracking for next-generation Compton imaging systems.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Toward-tracker-free-Compton-imaging--deep-learning-of-charge/14146-331",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

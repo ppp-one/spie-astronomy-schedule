@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "John Di Miceli",
-      "PaperNumber": "14151-78",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "fe99cdd9-d4cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "fe99cdd9-d4cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Mitigating risk at remote astronomical facilities: emergency preparedness startegies at the MMT Observatory",
-      "Description": null,
-      "Abstract": "The MMT Observatory operates in a remote, high-altitude environment at the summit of Mt. Hopkins where limited access, severe weather, forest-fire risk, and extended transport times to definitive medical care create significant operational challenges. This paper presents the emergency preparedness framework developed at the MMT to enhance safety and mitigate these risks during scientific operations. Key components include mountain-specific emergency action plans covering medical incidents, severe weather, and wildfires. Enhanced wilderness-oriented first aid capabilities, infrastructure and personnel protection strategies, and strengthened partnerships with regional agencies collectively minimize the impact of emergencies on observatory operations. These measures offer a practical model for improving safety and operational resilience at remote astronomical facilities.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Mitigating-risk-at-remote-astronomical-facilities--emergency-preparedness-startegies/14151-78",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Mehmet Kuruçolak, Derya Öztürk Çetni, Elif Yağmur Kuruçolak, Cahit Yeşilyaprak, Kemal Rüzgar",
       "PaperNumber": "14152-122",
       "DateTimeLocationDataList": [
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 7 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Jaya Chand",
+      "PaperNumber": "14150-242",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "d9650fdc-8ccf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "d9650fdc-8ccf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Polaris and Zenith non-tracking Differential Image Motion Monitors for robust atmospheric turbulence monitoring",
+      "Description": null,
+      "Abstract": "Traditional DIMM seeing monitors depend on bright stars and accurate tracking mounts, increasing system cost, complexity, and maintenance.To address this, we present two wide-field, static, untracked DIMMs: the Polaris DIMM and the Zenith DIMM.These instruments aim to provide reliable Fried parameter measurements with minimal infrastructure and autonomous operation.The Polaris DIMM continuously observes Polaris without tracking but cannot operate in equatorial regions or the southern hemisphere.To achieve global applicability, the Zenith DIMM uses an even larger field of view with fixed pointing to function at any latitude.Both prototypes were installed on the ING DIMM tower at ORM, La Palma, where they showed good agreement with the ING robotic DIMM (R2D2).Using scintillation index and covariance, we also estimate a simple three-layer turbulence profile, from which the isoplanatic angle, and with wind information, the coherence time and photometric scintillation noise, can be derived.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Polaris-and-Zenith-non-tracking-Differential-Image-Motion-Monitors-for/14150-242",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

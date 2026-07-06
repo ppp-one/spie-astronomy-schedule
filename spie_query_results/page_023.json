@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Prakriti Gupta, Yashvi Sharma, John I. Bailey",
-      "PaperNumber": "14155-97",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "5a0f5872-a4d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "5a0f5872-a4d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "ZShooter: ScopeSim and early data reduction prototyping to enhance design",
-      "Description": null,
-      "Abstract": "We are building a ZShooter‑specific extension of the ScopeSim instrument‑simulation framework and coupling it to existing open‑source echelle pipelines such as PyReduce and PypeIt. This end‑to‑end setup produces realistic detector‑level frames for the three‑arm ZSpec spectrograph and tri‑band ZImager camera and immediately feeds them into prototype reduction recipes. Here we will demonstrate how this approach lets a small team explore performance trades, observing strategies, and calibration plans very early in the design, while simultaneously de‑risking the future data‑reduction pipeline and quick‑look tools.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/ZShooter--ScopeSim-and-early-data-reduction-prototyping-to-enhance/14155-97",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Pontsho L. Maruping",
-      "PaperNumber": "14151-500",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 08:30 - 09:10 CEST | Hall A",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "0c9ac3dc-6555-f111-a9b3-00505691c5e1---crmrecord",
-      "GUID": "0c9ac3dc-6555-f111-a9b3-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Big telescopes, real communities: maintaining a “social licence to operate” through MeerKAT to SKA",
-      "Description": null,
-      "Abstract": "World-class telescopes don’t succeed on engineering alone. For facilities built to operate for decades, scientific output depends on stable site access, predictable operations, and trusted relationships with host communities. The people need to feel respected, heard, and able to share in the benefits. Drawing on SARAO’s experience building and operating MeerKAT and participating in construction of the SKA, this talk distils practical ways to earn and sustain a “social licence to operate”. It covers continuous engagement with visible feedback loops; clear communication about constraints and trade-offs; fair, auditable local procurement and supplier development; skills pathways that convert training into real work; and accessible mechanisms to resolve concerns when they arise. The talk closes with lessons learned about expectation management through various phases, from construction, operations, and expansion in order to maintain trust and treat community partnership as an operational KPI, not a communications exercise.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Big-telescopes-real-communities--maintaining-a-social-licence-to/14151-500",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 08:30 - 09:10 CEST | Hall A",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Shawn D. Domagal-Goldman",
       "PaperNumber": "14145-501",
       "DateTimeLocationDataList": [
@@ -196,7 +128,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "G. Barbieri Ripamonti, F. Columbro, P. de Bernardis, T. Iida, S. Masi, R. Akizawa, E. Battistelli, M. De Petris, A. Coppolecchia, L. Lamagna, E. Marchitelli, T. Matsumura, M. Najafi, A. Occhiuzzi, H. Ohsaki, S. Okumura, A. Paiella, F. Piacentini, G. Pisano, S. Stellati",
+      "Authors": "G. Barbieri Ripamonti, F. Columbro, P. de Bernardis, T. Iida, S. Masi, R. Akizawa, E. Battistelli, A. Coppolecchia, M. De Petris, L. Lamagna, E. Marchitelli, T. Matsumura, M. Najafi, A. Occhiuzzi, H. Ohsaki, S. Okumura, A. Paiella, F. Piacentini, G. Pisano, S. Stellati",
       "PaperNumber": "14156-1",
       "DateTimeLocationDataList": [
         {
@@ -1148,7 +1080,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "John D. Monnier, James Cutler, Akshat Dubey, Bradley Bialke, Caden Burkhardt, Hannah Cherry, Raven St. Clair, Michael Meyer, Jacob Klingler, Shivani Sunil, Daniil Voloshin, Simone D’Amico, Antonio Rizza, Ethan Foss, Samuel Y.W. Low, Prachet Jain, E. Glenn Lightsey, Althea Noonan, Leonid Pogorelyuk, Melissa Flores, Albert Ostoja-Starzewski, Gautam Vasisht, Kerri Cahoy",
+      "Authors": "John D. Monnier, James Cutler, Akshat Dubey, Caden Burkhardt, Raven St. Clair, Bradley Bialke, Adrien Boissy, Tobey Chang, Hannah Cherry, Yethinder Ragav Lakshmi Kumar, Michael Meyer, Jacob Klingler, Shivani Sunil, Austin Thomas, Daniil Voloshin, Simone D’Amico, Antonio Rizza, Ethan Foss, Samuel Y.W. Low, Prachet Jain, E. Glenn Lightsey, Althea Noonan, Mark Gorrow, Leonid Pogorelyuk, Melissa Flores, Albert Ostoja-Starzewski, Garret DeRose, Jasper Heymann, Alexa LaPinta, Ryan Turoff, Gautam Vasisht, Kerri Cahoy",
       "PaperNumber": "14145-40",
       "DateTimeLocationDataList": [
         {
@@ -1172,7 +1104,7 @@
       "HTMLTitle": "",
       "Title": "Starlight acquisition and reflection toward interferometry (STARI) mission",
       "Description": null,
-      "Abstract": "We introduce the NASA-funded mission STARI (STarlight Acquisition and Reflection toward Interferometry), a two-spacecraft technology demonstrator for future long-baseline interferometers. STARI will perform, to our knowledge, the first in-space transfer of starlight between free-flying spacecraft, a critical step toward kilometer-scale missions. Two propulsive 8U CubeSats in low Earth orbit will fly in formation with separations up to 100 m: one relays a narrow stellar beam to the other, where an off-axis parabola reimages it into a single-mode fiber. Using differential GPS, visible LED beacons, and fast-steering mirrors in closed loop, we aim to sustain diffraction-limited, high-throughput fiber coupling during formation flight. STARI, targeting launch in 2029, is designed to retire key optical and control risks for missions such as the Large Interferometer for Exoplanets (LIFE) that seek to detect atmospheric biomarkers on nearby Earth-like exoplanets.",
+      "Abstract": "We introduce the NASA-funded mission STARI (STarlight Acquisition and Reflection toward Interferometry), a two-spacecraft technology demonstrator for future long-baseline interferometers. STARI will perform, to our knowledge, the first in-space transfer of starlight between free-flying spacecraft, a critical step toward long-baseline space interferometry. Two propulsive 8U CubeSats in low Earth orbit will fly in formation with separations up to 200 m: one relays a narrow stellar beam to the other, where an off-axis parabola reimages it into a single-mode fiber. Using differential GNSS, visible LED beacons, and fast-steering mirrors in closed-loop control, we aim to sustain diffraction-limited, high-throughput fiber coupling during formation flight. STARI, targeting launch in 2029, is designed to mature key technologies needed for future mission concepts such as the Large Interferometer for Exoplanets (LIFE), which would seek atmospheric biomarkers on nearby Earth-like exoplanets.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Starlight-acquisition-and-reflection-toward-interferometry-STARI-mission/14145-40",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1724,13 +1656,81 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 11:35 - 11:50 CEST | Room B3-M2",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Marco Bartolini, Snehal Ujjainkar",
+      "PaperNumber": "14155-35",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 11:40 - 12:00 CEST | Room B4-M7",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "266868fe-48d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "266868fe-48d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "evolution of the SKA observatory software architecture, from design to implementation",
+      "Description": null,
+      "Abstract": "The Square Kilometre Array Observatory (SKA) project initially defined a software architecture during its design phase, structured around telescope elements and consortia responsibilities. These designs captured each element’s architecture at a high level of abstraction, focusing on key design choices. This paper examines how the SKA software architecture has evolved in response to construction-phase realities. We identify and analyse major gaps revealed during implementation, describe the trade-offs and decisions made to address them, and show how ongoing development activities are shaping the concrete architecture deployed today. The paper also presents the current state of the software design, reflects on lessons learned, and outlines the remaining challenges and future directions for the observatory’s software implementation.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/evolution-of-the-SKA-observatory-software-architecture-from-design-to/14155-35",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 11:40 - 12:00 CEST | Room B4-M7",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Louis Desdoigts",
+      "PaperNumber": "14148-168",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 11:40 - 12:10 CEST | Room B4-M5",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "b2d64167-666a-f111-a9b6-00505691c5e1---crmrecord",
+      "GUID": "b2d64167-666a-f111-a9b6-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "From Sparse Pupils to Differentiable Instruments: The Evolving Legacy of Aperture Masking Interferometry",
+      "Description": null,
+      "Abstract": "Aperture Masking Interferometry (AMI) has played an unusual role in diffraction-limited astronomy. Although often viewed as a specialised high-angular-resolution mode for residual phase errors, its broader legacy lies in the calibration methods and instruments it generated. This talk takes a methodological perspective on AMI: not only as an observing mode, but as a calibration-driven approach to high-contrast imaging inside the classical diffraction limit. I will discuss how interferometric calibration led to kernel phase, photonic remapping, and mask concepts like Jewel. I will focus on the JWST aperture mask, whose calibration challenges provided a proving ground for differentiable modelling and led to AMIGO. I will discuss future tools from this next generation, including detector calibration and calibrator-free interferometry. AMI’s impact lies not only in its science, but in the instrumental and methodological legacy it seeded across diffraction-limited astronomy.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/From-Sparse-Pupils-to-Differentiable-Instruments--The-Evolving-Legacy/14148-168",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 11:40 - 12:10 CEST | Room B4-M5",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

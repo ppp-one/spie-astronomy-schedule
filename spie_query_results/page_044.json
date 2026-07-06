@@ -26,6 +26,40 @@
   },
   "Items": [
     {
+      "Authors": "Riccardo Grignaffini, Luca Oggioni, Runa Briguglio, Giorgio Pariani, Pietro Ferraiuolo, Marco Xompero, Nicolò Azzaroli, Matteo Menessini",
+      "PaperNumber": "14150-327",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "1654ddee-99cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "1654ddee-99cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Optical calibration of the ELT-M4: validation of the local calibration of capacitive position sensors on the demonstration prototype",
+      "Description": null,
+      "Abstract": "Adaptive optics is becoming essential for modern telescopes, driving larger and more complex adaptive mirrors such as ELT's M4, whose full performance requires a new flexible and efficient calibration.    In previous work, we proposed an optical calibration method for adaptive mirrors and validated it in a controlled laboratory setup. Its application to the M4 Demonstration Prototype, however, revealed stronger and faster environmental disturbances, which can prevent the reconstruction in time of the phase-ambiguous interferometric measurements.    Here, we further develop the proposed procedure and investigate several strategies to recover a reliable reconstruction under these conditions. In particular, we show that using a stationary shell as an in-frame reference reduces common-mode disturbances and enables robust calibration. The resulting calibration coefficients are physically consistent, validating the procedure for future application to the final ELT-M4 mirror.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-calibration-of-the-ELT-M4--validation-of-the/14150-327",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Marcela Izquierdo Poza, Kirit Karkare, John M. Kovac, Colin A. Bischoff, Peter Ade, Zeeshan Ahmed, Mandana Amiri, Denis Barkats, Ritoban Basu Thakur, Dominic Beck, James J. Bock, James Cornerlison, Airel Cukierman, Mike Echter, Miranda Eiben, Brodi D. Elwood, Sofia Fatigoni, Jeffrey P Filippini, Antonio Fortes, Maodong Gao, Christos Giannakopoulos, Neil Goeckner-Wald, David Goldfinger, Annsley Greathouse, Paul Grimes, George Halal, Mark Halpern, Emma Hand, Shawn Henderson, Thuong Hoang, Johannes Hubmayr, Howard Hui, Kent Irwin, Jae H. Kang, Kekoa Lasko, Kenny Lau, Margaret R. Lautzenhiser, Scott Mackey, Nolan Maher, Yuka Nakato, Hien T. Nguyen, Roger O'Brient, Anika Patel, Matthew A. Petroff, Annie R. Polish, Clement Pryke, Carl D. Reintsema, Thibault Romand, Maria Salatino, Benjamin L. Schmitt, Baibhav Singari, Aaron Steiger, Bryan Steinbach, Rashmikant Sudiwala, Keith L . Thompson, Clara Vergès, Abigail Vieregg, Albert Wandui, W.L. Kimmy Wu, Cyndia Yu, Lingzhen Zeng, Silvia Zhang",
       "PaperNumber": "14156-140",
       "DateTimeLocationDataList": [
@@ -1690,47 +1724,13 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
-    },
-    {
-      "Authors": "Salvatore Savarese, Marco Landoni, David Young, Davide Ricci, Stephen Smartt, Paolo D'Avanzo, Sergio Campana, Pietro Schipani, Matteo Aliverti, José A. Araiza-Durán, Iair Arcavi, Andrea Baruffolo, Federico Battaini, Sagi Ben-Ami, Alex Bichkovsky, Anna Brucalassi, Giulio Capasso, Enrico Cappellaro, Riccardo Claudi, Mirko Colapietro, Rosario Cosentino, Francesco D'Alessio, Sergio D'Orsi, Massimo Della Valle, Simone Di Filippo, Avishay Gal-Yam, Matteo Genoni, Ofir Hershko, Hanindyo Kuncarayakti, Luigi Lessio, Laurent Marty, Seppo Mattila, Matteo Munari, Giuliano Pignata, Kalyan Radhakrishnan, Michael Rappaport, Marco Riva, Adam Rubin, Bernardo Salasnich, Maximilian Stritzinger, Fabrizio Vitali, Ricardo Zanmar Sánchez, Salvatore Scuderi",
-      "PaperNumber": "14155-158",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "bbe09be0-65d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "bbe09be0-65d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "SOXS quality control system for operations at the NTT",
-      "Description": null,
-      "Abstract": "The SOXS spectrograph at the ESO NTT has completed its AIV and Commissioning phases, and a dedicated Quality Control (QC) system is required to monitor performance during routine operations. The SOXS QC framework is organised in two complementary layers. The first relies on ESO Datalab and Grafana to monitor critical telemetry parameters, providing real-time dashboards and a redundant email-based alarm system for the observatory staff and the SOXS Consortium support team whenever predefined thresholds are exceeded. The second focuses on instrument performance by collecting quality metrics produced by the SOXS pipeline from daily calibrations and engineering data. These metrics are consolidated into a dedicated monitoring database and presented as long-term trends, allowing the operations team and the community to verify instrument stability against commissioning baselines and identify gradual performance degradations for predictive maintenance.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/SOXS-quality-control-system-for-operations-at-the-NTT/14155-158",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
-      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

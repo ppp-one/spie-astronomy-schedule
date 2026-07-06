@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "David J. McKenna, Cees G. Bassa, Cristina-Maria Cordun, Michiel A. Brentjens",
-      "PaperNumber": "14153-25",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 14:10 - 14:30 CEST | Room B2-M8",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "4cf1183c-53cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "4cf1183c-53cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Rapid calibration of the 77,376 LOFAR antenna across Europe",
-      "Description": null,
-      "Abstract": "The Low Frequency Array (LOFAR) is a continent-scale radio interferometer, with antennas spread across the length and breath of Europe, operating between 10 and 240 MHz. With the on-going LOFAR2.0 upgrade, a fresh focus was placed on monitoring and calibrating the array in a more sustainable and repeatable manner.    This talk will focus on our work of combining an improved understanding of the antenna responses from simulated and theoretical electromagnetic models with additional engineering data streams to monitor antenna states and trigger calibration updates. Intra-station calibration operations that used to take a dedicated 6 to 24 hours of observing time are now a routine 10 minute operation that can be performed in parallel with a large fraction of scientific projects. The array health can now be monitored in near real-time, improving telescope availability, and data quality for our astronomers.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Rapid-calibration-of-the-77376-LOFAR-antenna-across-Europe/14153-25",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 14:10 - 14:30 CEST | Room B2-M8",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Marcial Becerril Tapia, Peter Barry, Chris Benson, Matt Bradford, Thomas Brien, Simon Doyle, Victor Gómez-Rivera, Steve Hailey-Dunsheath, Jesús Hernández-Aguilar, José Luis Hernández-Rebollar, David Hughes, Elijah Kane, Kirit Karkare, Alex Lapuente, Ryan McGeehan, Raúl Naranjo-Romero, Andreas Papageorgiou, Joseph Redford, Iván Rodríguez-Montoya, Sam Rowe, David Sánchez-Argüelles, Sofia Savorgnano, Annie Tan, Jair Vega-Méndez",
-      "PaperNumber": "14156-8",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 14:10 - 14:30 CEST | Room B5-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "741c964a-9ed0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "741c964a-9ed0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "SuMaC: On-sky demonstration of multi-pixel on-chip millimeter-wave spectroscopy at the Large Millimeter Telescope",
-      "Description": null,
-      "Abstract": "SuperSpec-MUSCAT Collaboration (SuMAC) is the effort to operate the SuperSpec spectrometers in MUSCAT's focal plane at the Large Millimeter Telescope (LMT). SuperSpec is a novel single-polarisation on-chip spectrometer based on thin-film lithography using kinetic inductance detectors (KIDs). It has a moderate spectral resolution for observing in the 1 mm atmospheric window (190-300 GHz). MUSCAT is a continuum camera with ~1500 KIDs at 1.1 mm at the LMT. As part of its goals, MUSCAT was designed to operate as a testbed for pioneering detection technologies. In July 2025, we successfully installed and commissioned 3 SuperSpec devices at the MUSCAT focal plane with minimal modifications to the system. This work presents an overview of SuperSpec's deployment and performance in MUSCAT, along with the main results from the Summer 2025 observation campaign. Highlights include the detection of CO emission lines in nearby galaxies, mapping the Orion KL region and preliminary LIM-like maps.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/SuMaC--On-sky-demonstration-of-multi-pixel-on-chip/14156-8",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 14:10 - 14:30 CEST | Room B5-M3",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Jongguk Choe, Jeoung Heum Yeon, Eung-Shik Lee",
       "PaperNumber": "14154-51",
       "DateTimeLocationDataList": [
@@ -1724,13 +1656,81 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 15:55 - 16:15 CEST | Auditorium 15",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Martin de Wit, Kenichiro Nagayoshi, Luciano Gottardi, Emanuele Taralli, Sven Visser, Kevin Ravensberg, Jian-Rong Gao, Jan-Willem A. den Herder",
+      "PaperNumber": "14146-59",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 15:55 - 16:10 CEST | Room B4-M1",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "7bdcedc9-6bcf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "7bdcedc9-6bcf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Characterization of a large-format x-ray microcalorimeter array based on transition edge sensors",
+      "Description": null,
+      "Abstract": "We report on the development and cryogenic tests of a full-sized array of Transition Edge Sensors (TESs)  designed for the X-ray Integral Field Unit (X-IFU). The wafer, comprising a fully-wired array of over 1500  high-performance TES microcalorimeters, was fabricated to meet the stringent requirements of the X-IFU. The  quality of the full-sized array is assessed by the study of representative smaller arrays on pop-out diagnostic chips  located near the mean array on the same wafer. Characterization is performed using a dedicated DC-biased  setup featuring PTB SQUIDs and SRON lithographically-defined shunt resistors and Nyquist inductors. Comprehensive measurements at milliKelvin temperatures were conducted to evaluate the detector uniformity, transition parameters, noise characteristics, and energy resolution. Our results demonstrate excellent uniformity over all devices tested on  the different diagnostic chips, and show the readiness of our technology for future X-ray observatories.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Characterization-of-a-large-format-x-ray-microcalorimeter-array-based/14146-59",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 15:55 - 16:10 CEST | Room B4-M1",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Daniele Vassallo, Dino Mesa, Guido Agapito, Fabio Rossi, Alfio Puglisi",
+      "PaperNumber": "14150-46",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 15:55 - 16:10 CEST | Room B3-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "3ea4e11e-6acf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "3ea4e11e-6acf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Enhancing SHARK-NIR detection capabilities through differentiable PSF rendering",
+      "Description": null,
+      "Abstract": "We present a novel post-processing method for SHARK-NIR at the LBT, based on a differentiable coronagraphic PSF model. Our technique combines a physics-based forward model of the instrument optics with adaptive optics (AO) residual wavefront information to refine the instantaneous stellar PSF via gradient-based optimization directly from science images. This approach enables data-driven correction of quasi-static aberrations and speckle variability, overcoming the limitations of traditional post-processing techniques. We validate the method using realistic numerical simulations of SHARK-NIR observations and present preliminary results on real on-sky data. The technique enhances SHARK-NIR’s capability to detect faint companions and paves the way for PSF-aware analysis pipelines for current and future high-contrast imaging instruments.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Enhancing-SHARK-NIR-detection-capabilities-through-differentiable-PSF-rendering/14150-46",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 15:55 - 16:10 CEST | Room B3-M2",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH02",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

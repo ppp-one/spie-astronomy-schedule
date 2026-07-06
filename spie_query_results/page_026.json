@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Martin de Wit, Kenichiro Nagayoshi, Luciano Gottardi, Emanuele Taralli, Sven Visser, Kevin Ravensberg, Jian-Rong Gao, Jan-Willem A. den Herder",
-      "PaperNumber": "14146-59",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 15:55 - 16:10 CEST | Room B4-M1",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "7bdcedc9-6bcf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "7bdcedc9-6bcf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Characterization of a large-format x-ray microcalorimeter array based on transition edge sensors",
-      "Description": null,
-      "Abstract": "We report on the development and cryogenic tests of a full-sized array of Transition Edge Sensors (TESs)  designed for the X-ray Integral Field Unit (X-IFU). The wafer, comprising a fully-wired array of over 1500  high-performance TES microcalorimeters, was fabricated to meet the stringent requirements of the X-IFU. The  quality of the full-sized array is assessed by the study of representative smaller arrays on pop-out diagnostic chips  located near the mean array on the same wafer. Characterization is performed using a dedicated DC-biased  setup featuring PTB SQUIDs and SRON lithographically-defined shunt resistors and Nyquist inductors. Comprehensive measurements at milliKelvin temperatures were conducted to evaluate the detector uniformity, transition parameters, noise characteristics, and energy resolution. Our results demonstrate excellent uniformity over all devices tested on  the different diagnostic chips, and show the readiness of our technology for future X-ray observatories.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Characterization-of-a-large-format-x-ray-microcalorimeter-array-based/14146-59",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 15:55 - 16:10 CEST | Room B4-M1",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Daniele Vassallo, Dino Mesa, Guido Agapito, Fabio Rossi, Alfio Puglisi",
-      "PaperNumber": "14150-46",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 15:55 - 16:10 CEST | Room B3-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "3ea4e11e-6acf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "3ea4e11e-6acf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Enhancing SHARK-NIR detection capabilities through differentiable PSF rendering",
-      "Description": null,
-      "Abstract": "We present a novel post-processing method for SHARK-NIR at the LBT, based on a differentiable coronagraphic PSF model. Our technique combines a physics-based forward model of the instrument optics with adaptive optics (AO) residual wavefront information to refine the instantaneous stellar PSF via gradient-based optimization directly from science images. This approach enables data-driven correction of quasi-static aberrations and speckle variability, overcoming the limitations of traditional post-processing techniques. We validate the method using realistic numerical simulations of SHARK-NIR observations and present preliminary results on real on-sky data. The technique enhances SHARK-NIR’s capability to detect faint companions and paves the way for PSF-aware analysis pipelines for current and future high-contrast imaging instruments.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Enhancing-SHARK-NIR-detection-capabilities-through-differentiable-PSF-rendering/14150-46",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 15:55 - 16:10 CEST | Room B3-M2",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Bryan J. Butler, Rick Perley, Tony Willis, Evangelia Tremou, Eric Greisen, Benjamin Hugo",
       "PaperNumber": "14153-30",
       "DateTimeLocationDataList": [
@@ -1724,13 +1656,81 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 17:10 - 17:25 CEST | Room B4-M1",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Jessica A. Gaskin, Julie A. Crooke",
+      "PaperNumber": "14145-2",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:10 - 17:30 CEST | Room B4-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "19a76273-5ed0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "19a76273-5ed0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The ASTRA Initiative: Preparing for future NASA large strategic astrophysics missions",
+      "Description": null,
+      "Abstract": "This presentation summarizes he Astrophysics Strategic Technology & Research Accelerator (ASTRA) Initiative and discusses, NASA’s progress in executing the Astro2020 Decadal Survey recommendations, and outlines the strategic steps being undertaken to prepare for future strategic astrophysics missions. Support for the community considers previous efforts – including existing concept studies developed for Astro2020, the current global astronomical environment of existing and planned missions, increased industry capability, and technological advances/investments over the past decade. The discussion will highlight the interplay of technological advancements and mission planning essential for future exploration in astrophysics and astronomy and will emphasize the value and criticality of industry and international partnering.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-ASTRA-Initiative--Preparing-for-future-NASA-large-strategic/14145-2",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:10 - 17:30 CEST | Room B4-M3",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Janus D. Brink, J. Christopher Clemens, Kieran Leschinski",
+      "PaperNumber": "14149-46",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:15 - 17:35 CEST | Auditorium 15",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "8345bf5d-94cb-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "8345bf5d-94cb-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Pathfinder curved grating spectrometer for the ELT",
+      "Description": null,
+      "Abstract": "With the Vera C. Rubin observatory on the brink of delivering a flood of transient alerts to the time-domain astronomy community, the need for efficient spectroscopic follow-up is now more critical than ever. We present a compact, high-efficiency curved grating spectrometer design with broad visible band coverage aimed at efficient spectroscopic follow-up. Our pathfinder instrument design is matched to the University of Vienna’s 1.5 m Figl telescope. We describe the spectrometer’s characteristics and expected performance in this configuration and also illustrate the feasibility of extending the design for operation as a visitor instrument of the European Large Telescope.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Pathfinder-curved-grating-spectrometer-for-the-ELT/14149-46",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:15 - 17:35 CEST | Auditorium 15",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

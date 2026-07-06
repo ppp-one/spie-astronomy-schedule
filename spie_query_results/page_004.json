@@ -26,6 +26,40 @@
   },
   "Items": [
     {
+      "Authors": "Cyril Pannetier, Rafa Nadhil, Nazim Ali Bharmal, Alondra Solá, Kacem El Hadi, Myriam Rodrigues, Hermine Schnetler, Clarysse Picard",
+      "PaperNumber": "14152-12",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 17:10 - 17:30 CEST | Room B2-M6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "d1188808-a3ce-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "d1188808-a3ce-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "MOSAIC on ELT: current assessment of the project environmental footprint, from cradle to grave",
+      "Description": null,
+      "Abstract": "MOSAIC, a multi-object spectrograph for the Extremely Large Telescope, is currently in its preliminary design phase (B2). In 2024, an initial carbon footprint estimate was conducted, offering rough CO₂eq emission figures but excluding key components like electronics, cryostats, and the AIT phase. In early 2026, a comprehensive life cycle analysis (LCA) was performed, aligning with ESA LCA Guidelines and covering all project phases—from early design to end-of-life. This updated study aims to provide the astrophysical community with robust environmental impact data, guide efforts to reduce the project’s ecological footprint, and establish a replicable methodology for future astronomical instruments. The analysis includes all recommended impact categories, ensuring a holistic assessment of MOSAIC’s environmental effects.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/MOSAIC-on-ELT--current-assessment-of-the-project-environmental/14152-12",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 17:10 - 17:30 CEST | Room B2-M6",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Ralf Jedamzik, Martin Kurz, Clemens Kunisch, Hauke Esemann, Claudia Stolz, Axel Ohlinger, Victor Alvan Amasifuen, Janina Krieg",
       "PaperNumber": "14145-20",
       "DateTimeLocationDataList": [
@@ -200,7 +234,7 @@
       "PaperNumber": "14147-119",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -226,7 +260,41 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Marta Maria Civitani, Gabriele Vecchi, Carolyn Atkins, Marcell Westsik",
+      "PaperNumber": "14154-248",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "2d73ced5-3ed0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "2d73ced5-3ed0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "3D-printed fused silica for lightweight mirrors design freedom challenging conventional glass",
+      "Description": null,
+      "Abstract": "Additive manufacturing (AM) of fused silica via DLP is a promising route to lightweight mirror blanks for astronomical telescopes, offering near-net-shape fabrication, minimal waste, and complex internal structures. This paper reports fabrication and optical characterisation of AM fused silica flat and cylindrical mirror segments, advancing towards full-shell X-ray mirror production.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/3D-printed-fused-silica-for-lightweight-mirrors-design-freedom-challenging/14154-248",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
     },
     {
@@ -268,7 +336,7 @@
       "PaperNumber": "14149-107",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -294,7 +362,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -336,7 +404,7 @@
       "PaperNumber": "14149-114",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -362,7 +430,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -370,7 +438,7 @@
       "PaperNumber": "14149-101",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -396,7 +464,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -404,7 +472,7 @@
       "PaperNumber": "14146-158",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -430,7 +498,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -472,7 +540,7 @@
       "PaperNumber": "14154-223",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -498,7 +566,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -540,7 +608,7 @@
       "PaperNumber": "14150-132",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -566,7 +634,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -574,7 +642,7 @@
       "PaperNumber": "14154-153",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -600,7 +668,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -642,7 +710,7 @@
       "PaperNumber": "14154-271",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -668,7 +736,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -676,7 +744,7 @@
       "PaperNumber": "14154-300",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -702,7 +770,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -710,7 +778,7 @@
       "PaperNumber": "14146-148",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -736,7 +804,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -744,7 +812,7 @@
       "PaperNumber": "14145-295",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -770,7 +838,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -846,7 +914,7 @@
       "PaperNumber": "14150-126",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -872,7 +940,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -880,7 +948,7 @@
       "PaperNumber": "14154-186",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -906,41 +974,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Marta Maria Civitani, Gabriele Vecchi, Carolyn Atkins, Marcell Westsik",
-      "PaperNumber": "14154-248",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "2d73ced5-3ed0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "2d73ced5-3ed0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Additively manufactured fused-silica lightweight mirrors for high-resolution astronomical optics",
-      "Description": null,
-      "Abstract": "The challenge of manufacturing astronomical optics is to provide both high spatial resolution imaging and large collecting area by means of low-mass mirrors. Recent advancements in Additive Manufacturing (AM), or 3D printing, of fused silica offer the potential to meet this challenge. AM allows for the incorporation of advanced lightweighting features which help preserve mirror shape accuracy and reduce the overall mass compared to traditional methods that require extensive material removal. Previous research confirmed that AM fused silica can be polished to the necessary sub-nanometer roughness for astronomical use. This work aims to extend those findings to high-energy astronomy applications. A simplified cylindrical mirror segment was 3D printed in three design variants: solid, TPMS-latticed, and Voronoi-latticed. This paper focuses on the metrological and manufacturing results, demonstrating that 3D printed fused silica is a promising substrate for future telescope mirrors.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Additively-manufactured-fused-silica-lightweight-mirrors-for-high-resolution-astronomical/14154-248",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -982,7 +1016,7 @@
       "PaperNumber": "14146-112",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1008,7 +1042,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1016,7 +1050,7 @@
       "PaperNumber": "14150-115",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1042,7 +1076,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1050,7 +1084,7 @@
       "PaperNumber": "14154-305",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1076,7 +1110,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1114,40 +1148,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Deniz Ölçek, Tore André Bekkeng, John Rune Jakobsen, Fredrik Harring Mathiesen, Vetle Berg Abrahamsen, Halvor Strøm, Georg Magneshaugen, Ha Hoang, Mustafa Najjar, Jennifer Travanca, Vidar Espeland, Simen Harnes, Mattias Carlqvist, Pekka Tapio Neuvonen",
-      "PaperNumber": "14145-137",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "a2a1177f-4bd0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "a2a1177f-4bd0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Advancing modular space avionics: design and development of an ADHA payload controller module for PICU",
-      "Description": null,
-      "Abstract": "The Advanced Data Handling Architecture (ADHA) is an ESA initiative to establish a compact and modular avionics framework for future space missions. Within this architecture, the Payload Interface Controller Unit (PICU) provides centralized instrument control, data handling, and timing distribution. This work presents the design and development efforts of the Payload Controller Module (PCM), a key building block of the PICU responsible for sensor interfacing and payload command management. We outline the PCM’s role within the PICU, the motivation behind its modular design, and the progress toward its engineering model. The work demonstrates how ADHA’s reusable avionics approach can streamline payload development and support a broad range of scientific and Earth-observation missions.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Advancing-modular-space-avionics--design-and-development-of-an/14145-137",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Helen M. McGregor, Dylan Simpfendorfer, Scott Smedley, Jon Lawrence, Jurek Brzeski, Roland Winkler, Andreas Kelz",
       "PaperNumber": "14149-120",
       "DateTimeLocationDataList": [
@@ -1158,7 +1158,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -1186,7 +1186,7 @@
       "PaperNumber": "14145-118",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1212,41 +1212,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Pierre R. Nicolas, Patrick Ingraham, Heejoo Choi, Ewan S. Douglas, Solvay Blomquist, Kevin Derby, Daewook Kim",
-      "PaperNumber": "14154-288",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "47dd9468-a3d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "47dd9468-a3d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "An open-source Python pipeline for optical performances and alignment analysis using ray-tracing tools",
-      "Description": null,
-      "Abstract": "This paper presents a fast, accurate, and easily integratable open-source pipeline for analyzing optical system performance under mechanical and thermal perturbations. Built on the Batoid ray-tracing library, the method replaces complex multi-tool workflows with a unified Python-based framework. It processes design variations such as alignment errors, rigid-body motions, and surface deformations-imported directly from standard finite-element-analysis (FEA) outputs-and applies them to the optical model. The pipeline includes automated conversion of Zemax prescriptions, deformation ingestion, system updating, and extraction of optical diagnostics. Using a three-mirror anastigmat telescope and sample Structural-Thermal-Optical-Performance (STOP) data, the paper demonstrates the pipeline's ability to rapidly compute wavefront error, boresight shifts, optical motions, and surface deformation impacts. This approach enables fast feedback loops for design teams and accelerates the development.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/An-open-source-Python-pipeline-for-optical-performances-and-alignment/14154-288",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1254,7 +1220,7 @@
       "PaperNumber": "14154-333",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1280,7 +1246,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1288,7 +1254,7 @@
       "PaperNumber": "14146-126",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1314,7 +1280,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1322,7 +1288,7 @@
       "PaperNumber": "14154-204",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1348,7 +1314,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1356,7 +1322,7 @@
       "PaperNumber": "14149-134",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1382,7 +1348,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1390,7 +1356,7 @@
       "PaperNumber": "14154-236",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1416,7 +1382,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1424,7 +1390,7 @@
       "PaperNumber": "14154-190",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1450,7 +1416,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1458,7 +1424,7 @@
       "PaperNumber": "14150-142",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1484,7 +1450,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1526,7 +1492,7 @@
       "PaperNumber": "14145-129",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1552,7 +1518,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1560,7 +1526,7 @@
       "PaperNumber": "14150-123",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1586,7 +1552,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1594,7 +1560,7 @@
       "PaperNumber": "14145-106",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1620,7 +1586,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1628,7 +1594,7 @@
       "PaperNumber": "14150-113",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1654,7 +1620,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1662,7 +1628,7 @@
       "PaperNumber": "14145-124",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1688,11 +1654,11 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
-      "Authors": "Eitan Péchevis, Jérôme Amiaux, Clara Bataillon, Marion Baumann, Michel Berthé, Thomas Capocci, Christophe Cara, Cyrille Delisle, Elsa Ducrot, Jean Fontignie, Benoit Horeau, Duc-Dat Huynh, Grégory Kaszubiak, Pierre-Olivier Lagage, Isabelle Le Mer, Nathan Leguay, Michel Lortholary, Jérôme Martignac, Thibault Pichon, Léna Provost, Bastien Reboul, Diana Renaud, Thierry Tourrette, François Visticot, Damien Bachet, Nicolas Berton, Christophe Cossou, Mickaël Lacroix, Hervé Le Provost, Virgile Meyer, Lexane Picault, Nicolas Solenne, Antoine Arondel, Stéphane Correia-da-Costa, Bruno Crane, Jean-Pierre Dubois, Norma Hurtado, Clémence De Jabrun, François Langlet, Benoît Lecomte, Antoine Maillot, Marc Ollivier, Anne Philippon, Catherine Tamiatto, Stéphane Tosti, Xue Yan Zhang, Eric Gendron, Yanis Gougeat, Vincent Lapeyrere, Jérôme Parisot, Jean-Michel Reess, Didier Zeganadin, Alain Triffaux, Jean-Christophe Bouquier, Daphné Caillot, Fabrice Glize, Pascal Truchelut, Jean-Philippe Beaulieu, Pierre Drossart, Angèle Sity, Pierre Vigneron, Isabelle Zenone, Elisa Baldit, Pascale Danto, Hervé Geoffray, Gaëlle Giesen, Elodie Jacquel, Oceane Maisonnave, Florian Lazartigues, Paul Eccleston, Enzo Pascale, Adrien Défossé, Mallaury Guerrier",
+      "Authors": "Eitan Péchevis, Jérôme Amiaux, Clara Bataillon, Marion Baumann, Michel Berthé, Thomas Capocci, Christophe Cara, Cyrille Delisle, Elsa Ducrot, Jean Fontignie, Benoit Horeau, Duc-Dat Huynh, Grégory Kaszubiak, Pierre-Olivier Lagage, Isabelle Le Mer, Nathan Leguay, Michel Lortholary, Jérôme Martignac, Thibault Pichon, Léna Provost, Bastien Reboul, Diana Renaud, Thierry Tourrette, François Visticot, Damien Bachet, Nicolas Berton, Christophe Cossou, Mickaël Lacroix, Hervé Le Provost, Virgile Meyer, Lexane Picault, Nicolas Solenne, Antoine Arondel, Stéphane Correia-da-Costa, Bruno Crane, Jean-Pierre Dubois, Norma Hurtado, Clémence De Jabrun, François Langlet, Benoît Lecomte, Antoine Maillot, Marc Ollivier, Anne Philippon, Catherine Tamiatto, Stéphane Tosti, Xue Yan Zhang, Eric Gendron, Yanis Gougeat, Vincent Lapeyrere, Jérôme Parisot, Jean-Michel Reess, Didier Zeganadin, Alain Triffaux, Jean-Christophe Bouquier, Daphné Caillot, Fabrice Glize, Pascal Truchelut, Jean-Philippe Beaulieu, Pierre Drossart, Angèle Sity, Pierre Vigneron, Isabelle Zenone, Elisa Baldit, Pascale Danto, Hervé Geoffray, Gaëlle Giesen, Elodie Jacquel, Oceane Maisonnave, Florian Lazartigues, Enzo Pascale, Paul Eccleston, Adrien Défossé, Mallaury Guerrier",
       "PaperNumber": "14145-113",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "A. Brucalassi, J. A. Araiza-Durán, P. Picchi, A. Tozzi, A. G. Pérez, A. J. Fernandez-Soler, C. Galy, A. Caldwell, A. Fitzpatrick, A. Bocchieri, E. Pascale, J. Pérez Álvarez, G. Morgante, D. Bruzzi, M. E. Caldwell, V. D. Cardinale, P. Chioetto, F. D'Anca, P. Eccleston, D. Ferruzzi, D. Gottini, E. Guerriero, D. Jollet, R. Lilli, G. Micela, A. Olivieri, E. Pace, G. Preti, M. Rainer, G. Savini, A. Scippa, G. Tinetti, P. Zuppella",
+      "PaperNumber": "14145-111",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presented live 5 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "b0cef9fb-0ccf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "b0cef9fb-0ccf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "ARIEL payload STOP analysis: updated results on the in-flight operational cases for the telescope assembly",
+      "Description": null,
+      "Abstract": "At payload level, a Structural, Thermal, and Optical Performance (STOP) analysis is carried out to evaluate how thermo-elastic effects may impact the instrument’s optical performance. A STOP analysis integrates structural, thermal, and optical models to predict how temperature variations and mechanically induced deformations propagate through the telescope assembly and ultimately affect key optical metrics such as alignment, wavefront error, and imaging quality. This coupled approach enables the estimation of performance degradation under representative environmental load cases and supports verification of compliance with scientific and engineering requirements.    This document presents the updated results of the optical design analysis performed to predict the in-flight performance for the Telescope Assembly of the ESA M4 mission Ariel according to the operational scenarios defined for Cycle C-2.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/ARIEL-payload-STOP-analysis--updated-results-on-the-in/14145-111",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH02",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

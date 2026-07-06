@@ -536,6 +536,40 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Ceiwynn C. Longworth, Megan M. Delamer, Suvrath Mahadevan, Joe P. Ninan, Kathleen Gehoski, Krushna Jadhav",
+      "PaperNumber": "14154-202",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "b7d87568-9acf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "b7d87568-9acf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Fabrication of focusing optics for TA-MOONS: Micro-MOONS",
+      "Description": null,
+      "Abstract": "Tackling open problems in star formation requires precise spectroscopic observations of a large number of young stellar objects, spanning a wide wavelength band from the optical through the near-infrared. The TIFR-ARIES Multi-Object Optical to Near-infrared Spectrometer (TA-MOONS) is a new astronomical instrument designed to survey young stars. To precisely position starlight into its 8 robotic arms, an array of microscopic, concave mirrors is needed. The fabrication of the mirror array called Micro-MOONS was done using two-photon polymerization 3D printing. The mirrors are created of IP-S photoresist on a silicon substrate, with fabrication focusing on uniformity, minimizing surface roughness, and preserving the desired curvature radius.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Fabrication-of-focusing-optics-for-TA-MOONS-Micro-MOONS/14154-202",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Kosuke Kushibiki, Kentaro Motohara, Tadayuki Kodama, Masayuki Akiyama, Yosuke Minowa, Yusei Koyama, Ichi Tanaka, Kumiko Morihana, Kenshi Yanagisawa, Sadman Ali, Takashi Hattori, Michitoshi Yoshida, Masahiro Konishi, Shiang-Yu Wang",
       "PaperNumber": "14149-316",
       "DateTimeLocationDataList": [
@@ -1690,47 +1724,13 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
-    },
-    {
-      "Authors": "Thomas J. Mozdzen, Richard M. Scott, Isaac Smith, Phil D. Mauskopf, Mickey Martini, Mereia Perera-Gonzalez",
-      "PaperNumber": "14148-129",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "5db39aad-7cd0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "5db39aad-7cd0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Improved timing jitter in stellar intensity interferometry while observing Sirius with 0.25m telescopes",
-      "Description": null,
-      "Abstract": "We improve upon our intensity interferometry results from early 2024 of our observations of Sirius by using lower jitter firmware on our Swabian Time Tagger and a shorter fiber optics cable with a graded instead of a step index. We also present preliminary results showing the suppression of t=0 crosstalk noise in the Timetagger by using two Timetaggers and a Synchronizer unit, which replaces the need for coax delay cable on a single channel that is susceptible to timing variations and thus jitter. Preliminary work using a spectrometer and a linear SPAD array to decrease data collection time while maintaining a strong SNR will also be presented.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Improved-timing-jitter-in-stellar-intensity-interferometry-while-observing-Sirius/14148-129",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
-      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

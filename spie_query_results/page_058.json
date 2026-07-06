@@ -26,6 +26,40 @@
   },
   "Items": [
     {
+      "Authors": "Kathleen Harrington, The Simons Observatory Collaboration",
+      "PaperNumber": "14156-60",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 11:40 - 12:00 CEST | Room B5-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "12adab2c-87d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "12adab2c-87d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The Simons Observatory: on-sky noise performance of the small aperture telescopes",
+      "Description": null,
+      "Abstract": "The Simons Observatory (SO) is a next generation cosmic microwave background (CMB) experiment now operating in the Chilean Atacama Desert. The initial SO configuration includes three 0.5-meter Small Aperture Telescopes (SATs) that are targeting observations of the larger angular scales of the CMB polarization anisotropy in a search for the B-mode polarization signature that would indicate the presence of inflation-sourced primordial gravitation waves. Each SAT contains over 12,000 transition edge sensor detectors; the two Mid-frequency SATs, observing in bands around 90 and 150 GHz, completed commissioning in the Fall of 2024 and the ultra-high frequency SAT, observing bands around 220 and 280 GHz, began commissioning in the Fall of 2025. I will discuss the efficiency calibrations and noise performance of deployed instruments as well as compare the achieved performance to forecasting and instrument modeling expectations.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Simons-Observatory--on-sky-noise-performance-of-the/14156-60",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 11:40 - 12:00 CEST | Room B5-M3",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Krittapas Chanchaiworawit, Kantapong Tharawan, That Chomchuen, Jitsupa Paenoi, Thansita Thomrungpiyathan, Pakawat Prasit, Samattachai Tanun, Teerawat Kuha, Auychai Laoyang, Pathompong Butpan, Rungrit Anutarawiramkul, Anuphong Inpan, Suchinno Kanthum, Picha Ruenarrom, Tarathon Intaros, Manlika Pinkaew, Apichat Leckngam",
       "PaperNumber": "14149-84",
       "DateTimeLocationDataList": [
@@ -1690,47 +1724,13 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "10 July 2026 • 15:25 - 15:40 CEST | Room B3-M2",
       "ErrorMessage": null
-    },
-    {
-      "Authors": "Mohammad N. Islam, Tayron Dueck, Richard Hellyer, Gordon Lacy, Elena Bergeron, Brian Hoff, Julie Levesque-Robb, Bryan Schellenberg",
-      "PaperNumber": "14153-72",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 15:30 - 15:50 CEST | Room B2-M8",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "cdfbb82d-d6cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "cdfbb82d-d6cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "From concept to production: the making of composite reflectors for the Canadian Hydrogen Observatory and Radio-transient Detector",
-      "Description": null,
-      "Abstract": "This paper outlines the development and production of composite reflectors for the Canadian Hydrogen Observatory and Radio-transient Detector (CHORD) at the Dominion Radio Astrophysical Observatory in British Columbia. DRAO developed and now fabricates 512 six‑meter composite antennas using molds, custom jigs, fixtures, and optimized workflows to ensure manufacturing repeatability. The paper details the transition from R&D to full-scale production, addressing challenges in composite fabrication and highlighting innovations that improved reflector accuracy, reduced cost, and increased production efficiency.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/From-concept-to-production--the-making-of-composite-reflectors/14153-72",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 15:30 - 15:50 CEST | Room B2-M8",
-      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

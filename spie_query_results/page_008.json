@@ -26,176 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Hanshin Lee, Matthew Ramirez, Uma Subash, Brian L. Vattiat, Joshua Scally, Nicole Wilson, Steven Cadd, Herman Kriel, George Damm",
-      "PaperNumber": "14147-95",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "aa3d2926-35c7-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "aa3d2926-35c7-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Laser truss edge sensors for the segmented-mirror alignment and maintenance system of the Hobby-Eberly Telescope",
-      "Description": null,
-      "Abstract": "The Segmented-mirror Alignment and Maintenance System (SAMS) is the key equipment that maintains the imaging performance of the Hobby Eberly Telescope (HET) in west Texas. The SAMS constantly measures and controls the alignment of 91 hexagonal mirror segments to form the ideal spherical reflective surface. The existing SAMS (Old SAMS) has been showing its hardware/software obsolescence and aging. In early 2025, our team embarked on the 5-year-long upgrade project to Old SAMS. This “New SAMS” is based on the Absolute Multiline System from Hexagon, which consists of hundreds of laser distance-measuring interferometers and forms an invisible laser truss around the primary mirror to measure critical inter-segment alignment down to tens of nanometer level. In the past year, our team undertook several key activities that include design/development/test of electro-opto-mechanical support systems and control software infrastructure. We detail the outcomes of these Phase 1 R&D activities.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Laser-truss-edge-sensors-for-the-segmented-mirror-alignment-and/14147-95",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Diego Ayala-Cajas, Diego Portero-Rodríguez, Roberto López López, Luis Fernando Rodríguez-Ramos, Miguel A. Cagigas",
-      "PaperNumber": "14150-137",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "71436790-a6d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "71436790-a6d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "LCOS-SLMs applications for adaptive optics and astronomy",
-      "Description": null,
-      "Abstract": "In this work we present the use of liquid-crystal-on-silicon (LCOS) spatial light modulators (SLM) used for astronomical instrumentation. In our adaptive optics setup, the SLM provides phase and amplitude control to compensate aberrations produced by a Deformable Mirror (DM), and measured with a waveform sensor. The correction had a satisfactory Strehl ratio and point spread function (PSF). Moreover, the Kolmogorov model of turbulence was simulated using an open-source AO framework, allowing real-time manipulation of a collimated beam to reproduce starlight propagation through atmospheric conditions.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/LCOS-SLMs-applications-for-adaptive-optics-and-astronomy/14150-137",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Jian Ge, Zhangqi Dang, Ziru Zhang, Rong Shu, Wen Chen, Jie Yin, Zhongming Chen, Jun Yang, Xinyi Song, Rafael Luque, Enric Pallé",
-      "PaperNumber": "14145-116",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "461466bf-58d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "461466bf-58d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Life 2.0 space mission concept",
-      "Description": null,
-      "Abstract": "The Life 2.0 space mission concept aims to characterize the atmospheres of transiting exoplanets, including Earth-like worlds, in search of biosignatures in the optical. The mission will consist of an array of 900 one-meter space telescopes in Earth orbit, each equipped with a high-throughput (~50%) waveguide-integrated miniature spectrograph (WIMS) and an ultra-low-noise CMOS detector (~0.3 e-). By combining transmission spectra from 900 telescopes, the signal-to-noise of the combined spectrum can reach a similar level as a single 30-meter space telescope, enabling the detection of the faint planetary atmosphere signal, including species such as oxygen, water, ozone; and many other science cases. The array is scalable and mass-producible, enabling low manufacturing and deployment cost for large-scale atmospheric surveys of habitable exoplanets. The mission design and prototype performance will be reported.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Life-20-space-mission-concept/14145-116",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Go Murakami, Fuminori Tsuchiya, Atsushi Yamazaki, Umi Enokidani, Masato Kagitani, Shingo Kameda, Kazuo Yoshioka, Masaki Kuwabara, Tomoki Kimura, Ayaka Tadokoro, Ryoichi Koga, Riko Shimizu, Iona Kondo, Ryo Iba",
-      "PaperNumber": "14146-127",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "149e0da1-b7ce-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "149e0da1-b7ce-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Life-environmentology, astronomy, and planetary ultraviolet telescope assembly (LAPYUTA) mission: overview of the mission instruments and updates on key technology developments",
-      "Description": null,
-      "Abstract": "The LAPYUTA mission aims to carry out spectroscopy with a large effective area (>300 cm2) and a high spatial resolution (0.1 arc-sec) and imaging in FUV spectral range (110-190 nm) from a space telescope. The mission unit consists of a Cassegrain telescope with a 60cm primary mirror, UV instruments placed at the focal plane (medium and high dispersion spectrographs and a slit imager), and a fine guidance sensor for attitude control and determination. To achieve LAPYUTA’s requirements, we are developing key technologies including large high-sensitivity tapered microchannel plates, a photon-counting system utilizing CMOS readout via optical fiber, high-efficiency diffraction gratings, and high-reflectivity UV coatings. These key technologies can be applied in future international flagship missions such as the Habitable Worlds Observatory (HWO). This paper will introduce the instrument overview, conceptual design, and development status of the key technologies for the LAPYUTA mission.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Life-environmentology-astronomy-and-planetary-ultraviolet-telescope-assembly-LAPYUTA-mission/14146-127",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Jake M. Charsley, William Newman, Yuk Shan Cheng, Derryck T. Reid",
-      "PaperNumber": "14154-181",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "db46b193-53cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "db46b193-53cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Line-by-line control of 10,000 RIZ-band astrocomb lines for spectral flattening and arbitrary shaping",
-      "Description": null,
-      "Abstract": "High dynamic range in astrocomb spectra leads to a degradation in the wavelength calibration precision for high-resolution spectrographs. We demonstrate a high-resolution spectral shaper that enables independent intensity control of 10,000 lines in a 20 GHz RIZ band astrocomb, providing dynamic spectral flattening and arbitrary shaping at Hz-level update rates. By configuring a cross-dispersing echelle spectrograph with a spatial light modulator (SLM) at the focal plane, spatially resolved comb modes presented to the SLM are individually and arbitrarily modulated. This offers conventional flattening at a higher resolution than typical approaches, with the additional ability to reveal the order-to-order concatenation for wavelength solution extraction and the potential to refine the density of comb lines for improved point spread function analysis.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Line-by-line-control-of-10000-RIZ-band-astrocomb-lines/14154-181",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "David Blanquez, Jan Petersen, Desiree D. M. Ferreira, Denis Tcherniak, Gabriel Cobos Tello, Alessandro Morello",
       "PaperNumber": "14145-134",
       "DateTimeLocationDataList": [
@@ -268,7 +98,7 @@
       "PaperNumber": "14146-140",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -294,7 +124,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -302,7 +132,7 @@
       "PaperNumber": "14149-154",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -328,7 +158,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -370,7 +200,7 @@
       "PaperNumber": "14146-130",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -396,7 +226,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -404,7 +234,7 @@
       "PaperNumber": "14149-141",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -430,7 +260,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -472,7 +302,7 @@
       "PaperNumber": "14154-177",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -498,7 +328,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -574,7 +404,7 @@
       "PaperNumber": "14154-264",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -600,7 +430,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -676,7 +506,7 @@
       "PaperNumber": "14145-130",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -702,7 +532,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -710,7 +540,7 @@
       "PaperNumber": "14147-87",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -736,7 +566,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -778,7 +608,7 @@
       "PaperNumber": "14154-132",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -804,7 +634,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -846,7 +676,7 @@
       "PaperNumber": "14154-131",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -872,7 +702,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -880,7 +710,7 @@
       "PaperNumber": "14154-206",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -906,7 +736,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -914,7 +744,7 @@
       "PaperNumber": "14154-133",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -940,7 +770,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -948,7 +778,7 @@
       "PaperNumber": "14154-220",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -974,7 +804,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1016,7 +846,7 @@
       "PaperNumber": "14150-143",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1042,7 +872,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1084,7 +914,7 @@
       "PaperNumber": "14150-116",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1110,7 +940,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1186,7 +1016,7 @@
       "PaperNumber": "14154-135",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1212,7 +1042,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1288,7 +1118,7 @@
       "PaperNumber": "14154-341",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1314,7 +1144,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1356,7 +1186,7 @@
       "PaperNumber": "14154-207",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1382,7 +1212,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1424,7 +1254,7 @@
       "PaperNumber": "14154-243",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1450,7 +1280,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1458,7 +1288,7 @@
       "PaperNumber": "14154-260",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1484,7 +1314,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1526,7 +1356,7 @@
       "PaperNumber": "14146-105",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1552,7 +1382,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1594,7 +1424,7 @@
       "PaperNumber": "14145-117",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1620,7 +1450,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1662,7 +1492,7 @@
       "PaperNumber": "14154-152",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1688,7 +1518,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1696,7 +1526,7 @@
       "PaperNumber": "14146-119",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 5 July 2026",
+          "date_time_location": "On demand | Presented live 5 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1722,15 +1552,185 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 5 July 2026",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Zhengjiang Zhang, Huatao Zhang, Yanbing Chen, Tong Zhou, Kai Zhang, Mingda Jiang, Zhen Tang",
+      "PaperNumber": "14149-122",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "3b92b6c4-16d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "3b92b6c4-16d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "On-site integration and commissioning of a high-resolution echelle spectrograph for the 1.2m astronomical telescope of Sun Yat-Sen University",
+      "Description": null,
+      "Abstract": "The astronomical high dispersion spectrograph for the 1.2-meter astronomical telescope is a fiber-fed, high-resolution echelle spectrograph located at the astronomical station of Zhuhai campus of Sun Yat-Sen University. It is fed by the Cassegrain focus via a 25-meter-long, 2.7’’ optical fiber. The spectrograph provides spectral resolution higher than 30000 over the wavelength range of 400-900nm. It enables the science team to do frontier researches and education in astronomical fields such as chemical element abundance measurement, stellar formation and evolution. This paper mainly describes the spectrograph alignment and the commissioning performance. We adopted a method of combining autocollimation with Knife-Edge test to intuitively and precisely align the optical axis of each optical component, and improve working efficiency. With the commissioning observations, the instrumental performance has been further optimized and met the scientific requirements.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/On-site-integration-and-commissioning-of-a-high-resolution-echelle/14149-122",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Mirko Colapietro, Sergio D'Orsi, Salvatore Savarese, Pietro Schipani, Laurent Marty, Giulio Capasso, Ricardo Zanmar Sánchez, Kalyan Radhakrishnan Santhakumari, Federico Battaini, Simone Di Filippo, Matteo Aliverti, Simone Doniselli, Andrea Baruffolo, Davide Ricci, Bernardo Salasnich, Paolo D'Avanzo, Sergio Campana, Riccardo Claudi, David Young, Marco Landoni, Matteo Munari, Stephen Smartt, Matteo Genoni, Fabrizio Vitali, Salvatore Scuderi, Rosario Cosentino, Frédéric Dérie, Markus Schoeller, Armin Silber, Ivo Saviane, Emanuela Pompei, Derek Ives, Antonio Miccichè, Gaetano Nicotra, Eugenio Martinetti, Silvio Di Rosa, Marco Dima, Adam Rubin, Marco Riva, Michael Rappaport, Giuliano Pignata, Luigi Lessio, Hanindyo Kuncarayakti, Ofir Hershko, Francesco D'Alessio, Anna Brucalassi, Alex Bichkovsky, Sagi Ben-Ami, José Antonio Araiza-Durán, Maximilian Stritzinger, Seppo Mattila, Avishay Gal-Yam, Iair Arcavi, Massimo Della Valle, Enrico Cappellaro, Antonio Sulich, Jani Achrén, Marcos Hernandez Diaz, Jari Kotilainen, Gianluca Li Causi, Hector Pérez Ventura",
+      "PaperNumber": "14149-156",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presented live 5 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "6f5dac7d-69d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "6f5dac7d-69d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "On-site integration and validation of the SOXS control electronics at ESO-NTT",
+      "Description": null,
+      "Abstract": "The Son Of X-Shooter (SOXS) instrument is a dual-arm, wide-band spectrograph designed to provide rapid and flexible follow-up observations of transient phenomena with the ESO NTT.  After successfully completing its Preliminary Acceptance in Europe at the end of 2024, the instrument was shipped to the ESO La Silla Observatory.  This paper presents the on-site integration and validation of the SOXS control electronics.  We describe the tests performed at the telescope, including hardware integration, verification of network and software interfaces, functional checks of the motion and thermal control systems, and communication tests with the instrument control software.  Particular emphasis is placed on the assessment of timing stability, electromagnetic compatibility within the telescope environment, and system robustness under operational constraints such as temperature variations and safety interlocks, highlighting lessons learned that guided the optimization of the system.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/On-site-integration-and-validation-of-the-SOXS-control-electronics/14149-156",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Rasjied Sloot, Rudy Wijnands, Steven Bloemen, Hans Ellermeijer, Alexander Hoogerbrug, Rik ter Horst",
+      "PaperNumber": "14147-116",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "c4c44d1d-e499-f011-a9ac-00505691c5e1---crmrecord",
+      "GUID": "c4c44d1d-e499-f011-a9ac-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "On-sky commissioning and technical performance of Proto-NUX at Pic du Midi",
+      "Description": null,
+      "Abstract": "The Near-Ultraviolet eXplorer (NUX) is a proposed ground-based observing facility designed to expand near-ultraviolet (NUV) astronomy by enabling observations in the 300--350 nm range from Earth. To validate this concept, a single-telescope prototype, Proto-NUX, was commissioned at the Pic du Midi Observatory in the French Pyrenees during its first high-altitude observing campaign in March 2026. The campaign tested deployment, remote operation, calibration, detector performance, image quality, tracking, and simultaneous optical monitoring under realistic observing conditions. In particular, the delivered NUV point-spread function was broader than expected, likely due to residual collimation, chromatic effects, and internal reflections. The detector dark current contributed significantly to the noise budget. We discuss limitations and key improvements for future Proto-NUX campaigns and the NUX system.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/On-sky-commissioning-and-technical-performance-of-Proto-NUX-at/14147-116",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Aditi Desai, Stephanie E. Sallum, Andrew J. Skemer",
+      "PaperNumber": "14149-119",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "cfda8e9f-b3d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "cfda8e9f-b3d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "On-sky demonstration of speckle noise removal using the SCALES medium-spectral-resolution mode",
+      "Description": null,
+      "Abstract": "The Slicer Combined with Array of Lenslets for Exoplanet Spectroscopy (SCALES) is a 2-5 micron high-contrast lenslet-based integral field spectrograph (IFS) designed to detect and characterize exoplanets. The SCALES medium-resolution mode comprises a lenslet subarray with a 0.34 x 0.36 arcsecond field of view (FOV) and an image slicer, allowing for measurements of molecular abundances and disequilibrium chemistry in giant exoplanet atmospheres at increased spectral resolution. This mode uses a piezo-electric mirror to offset the FOV from the star to the planet. We use SCALES commissioning data to perform tests on speckle noise removal software designed specifically for observations this mode, employing angular and spectral differential imaging to mitigate stellar, atmospheric, and instrumental noise effects. We demonstrate the achievable contrast for the medium-resolution mode and use the results to estimate our ability to recover planet signals and characterize exoplanet atmospheres.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/On-sky-demonstration-of-speckle-noise-removal-using-the-SCALES/14149-119",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Roland Winkler, Weijia Sun, Daniel Sablowski, Thomas Liebner, Ole Streicher, Steffen Frey, Ingo Stilz, Alexander Pramskiy, Scott Smedley, Thomas Szeifert, Diogo Rio Fernandes, Gerard Zins",
+      "PaperNumber": "14149-113",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presented live 5 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "1462cf0f-50d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "1462cf0f-50d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "On-sky fibre-target-alignment of the 4MOST instrument: calibration and performance",
+      "Description": null,
+      "Abstract": "The 4-metre Multi-Object Spectroscopic Telescope (4MOST) is a new wide-field, fibre-fed spectroscopic survey facility for the VISTA telescope at ESO’s Paranal Observatory. The instrument enables the simultaneous acquisition of 2436 spectra across a 4.2 deg² field of view, using a tilting spine fibre positioner feeding three dedicated spectrographs. In this paper, we describe the final calibration process, and performance verification of the Fibre-Target-Alignment (FTA) for 4MOST on the VISTA telescope. We show how reach a final positioning performance of approximately 16u m / 0.27 arc sec relative to targets on sky.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/On-sky-fibre-target-alignment-of-the-4MOST-instrument/14149-113",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presented live 5 July 2026",
       "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Wolfgang Gaessler, Santiago Barboza, Frederique Baron, Wolfgang Brandner, Vincent Benz, Paolo Di Marcantonio, René Doyon, Monica Ebert, Adrian Kaminski, Heidi Korhonen, Laura Kreidberg, Werner Laun, Michael Lehmitz, Alessandro Marconi, Paul Mollière, Andreas Quirrenbach, Ralf-Rainer Rohloff, Walter Seifert, Julian Stuermer, Wenli Xu, Alessio Zanutta",
-      "PaperNumber": "14149-250",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "946043da-91cb-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "946043da-91cb-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "ANDES, the high-resolution spectrograph for the ELT: K-band spectrograph options",
-      "Description": null,
-      "Abstract": "ANDES is a fiber fed high resolution spectrograph for the ELT, with the goal of providing simultaneous spectra of R~100000 over a wavelength range from 0.35 to 2.4 micron. The project is just finishing Phase-B with the system PDR.  The work on ANDES-K started with Phase-B. The feasibility to extend the baseline wavelength range from 1.8 to 2.4 micron was studied. Fiber throughput losses are higher in K than in other bands, why ANDES-K is placed close to the focal plane, which is putting limits to mass and volume. Due to such constraints, a spectrograph operating at the diffraction limit of the ELT was investigated. PDR of ANDES-K was hold November 2024 and passed successfully. The design is based on few mode fibers. We thoroughly studied the impact of modal noise created by such fibers and how to mitigate. We also developed a single mode fiber alternative. We will summarize our findings, compare existing spectrographs with our approach and finally conclude on the best option of ANDES-K.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/ANDES-the-high-resolution-spectrograph-for-the-ELT--K/14149-250",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Nicolò Azzaroli, Enrico Pinna, Chiara Selmi, Edoardo Redaelli",
-      "PaperNumber": "14149-293",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "6faf46ea-5bd0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "6faf46ea-5bd0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "ANDES, the high-resolution spectrograph for the ELT: optical design and analysis of the single conjugate adaptive optics (SCAO) WFS",
-      "Description": null,
-      "Abstract": "The ANDES (ArmazoNes high Dispersion Echelle Spectrograph) instrument for the ELT includes a complex Single Conjugate Adaptive Optics (SCAO) subsystem for real-time correction of atmospheric wavefront aberrations. This paper describes the SCAO optical design, featuring a common interface arm, a dual-pair Amici Atmospheric Dispersion Corrector, and a high-order pyramid wavefront sensor with auxiliary technical and phasing channels. Sensitivity analyses for component fabrication are detailed, focusing on the pyramid assembly and main optical arm. Key AIV tolerance results quantify how misalignments affect Residual WaveFront Error and PSF/Pupil shifts, defining robust positioning tolerances and confirming compliance with top-level requirements.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/ANDES-the-high-resolution-spectrograph-for-the-ELT--optical/14149-293",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Giorgio Pariani, Luca Oggioni, Ernesto Oliva, Simone Doniselli, Marcello Scalera, Matteo De Magistris, Monica Rainer, Alessio Zanutta, Paolo Di Marcantonio",
       "PaperNumber": "14149-280",
       "DateTimeLocationDataList": [
@@ -1724,13 +1656,81 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 7 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Laurent M. Mugnier, Alice Fontbonne, Pauline Trouvé, Olivier Herscovici-Schiller, Frédéric Champagnat, Yann Lucas, Yann Lai-Tim, Frédéric Cassaing",
+      "PaperNumber": "14148-111",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "2ea598af-69d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "2ea598af-69d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Co-design approach to aperture masking",
+      "Description": null,
+      "Abstract": "Aperture masking interferometry is a technique originally designed to alleviate the influence of atmospheric turbulence on images recorded on ground-based telescopes.   In this communication we explore the optimization of the aperture mask by an optical/digital co-design approach in order to obtain diffraction-limited images of relatively bright objects imaged through turbulence.  We show that, with a few simplifying assumptions, it is possible to express the Mean Square Error of the restored image as a function of the chosen mask, of the spatial Power Spectral Density (PSD) of the observed object and of the noise level, without actually computing any image.   This allows us to optimize the aperture mask with a reduced computing cost.  We also implement a multi-frame blind deconvolution algorithm to estimate jointly the observed object and the piston in front of each subaperture, and check by simulations that the aperture masks obtained indeed allow a satisfactory image reconstruction.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Co-design-approach-to-aperture-masking/14148-111",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Marta Maria Civitani, Stefano Basso, Riccardo Belmonte, Massimiliano Cariraghi, Vincenzo Cotroneo, Mauro Ghigo, Edoardo Redaelli, Daniele Spiga, Gabriele Vecchi, Luigi Lessio, Salvatore Incorvaia, Luca Schettini, Giorgio Toso",
+      "PaperNumber": "14146-252",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "7a358a8c-67cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "7a358a8c-67cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Cold glass slumping optics for the custom hybrid X-ray telescope of the International Axion Observatory (IAXO)",
+      "Description": null,
+      "Abstract": "Thin-glass technology enables the production of ultra-thin foils that can be cold-bent to very small radii without fracture, while maintaining excellent micro-roughness. These features make them well suited for rapid, cost-effective cold-replication of grazing-incidence X-ray optics. The CGSO process, patented by INAF-OABrera, shapes flat glass foils on precision mandrels and bonds them onto a support structure using Wolter-I counter-form moulds and reinforcing ribs that ensure structural integrity and suppress low-frequency shape errors. This work extends and validates the process for shorter, 5 m focal-length optics required for the BabyIAXO hybrid design, which features an inner core and an outer corona to cover the 700mm magnetic bore. The reduced focal length requires a full redesign of the integration machine to handle higher mandrel curvature and larger angular adjustments. We present the project, the upgraded strategy, expected performance.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Cold-glass-slumping-optics-for-the-custom-hybrid-X-ray/14146-252",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

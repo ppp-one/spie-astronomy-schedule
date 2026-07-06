@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Haoran Kang, Takafumi Kojima, Takeshi Sakai, Yoichi Tamura, Shun Ishii, Akio Taniguchi, Masato Hagimoto, Masato Kato, Taku Nakajima, Tai Oshima, Sho Masui, Issei Watanabe",
-      "PaperNumber": "14156-27",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 14:30 - 14:50 CEST | Room B5-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "6cdb5c39-04cc-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "6cdb5c39-04cc-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "A wideband 210-350 GHz millimeter-wave receiver for LMT-FINER",
-      "Description": null,
-      "Abstract": "The FINER project is developing two wideband dual-polarization sideband-separating receivers covering 120–210 GHz and 210–350 GHz to efficiently identify high-redshift galaxy candidates in the early universe. Based on high-Jc SIS mixer technology originally developed for the ALMA WSU, the FINER receivers are designed to provide an IF bandwidth of 3–21 GHz per sideband and per polarization, approximately five times wider than the current ALMA specifications. After installation on the LMT, these receivers are expected to offer highly efficient spectral-scanning capability among (sub)millimeter-wave facilities in the northern-hemisphere. This paper reports the initial laboratory characterization of the 210–350 GHz receiver. The measured single-sideband receiver noise temperature is approximately 100 K over most of the RF band. Digital sideband separation was also demonstrated using a wideband spectrometer array, achieving an image rejection ratio of around 20 dB in the initial tests.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/A-wideband-210-350-GHz-millimeter-wave-receiver-for-LMT/14156-27",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 14:30 - 14:50 CEST | Room B5-M3",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Shaojie Chen, Suresh Sivanandam, Olivier Lardière, Gavin Hay, Sarik Jeram, Béatrice Lessard-Hamel, Denis Brousseau, Simon Thibault, Jenny Atwood, Mark Barnet, Jiayi, Emma Xu, Saugata Dutt, Scott Christie",
       "PaperNumber": "14154-74",
       "DateTimeLocationDataList": [
@@ -468,7 +434,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "David Brodrick, Valentina Viotto, Anthony Horton, Pierre Haguenauer, Tristan Monnier, Hana Benhizia, Luca Marafatto, Dionne Haynes, Gaston Gausachs, Ulf Seemann, Roger Haynes, Jennifer Burgess, Trevor Mendel, Francois Rigaut",
+      "Authors": "David Brodrick, Valentina Viotto, Anthony Horton, Pierre Haguenauer, Tristan Monnier, Hana Benhizia, Luca Marafatto, Dionne Haynes, Gaston Gausachs, Ulf Seemann, Roger Haynes, Jennifer Burgess, Trevor Mendel, Francois Rigaut, Gordon Banks",
       "PaperNumber": "14152-53",
       "DateTimeLocationDataList": [
         {
@@ -1012,7 +978,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Armando Gil de Paz, Patricia Sánchez-Blázquez, Jesús Gallego, Esperanza Carrasco, Marisa García Vargas, Javier Piqueras López, José Oñorbe, Gracia Esther Martín Garzón, Sergio Pascual, Nicolás Cardiel, África Castillo-Morales, Francisco M. Montenegro Montes",
+      "Authors": "Armando Gil de Paz, Patricia Sánchez-Blázquez, Jesús Gallego, Esperanza Carrasco, Marisa García Vargas, Javier Piqueras López, José Oñorbe, Gracia Esther Martín Garzón, Sergio Pascual, Nicolás Cardiel, África Castillo-Morales, Francisco M. Montenegro Montes, Beatriz Callejas-Córdoba, Paula Macías-Pardo",
       "PaperNumber": "14149-56",
       "DateTimeLocationDataList": [
         {
@@ -1034,11 +1000,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "TARSIS, an 8 arcmin^2 IFU under detailed design for the Calar Alto 3.5m telescope",
+      "Title": "TARSIS after its Preliminary Design Review: status of an 8 arcmin2 blue-optimized IFU",
       "Description": null,
-      "Abstract": "TARSIS (Tetra-Armed Super-Ifu Spectrograph) is a wide-field IFU with an 8-arcmin^2 FoV that is currently under detailed design for the Calar Alto Observatory (CAHA) 3.5m telescope. The TARSIS image-slicer fills the instrument FoV completely and, combined with the TARSIS four spectrographs, yields a spectral resolution of R~1000 in the range between 320-520nm (three spectrographs/quadrants) and 510-810nm (one spectrograph/quadrant) with a spaxel size of 2x2 arcsec^2. The scientific objective of TARSIS is to carry out the CATARSIS survey, a blind-spectroscopic mapping of 16 galaxy clusters in the range 0.15< z<0.27 up to their virial radii that will make use of all available dark time at the CAHA 3.5m for five years. CATARSIS will start as soon as TARSIS is available at the telescope, which is estimated for 2030.",
+      "Abstract": "TARSIS is a wide-field, blue-optimized integral-field unit with a FoV of 2.8 x 2.8 arcmin2 originally designed for the Calar Alto 3.5m telescope employing a total of four image-slicer-fed spectrographs. The PDR package has now been completed, the CATARSIS science case has been consolidated, and most of the scientific-preparation WPs have reached preliminary-design maturity. The baseline design keeps three blue arms covering 320-520 nm and one red arm covering 510-810 nm, with 2 x 2 arcsec2 spatial elements and resolving powers from R~750 at the band edges to R~1000-1300 near the central and redder wavelengths. The PDR package also consolidated the opto-mechanical layout, integration and alignment sequence, ghost/stray-light analyses, ETC requirements, and data-flow needs for CATARSIS. Calar Alto has completed the acquisition of the optical blanks. The TARSIS team is currently pursuing opportunities to adapt this design and the hardware already in hand to another facility.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/TARSIS-an-8-arcmin2-IFU-under-detailed-design-for-the/14149-56",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/TARSIS-after-its-Preliminary-Design-Review--status-of-an/14149-56",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 16:20 - 16:40 CEST | Room B4-M1",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Kentaro Motohara, Masahiro Konishi, Hidenori Takahashi, Natsuko Kato, Misato Fujii, Jeung Yun, Tomoya Yukino, Akino Yasuda, Kensho Tanaka, Taiki Kikuchi, Kosuke Kushibiki, Shinobu Ozaki, Yutaka Yamagata, Takuya Hosobata, Tadayuki Kodama, Ken'ichi Tadaki, Yusei Koyama, Rhythm Shimakawa, Nuo Chen, Jun Toshikawa, Kazuki Daikuhara, Kosuke Takahashi, Mariko Kubo, Mamoru Doi, Noboru Ebizuka, Nobunari Kashikawa, Takashi Miyata, Kotaro Kohno, Takeo Minezaki, Shigeyuki Sako, Fumi Egusa, Itsuki Sakon, Takafumi Kamizuka, Kazuya Matsubayashi, Kana Morokuma-Matsui, Hiroaki Sameshima, Mitsuyoshi Yamagishi, Masataka Imai, Takashi Horiuchi, Yuki Hirao, Yuzuru Yoshii",
+      "PaperNumber": "14149-58",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 16:25 - 16:45 CEST | Auditorium 15",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "80790a69-8cce-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "80790a69-8cce-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The University of Tokyo Atacama Observatory 6.5m telescope: upgrade of the NIR camera/spectrograph SWIMS",
+      "Description": null,
+      "Abstract": "SWIMS, Simultaneous-color Wide-field Infrared Multi-object Spectrograph, is one of the first-generation instruments for the University of Tokyo Atacama Observatory (TAO) 6.5-meter Telescope now being constructed at   the summit of Co. Chajnantor in northern Chile (will be reported separately). The instrument is under refurbishment of optics, detector control system, and multi-object slit mask exchanger. New development of an integral field unit and echelle grism is also on going. Once the refurbishment is completed, SWIMS will be sent to Chile and see the first light in FY2027.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-University-of-Tokyo-Atacama-Observatory-65m-telescope--upgrade/14149-58",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 16:25 - 16:45 CEST | Auditorium 15",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

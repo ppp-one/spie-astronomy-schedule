@@ -1731,25 +1731,25 @@
       "Values": [
         {
           "Name": "Sunday, 05 July",
-          "Count": 568,
+          "Count": 562,
           "QueryValue": "20260705",
           "Selected": false
         },
         {
           "Name": "Monday, 06 July",
-          "Count": 533,
+          "Count": 537,
           "QueryValue": "20260706",
           "Selected": false
         },
         {
           "Name": "Tuesday, 07 July",
-          "Count": 646,
+          "Count": 647,
           "QueryValue": "20260707",
           "Selected": false
         },
         {
           "Name": "Wednesday, 08 July",
-          "Count": 524,
+          "Count": 526,
           "QueryValue": "20260708",
           "Selected": false
         },
@@ -1784,7 +1784,7 @@
         },
         {
           "Name": "Oral",
-          "Count": 1011,
+          "Count": 1012,
           "QueryValue": "Oral",
           "Selected": false
         },
@@ -1802,7 +1802,7 @@
       "Values": [
         {
           "Name": "Astrophotonics",
-          "Count": 820,
+          "Count": 821,
           "QueryValue": "Astrophotonics",
           "Selected": false
         },
@@ -1832,7 +1832,7 @@
         },
         {
           "Name": "Technology Advancements",
-          "Count": 885,
+          "Count": 886,
           "QueryValue": "Technology_Advancements",
           "Selected": false
         }
@@ -1841,10 +1841,10 @@
       "QueryParameter": "track"
     }
   ],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": true,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

@@ -9,11 +9,11 @@
         "ExhibitionName": "",
         "GetFacetCount": true,
         "GetSearchResults": true,
-        "HashString": "0150DateAscAS26BrowseProgramSpecial_Event",
+        "HashString": "01100DateAscAS26BrowseProgramSpecial_Event",
         "HighlightTerms": [],
         "LiveNowDateTime": null,
         "Page": 1,
-        "PageSize": 50,
+        "PageSize": 100,
         "SortBy": "DateAsc",
         "SymposiumCode": "AS26",
         "Terms": "",
@@ -85,7 +85,7 @@
             "RecordWeight": "Default:10 Category:800 Date:497.28 RecordSize:200 EventStatus:240 Total:1747.28",
             "HTMLTitle": "",
             "Title": "Welcome Reception",
-            "Description": "All registered conference attendees are invited to join your colleagues at the Welcome Reception.   Event Details FORMAT : Large informal networking reception with no scheduled program. MENU : Dinner buffet with gluten-free, dairy-free, and...",
+            "Description": "All registered conference attendees are invited to join your colleagues at the Welcome Reception. &nbsp; Event Details FORMAT : Large informal networking reception with no scheduled program. MENU : Dinner buffet with gluten-free, dairy-free, and...",
             "Abstract": "",
             "ImagePath": null,
             "URL": "/astronomical-telescopes-instrumentation/event/welcome-reception/7101616",
@@ -139,7 +139,7 @@
             "SuperSymposiumSeriesCode": "",
             "DateTimeLocationDataList": [
                 {
-                    "date_time_location": "6 July 2026 • 10:00 - 11:00 CEST | Hall B1",
+                    "date_time_location": "6 July 2026 • 10:00 - 11:00 CEST | Community Stage (Hall B1)",
                     "badge_icon": null,
                     "format_icon": null,
                     "show_tz_converter": false
@@ -162,7 +162,7 @@
             "ModifiedOn": "0001-01-01T00:00:00",
             "PublicationDate": null,
             "PublicationDateTime": "0001-01-01T00:00:00",
-            "DisplayDateTime": "6 July 2026 • 10:00 - 11:00 CEST | Hall B1",
+            "DisplayDateTime": "6 July 2026 • 10:00 - 11:00 CEST | Community Stage (Hall B1)",
             "ErrorMessage": null
         },
         {
@@ -174,7 +174,7 @@
             "SuperSymposiumSeriesCode": "",
             "DateTimeLocationDataList": [
                 {
-                    "date_time_location": "6 July 2026 • 10:00 - 17:00 CEST | Treehouse",
+                    "date_time_location": "6 July 2026 • 10:00 - 17:00 CEST | Bella Center, Treehouse (Upper Level)",
                     "badge_icon": null,
                     "format_icon": null,
                     "show_tz_converter": false
@@ -197,7 +197,7 @@
             "ModifiedOn": "0001-01-01T00:00:00",
             "PublicationDate": null,
             "PublicationDateTime": "0001-01-01T00:00:00",
-            "DisplayDateTime": "6 July 2026 • 10:00 - 17:00 CEST | Treehouse",
+            "DisplayDateTime": "6 July 2026 • 10:00 - 17:00 CEST | Bella Center, Treehouse (Upper Level)",
             "ErrorMessage": null
         },
         {
@@ -209,7 +209,7 @@
             "SuperSymposiumSeriesCode": "",
             "DateTimeLocationDataList": [
                 {
-                    "date_time_location": "6 July 2026 • 15:00 - 16:00 CEST | Hall B1",
+                    "date_time_location": "6 July 2026 • 15:00 - 16:00 CEST | Community Hub (Hall B1)",
                     "badge_icon": null,
                     "format_icon": null,
                     "show_tz_converter": false
@@ -232,7 +232,7 @@
             "ModifiedOn": "0001-01-01T00:00:00",
             "PublicationDate": null,
             "PublicationDateTime": "0001-01-01T00:00:00",
-            "DisplayDateTime": "6 July 2026 • 15:00 - 16:00 CEST | Hall B1",
+            "DisplayDateTime": "6 July 2026 • 15:00 - 16:00 CEST | Community Hub (Hall B1)",
             "ErrorMessage": null
         },
         {
@@ -349,7 +349,7 @@
             "SuperSymposiumSeriesCode": "",
             "DateTimeLocationDataList": [
                 {
-                    "date_time_location": "7 July 2026 • 10:00 - 17:00 CEST | Treehouse",
+                    "date_time_location": "7 July 2026 • 10:00 - 17:00 CEST | Bella Center, Treehouse (Upper Level)",
                     "badge_icon": null,
                     "format_icon": null,
                     "show_tz_converter": false
@@ -372,7 +372,7 @@
             "ModifiedOn": "0001-01-01T00:00:00",
             "PublicationDate": null,
             "PublicationDateTime": "0001-01-01T00:00:00",
-            "DisplayDateTime": "7 July 2026 • 10:00 - 17:00 CEST | Treehouse",
+            "DisplayDateTime": "7 July 2026 • 10:00 - 17:00 CEST | Bella Center, Treehouse (Upper Level)",
             "ErrorMessage": null
         },
         {
@@ -384,7 +384,7 @@
             "SuperSymposiumSeriesCode": "",
             "DateTimeLocationDataList": [
                 {
-                    "date_time_location": "7 July 2026 • 10:00 - 11:00 CEST | Treehouse",
+                    "date_time_location": "7 July 2026 • 10:00 - 11:00 CEST | Bella Center, Treehouse (Upper Level)",
                     "badge_icon": null,
                     "format_icon": null,
                     "show_tz_converter": false
@@ -407,7 +407,7 @@
             "ModifiedOn": "0001-01-01T00:00:00",
             "PublicationDate": null,
             "PublicationDateTime": "0001-01-01T00:00:00",
-            "DisplayDateTime": "7 July 2026 • 10:00 - 11:00 CEST | Treehouse",
+            "DisplayDateTime": "7 July 2026 • 10:00 - 11:00 CEST | Bella Center, Treehouse (Upper Level)",
             "ErrorMessage": null
         },
         {
@@ -419,7 +419,7 @@
             "SuperSymposiumSeriesCode": "",
             "DateTimeLocationDataList": [
                 {
-                    "date_time_location": "7 July 2026 • 12:00 - 13:00 CEST | Hall B1",
+                    "date_time_location": "7 July 2026 • 12:00 - 13:00 CEST | Community Stage (Hall B1)",
                     "badge_icon": null,
                     "format_icon": null,
                     "show_tz_converter": false
@@ -442,7 +442,7 @@
             "ModifiedOn": "0001-01-01T00:00:00",
             "PublicationDate": null,
             "PublicationDateTime": "0001-01-01T00:00:00",
-            "DisplayDateTime": "7 July 2026 • 12:00 - 13:00 CEST | Hall B1",
+            "DisplayDateTime": "7 July 2026 • 12:00 - 13:00 CEST | Community Stage (Hall B1)",
             "ErrorMessage": null
         },
         {
@@ -454,7 +454,7 @@
             "SuperSymposiumSeriesCode": "",
             "DateTimeLocationDataList": [
                 {
-                    "date_time_location": "7 July 2026 • 15:00 - 16:00 CEST | Hall B1",
+                    "date_time_location": "7 July 2026 • 15:00 - 16:00 CEST | Community Hub (Hall B1)",
                     "badge_icon": null,
                     "format_icon": null,
                     "show_tz_converter": false
@@ -477,7 +477,7 @@
             "ModifiedOn": "0001-01-01T00:00:00",
             "PublicationDate": null,
             "PublicationDateTime": "0001-01-01T00:00:00",
-            "DisplayDateTime": "7 July 2026 • 15:00 - 16:00 CEST | Hall B1",
+            "DisplayDateTime": "7 July 2026 • 15:00 - 16:00 CEST | Community Hub (Hall B1)",
             "ErrorMessage": null
         },
         {
@@ -559,7 +559,7 @@
             "SuperSymposiumSeriesCode": "",
             "DateTimeLocationDataList": [
                 {
-                    "date_time_location": "7 July 2026 • 19:00 - 21:00 CEST | Hall B1",
+                    "date_time_location": "7 July 2026 • 19:00 - 21:00 CEST | Community Hub (Hall B1)",
                     "badge_icon": null,
                     "format_icon": null,
                     "show_tz_converter": false
@@ -582,7 +582,7 @@
             "ModifiedOn": "0001-01-01T00:00:00",
             "PublicationDate": null,
             "PublicationDateTime": "0001-01-01T00:00:00",
-            "DisplayDateTime": "7 July 2026 • 19:00 - 21:00 CEST | Hall B1",
+            "DisplayDateTime": "7 July 2026 • 19:00 - 21:00 CEST | Community Hub (Hall B1)",
             "ErrorMessage": null
         },
         {
@@ -664,7 +664,7 @@
             "SuperSymposiumSeriesCode": "",
             "DateTimeLocationDataList": [
                 {
-                    "date_time_location": "8 July 2026 • 10:00 - 17:00 CEST | Treehouse",
+                    "date_time_location": "8 July 2026 • 10:00 - 17:00 CEST | Bella Center, Treehouse (Upper Level)",
                     "badge_icon": null,
                     "format_icon": null,
                     "show_tz_converter": false
@@ -687,7 +687,7 @@
             "ModifiedOn": "0001-01-01T00:00:00",
             "PublicationDate": null,
             "PublicationDateTime": "0001-01-01T00:00:00",
-            "DisplayDateTime": "8 July 2026 • 10:00 - 17:00 CEST | Treehouse",
+            "DisplayDateTime": "8 July 2026 • 10:00 - 17:00 CEST | Bella Center, Treehouse (Upper Level)",
             "ErrorMessage": null
         },
         {
@@ -699,7 +699,7 @@
             "SuperSymposiumSeriesCode": "",
             "DateTimeLocationDataList": [
                 {
-                    "date_time_location": "8 July 2026 • 15:00 - 16:00 CEST | Treehouse",
+                    "date_time_location": "8 July 2026 • 15:00 - 16:00 CEST | Bella Center Treehouse (Upper Level)",
                     "badge_icon": null,
                     "format_icon": null,
                     "show_tz_converter": false
@@ -722,7 +722,7 @@
             "ModifiedOn": "0001-01-01T00:00:00",
             "PublicationDate": null,
             "PublicationDateTime": "0001-01-01T00:00:00",
-            "DisplayDateTime": "8 July 2026 • 15:00 - 16:00 CEST | Treehouse",
+            "DisplayDateTime": "8 July 2026 • 15:00 - 16:00 CEST | Bella Center Treehouse (Upper Level)",
             "ErrorMessage": null
         },
         {
@@ -890,7 +890,7 @@
             "RecordWeight": "Default:10 Category:800 Date:497.28 RecordSize:200 EventStatus:240 Total:1747.28",
             "HTMLTitle": "",
             "Title": "Workshop: Simulating Instruments with Pyxel",
-            "Description": "Workshop Moderator: Frederic Lemmel , European Space Research and Technology Ctr. (Netherlands) Pyxel is an open-source, Python-based framework for simulating images and instrumental effects, with a strong focus on detector modelling (CCDs &...",
+            "Description": "Workshop Moderator: Frederic Lemmel , European Space Research and Technology Ctr. (Netherlands) Pyxel is an open-source, Python-based framework for simulating images and instrumental effects, with a strong focus on detector modelling (CCDs &amp;...",
             "Abstract": "",
             "ImagePath": null,
             "URL": "/astronomical-telescopes-instrumentation/event/workshop-simulating-instruments-with-pyxel/7101539",
@@ -909,7 +909,7 @@
             "SuperSymposiumSeriesCode": "",
             "DateTimeLocationDataList": [
                 {
-                    "date_time_location": "9 July 2026 • 15:00 - 16:00 CEST | Hall B1",
+                    "date_time_location": "9 July 2026 • 15:00 - 16:00 CEST | Community Hub (Hall B1)",
                     "badge_icon": null,
                     "format_icon": null,
                     "show_tz_converter": false
@@ -932,7 +932,7 @@
             "ModifiedOn": "0001-01-01T00:00:00",
             "PublicationDate": null,
             "PublicationDateTime": "0001-01-01T00:00:00",
-            "DisplayDateTime": "9 July 2026 • 15:00 - 16:00 CEST | Hall B1",
+            "DisplayDateTime": "9 July 2026 • 15:00 - 16:00 CEST | Community Hub (Hall B1)",
             "ErrorMessage": null
         },
         {
@@ -1095,6 +1095,6 @@
     "Success": true,
     "Error": null,
     "ContainsFacets": true,
-    "SearchServerName": "PRODSPSEARCH03",
-    "DLCount": 695783
+    "SearchServerName": "PRODSPSEARCH01",
+    "DLCount": 696015
 }

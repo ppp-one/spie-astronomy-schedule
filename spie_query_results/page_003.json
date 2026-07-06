@@ -26,6 +26,40 @@
   },
   "Items": [
     {
+      "Authors": "Coby Silayan, Suresh Sivanandam, Aaron Tohuvavohu, Albert Lau, Mark Barnet, Patrick Nkwari, Shaojie Chen, Gavin Hay, Jean Christophe Fronteddu, Norbert Werner, András Pál, Marianna Dafčíková, Emily Hu, Filip Munz, Jakub Ripa, Andy Gong",
+      "PaperNumber": "14146-15",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "5 July 2026 • 14:50 - 15:10 CEST | Room B4-M1",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "860e7c04-5ad0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "860e7c04-5ad0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "A report on the First Technology Demonstration mission of the Little UV Camera (LUVCam1)",
+      "Description": null,
+      "Abstract": "Here we report on the status of the first on-orbit technology demonstration of the Little UV Camera (LUVCam1). LUVCam1 is a 0.4U payload aboard the 2U cubesat GRBBeta that was launched in July 2024. The primary objective of the mission was to qualify the GSENSE4040 CMOS sensor and its readout electronics in preparation for the Quick UltraVIolet Kilonova Surveyor (QUVIK; Werner et al. 2023) satellite. LUVCam will serve as the primary scientific camera for this mission. We report on the performance of the GSENSE4040-FSI sensor used on LUVCam1, beginning with its in-lab characterization followed by an assessment of its on-orbit performance using astronomical observations made by LUVCam1. The camera remains operational two years later and has taken pictures of coastlines, the moon, and stars that we show here. Through LUVCam1, we demonstrated an approach leveraging new-space to qualify the latest COTS CMOS sensors for astronomy missions.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/A-report-on-the-First-Technology-Demonstration-mission-of-the/14146-15",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "5 July 2026 • 14:50 - 15:10 CEST | Room B4-M1",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Gaurav Waratkar, Hiromasa Miyasaka, Brian W. Grefenstette, Fiona A. Harrison",
       "PaperNumber": "14157-15",
       "DateTimeLocationDataList": [
@@ -1690,47 +1724,13 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "5 July 2026 • 17:10 - 17:30 CEST | Room B4-M7",
       "ErrorMessage": null
-    },
-    {
-      "Authors": "Cyril Pannetier, Rafa Nadhil, Nazim Ali Bharmal, Alondra Solá, Kacem El Hadi, Myriam Rodrigues, Hermine Schnetler, Clarysse Picard",
-      "PaperNumber": "14152-12",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "5 July 2026 • 17:10 - 17:30 CEST | Room B2-M6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "d1188808-a3ce-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "d1188808-a3ce-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "MOSAIC on ELT: current assessment of the project environmental footprint, from cradle to grave",
-      "Description": null,
-      "Abstract": "MOSAIC, a multi-object spectrograph for the Extremely Large Telescope, is currently in its preliminary design phase (B2). In 2024, an initial carbon footprint estimate was conducted, offering rough CO₂eq emission figures but excluding key components like electronics, cryostats, and the AIT phase. In early 2026, a comprehensive life cycle analysis (LCA) was performed, aligning with ESA LCA Guidelines and covering all project phases—from early design to end-of-life. This updated study aims to provide the astrophysical community with robust environmental impact data, guide efforts to reduce the project’s ecological footprint, and establish a replicable methodology for future astronomical instruments. The analysis includes all recommended impact categories, ensuring a holistic assessment of MOSAIC’s environmental effects.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/MOSAIC-on-ELT--current-assessment-of-the-project-environmental/14152-12",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "5 July 2026 • 17:10 - 17:30 CEST | Room B2-M6",
-      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

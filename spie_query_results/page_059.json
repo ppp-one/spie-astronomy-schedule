@@ -26,6 +26,40 @@
   },
   "Items": [
     {
+      "Authors": "Mohammad N. Islam, Tayron Dueck, Richard Hellyer, Gordon Lacy, Elena Bergeron, Brian Hoff, Julie Levesque-Robb, Bryan Schellenberg",
+      "PaperNumber": "14153-72",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 15:30 - 15:50 CEST | Room B2-M8",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "cdfbb82d-d6cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "cdfbb82d-d6cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "From concept to production: the making of composite reflectors for the Canadian Hydrogen Observatory and Radio-transient Detector",
+      "Description": null,
+      "Abstract": "This paper outlines the development and production of composite reflectors for the Canadian Hydrogen Observatory and Radio-transient Detector (CHORD) at the Dominion Radio Astrophysical Observatory in British Columbia. DRAO developed and now fabricates 512 six‑meter composite antennas using molds, custom jigs, fixtures, and optimized workflows to ensure manufacturing repeatability. The paper details the transition from R&D to full-scale production, addressing challenges in composite fabrication and highlighting innovations that improved reflector accuracy, reduced cost, and increased production efficiency.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/From-concept-to-production--the-making-of-composite-reflectors/14153-72",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 15:30 - 15:50 CEST | Room B2-M8",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Giovanni Isopi, Alessandro Attoli, Eleonora Barbavara, Elia Stefano Battistelli, Costanza Bellucci, Paolo de Bernardis, Federico Cacciotti, Giuseppe Carboni, Ettore Carretti, Daniele Ciccalotti, Fabio Columbro, Alessandro Coppolecchia, Angelo Cruciani, Giuseppe D'Alessandro, Giancarlo De Gasperis, Marco De Petris, Sofia Ferazzoli, Federica Govoni, Adelaide Ladu, Luca Lamagna, Pasqualino Marongiu, Davide Marsala, Silvia Masi, Matteo Murgia, Alessandro Navarrini, Alessandro Novelli, Andrea Occhiuzzi, Andrea Orlati, Alessandro Paiella, Giorgio Pettinari, Francesco Piacentini, Mauro Pili, Giampaolo Pisano, Tonino Pisanu, Sergio Poppi, Luca Schirru, Gian Paolo Vargiu, Chiara Volpe",
       "PaperNumber": "14156-67",
       "DateTimeLocationDataList": [
@@ -775,10 +809,10 @@
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

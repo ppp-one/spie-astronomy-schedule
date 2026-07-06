@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "P. Bañares-Palacios, M. A. Cagigas, A. A. Luján González, B. García-Lorenzo, A. Alonso, A. de Lorenzo-Cáceres",
-      "PaperNumber": "14149-290",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "d0b4b052-40d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "d0b4b052-40d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "HARMONI at ELT: integral field spectrograph pre-optics (IPO) design after rescope process",
-      "Description": null,
-      "Abstract": "HARMONI is the first light, adaptive optics assisted, near-IR integral field spectrograph for the ELT. It covers a spectral range from 750nm to 2450nm with resolving powers from 3000 to 7000 and spatial sampling of 25mas and 6mas. It can operate in two adaptive optics modes - SCAO (including a high contrast capability) and MCAO. The project is resuming its final design phase after a rescope design phase in 2025.     The instrument faced budgetary constraints that led to a reduction in the number of available scales in the IPO subsystem. An overview of the process and final design is presented, where 4x4mas, 10x10mas, 20x20mas and 60x30mas scales (in addition to the pupil imaging scale for alignment, which was preserved) were substituted by 6x6mas and 25x25mas scales, compromising technical requirements and scientific needs.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/HARMONI-at-ELT--integral-field-spectrograph-pre-optics-IPO/14149-290",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Rafael Melgar Hernandez, Yolanda Martin, Elvio Hernández Suárez, Alejandro Antonio Luján González, Alberto Hernández González, Horacio Rodriguez Delgado, Felix Gracia Témich, Miguel Angel Cágigas García, Ángel Alonso, Adriana de Lorenzo Cáceres, Begoña García Lorenzo",
       "PaperNumber": "14149-288",
       "DateTimeLocationDataList": [
@@ -118,7 +84,7 @@
       "HTMLTitle": "",
       "Title": "HARMONI at ELT: optical design of the spectrograph sub-system",
       "Description": null,
-      "Abstract": "HARMONI is the adaptive optics assisted, near-IR integral field spectrograph for the Extremely Large Telescope (ELT). The University of Oxford is in charge of the design and development of the four identical spectrographs that disperse the light and form scientific images. During the instrument rescope phase, we have developed a new spectrograph optical design. It uses a two-mirror unobscured freeform collimator, a set of six volume-phase holographic grisms as the disperser, and a two-mirror unobscured freeform camera. This design is up to 350 mm shorter than the previous version. The number of optical elements' positioning parameters is reduced by more than two times. The expected as-built minimum transmission is 62.3%, while the scattered light level is decreased.",
+      "Abstract": "HARMONI is an adaptive optics assisted, near-IR integral field spectrograph for the Extremely Large Telescope (ELT). The University of Oxford is in charge of the design and development of the four identical spectrographs that disperse the light and form scientific images. During the instrument rescope phase, we have developed a new spectrograph optical design. It uses a two-mirror unobscured freeform collimator, a set of six volume-phase holographic grisms as the disperser, and a two-mirror unobscured freeform camera. This design is up to 350 mm shorter than the previous version. The number of optical elements' positioning parameters is reduced by more than two times. The expected as-built minimum transmission is 57%, while the scattered light level is decreased.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/HARMONI-at-ELT--optical-design-of-the-spectrograph-sub/14149-298",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 7 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "John Di Miceli",
+      "PaperNumber": "14151-78",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "fe99cdd9-d4cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "fe99cdd9-d4cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Mitigating risk at remote astronomical facilities: emergency preparedness startegies at the MMT Observatory",
+      "Description": null,
+      "Abstract": "The MMT Observatory operates in a remote, high-altitude environment at the summit of Mt. Hopkins where limited access, severe weather, forest-fire risk, and extended transport times to definitive medical care create significant operational challenges. This paper presents the emergency preparedness framework developed at the MMT to enhance safety and mitigate these risks during scientific operations. Key components include mountain-specific emergency action plans covering medical incidents, severe weather, and wildfires. Enhanced wilderness-oriented first aid capabilities, infrastructure and personnel protection strategies, and strengthened partnerships with regional agencies collectively minimize the impact of emergencies on observatory operations. These measures offer a practical model for improving safety and operational resilience at remote astronomical facilities.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Mitigating-risk-at-remote-astronomical-facilities--emergency-preparedness-startegies/14151-78",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

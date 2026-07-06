@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Toshiyuki Mizuki, Justin Hom, Bertrand Mennesson, Ramya Anche, Maxwell A. Millar-Blanchaer, Vanessa P. Bailey, Koji Kawabata, Mitsuhiko Takeuchi, Motohide Tamura, Naoshi Murakami, John Livingston, Jason J. Wang, Schuyler G. Wolff, Guillermo Gonzalez, Eric Shen, Tsutsumi Nagai, Taichi Uyajma",
-      "PaperNumber": "14145-180",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "fda65c0c-39cc-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "fda65c0c-39cc-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The Roman Coronagraph community participation program: calibration strategy for the Mueller matrix using on-sky sources",
-      "Description": null,
-      "Abstract": "The Coronagraphic Instrument on the Roman Space Telescope has a visible polarimetric mode. Accurate calibration of its polarization response is essential for characterizing debris disks, detecting planetary polarization, and diagnosing polarization aberrations. We will observe two unpolarized standards and two polarized standards with intrinsic polarization angles separated by about 45 degrees. These four stars provide the necessary constraints to solve the Mueller matrix such that the known polarization degrees and angles of the standards are correctly recovered. Standards must be single, bright enough for high S/N without saturating, and sufficiently polarized; visibility and operational constraints also apply. From optical catalogs we identified 72 candidates and began a precursor campaign targeting 21 northern objects. Multi-band HONIR polarimetry on the Kanata 1.5 m telescope measures wavelength dependence and enables Serkowski-law extrapolation to the Roman filters.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Roman-Coronagraph-community-participation-program--calibration-strategy-for/14145-180",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Jingwen Zhang, Sophie Noiret, Maxwell A. Millar-Blanchaer, Jason Wang, Neil Zimmerman, Eric Shen, Alexis Lau, Elodie Choquet, Taichi Uyajma, Chen Xie, Jessica Gersh-Range, Julien Girard, Vanessa Bailey, John Krist, Kevin Ludwick, Alexis Bidot, Arthur Vigan",
       "PaperNumber": "14145-182",
       "DateTimeLocationDataList": [
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 10:30 - 10:50 CEST | Room B2-M6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Roberta Zanin, David Green, Michele Doro, Matthias Füßling, Karl Kosak, Igor Oya, Orel Gueta, Ivana Batkovic, Karl Kosack, Bruno Khelifi, Catherine Boisson, Mathieu Servillant, Maximilian Linhoff, Mieke Bouwhuis, Alba Fernandez-Barral, Stuart McMuldroch, Markus Gaug, Stefan schlenstedt, Samuel Spencer",
+      "PaperNumber": "14155-47",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 10:30 - 11:00 CEST | Room B4-M7",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "8a018304-a0cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "8a018304-a0cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "CTAO as a Game Changer for Open Science in ground-based gamma-ray astronomy",
+      "Description": null,
+      "Abstract": "The Cherenkov Telescope Array Observatory is the next-generation facility for very-high-energy gamma-ray astronomy, designed to operate as a distributed, open, proposal-driven observatory over multiple decades. The CTAO is fully committed to open science which advocates that both scientific publications and research outputs should be publicly accessible while ensuring proper credit and authorship.    The CTAO is acting as a game changer within the gamma-ray astronomy community and, more broadly, within the astroparticle physics field, which has traditionally been characterized by proprietary data and experiment-specific software. In support of its open-science philosophy, the CTAO actively promotes transparency, reproducibility, and community engagement by making its data products and software tools accessible to researchers worldwide. The paper describes how this approach is being pursued across the observatory’s operations, detailing the policies, infrastructures.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/CTAO-as-a-Game-Changer-for-Open-Science-in-ground/14155-47",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 10:30 - 11:00 CEST | Room B4-M7",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

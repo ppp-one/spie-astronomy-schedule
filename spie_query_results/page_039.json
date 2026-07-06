@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Kentaro Motohara, Masahiro Konishi, Hidenori Takahashi, Natsuko Kato, Misato Fujii, Jeung Yun, Tomoya Yukino, Akino Yasuda, Kensho Tanaka, Taiki Kikuchi, Kosuke Kushibiki, Shinobu Ozaki, Yutaka Yamagata, Takuya Hosobata, Tadayuki Kodama, Ken'ichi Tadaki, Yusei Koyama, Rhythm Shimakawa, Nuo Chen, Jun Toshikawa, Kazuki Daikuhara, Kosuke Takahashi, Mariko Kubo, Mamoru Doi, Noboru Ebizuka, Nobunari Kashikawa, Takashi Miyata, Kotaro Kohno, Takeo Minezaki, Shigeyuki Sako, Fumi Egusa, Itsuki Sakon, Takafumi Kamizuka, Kazuya Matsubayashi, Kana Morokuma-Matsui, Hiroaki Sameshima, Mitsuyoshi Yamagishi, Masataka Imai, Takashi Horiuchi, Yuki Hirao, Yuzuru Yoshii",
-      "PaperNumber": "14149-58",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 16:25 - 16:45 CEST | Auditorium 15",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "80790a69-8cce-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "80790a69-8cce-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The University of Tokyo Atacama Observatory 6.5m telescope: upgrade of the NIR camera/spectrograph SWIMS",
-      "Description": null,
-      "Abstract": "SWIMS, Simultaneous-color Wide-field Infrared Multi-object Spectrograph, is one of the first-generation instruments for the University of Tokyo Atacama Observatory (TAO) 6.5-meter Telescope now being constructed at   the summit of Co. Chajnantor in northern Chile (will be reported separately). The instrument is under refurbishment of optics, detector control system, and multi-object slit mask exchanger. New development of an integral field unit and echelle grism is also on going. Once the refurbishment is completed, SWIMS will be sent to Chile and see the first light in FY2027.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-University-of-Tokyo-Atacama-Observatory-65m-telescope--upgrade/14149-58",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 16:25 - 16:45 CEST | Auditorium 15",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "José Pinto-Muñoz, Mauricio G. Solar",
       "PaperNumber": "14155-60",
       "DateTimeLocationDataList": [
@@ -1556,7 +1522,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Brianna Peck, Jessica R. Lu, Lianqi Wang, Brooke DiGia, Richard Dekany, Antonin H. Bouchez, Peter L. Wizinowich, Maxwell A. Millar-Blanchaer, Mark R. Chun, Philip Hinz, Charles-Antoine Claveau, Noah Stiegler",
+      "Authors": "Brianna Peck, Jessica R. Lu, Lianqi Wang, Noah Stiegler, Richard Dekany, Brooke DiGia, Antonin H. Bouchez, Mark R. Chun, Philip Hinz, Peter L. Wizinowich, Maxwell A. Millar-Blanchaer, Charles-Antoine Claveau",
       "PaperNumber": "14150-312",
       "DateTimeLocationDataList": [
         {
@@ -1580,7 +1546,7 @@
       "HTMLTitle": "",
       "Title": "A Pathway Towards Visible-Light Adaptive Optics at the W. M. Keck Observatory",
       "Description": null,
-      "Abstract": "We present performance simulations that map a pathway toward diffraction-limited visible-light adaptive optics at the W. M. Keck Observatory. Using end-to-end modeling with the MAOS (Multi-threaded Adaptive Optics Simulator) package, we compare three system architectures: KAPA (current facility upgrades), STRATA (a next-generation single-conjugate facility-wide system), and KOLA (a proposed multi-conjugate system). Our results show how advances in laser power, wavefront sensing, and deformable mirror technology improve performance from on-axis correction (KAPA/STRATA) to wide-field correction (KOLA). We also explore the impact of laser guide star brightness on system performance. These simulations provide a roadmap for the evolution of adaptive optics at Keck, bridging current capabilities to future wide-field, visible-light correction.",
+      "Abstract": "We present performance simulations that map a pathway toward diffraction-limited visible-light adaptive optics at the W. M. Keck Observatory. Using end-to-end modeling with the MAOS (Multi-threaded Adaptive Optics Simulator) package, we compare three system architectures: KAPA (current facility upgrades), STRATA (a next-generation single-conjugate facility-wide system), and KOLA (a proposed multi-conjugate system). Our results show how advances in laser power, wavefront sensing, and deformable mirror technology improve performance from on-axis correction (KAPA/STRATA) to wide-field correction (KOLA). These simulations provide a roadmap for the evolution of adaptive optics at Keck, bridging current capabilities to future wide-field, visible-light correction.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/A-Pathway-Towards-Visible-Light-Adaptive-Optics-at-the-W/14150-312",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Ruoyu Zhou, Renbin Yan, Yutong Qiao, Chit-Ho Hui",
+      "PaperNumber": "14149-359",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "61ff75fb-99cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "61ff75fb-99cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "A white-pupil echelle spectrograph design for high-resolution integral field spectroscopy: achieving near-peak blaze efficiency for key emission lines",
+      "Description": null,
+      "Abstract": "We present a CMOS-optimized modular white-pupil echelle spectrograph design for high-resolution (R ~ 24300) integral-field spectroscopy of optical nebular emission. Proposed as an alternative design for surveys like AMASE, the instrument uses a 150 mm f/10 collimator and a 408-channel, 220 micron microlens-array pseudo-slit, yielding 17% higher etendue than current configurations. Its white-pupil layout decoupling the disperser enables interchangeable echelle configurations. The system features three camera channels (432-514, 514-606, 627-759 nm) covering critical gas diagnostics ([O III], [N II], [S II], and Balmer lines). This compact format preserves major optical diagnostics required for targeted nebular astrophysics and gas kinematics.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/A-white-pupil-echelle-spectrograph-design-for-high-resolution-integral/14149-359",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

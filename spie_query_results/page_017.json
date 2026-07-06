@@ -26,176 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Flavia Calderone, Isabella Pagano, Simonetta Chinellato, Valentina Viotto, Demetrio Magrin, Jacopo Farinato, Matteo Munari, Francesco Borsa, Roberto Ragazzoni, Daniele Brienza, Raffaele Piazzolla, Mario Salatti, Elisabetta Tommasi, Duncan Goulty, Joseph Huesler, Virginie Cessa, Alexis Brandeker, Emanuele Capuano, Emanuele Alberto Macrì, Giammarco Roini, Marco Nebiolo, Donata Valletti",
-      "PaperNumber": "14152-76",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 6 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "da4753aa-a6cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "da4753aa-a6cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Configuration management activities for the PLATO telescope optical units",
-      "Description": null,
-      "Abstract": "ESA’s PLATO (PLAnetary Transits and Oscillations of stars) M3-class mission is designed to detect and characterise  exoplanets orbiting the habitable zone of solar-type stars through high-precision photometric observations. Its payload  contains an array of 26 Telescope Optical Units (TOUs), each one part of a multi-camera system optimised for high  photometric stability and wide-field sky coverage. During the TOUs development and production phase, which has  involved contributions from multiple institutes and industrial partners, Configuration Management (CM) has contributed  to design integrity, traceability and consistency between manufactured items and documentation throughout the design, development, AIT/AIV and lifecycle phases of the units. The main CM activities applicable to space products  and their application to the PLATO TOUs, performed by INAF in compliance with the ECSS standards, are here  outlined with a specific focus on the Document Configuration and Data Management.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Configuration-management-activities-for-the-PLATO-telescope-optical-units/14152-76",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Pierre Vermot, Damien Gratadour, Paul Fontanillas, Jordan Raffard",
-      "PaperNumber": "14150-196",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "a501c3c5-9bce-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "a501c3c5-9bce-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Convolutional neural networks for pyramid wavefront sensing",
-      "Description": null,
-      "Abstract": "I present an architecture and training strategy to reconstruct atmospheric residual phase in an arbitrary modal basis using a pyramid wavefront sensor (pWFS). While standard linear reconstruction works well in high-SNR linear regimes, strong residual phase exposes the pWFS’s intrinsic non-linearity and limits performance. Modulation can extend the linear range but reduces sensitivity. Although neural networks underperform in linear regimes, their non-linear activations allow them—especially CNNs—to excel where linear methods fail. I compare AO performance using standard and CNN-based reconstructors through extensive simulations and optical-bench tests across varied conditions, magnitudes, and telescope configurations, including 8-m instruments (SPHERE+/VLT, SCExAO/Subaru) and ELT-class systems (MICADO/ELT). Results show that CNNs outperform linear reconstructors at high residual RMS, reducing or eliminating the need for modulation and yielding substantial sensitivity gains.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Convolutional-neural-networks-for-pyramid-wavefront-sensing/14150-196",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Kohji Tsumura, Hideo Matsuhara, Koji Kawabata, Hiroshi Akitaya, Shuji Matsuura, Rinon Kageyama, Tomoya Hori, Haruaki Niinuma, Keisuke Shinozaki, Ryo Hashimoto, Hiroshi Tomida, Akihiro Doi, Daisuke Yonetoku",
-      "PaperNumber": "14145-140",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 6 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "a3011b2c-e2c4-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "a3011b2c-e2c4-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Cryogenic optical test plan for the visible and near-infrared telescope MONSTER onboard HiZ-GUNDAM satellite",
-      "Description": null,
-      "Abstract": "The HiZ-GUNDAM mission is dedicated to time-domain and multi-messenger astronomy focusing on gamma-ray bursts (GRBs). It is designed to deliver rapid alerts of high-redshift GRBs with photometric redshift provided by MONSTER, a 30-cm visible and near-infrared telescope onboard the satellite. After launch at ambient temperature, MONSTER is cooled to <200 K and its near-infrared detector to <120 K via radiative cooling, enabling high sensitivity in the near-infrared. The telescope employs an athermal design using a single aluminum alloy, ensuring uniform thermal contraction and stable image performance across temperatures. To validate this concept, a breadboard model (BBM) of MONSTER has been built for cryogenic optical testing. Beginning in April 2026, we plan to cool the BBM to operational temperature and conduct optical performance evaluations. This presentation summarizes the current development status of MONSTER, with emphasis on preparations for the BBM cryogenic optical tests.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Cryogenic-optical-test-plan-for-the-visible-and-near-infrared/14145-140",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Yuan Li, Yasuhiro Hirahara, Ryoichi Koga, Umi Enokidani, Shunsuke Baba, Hideo Matsuhara, Takao Nakagawa, Takehiko Wada",
-      "PaperNumber": "14145-149",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 6 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "21aa5122-2ad0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "21aa5122-2ad0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Cryogenic transmittance measurements of large high-resistivity CdZnTe for immersion grating applications in the GREX-PLUS mid-infrared high-resolution spectrometer",
-      "Description": null,
-      "Abstract": "We are developing a high-resolution mid-infrared spectrograph (HRS) with a cadmium zinc telluride (CdZnTe) immersion grating (IG) for the GREX-PLUS mission. The HRS aims to achieve a resolving power of R∼30,000 over 10–18 µm, requiring a high-index material with sufficiently low absorption at cryogenic temperatures. In our previous work, we demonstrated that high-resistivity CdZnTe (∼10^10 Ωcm) satisfies this requirement at ≤20 K. Building on this result, large (∼6 inch) CdZnTe ingots have recently been fabricated, enabling extraction of IG-sized blanks. We report new transmission measurements of 1 and 10 mm-thick samples cut near the extraction region of a large ingot with the same crystallographic orientation as the IG optical axis. The samples show a resistivity of ∼10^9 Ωcm. We also improved thermal stabilization of the measurement system and investigated the rapid increase in transmittance below ∼10 K, possibly due to freeze out of residual electrons.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Cryogenic-transmittance-measurements-of-large-high-resistivity-CdZnTe-for-immersion/14145-149",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Pierpaolo Merola, Mauro Focardi",
-      "PaperNumber": "14145-168",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 6 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "ed2cf288-a8ce-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "ed2cf288-a8ce-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Cryo-harness shielding effectiveness assessment for ARIEL mission of the ESA’s Cosmic Vision Program",
-      "Description": null,
-      "Abstract": "A simulation campaign has been carried out to assess the shielding effectiveness for the ARIEL mission. The analysis focuses particularly on the most sensitive cryo-cables, located outside the payload and the service module cavity. For all the instrument cable sets, conducted and radiated susceptibility analyses have been performed, including the evaluation of the transfer impedance (Zₜ). Time-domain analyses are also included to test the harness impulsive susceptibility and its response to transients. Special attention is given to the number of bonding connections and the maximum allowable resistance to the spacecraft reference ground. The simulation campaign has been performed using numerical electromagnetic analysis tools based on the Finite Element Method and Transmission Line Theory. The outcome of this study will be used to define appropriate reference requirements for the payload, ensuring that the harness design meets the necessary EM compatibility and performance.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Cryo-harness-shielding-effectiveness-assessment-for-ARIEL-mission-of-the/14145-168",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Tiger Wang, Summer Luo, Jon Lawrence, Dani Guzman, Jennifer Burgess, Andrew Rakich, Thierry Fusco, Benoît Neichel, Pierre Jouve, Carlos Correia, Julien Charton, Célia Blain, Gaetano Sivo, Andreas Seifahrt, Jae-Woo Kim, Ho Seong Hwang, Masen Lamb, Martin Tschimmel, Michael Goodwin, Timothy Chin, Jessica Zheng, Lew Waller, Helen McGregor, Zhemin Cai, Ali Ghari Zadeh, Jonathan Moller, Christopher Coote, Tony Farrell, Jake Linden, Dylan Simpfendorfer, Max Hewlett, Arnaud Striffling, Anne-Sophie BRUNI-FAVIER, Julie Magri, Marie Laslandes, Delphine Barbon Dubosc, Sylvain Cetre, Christophe Clergeon, Gelys Trancho",
       "PaperNumber": "14152-68",
       "DateTimeLocationDataList": [
@@ -1556,13 +1386,13 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Charlotte Feldman, Alejandro Guzmán Cabrera, Roisin Ryan, Lauro Conti, Gillian I. Butcher, Anna Maskolenko, Paul R. Houghton, Daniel Schuppe, Vadim Burwitz",
+      "Authors": "Charlotte Feldman, Alejandro Guzmán Cabrera, Roisin Ryan, Lauro Conti, Gillian I. Butcher, Anna Maskolenko, Paul R. Houghton, Stéphane Roose, Aline Hermans, Daniel Schuppe, Vadim Burwitz",
       "PaperNumber": "14146-228",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 6 July 2026",
+          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
           "badge_icon": null,
-          "format_icon": 1,
+          "format_icon": null,
           "show_tz_converter": false
         }
       ],
@@ -1586,7 +1416,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
+      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
     },
     {
@@ -1724,13 +1554,183 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 6 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Juan P. Gil, Pedro Silva, Gaspar Fabrega, Nicolas Miranda",
+      "PaperNumber": "14155-84",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 6 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "2a2731c1-54c2-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "2a2731c1-54c2-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "ELIANA: an open source library for observatory log analytics",
+      "Description": null,
+      "Abstract": "ELIANA (Event Log and Incident Analysis) is an open-source Python library for log analytics, developed at the Paranal Observatory to support the analysis of instruments and telescopes. The library is built on top of pandas, allows dataset generation, ML modules, and parlogs-observations, a public dataset of logs for VLTI using the Auxiliary Telescopes distributed as Parquet files aggregated by instrument, time range, and subsystem. ELIANA provides machine learning modules including logistic-regression, Naive-Bayes, specialized tokenizers and NLP utilities. The library has been used to foster academic collaboration (graduate lectures, PhD work, internships) and is actively integrated in several operational tools at Paranal that combine logs with other data sources for troubleshooting and analysis. This contribution presents the architecture of ELIANA, describes the structure and intended use of the parlogs-observations dataset, and illustrates use cases for observatory operations.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/ELIANA-an-open-source-library-for-observatory-log-analytics/14155-84",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Alfred Miksch, Victoria Laidlaw, Olivier Fauvarque, Benoît Neichel, Ronny Ramlau",
+      "PaperNumber": "14150-178",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 6 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "0ffd2831-5acf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "0ffd2831-5acf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Enhanced nonlinear wavefront sensing for adaptive optics with a double iQuad sensor design",
+      "Description": null,
+      "Abstract": "Advanced adaptive optics (AO) systems use Fourier-type wavefront sensing to correct optical distortions, and  the iQuad wavefront sensor (WFS) is a recent addition to this category. Its four-quadrant phase mask can detect  many wavefront features, but some components may be poorly seen, causing instability in the AO loop. A dual-  path setup using two differently oriented iQuad sensors addresses this limitation by suppressing poorly seen phase  components. To ensure accurate and stable iQuad wavefront sensing, a fast and efficient nonlinear Levenberg-  Marquardt (LM) algorithm is applied for wavefront estimation. Numerical simulations comparing single and  double iQuad configurations show that the dual-sensor approach offers significantly improved performance.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Enhanced-nonlinear-wavefront-sensing-for-adaptive-optics-with-a-double/14150-178",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "S. Kendrew, K. Rowlands, M. Engesser, S. Noriega-Crespo, J. Aguilar, S. Alberts, T. Bell, A. Carter, M. Cracraft, M. Decleir, H. Diamond-Lowe, A. Dyrek, K. Gordon, D. Hines, B. Holler, K. Larson, D. Law, K. Murray, B. Nickson, B. O'Sullivan, A. Petric, M. Regan, G. Sloan, B. Sargent, S. Shenoy, B. Trahin, I. Wong",
+      "PaperNumber": "14145-139",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 6 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "859a7050-86d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "859a7050-86d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Enhancing the performance and capabilities of the MIRI instrument on JWST",
+      "Description": null,
+      "Abstract": "MIRI, the Mid-Infrared Instrument on the James Webb Space Telescope, provides the only capability longward of 5 µm on the observatory. In this regime, it is providing order-of-magnitude improvements over past facilities in a wavelength range that is challenging or impossible to access from the ground. As such, MIRI occupies a unique parameter space and offers unparalleled capabilities in all areas of astrophysics. Several years into its operational lifetime, we continue to explore the full breadth of MIRI's potential and make operational improvements to MIRI to create new capabilities and enhance its scientific return. In this paper we will describe several such improvements, and their anticipated impact on MIRI and JWST science - focusing on improvements in detector noise performance, improved time-series capabilities, definition of new subarrays and a wide-field slitless spectroscopy mode.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Enhancing-the-performance-and-capabilities-of-the-MIRI-instrument-on/14145-139",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Lionel Clermont, Céline Michel, Quentin Chouffart, Yuchen Zhao, Emmanuel Mazy, Ines Fuente, Federico La China, Bertrand Fougnie",
+      "PaperNumber": "14152-84",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "62c16236-30c5-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "62c16236-30c5-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Ensuring reliability in space: a closer look at the need for testing multiple optical payload units",
+      "Description": null,
+      "Abstract": "Spaceborne optical payloads must undergo extensive testing before launch, verifying performance against expectations and generating input data for in-flight software. Recently, a trend has emerged to build multiple units of the same instrument. These can be launched together, increasing the total field of view coverage, or consecutively, extending mission's lifetime beyond that of a single payload and benefiting from economies of scale. This raises a crucial question: Should each model undergo ground testing, or is it sufficient to test just one and apply the findings to all? This presentation will address this question, discussing test and calibration results of 3 supposedly identical payload versions, comparing parameters such as MTF, distortion, polarization spectral properties, and stray light. Our findings indicate that while initial testing offers valuable insights, significant variations among the models necessitate thorough testing of each unit, at least for certain parameters",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Ensuring-reliability-in-space--a-closer-look-at-the/14152-84",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Konrad R. Skup, Miroslaw Rataj, Piotr Wawer, Mateusz Sobiecki, Konrad Rutkowski, Przemysław Nita, Grzegorz Szymański, Marianna Fulara, Marcin Sobolewski, Nils Thernstrom, Łukasz Kuryłowicz, Daniel Półtorak, Aleksandra Mirońska, Marek Winkler, Maurycy Ciarka, Adam Sikorski, Roland Ottensamer, Gerald Mösenlechner, Marko Mecina, Armin Luntzer, Warren Holmes, Renaud Goullioud, Mauro Focardi, Eduardo Medinaceli , Raoul Grimoldi",
+      "PaperNumber": "14145-158",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 6 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "dd7811a5-7ecf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "dd7811a5-7ecf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "ESA ARIEL FGS: instrument design and implementation",
+      "Description": null,
+      "Abstract": "In this paper we present the Fine Guiding System (FGS), one of two scientific instruments on board ESA’s ARIEL mission, scheduled for launch in 2029. ARIEL will study hundreds of exoplanets to characterize their atmospheres, investigate chemical composition, cloud properties, and weather variability. FGS serves a dual purpose: it delivers dedicated scientific measurements through three photometric channels and a low-resolution near-infrared spectrometer, while also supporting the spacecraft with ultra-precise pointing. Following the instrument Critical Design Review (iCDR), the FGS has entered the phase of engineering qualification model integration and flight model preparation, marking a major step toward mission readiness.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/ESA-ARIEL-FGS-instrument-design-and-implementation/14145-158",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

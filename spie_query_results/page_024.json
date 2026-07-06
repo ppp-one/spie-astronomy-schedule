@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Marco Bartolini, Snehal Ujjainkar",
-      "PaperNumber": "14155-35",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 11:40 - 12:00 CEST | Room B4-M7",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "266868fe-48d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "266868fe-48d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "evolution of the SKA observatory software architecture, from design to implementation",
-      "Description": null,
-      "Abstract": "The Square Kilometre Array Observatory (SKA) project initially defined a software architecture during its design phase, structured around telescope elements and consortia responsibilities. These designs captured each element’s architecture at a high level of abstraction, focusing on key design choices. This paper examines how the SKA software architecture has evolved in response to construction-phase realities. We identify and analyse major gaps revealed during implementation, describe the trade-offs and decisions made to address them, and show how ongoing development activities are shaping the concrete architecture deployed today. The paper also presents the current state of the software design, reflects on lessons learned, and outlines the remaining challenges and future directions for the observatory’s software implementation.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/evolution-of-the-SKA-observatory-software-architecture-from-design-to/14155-35",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 11:40 - 12:00 CEST | Room B4-M7",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Louis Desdoigts",
-      "PaperNumber": "14148-168",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 11:40 - 12:10 CEST | Room B4-M5",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "b2d64167-666a-f111-a9b6-00505691c5e1---crmrecord",
-      "GUID": "b2d64167-666a-f111-a9b6-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "From Sparse Pupils to Differentiable Instruments: The Evolving Legacy of Aperture Masking Interferometry",
-      "Description": null,
-      "Abstract": "Aperture Masking Interferometry (AMI) has played an unusual role in diffraction-limited astronomy. Although often viewed as a specialised high-angular-resolution mode for residual phase errors, its broader legacy lies in the calibration methods and instruments it generated. This talk takes a methodological perspective on AMI: not only as an observing mode, but as a calibration-driven approach to high-contrast imaging inside the classical diffraction limit. I will discuss how interferometric calibration led to kernel phase, photonic remapping, and mask concepts like Jewel. I will focus on the JWST aperture mask, whose calibration challenges provided a proving ground for differentiable modelling and led to AMIGO. I will discuss future tools from this next generation, including detector calibration and calibrator-free interferometry. AMI’s impact lies not only in its science, but in the instrumental and methodological legacy it seeded across diffraction-limited astronomy.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/From-Sparse-Pupils-to-Differentiable-Instruments--The-Evolving-Legacy/14148-168",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 11:40 - 12:10 CEST | Room B4-M5",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Gregory Y. Prigozhin, Marshall Bautz, Beverly LaMarr, Kevan Donlon, Christopher Leitz, Eric Miller, Michelle Gabutti, Jill Juneau, Sven Herrmann, Peter Orel, Tanmoy Chattopadhyay, Michael Cooper, Noah Pestana, Doug Yang, Ilya Prigozhin, Abigail Pan, Haley Stueber, Declan O'Neill, Glenn Morris, Steven Allen",
       "PaperNumber": "14157-39",
       "DateTimeLocationDataList": [
@@ -672,7 +604,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Xiangyan Yuan, Zhongwen Hu, Chen Xu, Yi Zheng, Jinfeng Wang, Qishuai Lu, Dehua Yang, Zhongyu Yue, Bozhong Gu, Shihai Yang, Hua Bai, Kai Zhang, Hangxin Ji, Shun Li, Jifeng Liu, Xuefei Gong, Jinming Bai, Dongguang Wang, Liang Ge, Lu Feng",
+      "Authors": "Xiangyan Yuan, Zhongwen Hu, Chen Xu, Yi Zheng, Jinfeng Wang, Qishuai Lu, Dehua Yang, Zhongyu Yue, Bozhong Gu, Shihai Yang, Hua Bai, Kai Zhang, Hangxin Ji, Shun Li, Jifeng Liu, Xiangqun Cui, Xuefei Gong, Jinming Bai, Dongguang Wang, Liang Ge, Lu Feng",
       "PaperNumber": "14147-33",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1656,81 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 14:10 - 14:25 CEST | Room B4-M1",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "David J. McKenna, Cees G. Bassa, Cristina-Maria Cordun, Michiel A. Brentjens",
+      "PaperNumber": "14153-25",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 14:10 - 14:30 CEST | Room B2-M8",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "4cf1183c-53cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "4cf1183c-53cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Rapid calibration of the 77,376 LOFAR antenna across Europe",
+      "Description": null,
+      "Abstract": "The Low Frequency Array (LOFAR) is a continent-scale radio interferometer, with antennas spread across the length and breath of Europe, operating between 10 and 240 MHz. With the on-going LOFAR2.0 upgrade, a fresh focus was placed on monitoring and calibrating the array in a more sustainable and repeatable manner.    This talk will focus on our work of combining an improved understanding of the antenna responses from simulated and theoretical electromagnetic models with additional engineering data streams to monitor antenna states and trigger calibration updates. Intra-station calibration operations that used to take a dedicated 6 to 24 hours of observing time are now a routine 10 minute operation that can be performed in parallel with a large fraction of scientific projects. The array health can now be monitored in near real-time, improving telescope availability, and data quality for our astronomers.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Rapid-calibration-of-the-77376-LOFAR-antenna-across-Europe/14153-25",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 14:10 - 14:30 CEST | Room B2-M8",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Marcial Becerril Tapia, Peter Barry, Chris Benson, Matt Bradford, Thomas Brien, Simon Doyle, Victor Gómez-Rivera, Steve Hailey-Dunsheath, Jesús Hernández-Aguilar, José Luis Hernández-Rebollar, David Hughes, Elijah Kane, Kirit Karkare, Alex Lapuente, Ryan McGeehan, Raúl Naranjo-Romero, Andreas Papageorgiou, Joseph Redford, Iván Rodríguez-Montoya, Sam Rowe, David Sánchez-Argüelles, Sofia Savorgnano, Annie Tan, Jair Vega-Méndez",
+      "PaperNumber": "14156-8",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 14:10 - 14:30 CEST | Room B5-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "741c964a-9ed0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "741c964a-9ed0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "SuMaC: On-sky demonstration of multi-pixel on-chip millimeter-wave spectroscopy at the Large Millimeter Telescope",
+      "Description": null,
+      "Abstract": "SuperSpec-MUSCAT Collaboration (SuMAC) is the effort to operate the SuperSpec spectrometers in MUSCAT's focal plane at the Large Millimeter Telescope (LMT). SuperSpec is a novel single-polarisation on-chip spectrometer based on thin-film lithography using kinetic inductance detectors (KIDs). It has a moderate spectral resolution for observing in the 1 mm atmospheric window (190-300 GHz). MUSCAT is a continuum camera with ~1500 KIDs at 1.1 mm at the LMT. As part of its goals, MUSCAT was designed to operate as a testbed for pioneering detection technologies. In July 2025, we successfully installed and commissioned 3 SuperSpec devices at the MUSCAT focal plane with minimal modifications to the system. This work presents an overview of SuperSpec's deployment and performance in MUSCAT, along with the main results from the Summer 2025 observation campaign. Highlights include the detection of CO emission lines in nearby galaxies, mapping the Orion KL region and preliminary LIM-like maps.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/SuMaC--On-sky-demonstration-of-multi-pixel-on-chip/14156-8",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 14:10 - 14:30 CEST | Room B5-M3",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

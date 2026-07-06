@@ -26,6 +26,40 @@
   },
   "Items": [
     {
+      "Authors": "Julien Drevon, Margaux Abello, Florentin Millour, Anthony Meilland, Armando Domiciano",
+      "PaperNumber": "14148-42",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 11:10 - 11:30 CEST | Room B4-M5",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "a82efa81-d2af-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "a82efa81-d2af-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "PYRA and MYTHRA: new statistical analysis for image reconstruction",
+      "Description": null,
+      "Abstract": "Optical interferometry combined with 4 beam-combiner instruments achieves sub-milliarcsecond resolution using the VLTI, allowing detailed imaging of complex astrophysical environments. Reconstructing such images from interferometric observables like visibilities and closure phases requires sophisticated algorithms such as the one provided in the MiRA, SQUEEZE, IRBis, and SPARCO. However, statistical assessment of reconstructed images remains challenging.  We present PYRA and MYTHRA, two Python wrappers designed to make image reconstruction analysis more intuitive, automated, and statistically robust. These tools combine multiple reconstructions to produce a final statistically weighted image, enabling reliable confirmation of observed structures. PYRA/MYTHRA drastically reduce analysis time (from weeks to under an hour) and are now official MiRA companion tools, already adopted in several published studies.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/PYRA-and-MYTHRA-new-statistical-analysis-for-image-reconstruction/14148-42",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 11:10 - 11:30 CEST | Room B4-M5",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Johannes Wüthrich, Banan Yamani, Andrin Fazan, Léonard Lebrun, Sean MacBride, Felipe Andrade-Oliveira, Marcelle Soares-Santos, Guandi Zhao",
       "PaperNumber": "14154-80",
       "DateTimeLocationDataList": [
@@ -1690,47 +1724,13 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 14:10 - 14:30 CEST | Room B4-M1",
       "ErrorMessage": null
-    },
-    {
-      "Authors": "Matthew C. DeMartino, Kevin Bundy, Stephen Eikenberry, Aditya Sengupta, Anna Gagnebin, Avi Patel, Tara Crowe, Caleb Dobias, Rodrigo Amezcua Correa, Stephanos Yerolatsitis, Holger Schmidt",
-      "PaperNumber": "14154-89",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 14:15 - 14:30 CEST | Room B2-M4",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "737fc53f-77d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "737fc53f-77d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Neural-network spectral reconstruction with photonic lanterns",
-      "Description": null,
-      "Abstract": "We investigate photonic lanterns as compact, fiber-based spectrometers, using neural networks to reconstruct spectra from single-mode output intensity patterns. Unlike conventional dispersive optics, our approach directly maps lantern outputs to input spectra via a PyTorch feedforward network with residual connections. A testbed with near-monochromatic light and reference spectra enabled training on multi-feature inputs. In the optical regime (650–700 nm), single-feature reconstructions achieved correlations near 0.99; multi-feature cases with two components reached 0.50–0.60, with greater variability for six features due to limited training data. Extending to short-wave infrared (1300–1450 nm), results remained comparable despite detector noise. These findings demonstrate the feasibility of lantern-based spectroscopy and establish a framework for neural-network spectral reconstruction, with future work focused on larger datasets and improved architectures.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Neural-network-spectral-reconstruction-with-photonic-lanterns/14154-89",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 14:15 - 14:30 CEST | Room B2-M4",
-      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

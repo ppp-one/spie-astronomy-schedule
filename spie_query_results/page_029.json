@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Laurent M. Mugnier, Alice Fontbonne, Pauline Trouvé, Olivier Herscovici-Schiller, Frédéric Champagnat, Yann Lucas, Yann Lai-Tim, Frédéric Cassaing",
-      "PaperNumber": "14148-111",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "2ea598af-69d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "2ea598af-69d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Co-design approach to aperture masking",
-      "Description": null,
-      "Abstract": "Aperture masking interferometry is a technique originally designed to alleviate the influence of atmospheric turbulence on images recorded on ground-based telescopes.   In this communication we explore the optimization of the aperture mask by an optical/digital co-design approach in order to obtain diffraction-limited images of relatively bright objects imaged through turbulence.  We show that, with a few simplifying assumptions, it is possible to express the Mean Square Error of the restored image as a function of the chosen mask, of the spatial Power Spectral Density (PSD) of the observed object and of the noise level, without actually computing any image.   This allows us to optimize the aperture mask with a reduced computing cost.  We also implement a multi-frame blind deconvolution algorithm to estimate jointly the observed object and the piston in front of each subaperture, and check by simulations that the aperture masks obtained indeed allow a satisfactory image reconstruction.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Co-design-approach-to-aperture-masking/14148-111",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Marta Maria Civitani, Stefano Basso, Riccardo Belmonte, Massimiliano Cariraghi, Vincenzo Cotroneo, Mauro Ghigo, Edoardo Redaelli, Daniele Spiga, Gabriele Vecchi, Luigi Lessio, Salvatore Incorvaia, Luca Schettini, Giorgio Toso",
-      "PaperNumber": "14146-252",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "7a358a8c-67cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "7a358a8c-67cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Cold glass slumping optics for the custom hybrid X-ray telescope of the International Axion Observatory (IAXO)",
-      "Description": null,
-      "Abstract": "Thin-glass technology enables the production of ultra-thin foils that can be cold-bent to very small radii without fracture, while maintaining excellent micro-roughness. These features make them well suited for rapid, cost-effective cold-replication of grazing-incidence X-ray optics. The CGSO process, patented by INAF-OABrera, shapes flat glass foils on precision mandrels and bonds them onto a support structure using Wolter-I counter-form moulds and reinforcing ribs that ensure structural integrity and suppress low-frequency shape errors. This work extends and validates the process for shorter, 5 m focal-length optics required for the BabyIAXO hybrid design, which features an inner core and an outer corona to cover the 700mm magnetic bore. The reduced focal length requires a full redesign of the integration machine to handle higher mandrel curvature and larger angular adjustments. We present the project, the upgraded strategy, expected performance.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Cold-glass-slumping-optics-for-the-custom-hybrid-X-ray/14146-252",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Daniel Bednarski, Carlos E. Fermino, Karim Kaismoune, Alan Uomoto, Jeffrey D. Crane, Solange Ramírez, Rafael A. S. Ribeiro",
       "PaperNumber": "14155-119",
       "DateTimeLocationDataList": [
@@ -706,7 +638,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Albert Ostoja-Starzewski, Thomas Hall, Elizabeth Keefe, Mason Black, Kerri Cahoy, Michael Shao, John Monnier, Leonid Pogorelyuk",
+      "Authors": "Albert Ostoja-Starzewski, Thomas Hall, Elizabeth Keefe, Mason Black, Kerri Cahoy, Michael Shao, John Monnier, Leonid Pogorelyuk, Paige Forester, Carter Sweeney, Clarissa Halpryn",
       "PaperNumber": "14145-195",
       "DateTimeLocationDataList": [
         {
@@ -728,11 +660,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Demonstration of an adjustable 1-5 meter five-mirror piezoelectric compact delay line for space interferometry",
+      "Title": "Demonstration of an adjustable 1-5 meter four-mirror piezoelectric compact delay line for space interferometry",
       "Description": null,
-      "Abstract": "Precise optical path length (OPL) control is essential for formation-flying interferometer mission concepts, where independent spacecraft motion continuously perturbs the optical path between collectors. For dual-tracking architectures, in which the delay line rapidly switches between a reference star and a science target, we demonstrate a compact laboratory five-mirror delay-line system capable of continuous OPL measurement and control over several meters. We integrate a tunable laser, used in conjunction with a quadrature-channel interferometer, to directly measure and validate OPL with sub-100-micron accuracy. Our demonstration shows the elements needed for dual-tracking: a continuously adjustable 1-5 m delay line with sub-100-micron control, and reliable switching between the reference and science channels.",
+      "Abstract": "Precise optical path difference (OPD) control is essential for formation-flying interferometer mission concepts. We consider an architecture in which one collector is merged with the combiner spacecraft, allowing meter-scale baseline variations to be compensated by an onboard adjustable delay line, relaxing formation-flying requirements, and enabling a potential two-spacecraft technology demonstration mission. We present a compact four-mirror delay line for optical space interferometry that is designed to provide an adjustable 1-5 m optical path length (OPL) range within a 2U CubeSat area. We experimentally demonstrate closed-loop control across a 20 cm optical delay range at 7 total reflections. A 35-reflection laboratory configuration corresponding to more than 5 m OPL was achieved manually, while geometric simulations indicate that the autonomous control approach can span the full 1-5 m OPL range.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Demonstration-of-an-adjustable-1-5-meter-five-mirror-piezoelectric/14145-195",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Demonstration-of-an-adjustable-1-5-meter-four-mirror-piezoelectric/14145-195",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -835,6 +767,40 @@
       "Abstract": "The MORFEO Test Unit (TU) will perform several tests to verify different functionalities of the AO system prior to shipping to the ELT. Although it will not be possible to evaluate system performance using input beams that fully replicate atmospheric conditions and ELT mirrors, it will be possible to assess performance when MORFEO closes the AO loop with an external deformable mirror, as in the telescope configuration. Among the available deformable mirror options, the MORFEO consortium identified the DM previously used in the NACO adaptive optics system on the VLT as a suitable candidate. This solution requires redesigning the interface between the NACO high-voltage DM amplifiers and the modern systems currently used in the ELT and VLT telescopes. The goal of this work is to design, develop, and test new low-voltage electronics to drive the DM amplifiers. This paper details a system implemented to meet the ELT's new elctronic standards.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Design-and-implementation-of-a-new-PLC-based-driving-electronics/14150-230",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Fernando Angeles, Luis A. Madrigal, Jorge Fuentes, Jaime Ruíz-Díaz-Soto, Leonardo Garcés, Alejandro Farah, Sebastian F. Sánchez",
+      "PaperNumber": "14149-133",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "e93a773e-61ce-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "e93a773e-61ce-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Design and optimization of a closed-loop liquid cooling system for an EMCCD camera operating under low illumination and extreme environmental conditions",
+      "Description": null,
+      "Abstract": "This work presents the design and implementation of a critical subsystem for EBANO, a low-cost integral field spectrograph. While EBANO's main components are 3D-printed, its EMCCD camera requires extreme thermal stability for optimal performance. To address the significant heat generated by the detector's Peltier (TEC) system, the team developed a specialized liquid cooling system. The primary achievement of this system is its ability to maintain an exceptional temperature stability of 0.01 °C at the detector. The summary covers the thermal requirements, the mechanical design of the heat sink, and establishes this cooling system as essential for the success of the EBANO instrument.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Design-and-optimization-of-a-closed-loop-liquid-cooling-system/14149-133",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1560,9 +1526,9 @@
       "PaperNumber": "14150-257",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
           "badge_icon": null,
-          "format_icon": 1,
+          "format_icon": null,
           "show_tz_converter": false
         }
       ],
@@ -1586,7 +1552,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
     },
     {
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 7 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Hironori Matsumoto, Hidetoshi Sakamoto, Kaito Murakami, Takuya Hosobata, Hisamitsu Awaki, Haruki Kuramoto, Shin-ya Morita, Sayana Takatsuka, Masahiro Takeda, Yutaka Yamagata",
+      "PaperNumber": "14146-266",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "72a77cb4-2bd0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "72a77cb4-2bd0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Development of the lightweight x-ray Wolter-I mirror using carbon fiber reinforced plastic and ultraprecision machining technology",
+      "Description": null,
+      "Abstract": "Lightweight X-ray mirrors with high angular resolution and a large effective area are essential for clarifying the coevolution of galaxies and black holes. To realize such mirrors, we are developing X-ray optics using carbon fiber–reinforced plastic (CFRP), a light yet strong material that can be formed into various shapes. However,CFRP exhibits a finely textured surface pattern known as print-through, which makes the surface too rough for X-ray reflection. To mitigate print-through, we developed a method to form a thin amorphous NiP layer on the CFRP surface. The NiP layer is then finished using ultra-precision machining to achieve the surface smoothness required for X-ray reflection. We are currently developing a Wolter-I CFRP mirror shell. The mirror shell has an aperture diameter of 100 mm, a focal length of 2000 mm, and a segment length of 100 mm for both the parabolic and hyperbolic sections. We will present the current status of this mirror development.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-the-lightweight-x-ray-Wolter-I-mirror-using/14146-266",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

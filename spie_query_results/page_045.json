@@ -26,6 +26,40 @@
   },
   "Items": [
     {
+      "Authors": "Salvatore Savarese, Marco Landoni, David Young, Davide Ricci, Stephen Smartt, Paolo D'Avanzo, Sergio Campana, Pietro Schipani, Matteo Aliverti, José A. Araiza-Durán, Iair Arcavi, Andrea Baruffolo, Federico Battaini, Sagi Ben-Ami, Alex Bichkovsky, Anna Brucalassi, Giulio Capasso, Enrico Cappellaro, Riccardo Claudi, Mirko Colapietro, Rosario Cosentino, Francesco D'Alessio, Sergio D'Orsi, Massimo Della Valle, Simone Di Filippo, Avishay Gal-Yam, Matteo Genoni, Ofir Hershko, Hanindyo Kuncarayakti, Luigi Lessio, Laurent Marty, Seppo Mattila, Matteo Munari, Giuliano Pignata, Kalyan Radhakrishnan, Michael Rappaport, Marco Riva, Adam Rubin, Bernardo Salasnich, Maximilian Stritzinger, Fabrizio Vitali, Ricardo Zanmar Sánchez, Salvatore Scuderi",
+      "PaperNumber": "14155-158",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "bbe09be0-65d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "bbe09be0-65d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "SOXS quality control system for operations at the NTT",
+      "Description": null,
+      "Abstract": "The SOXS spectrograph at the ESO NTT has completed its AIV and Commissioning phases, and a dedicated Quality Control (QC) system is required to monitor performance during routine operations. The SOXS QC framework is organised in two complementary layers. The first relies on ESO Datalab and Grafana to monitor critical telemetry parameters, providing real-time dashboards and a redundant email-based alarm system for the observatory staff and the SOXS Consortium support team whenever predefined thresholds are exceeded. The second focuses on instrument performance by collecting quality metrics produced by the SOXS pipeline from daily calibrations and engineering data. These metrics are consolidated into a dedicated monitoring database and presented as long-term trends, allowing the operations team and the community to verify instrument stability against commissioning baselines and identify gradual performance degradations for predictive maintenance.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/SOXS-quality-control-system-for-operations-at-the-NTT/14155-158",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Carmelo Arcidiacono, Matteo Simioni, Simone Zaggia, Patrizia Borin, Luca Cortese, Marco Dima, Rosanna Sordo, Marco Gullieuszik",
       "PaperNumber": "14151-119",
       "DateTimeLocationDataList": [
@@ -1690,47 +1724,13 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
-    },
-    {
-      "Authors": "J. Duane Gibson, William Goble, Kenneth Duffek, Dallan Porter, Jerome Musselman, Thomas Gansheimer",
-      "PaperNumber": "14155-175",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "cae6bca5-2fc2-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "cae6bca5-2fc2-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Time- and frequency-domain analysis of telescope mount tracking data at the MMTO",
-      "Description": null,
-      "Abstract": "High-resolution telemetry data (100 Hz) from the MMT Observatory telescope mount, including altitude, azimuth, and rotator axes, are analyzed in the time and frequency domains to evaluate tracking performance. Data are sampled for 2 minutes every 10 minutes during active observing. Using Python tools, including Welch power spectral density (PSD) estimates, data are evaluated over multiple years across various telescope configurations (secondary mirrors, instruments, counterweight settings). The analysis employs dual methods: time-domain standard deviation regression and frequency-domain PSD analysis, with directional separation to distinguish upward/downward motion in elevation and clockwise/counterclockwise motion in azimuth and rotation. Results indicate overall smooth tracking, with identifiable trends suggesting possible operational improvements. These tools help assess how environmental and mechanical factors impact tracking performance, supporting future upgrades.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Time--and-frequency-domain-analysis-of-telescope-mount-tracking/14155-175",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
-      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

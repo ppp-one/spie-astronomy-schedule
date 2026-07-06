@@ -26,6 +26,40 @@
   },
   "Items": [
     {
+      "Authors": "Jonah T. Hansen, Emilie Bouzerand, Adrian M. Glauser, Bastien Rouzé, Noah Stocker, Walter Bachmann, Marcel Baer, Cindy Bellanger, Thomas Birbacher, Germain Garreau, Julio Pino Jiménez, Jérôme Primot, Eckhart Spalding, Sascha P. Quanz",
+      "PaperNumber": "14154-97",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 09:30 - 09:45 CEST | Room B2-M4",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "ef18f5aa-22d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "ef18f5aa-22d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Cryogenic characterisation for the nulling interferometry cryogenic experiment (NICE)",
+      "Description": null,
+      "Abstract": "The Nulling Interferometry Cryogenic Experiment (NICE) is an experimental testbed for the beam combiner of the Large Interferometer For Exoplanets (LIFE) space mission. Until now, progress on NICE has been confined to an ambient bench, where we have recorded progress in deep (<1e-5) nulls at wavelengths between 4 and 5µm at 300K. However, the ultimate goal and requirement of NICE is to repeat these measurements at the sensitivity levels expected for a planetary system, requiring deep cryogenic conditions at 15K.    In this presentation, we will describe the \"Ice Cube\" cryostat, a small version of the future NICE cryostat that is used for component and subsystem level cryogenic testing. This is interfaced with a measurement setup using a segmented aperture interferometer and a wavefront sensor. We will also describe the testing campaign for understanding the material and mounting challenges that will be faced when translating the warm bench to cryogenic operations.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Cryogenic-characterisation-for-the-nulling-interferometry-cryogenic-experiment-NICE/14154-97",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 09:30 - 09:45 CEST | Room B2-M4",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "John W. Appel, Kyuyoung Bae, Charles L. Bennett, Michael K. Brewer, Sarah Marie Bruno, Carol Yan Yan Chan, Joseph Cleary, Sumit Dahal, Jullianna Denes Couto, Kevin L. Denis, Shannon M. Duff, Joseph R. Eimer, Thomas Essinger-Hileman, Naina Gupta, Johannes Hubmayr, Gregory Jaehnig, John Karakla, Matthew Koc, Jeff van Lanen, Yunyang Li, Michael J. Link, Tammy Lucas, Tobias Marriage, Carolina Morales Perez, Matthew A. Petroff, Caleigh Ryan, Rui Shi, Deniz A. N. Valle, Edward J. Wollack",
       "PaperNumber": "14156-55",
       "DateTimeLocationDataList": [
@@ -594,7 +628,7 @@
       "HTMLTitle": "",
       "Title": "Aperture masking interferometry with ELT-METIS",
       "Description": null,
-      "Abstract": "We present sparse-aperture masks for the L/M- and N-band imaging channels of METIS on the ELT. Our 6-hole design acts as an array of six ~4 m telescopes on a single pupil, with a total collecting area comparable to Keck, optimized for broadband (≈20%) filters with non-redundant baselines. Our 12-hole design acts as twelve ~1.6 m sub-apertures, conceptually similar to a VLTI-AT array but with three times as many elements packed into a ~38 m maximum baseline, providing dense uv coverage for narrow-band filters. These complementary masks are tailored to self-luminous planets, brown dwarfs, and inner disks within ≲0.05–0.1″, where AO PSF variability and coronagraphic inner working angles limit classical imaging. We summarize mask geometry, uv coverage, and expected sensitivity, and we present end-to-end performance predictions with the HEEPS ELT/METIS simulator including realistic seeing, AO residuals, aberrations, and detector noise.",
+      "Abstract": "We present sparse-aperture masks for the L/M- and N-band imaging channels of METIS on the ESO ELT. The 6-hole mask forms six ~4 m sub-apertures with Keck-like collecting area and non-redundant baselines for broadband (~20%) filters. The 12-hole mask forms twelve ~1.6 m sub-apertures, conceptually similar to a VLTI-AT array but with three times as many elements packed into a ~34 m maximum baseline, giving denser uv coverage for narrow-band filters. These masks target self-luminous planets, brown dwarfs, and compact circumstellar structure within ~0.05-0.1 arcsec, where AO PSF variability and coronagraphic inner working angles limit classical imaging. We summarize final mask geometries, uv coverage, and design methodology, and outline simulations combining HEEPS AO residuals, ScopeSim detector models, and SAMpy extraction. This framework will quantify where masking can compete with or outperform coronagraphy at a few lambda/D.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Aperture-masking-interferometry-with-ELT-METIS/14148-58",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1690,47 +1724,13 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "10 July 2026 • 11:40 - 12:00 CEST | Room B4-M1",
       "ErrorMessage": null
-    },
-    {
-      "Authors": "Kathleen Harrington, The Simons Observatory Collaboration",
-      "PaperNumber": "14156-60",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 11:40 - 12:00 CEST | Room B5-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "12adab2c-87d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "12adab2c-87d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The Simons Observatory: on-sky noise performance of the small aperture telescopes",
-      "Description": null,
-      "Abstract": "The Simons Observatory (SO) is a next generation cosmic microwave background (CMB) experiment now operating in the Chilean Atacama Desert. The initial SO configuration includes three 0.5-meter Small Aperture Telescopes (SATs) that are targeting observations of the larger angular scales of the CMB polarization anisotropy in a search for the B-mode polarization signature that would indicate the presence of inflation-sourced primordial gravitation waves. Each SAT contains over 12,000 transition edge sensor detectors; the two Mid-frequency SATs, observing in bands around 90 and 150 GHz, completed commissioning in the Fall of 2024 and the ultra-high frequency SAT, observing bands around 220 and 280 GHz, began commissioning in the Fall of 2025. I will discuss the efficiency calibrations and noise performance of deployed instruments as well as compare the achieved performance to forecasting and instrument modeling expectations.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Simons-Observatory--on-sky-noise-performance-of-the/14156-60",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 11:40 - 12:00 CEST | Room B5-M3",
-      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

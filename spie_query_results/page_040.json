@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Ruoyu Zhou, Renbin Yan, Yutong Qiao, Chit-Ho Hui",
-      "PaperNumber": "14149-359",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "61ff75fb-99cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "61ff75fb-99cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "A white-pupil echelle spectrograph design for high-resolution integral field spectroscopy: achieving near-peak blaze efficiency for key emission lines",
-      "Description": null,
-      "Abstract": "We present a CMOS-optimized modular white-pupil echelle spectrograph design for high-resolution (R ~ 24300) integral-field spectroscopy of optical nebular emission. Proposed as an alternative design for surveys like AMASE, the instrument uses a 150 mm f/10 collimator and a 408-channel, 220 micron microlens-array pseudo-slit, yielding 17% higher etendue than current configurations. Its white-pupil layout decoupling the disperser enables interchangeable echelle configurations. The system features three camera channels (432-514, 514-606, 627-759 nm) covering critical gas diagnostics ([O III], [N II], [S II], and Balmer lines). This compact format preserves major optical diagnostics required for targeted nebular astrophysics and gas kinematics.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/A-white-pupil-echelle-spectrograph-design-for-high-resolution-integral/14149-359",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Giulia Conenna, Willem Jan Vreeling, Daniela Perez Capelo, Dimitry Lamers, David Thoen, Martijn Veen, Jochem J. A. Baselmans, Lorenza Ferrari",
       "PaperNumber": "14156-145",
       "DateTimeLocationDataList": [
@@ -325,6 +291,40 @@
       "Abstract": "The Ultrastable Large Telescopes Research and Analysis (ULTRA) program led by BAE Systems Space & Mission Systems continues to press forward with technology advances and system level insights for NASA’s Habitable Worlds Observatory (HWO). The team continues its dual focus on 1) high-fidelity simulation leveraging models provided by NASA to evaluate their capabilities and risks as potential architectures and 2) hardware demonstrations/studies to address high priority technology gaps in stable mirrors, precision thermal control, and ultrastable sensing and actuation. This presentation will summarize recent achievements by this team and how they support the technology and concept maturation of HWO.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Advancing-critical-technologies-and-integrated-modeling-for-HWO-in-year/14145-255",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Deniz Ölçek, Tore André Bekkeng, John Rune Jakobsen, Fredrik Harring Mathiesen, Vetle Berg Abrahamsen, Halvor Strøm, Georg Magneshaugen, Ha Hoang, Mustafa Najjar, Jennifer Travanca, Vidar Espeland, Simen Harnes, Mattias Carlqvist, Pekka Tapio Neuvonen",
+      "PaperNumber": "14145-137",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "a2a1177f-4bd0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "a2a1177f-4bd0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Advancing modular space avionics: design and development of an ADHA payload controller module for PICU",
+      "Description": null,
+      "Abstract": "The Advanced Data Handling Architecture (ADHA) is an ESA initiative to establish a compact and modular avionics framework for future space missions. Within this architecture, the Payload Interface Controller Unit (PICU) provides centralized instrument control, data handling, and timing distribution. This work presents the design and development efforts of the Payload Controller Module (PCM), a key building block of the PICU responsible for sensor interfacing and payload command management. We outline the PCM’s role within the PICU, the motivation behind its modular design, and the progress toward its engineering model. The work demonstrates how ADHA’s reusable avionics approach can streamline payload development and support a broad range of scientific and Earth-observation missions.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Advancing-modular-space-avionics--design-and-development-of-an/14145-137",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1727,10 +1727,10 @@
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

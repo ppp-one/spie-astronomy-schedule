@@ -26,6 +26,40 @@
   },
   "Items": [
     {
+      "Authors": "Michał Kossakowski, Selina Ringsborg Howalt Owe, Rikke Stougaard Klausen, Alexander Cherlin, Denis Tcherniak, Alejandro Valverde Mahou, Søren Hauberg, Irfan Kuvvetli",
+      "PaperNumber": "14146-331",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "d55d1fae-61d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "d55d1fae-61d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Toward tracker-free Compton imaging: deep learning of charge cloud geometry in 3D CZT drift strip detectors",
+      "Description": null,
+      "Abstract": "Recoil electron tracking is a key missing capability in Compton imaging for both high-sensitivity MeV gamma-ray astronomy and advanced medical imaging. This work presents a machine learning feasibility study investigating whether recoil electron direction and charge cloud geometry can be inferred directly from CZT detector pulse shapes. Synthetic data are generated using an Advanced Theoretical Detector Model of a 3D CZT Drift Strip Detector combined with recoil electron tracks simulated in GATE. The study defines the practical feasibility limits of AI-based electron tracking for next-generation Compton imaging systems.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Toward-tracker-free-Compton-imaging--deep-learning-of-charge/14146-331",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Alain Cournoyer, Hugo Bourque, Éric Carbonneau, Patrick Gilbert, Simon Houle, Jean-Alexis Boulet, Ian Silversides, Martin Larouche, Natalia Milaniak, Frédéric Grandmont, David Naylor, Brad Gom, Adam Christiansen, Matthew Buchan",
       "PaperNumber": "14145-272",
       "DateTimeLocationDataList": [
@@ -1114,6 +1148,40 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Anaïs Besnard, Valentin Sauvage, Giulia Connena, Kenichi Karatsu, Stephen Yates, Lorenza Ferrari, Bruno Maffei",
+      "PaperNumber": "14156-53",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 08:50 - 09:10 CEST | Room B5-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "d53609d8-d7ce-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "d53609d8-d7ce-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Characterization of high-sensitivity cryogenic detectors’ susceptibility to cosmic rays",
+      "Description": null,
+      "Abstract": "Aiming to characterize the susceptibility of new generations of highly sensitive cryogenic detector to high energy particles such as cosmic rays, IAS has developed a cryogenic test facility which can operate detectors or parts of focal planes at temperatures ranging from 50 to 300 mK while performing particle irradiations. Coupling this facility to a particle accelerator beam allows for impact studies through single event spurious signal on the data (glitches), and total irradiation dose to simulate several years of operation in space causing potential performance degradations. The glitch shape analysis, giving access to the detector time constants, leads to the possibility of establishing a thermal model but also to the possibility of glitch removal in the data through a new deglitching method that has been developed.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Characterization-of-high-sensitivity-cryogenic-detectors-susceptibility-to-cosmic-rays/14156-53",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 08:50 - 09:10 CEST | Room B5-M3",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Roberta Pellegrini, Piero Gregori, Francesco Maria Cerutti, Tharek Mohtar, Francesco Diprima, Elena Vellutini",
       "PaperNumber": "14147-70",
       "DateTimeLocationDataList": [
@@ -1148,40 +1216,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Anaïs Besnard, Valentin Sauvage, Giulia Connena, Kenichi Karatsu, Stephen Yates, Lorenza Ferrari, Bruno Maffei",
-      "PaperNumber": "14156-53",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 08:50 - 09:10 CEST | Room B5-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "d53609d8-d7ce-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "d53609d8-d7ce-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "New method for cosmic ray hits deglitching",
-      "Description": null,
-      "Abstract": "Aiming to characterize the susceptibility of new generations of highly sensitive cryogenic detector to high energy particles such as cosmic rays, IAS has developed a cryogenic test facility which can operate detectors or parts of focal planes at temperatures ranging from 50 to 300 mK while performing particle irradiations. Coupling this facility to a particle accelerator beam allows for impact studies through single event spurious signal on the data (glitches), and total irradiation dose to simulate several years of operation in space causing potential performance degradations. The glitch shape analysis, giving access to the detector time constants, leads to the possibility of establishing a thermal model but also to the possibility of glitch removal in the data through a new deglitching method that has been developed.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/New-method-for-cosmic-ray-hits-deglitching/14156-53",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 08:50 - 09:10 CEST | Room B5-M3",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Joel Sanchez-Bermudez",
       "PaperNumber": "14148-38",
       "DateTimeLocationDataList": [
@@ -1206,7 +1240,7 @@
       "HTMLTitle": "",
       "Title": "Deep Image Prior Neural Networks for interferometric image reconstruction",
       "Description": null,
-      "Abstract": "We present an interferometric image-reconstruction framework based on Deep Image Prior (DIP) auto-encoders to recover high-angular-resolution images from sparse Fourier data without supervised training. An untrained U-Net-like network is optimized per dataset through a non-uniform Fourier forward model acting on visibility (squared) amplitudes and closure phases, while explicit regularizers (e.g. total variation, flux, compactness and centroid terms) encode physical constraints. We show the performance of this technology on observations taken with different facilities: JWST Sparse Aperture Masking data, the Event Horizon Telescope and the Very Large Telescope interferometer GRAVITY instrument. We highlight in this work how this approach provides a unified, instrument-agnostic pathway for next-generation interferometric imaging based on unsupervised deep priors.",
+      "Abstract": "We present a Deep Image Prior framework for reconstructing images from sparse long-baseline interferometric data. The sky brightness is reconstructed by an untrained U-Net-like convolutional generator, optimized separately for each data set using a loss defined on interferometric observables. The method includes forward models for visibility amplitudes, squared visibilities, and closure phases, and permits explicit regularization. We test the approach on 2018 EHT observations of M87* and on simulated VLTI/GRAVITY data of a variable asymmetric ring of a young stellar object. For M87*, DIP recovers an asymmetric ring with a central brightness depression and a diameter of ∼45 μas, consistent with synchrotron emission around the black-hole shadow. For dynamical VLTI imaging, coupling DIP to continuous-time Dynamic Mode Decomposition enables simultaneous recovery of multiple frames from sparse (u, v) coverage, reproducing counter-clockwise motion of the emission peak over 27 days period.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Deep-Image-Prior-Neural-Networks-for-interferometric-image-reconstruction/14148-38",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1690,47 +1724,13 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "10 July 2026 • 09:25 - 09:45 CEST | Room B2-M8",
       "ErrorMessage": null
-    },
-    {
-      "Authors": "Jonah T. Hansen, Emilie Bouzerand, Adrian M. Glauser, Bastien Rouzé, Noah Stocker, Walter Bachmann, Marcel Baer, Cindy Bellanger, Thomas Birbacher, Germain Garreau, Julio Pino Jiménez, Jérôme Primot, Eckhart Spalding, Sascha P. Quanz",
-      "PaperNumber": "14154-97",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 09:30 - 09:45 CEST | Room B2-M4",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "ef18f5aa-22d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "ef18f5aa-22d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Cryogenic characterisation for the nulling interferometry cryogenic experiment (NICE)",
-      "Description": null,
-      "Abstract": "The Nulling Interferometry Cryogenic Experiment (NICE) is an experimental testbed for the beam combiner of the Large Interferometer For Exoplanets (LIFE) space mission. Until now, progress on NICE has been confined to an ambient bench, where we have recorded progress in deep (<1e-5) nulls at wavelengths between 4 and 5µm at 300K. However, the ultimate goal and requirement of NICE is to repeat these measurements at the sensitivity levels expected for a planetary system, requiring deep cryogenic conditions at 15K.    In this presentation, we will describe the \"Ice Cube\" cryostat, a small version of the future NICE cryostat that is used for component and subsystem level cryogenic testing. This is interfaced with a measurement setup using a segmented aperture interferometer and a wavefront sensor. We will also describe the testing campaign for understanding the material and mounting challenges that will be faced when translating the warm bench to cryogenic operations.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Cryogenic-characterisation-for-the-nulling-interferometry-cryogenic-experiment-NICE/14154-97",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 09:30 - 09:45 CEST | Room B2-M4",
-      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

@@ -26,6 +26,40 @@
   },
   "Items": [
     {
+      "Authors": "Morgane Loquet Le Gall, Creidhe O'Sullivan, Bruno Borgo, Clémence De Jabrun, Valentin Sauvage, N. Trappe, Bruno Maffei",
+      "PaperNumber": "14156-189",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "7b89662f-9fce-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "7b89662f-9fce-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Optical development of the BISOU breadboard",
+      "Description": null,
+      "Abstract": "BISOU (Balloon Interferometer for Spectral Observations of the primordial Universe) is an astronomical balloon- borne pathfinder developed as part of a preparatory study for a future space mission aimed at measuring spectral distortions of the cosmic microwave background (CMB). A laboratory breadboard of the instrument is being developed at the Institut d’Astrophysique Spatiale (IAS), enabling the characterization of subsystems and in- strument systematic effects, particularly in the optical system. The optical system is based on a differential polarizing Fourier Transform Spectrometer (FTS) that receives inputs from both a sky-facing telescope and an internal calibration source. The full spectral band, spanning between 90 and 1500 GHz. The optical analysis first relies on ray-tracing simulations to establish the overall configuration of the system, before proceeding to more advanced Gaussian beam and physical optics analyses.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-development-of-the-BISOU-breadboard/14156-189",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Carmelo Arcidiacono, Fernando Pedichini, Marco Riva, Gianluca Di Rico, Elisa Portaluri, Demetrio Magrin",
       "PaperNumber": "14148-163",
       "DateTimeLocationDataList": [
@@ -1690,47 +1724,13 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
-    },
-    {
-      "Authors": "Marianna Fulara, Piotr Wawer, Mateusz Sobiecki, Markus Czupalla, Mirosław Rataj, Konrad Skup",
-      "PaperNumber": "14149-448",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 9 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "dc8094ef-37d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "dc8094ef-37d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "STOP analysis for ESA ARIEL fine guidance system instrument",
-      "Description": null,
-      "Abstract": "The FGS instrument, built by a consortium led by the CBK PAN, will provide scientific data and guide ESA's ARIEL telescope to selected targets. It will be located at the L2 point and experiencing cryogenic temperatures at which it must maintain good optical performance. The instrument housing holds the cages and holders that support the optical elements in the correct configuration. The materials used in the design are aluminium, titanium, N-BK7 and SF6. Using STOP analysis, the influence of environmental conditions, especially extreme temperatures, on the optical performance of the instrument was checked. Displacements and deformations of the optical surfaces resulting from FEMAP/Nastran structural analyses were transferred to Ansys Zemax OpticsStudio using Matlab scripts. Parameters used for performance evaluation are line of sight, RMS spot, wavefront error, encircled energy and spectral resolution.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/STOP-analysis-for-ESA-ARIEL-fine-guidance-system-instrument/14149-448",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
-      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }

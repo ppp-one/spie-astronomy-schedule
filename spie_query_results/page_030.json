@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Hironori Matsumoto, Hidetoshi Sakamoto, Kaito Murakami, Takuya Hosobata, Hisamitsu Awaki, Haruki Kuramoto, Shin-ya Morita, Sayana Takatsuka, Masahiro Takeda, Yutaka Yamagata",
-      "PaperNumber": "14146-266",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "72a77cb4-2bd0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "72a77cb4-2bd0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Development of the lightweight x-ray Wolter-I mirror using carbon fiber reinforced plastic and ultraprecision machining technology",
-      "Description": null,
-      "Abstract": "Lightweight X-ray mirrors with high angular resolution and a large effective area are essential for clarifying the coevolution of galaxies and black holes. To realize such mirrors, we are developing X-ray optics using carbon fiber–reinforced plastic (CFRP), a light yet strong material that can be formed into various shapes. However,CFRP exhibits a finely textured surface pattern known as print-through, which makes the surface too rough for X-ray reflection. To mitigate print-through, we developed a method to form a thin amorphous NiP layer on the CFRP surface. The NiP layer is then finished using ultra-precision machining to achieve the surface smoothness required for X-ray reflection. We are currently developing a Wolter-I CFRP mirror shell. The mirror shell has an aperture diameter of 100 mm, a focal length of 2000 mm, and a segment length of 100 mm for both the parabolic and hyperbolic sections. We will present the current status of this mirror development.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-the-lightweight-x-ray-Wolter-I-mirror-using/14146-266",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Mitsuyoshi Yamagishi, Shigeyuki Sako, Masahiro Konishi, Hiroaki Sameshima, Natsuko Kato, Yuki Mori, Sohei Kondo, Takashi Miyata, Kotaro Kohno, Kentaro Motohara, Takeo Minezaki, Fumi Egusa, Itsuki Sakon, Hidenori Takahashi, Takafumi Kamizuka, Kazuya Matsubayashi, Kana Morokuma-Matsui, Masataka Imai, Takashi Horiuchi, Yuki Hirao, Yuzuru Yoshii",
       "PaperNumber": "14151-66",
       "DateTimeLocationDataList": [
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 7 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "P. Bañares-Palacios, M. A. Cagigas, A. A. Luján González, B. García-Lorenzo, A. Alonso, A. de Lorenzo-Cáceres",
+      "PaperNumber": "14149-290",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "d0b4b052-40d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "d0b4b052-40d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "HARMONI at ELT: integral field spectrograph pre-optics (IPO) design after rescope process",
+      "Description": null,
+      "Abstract": "HARMONI is the first light, adaptive optics assisted, near-IR integral field spectrograph for the ELT. It covers a spectral range from 750nm to 2450nm with resolving powers from 3000 to 7000 and spatial sampling of 25mas and 6mas. It can operate in two adaptive optics modes - SCAO (including a high contrast capability) and MCAO. The project is resuming its final design phase after a rescope design phase in 2025.     The instrument faced budgetary constraints that led to a reduction in the number of available scales in the IPO subsystem. An overview of the process and final design is presented, where 4x4mas, 10x10mas, 20x20mas and 60x30mas scales (in addition to the pupil imaging scale for alignment, which was preserved) were substituted by 6x6mas and 25x25mas scales, compromising technical requirements and scientific needs.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/HARMONI-at-ELT--integral-field-spectrograph-pre-optics-IPO/14149-290",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2922,
+  "Count": 2923,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
+  "SearchServerName": "PRODSPSEARCH01",
   "DLCount": 696015
 }
