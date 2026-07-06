@@ -3753,7 +3753,7 @@ def build_html(
   <div class="modal" style="position:relative">
     <button class="modal-close" onclick="closeQrModal()">&#10005;</button>
     <h2>Share this page</h2>
-    <p>Scan the QR code to open this schedule on another device:</p>
+    <p>Scan the QR code to open https://spie2026.netlify.app/</p>
     <img id="qr-modal-img" src="site-qr-code.png" alt="QR code linking to this page">
   </div>
 </div>
