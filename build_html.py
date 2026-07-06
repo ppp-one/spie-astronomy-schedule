@@ -214,7 +214,7 @@ MANIFEST = """\
 
 SW_JS = """\
 const CACHE = 'spie-as26-v1';
-const ASSETS = ['/', '/index.html', '/manifest.json', '/icon.svg', '/icon-192.png', '/icon-512.png'];
+const ASSETS = ['/', '/index.html', '/manifest.json', '/icon.svg', '/icon-192.png', '/icon-512.png', '/site-qr-code.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(
@@ -685,7 +685,7 @@ body {
 }
 #clear-btn:hover { background: rgba(126,184,247,.15); }
 #match-count { font-size: 11px; color: #aaa; flex-shrink: 0; min-width: 50px; text-align: right; padding-right: 8px; }
-.topbar-right { flex-shrink: 0; margin-left: auto; }
+.topbar-right { flex-shrink: 0; margin-left: auto; display: flex; align-items: center; gap: 6px; }
 /* ── Legend ── */
 .legend {
   padding: 7px 16px;
@@ -1022,7 +1022,11 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   color: #aab;
   border-radius: 4px;
   padding: 4px 10px;
+  height: 26px;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-size: 12px;
   font-weight: 600;
   white-space: nowrap;
@@ -1031,19 +1035,27 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 #my-schedule-btn:hover { border-color: #f5a623; color: #f5a623; }
 #my-schedule-btn.active { background: #f5a623; color: #1a1a2e; border-color: #f5a623; }
 #bookmark-count { font-size: 11px; color: #f5a623; padding-right: 8px; text-align: right; }
-#share-btn {
+#share-btn, #qr-btn {
   background: none;
   border: 1px solid #556;
   color: #aab;
   border-radius: 4px;
   padding: 4px 10px;
+  height: 26px;
   cursor: pointer;
-  font-size: 12px;
-  font-weight: 600;
-  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   transition: background .15s, border-color .15s, color .15s;
 }
-#share-btn:hover { background: rgba(126,184,247,.15); }
+#share-btn:hover, #qr-btn:hover { background: rgba(126,184,247,.15); }
+#share-btn svg, #qr-btn svg { width: 15px; height: 15px; }
+#qr-modal-img {
+  display: block;
+  width: min(280px, 70vw);
+  margin: 0 auto;
+  border-radius: 6px;
+}
 /* ── Export/import modal ── */
 .modal-backdrop {
   display: none;
@@ -2498,6 +2510,21 @@ document.getElementById('share-modal').addEventListener('click', ev => {
   if (ev.target === ev.currentTarget) closeShareModal();
 });
 
+// ── QR share ──
+function openQrModal() {
+  document.getElementById('qr-modal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeQrModal() {
+  document.getElementById('qr-modal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.getElementById('qr-modal').addEventListener('click', ev => {
+  if (ev.target === ev.currentTarget) closeQrModal();
+});
+
 // ── View switcher ──
 function toggleViewMenu() {
   document.querySelector('.view-nav').classList.toggle('open');
@@ -3630,7 +3657,17 @@ def build_html(
   <div class="topbar-right">
     <span id="bookmark-count"></span>
     <button id="my-schedule-btn" onclick="toggleMySchedule()" title="My Schedule">&#9733;</button>
-    <button id="share-btn" onclick="openShareModal()" title="Sync &amp; Backup">&#9881;</button>
+    <button id="share-btn" onclick="openShareModal()" title="Sync &amp; Backup">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z" />
+      </svg>
+    </button>
+    <button id="qr-btn" onclick="openQrModal()" title="Share this page">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0 1 3.75 9.375v-4.5ZM3.75 14.625c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5a1.125 1.125 0 0 1-1.125-1.125v-4.5ZM13.5 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0 1 13.5 9.375v-4.5Z" />
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 6.75h.75v.75h-.75v-.75ZM6.75 16.5h.75v.75h-.75v-.75ZM16.5 6.75h.75v.75h-.75v-.75ZM13.5 13.5h.75v.75h-.75v-.75ZM13.5 19.5h.75v.75h-.75v-.75ZM19.5 13.5h.75v.75h-.75v-.75ZM19.5 19.5h.75v.75h-.75v-.75ZM16.5 16.5h.75v.75h-.75v-.75Z" />
+      </svg>
+    </button>
     <span id="sync-status" style="font-size:12px;min-width:16px;text-align:center;cursor:default;transition:color .3s" title=""></span>
   </div>
 </div>
@@ -3709,6 +3746,15 @@ def build_html(
       View source on GitHub
     </a>
     <div style="font-size:12px;opacity:0.75;padding-top:12px">Made with &#10084;&#65039; by <a href="https://www.ppp.one/" style="text-decoration-line:underline">Peter Pihlmann Pedersen</a></div>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="qr-modal">
+  <div class="modal" style="position:relative">
+    <button class="modal-close" onclick="closeQrModal()">&#10005;</button>
+    <h2>Share this page</h2>
+    <p>Scan the QR code to open this schedule on another device:</p>
+    <img id="qr-modal-img" src="site-qr-code.png" alt="QR code linking to this page">
   </div>
 </div>
 
