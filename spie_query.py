@@ -39,13 +39,17 @@ OUTPUT_DIR = Path("spie_query_results")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 
+SPECIAL_EVENTS_QUERY = "term=&pageSize=100&page=1&sortBy=DateAsc&tab=Special_Event"
+SPECIAL_EVENTS_FILE = OUTPUT_DIR / "special_events.json"
+
+
 def build_query(page: int) -> str:
     return f"term=&pageSize={PAGE_SIZE}&page={page}&sortBy=DateAsc&tab=Presentation"
 
 
-def fetch_page(session: requests.Session, page: int):
+def fetch_query(session: requests.Session, query: str):
     params = PARAMS_TEMPLATE.copy()
-    params["query"] = build_query(page)
+    params["query"] = query
 
     response = session.get(
         BASE_URL,
@@ -59,7 +63,7 @@ def fetch_page(session: requests.Session, page: int):
     try:
         return response.json()
     except Exception:
-        print(f"[!] Failed to parse JSON on page {page}")
+        print(f"[!] Failed to parse JSON for query {query}")
         print(response.text[:1000])
         raise
 
@@ -73,7 +77,7 @@ def is_empty_result(data) -> bool:
         return len(data) == 0
 
     if isinstance(data, dict):
-        for key in ["results", "items", "data", "presentations"]:
+        for key in ["Items"]:
             if key in data and isinstance(data[key], list):
                 return len(data[key]) == 0
 
@@ -95,7 +99,7 @@ def main():
         print(f"[*] Fetching page {page}")
 
         try:
-            data = fetch_page(session, page)
+            data = fetch_query(session, build_query(page))
         except Exception as e:
             print(f"[!] Error on page {page}: {e}")
             break
@@ -115,6 +119,23 @@ def main():
 
         # Be polite
         time.sleep(3)
+
+    print("[*] Fetching special events")
+
+    try:
+        data = fetch_query(session, SPECIAL_EVENTS_QUERY)
+    except Exception as e:
+        print(f"[!] Error fetching special events: {e}")
+        return
+
+    if is_empty_result(data):
+        print("[!] Special events query returned no results; keeping existing file")
+        return
+
+    with open(SPECIAL_EVENTS_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print(f"[+] Saved {SPECIAL_EVENTS_FILE}")
 
 
 if __name__ == "__main__":
