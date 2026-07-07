@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Weiye Zhong",
-      "PaperNumber": "14153-35",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 10:30 - 10:50 CEST | Room B2-M8",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "545b6e7a-88de-f011-a9ae-005056914f1c---crmrecord",
-      "GUID": "545b6e7a-88de-f011-a9ae-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Development of a K/Q/W tri-band cryogenic receiver for the Tianma Radio Telescope",
-      "Description": null,
-      "Abstract": "",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-a-K-Q-W-tri-band-cryogenic-receiver/14153-35",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 10:30 - 10:50 CEST | Room B2-M8",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Jochem J. A. Baselmans, Giulia Conenna, Daan Roos, Alexandra Mavropoulou, Lorenza Ferrari, Stephen Yates, Willem Jellema, Dimitry Lamers, Daniela Perez Capelo, Martijn Veen, David Thoen, Vishal Anvekar, Pieter de Visser, Shahab Dabironezare",
-      "PaperNumber": "14156-18",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 10:30 - 10:50 CEST | Room B5-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "0965e60d-51cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "0965e60d-51cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Development of the PRIMAger detector arrays for the PRobe far-Infrared Mission for Astrophysics",
-      "Description": null,
-      "Abstract": "We present the development of the detector arrays for PRIMAger, the European instrument of PRIMA. These consist of single polarisation leaky-lens antenna coupled Kinetic Inductance Detectors (KIDs) for the Prima Polarimetric Imager (PPI). For the Prima Hyperspectral Imager (PHI) these are dual polarisation lens-absorber coupled KIDs. In both cases the KIDs are based upon NbTiN resonators and aluminium antennas (PPI) or absorbers (PHI). We will present the design, fabrication, testing and space qualification of these detector arrays. These show that both the PHI and PPI arrays reach the requirements for PRIMA: A sensitivity, given by a NEP < 2e-19 W/rt(Hz) in a 5-175 Hz audio band, a coupling efficiency >55%, a polarisation purity of <-20 dB (for PPI only) and high yield.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-the-PRIMAger-detector-arrays-for-the-PRobe-far/14156-18",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 10:30 - 10:50 CEST | Room B5-M3",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Christian Ramirez, Constanza Araujo Hauck, Andres González, Gerardo Smith, Jindrich Martinu, Ahmed Miliani, Sébastien Adans, Jeroen Schotsaert",
       "PaperNumber": "14154-62",
       "DateTimeLocationDataList": [
@@ -1724,6 +1656,74 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 11:50 - 12:10 CEST | Room B2-M8",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Shahab O. Dabironezare, Giulia Conenna, Daan Roos, Dimitry Lamers, Daniela Perez Capelo, Hendrik M. Veen, David J. Thoen, Vishal Anvekar, Stephen J. C. Yates, Robert Huiting, Jochem J. A. Baselmans",
+      "PaperNumber": "14156-22",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 11:50 - 12:10 CEST | Room B5-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "07c84702-a3cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "07c84702-a3cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Experimental demonstration of the optical coupling for an array of lens-absorber coupled KIDs operating at 6.98 THz for PRIMA",
+      "Description": null,
+      "Abstract": "Focal plane arrays of silicon lenses with distributed absorbers coupled to Kinetic Inductance Detectors (KIDs) are the chosen detector technology for the hyperspectral imager of the PRobe far-Infrared Mission for Astrophysics (PRIMA). In this contribution we present the modelling approach, design, fabrication, and experimental verification for a 25-pixel lens-absorber KID array operating at the central frequency of 6.98 THz. The aperture efficiency of the detectors is measured to be 54%. We verified this against numerical simulations using an in-house developed efficient spectral technique and find an excellent agreement. The noise equivalent power of the KIDs is also measured with a limiting value of 8×10^(-20)W/√Hz under negligible optical loading. These experimental verifications indicate that the modelling, design, realisation and characterisation of the proposed detectors are well understood, paving the way for the development of the flight chips for PRIMA’s hyperspectral imager.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Experimental-demonstration-of-the-optical-coupling-for-an-array-of/14156-22",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 11:50 - 12:10 CEST | Room B5-M3",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Hangxin Ji, Ru Chen, Yong Li, Cheng Liao, Haoran Yu, Jun Li, Qinyang Dong, Lei Wang",
+      "PaperNumber": "14149-50",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 11:50 - 12:10 CEST | Auditorium 15",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "c105d92b-36cb-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "c105d92b-36cb-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Multi-object fiber spectrograph for the 4-m class Jiao Tong University Spectroscopic Telescope (JUST)",
+      "Description": null,
+      "Abstract": "The JUST telescope is a 4-m class, wide-field segmented facility dedicated to massively multiplexed spectroscopy. We present the optical and system design of its Multi-Object Fiber Spectrograph (MOFS), supporting up to 2,000 fibers across a 1.2° Nasmyth field. The instrument employs a three-channel layout (365–560nm, 540–745nm, 720–925nm) using dichroics, high-efficiency VPH gratings, and fast f/1.4 cameras fed by a 175-mm collimated beam. With optimized fiber-slit geometry, MOFS delivers R≈2,000–5,000 and >60% peak throughput. Each exposure records over 500 spectra and scales to the full survey capacity. One spectrograph also accommodates a compact 19-fiber IFU for spatially resolved studies of transients and compact objects. Engineered for stability at the 4,300-m site and optimized for faint targets, MOFS will enable dense mapping of large-scale structures, time-domain follow-ups, and coordinated surveys with WFST and CSST, advancing JUST as a next-generation spectroscopic facility.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Multi-object-fiber-spectrograph-for-the-4-m-class-Jiao/14149-50",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 11:50 - 12:10 CEST | Auditorium 15",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

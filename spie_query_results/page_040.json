@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Giulia Conenna, Willem Jan Vreeling, Daniela Perez Capelo, Dimitry Lamers, David Thoen, Martijn Veen, Jochem J. A. Baselmans, Lorenza Ferrari",
-      "PaperNumber": "14156-145",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "5367fbfd-35d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "5367fbfd-35d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Accelerated aging tests of kinetic inductance detectors for the PRIMA Mission",
-      "Description": null,
-      "Abstract": "We present the results of an accelerated aging study performed on absorber coupled Kinetic Inductance Detectors (KIDs) developed for the PRIMAger instrument on the PRIMA mission. PRIMAger uses single-polarized leaky-lens antenna-coupled KIDs for the PRIMA Polarimetric Imager (PPI), and lens-absorber-coupled KIDs for the PRIMA Hyperspectral Imager (PHI). These devices are based on NbTiN resonators with an aluminum section for radiation absorption, while PPI integrates a 100 nm SiN membrane coupled to the aluminum coplanar waveguide. In this study we focused specifically on the absorber KIDs for PHI, as they use the thinnest aluminum film (22 nm).  Because aluminum thin films are sensitive to environmental exposure and can undergo surface oxidation that may affect performance, it is essential to evaluate their long-term stability. The aim of these tests is to assess the stability of the devices under environmental stressors experienced during production, transport, pre-launch and launch.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Accelerated-aging-tests-of-kinetic-inductance-detectors-for-the-PRIMA/14156-145",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Yutong Qiao, Chit-Ho Hui, Renbin Yan, Ruoyu Zhou, Sabyasachi Chattopadhyay, Michael P. Smith",
-      "PaperNumber": "14149-354",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "7db134b7-83cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "7db134b7-83cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Accurate testing of multi-mode optical fibers and surprises from octagonal-core fibers",
-      "Description": null,
-      "Abstract": "Octagonal-core fibers show great potential in astronomical spectroscopy instruments due to their excellent scrambling performance, which ensures a stable line spread function (LSF). However, such high scrambling performance could be accompanied by pronounced focal ratio degradation (FRD), which can significantly compromise instrument efficiency. In this study, to precisely measure FRD and characterize the scrambling performance, We upgraded our full-cone fiber test stand with an enlarged aperture and a carefully optimized optical layout. The upgraded system supports faster input focal ratios, provides an improved image quality, and enables higher-accuracy focal ratio measurements through a new alignment procedure that achieves a highly telecentric input beam. Our experimental results confirm the superior scrambling performance of octagonal-core fibers. Moreover, these fibers exhibit negligible FRD when coupled with an F/2.8 input beam, which is ideal for sky surveys.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Accurate-testing-of-multi-mode-optical-fibers-and-surprises-from/14149-354",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Germain Garreau, Thomas Birbacher, L. Desdoigts, Lee D. Feinberg, Adrian M. Glauser, Jonah T. Hansen, M. Ireland, Julio Pino, Eckhart Spalding, A. K. Taras, Sascha P. Quanz",
       "PaperNumber": "14148-120",
       "DateTimeLocationDataList": [
@@ -706,7 +638,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Thomas L.R. Brien, Mayank Baghoria, Chris Benson, Peter S. Barry, Marcial Becerril-Tapia, Simon Doyle, Chris J. Dunscombe, Harry Gordon-Moys, Sam Rowe",
+      "Authors": "T. L. R. Brien, M. Baghoria, C. S. Benson, P. S. Barry, M. Becerril-Tapia, S. Doyle, C. J. Dunscombe, H. Gordon-Moys, S. Rowe",
       "PaperNumber": "14156-148",
       "DateTimeLocationDataList": [
         {
@@ -1724,6 +1656,74 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Rima Islam, Aline Dinkelaker, Abani Shankar Nayak, Kalaga V. Madhav, Martin M. Roth",
+      "PaperNumber": "14148-128",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "6607ff52-50d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "6607ff52-50d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Commissioning the AIP's ultrafast laser-inscription facility: defining the parameter space for type-I waveguide fabrication",
+      "Description": null,
+      "Abstract": "This work details the iterative statistical optimization of the femtosecond-based ultrafast laser inscription system—specifically pulse energy, repetition rate, translation speed, and scan density to achieve Type-1 positive refractive-index modifications. We present the resulting fabrication recipe for single-mode, high-throughput waveguides optimized for the astronomical J-band (1300-1400 nm). By achieving precise Mode Field Diameter (MFD) matching with standard optical fibers, we ensure low insertion loss. The optimization of parameter space is critical for the fabrication of complex devices, such as photonic reformatters, beam combiners, and pupil remappers, for future deployment at the CHARA array and Calar Alto Observatory.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Commissioning-the-AIPs-ultrafast-laser-inscription-facility--defining-the/14148-128",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "M. Viveganandam, J. Adassuriya, K. P. S. C. Jayaratne",
+      "PaperNumber": "14149-314",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "c47ee00d-95be-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "c47ee00d-95be-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Compact medium-resolution spectrograph for alt-azimuth mounted Cassegrain telescopes: optical design and performance analysis",
+      "Description": null,
+      "Abstract": "Alt-azimuth mounted telescopes with Cassegrain focus offer affordability and versatility but often lack the clearance needed to attach standard commercial spectrographs. To overcome this limitation, we developed a compact, cost-effective, medium-resolution spectrograph specifically designed for seamless integration with such telescopes. The instrument incorporates a 1200 grooves/mm diffraction grating and a narrow slit aperture, with optical performance evaluated using Zemax OpticStudio 2025 R2 ray-tracing simulations. Results confirm effective spectral dispersion, accurate focusing of RGB wavelengths, and strong agreement with theoretical expectations. Aberration analysis shows negligible higher-order effects, with only slight spherical aberration present. Overall, the spectrograph demonstrates excellent image quality and validates a practical, accessible solution for high-resolution astronomical spectroscopy.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Compact-medium-resolution-spectrograph-for-alt-azimuth-mounted-Cassegrain-telescopes/14149-314",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

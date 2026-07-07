@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Riccardo Grignaffini, Luca Oggioni, Runa Briguglio, Giorgio Pariani, Pietro Ferraiuolo, Marco Xompero, Nicolò Azzaroli, Matteo Menessini",
-      "PaperNumber": "14150-327",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "1654ddee-99cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "1654ddee-99cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Optical calibration of the ELT-M4: validation of the local calibration of capacitive position sensors on the demonstration prototype",
-      "Description": null,
-      "Abstract": "Adaptive optics is becoming essential for modern telescopes, driving larger and more complex adaptive mirrors such as ELT's M4, whose full performance requires a new flexible and efficient calibration.    In previous work, we proposed an optical calibration method for adaptive mirrors and validated it in a controlled laboratory setup. Its application to the M4 Demonstration Prototype, however, revealed stronger and faster environmental disturbances, which can prevent the reconstruction in time of the phase-ambiguous interferometric measurements.    Here, we further develop the proposed procedure and investigate several strategies to recover a reliable reconstruction under these conditions. In particular, we show that using a stationary shell as an in-frame reference reduces common-mode disturbances and enables robust calibration. The resulting calibration coefficients are physically consistent, validating the procedure for future application to the final ELT-M4 mirror.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-calibration-of-the-ELT-M4--validation-of-the/14150-327",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Marcela Izquierdo Poza, Kirit Karkare, John M. Kovac, Colin A. Bischoff, Peter Ade, Zeeshan Ahmed, Mandana Amiri, Denis Barkats, Ritoban Basu Thakur, Dominic Beck, James J. Bock, James Cornerlison, Airel Cukierman, Mike Echter, Miranda Eiben, Brodi D. Elwood, Sofia Fatigoni, Jeffrey P Filippini, Antonio Fortes, Maodong Gao, Christos Giannakopoulos, Neil Goeckner-Wald, David Goldfinger, Annsley Greathouse, Paul Grimes, George Halal, Mark Halpern, Emma Hand, Shawn Henderson, Thuong Hoang, Johannes Hubmayr, Howard Hui, Kent Irwin, Jae H. Kang, Kekoa Lasko, Kenny Lau, Margaret R. Lautzenhiser, Scott Mackey, Nolan Maher, Yuka Nakato, Hien T. Nguyen, Roger O'Brient, Anika Patel, Matthew A. Petroff, Annie R. Polish, Clement Pryke, Carl D. Reintsema, Thibault Romand, Maria Salatino, Benjamin L. Schmitt, Baibhav Singari, Aaron Steiger, Bryan Steinbach, Rashmikant Sudiwala, Keith L . Thompson, Clara Vergès, Abigail Vieregg, Albert Wandui, W.L. Kimmy Wu, Cyndia Yu, Lingzhen Zeng, Silvia Zhang",
-      "PaperNumber": "14156-140",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "d15fa335-ddcf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "d15fa335-ddcf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Optical characterization of the BICEP array 150 and 220/270 GHz CMB polarimeters",
-      "Description": null,
-      "Abstract": "BICEP Array (BA) measures faint polarization in the cosmic microwave background to test cosmic inflation. Each detector’s angular response needs to be precisely measured since beam mismatch between orthogonally polarized detector pairs can leak temperature into polarization and bias the tensor-to-scalar ratio r.   We present new far-field beam measurements for the 2026 season, focusing on characterizing new detectors at 220/270 GHz in the BA3 receiver and consistency checks at 150 GHz in BA2. We also introduce low-level improvements to the beam mapping analysis pipeline leading to better-quantified noise and higher-fidelity beam shapes. These updates yield more reliable characterization of BA beams and help ensure that our control of beam systematics improves commensurately with our sensitivity and limits on inflation.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-characterization-of-the-BICEP-array-150-and-220-270/14156-140",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "John J. Piotrowski, Danielle Frostig, Mark Mueller, David Cruz, Matthew Werneken, Julian Garcia, Daniel Fabricant, Ashley Villar, Ana Bonaca, Phillip A. Cargile, Vedant Chandra, Charles Conroy, Benjamin D. Johnson",
       "PaperNumber": "14149-384",
       "DateTimeLocationDataList": [
@@ -319,8 +251,8 @@
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Optimal weighting functions and altitude sampling for accurate estimation of Cn² profile",
+      "HTMLTitle": "Optimal weighting functions and altitude sampling for accurate estimation of C 2 n profile",
+      "Title": "Optimal weighting functions and altitude sampling for accurate estimation of C2n profile",
       "Description": null,
       "Abstract": "Atmospheric turbulence profiling is essential for adaptive optics tomography and ground-to-satellite optical communication. However, conventional scintillation profilers are limited by poor altitude resolution and sensitivity to measurement noise because their weighting functions are highly redundant. We propose CAMPUSS (Concentric Aperture Masking PUpil-plane Scintillation Sensor), which uses concentric aperture masks as spatial-frequency filters to generate localized weighting functions and selects reconstruction grids by QR pivoting. Simulations using single-layer, two-layer, and continuous turbulence models show that CAMPUSS improves reconstruction accuracy and altitude resolution compared with MASS and RINGSS. The 16-grid configuration achieved performance comparable to or better than RINGSS under the same number of grids, while the 32-grid configuration provided the highest accuracy and stable reconstruction, demonstrating kilometer-scale altitude sampling for AO tomography.",
       "ImagePath": null,
@@ -499,6 +431,40 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Justin R. Fletcher",
+      "PaperNumber": "14154-299",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "8408a7d4-c2d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "8408a7d4-c2d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Optomech: a GPU-accelerated optomechanical simulation environment for visuomotor control of hybrid optical telescopes",
+      "Description": null,
+      "Abstract": "Direct imaging of Earth-like exoplanets would enable unambiguous detection of the chemical signatures of exoplanetary  life. To form such an image, even for nearby planetary systems, an astronomical instrument must be sensitive to  1e−9 contrast while achieving an angular resolution on the order of 10 milliarcseconds. Fizeau optical interferometric telescopes that employ lightweight primary optical support structures may satisfy these challenging requirements at a feasible cost, but only if they are able to sustain differential motion of ~1 wave of error between the primaries. To address this optomechanical control task, we introduce and evaluate several visuomotor control approaches using a GPU-accelerated optomechanical simulation environment. We establish baseline results indicating successful closed-loop correction of differential motion, and describe several pathways for future development.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Optomech--a-GPU-accelerated-optomechanical-simulation-environment-for-visuomotor/14154-299",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
     },
     {
@@ -1034,11 +1000,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "PyISH: Python Integral field spectrograph Simulation for HWO",
+      "Title": "PyISH: python integral field spectrograph simulation for HWO",
       "Description": null,
       "Abstract": "The Habitable Worlds Observatory (HWO) is a large ultraviolet/optical/near-infrared space telescope recommended by the National Academies’ Astro2020 decadal survey. The most recent HWO architectural studies have added an ultraviolet integral field spectrograph (IFS) to the baseline instrument suite. To understand the trade between different instrument parameters, such as spectral and spatial resolution and field of view, we developed PyISH, a UV IFS simulation tool. PyISH models the components of a UV IFS and allows users to provide a broad range of input science cases. The simulation outputs UV IFS-related deliverables, including a three-dimensional data cube based on user-specified input parameters. PyISH provides the user with the ability to explore engineering trades to directly link engineering constraints with science deliverables. PyISH’s components and applications to science, engineering, and HWO will be described in this presentation.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/PyISH-Python-Integral-field-spectrograph-Simulation-for-HWO/14146-289",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/PyISH-python-integral-field-spectrograph-simulation-for-HWO/14146-289",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1148,7 +1114,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "José Marco de La Rosa, Josefina Rosich, Manuel Luis, Oscar Tubío, Alastair Basden, Jesús Patrón, Iciar Montilla, Roberto López, Marta Puga, Roberto Simoes, Eduardo González, Héctor De Paz, Ana Belén Nuñez, Verónica Canto-Caño, Enrique Joven, Manuel Huertas, Sergio Fernández, Gianluca Lombardi, Jose Miguel Delgado, Marcos Reyes García-Talavera, Víctor J. S. Béjar",
+      "Authors": "J. Marco de La Rosa, J. Rosich, M. Luis, O. Tubío, A. Basden, J. Patrón, I. Montilla, R. L. López, M. Puga, R. Simoes, E. González, A. B. Nuñez, H. De Paz, M. Huertas, V. Canto-Caño, E. Joven, S. Fernández, G. Lombardi, J. M. Delgado, M. Reyes García-Talavera, V. J. S. Béjar",
       "PaperNumber": "14155-174",
       "DateTimeLocationDataList": [
         {
@@ -1724,6 +1690,40 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Salvatore Savarese, Marco Landoni, David Young, Davide Ricci, Stephen Smartt, Paolo D'Avanzo, Sergio Campana, Pietro Schipani, Matteo Aliverti, José A. Araiza-Durán, Iair Arcavi, Andrea Baruffolo, Federico Battaini, Sagi Ben-Ami, Alex Bichkovsky, Anna Brucalassi, Giulio Capasso, Enrico Cappellaro, Riccardo Claudi, Mirko Colapietro, Rosario Cosentino, Francesco D'Alessio, Sergio D'Orsi, Massimo Della Valle, Simone Di Filippo, Avishay Gal-Yam, Matteo Genoni, Ofir Hershko, Hanindyo Kuncarayakti, Luigi Lessio, Laurent Marty, Seppo Mattila, Matteo Munari, Giuliano Pignata, Kalyan Radhakrishnan, Michael Rappaport, Marco Riva, Adam Rubin, Bernardo Salasnich, Maximilian Stritzinger, Fabrizio Vitali, Ricardo Zanmar Sánchez, Salvatore Scuderi",
+      "PaperNumber": "14155-158",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "bbe09be0-65d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "bbe09be0-65d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "SOXS quality control system for operations at the NTT",
+      "Description": null,
+      "Abstract": "The SOXS spectrograph at the ESO NTT has completed its AIV and Commissioning phases, and a dedicated Quality Control (QC) system is required to monitor performance during routine operations. The SOXS QC framework is organised in two complementary layers. The first relies on ESO Datalab and Grafana to monitor critical telemetry parameters, providing real-time dashboards and a redundant email-based alarm system for the observatory staff and the SOXS Consortium support team whenever predefined thresholds are exceeded. The second focuses on instrument performance by collecting quality metrics produced by the SOXS pipeline from daily calibrations and engineering data. These metrics are consolidated into a dedicated monitoring database and presented as long-term trends, allowing the operations team and the community to verify instrument stability against commissioning baselines and identify gradual performance degradations for predictive maintenance.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/SOXS-quality-control-system-for-operations-at-the-NTT/14155-158",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

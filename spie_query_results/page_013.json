@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Philippe Peille, Christophe Daniel, Vincent Albouys, Didier Barret, Aurora Simionescu, Luigi Piro, Massimo Cappi",
-      "PaperNumber": "14146-25",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 11:25 - 11:40 CEST | Room B4-M1",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "6d29ef43-4cd0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "6d29ef43-4cd0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Technical status of the X-ray Integral Field Unit before mission adoption",
-      "Description": null,
-      "Abstract": "The X-ray Integral field Unit is an X-ray microcalorimeter, planned to be launched on the newAthena mission. With a cryostat passively cooled to 50 K, the heart of the instrument is organized within a 4K Core. This ensemble, cooled by a remote cryocooler, contains the Focal Plane Assembly (FPA) and the Multi-stage ADR (MAX), which provides the 50 mK cooling required by the detectors.   Approaching mission adoption, the architecture is being consolidated. In this contribution, we give an overview of the instrument technical status, emphasizing the main trade-offs that were conducted. This is followed by a summary of the demonstration activities performed at system level, focusing on the role of the 4K Core DM. This model will integrate demonstration versions of the FPA, MAX, but also of the cold harness. The cold detection chain, populated at the level of 1/4th of the flight model, will be read out by a set of demonstration models of the Warm Front-End and Digital Readout Electronics.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Technical-status-of-the-X-ray-Integral-Field-Unit-before/14146-25",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 11:25 - 11:40 CEST | Room B4-M1",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Andrea Scaudo, Matteo Genoni, Marco Landoni",
       "PaperNumber": "14155-20",
       "DateTimeLocationDataList": [
@@ -1724,6 +1690,40 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "6 July 2026 • 13:55 - 14:25 CEST | Auditorium 15",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Joseph Shields, Eric Buckley",
+      "PaperNumber": "14151-6",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 14:00 - 14:20 CEST | Room B2-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "25825c54-cccf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "25825c54-cccf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Large Binocular Telescope Observatory operations 20 years after First Light",
+      "Description": null,
+      "Abstract": "After two decades of operation, the Large Binocular Telescope Observatory (LBTO) is a mature and highly productive facility, requiring ongoing attention to ensure that it continues to function with a high standard of performance, reliability, and safety. LBTO is hosted by Mount Graham International Observatory and the two organizations are cooperating on multi-year strategies to benefit infrastructure, safety, and community partnerships.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Large-Binocular-Telescope-Observatory-operations-20-years-after-First-Light/14151-6",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 14:00 - 14:20 CEST | Room B2-M2",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

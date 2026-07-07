@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Joseph Shields, Eric Buckley",
-      "PaperNumber": "14151-6",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 14:00 - 14:20 CEST | Room B2-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "25825c54-cccf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "25825c54-cccf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Large Binocular Telescope Observatory operations 20 years after First Light",
-      "Description": null,
-      "Abstract": "After two decades of operation, the Large Binocular Telescope Observatory (LBTO) is a mature and highly productive facility, requiring ongoing attention to ensure that it continues to function with a high standard of performance, reliability, and safety. LBTO is hosted by Mount Graham International Observatory and the two organizations are cooperating on multi-year strategies to benefit infrastructure, safety, and community partnerships.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Large-Binocular-Telescope-Observatory-operations-20-years-after-First-Light/14151-6",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 14:00 - 14:20 CEST | Room B2-M2",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Peter D. Miller, Joshua Abel, Matthew Bolcar, Bente Eegholm, Jesse Huguet, Josh Johnson, Alden Jurling, Nicole Lewis, Alice Liu, Brian Martens, Jacob Massey, Pete McCarthy, Scott Paine, J. Scott Smith",
       "PaperNumber": "14145-28",
       "DateTimeLocationDataList": [
@@ -1724,6 +1690,40 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "6 July 2026 • 15:55 - 16:15 CEST | Auditorium 15",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Michael Pleasance",
+      "PaperNumber": "14153-13",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "6 July 2026 • 16:00 - 16:20 CEST | Room B2-M8",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "8e54de2b-90cc-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "8e54de2b-90cc-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Correlator/beamformer for the Square Kilometre Array Mid Frequency Telescope: design and status update",
+      "Description": null,
+      "Abstract": "The National Research Council of Canada (NRC) is leading the development and delivery of the Square Kilometer Array (SKA) Mid Frequency Correlator/Beamformer (Mid.CBF) signal processing system. This talk provides an overview of the system design for both the early prototype systems (TALON Demonstration Correlator) and production systems for the larger array assemblies. The talk also provides a status update, highlighting completed and upcoming milestones.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Correlator-beamformer-for-the-Square-Kilometre-Array-Mid-Frequency-Telescope/14153-13",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "6 July 2026 • 16:00 - 16:20 CEST | Room B2-M8",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

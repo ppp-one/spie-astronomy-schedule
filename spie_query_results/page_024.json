@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Gregory Y. Prigozhin, Marshall Bautz, Beverly LaMarr, Kevan Donlon, Christopher Leitz, Eric Miller, Michelle Gabutti, Jill Juneau, Sven Herrmann, Peter Orel, Tanmoy Chattopadhyay, Michael Cooper, Noah Pestana, Doug Yang, Ilya Prigozhin, Abigail Pan, Haley Stueber, Declan O'Neill, Glenn Morris, Steven Allen",
-      "PaperNumber": "14157-39",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 11:40 - 12:00 CEST | Room B5-M1",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "8d3d90c4-67cd-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "8d3d90c4-67cd-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Noise and charge transfer characteristics of Fast, Low-noise CCD Sensors for AXIS",
-      "Description": null,
-      "Abstract": "A new CCD for the Advanced X-ray Imaging Satellite (AXIS), has been designed by the MIT Lincoln Laboratories. The device called CCID100 serves as a form/fit/function prototype for future X-ray missions and has a classic Frame Transfer architecture with 16 parallel output channels allowing for fast readout of the entire 1450x1455 24 micron pixel array. It is built on a high resistivity substrate with a single layer polysilicon gates and low noise pJFET outputs. As a part of a collaborative effort by MIT Kavli Institute and Stanford University, we have built a test camera that allows to evaluate the devices in a wide temperature range. Here we present the results of device testing, focusing mostly on charge transfer inefficiency (CTI) dependencies on frequency, clock amplitudes and temperature, and studying of detector noise as a function of multiple operational parameters. We utilized the device charge injection capability as a powerful tool for characterizing",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Noise-and-charge-transfer-characteristics-of-Fast-Low-noise-CCD/14157-39",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 11:40 - 12:00 CEST | Room B5-M1",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Christian J. Killow, Robert G. Bell, Andrew Boyd, James Copley, James N. Monks, Manish R. Patel, Ryan Swindell, Gavin Wedlock, Jonathan Williams, Jon P. Mason",
-      "PaperNumber": "14154-46",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 11:45 - 12:00 CEST | Room B2-M4",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "82cf9b03-a3ce-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "82cf9b03-a3ce-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The optical head for the Dust Environment Spectral Imager (DESI) on Lightship-1",
-      "Description": null,
-      "Abstract": "We present the optical system design of the Dust Environment Spectral Imager (DESI), an instrument that will fly on LightShip-1 planned for launch in the early 2030's.    DESI will take full-disk multispectral images of Mars with 5 km resolution from the UV to visible. This enables monitoring of Martian dust, water ice clouds and ozone that will generate new scientific data in a variety of important areas, including weather forecasting.    A single optical channel has been designed to operate across the wavebands with eight bandpass filters to select wavelengths of interest within this spectrum.    Optical and coating design at such short wavelengths poses considerable challenges due to the truncated material choices suitable for use in the deep UV. Added to the practical limitations of space flight optics, novel designs were needed.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-optical-head-for-the-Dust-Environment-Spectral-Imager-DESI/14154-46",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 11:45 - 12:00 CEST | Room B2-M4",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Jason E. Austermann, The CCAT Collaboration",
       "PaperNumber": "14156-5",
       "DateTimeLocationDataList": [
@@ -762,11 +694,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "CCAT: In-lab characterization of the EoR-Spec instrument module",
+      "Title": "CCAT: The Epoch of Reionization Spectrometer (EoR-Spec) instrument status",
       "Description": null,
-      "Abstract": "The Epoch of Reionization Spectrometer (EoR-Spec) is an upcoming Line Intensity Mapping instrument for the Fred Young Submillimeter Telescope. EoR-Spec will be installed in early 2027 on the Prime-Cam modular receiver alongside existing 280 GHz and 350 GHz cameras. The addition of a scanning Fabry-Perot Interferometer to the optical system is what enables wide-field spectral imaging with a broadband direct-detection camera, featuring a spectral resolution of R~100 across the 210-420 GHz sub-mm sky. With more than 6000 Kinetic Inductance Detectors, we aim to make a 3D map of the redshifted ionized carbon line emission from z = 3.5 to 8 by integrating for ~4000 hours on the E-COSMOS and E-CDFS fields. Here we give an update on the status of the instrument, including in-lab characterization of the detector arrays, as well as validation of the spectral scanning mechanism and observing strategies for first light science.",
+      "Abstract": "The Epoch of Reionization Spectrometer (EoR-Spec) is an upcoming Line Intensity Mapping instrument for the Fred Young Submillimeter Telescope. EoR-Spec will be installed in early 2027 on the Prime-Cam modular receiver alongside existing 280 GHz and 350 GHz cameras. The addition of a scanning Fabry-Perot Interferometer(FPI) to the optical system is what enables wide-field spectral imaging with a broadband direct-detection camera, featuring a spectral resolution of R~100 across the 210-420 GHz sub-mm sky. With more than 6000 Kinetic Inductance Detectors, we aim to make a 3D map of the redshifted ionized carbon line emission from z = 3.5 to 8 by integrating for ~4000 hours on the E-COSMOS and E-CDFS fields. Here we give an update on the status of the instrument, including fabrication of the module, integration of the FPI and validation of the spectral scanning mechanism.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/CCAT--In-lab-characterization-of-the-EoR-Spec-instrument/14156-6",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/CCAT--The-Epoch-of-Reionization-Spectrometer-EoR-Spec-instrument/14156-6",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1724,6 +1656,74 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 14:10 - 14:30 CEST | Room B5-M3",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Jongguk Choe, Jeoung Heum Yeon, Eung-Shik Lee",
+      "PaperNumber": "14154-51",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 14:15 - 14:30 CEST | Room B2-M4",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "b8fe5ebb-0fd0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "b8fe5ebb-0fd0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Investigation of a Slanted-Orientation Method for Gravity-Sag and Zero-Gravity Surface Figure Estimation",
+      "Description": null,
+      "Abstract": "It is important to characterize gravity-induced deformation and estimate the zero-gravity surface figure for predicting on-orbit optical performance during system development. However, for a large lightweight mirror, full gravity reversal using the face-up/face-down method requires a large fixture and may introduce changes in the support condition. In this study, the uncertainty and correlation of a symmetric slanted-orientation configuration are analyzed. The results show that the transverse gravity effect can be estimated as the sensitivity of the wavefront to mirror-orientation changes. In contrast, the zero-gravity surface figure and the normal gravity effect are difficult to separate because they are strongly correlated. To address this limitation, a clocking reversal test is introduced to evaluate and compensate for leakage into the estimates of the zero-gravity surface figure and the normal gravity effect caused by residual horizontal optical-axis error.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Investigation-of-a-Slanted-Orientation-Method-for-Gravity-Sag-and/14154-51",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 14:15 - 14:30 CEST | Room B2-M4",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Laura Schreiber, Eric Stadler, Emiliano Diolaiti, Stéphane Lemarchand, Thomas Carmignani, Nicolas Blind, Fausto Cortecchia, Maud Langlois, Jean-Baptiste Le Bouquin, Matteo Lombini, Sylvain Rochat, Alain Spang, Michel Tallon, François Wildi",
+      "PaperNumber": "14150-43",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 14:20 - 14:35 CEST | Room B3-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "df92c020-2bd0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "df92c020-2bd0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "A “Quatre-quarts” readout mode for C-RED one to optimize modulated near-IR pyramid wavefront sensing",
+      "Description": null,
+      "Abstract": "We introduce a new C-RED One readout concept for modulated pyramid wavefront sensing, nicknamed “Quatre-quarts” (“four-four”). In fast near-IR PWS applications, standard CDS readout becomes inefficient when readout time approaches the modulation period, causing signal losses and temporal skew across pupils and forcing modulators to run faster than the camera cadence. Quatre-quarts splits the ROI into four sub-ROIs matching PWS quadrants, read/reset sequentially in sync with modulation, equalizing integration and enabling modulation and camera to operate at the same frequency. A feasibility study by Oxford Instruments / First Light Imaging confirmed technical implementability. Development is aligned with the SAXO+ upgrade schedule, with potential on-sky validation and possible relevance for future ELT-class systems.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/A-Quatre-quarts-readout-mode-for-C-RED-one-to/14150-43",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 14:20 - 14:35 CEST | Room B3-M2",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

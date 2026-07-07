@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Jongguk Choe, Jeoung Heum Yeon, Eung-Shik Lee",
-      "PaperNumber": "14154-51",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 14:15 - 14:30 CEST | Room B2-M4",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "b8fe5ebb-0fd0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "b8fe5ebb-0fd0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Investigation of a Slanted-Orientation Method for Gravity-Sag and Zero-Gravity Surface Figure Estimation",
-      "Description": null,
-      "Abstract": "It is important to characterize gravity-induced deformation and estimate the zero-gravity surface figure for predicting on-orbit optical performance during system development. However, for a large lightweight mirror, full gravity reversal using the face-up/face-down method requires a large fixture and may introduce changes in the support condition. In this study, the uncertainty and correlation of a symmetric slanted-orientation configuration are analyzed. The results show that the transverse gravity effect can be estimated as the sensitivity of the wavefront to mirror-orientation changes. In contrast, the zero-gravity surface figure and the normal gravity effect are difficult to separate because they are strongly correlated. To address this limitation, a clocking reversal test is introduced to evaluate and compensate for leakage into the estimates of the zero-gravity surface figure and the normal gravity effect caused by residual horizontal optical-axis error.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Investigation-of-a-Slanted-Orientation-Method-for-Gravity-Sag-and/14154-51",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 14:15 - 14:30 CEST | Room B2-M4",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Laura Schreiber, Eric Stadler, Emiliano Diolaiti, Stéphane Lemarchand, Thomas Carmignani, Nicolas Blind, Fausto Cortecchia, Maud Langlois, Jean-Baptiste Le Bouquin, Matteo Lombini, Sylvain Rochat, Alain Spang, Michel Tallon, François Wildi",
-      "PaperNumber": "14150-43",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 14:20 - 14:35 CEST | Room B3-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "df92c020-2bd0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "df92c020-2bd0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "A “Quatre-quarts” readout mode for C-RED one to optimize modulated near-IR pyramid wavefront sensing",
-      "Description": null,
-      "Abstract": "We introduce a new C-RED One readout concept for modulated pyramid wavefront sensing, nicknamed “Quatre-quarts” (“four-four”). In fast near-IR PWS applications, standard CDS readout becomes inefficient when readout time approaches the modulation period, causing signal losses and temporal skew across pupils and forcing modulators to run faster than the camera cadence. Quatre-quarts splits the ROI into four sub-ROIs matching PWS quadrants, read/reset sequentially in sync with modulation, equalizing integration and enabling modulation and camera to operate at the same frequency. A feasibility study by Oxford Instruments / First Light Imaging confirmed technical implementability. Development is aligned with the SAXO+ upgrade schedule, with potential on-sky validation and possible relevance for future ELT-class systems.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/A-Quatre-quarts-readout-mode-for-C-RED-one-to/14150-43",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 14:20 - 14:35 CEST | Room B3-M2",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Shuji Matsuura, Kohji Takimoto, Kohji Tsumura, Kei Sano, Aoi Takahashi, Michael Zemcov, Andrew Poppe, Hajime Yano, Naoya Sakatani, Takeshi Imamura, Yuhito Shibaike, Hajime Kawahara, Ryu Funase, Naoya Ozaki, Kakeru Tokunaga, Yuki Kubo",
       "PaperNumber": "14145-46",
       "DateTimeLocationDataList": [
@@ -286,11 +218,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "The MICADO first light imager for the ELT: towards first light from cold integration to science outlook",
+      "Title": "The MICADO first light imager for the ELT: from cold integration towards first light",
       "Description": null,
       "Abstract": "MICADO is now well into its assembly, integration, and test phase; and is on track for first light of the ELT at the end of the decade. This contribution will provide an overview of the instrument and its main sub-systems, describing the status of each of them, the milestones that have been achieved, and the progress in the current cold integration phase towards achieving first light through the fully assembled cryostat from the entrance window to the focal plane array. It will also provide a glimpse of how it might look to operate MICADO and prepare observations. It will finish with an outlook towards the next steps leading up to commissioning of the instrument at the ELT.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-MICADO-first-light-imager-for-the-ELT--towards/14149-39",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-MICADO-first-light-imager-for-the-ELT--from/14149-39",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -988,7 +920,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -1724,6 +1656,74 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 15:55 - 16:10 CEST | Room B3-M2",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Bryan J. Butler, Rick Perley, Tony Willis, Evangelia Tremou, Eric Greisen, Benjamin Hugo",
+      "PaperNumber": "14153-30",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 16:00 - 16:20 CEST | Room B2-M8",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "9c207284-8ad0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "9c207284-8ad0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Faraday rotation correction for polarization calibration of low frequency observations",
+      "Description": null,
+      "Abstract": "Imaging polarimetry at meter wavelengths requires removal of the variable ionospheric Faraday rotation (IFRM) with an accuracy of 0.1 rad/m^2 or better. Methods to estimate the IFRM using GNSS timing data have been developed. Evaluating the accuracy of these estimates requires observations of a source of known intrinsic electric vector position angle (EVPA) over a wide rage of ionospheric conditions. At meter wavelengths, the Moon is the only source of a priori known polarized emission which can be used for this.    Using VLA and MeerKAT observations, we have tested the accuracy of seven IFRM estimates generated using data from global VTEC maps. Additionally, we have tested the IFRM estimates derived using GNSS data from nearby stations directly. The estimates based on global maps consistently overestimate the magnitude of the IFRM by 0.3 to 1.0 rad/m^2, whereas the estimates using local GNSS data are within 0.1 rad/m^2 of those derived from the lunar data.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Faraday-rotation-correction-for-polarization-calibration-of-low-frequency-observations/14153-30",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 16:00 - 16:20 CEST | Room B2-M8",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Marie Laslandes, Stefan Ströbele, Lucas Munoz, Aline Pham, Pierre-Yves Madec, Julien Charton",
+      "PaperNumber": "14154-57",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 16:00 - 16:15 CEST | Room B2-M4",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "924e83a9-fad4-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "924e83a9-fad4-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "High stability deformable mirror with large number of actuators for astronomical telescopes: requirements and performance",
+      "Description": null,
+      "Abstract": "The next generation of instruments for very and extremely large telescopes is requiring adaptive optics systems more and more efficient in correcting atmospheric turbulence. For most instruments, this is translating into larger number of actuators and faster deformable mirrors (DM). There is also an increasing need for better stability of the DM surface when its shape is not controlled.   In this paper, we present the requirements, the development and the performance of a 93 mm diameter DM with 3228 actuators with improved mirror performance without need for closed loop control. This DM type was developed by Bertin Alpao in collaboration with ESO and will be used in the MAVIS instrument.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/High-stability-deformable-mirror-with-large-number-of-actuators-for/14154-57",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 16:00 - 16:15 CEST | Room B2-M4",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

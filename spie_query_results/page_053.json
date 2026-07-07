@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Rosario Cosentino, Luca Di Fabrizio, Guillermo González-de-Rivera, Álvaro Quintana, Marcos Hernández Díaz, Luis Riverol, Héctor Ventura Perez, Manuel González, Carmen Vélez, Kashif Buland, Juan Antonio Leñero Bardallo, Sergio López-Buedo, Ángel Rodríguez-Vázquez, Enrique Pérez, Ester Amou-Loumagne, Robert Content, Adriano Ghedina, Francisco Prada",
-      "PaperNumber": "14149-423",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 9 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "4315532c-91ce-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "4315532c-91ce-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "La Palma Quantum Interferometer (LPQI): integrated cryogenic SPAD camera head with thermal validation and FPGA-based acquisition architecture",
-      "Description": null,
-      "Abstract": "We present the latest developments of the LPQI SPAD sensor module, designed as a compact, thermally stabilized platform integrating the SPAD array, the readout FPGA, and the cooling system on a single PCB. A dedicated cryogenic chamber was characterized using the operational detector board, validating the Peltier-based thermal architecture with stable −20 °C operation and <±0.1 °C fluctuations under simulated 0–3 W loads. In parallel, the FPGA acquisition chain demonstrated reliable handling of asynchronous SPAD events, fine timestamping, and sub-nanosecond synchronization when disciplined by a White Rabbit clock. These results confirm the readiness of the integrated module for the upcoming electro-optical tests, including photon detection efficiency, dark count rate, and full timing performance.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/La-Palma-Quantum-Interferometer-LPQI--integrated-cryogenic-SPAD-camera/14149-423",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Michele Frangiamore, andrea bianco, claudia brambilla, luca oggioni",
-      "PaperNumber": "14154-394",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 9 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "5bc7724d-e1dc-f011-a9af-00505691c5e1---crmrecord",
-      "GUID": "5bc7724d-e1dc-f011-a9af-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Large size VPHGs@INAF: new facility and perspectives",
-      "Description": null,
-      "Abstract": "Volume Phase Holographic (VPH) technology is crucial in modern ground-based astronomical spectrographs due to high diffraction efficiency, tunability, and robustness. At INAF–Astronomical Observatory of Brera, we focus on the design and fabrication of VPHGs for diverse instruments.    Next-generation facilities require large-format VPHGs, up to half a meter, for instruments such as MOSAIC (ELT), HRMOS (VLT), and WST, demanding scalable, precise production processes.    At INAF–OABr, we developed a reliable manufacturing process ensuring control of diffraction efficiency, wavefront quality, and dispersion. A new holography laboratory, with a 450 mm aperture writing setup, allows production of VPHGs up to 450×600 mm (vertical and dispersion directions, respectively).     Initial results demonstrate the capabilities and future potential for large-format gratings in advanced spectrographs.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Large-size-VPHGsINAF-new-facility-and-perspectives/14154-394",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Swati Ravi, Alan Garner, Jill Juneau, Elio Angile, Ralf K. Heilmann, Herman Marshall, Sarah Heine",
       "PaperNumber": "14146-365",
       "DateTimeLocationDataList": [
@@ -302,9 +234,9 @@
       "PaperNumber": "14147-197",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -328,7 +260,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1050,9 +982,9 @@
       "PaperNumber": "14149-409",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1076,7 +1008,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1724,6 +1656,74 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Morgane Loquet Le Gall, Creidhe O'Sullivan, Bruno Borgo, Clémence De Jabrun, Valentin Sauvage, N. Trappe, Bruno Maffei",
+      "PaperNumber": "14156-189",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "7b89662f-9fce-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "7b89662f-9fce-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Optical development of the BISOU breadboard",
+      "Description": null,
+      "Abstract": "BISOU (Balloon Interferometer for Spectral Observations of the primordial Universe) is an astronomical balloon- borne pathfinder developed as part of a preparatory study for a future space mission aimed at measuring spectral distortions of the cosmic microwave background (CMB). A laboratory breadboard of the instrument is being developed at the Institut d’Astrophysique Spatiale (IAS), enabling the characterization of subsystems and in- strument systematic effects, particularly in the optical system. The optical system is based on a differential polarizing Fourier Transform Spectrometer (FTS) that receives inputs from both a sky-facing telescope and an internal calibration source. The full spectral band, spanning between 90 and 1500 GHz. The optical analysis first relies on ray-tracing simulations to establish the overall configuration of the system, before proceeding to more advanced Gaussian beam and physical optics analyses.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-development-of-the-BISOU-breadboard/14156-189",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Carmelo Arcidiacono, Fernando Pedichini, Marco Riva, Gianluca Di Rico, Elisa Portaluri, Demetrio Magrin",
+      "PaperNumber": "14148-163",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "6451e315-66d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "6451e315-66d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Optical heterodyne long-baseline interferometry: a concept study of feasibility, photon budget, and science requirements",
+      "Description": null,
+      "Abstract": "We explore the feasibility of Optical Heterodyne Long-Baseline Interferometry (OHLBI) for bright stellar and AGN science. Narrow-band heterodyne detection preserves phase beyond the atmospheric coherence time, enabling long integrations if photon-noise limits and Local Oscillator (LO) stability are controlled. Starting from the demonstrated performance of the Infrared Spatial Interferometer and earlier optical VLBI studies, we quantify expected SNR for key cases: surface imaging of bright O/B stars, time-resolved mapping of rapid rotators, eclipsing binaries, and kinematic studies of luminous AGN cores. We derive realistic photon budgets at visible and NIR wavelengths and identify regimes where heterodyne phase stability provides a scientific advantage over direct detection. We outline system requirements for a pathfinder, AO-fed receivers, comb-stabilized LOs and multi-site correlation, and define a roadmap toward future hybrid direct/heterodyne interferometry.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-heterodyne-long-baseline-interferometry--a-concept-study-of/14148-163",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

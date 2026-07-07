@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Shaojie Chen, Suresh Sivanandam, Olivier Lardière, Gavin Hay, Sarik Jeram, Béatrice Lessard-Hamel, Denis Brousseau, Simon Thibault, Jenny Atwood, Mark Barnet, Jiayi, Emma Xu, Saugata Dutt, Scott Christie",
-      "PaperNumber": "14154-74",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 14:30 - 14:45 CEST | Room B2-M4",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "70bcba0c-fecf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "70bcba0c-fecf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Final optical design and performance assessment of a multi-object adaptive optics-fed infrared integral-field spectrograph (GIRMOS)",
-      "Description": null,
-      "Abstract": "We present the final end-to-end optical design of GIRMOS developed to take advantage of the adaptive optics corrected field at the Gemini North telescope. GIRMOS consists of object selection pick-offs, multi-object adaptive optics, and four identical Integral-Field Spectrographs (IFSes), which employ image slicers to arrange the integral field along a slit. The analysis shows the expected performance meets the scientific requirements and the design comply with manufacturability requirements. This paper summarizes the final optical design, engineering validation of critical components, and system performance assessment by using Structural–Thermal–Optical Performance (STOP) analysis. The results presented in this work demonstrate that GIRMOS optical design has reached a mature engineering stage and provides a solid foundation for instrument production.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Final-optical-design-and-performance-assessment-of-a-multi-object/14154-74",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 14:30 - 14:45 CEST | Room B2-M4",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Michael Goodwin, Jon Lawrence, Tiger Wang, Summer Luo, Dani Guzman, Timothy Chin, Jessica Zheng, Helen McGregor, Lew Waller, Tony Farrell, Zhemin Cai, Ali Ghari Zadeh, Jon Moller, Christopher Coote, Jake Linden, Dylan Simpfendorfer, Max Hewletta, Andrew Rakich, Thierry Fusco, Delphine Barbon-Dubosc, Carlos Correia, Benoit Neichel, Pierre Jouve, Arnaud Striffling, Julien Charton, Julie Magri, Anne-Sophie Bruni Favier",
-      "PaperNumber": "14152-52",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 14:30 - 14:50 CEST | Room B2-M6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "ac9baf86-10d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "ac9baf86-10d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Model-based systems engineering progress for the Gemini North Adaptive Optics Bench in critical design phase",
-      "Description": null,
-      "Abstract": "The Gemini North Adaptive Optics Bench is a key opto-mechanical subsystem of the Gemini North Adaptive Optics facility and has completed Critical Design Review (CDR), positioning it to enter the Build Phase. This paper reports the systems engineering progress that enabled CDR success, emphasising requirements decomposition and traceability, interface management across a geographically distributed consortium, and maturation of verification and validation planning. Central to the approach is a SysML-based Model-Based Systems Engineering (MBSE) implementation in which the system model is the authoritative source for requirements, operational concepts, architecture, and interface definition. This model-centric workflow has strengthened requirement-to-architecture traceability, supported consistent interface documentation, and improved visibility of integration and compliance risks. We conclude with the verification strategy, remaining activities, and lessons learned from applying MBSE.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Model-based-systems-engineering-progress-for-the-Gemini-North-Adaptive/14152-52",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 14:30 - 14:50 CEST | Room B2-M6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "David Le Mignant, Coralie Neiner, Jean-Claude Bouret, Luca Fossati, Pollux Consortium",
       "PaperNumber": "14146-71",
       "DateTimeLocationDataList": [
@@ -1724,6 +1656,74 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 16:25 - 16:45 CEST | Auditorium 15",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "José Pinto-Muñoz, Mauricio G. Solar",
+      "PaperNumber": "14155-60",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 16:30 - 16:50 CEST | Room B4-M7",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "e71e3b3e-62d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "e71e3b3e-62d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Comparison of natural language models for searches in virtual observatories",
+      "Description": null,
+      "Abstract": "This work presents the development and evaluation of a web platform called Virtual Observatory (VO) Artificial Intelligence Search, enabling natural language queries on the astronomical VOs using state-of-the-art LLMs. The architecture includes an interactive frontend, coordinating backend, database, search engine compatible with IVOA’s SIAP protocols (International Virtual Observatory Alliance, Simple Image Access Protocol), and two LLMs: GPT-4o and DeepSeek-R1. The main goal was to compare their performance in retrieving astronomical images, assessing precision, response time, resource consumption, and sustainability. Twenty-one thematic queries per model were executed, measuring Recall@1, Recall@3, MRR, tokens, cost, and carbon footprint. DeepSeek-R1 achieved higher Recall@3 (86 % vs. 71 %), lower cost and environmental impact, while GPT-4o was faster and used fewer tokens. The evaluation shows distinct strengths enhancing semantic access to large astronomical datasets.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Comparison-of-natural-language-models-for-searches-in-virtual-observatories/14155-60",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 16:30 - 16:50 CEST | Room B4-M7",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Michael Gardiner, Dave Ashby, Chris Contaxis, Trupti Ranka, Tomas Krasuski, Gary Muller, Jose Soto, Neil Mills, Austin Everman, Maria Hernandez, Hector Swett, Barbara Fischer, John Ford, Tommy Salanski, David Zeller, Trevor Dugan",
+      "PaperNumber": "14147-59",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 16:30 - 16:50 CEST | Room B3-M6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "72c4d1dc-b3d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "72c4d1dc-b3d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Experimental validation of a CO2 refrigerant-based thermal control system for the Giant Magellan Telescope (GMT) primary mirror (M1) segments",
+      "Description": null,
+      "Abstract": "The Giant Magellan Telescope (GMT) employs seven 8.4 meter diameter borosilicate primary mirror segments whose optical performance depends on maintaining them at thermal equilibrium with ambient air during operations to minimize local seeing effects and prevent figure distortions caused by temperature gradients. To meet these requirements, a prototype thermal control system that uses subcritical CO2 (R744) refrigeration was developed and integrated into the Primary Mirror Subsystem (M1S) test mirror cell. Testing at the Richard F. Caris Mirror Lab evaluated thermal performance using optical feedback as part of the Optical Performance Risk Reduction (OPRR) program. This paper presents the key results of the system testing, including thermal performance behavior and observations related to thermal print-through, along with lessons learned that will inform the final M1S Thermal Control design.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Experimental-validation-of-a-CO2-refrigerant-based-thermal-control-system/14147-59",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 16:30 - 16:50 CEST | Room B3-M6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

@@ -26,108 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Jingwen Zhang, Sophie Noiret, Maxwell A. Millar-Blanchaer, Jason Wang, Neil Zimmerman, Eric Shen, Alexis Lau, Elodie Choquet, Taichi Uyajma, Chen Xie, Jessica Gersh-Range, Julien Girard, Vanessa Bailey, John Krist, Kevin Ludwick, Alexis Bidot, Arthur Vigan",
-      "PaperNumber": "14145-182",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "c5422e21-f6ce-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "c5422e21-f6ce-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The Roman Coronagraph community participation program: corgisim, a simulation suite for the Nancy Grace Roman Space Telescope Coronagraphic Instrument",
-      "Description": null,
-      "Abstract": "NASA’s Roman Space Telescope will feature a pathfinder Coronagraph Instrument to demonstrate advanced high-contrast imaging from space. Roman Coronagraph could obtain imaging and spectroscopy of Jupiter analogs in reflected visible light for the first time. We present the work of developing an open-source simulation package “corgisim” as part of the Roman Coronagraph Community Participate Program. Built on established optical propagation libraries such as PROPER and CGISim, corgisim provides a publicly available Python framework for end-to-end simulations of Roman-CGI observations. The package produces high-fidelity, format-compliant data for pre-launch calibration, pipeline testing, and community applications such as target planning and selection and observation planning. We will give an overview of corgisim’s infrastructure, and current implementation across planned imaging, polarimetry, and spectroscopy modes. We will also provide guidance on how users can employ the software.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Roman-Coronagraph-community-participation-program--corgisim-a-simulation/14145-182",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Amanda Chavez, Jason Wang, Vanessa Bailey, Maxwell Millar-Blanchaer, Julien H. Girard, Sergi Hildebrandt, John Krist, Julia Milton, Marie Ygouf",
-      "PaperNumber": "14145-184",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "1de50582-b2cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "1de50582-b2cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The Roman Coronagraph Community Participation Program: data reduction pipeline astrometric calibration",
-      "Description": null,
-      "Abstract": "The Roman Coronagraph Community Participation Program has led the development of a python-based, open source data reduction pipeline (corgidrp) to quantify the performance of the Roman Space Telescope coronagraph instrument and to process its data products. Here, we present the astrometric calibration function within the greater data reduction pipeline, outline the methods for computing critical astrometric calibration measurements, and contextualize this calibration process within corgidrp. Additionally, we discuss the results of end-to-end testing and show that all formal Technology Demonstration Threshold Requirements for this calibration step are satisfied.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Roman-Coronagraph-Community-Participation-Program--data-reduction-pipeline/14145-184",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Ramya M. Anche, Toshiyuki Mizuki, Vanessa P. Bailey, Eric J. Cady, Clarissa Do Ó, Jessica A. Gersh-Range, Justin Hom, Alexis Lau, John Livingston, Bertrand Mennesson, Maxwell A. Millar-Blanchaer, Julia Milton, Naoshi Murakami, Tsutsumi Nagai, Sophie Noiret, Eric Shen, Motohide Tamura, Taichi Uyajma, Jason J. Wang, Schuyler G. Wolff, Cynthia Wong, Chen Xie, Marie Ygouf, Jingwen Zhang, Julien H. Girard",
-      "PaperNumber": "14145-186",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "c1a48206-80d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "c1a48206-80d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The Roman Coronagraph Community Participation Program: simulation of on-sky polarimetric observations, data reduction, and analysis",
-      "Description": null,
-      "Abstract": "Reflected-light polarimetry of an exoplanet helps constrain and break degeneracies in atmospheric properties, and polarized light observations of debris disks enable exploration of the disk’s dust-grain properties. The best-effort polarimetric mode of the Roman Coronagraph Instrument will be able to perform multi-wavelength observations of planetary systems using the Hybrid Lyot Coronagraph (HLC) and the Shaped Pupil Coronagraph (SPC). In this paper, we demonstrate the capabilities of the polarimetric mode of the Roman Coronagraph for targets chosen in the nominal observing plan. We simulate science target observations and calibration products using the corgisim package and perform data reduction and analysis using the corgidrp, incorporating all noise factors and instrumental polarization effects from modeled Mueller matrices. The final retrieved polarization fraction (p) indicates that the polarimetry mode of the Roman Coronagraph Instrument meets the goal uncertainty of ~ 3%.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Roman-Coronagraph-Community-Participation-Program--simulation-of-on/14145-186",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Dmitry Savransky, Rifah Tasnim, Saanika Choudhary, Hovik Grigoryan, Justin Hom, Bijan Nemati, Neil Zimmerman, Ramya Anche, Nicholas Phillips, Louie Donesa, Parth Mittal, Amira Razack, Savaas Iqbal, Javier Majumdar, Schuyler G. Wolff, Vanessa P. Bailey",
       "PaperNumber": "14145-183",
       "DateTimeLocationDataList": [
@@ -808,7 +706,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Ahmad W. Sukkar, Ammar Abdulla, Ghena Rusheidat, Sara Al Nashar, Mariam Al Kaabi, Noor Alamm, Eslam Nofal, Mashhoor Al Wardat, Zouhair Benkhaldoun, Mohamed Gibril, Awni Khasawneh, Hamid Al Naimiy",
+      "Authors": "Ahmad W. Sukkar, Ammar Abdulla, Ghena Rusheidat, Sara Al Nashar, Mariam Al Kaabi, Noor Atta Alamm, Eslam Nofal, Mashhoor Al Wardat, Zouhair Benkhaldoun, Mohamed Gibril, Awni Khasawneh, Hamid Al Naimiy",
       "PaperNumber": "14151-68",
       "DateTimeLocationDataList": [
         {
@@ -932,11 +830,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Towards realizing adjustable X-ray optics for astronomy using TFT-addressed thin-film PZT actuators",
+      "Title": "Towards realizing adjustable x-ray optics for astronomy using TFT-addressed thin-film PZT actuators",
       "Description": null,
       "Abstract": "We report on progress towards realizing adjustable X-ray optics with thin-film actuators. These mirror devices utilize thin-film lead zirconate titanate (PZT) as a piezoelectric actuator, with ZnO thin-film transistors (TFTs) to allow simple array addressing. By dividing this film into discrete cells and applying a low voltage, the actuators produce a localized, biaxial strain. Manufacturing thin-film actuator stacks and TFTs on the non-reflective sides of thin segments is hence a viable technology pathway for realizing high performance X-ray optics. In this presentation, we discuss the requirements for and benefits of adapting from glass to silicon mirror substrates. Furthermore, we report on measurements of the thin-film stresses associated with stages of device fabrication process as measured via interferometry, and discuss the progress towards compensating for the net integrated stress with controlled growth of a silicon dioxide layer.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Towards-realizing-adjustable-X-ray-optics-for-astronomy-using-TFT/14146-257",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Towards-realizing-adjustable-x-ray-optics-for-astronomy-using-TFT/14146-257",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1073,6 +971,40 @@
       "Abstract": "Automated measurement of atmospheric seeing began at the South African Astronomical Observatory (SAAO) in March 2010. The original equipment consisted of a MASS-DIMM mated to a 25 cm Meade LX200 with the DIMM channel feeding a high-speed (200+ fps) IEEE1394 camera. That hardware eventually succumbed to the ravages of time. The interfaces to the MASS and DIMM camera because obsolete and difficult to support. The key failure, though, was that the mount could no longer point or track well enough to be useful anymore.    In 2024 the system was upgraded significantly and returned to routine operation. The DIMM camera and mount were replaced with newer, more performant options and the MASS-DIMM was replaced with a simple DIMM mask. We will present results from the first two years of renewed operation. These results will be compared to seeing measurements from other sources at the SAAO site. We will also describe the updated software the was developed for this system.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Upgraded-seeing-monitor-for-the-South-African-Astronomical-Observatory/14151-100",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Diego Paredes-Sanz, Sonny Massahi, Sara Svendsen, Desirée Della Monica Ferreira, Michael Avngaard, Finn Erland Christensen, Arne S. Jegers, Alessandro Morello, Andreas E. Nielsen, Mia J. Krag, Mads H. Jensen",
+      "PaperNumber": "14146-271",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "694bc8d6-40d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "694bc8d6-40d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Upgrades to DTU475 coating chamber – Periodic 1 nm SiC/W multilayers, 3D-graded coatings, and deposition of 550 mm long mirrors",
+      "Description": null,
+      "Abstract": "We present upgrades and expanded capabilities of the DTU475 DC magnetron sputtering chamber at the Technical University of Denmark. The system, previously used for the production of NuSTAR multilayer optics, has been refurbished to improve deposition throughput, process stability, and coating uniformity.   The upgraded chamber enables uniform coating of substrates up to 550 mm in length, extending its applicability to large X-ray optical elements for synchrotron beamlines and calibration facilities. We demonstrate the deposition of periodic SiC/W multilayers with d-spacings down to 1 nm and interface roughness of 0.3 nm. In addition, we show the capability to produce three-dimensionally graded coatings with controlled thickness gradients along the axial, lateral, and depth directions of the mirror. These results establish DTU475 as a versatile platform for advanced X-ray optics development.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Upgrades-to-DTU475-coating-chamber--Periodic-1-nm-SiC/14146-271",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1724,6 +1656,74 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 10:30 - 11:00 CEST | Room B4-M7",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Weiye Zhong",
+      "PaperNumber": "14153-35",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 10:30 - 10:50 CEST | Room B2-M8",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "545b6e7a-88de-f011-a9ae-005056914f1c---crmrecord",
+      "GUID": "545b6e7a-88de-f011-a9ae-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Development of a K/Q/W tri-band cryogenic receiver for the Tianma Radio Telescope",
+      "Description": null,
+      "Abstract": "",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-a-K-Q-W-tri-band-cryogenic-receiver/14153-35",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 10:30 - 10:50 CEST | Room B2-M8",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Jochem J. A. Baselmans, Giulia Conenna, Daan Roos, Alexandra Mavropoulou, Lorenza Ferrari, Stephen Yates, Willem Jellema, Dimitry Lamers, Daniela Perez Capelo, Martijn Veen, David Thoen, Vishal Anvekar, Pieter de Visser, Shahab Dabironezare",
+      "PaperNumber": "14156-18",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 10:30 - 10:50 CEST | Room B5-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "0965e60d-51cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "0965e60d-51cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Development of the PRIMAger detector arrays for the PRobe far-Infrared Mission for Astrophysics",
+      "Description": null,
+      "Abstract": "We present the development of the detector arrays for PRIMAger, the European instrument of PRIMA. These consist of single polarisation leaky-lens antenna coupled Kinetic Inductance Detectors (KIDs) for the Prima Polarimetric Imager (PPI). For the Prima Hyperspectral Imager (PHI) these are dual polarisation lens-absorber coupled KIDs. In both cases the KIDs are based upon NbTiN resonators and aluminium antennas (PPI) or absorbers (PHI). We will present the design, fabrication, testing and space qualification of these detector arrays. These show that both the PHI and PPI arrays reach the requirements for PRIMA: A sensitivity, given by a NEP < 2e-19 W/rt(Hz) in a 5-175 Hz audio band, a coupling efficiency >55%, a polarisation purity of <-20 dB (for PPI only) and high yield.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-the-PRIMAger-detector-arrays-for-the-PRobe-far/14156-18",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 10:30 - 10:50 CEST | Room B5-M3",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

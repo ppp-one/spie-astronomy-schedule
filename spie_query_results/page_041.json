@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Rima Islam, Aline Dinkelaker, Abani Shankar Nayak, Kalaga V. Madhav, Martin M. Roth",
-      "PaperNumber": "14148-128",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "6607ff52-50d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "6607ff52-50d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Commissioning the AIP's ultrafast laser-inscription facility: defining the parameter space for type-I waveguide fabrication",
-      "Description": null,
-      "Abstract": "This work details the iterative statistical optimization of the femtosecond-based ultrafast laser inscription system—specifically pulse energy, repetition rate, translation speed, and scan density to achieve Type-1 positive refractive-index modifications. We present the resulting fabrication recipe for single-mode, high-throughput waveguides optimized for the astronomical J-band (1300-1400 nm). By achieving precise Mode Field Diameter (MFD) matching with standard optical fibers, we ensure low insertion loss. The optimization of parameter space is critical for the fabrication of complex devices, such as photonic reformatters, beam combiners, and pupil remappers, for future deployment at the CHARA array and Calar Alto Observatory.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Commissioning-the-AIPs-ultrafast-laser-inscription-facility--defining-the/14148-128",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "M. Viveganandam, J. Adassuriya, K. P. S. C. Jayaratne",
-      "PaperNumber": "14149-314",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "c47ee00d-95be-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "c47ee00d-95be-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Compact medium-resolution spectrograph for alt-azimuth mounted Cassegrain telescopes: optical design and performance analysis",
-      "Description": null,
-      "Abstract": "Alt-azimuth mounted telescopes with Cassegrain focus offer affordability and versatility but often lack the clearance needed to attach standard commercial spectrographs. To overcome this limitation, we developed a compact, cost-effective, medium-resolution spectrograph specifically designed for seamless integration with such telescopes. The instrument incorporates a 1200 grooves/mm diffraction grating and a narrow slit aperture, with optical performance evaluated using Zemax OpticStudio 2025 R2 ray-tracing simulations. Results confirm effective spectral dispersion, accurate focusing of RGB wavelengths, and strong agreement with theoretical expectations. Aberration analysis shows negligible higher-order effects, with only slight spherical aberration present. Overall, the spectrograph demonstrates excellent image quality and validates a practical, accessible solution for high-resolution astronomical spectroscopy.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Compact-medium-resolution-spectrograph-for-alt-azimuth-mounted-Cassegrain-telescopes/14149-314",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Alikhan Basheer, Devika Divakar, Pramod Panchal, Sanjeev Jha, Prasanna Deshmukh, Sudarsan Kambhala, Karthic Kumar, Sriram Sripadmanabhan",
       "PaperNumber": "14154-53",
       "DateTimeLocationDataList": [
@@ -978,7 +910,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jian-Rong Gao, B. Mirzaei, M. Finkel, C. Walker",
+      "Authors": "Behnam Mirzaei, Matvey Finkel, Christopher Walker, Jian-Rong Gao",
       "PaperNumber": "14156-120",
       "DateTimeLocationDataList": [
         {
@@ -1696,9 +1628,9 @@
       "PaperNumber": "14156-121",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1722,7 +1654,75 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Ye Chai, Shibo Shu, Yaqiong Li, Daikang Yan, Yuanhang He, Jiamin Sun, Zhouhui Liu, He Gao, Xufang Li, Yiwen Wang, Weijie Guo, Juexian Cao, Congzhan Liu",
+      "PaperNumber": "14156-133",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "6bc9f249-bfce-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "6bc9f249-bfce-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Developments of a 6-inch thermal kinetic inductance detector array for 90/150 GHz bands",
+      "Description": null,
+      "Abstract": "The highly sensitive millimeter-wave telescope is an important tool for accurately measuring cosmic microwave background (CMB) radiation, and its core component is a detector array located in a cryogenic focal plane. The feasibility of utilizing thermal kinetic inductance detectors (TKIDs) for CMB observations has been demonstrated. To improve observation efficiency and accuracy, we propose an array of research and development of TKIDs in a 6-inch wafer for observing CMB through atmospheric windows for observations in the 90/150 GHz bands. Two pairs of probes are designed on the pixel to divide the signal into two polarization directions. Orthogonal transducer and diplexer are used for signal conversion and frequency division. 456 detector pixels will be deployed on a single array, with each pixel containing two 90 GHz and two 150 GHz detectors, for a total of 1824 detectors.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Developments-of-a-6-inch-thermal-kinetic-inductance-detector-array/14156-133",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Rodrigo Zeledon, Antonio Magoncelli, Alain Carrier, Liz Osborne",
+      "PaperNumber": "14145-256",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "cb72565b-a8cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "cb72565b-a8cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Disturbance-free payload: next-generation vibration isolation technology for space-based precision-pointing missions",
+      "Description": null,
+      "Abstract": "Lockheed Martin’s Disturbance-Free Payload (DFP) is a precision-pointing and vibration isolation system that enables space-based payloads to achieve unprecedented levels of jitter stability. This paper presents an overview of DFP in the context of its application to Habitable Worlds Observatory (HWO), as well as its unique benefits over conventional vibration isolation systems. Recent advancements and enhancements to the DFP system are emphasized, including reduction of voice coil actuator noise and progress towards assessing the performance impact of cables that bridge the DFP interface. Remaining technology gaps to achieve Technology Readiness Level (TRL) 5 for DFP as a system can be closed with ground testbeds. Existing DFP testbeds will be modified to demonstrate operation with a flight-traceable computer architecture, contingency operations, and fail-safe relatching mechanisms.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Disturbance-free-payload--next-generation-vibration-isolation-technology-for/14145-256",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     }
   ],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

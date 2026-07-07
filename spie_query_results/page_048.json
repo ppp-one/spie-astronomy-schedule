@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Matthew C. DeMartino, Kevin Bundy, Stephen Eikenberry, Aditya Sengupta, Anna Gagnebin, Avi Patel, Tara Crowe, Caleb Dobias, Rodrigo Amezcua Correa, Stephanos Yerolatsitis, Holger Schmidt",
-      "PaperNumber": "14154-89",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 14:15 - 14:30 CEST | Room B2-M4",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "737fc53f-77d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "737fc53f-77d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Neural-network spectral reconstruction with photonic lanterns",
-      "Description": null,
-      "Abstract": "We investigate photonic lanterns as compact, fiber-based spectrometers, using neural networks to reconstruct spectra from single-mode output intensity patterns. Unlike conventional dispersive optics, our approach directly maps lantern outputs to input spectra via a PyTorch feedforward network with residual connections. A testbed with near-monochromatic light and reference spectra enabled training on multi-feature inputs. In the optical regime (650–700 nm), single-feature reconstructions achieved correlations near 0.99; multi-feature cases with two components reached 0.50–0.60, with greater variability for six features due to limited training data. Extending to short-wave infrared (1300–1450 nm), results remained comparable despite detector noise. These findings demonstrate the feasibility of lantern-based spectroscopy and establish a framework for neural-network spectral reconstruction, with future work focused on larger datasets and improved architectures.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Neural-network-spectral-reconstruction-with-photonic-lanterns/14154-89",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 14:15 - 14:30 CEST | Room B2-M4",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Erin Holdorf, Noelia Martínez Rey, Jesse Cranney, Domenico Bonaccini-Calia",
       "PaperNumber": "14150-80",
       "DateTimeLocationDataList": [
@@ -1724,6 +1690,40 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 16:20 - 16:40 CEST | Room B4-M5",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Leanne P. Guy, Connor Yablonski, Aaron Meisner, Guillem Megias Homar, Merlin Fisher-Levine, Eman E. Ali, Tiger J. Hu, Christopher W. Stubbs",
+      "PaperNumber": "14151-51",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 16:30 - 16:50 CEST | Room B2-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "62177a0c-11cb-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "62177a0c-11cb-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Development of a Retrieval-Augmented Generation Chatbot for Enhanced Information Discovery at Rubin Observatory",
+      "Description": null,
+      "Abstract": "The Vera C. Rubin Observatory’s LSST will produce petabytes of data supported by a large, heterogeneous set of technical documents, operational guides, and scientific notes. Because this material is distributed across numerous platforms and formats, including internal systems, users and general-purpose language models often find it difficult to locate reliable Rubin-specific information. To address this, we developed a Retrieval-Augmented Generation (RAG) virtual assistant that provides context-aware, factual access to Rubin’s documentation ecosystem. The system aggregates content from multiple sources and performs semantic search through a conversational interface, using Weaviate for embeddings, LangChain for query orchestration, and an OpenAI GPT model as the LLM backend. Grounding responses in domain-specific knowledge reduces hallucinations, improves accuracy, and demonstrates the potential of RAG to streamline workflows and support effective use of LSST data products.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-a-Retrieval-Augmented-Generation-Chatbot-for-Enhanced-Information/14151-51",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 16:30 - 16:50 CEST | Room B2-M2",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

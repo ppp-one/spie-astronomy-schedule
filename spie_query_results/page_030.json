@@ -26,142 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Mitsuyoshi Yamagishi, Shigeyuki Sako, Masahiro Konishi, Hiroaki Sameshima, Natsuko Kato, Yuki Mori, Sohei Kondo, Takashi Miyata, Kotaro Kohno, Kentaro Motohara, Takeo Minezaki, Fumi Egusa, Itsuki Sakon, Hidenori Takahashi, Takafumi Kamizuka, Kazuya Matsubayashi, Kana Morokuma-Matsui, Masataka Imai, Takashi Horiuchi, Yuki Hirao, Yuzuru Yoshii",
-      "PaperNumber": "14151-66",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "30def531-35c9-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "30def531-35c9-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Development of the summit information system for the TAO 6.5m telescope",
-      "Description": null,
-      "Abstract": "Real-time monitoring of site conditions is crucial to conduct observations safely. Such monitoring is, however, challenging for the TAO 6.5m telescope, which is located at Co. Chajnantor, Chile, with altitude of 5640m above sea level. By overcoming difficulties due to harsh environment of this site, we are developing a summit information system to obtain environmental data at the observation site and deliver them to observers. Up to date, we have achieved real-time monitoring of weather and web-camera data at the summit from anywhere in the world. In this presentation, we overview the current components of the summit information system and future plans.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-the-summit-information-system-for-the-TAO-65m/14151-66",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Yusuke Yoshida, Kazuki Ampuku, Koki Sakuta, Makoto Yoshihara, Keitoku Yoshihira, Ryoma Tanaka, Tetsuo Kano, Naoki Ishida, Wataru Kato, Yoshitaka Inoue, Keisuke Tamura, Takashi Okajima, Kikuko Miyata, Noriyuki Narukage, Gota Yamaguchi, Shutaro Mohri, Satoru Egawa, Hiroto Motoyama, Takehiro Kume, Yusuke Matsuzawa, Yoichi Imamura, Takahiro Saito, Kentaro Hiraguri, Hirokazu Hashizume, Hidekazu Mimura, Ikuyuki Mitsuishi",
-      "PaperNumber": "14146-282",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "63733de6-87c3-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "63733de6-87c3-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Development of x-ray optics for the solar flare sounding rocket FOXSI-5",
-      "Description": null,
-      "Abstract": "We have been developing X-ray optics for the 5th Focusing Optics X-ray Solar Imager (FOXSI-5), a Japan–U.S. joint solar sounding rocket experiment aimed at revealing particle acceleration and plasma heating mechanisms in solar flares. The previous mission, FOXSI-4, achieved the world's first X-ray imaging and spectroscopic observation of a solar flare using our soft and hard X-ray optics. For FOXSI-5, we have prepared the reused hard X-ray optics and a newly fabricated soft X-ray optics. As a result of evaluation of the hard X-ray optics, we obtained the imaging performance of HPD < 20 arcsec at 12 keV for off-axis angles up to 7.5 arcmin, and the effective area of ~ 40 mm^2 at 6 keV for on-axis rays. FOXSI-5 launched successfully on May 14th, 2026 and observed three active regions after C-class flares. We will report the latest status of our X-ray optics, which is a key to FOXSI-5.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-x-ray-optics-for-the-solar-flare-sounding/14146-282",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Dehua Yang, Xin He, Xiaofei Li, Yanlyu Yang, Hua Bai, Bo Li, Shihai Yang, Fanghua Jiang, Xuhao Wu, Shouwei Hu, Dongsheng Niu, Jinzhi Yu, Li Wang, Xiaoyu Kong, Shidong Shen, Yeping Li, Haikun Wen, Lingzhe Xu, Qishuai Lu, Yongjun Liang, Yuefei Wang, Xiang Jiang, Xianzhong Zheng, Xiaohu Yang",
-      "PaperNumber": "14147-134",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "4ceeb8ae-6ece-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "4ceeb8ae-6ece-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Development status of the 4m segmented Jiaotong University Spectroscopic Telescope (JUST)",
-      "Description": null,
-      "Abstract": "We present the current engineering development status of the Jiaotong University Spectroscopic Telescope (JUST), a 4-meter class optical telescope designed for high-efficiency spectral surveys and time-domain astronomy. JUST utilizes a segmented primary mirror architecture delivering competitive spectroscopic capabilities. This paper details the transition from conceptual design to the critical design and prototyping phases of the telescope structure systems.  The primary mirror (M1) consists of 18 hexagonal segments. The alt-azimuth mount design, and the site infrastructure development at the Lenghu observing station. The paper also describes the mechanical implementation of the Active Optics System using a Shack-Hartmann wavefront sensor.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-status-of-the-4m-segmented-Jiaotong-University-Spectroscopic-Telescope/14147-134",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Akihiro Fujie, Shota Narasaki, Yuto Owaki, Misaki Miyake, Junji Takaki, Tomoya Hattori, Koji Hirose, Teppe Ikezaki, Akihiro Ando, Deprez Maxime, Claire Lamour, Yukio Katsukawa, Yusuke Kawabata, Toshihiro Tsuzuki, Naoki Kohara, Yoshinori Suematsu, Fumihiro Uraguchi, Hirohisa Hara, Kota Miyoshi, Hideki Kato, Toshifumi Shimizu",
-      "PaperNumber": "14146-258",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "b58d2cf4-64ce-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "b58d2cf4-64ce-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Development status of the primary mirror and pre-coating optical measurement results for the SOLAR-C EUVST",
-      "Description": null,
-      "Abstract": "This report details the development status of the engineering model (EM) and flight model (FM) of the primary mirror for the SOLAR-C EUV Spectroscopic Telescope (EUVST), including measurements of surface figure error (SFE) with the mirror support mechanism. A bipod-based support with leaf springs was designed and implemented to minimize mirror deformation caused by mechanical and thermal loading. The validation with the EM primary mirror demonstrated that the predicted and measured astigmatism and coma abberations agreed well, confirming the robustness of the mirror support design. For the FM mirror, gravity-reversal measurements verified that the mirror’s SFE met the optical specifications.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-status-of-the-primary-mirror-and-pre-coating-optical/14146-258",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Stephanie S. Guzman, James Hoag, Sarah Gajadhar",
       "PaperNumber": "14152-130",
       "DateTimeLocationDataList": [
@@ -302,9 +166,9 @@
       "PaperNumber": "14157-105",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 7 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -328,7 +192,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -434,7 +298,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Sonny Massahi, Diego Paredes-Sanz, Mateus Masteghin, Sara Svendsen, Desiree Ferreira, Arne S. Jegers, Levent Cibik, Robert Fechner, Dieter Skroblin, Christian Gollwitzer, Michael Krumrey, Finn Christensen",
+      "Authors": "S. Massahi, D. Paredes-Sanz, M. Masteghin, S. Svendsen, D. D. M. Ferreira, A. 'S Jegers, D. Skroblin, L. Cibik, R. Fechner, C. Gollwitzer, M. Krumrey, F. E. Christensen",
       "PaperNumber": "14146-265",
       "DateTimeLocationDataList": [
         {
@@ -456,11 +320,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Enabling next–generation multilayer technology for high-energy X-ray telescopes",
+      "Title": "Enabling next-generation multilayer technology for high-energy x-ray telescopes",
       "Description": null,
       "Abstract": "NiCu/SiNₓ multilayers deposited by reactive magnetron sputtering from a novel split NiCu target are demonstrated as a viable route to broadband hard X-ray telescope optics beyond the 79 keV NuSTAR limit. The split target, equal areas of pure Ni and pure Cu, enables alloy co-sputtering without a pre-alloyed target, yielding amorphous, smooth films with interfacial roughness of 0.51–0.53 nm independent of thickness. A critical NiCu layer threshold of ~2.5 nm is identified, below which interface width rises to 0.75 nm. Four power-law depth-graded stacks (200 and 205 periods) were characterized by XRR at 8.048 keV and synchrotron reflectometry (3.4–10 keV, BESSY II). HAADF-STEM confirms well-ordered bilayers across the full ~1.2 µm depth (σ = 0.35–0.70 nm); EDS reveals ~69 at.% Cu / 31 at.% Ni from differential sputtering yields. Simulated reflectance exceeds 95% to ~55–75 keV, with interference fringes visible to 200 keV.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Enabling-nextgeneration-multilayer-technology-for-high-energy-X-ray-telescopes/14146-265",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Enabling-next-generation-multilayer-technology-for-high-energy-x-ray/14146-265",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -472,9 +336,9 @@
       "PaperNumber": "14145-181",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
           "badge_icon": null,
-          "format_icon": 1,
+          "format_icon": null,
           "show_tz_converter": false
         }
       ],
@@ -498,7 +362,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
     },
     {
@@ -597,6 +461,40 @@
       "Abstract": "NASA has prioritized developing optical coatings for the Lyman- and far-ultraviolet (90–200 nm) to support future missions. To advance UV optics for the Habitable Worlds Observatory (HWO), we present the latest performance measurements and environmental stability results for band-selecting filters designed for the Lyman-ultraviolet bandpass (LUV; 90–120 nm). Lyman-UV coatings can degrade during storage and integration, with humidity reducing the reflectivity of lithium-fluoride overcoated mirrors. The narrowband filters developed with the Grupo de Óptica de Láminas Delgadas (GOLD) are Lyman-α (121.6 nm) suppressing filters peaking near 105 nm (“F110M”), now being flight-tested on the FLUID sounding rocket. We present recent CU Boulder results comparing MgF₂ and AlF₃ capped and uncapped witness samples over the first year of environmental testing, and new results using a liquid polymer protective layer on LiF-overcoated samples.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Environmental-stability-testing-of-narrowband-optical-coatings-in-the-Lyman/14146-256",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Windell Tanaka, Milan Štubljar, Erin Suzuki",
+      "PaperNumber": "14147-137",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "aa7f13e3-dfd6-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "aa7f13e3-dfd6-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "ERIN: a radio-quiet autonomous daytime star camera with adaptive background subtraction for stratospheric balloon missions",
+      "Description": null,
+      "Abstract": "The Payload for Ultrahigh Energy Observations (PUEO) is an Antarctic long-duration balloon experiment designed to search for radio signals from ultrahigh-energy neutrinos and cosmic rays. The Equatorial Reference Imager for Navigation (ERIN) was developed as an autonomous daytime star-camera subsystem for PUEO. This paper presents ERIN’s development and ground-based validation, including localized background subtraction, robust source detection, autoexposure and autogain control, autofocus, star-pattern solving, and attitude estimation. Laboratory, environmental, and on-sky results characterize solution accuracy. Two ERIN instruments were integrated and flown aboard PUEO.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/ERIN--a-radio-quiet-autonomous-daytime-star-camera-with/14147-137",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1080,47 +978,13 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Massinissa Hadjara, Anton Pomazan, Hangxin Ji, Qinyang Dong, Jinghui Zheng, Yindun Mao, Leonardo Cament, Martin Adams, Marcos Diaz, Rene Mendez, Bernard Foing, Mustapha Meftah, Zhu Ping, Rabah Ikhlef, Djounai Baba-Aissa",
-      "PaperNumber": "14145-212",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "55038794-43cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "55038794-43cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "From early concepts to lunar hypertelescopes roadmap for next-generation optical astronomy on the moon",
-      "Description": null,
-      "Abstract": "We present a comparative engineering roadmap for optical telescopes designed to operate in extreme environments on Earth and the lunar surface, particularly for investigating small Solar System bodies. Drawing on lessons from high-altitude deserts, polar stations, and remote platforms, we propose solutions for lunar-based telescopes to monitor near-Earth space, increase detectability of near-Earth asteroids (NEAs), and improve follow-up. These telescopes will also observe transient phenomena like gamma-ray bursts, supernovae, and variable stars, while providing data on space weather and radiation. The Moon’s stable platform, lack of atmosphere, and continuous observing windows offer unique advantages for long-term monitoring of NEAs, space debris, and other celestial phenomena. This project outlines engineering concepts for precursor lunar telescopes and discusses milestones for transitioning from Earth-based systems to robust, autonomous lunar implementations for continuous operation.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/From-early-concepts-to-lunar-hypertelescopes-roadmap-for-next-generation/14145-212",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Massinissa Hadjara, Hangxin Ji, Qinyang Dong, Marcos Diaz, Mustapha Meftah, Bernard Foing, Zhu Ping",
       "PaperNumber": "14145-200",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
           "badge_icon": null,
-          "format_icon": 1,
+          "format_icon": null,
           "show_tz_converter": false
         }
       ],
@@ -1144,7 +1008,41 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Massinissa Hadjara, Anton Pomazan, Hangxin Ji, Qinyang Dong, Jinghui Zheng, Yindun Mao, Leonardo Cament, Martin Adams, Marcos Diaz, Rene Mendez, Bernard Foing, Mustapha Meftah, Zhu Ping, Rabah Ikhlef, Djounai Baba-Aissa",
+      "PaperNumber": "14145-212",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "55038794-43cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "55038794-43cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "From Earth’s harshest landscapes to lunar horizons: engineering telescopes for extreme environments",
+      "Description": null,
+      "Abstract": "We present a comparative engineering roadmap for optical telescopes designed to operate in extreme environments on Earth and the lunar surface, particularly for investigating small Solar System bodies. Drawing on lessons from high-altitude deserts, polar stations, and remote platforms, we propose solutions for lunar-based telescopes to monitor near-Earth space, increase detectability of near-Earth asteroids (NEAs), and improve follow-up. These telescopes will also observe transient phenomena like gamma-ray bursts, supernovae, and variable stars, while providing data on space weather and radiation. The Moon’s stable platform, lack of atmosphere, and continuous observing windows offer unique advantages for long-term monitoring of NEAs, space debris, and other celestial phenomena. This project outlines engineering concepts for precursor lunar telescopes and discusses milestones for transitioning from Earth-based systems to robust, autonomous lunar implementations for continuous operation.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/From-Earths-harshest-landscapes-to-lunar-horizons--engineering-telescopes/14145-212",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
     },
     {
@@ -1179,40 +1077,6 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Windell Tanaka, Milan Štubljar, Erin Suzuki",
-      "PaperNumber": "14147-137",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "aa7f13e3-dfd6-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "aa7f13e3-dfd6-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "From laboratory prototype to autonomous daytime star camera: design and on-sky validation of ERIN",
-      "Description": null,
-      "Abstract": "The Payload for Ultrahigh Energy Observations (PUEO) is an Antarctic long-duration balloon experiment designed to search for radio signals from ultrahigh-energy neutrinos and cosmic rays. The Equatorial Reference Imager for Navigation (ERIN) was developed as an autonomous daytime star-camera subsystem for PUEO. This paper presents ERIN’s development and ground-based validation, including localized background subtraction, robust source detection, autoexposure and autogain control, autofocus, star-pattern solving, and attitude estimation. Laboratory, environmental, and on-sky results characterize solution accuracy. Two ERIN instruments were integrated and flown aboard PUEO.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/From-laboratory-prototype-to-autonomous-daytime-star-camera--design/14147-137",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
     },
     {
@@ -1724,6 +1588,142 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 7 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Rafael Melgar Hernandez, Yolanda Martin, Elvio Hernández Suárez, Alejandro Antonio Luján González, Alberto Hernández González, Horacio Rodriguez Delgado, Felix Gracia Témich, Miguel Angel Cágigas García, Ángel Alonso, Adriana de Lorenzo Cáceres, Begoña García Lorenzo",
+      "PaperNumber": "14149-288",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "8f74f9ee-2fd0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "8f74f9ee-2fd0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "HARMONI at ELT: laboratory tests for optimization and validation of the scale changer turret mechanism",
+      "Description": null,
+      "Abstract": "HARMONI is the first light, adaptive optics assisted, near-IR integral field spectrograph for the ELT. It covers a spectral range from 800nm to 2450nm with resolving powers from 3000 to 7000 and spatial sampling of 25mas and 6mas. It can operate in two adaptive optics modes - SCAO (including a high contrast capability) and MCAO. The project is resuming its final design phase after a rescope design phase in 2025.    This paper reports on the comprehensive testing campaign of the HARMONI IFS Pre-Optic’s (IPO) Scale Changer Turret (SCT) prototype. The primary aim of these tests was to validate the proposed mechanical solution and confirm the overall system performance. We present a detailed analysis of the system and the laboratory setup.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/HARMONI-at-ELT--laboratory-tests-for-optimization-and-validation/14149-288",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Eduard R. Muslimov, Matthias Tecza, Edgar Castillo-Domínguez, James Kariuki, Liam Boland, Miriam Cisneros Gonzalez, Kieran McCall, Sophie Paszynska",
+      "PaperNumber": "14149-298",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "985f9242-70d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "985f9242-70d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "HARMONI at ELT: optical design of the spectrograph sub-system",
+      "Description": null,
+      "Abstract": "HARMONI is an adaptive optics assisted, near-IR integral field spectrograph for the Extremely Large Telescope (ELT). The University of Oxford is in charge of the design and development of the four identical spectrographs that disperse the light and form scientific images. During the instrument rescope phase, we have developed a new spectrograph optical design. It uses a two-mirror unobscured freeform collimator, a set of six volume-phase holographic grisms as the disperser, and a two-mirror unobscured freeform camera. This design is up to 350 mm shorter than the previous version. The number of optical elements' positioning parameters is reduced by more than two times. The expected as-built minimum transmission is 57%, while the scattered light level is decreased.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/HARMONI-at-ELT--optical-design-of-the-spectrograph-sub/14149-298",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Vladislavs Plesanovs, Paolo Soffitta, Hemanth Manikantan, Daniel Saueraland, Klaus Desch, Jochen Kaminski, Carlo Lefevre, Ettore Del Monte",
+      "PaperNumber": "14146-245",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "314e1fba-1bd5-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "314e1fba-1bd5-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Heavy ion irradiation of GridPix gas detector: a step forward for its use in space",
+      "Description": null,
+      "Abstract": "The GridPix technology is a candidate to be used as a polarimeter on the potential successor  of IXPE, the EXPO or Enhanced X-ray Polarimetry Observatory. Dedicated set of runs was performed at Bonn Isochronous Cyclotron at HISKP, University of Bonn, to test heavy ion influence in MeV energy range. In a gasseous detector these particles induce overwhelming amount of charge that can saturate the electronics readout or induce sparks and rapidly age the detector. GridPix was subjected to two test beams at a low rate, proton beam at 14MeV and 100MeV 14N5++ ions. The GridPix detector contains the readout ASIC, Timepix, with 256 × 256 pixel grid with a pitch of 55 μm and covered with a protection layer plus gas. The Al grid stands on the SU8 pillars above pixels forming the amplification stage enabling primary electron detection. We describes the setup and results of these tests. The observed impact of irradiation is shown for both types of beam.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Heavy-ion-irradiation-of-GridPix-gas-detector--a-step/14146-245",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Robert Conwell, Stephen S. Eikenberry, Peter Delfyett, Anish Roshi, Shahebul Hasan, Jiabao Li, Jordan Richey, David Smith, Thuy Nguyen, Amith Debnath, Liam Gallagher",
+      "PaperNumber": "14148-109",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "85b5d1dc-03cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "85b5d1dc-03cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Heliocomb: a laser frequency comb heterodyne spectrometer for R=20,000,000,000 solar observations",
+      "Description": null,
+      "Abstract": "We demonstrate a near-infrared heterodyne instrument which achieves a signal-to-noise ratio sufficient for Very Long Baseline Interferometry (VLBI). VLBI in the near-infrared, achieved by means of heterodyne systems, has the potential to enable ground-based diffraction-limited resolution of millimeter-sized objects in low Earth orbit. Our instrumental design employs an electro-optically modulated laser frequency comb (LFC) as a single-frequency local oscillator with tunability enabled by a calibrated linear stage. Our design is conducive to an instrument with the long-term stability of a LFC, a tunable local oscillator, and scalability for broad instantaneous bandwidth. To demonstrate the efficacy of our instrument, we perform heterodyne spectroscopy on the Sun to measure the Solar Gravitational Redshift, improve upon the current best measurement, and demonstrate year-timescale instrumental stability. This is an essential first step towards near-infrared VLBI.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Heliocomb--a-laser-frequency-comb-heterodyne-spectrometer-for-R20000000000/14148-109",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

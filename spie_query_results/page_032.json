@@ -26,142 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Mehmet Kuruçolak, Derya Öztürk Çetni, Elif Yağmur Kuruçolak, Cahit Yeşilyaprak, Kemal Rüzgar",
-      "PaperNumber": "14152-122",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "e5d54e51-6cd0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "e5d54e51-6cd0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Model Based Systems Engineering for Early Concept Studies of the DAG400 Telescope Active Optics Wavefront Sensor",
-      "Description": null,
-      "Abstract": "This study focuses on applying a Model Based Systems Engineering (MBSE) approach during the early conceptual development of the Active Optics Wavefront Sensor (aOWFS) and examines migrating its architecture from SysML v1 to SysML v2. Sharing optical paths and mounting points on the Nasmyth platform introduces coupled constraints difficult to manage with documents alone. Capturing these multidisciplinary constraints in a single, integrated model makes early integration conflicts visible, establishing a reference model for future instruments. Additionally, this work demonstrates SysML v2 architectural advantages, specifically the Definition and Usage pattern. Migration experiences show this pattern allows independent templates to be instantiated easily by invoking their usages.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Model-Based-Systems-Engineering-for-Early-Concept-Studies-of-the/14152-122",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Pedro Escárate, Christopher Zamorano, Juan Carlos Agüero",
-      "PaperNumber": "14150-267",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "d3d3ead8-34d1-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "d3d3ead8-34d1-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Model predictive control for adaptive optics",
-      "Description": null,
-      "Abstract": "Atmospheric turbulence and vibrations degrade the performance of Adaptive Optics (AO) systems, especially in coronagraph-based exoplanet imagers, extreme AO instruments, and optical interferometers. This work presents a stochastic Model Predictive Control (MPC) strategy for modal wavefront correction using Zernike polynomials. The disturbance model is identified from OOMAO atmospheric turbulence simulations with an equivalent Fried parameter of r0 = 14 cm, including vibrations at 20 and 60 Hz. Its dynamics are estimated in the spectral domain using log-Whittle likelihood and incorporated into the MPC formulation to improve prediction and rejection. Results for tip and tilt modes show effective mitigation of atmospheric and vibrational disturbances. Future work will extend the method to up to 200 Zernike modes and real-time operation near 2 kHz using explicit MPC and Cascade Adaptive Optics.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Model-predictive-control-for-adaptive-optics/14150-267",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Kyle Lanclos, William T. S. Deich, Paul Richards, John Bailey, Prakriti Gupta, Matthew Brown, Aaron Hunter, Dusty Reichwein",
-      "PaperNumber": "14155-126",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "ba9758b0-b1cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "ba9758b0-b1cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Modern KTL: the next generation of interprocess communications at W. M. Keck Observatory",
-      "Description": null,
-      "Abstract": "Nearing completion in 2026 at W. M. Keck Observatory (WMKO), the modern KTL (mKTL) interprocess communications standard is positioned as the successor to the Keck Task Library (KTL) applications programming interface (API), a standard at the core of all instrument and telescope operations at WMKO for more than 30 years, a source of stability and common functionality spanning at least three major shifts in computing infrastructure (VME crates, UNIX, and Linux) during that time.    The main goals of the mKTL initiative are to improve upon the functionality and performance of KTL while significantly lowering the barrier-to-entry for new developers and future maintainers, both of mKTL itself and programs relying on it. This paper covers the initial design and implementation of mKTL, starting with major design goals, proceeding to the first implementation in Python, and ending with our plans for future collaboration, development and deployment.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Modern-KTL--the-next-generation-of-interprocess-communications-at/14155-126",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Andrew I. Lewis, Juan Cardenas, Gordon J. Stacey",
-      "PaperNumber": "14151-58",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "00f60e4e-78c3-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "00f60e4e-78c3-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Modernization of the control system of the Hartung-Boothroyd Observatory",
-      "Description": null,
-      "Abstract": "The Hartung-Boothroyd Observatory (HBO), completed in 1975, is Cornell University’s undergraduate teaching and research facility for observational astronomy. The observatory houses a 25-inch f/13.5 Cassegrain reflector with an equatorial fork mounting, controlled electronically using a DOS-based program. This dated system has created a barrier to entry for modern users and teachers of astronomy at Cornell, and does not meet modern expectations for the widespread use cases of such an observatory. Therefore, we design and implement a simple modern control system for interacting with the telescope. The updated control system provides remote control capabilities for the telescope, built upon a subset of publicly available control protocols, allowing external applications to interface directly with the observatory. Furthermore, the revision improves the safety of the observatory through well-developed fault and limit checks, ensuring the telescope’s efficient and straightforward operation.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Modernization-of-the-control-system-of-the-Hartung-Boothroyd-Observatory/14151-58",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "José Leonardo Garcés Medina, Gerardo Lara Lucario, Carolina Keiman",
       "PaperNumber": "14155-137",
       "DateTimeLocationDataList": [
@@ -506,9 +370,9 @@
       "PaperNumber": "14149-237",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 7 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -532,7 +396,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1012,7 +876,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Gabriele Umbriaco, Carmelo Arcidiacono, Maria Bergomi, Kalyan Kumar Radhakrishnan Santhakumari, Tom Herbst, Remon van Gaalen, Roberto Ragazzoni, Valentina Viotto, Luca Cortese, Jacopo Farinato, Luca Marafatto, Silvio Di Rosa, Marco Dima, Davide Greggio, Florian Briegel, Lars Mohr, Thomas Bertram, Peter Bizenberger, Simone Antoniucci, Al Conrad, Alessio Caratti o Garatti, Gianluca Li Causi, Fernando Pedichini, Fabrizio Massi, Roberto Piazzesi, Sam Ragland",
+      "Authors": "Gabriele Umbriaco, Carmelo Arcidiacono, Maria Bergomi, Kalyan Kumar Radhakrishnan Santhakumari, Thomas M. Herbst, Remon van Gaalen, Roberto Ragazzoni, Valentina Viotto, Luca Cortese, Jacopo Farinato, Luca Marafatto, Silvio Di Rosa, Marco Dima, Davide Greggio, Florian Briegel, Lars Mohr, Thomas Bertram, Peter Bizenberger, Simone Antoniucci, Al Conrad, Alessio Caratti O. Garatti, Gianluca Li Causi, Fabrizio Massi, Fernando Pedichini, Roberto Piazzesi, Sam Ragland",
       "PaperNumber": "14150-215",
       "DateTimeLocationDataList": [
         {
@@ -1250,40 +1114,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Megan M. Dubay, Thomas Procter, William Marshall, Hank Corbett, Nicholas M. Law, Alex Bucheli, Jonathan Carney, James Dockery, Shannon Fitton, Lawrence Machia, Michael Ronco, Donovan G. Schlekat, Alan Vasquez Soto, Glenn Walters",
-      "PaperNumber": "14147-150",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "47fc5916-93d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "47fc5916-93d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "On-sky verification of simulated performance of the Argus Array all-sky survey",
-      "Description": null,
-      "Abstract": "The Argus Array is an all-sky survey instrument with the effective area of an 8m telescope. It will image 8,000sq-degrees of sky as often as once a second. Detailed optical simulations show that the 1200-telescope array will reach at least magnitude g=20.0 in a single 60s exposure with 1.0” pixel scale. We performed in-situ testing of the optical and imaging components as verification of the predicted performance for the integrated system, effects on performance for varying atmospheric conditions, and as a test of the internal acceptance testing process. Testing of the f/2.8 28cm OTAs and the custom 100-megapixel IMX461 cameras occurred during two consecutive new moon periods. Here we discuss the equipment, testing procedures, analysis methods, and findings.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/On-sky-verification-of-simulated-performance-of-the-Argus-Array/14147-150",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Francesco Di Mille, Marcelo Mora, Guillermo Blanc, David Osip, Povilas Palunas",
       "PaperNumber": "14151-76",
       "DateTimeLocationDataList": [
@@ -1328,7 +1158,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -1349,6 +1179,40 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Megan M. Dubay, Thomas Procter, William Marshall, Hank Corbett, Nicholas M. Law, Jonah L. Aponte, Alex Bucheli, Jonathan Carney, Thomas Cowart, James Dockery, Katie M Fasbender, Shannon Fitton, Collin H. Grimes, Amy S Ishiguro, Lawrence Machia, Michael Ronco, Donovan G. Schlekat, Alan Vasquez Soto, Glenn Walters",
+      "PaperNumber": "14147-150",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "47fc5916-93d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "47fc5916-93d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Optical performance verification for the Argus Array",
+      "Description": null,
+      "Abstract": "The Argus Array is an all-sky survey instrument with the effective area of an 8m telescope. It will image 8,000sq-degrees of sky as often as once a second. Detailed optical simulations show that the 1200-telescope array will reach at least magnitude g=20.0 in a single 60s exposure with 1.0” pixel scale. Prior to beginning full production, we performed several tests of the optical and imaging components as verification of the predicted performance for the integrated system, effects on performance for varying atmospheric conditions, and as a validation of the design. Testing of the prototype units of the f/2.8 28cm OTAs and custom 100-megapixel IMX461 cameras occurred at McDonald Observatory and at Argus facilities. Here we discuss the equipment, testing procedures, analysis methods, and findings.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-performance-verification-for-the-Argus-Array/14147-150",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1454,7 +1318,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Yue Yu, Jooyun Woo, Stefano Basso, Marta M. Civitani, Desiree D. M. Ferreira, Marcela Stern, Peter L. Henriksen, Sonny Massahi, Kerstin Perez, Jaime Ruz Armendariz, Julia K. Vogel",
+      "Authors": "Yue Yu, Jooyun Woo, Ipek Altunyurt, Stefano Basso, Vadim Burwitz, Francisco R. Candón, Juan F. Castel Pablo, Marta M. Civitani, Todd Decker, Klaus Desch, Desiree D. M. Ferreira, Javier Galan, Maurizio Giannotti, Louis Helary, Peter L. Henriksen, Igor G Irastorza, Eftychia Kotsiou, Axel Lindner, Frank Marutzky, Sonny Massahi, Sam Moseley, Takashi Okajima, Johanna von Oy, Diego Paredes-Sanz, Giancarlo Parodi, Marcela Stern, Kerstin Perez, Michael J Pivovaroff, David Reuther, Anacorina Romero, Jaime Ruz Armendariz, Vyshnavi Sabbi, Tobias Schiffer, Uwe Schneekloth, Daniele Spiga, Julia K. Vogel",
       "PaperNumber": "14146-283",
       "DateTimeLocationDataList": [
         {
@@ -1485,6 +1349,40 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Florian Kerber, Rául Cordero, Omar Cuevas, Susana Deustua, Patricio Galeas, Markus Gaug, Rory Gillespie, Miska Le Louarn, Julio C. Marin, Ricardo C. Munoz, Angel Otarola, Anna Francesca Pala, Jérôme Paufique, Joseph P. Rice, Roberto Rondanelli, Alain Smette, Roberta Zanin",
+      "PaperNumber": "14151-109",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "b8ab0a72-ebcd-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "b8ab0a72-ebcd-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "PARABOLAS: profiling of the atmosphere by remote sensing and radiosonde balloon launches above our astronomical observatory sites",
+      "Description": null,
+      "Abstract": "The European Southern Observatory (ESO) is teaming up with international partners to conduct a measurement campaign with the main objective of characterizing a significant volume of atmosphere above the Paranal (VLT), Armazones (ELT) and the future Cherenkov Telescope Array Observatory (CTAO) South sites covering a horizontal distance of about 25 km between the observatory sites and an altitude of at least 15 km to address both its spatial and temporal variations using an array of in-situ and remote sensing instrumentation. The campaign’s results will be key for the science operations of ESO’s fully adaptive Extremely Large Telescope, and highly relevant for the NIST Stars project on Paranal, and for the CTAO which uses the atmosphere as its detection medium for gamma rays. The campaign is currently scheduled for 2026/27. We’ll report on the current status of planning and the next steps towards the actual implementation.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/PARABOLAS--profiling-of-the-atmosphere-by-remote-sensing-and/14151-109",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
     },
     {
@@ -1724,6 +1622,108 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Federico Astori",
+      "PaperNumber": "14156-88",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "1eb88910-28d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "1eb88910-28d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "POLOCALC and HoverCal drone system: attitude reconstruction software",
+      "Description": null,
+      "Abstract": "Precise calibration of the absolute polarization angle is critical for detecting primordial B-mode signals in the cosmic microwave background. The POLOCALC and HoverCal projects operate drone-borne polarized microwave emitters (90–280 GHz) to provide a stable far-field reference for telescopes. The key innovation is the use of photogrammetry, tightly integrated with onboard sensors, to determine the drone’s attitude with extreme precision, directly linking the orientation of the emitted polarization signal to fixed ground references. Leveraging this technique, the system aims to achieve absolute polarization angle calibration with an accuracy of σΨ ~ 0.01°, sufficient for searching primordial B-modes at the level σ_r ~ 10⁻³. Photogrammetry is central to determining the polarization plane’s orientation in celestial coordinates, employing a sophisticated color-filtering algorithm and a Bayesian framework to retrieve the drone’s attitude within these stringent accuracy requirements.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/POLOCALC-and-HoverCal-drone-system-attitude-reconstruction-software/14156-88",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Vincenzo Cotroneo, Giovanni Pareschi, Stefano Basso, Marta M. Civitani, Thorsten Dohring, Eugenio Gibertini, Giorgia Sironi, Daniele Spiga",
+      "PaperNumber": "14146-253",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "913f075f-ccdc-f011-a9ae-005056914f1c---crmrecord",
+      "GUID": "913f075f-ccdc-f011-a9ae-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Polydopamine overcoatings for soft X-ray reflectivity enhancements: recent progress and performance assessment",
+      "Description": null,
+      "Abstract": "We present recent advances in dopamine-based overcoatings to enhance the soft X-ray performance of grazing-incidence telescope mirrors. Thin polydopamine (PDA) films, deposited by dip-coating from aqueous solution, provide a carbon-rich, low-density layer on conventional high-Z coatings (e.g. Au, Ir, Ir/Cr), offering an attractive, lower-cost alternative to sputtered carbon or other carbon-based films (e.g. SiC, B₄C). We report an expanded set of laboratory and synchrotron reflectivity measurements, together with process optimization (thickness control, uniformity, reproducibility), tests on relevant mirror geometries, and an assessment of surface roughness and small-angle scattering. Ongoing environmental and adhesion studies, combined with updated optical modelling, support the potential application of these coatings in future cost-constrained spaceborne X-ray telescopes requiring large effective area in the soft band.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Polydopamine-overcoatings-for-soft-X-ray-reflectivity-enhancements--recent/14146-253",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Michael Mann, Thorsten Döhring, Alessandro Priebsch, Udo Sauer, Alexander Stock, Georgios Fotis",
+      "PaperNumber": "14151-97",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "4cd0ff35-73ab-f011-a9ad-00505691c5e1---crmrecord",
+      "GUID": "4cd0ff35-73ab-f011-a9ad-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Power quality diagnostics at astronomical observatories",
+      "Description": null,
+      "Abstract": "Astronomical observatories supplied by long radial grids are highly susceptible to power quality disturbances. Conventional monitoring based on 10‑minute RMS aggregation systematically suppresses fast transient and subtransient phenomena, although these directly affect electromagnetic compatibility and measurement stability.  This work introduces a diagnostic methodology using transient recorders for synchronized, microsecond‑resolution measurements of voltage and current across phase, neutral, and protective earth conductors. The approach combines time‑domain analysis with frequency‑dependent impedance characterization.  Experimental results show that fast events with significant amplitudes occur and are governed by grid impedance, while remaining invisible in standardized PQ metrics. The methodology provides a physically interpretable extension of conventional power quality assessment for weak and inverter‑dominated systems.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Power-quality-diagnostics-at-astronomical-observatories/14151-97",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

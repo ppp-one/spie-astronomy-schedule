@@ -26,142 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Nolan McPhaul, Randall McEntaffer, Ningxiao Zhang, Fabien Grise, Jake McCoy, Chad Eichfeld",
-      "PaperNumber": "14146-267",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "41ed22ca-b1cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "41ed22ca-b1cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Stretchy gratings: fabricating a custom-groove-patterned grating by manipulating parallel-groove patterns",
-      "Description": null,
-      "Abstract": "We present initial results on an approach to fabricate custom groove-patterned diffraction gratings inspired by astronomical ultraviolet (UV) and X-ray applications. By manipulating the parallel-groove pattern of a 3000 nm period optical grating on a polydimethylsiloxane (PDMS) stamp, we produced a fanned-out groove profile whose period ranged from 3057 nm to 3207 nm across the centimeter long grooves. This variable period was generated from a differential strain field applied by stretching the top and bottom of the grating perpendicular to its groove direction. The resulting fanned-out groove geometry has broad applications across multiple wavelengths by replicating the paths of light rays within a converging beam, thereby allowing greater resolution spectroscopy. Future prospects for this method are discussed alongside other modern fabrication techniques.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Stretchy-gratings--fabricating-a-custom-groove-patterned-grating-by/14146-267",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Jonathan Steiner, Joel Payne, Jason N. Worden, John S. Hudek, Dennis McBride, Grant Hill, Matt Wahl, Ed Wetherell, Adan Rodrigues, Tod Von Boeckmann, Eric Levine, Obediah Levine, Shawn Guerpo, Shawn Tapang, Chris Funada, Danny Baldwin, Steven Baca, Derek Park, Dan Orr, James Chong, Chris Martins, Robert Harrington, Mark Devenot, Joseph Rounsaville, Justin Ballard, Jerez Tehero, Hamza Elwir, Michael Dayawon, Tyler Coda, Greg Doppmann, Keith Vachon, Leslie Wold, Jeremy Zambeck",
-      "PaperNumber": "14151-88",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "f2390eb0-fccf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "f2390eb0-fccf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Structural pier repair, full-scale implementation of grout replacement on Keck I telescope",
-      "Description": null,
-      "Abstract": "Each of the W. M. Keck Observatory telescopes incorporates a 3” thick layer of grout that serves as the primary load path between the steel azimuth journal—the telescope’s running surface—and the main body of the reinforced concrete pier. Over the past ~20 years Keck has observed increased journal deflections of the Keck I telescope under load. These increased deflections affect telescope pointing and can cause azimuth drive faults.     This paper presents: 1) Lessons learned and changes made between the trial repair and two major “production” downtimes (each 5-6 weeks) which occurred in 2025, including logistical improvements, new tooling, addressing learning curves with contracting teams, and process updates like dust control; all resulting in improved efficiency. 2) An update on oil seepage mitigation efforts – oil exposure being a likely root cause of the grout deterioration. 3) Results from the total three repairs done to date.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Structural-pier-repair-full-scale-implementation-of-grout-replacement-on/14151-88",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Ashesh Abhisek Khatua, Jón Emil Guðmundsson, Xiaodong Ren, Thomas Gascard, Rustam Balafendiev",
-      "PaperNumber": "14156-80",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "0d982a36-8ecf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "0d982a36-8ecf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Studying the systematics of CMB telescopes using finite-difference-time-domain simulations",
-      "Description": null,
-      "Abstract": "We present MeepSAT (MEEP Simulation and Analysis for Telescopes), an ongoing effort to develop a Finite-Difference-Time-Domain (FDTD) simulation framework (based on an open-source code called MEEP) for analysing the optical systematics of cosmic microwave background (CMB) telescopes. MeepSAT will allow us to shed light on some systematics caused by effects that current industry-standard physical optics and ray-tracing softwares have a hard time modeling. This includes near-field interactions of sub-wavelength structures embedded in larger optical systems, the impact of absorptive elements placed outside of the optical path, non-uniform material properties, and effects related to baffles. We benchmark the MeepSAT simulations against other softwares using a simple single-lens telescope and demonstrate its advanced capabilities using more complex refractive systems.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Studying-the-systematics-of-CMB-telescopes-using-finite-difference-time/14156-80",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Attila Kovacs",
-      "PaperNumber": "14155-124",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "3c7781f5-3bd0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "3c7781f5-3bd0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "SuperNOVAS",
-      "Description": null,
-      "Abstract": "SuperNOVAS is a C99 / C++11 astrometry and positional astronomy library, with full support of the IAU 2000/2006 conventions for micro-arcsecond level calculations. It approaches the elegance of astropy, while providing vastly superior (3--5 orders of magnitude faster!) performance, in a thread-safe and (mostly) memory-safe, implementation. SuperNOVAS is based on the Naval Observatory Vector Astrometry Software (NOVAS) C library, with which it retains 100% API compatibility. SuperNOVAS focuses on (1) precision, (2) ease of use, (3) performance, (4) portability, (5) promoting best practices, and (6) accessible documentation. SuperNOVAS already powers the control systems of major observatories. It readily builds on virtually all computing platforms and architectures, including embedded systems, and it is available in packaged form for various Linux distros, NIX, Homebrew, and vcpkg also.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/SuperNOVAS/14155-124",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Ryosuke Akizawa, Tomotake Matsumura, Aritoki Suzuki",
       "PaperNumber": "14156-77",
       "DateTimeLocationDataList": [
@@ -184,11 +48,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Susceptibility-aware bayesian surrogate-assisted optimization for RF components",
+      "Title": "Susceptibility-aware Bayesian surrogate-assisted optimization for RF components",
       "Description": null,
       "Abstract": "We present a susceptibility-aware surrogate-assisted optimization pipeline for radio frequency components that simultaneously accounts for both peak performance and susceptibility to fabrication tolerances simultaneously. We construct the minimal framework based on a Gaussian process (GP) surrogate combined with a genetic algorithm. As a first demonstration, we consider a ten-parameter optimization of an OMT-coupled waveguide model implemented in HFSS, minimizing the band-averaged |S11| over 10–15 GHz below −20 dB. Under a fixed simulation budget, the proposed optimizer achieves the target with a success rate about 1.6 times higher than that of baseline methods, including random search and quasi-Newton method, demonstrating faster convergence under limited EM simulations. We also discuss the extensions of this framework to susceptibility-aware robust design and to future multi-objective optimization of millimeter-wave CMB antenna components.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Susceptibility-aware-bayesian-surrogate-assisted-optimization-for-RF-components/14156-77",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Susceptibility-aware-Bayesian-surrogate-assisted-optimization-for-RF-components/14156-77",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1288,9 +1152,9 @@
       "PaperNumber": "14149-253",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 7 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1314,7 +1178,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1352,7 +1216,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Benjamin R. Setterholm, Jörg-Uwe Pott, José Ramos, Ralph Hofferbert, Norbert Münch, Robert J. Harris, Gabriele Rodeghiero, Friedrich Müller, Santiago Barboza, André Boné, Ralf-Rainer Rohloff, Joshua M. Jost, Juan Olalla Pombo, Moritz H. Lerch, Altay T. Polat, Peter Bizenberger, Vianak Naranjo",
+      "Authors": "Benjamin R. Setterholm, Jörg-Uwe Pott, José Ramos, Ralph Hofferbert, Norbert Münch, Robert J. Harris, Gabriele Rodeghiero, Friedrich Müller, Santiago Barboza, André Boné, Ralf-Rainer Rohloff, Joshua M. Jost, Juan Olalla Pombo, Moritz H. Lerch, Altay T. Polat, Peter Bizenberger, Vianak Naranjo, Armin Böhm",
       "PaperNumber": "14149-258",
       "DateTimeLocationDataList": [
         {
@@ -1374,7 +1238,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "The MICADO first light imager for the ELT: realization of the calibration assembly",
+      "Title": "The MICADO first light imager for the ELT: realization of the MICADO calibration assembly",
       "Description": null,
       "Abstract": "MICADO (Multi-AO Imaging CAmera for Deep Observations) is a first-light instrument for the Extremely Large Telescope (ELT), enabling diffraction-limited imaging (~4–10 mas) and spectroscopy (R ≤ 20,000) at near-infrared wavelengths (0.8–2.4 μm). The MICADO Calibration Assembly (MCA) is deployed to rigorously understand the instrument’s performance over its operational lifespan and to provide a reference for data reduction. The MCA is a collection of three independent units affixed to a common mount at a homologous image plane to that of the ELT. Herein, we describe the final design of the MCA nominal hardware, as-built. We further discuss the results of the the first test campaign of the three individual calibration units.",
       "ImagePath": null,
@@ -1624,6 +1488,40 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Sebastiano Spinello, Alessandro Costa, Federico Incardona, Kevin Munari, Emilio Mastriani, Fulvio Gianotti, Ismam Abu, Marcello Lodi, Alessandro Tacchini, Marco De Benedetto, Andrea Mandica",
+      "PaperNumber": "14155-111",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "c5925c61-66d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "c5925c61-66d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The new version of the ASTRI Mini-Array alarm system",
+      "Description": null,
+      "Abstract": "Within the ASTRI Mini-Array SCADA infrastructure, the Alarm System detects, prioritises, and notifies abnormal conditions that may affect the safety and performance of telescopes, auxiliary devices, and ICT infrastructure. In October 2025 it completed its transition from an ACS-embedded component to a stand-alone Java application, improving modularity, deployment, and independence from the ALMA Common Software (ACS) middleware. The new architecture is centred on an Alarm Manager that aggregates alarms from OPC-UA (Open Platform Communications – Unified Architecture) servers, ACS Notification Channels, and ICT subsystems, with configuration data managed in the System Configuration Database (SCDB). RESTful APIs expose configuration, status, and alarm information to the Human Machine Interface (HMI) and higher-level orchestration software.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-new-version-of-the-ASTRI-Mini-Array-alarm-system/14155-111",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "John Young, Eugene Seneta, Samantha Thompson, Clark Baker, Martin Fisher, Jan Rinze Peterzon, Tim Naylor, Ian Wellaway, Peter Pedersen, Martin Šulc",
       "PaperNumber": "14155-120",
       "DateTimeLocationDataList": [
@@ -1724,6 +1622,108 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 7 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Jingwen Zhang, Sophie Noiret, Maxwell A. Millar-Blanchaer, Jason Wang, Neil Zimmerman, Eric Shen, Alexis Lau, Elodie Choquet, Taichi Uyajma, Chen Xie, Jessica Gersh-Range, Julien Girard, Vanessa Bailey, John Krist, Kevin Ludwick, Alexis Bidot, Arthur Vigan",
+      "PaperNumber": "14145-182",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "c5422e21-f6ce-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "c5422e21-f6ce-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The Roman Coronagraph community participation program: corgisim, a simulation suite for the Nancy Grace Roman Space Telescope Coronagraphic Instrument",
+      "Description": null,
+      "Abstract": "NASA’s Roman Space Telescope will feature a pathfinder Coronagraph Instrument to demonstrate advanced high-contrast imaging from space. Roman Coronagraph could obtain imaging and spectroscopy of Jupiter analogs in reflected visible light for the first time. We present the work of developing an open-source simulation package “corgisim” as part of the Roman Coronagraph Community Participate Program. Built on established optical propagation libraries such as PROPER and CGISim, corgisim provides a publicly available Python framework for end-to-end simulations of Roman-CGI observations. The package produces high-fidelity, format-compliant data for pre-launch calibration, pipeline testing, and community applications such as target planning and selection and observation planning. We will give an overview of corgisim’s infrastructure, and current implementation across planned imaging, polarimetry, and spectroscopy modes. We will also provide guidance on how users can employ the software.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Roman-Coronagraph-community-participation-program--corgisim-a-simulation/14145-182",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Amanda Chavez, Jason Wang, Vanessa Bailey, Maxwell Millar-Blanchaer, Julien H. Girard, Sergi Hildebrandt, John Krist, Julia Milton, Marie Ygouf",
+      "PaperNumber": "14145-184",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "1de50582-b2cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "1de50582-b2cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The Roman Coronagraph Community Participation Program: data reduction pipeline astrometric calibration",
+      "Description": null,
+      "Abstract": "The Roman Coronagraph Community Participation Program has led the development of a python-based, open source data reduction pipeline (corgidrp) to quantify the performance of the Roman Space Telescope coronagraph instrument and to process its data products. Here, we present the astrometric calibration function within the greater data reduction pipeline, outline the methods for computing critical astrometric calibration measurements, and contextualize this calibration process within corgidrp. Additionally, we discuss the results of end-to-end testing and show that all formal Technology Demonstration Threshold Requirements for this calibration step are satisfied.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Roman-Coronagraph-Community-Participation-Program--data-reduction-pipeline/14145-184",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Ramya M. Anche, Toshiyuki Mizuki, Vanessa P. Bailey, Eric J. Cady, Clarissa Do Ó, Jessica A. Gersh-Range, Justin Hom, Alexis Lau, John Livingston, Bertrand Mennesson, Maxwell A. Millar-Blanchaer, Julia Milton, Naoshi Murakami, Tsutsumi Nagai, Sophie Noiret, Eric Shen, Motohide Tamura, Taichi Uyajma, Jason J. Wang, Schuyler G. Wolff, Cynthia Wong, Chen Xie, Marie Ygouf, Jingwen Zhang, Julien H. Girard",
+      "PaperNumber": "14145-186",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "c1a48206-80d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "c1a48206-80d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The Roman Coronagraph Community Participation Program: simulation of on-sky polarimetric observations, data reduction, and analysis",
+      "Description": null,
+      "Abstract": "Reflected-light polarimetry of an exoplanet helps constrain and break degeneracies in atmospheric properties, and polarized light observations of debris disks enable exploration of the disk’s dust-grain properties. The best-effort polarimetric mode of the Roman Coronagraph Instrument will be able to perform multi-wavelength observations of planetary systems using the Hybrid Lyot Coronagraph (HLC) and the Shaped Pupil Coronagraph (SPC). In this paper, we demonstrate the capabilities of the polarimetric mode of the Roman Coronagraph for targets chosen in the nominal observing plan. We simulate science target observations and calibration products using the corgisim package and perform data reduction and analysis using the corgidrp, incorporating all noise factors and instrumental polarization effects from modeled Mueller matrices. The final retrieved polarization fraction (p) indicates that the polarimetry mode of the Roman Coronagraph Instrument meets the goal uncertainty of ~ 3%.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Roman-Coronagraph-Community-Participation-Program--simulation-of-on/14145-186",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1731,6 +1731,6 @@
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696051
 }

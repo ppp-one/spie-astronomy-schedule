@@ -26,108 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Federico Astori",
-      "PaperNumber": "14156-88",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "1eb88910-28d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "1eb88910-28d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "POLOCALC and HoverCal drone system: attitude reconstruction software",
-      "Description": null,
-      "Abstract": "Precise calibration of the absolute polarization angle is critical for detecting primordial B-mode signals in the cosmic microwave background. The POLOCALC and HoverCal projects operate drone-borne polarized microwave emitters (90–280 GHz) to provide a stable far-field reference for telescopes. The key innovation is the use of photogrammetry, tightly integrated with onboard sensors, to determine the drone’s attitude with extreme precision, directly linking the orientation of the emitted polarization signal to fixed ground references. Leveraging this technique, the system aims to achieve absolute polarization angle calibration with an accuracy of σΨ ~ 0.01°, sufficient for searching primordial B-modes at the level σ_r ~ 10⁻³. Photogrammetry is central to determining the polarization plane’s orientation in celestial coordinates, employing a sophisticated color-filtering algorithm and a Bayesian framework to retrieve the drone’s attitude within these stringent accuracy requirements.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/POLOCALC-and-HoverCal-drone-system-attitude-reconstruction-software/14156-88",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Vincenzo Cotroneo, Giovanni Pareschi, Stefano Basso, Marta M. Civitani, Thorsten Dohring, Eugenio Gibertini, Giorgia Sironi, Daniele Spiga",
-      "PaperNumber": "14146-253",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "913f075f-ccdc-f011-a9ae-005056914f1c---crmrecord",
-      "GUID": "913f075f-ccdc-f011-a9ae-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Polydopamine overcoatings for soft X-ray reflectivity enhancements: recent progress and performance assessment",
-      "Description": null,
-      "Abstract": "We present recent advances in dopamine-based overcoatings to enhance the soft X-ray performance of grazing-incidence telescope mirrors. Thin polydopamine (PDA) films, deposited by dip-coating from aqueous solution, provide a carbon-rich, low-density layer on conventional high-Z coatings (e.g. Au, Ir, Ir/Cr), offering an attractive, lower-cost alternative to sputtered carbon or other carbon-based films (e.g. SiC, B₄C). We report an expanded set of laboratory and synchrotron reflectivity measurements, together with process optimization (thickness control, uniformity, reproducibility), tests on relevant mirror geometries, and an assessment of surface roughness and small-angle scattering. Ongoing environmental and adhesion studies, combined with updated optical modelling, support the potential application of these coatings in future cost-constrained spaceborne X-ray telescopes requiring large effective area in the soft band.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Polydopamine-overcoatings-for-soft-X-ray-reflectivity-enhancements--recent/14146-253",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Michael Mann, Thorsten Döhring, Alessandro Priebsch, Udo Sauer, Alexander Stock, Georgios Fotis",
-      "PaperNumber": "14151-97",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "4cd0ff35-73ab-f011-a9ad-00505691c5e1---crmrecord",
-      "GUID": "4cd0ff35-73ab-f011-a9ad-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Power quality diagnostics at astronomical observatories",
-      "Description": null,
-      "Abstract": "Astronomical observatories supplied by long radial grids are highly susceptible to power quality disturbances. Conventional monitoring based on 10‑minute RMS aggregation systematically suppresses fast transient and subtransient phenomena, although these directly affect electromagnetic compatibility and measurement stability.  This work introduces a diagnostic methodology using transient recorders for synchronized, microsecond‑resolution measurements of voltage and current across phase, neutral, and protective earth conductors. The approach combines time‑domain analysis with frequency‑dependent impedance characterization.  Experimental results show that fast events with significant amplitudes occur and are governed by grid impedance, while remaining invisible in standardized PQ metrics. The methodology provides a physically interpretable extension of conventional power quality assessment for weak and inverter‑dominated systems.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Power-quality-diagnostics-at-astronomical-observatories/14151-97",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Carlos M. Correia, Kyliann Robert, Cyril Petit, Jean-Marc Conan",
       "PaperNumber": "14150-259",
       "DateTimeLocationDataList": [
@@ -295,40 +193,6 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Florian Kerber, Raul Cordero, Omar Cuevas, Susana Deustua, Patricio Galeas, Markus Gaug, Rory Gillespie, Miska Le Louarn, Julio C. Marin, Ricardo C. Munoz, Angel Otarola, Anna Francesca Pala, Jérôme Paufique, Joseph P. Rice, Roberto Rondanelli, Alain Smette, Roberta Zanin",
-      "PaperNumber": "14151-109",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "b8ab0a72-ebcd-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "b8ab0a72-ebcd-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Profiling of the Atmosphere by Remote Sensing and Radiosonde Balloon Launches above our Astronomical Observatory Sites - PARABOLAS",
-      "Description": null,
-      "Abstract": "The European Southern Observatory (ESO) is teaming up with international partners to conduct a measurement campaign with the main objective of characterizing a significant volume of atmosphere above the Paranal (VLT), Armazones (ELT) and the future Cherenkov Telescope Array Observatory (CTAO) South sites covering a horizontal distance of about 25 km between the observatory sites and an altitude of at least 15 km to address both its spatial and temporal variations using an array of in-situ and remote sensing instrumentation. The campaign’s results will be key for the science operations of ESO’s fully adaptive Extremely Large Telescope, and highly relevant for the NIST Stars project on Paranal, and for the CTAO which uses the atmosphere as its detection medium for gamma rays. The campaign is currently scheduled for 2026/27. We’ll report on the current status of planning and the next steps towards the actual implementation.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Profiling-of-the-Atmosphere-by-Remote-Sensing-and-Radiosonde-Balloon/14151-109",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
     },
     {
@@ -910,13 +774,13 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Tonya L. Peshel, Abigail Y. Pan, Tanmoy Chattopadhyay, Steven W. Allen, Marshall W. Bautz, Michael Cooper, Kevan Donlon, Catherine E. Grant, Sven Herrmann, Jill Juneau, Beverly J. LaMarr, Christopher Leitz, Adam B. Mantz, Eric D. Miller, R. Glenn Morris, Declan O'Neill, Peter Orel, Artem Poliszczuk, Gregory Prigozhin, Haley R. Stueber, Keith Warner",
+      "Authors": "Tonya L. Peshel, Abigail Y. Pan, Tanmoy Chattopadhyay, Steven W. Allen, Marshall W. Bautz, Michael Cooper, Kevan Donlon, Catherine E. Grant, Sven Herrmann, Jill Juneau, Beverly J. LaMarr, Christopher Leitz, Adam B. Mantz, Eric D. Miller, R. Glenn Morris, Declan O'Neill, Peter Orel, Artem Poliszczuk, Gregory Y. Prigozhin, Haley R. Stueber, Keith Warner",
       "PaperNumber": "14157-98",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 7 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -932,15 +796,15 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "RNDR noise modeling in first-generation SiSeRO (Single-electron Sensitive Readout) devices",
+      "Title": "RNDR noise modeling in first-generation single electron sensitive readout (SiSeRO) devices",
       "Description": null,
-      "Abstract": "Flagship observatories require single-photon detectors with ultra-fast readout, sub-electron noise performance, and scalable large-format architectures. The X-ray Astronomy and Observational Cosmology group at Stanford, in collaboration with the MIT Kavli Institute and MIT Lincoln Laboratory, is developing readout technologies for next-generation charge-coupled devices (CCDs). Prototypes employing Single-electron Sensitive Readout (SiSeRO) amplifiers demonstrate excellent read noise and spectral performance using Repetitive Non-Destructive Readout (RNDR), achieving 0.5e- noise in under 50 cycles. We have modeled noise for longer RNDR cycles, exploring probabilistic mechanisms such as thermal leakage and impact ionization. Here we present our model results, including statistical limits on dark current-like signals. Maturation of SiSeRO technology will improve detector performance at soft X-ray energies, and addressing technology gaps for future X-ray, UV/optical and NIR observatories.",
+      "Abstract": "Flagship observatories require single-photon detectors with ultra-fast readout, sub-electron noise performance, and scalable large-format architectures. The X-ray Astronomy and Observational Cosmology group at Stanford, in collaboration with the MIT Kavli Institute and MIT Lincoln Laboratory, is developing readout technologies for next-generation detectors. Prototypes employing Single-electron Sensitive Readout (SiSeRO) amplifiers demonstrate excellent read noise and spectral performance using Repetitive Non-Destructive Readout (RNDR), achieving 0.5e- noise in under 50 cycles. We have modeled noise for longer RNDR cycles, exploring probabilistic mechanisms such as thermal leakage and impact ionization. Here we present our model results, including statistical limits on dark current-like signals. Maturation of SiSeRO technology will improve detector performance at soft X-ray energies, and addressing technology gaps for future X-ray, UV/optical and NIR observatories.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/RNDR-noise-modeling-in-first-generation-SiSeRO-Single-electron-Sensitive/14157-98",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/RNDR-noise-modeling-in-first-generation-single-electron-sensitive-readout/14157-98",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1560,9 +1424,9 @@
       "PaperNumber": "14145-197",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
           "badge_icon": null,
-          "format_icon": 1,
+          "format_icon": null,
           "show_tz_converter": false
         }
       ],
@@ -1580,13 +1444,13 @@
       "HTMLTitle": "",
       "Title": "STARI fiber-injection prototype testing and simulation",
       "Description": null,
-      "Abstract": "The STarlight Acquisition and Reflection toward Interferometry (STARI) is a NASA-funded joint mission to advance technology for future space interferometry with two 8U cubeSATs to collect/transfer starlight between each other using a single mode fiber. We present a lab proof-of-concept for a two satellite system demonstrating fiber-coupling and simulations for starlight transmission between satellites.The first payload is the Pupil Transport (PT) that collects the incoming starlight and reflects it into the other spacecraft. The second is the Fiber Injection and Detection (FID) that injects the reflected starlight into a single-mode fiber on the other spacecraft and uses itself as a referenceIn this lab set-up, we achieve a 90.9% match to the simulation results for optimal coupling efficiency. This level of coupling efficiency can then be used in future missions to collect meteorology data on stars and exoplanets using formation flying fiber coupled systems.",
+      "Abstract": "The STarlight Acquisition and Reflection toward Interferometry (STARI) is a NASA-funded joint mission to advance technology for future space interferometry with two 8U cubeSATs to collect/transfer starlight between each other using a single mode fiber. We present a lab proof-of-concept for a two satellite system demonstrating fiber-coupling and simulations for starlight transmission between satellites. The first payload is the Pupil Transport (PT) that collects the incoming starlight and reflects it into the other spacecraft. The second is the Fiber Injection and Detection (FID) that injects the reflected starlight into a single-mode fiber on the other spacecraft and uses itself as a reference. In this lab set-up, we achieve a 90.9% match to the simulation results for optimal coupling efficiency. This level of coupling efficiency can then be used in future missions to collect meteorology data on stars and exoplanets using formation flying fiber coupled systems.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/STARI-fiber-injection-prototype-testing-and-simulation/14145-197",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
     },
     {
@@ -1724,6 +1588,142 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 7 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Nolan McPhaul, Randall McEntaffer, Ningxiao Zhang, Fabien Grise, Jake McCoy, Chad Eichfeld",
+      "PaperNumber": "14146-267",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "41ed22ca-b1cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "41ed22ca-b1cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Stretchy gratings: fabricating a custom-groove-patterned grating by manipulating parallel-groove patterns",
+      "Description": null,
+      "Abstract": "We present initial results on an approach to fabricate custom groove-patterned diffraction gratings inspired by astronomical ultraviolet (UV) and X-ray applications. By manipulating the parallel-groove pattern of a 3000 nm period optical grating on a polydimethylsiloxane (PDMS) stamp, we produced a fanned-out groove profile whose period ranged from 3057 nm to 3207 nm across the centimeter long grooves. This variable period was generated from a differential strain field applied by stretching the top and bottom of the grating perpendicular to its groove direction. The resulting fanned-out groove geometry has broad applications across multiple wavelengths by replicating the paths of light rays within a converging beam, thereby allowing greater resolution spectroscopy. Future prospects for this method are discussed alongside other modern fabrication techniques.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Stretchy-gratings--fabricating-a-custom-groove-patterned-grating-by/14146-267",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Jonathan Steiner, Joel Payne, Jason N. Worden, John S. Hudek, Dennis McBride, Grant Hill, Matt Wahl, Ed Wetherell, Adan Rodrigues, Tod Von Boeckmann, Eric Levine, Obediah Levine, Shawn Guerpo, Shawn Tapang, Chris Funada, Danny Baldwin, Steven Baca, Derek Park, Dan Orr, James Chong, Chris Martins, Robert Harrington, Mark Devenot, Joseph Rounsaville, Justin Ballard, Jerez Tehero, Hamza Elwir, Michael Dayawon, Tyler Coda, Greg Doppmann, Keith Vachon, Leslie Wold, Jeremy Zambeck",
+      "PaperNumber": "14151-88",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "f2390eb0-fccf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "f2390eb0-fccf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Structural pier repair, full-scale implementation of grout replacement on Keck I telescope",
+      "Description": null,
+      "Abstract": "Each of the W. M. Keck Observatory telescopes incorporates a 3” thick layer of grout that serves as the primary load path between the steel azimuth journal—the telescope’s running surface—and the main body of the reinforced concrete pier. Over the past ~20 years Keck has observed increased journal deflections of the Keck I telescope under load. These increased deflections affect telescope pointing and can cause azimuth drive faults.     This paper presents: 1) Lessons learned and changes made between the trial repair and two major “production” downtimes (each 5-6 weeks) which occurred in 2025, including logistical improvements, new tooling, addressing learning curves with contracting teams, and process updates like dust control; all resulting in improved efficiency. 2) An update on oil seepage mitigation efforts – oil exposure being a likely root cause of the grout deterioration. 3) Results from the total three repairs done to date.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Structural-pier-repair-full-scale-implementation-of-grout-replacement-on/14151-88",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Ashesh Abhisek Khatua, Jón Emil Guðmundsson, Xiaodong Ren, Thomas Gascard, Rustam Balafendiev",
+      "PaperNumber": "14156-80",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "0d982a36-8ecf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "0d982a36-8ecf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Studying the systematics of CMB telescopes using finite-difference-time-domain simulations",
+      "Description": null,
+      "Abstract": "We present MeepSAT (MEEP Simulation and Analysis for Telescopes), an ongoing effort to develop a Finite-Difference-Time-Domain (FDTD) simulation framework (based on an open-source code called MEEP) for analysing the optical systematics of cosmic microwave background (CMB) telescopes. MeepSAT will allow us to shed light on some systematics caused by effects that current industry-standard physical optics and ray-tracing softwares have a hard time modeling. This includes near-field interactions of sub-wavelength structures embedded in larger optical systems, the impact of absorptive elements placed outside of the optical path, non-uniform material properties, and effects related to baffles. We benchmark the MeepSAT simulations against other softwares using a simple single-lens telescope and demonstrate its advanced capabilities using more complex refractive systems.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Studying-the-systematics-of-CMB-telescopes-using-finite-difference-time/14156-80",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Attila Kovacs",
+      "PaperNumber": "14155-124",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "3c7781f5-3bd0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "3c7781f5-3bd0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "SuperNOVAS",
+      "Description": null,
+      "Abstract": "SuperNOVAS is a C99 / C++11 astrometry and positional astronomy library, with full support of the IAU 2000/2006 conventions for micro-arcsecond level calculations. It approaches the elegance of astropy, while providing vastly superior (3--5 orders of magnitude faster!) performance, in a thread-safe and (mostly) memory-safe, implementation. SuperNOVAS is based on the Naval Observatory Vector Astrometry Software (NOVAS) C library, with which it retains 100% API compatibility. SuperNOVAS focuses on (1) precision, (2) ease of use, (3) performance, (4) portability, (5) promoting best practices, and (6) accessible documentation. SuperNOVAS already powers the control systems of major observatories. It readily builds on virtually all computing platforms and architectures, including embedded systems, and it is available in packaged form for various Linux distros, NIX, Homebrew, and vcpkg also.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/SuperNOVAS/14155-124",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

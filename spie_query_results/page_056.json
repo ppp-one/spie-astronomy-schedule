@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Michał Kossakowski, Selina Ringsborg Howalt Owe, Rikke Stougaard Klausen, Alexander Cherlin, Denis Tcherniak, Alejandro Valverde Mahou, Søren Hauberg, Irfan Kuvvetli",
-      "PaperNumber": "14146-331",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "d55d1fae-61d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "d55d1fae-61d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Toward tracker-free Compton imaging: deep learning of charge cloud geometry in 3D CZT drift strip detectors",
-      "Description": null,
-      "Abstract": "Recoil electron tracking is a key missing capability in Compton imaging for both high-sensitivity MeV gamma-ray astronomy and advanced medical imaging. This work presents a machine learning feasibility study investigating whether recoil electron direction and charge cloud geometry can be inferred directly from CZT detector pulse shapes. Synthetic data are generated using an Advanced Theoretical Detector Model of a 3D CZT Drift Strip Detector combined with recoil electron tracks simulated in GATE. The study defines the practical feasibility limits of AI-based electron tracking for next-generation Compton imaging systems.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Toward-tracker-free-Compton-imaging--deep-learning-of-charge/14146-331",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Alain Cournoyer, Hugo Bourque, Éric Carbonneau, Patrick Gilbert, Simon Houle, Jean-Alexis Boulet, Ian Silversides, Martin Larouche, Natalia Milaniak, Frédéric Grandmont, David Naylor, Brad Gom, Adam Christiansen, Matthew Buchan",
       "PaperNumber": "14145-272",
       "DateTimeLocationDataList": [
@@ -642,9 +608,9 @@
       "PaperNumber": "14156-163",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -668,7 +634,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1724,6 +1690,40 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "10 July 2026 • 09:25 - 09:45 CEST | Room B2-M8",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Jonah T. Hansen, Emilie Bouzerand, Adrian M. Glauser, Bastien Rouzé, Noah Stocker, Walter Bachmann, Marcel Baer, Cindy Bellanger, Thomas Birbacher, Germain Garreau, Julio Pino Jiménez, Jérôme Primot, Eckhart Spalding, Sascha P. Quanz",
+      "PaperNumber": "14154-97",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 09:30 - 09:45 CEST | Room B2-M4",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "ef18f5aa-22d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "ef18f5aa-22d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Cryogenic characterisation for the nulling interferometry cryogenic experiment (NICE)",
+      "Description": null,
+      "Abstract": "The Nulling Interferometry Cryogenic Experiment (NICE) is an experimental testbed for the beam combiner of the Large Interferometer For Exoplanets (LIFE) space mission. Until now, progress on NICE has been confined to an ambient bench, where we have recorded progress in deep (<1e-5) nulls at wavelengths between 4 and 5µm at 300K. However, the ultimate goal and requirement of NICE is to repeat these measurements at the sensitivity levels expected for a planetary system, requiring deep cryogenic conditions at 15K.    In this presentation, we will describe the \"Ice Cube\" cryostat, a small version of the future NICE cryostat that is used for component and subsystem level cryogenic testing. This is interfaced with a measurement setup using a segmented aperture interferometer and a wavefront sensor. We will also describe the testing campaign for understanding the material and mounting challenges that will be faced when translating the warm bench to cryogenic operations.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Cryogenic-characterisation-for-the-nulling-interferometry-cryogenic-experiment-NICE/14154-97",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 09:30 - 09:45 CEST | Room B2-M4",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

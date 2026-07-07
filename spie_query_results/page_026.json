@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Bryan J. Butler, Rick Perley, Tony Willis, Evangelia Tremou, Eric Greisen, Benjamin Hugo",
-      "PaperNumber": "14153-30",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 16:00 - 16:20 CEST | Room B2-M8",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "9c207284-8ad0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "9c207284-8ad0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Faraday rotation correction for polarization calibration of low frequency observations",
-      "Description": null,
-      "Abstract": "Imaging polarimetry at meter wavelengths requires removal of the variable ionospheric Faraday rotation (IFRM) with an accuracy of 0.1 rad/m^2 or better. Methods to estimate the IFRM using GNSS timing data have been developed. Evaluating the accuracy of these estimates requires observations of a source of known intrinsic electric vector position angle (EVPA) over a wide rage of ionospheric conditions. At meter wavelengths, the Moon is the only source of a priori known polarized emission which can be used for this.    Using VLA and MeerKAT observations, we have tested the accuracy of seven IFRM estimates generated using data from global VTEC maps. Additionally, we have tested the IFRM estimates derived using GNSS data from nearby stations directly. The estimates based on global maps consistently overestimate the magnitude of the IFRM by 0.3 to 1.0 rad/m^2, whereas the estimates using local GNSS data are within 0.1 rad/m^2 of those derived from the lunar data.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Faraday-rotation-correction-for-polarization-calibration-of-low-frequency-observations/14153-30",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 16:00 - 16:20 CEST | Room B2-M8",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Marie Laslandes, Stefan Ströbele, Lucas Munoz, Aline Pham, Pierre-Yves Madec, Julien Charton",
-      "PaperNumber": "14154-57",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 16:00 - 16:15 CEST | Room B2-M4",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "924e83a9-fad4-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "924e83a9-fad4-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "High stability deformable mirror with large number of actuators for astronomical telescopes: requirements and performance",
-      "Description": null,
-      "Abstract": "The next generation of instruments for very and extremely large telescopes is requiring adaptive optics systems more and more efficient in correcting atmospheric turbulence. For most instruments, this is translating into larger number of actuators and faster deformable mirrors (DM). There is also an increasing need for better stability of the DM surface when its shape is not controlled.   In this paper, we present the requirements, the development and the performance of a 93 mm diameter DM with 3228 actuators with improved mirror performance without need for closed loop control. This DM type was developed by Bertin Alpao in collaboration with ESO and will be used in the MAVIS instrument.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/High-stability-deformable-mirror-with-large-number-of-actuators-for/14154-57",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 16:00 - 16:15 CEST | Room B2-M4",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Juan Carlos Guerra, Sam Ragland",
       "PaperNumber": "14152-38",
       "DateTimeLocationDataList": [
@@ -706,40 +638,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Adrien Bolliand, Eloïse Bernaud, Michel Marcos, Eduard Muslimov, Jiawei Liu, Gérard Lemaître, Samuel Boissier, Emmanuel Hugot",
-      "PaperNumber": "14154-59",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 16:30 - 16:45 CEST | Room B2-M4",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "7b36705a-6fd0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "7b36705a-6fd0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "CASTLE First light results: unveiling the low surface brightness universe with freeform optics and curved sensors",
-      "Description": null,
-      "Abstract": "The CASTLE telescope first objective was to build a technological demonstrator to prove the curved sensors technology with real astronomical observations. Through its early lifetime, the project triggered the interest of the Low Surface Brightness Universe community. This presentation is about the first light of the telescope, recently installed at Calar Alto, Spain.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/CASTLE-First-light-results--unveiling-the-low-surface-brightness/14154-59",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 16:30 - 16:45 CEST | Room B2-M4",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Giovanni Pareschi, Salvatore Scuderi, Andrea Giuliani, Stefano Vercellone, Gino Tosti, Teresa Mineo, Saverio Lombardi, Fabrizio Lucarelli, Giorgia Sironi, Nicola La Palombara, Giuseppe Sottile, Luigi Lessio, Andrea Bulgarelli, Silvia Crestan, Simone Iovenitti, Fausto Casaburo, Carmelo Gargano, Francesco Saturni, Ciro Bigongiari, Fabio Pintore, Fulvio Gianotti, Vito Conforti, Pierluca Sangiorgi, Luca Zampieri, Michele Buzzi, Rachele Millul, Giuseppe Leto, Christine Grivel, Edgar Molina, Josefa Becerra Gonzales",
       "PaperNumber": "14147-41",
       "DateTimeLocationDataList": [
@@ -873,6 +771,40 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 16:30 - 16:50 CEST | Room B4-M3",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Adrien Bolliand, Eloïse Bernaud, Michel Marcos, Eduard Muslimov, Manal Chebbo, Jiawei Liu, Gérard Lemaître, Jesús Aceituno, Stefan Cikota, Franck Agnese, Christophe Wabnitz, Samuel Boissier, Pierre Alain Duc, Emmanuel Hugot",
+      "PaperNumber": "14154-59",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 16:30 - 16:45 CEST | Room B2-M4",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "7b36705a-6fd0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "7b36705a-6fd0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Towards CASTLE first light: unveiling the low surface brightness universe with freeform optics and curved sensors",
+      "Description": null,
+      "Abstract": "The CASTLE telescope first objective was to build a technological demonstrator to prove the curved sensor technology with real astronomical observations. Through its early lifetime, the project triggered the interest of the Low Surface Brightness Universe community. This presentation is about the status of the project towards the first light of the telescope, installed at Calar Alto, Spain.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Towards-CASTLE-first-light--unveiling-the-low-surface-brightness/14154-59",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 16:30 - 16:45 CEST | Room B2-M4",
       "ErrorMessage": null
     },
     {
@@ -1724,6 +1656,74 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 17:15 - 17:35 CEST | Auditorium 15",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Myriam Rodrigues, Alondra Solá, Clément Hottier, Hermine Schnetler, Raziye Artan, Nazim A. Bharmal, Diane Chapuis, Gavin Dalton, Michel Dupieux, Kacem El Hadi, Marc Jaquet, Andreas Kelz, Marie Larrieu, Laurent Martin, Meghna Mohamed, Timothy J. Morris, Ana Perez, Eric Prieto, Jay Stephen, Roser Pello, Mathieu Puech, Thomas Augusteijn, María Luisa García-Vargas, Alessandro Meoli, Ruben Sanchez-Janssen, Christian Surace, Franck Ducret",
+      "PaperNumber": "14152-42",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:20 - 17:40 CEST | Room B2-M6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "e909fce7-d5ca-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "e909fce7-d5ca-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "MOSAIC at ELT: building a comprehensive engineering database",
+      "Description": null,
+      "Abstract": "MOSAIC, the multi-object spectrograph for the ESO Extremely Large Telescope (ELT), is developed by a dis-  tributed consortium involving multiple institutes and engineering disciplines. Maintaining consistency between  requirements, interfaces, product definitions, verification activities and engineering documentation is therefore a  major systems engineering challenge. To address this, the project implemented a central engineering information  model using ReqSuite® Requirement Management tool. Rather than limiting the repository to requirements  management, the database also stores other engineering artifacts, such as Product Breakdown Structure, inter-  faces, configuration items and verification information, providing a common technical reference for the project.  Behavioural and parametric models -such as observing sequences, funcional analysis and performances calculator-  remain in their specialised engineering tools but are connected to the database through traceability links and  applic",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/MOSAIC-at-ELT-building-a-comprehensive-engineering-database/14152-42",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:20 - 17:40 CEST | Room B2-M6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Angiola Orlando",
+      "PaperNumber": "14156-17",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:20 - 17:40 CEST | Room B5-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "e8db802a-5cd0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "e8db802a-5cd0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The Simons Observatory: two new Small Aperture Telescopes employing feedhorn-coupled OMT dichroic Kinetic Inductance Detectors",
+      "Description": null,
+      "Abstract": "The Simons Observatory (SO) is a ground-based cosmic microwave background (CMB) survey experiment consisting of three 0.5m small-aperture telescopes (SATs) and one 6m large-aperture telescope (LAT), observing from an altitude of 5200m in the Atacama Desert in Chile. These instruments employ over 120000 superconducting transition edge sensor (TES) detectors operating at frequency bands between 30GHz and 280GHz and are conducting regular observations for a broad range of CMB science goals, including searches for primordial gravitational waves through B-mode polarization. We are planning to deploy two additional SATs employing arrays of dual-polarization feedhorn-coupled multichroic Microwave Kinetic Inductance Detectors (MKIDs) operating at 90/150GHz and bespoke warm detector readout electronics.The integration and testing of both SAT receivers are underway in the UK. We provide an overview of these receivers, discuss integration status and achieved performance on the path to deployment.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Simons-Observatory--two-new-Small-Aperture-Telescopes-employing/14156-17",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:20 - 17:40 CEST | Room B5-M3",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

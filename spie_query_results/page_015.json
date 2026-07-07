@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Michael Pleasance",
-      "PaperNumber": "14153-13",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "6 July 2026 • 16:00 - 16:20 CEST | Room B2-M8",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "8e54de2b-90cc-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "8e54de2b-90cc-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Correlator/beamformer for the Square Kilometre Array Mid Frequency Telescope: design and status update",
-      "Description": null,
-      "Abstract": "The National Research Council of Canada (NRC) is leading the development and delivery of the Square Kilometer Array (SKA) Mid Frequency Correlator/Beamformer (Mid.CBF) signal processing system. This talk provides an overview of the system design for both the early prototype systems (TALON Demonstration Correlator) and production systems for the larger array assemblies. The talk also provides a status update, highlighting completed and upcoming milestones.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Correlator-beamformer-for-the-Square-Kilometre-Array-Mid-Frequency-Telescope/14153-13",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "6 July 2026 • 16:00 - 16:20 CEST | Room B2-M8",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Rodolphe Conan, Konstantinos Vogiatzsis, Henry Fitzpatrick, Christoph Dribusch, Rodrigo Romano, Brian Walls",
       "PaperNumber": "14152-21",
       "DateTimeLocationDataList": [
@@ -1390,7 +1356,7 @@
       "PaperNumber": "14157-78",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 6 July 2026",
+          "date_time_location": "On demand | Presented live 6 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1416,7 +1382,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
+      "DisplayDateTime": "On demand | Presented live 6 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1424,7 +1390,7 @@
       "PaperNumber": "14145-144",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 6 July 2026",
+          "date_time_location": "On demand | Presented live 6 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1450,7 +1416,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
+      "DisplayDateTime": "On demand | Presented live 6 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1492,7 +1458,7 @@
       "PaperNumber": "14152-72",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 6 July 2026",
+          "date_time_location": "On demand | Presented live 6 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1518,7 +1484,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
+      "DisplayDateTime": "On demand | Presented live 6 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1594,7 +1560,7 @@
       "PaperNumber": "14150-203",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 6 July 2026",
+          "date_time_location": "On demand | Presented live 6 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1620,7 +1586,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
+      "DisplayDateTime": "On demand | Presented live 6 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1662,7 +1628,7 @@
       "PaperNumber": "14152-70",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 6 July 2026",
+          "date_time_location": "On demand | Presented live 6 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1688,7 +1654,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 6 July 2026",
+      "DisplayDateTime": "On demand | Presented live 6 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1724,6 +1690,40 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "6 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Ricardo Zanmar Sanchez, Salvatore Savarese, Vittorio Braga, Marcella Di Criscienzo, Giuliana Fiorentino, Pietro Schipani, Laura Schreiber, Joshua Meyers, Sandrine J. Thomas",
+      "PaperNumber": "14152-94",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presented live 6 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "dbe0992a-4dcc-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "dbe0992a-4dcc-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "A wavefront sensing method based on science image analysis: application to the Vera C. Rubin Observatory",
+      "Description": null,
+      "Abstract": "We present a wavefront sensing technique based on the analysis of elongation patterns of science star fields. Our method relies on a parametric model to calculate the wavefront error throughout the focal plane and we use it to analytically derive moments of stars. With numerical optimization we find the corresponding misalignments (rigid body and mirror deformations) that best reproduce a given ellipticity pattern of stars. In this work we apply the method to science images observed during the commissioning of the LSST of the Vera C. Rubin observatory and present some lessons learned and limitations of this technique.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/A-wavefront-sensing-method-based-on-science-image-analysis/14152-94",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presented live 6 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

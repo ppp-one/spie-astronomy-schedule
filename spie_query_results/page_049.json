@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Leanne P. Guy, Connor Yablonski, Aaron Meisner, Guillem Megias Homar, Merlin Fisher-Levine, Eman E. Ali, Tiger J. Hu, Christopher W. Stubbs",
-      "PaperNumber": "14151-51",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 16:30 - 16:50 CEST | Room B2-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "62177a0c-11cb-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "62177a0c-11cb-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Development of a Retrieval-Augmented Generation Chatbot for Enhanced Information Discovery at Rubin Observatory",
-      "Description": null,
-      "Abstract": "The Vera C. Rubin Observatory’s LSST will produce petabytes of data supported by a large, heterogeneous set of technical documents, operational guides, and scientific notes. Because this material is distributed across numerous platforms and formats, including internal systems, users and general-purpose language models often find it difficult to locate reliable Rubin-specific information. To address this, we developed a Retrieval-Augmented Generation (RAG) virtual assistant that provides context-aware, factual access to Rubin’s documentation ecosystem. The system aggregates content from multiple sources and performs semantic search through a conversational interface, using Weaviate for embeddings, LangChain for query orchestration, and an OpenAI GPT model as the LLM backend. Grounding responses in domain-specific knowledge reduces hallucinations, improves accuracy, and demonstrates the potential of RAG to streamline workflows and support effective use of LSST data products.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-a-Retrieval-Augmented-Generation-Chatbot-for-Enhanced-Information/14151-51",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 16:30 - 16:50 CEST | Room B2-M2",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Nuwanthika Fernando, Brent Miszalski, Nuria Lorente, Anthony Horton",
       "PaperNumber": "14155-73",
       "DateTimeLocationDataList": [
@@ -366,7 +332,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Laurane Fréour, Anna Puglisi, Amelia Bayo, Fatemeh Zahra Majidi, Sabine Thater, Francesca Primas, Laurence Tresse, Umberto Rescigno, Stéphanie Escoffier, Maria Cristina Fortuna, Letizia P. Cassarà, Roland Bacon, Vincenzo Mainieri, Sofia Randich",
+      "Authors": "Laurane Fréour, Anna Puglisi, Amelia Bayo, Fatemeh Zahra Majidi, Sabine Thater, Francesca Primas, Laurence Tresse, Umberto Rescigno, Maria Cristina Fortuna, Stéphanie Escoffier, Letizia P. Cassarà, Roland Bacon, Vincenzo Mainieri, Sofia Randich",
       "PaperNumber": "14151-52",
       "DateTimeLocationDataList": [
         {
@@ -1724,6 +1690,40 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Matteo Canzari, Fiore De Luise, Mauro Dolci, Gaetano Valentini, Andrea Baldassarre, Simone Benedetti, Filippo Boschi, Amico Di Cianno, Nicola Napoleone, Massimo Quintini, Angelo Valentini",
+      "PaperNumber": "14155-200",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "00d6ea70-a3d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "00d6ea70-a3d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Advancing operations at the Campo Imperatore observing station: integrated modernization of telescopes and infrastructure",
+      "Description": null,
+      "Abstract": "The Campo Imperatore observing station on the Gran Sasso plateau hosts Italy’s highest professional VIS/NIR facility. Two 1-m telescopes, VIT and WOT, are undergoing a coordinated modernization of hardware, control systems, and software infrastructure. VIT is being upgraded with the new CI2RCE InGaAs NIR imager and enhanced control capabilities, while WOT receives updated electronics. Additional developments include site-wide environmental monitoring, extended control hardware, and an integrated software layer for unified operations. This work presents the current configuration of the station and the ongoing refurbishment efforts, aimed at improving reliability, availability, and full remote operability, and outlines the planned return of VIT to scientific operations with its upgraded instrumentation.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Advancing-operations-at-the-Campo-Imperatore-observing-station--integrated/14155-200",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

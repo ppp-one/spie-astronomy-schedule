@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Shawn D. Domagal-Goldman",
-      "PaperNumber": "14145-501",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 09:10 - 09:50 CEST | Hall A",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "555d4dfa-1056-f111-a9b3-00505691c5e1---crmrecord",
-      "GUID": "555d4dfa-1056-f111-a9b3-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "NASA’s flagship observatories: from Hubble to the Habitable Worlds Observatory",
-      "Description": null,
-      "Abstract": "This talk will discuss the Habitable Worlds Observatory, in the context of the flagship missions that have come before it, including the Hubble Space Telescope, the Chandra X-ray Observatory, the James Webb Space Telescope, and the soon-to-launch Nancy Grace Roman Space Telescope. HWO will continue the tradition of these missions to pursue big-picture questions only they can answer, while they advance questions across astrophysics. HWO will pursue multiple big-picture questions related to how the universe works, how it evolved over time, and whether it hosts biopsheres other than our own. That last question is also the driver of many of the mission’s technical tall poles, which will be discussed along with our plans to overcome those challenges.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/NASAs-flagship-observatories--from-Hubble-to-the-Habitable-Worlds/14145-501",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 09:10 - 09:50 CEST | Hall A",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Peter G. Tuthill",
-      "PaperNumber": "14145-37",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 10:30 - 10:50 CEST | Room B4-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "f9d826b8-21d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "f9d826b8-21d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Astrometric detection of rocky exoplanets from inexpensive space platforms",
-      "Description": null,
-      "Abstract": "The detection of exoplanets by way of astrometric monitoring of the host star to reveal gravitational reflex motion requires extreme precision in measurement stability for Earth-mass objects. Despite this, astrometry is widely regarded as the most promising technology for the most desired of all targets: true Earth analogues in the solar neighbourhood. Formerly thought to require flagship class investment, recently several smaller concepts such as the TOLIMAN and SHERA missions have shown that detections are possible, at least in principle, from more modest space platforms. A key enabling feature of these missions is narrow-angle astrometry: a binary star provides its own astrometric reference greatly alleviating problems from using distant, faint field stars. However, few nearby star systems are multiple. This paper advances novel optical concepts featuring ultra-stable telescopes of modest (<0.5m) aperture for micro-arcsecond monitoring of isolated single stars.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Astrometric-detection-of-rocky-exoplanets-from-inexpensive-space-platforms/14145-37",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 10:30 - 10:50 CEST | Room B4-M3",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Ryan Griffiths, Siddharth Maharana, Matthias Tecza",
       "PaperNumber": "14154-41",
       "DateTimeLocationDataList": [
@@ -1724,6 +1656,74 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 11:40 - 12:10 CEST | Room B4-M5",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Gregory Y. Prigozhin, Marshall Bautz, Beverly LaMarr, Kevan Donlon, Christopher Leitz, Eric Miller, Michelle Gabutti, Jill Juneau, Sven Herrmann, Peter Orel, Tanmoy Chattopadhyay, Michael Cooper, Noah Pestana, Doug Yang, Ilya Prigozhin, Abigail Pan, Haley Stueber, Declan O'Neill, Glenn Morris, Steven Allen",
+      "PaperNumber": "14157-39",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 11:40 - 12:00 CEST | Room B5-M1",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "8d3d90c4-67cd-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "8d3d90c4-67cd-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Noise and charge transfer characteristics of Fast, Low-noise CCD Sensors for AXIS",
+      "Description": null,
+      "Abstract": "A new CCD for the Advanced X-ray Imaging Satellite (AXIS), has been designed by the MIT Lincoln Laboratories. The device called CCID100 serves as a form/fit/function prototype for future X-ray missions and has a classic Frame Transfer architecture with 16 parallel output channels allowing for fast readout of the entire 1450x1455 24 micron pixel array. It is built on a high resistivity substrate with a single layer polysilicon gates and low noise pJFET outputs. As a part of a collaborative effort by MIT Kavli Institute and Stanford University, we have built a test camera that allows to evaluate the devices in a wide temperature range. Here we present the results of device testing, focusing mostly on charge transfer inefficiency (CTI) dependencies on frequency, clock amplitudes and temperature, and studying of detector noise as a function of multiple operational parameters. We utilized the device charge injection capability as a powerful tool for characterizing",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Noise-and-charge-transfer-characteristics-of-Fast-Low-noise-CCD/14157-39",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 11:40 - 12:00 CEST | Room B5-M1",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Christian J. Killow, Robert G. Bell, Andrew Boyd, James Copley, James N. Monks, Manish R. Patel, Ryan Swindell, Gavin Wedlock, Jonathan Williams, Jon P. Mason",
+      "PaperNumber": "14154-46",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 11:45 - 12:00 CEST | Room B2-M4",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "82cf9b03-a3ce-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "82cf9b03-a3ce-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The optical head for the Dust Environment Spectral Imager (DESI) on Lightship-1",
+      "Description": null,
+      "Abstract": "We present the optical system design of the Dust Environment Spectral Imager (DESI), an instrument that will fly on LightShip-1 planned for launch in the early 2030's.    DESI will take full-disk multispectral images of Mars with 5 km resolution from the UV to visible. This enables monitoring of Martian dust, water ice clouds and ozone that will generate new scientific data in a variety of important areas, including weather forecasting.    A single optical channel has been designed to operate across the wavebands with eight bandpass filters to select wavelengths of interest within this spectrum.    Optical and coating design at such short wavelengths poses considerable challenges due to the truncated material choices suitable for use in the deep UV. Added to the practical limitations of space flight optics, novel designs were needed.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-optical-head-for-the-Dust-Environment-Spectral-Imager-DESI/14154-46",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 11:45 - 12:00 CEST | Room B2-M4",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

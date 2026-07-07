@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Matteo Canzari, Fiore De Luise, Mauro Dolci, Gaetano Valentini, Andrea Baldassarre, Simone Benedetti, Filippo Boschi, Amico Di Cianno, Nicola Napoleone, Massimo Quintini, Angelo Valentini",
-      "PaperNumber": "14155-200",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 9 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "00d6ea70-a3d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "00d6ea70-a3d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Advancing operations at the Campo Imperatore observing station: integrated modernization of telescopes and infrastructure",
-      "Description": null,
-      "Abstract": "The Campo Imperatore observing station on the Gran Sasso plateau hosts Italy’s highest professional VIS/NIR facility. Two 1-m telescopes, VIT and WOT, are undergoing a coordinated modernization of hardware, control systems, and software infrastructure. VIT is being upgraded with the new CI2RCE InGaAs NIR imager and enhanced control capabilities, while WOT receives updated electronics. Additional developments include site-wide environmental monitoring, extended control hardware, and an integrated software layer for unified operations. This work presents the current configuration of the station and the ongoing refurbishment efforts, aimed at improving reliability, availability, and full remote operability, and outlines the planned return of VIT to scientific operations with its upgraded instrumentation.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Advancing-operations-at-the-Campo-Imperatore-observing-station--integrated/14155-200",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Jorge D. Llop-Sayson, Chaoyin Zhou, Anita M. Fisher, Garreth J. Ruane, Eugene Serabyn, Dimitri P. Mawet",
       "PaperNumber": "14145-285",
       "DateTimeLocationDataList": [
@@ -1220,9 +1186,9 @@
       "PaperNumber": "14154-390",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1238,15 +1204,15 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Coronagraph as a Spectrograph: Spectral Retrieval from a Single Broadband Telescope Image",
+      "Title": "Coronagraph as a spectrograph: spectral retrieval from a single broadband telescope image",
       "Description": null,
       "Abstract": "Spectroscopic characterization is crucial for understanding stellar properties and for accurately calibrating the spectral differences between reference and target stars, which is essential for precise Point Spread Function (PSF) subtraction. However, many telescopes are not equipped with dedicated spectrographs for such characterization. In this presentation, we show a coronagraph can act as a low-resolution spectrometer: its wavelength-dependent modulation imprints spectral information onto the broadband coronagraphic PSF. We cast spectrum recovery as an inverse problem by fitting a forward PSF model to a single broadband image. Simulations and a laboratory demonstrator confirm feasibility, and we demonstrate the method on HST coronagraph data. This enables spectral inference from archival coronagraph images and relaxes color-matching constraints for PSF reference stars in future telescopes.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Coronagraph-as-a-Spectrograph--Spectral-Retrieval-from-a-Single/14154-390",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Coronagraph-as-a-spectrograph--spectral-retrieval-from-a-single/14154-390",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1624,13 +1590,13 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Kenshi Yanagisawa, Riku Sato, Shinobu Ozaki, Chihiro Tokoku, Takashi Moriya, Kumiko Morihana, Kensho Tanaka, Tomoya Yukino, Kentaro Motohara, Yoshito Ono, Yosuke Minowa, Koki Terao, Yuki Moritani, Kosuke Kushibiki, Masami Ouchi, Nozomu Tominaga, Masayuki Tanaka, Yutaka Hayano, Yusei Koyama, Sadman Ali, Masaomi Tanaka, Masayuki Akiyama, Tohru Nagao, Yoshiki Matsuoka, Tomoyasu Yamamuro, Michitoshi Yoshida",
+      "Authors": "Kenshi Yanagisawa, Riku A. Sato, Shinobu Ozaki, Chihiro Tokoku, Takashi Moriya, Kumiko Morihana, Kensho Tanaka, Tomoya Yukino, Kentaro Motohara, Yoshito Ono, Yosuke Minowa, Koki Terao, Yuki Moritani, Kosuke Kushibiki, Masami Ouchi, Nozomu Tominaga, Masayuki Tanaka, Yusei Koyama, Yutaka Hayano, Sadman Ali, Masaomi Tanaka, Masayuki Akiyama, Tohru Nagao, Yoshiki Matsuoka, Tomoyasu Yamamuro, Michitoshi Yoshida",
       "PaperNumber": "14149-419",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1654,7 +1620,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1724,6 +1690,40 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Pablo Strazzeri, José Alberro, Elia Stefano Battistelli, Asdrubal Bottani, Eduardo Carella, Alessandro Coppolecchia, Néstor Del Castillo, Gabriel de Innocenti, Gustavo Domínguez, Alberto Etchegoyen, Sofia Ferazzoli, Luciano Ferreyro, Juan Geria, Daniel Gorbeña, Laurent Grandsire, Matías Hampel, Christian Kristukat, Osvaldo Lang, Facundo Lazarte, Alexis Mancilla, Silvia Masi, Javier Maya, Julio Migliori, Mariano Mundo, Hernán Ocampo, Andrés Pantarotto, Paolo de Bernardis, Andrés Pereyra, Alessandro Paiella, Manuel Platino, Emiliano Rasztocky, Adrián Riello, Pablo Ringegni, Cristian Rodríguez, Fabricio Rodríguez, Gustavo Romero, Diego Silva, Alejando Solís, Lucía Sucunza, Carlos Varela, Germán Wasserman",
+      "PaperNumber": "14147-180",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "d831634e-aacf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "d831634e-aacf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Design and construction of the QUBIC instrument mount",
+      "Description": null,
+      "Abstract": "The Q & U Bolometric Interferometer for Cosmology (QUBIC) is a novel polarimeter optimized for measuring the B-mode polarization of the Cosmic Microwave Background (CMB). The instrument combines two complementary techniques: it uses interferometry to achieve excellent control of instrumental systematic effects, and bolometric detection to obtain high sensitivity.   This work presents the design, construction, and testing of the mount that supports the instrument and enables its motion. The mount features three rotational axes, azimuth, elevation, and boresight. Although the main science target is a small region of the sky, the instrument must be capable of rotating more than 360° in azimuth in order to point toward a calibration source located on the opposite side of the observable sky.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Design-and-construction-of-the-QUBIC-instrument-mount/14147-180",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

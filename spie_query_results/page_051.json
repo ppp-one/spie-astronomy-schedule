@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Pablo Strazzeri, José Alberro, Elia Stefano Battistelli, Asdrubal Bottani, Eduardo Carella, Alessandro Coppolecchia, Néstor Del Castillo, Gabriel de Innocenti, Gustavo Domínguez, Alberto Etchegoyen, Sofia Ferazzoli, Luciano Ferreyro, Juan Geria, Daniel Gorbeña, Laurent Grandsire, Matías Hampel, Christian Kristukat, Osvaldo Lang, Facundo Lazarte, Alexis Mancilla, Silvia Masi, Javier Maya, Julio Migliori, Mariano Mundo, Hernán Ocampo, Andrés Pantarotto, Paolo de Bernardis, Andrés Pereyra, Alessandro Paiella, Manuel Platino, Emiliano Rasztocky, Adrián Riello, Pablo Ringegni, Cristian Rodríguez, Fabricio Rodríguez, Gustavo Romero, Diego Silva, Alejando Solís, Lucía Sucunza, Carlos Varela, Germán Wasserman",
-      "PaperNumber": "14147-180",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "d831634e-aacf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "d831634e-aacf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Design and construction of the QUBIC instrument mount",
-      "Description": null,
-      "Abstract": "The Q & U Bolometric Interferometer for Cosmology (QUBIC) is a novel polarimeter optimized for measuring the B-mode polarization of the Cosmic Microwave Background (CMB). The instrument combines two complementary techniques: it uses interferometry to achieve excellent control of instrumental systematic effects, and bolometric detection to obtain high sensitivity.   This work presents the design, construction, and testing of the mount that supports the instrument and enables its motion. The mount features three rotational axes, azimuth, elevation, and boresight. Although the main science target is a small region of the sky, the instrument must be capable of rotating more than 360° in azimuth in order to point toward a calibration source located on the opposite side of the observable sky.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Design-and-construction-of-the-QUBIC-instrument-mount/14147-180",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Arijit Maiti, Bhavesh Kumar Mistry, Mudit K. Srivastava",
       "PaperNumber": "14149-416",
       "DateTimeLocationDataList": [
@@ -536,7 +502,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Robin Anthony-Petersen, Steven E. Boggs, Emily Broadbent, Julian Gerber, Felix Hagemann, Sophia E. Haight, Dieter Hartmann, Carolyn A. Kierans, Matthew Lassiter, Alex Lowell, Brent Mochizuki, Samer Al Nussirat, Parshad Patel, Jarred Roberts, Nicole Rodriguez Cavero, Field Rogers, Clio C. Sleator, John A. Tomsick, Andreas Zoglauer",
+      "Authors": "Robin Anthony-Petersen, Steven E. Boggs, Emily Broadbent, Julian Gerber, Felix Hagemann, Sophia E. Haight, Dieter Hartmann, Carolyn A. Kierans, Matthew Lassiter, Alex Lowell, Brent Mochizuki, Samer Al Nussirat, Jarred Roberts, Parshad Patel, Nicole Rodriguez Cavero, Field Rogers, Clio C. Sleator, John A. Tomsick, Andreas Zoglauer",
       "PaperNumber": "14146-338",
       "DateTimeLocationDataList": [
         {
@@ -1046,7 +1012,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Hiroshi Matsuo, Hajime Ezawa, Tomohiro Koseki, Shotaro Inoue, Tetsusaburo Seino",
+      "Authors": "Hiroshi Matsuo, Hajime Ezawa, T. Koseki, S. Inoue, T. Seino",
       "PaperNumber": "14156-184",
       "DateTimeLocationDataList": [
         {
@@ -1068,11 +1034,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Development of Terahertz intensity interferometry for very high angular resolution studies",
+      "Title": "Development of terahertz intensity interferometry for very high angular resolution studies",
       "Description": null,
       "Abstract": "To realize high angular resolution in far-infrared (FIR) and terahertz (THz) range, imaging capability of intensity interferometry is studied. Using high sensitivity SIS photon detectors and cryogenic readout electronics operational at 0.8 K, we have realized fast intensity measurement system for intensity correlation measurements. We have evaluated that the system sensitivity is enough to measure delay time within 1 ps between two beams using 600 GHz SIS photon detectors and GaAs FETs observing high temperature blackbody. Imaging capability based on the laboratory experiment will be discussed. We are planning astronomical demonstrations of THz intensity interferometry from Dome-Fuji, Antarctica, using two 30-cm telescopes. Prospects of space-borne FIR intensity interferometry and their observational capability will be discussed.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-Terahertz-intensity-interferometry-for-very-high-angular-resolution/14156-184",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-terahertz-intensity-interferometry-for-very-high-angular-resolution/14156-184",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1254,9 +1220,9 @@
       "PaperNumber": "14149-438",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1280,17 +1246,17 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
-      "Authors": "Rustam Balafendiev, Xiaodong Ren, Jón E. Guðmundsson",
+      "Authors": "Rustam Balafendiev, Miranda Eiben, Jón E. Gudmundsson",
       "PaperNumber": "14156-193",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1314,7 +1280,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1356,9 +1322,9 @@
       "PaperNumber": "14156-162",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1382,7 +1348,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1724,6 +1690,40 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Binbin Xiang, Shike Mo, XueTong Yang, Wei Wang, Longfei Niu",
+      "PaperNumber": "14153-103",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "8a26358a-85cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "8a26358a-85cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Fault diagnosis technique for radio telescope antenna drive reducer gears based on the fused model",
+      "Description": null,
+      "Abstract": "Low-speed operation of antenna drive reducer gears suffers from reduced SNR, obscuring fault features under noise interference where traditional methods fail. This study proposes an RBMO-optimized SVMD-MCKD-CNN-LSTM fusion model (RSM-CL) for fault diagnosis. RBMO-optimized SVMD-MCKD first enhances raw signals via noise reduction and feature amplification. Subsequently, CNN extracts localized spatial features while LSTM captures temporal dependencies for deep fault characterization. Experimental validation demonstrates the model achieves >97% average classification accuracy, outperforming conventional single-decomposition/single-model approaches in both diagnostic precision and computational efficiency (reduced processing time). This framework establishes a novel solution for low-speed reducer gear fault diagnosis.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Fault-diagnosis-technique-for-radio-telescope-antenna-drive-reducer-gears/14153-103",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

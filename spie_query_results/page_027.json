@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Myriam Rodrigues, Alondra Solá, Clément Hottier, Hermine Schnetler, Raziye Artan, Nazim A. Bharmal, Diane Chapuis, Gavin Dalton, Michel Dupieux, Kacem El Hadi, Marc Jaquet, Andreas Kelz, Marie Larrieu, Laurent Martin, Meghna Mohamed, Timothy J. Morris, Ana Perez, Eric Prieto, Jay Stephen, Roser Pello, Mathieu Puech, Thomas Augusteijn, María Luisa García-Vargas, Alessandro Meoli, Ruben Sanchez-Janssen, Christian Surace, Franck Ducret",
-      "PaperNumber": "14152-42",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:20 - 17:40 CEST | Room B2-M6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "e909fce7-d5ca-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "e909fce7-d5ca-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "MOSAIC at ELT: building a comprehensive engineering database",
-      "Description": null,
-      "Abstract": "MOSAIC, the multi-object spectrograph for the ESO Extremely Large Telescope (ELT), is developed by a dis-  tributed consortium involving multiple institutes and engineering disciplines. Maintaining consistency between  requirements, interfaces, product definitions, verification activities and engineering documentation is therefore a  major systems engineering challenge. To address this, the project implemented a central engineering information  model using ReqSuite® Requirement Management tool. Rather than limiting the repository to requirements  management, the database also stores other engineering artifacts, such as Product Breakdown Structure, inter-  faces, configuration items and verification information, providing a common technical reference for the project.  Behavioural and parametric models -such as observing sequences, funcional analysis and performances calculator-  remain in their specialised engineering tools but are connected to the database through traceability links and  applic",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/MOSAIC-at-ELT-building-a-comprehensive-engineering-database/14152-42",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:20 - 17:40 CEST | Room B2-M6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Angiola Orlando",
-      "PaperNumber": "14156-17",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:20 - 17:40 CEST | Room B5-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "e8db802a-5cd0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "e8db802a-5cd0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The Simons Observatory: two new Small Aperture Telescopes employing feedhorn-coupled OMT dichroic Kinetic Inductance Detectors",
-      "Description": null,
-      "Abstract": "The Simons Observatory (SO) is a ground-based cosmic microwave background (CMB) survey experiment consisting of three 0.5m small-aperture telescopes (SATs) and one 6m large-aperture telescope (LAT), observing from an altitude of 5200m in the Atacama Desert in Chile. These instruments employ over 120000 superconducting transition edge sensor (TES) detectors operating at frequency bands between 30GHz and 280GHz and are conducting regular observations for a broad range of CMB science goals, including searches for primordial gravitational waves through B-mode polarization. We are planning to deploy two additional SATs employing arrays of dual-polarization feedhorn-coupled multichroic Microwave Kinetic Inductance Detectors (MKIDs) operating at 90/150GHz and bespoke warm detector readout electronics.The integration and testing of both SAT receivers are underway in the UK. We provide an overview of these receivers, discuss integration status and achieved performance on the path to deployment.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Simons-Observatory--two-new-Small-Aperture-Telescopes-employing/14156-17",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:20 - 17:40 CEST | Room B5-M3",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Dinko Milaković, Guido Cupani, Bruce Bassett, Stefano Cristiani, Luca Pasquini",
       "PaperNumber": "14155-90",
       "DateTimeLocationDataList": [
@@ -268,9 +200,9 @@
       "PaperNumber": "14157-109",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 7 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -294,7 +226,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -842,40 +774,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Diego Paredes-Sanz, Sonny Massahi, Sara Svendsen, Desirée Della Monica Ferreira, Michael Avngaard, Finn Erland Christensen, Arne S. Jegers, Alessandro Morello, Andreas E. Nielsen, Mia J. Krag, Mads H. Jensen",
-      "PaperNumber": "14146-271",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "694bc8d6-40d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "694bc8d6-40d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Achieving W/SiC multilayers with 1nm d-spacing and graded mirror coatings up to 550mm following upgrades to the DTU475 coating chamber",
-      "Description": null,
-      "Abstract": "We present upgrades and expanded capabilities of the DTU475 DC magnetron sputtering chamber at the Technical University of Denmark. The system, previously used for the production of NuSTAR multilayer optics, has been refurbished to improve deposition throughput, process stability, and coating uniformity.   The upgraded chamber enables uniform coating of substrates up to 550 mm in length, extending its applicability to large X-ray optical elements for synchrotron beamlines and calibration facilities. We demonstrate the deposition of periodic SiC/W multilayers with d-spacings down to 1 nm and interface roughness of 0.3 nm. In addition, we show the capability to produce three-dimensionally graded coatings with controlled thickness gradients along the axial, lateral, and depth directions of the mirror. These results establish DTU475 as a versatile platform for advanced X-ray optics development.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Achieving-W-SiC-multilayers-with-1nm-d-spacing-and-graded/14146-271",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Brianna Cantrall, Rui Shi, Shawn W. Henderson, Zeeshan Ahmed, William Doriese, Malcolm Durkin, Johnathon Gard, Gunther Haller, Johannes Hubmayr, Leonid Sapozhnikov, Peter A. Ade, Mandana Amiri, Denis Barkats, Darcy Barron, Ritoban Basu Thakur, Ian Birdwell, Colin A. Bischoff, Dominic Beck, James J. Bock, Hans Boenish, Eric Bullock, Victor Buza, James R. Cheshire, Damien Cherouvrier, Susan E. Clark, Jake Connors, James Cornelison, Michael Crumrine, Ari Jozef Cukierman, Stephanie Damish, Edward Denison, Marion Dierickx, Lionel Duband, Michael A. Echter, Miranda Eiben, Brodi D. Elwood, Sofia Fatigoni, Jeffrey P. Filippini, Stefan Fliescher, Antonio Fortes, Min Gao, Christos Giannakopoulos, Neil Goeckner-Wald, David C. Goldfinger, Stephen Gratton, James A. Grayson, Annsley Greathouse, Paul K. Grimes, Grantland Hall, George Halal, Mark Halpern, Emma Hand, Sam A. Harrison, Sergi Hildebrandt, Gene C. Hilton, Thuong Hoang, Howard Hui, Kent D. Irwin, Marcela Izquierdo Poza, Jae Hwan Kang, Kirit S. Karkare, Ethan Karpel, Sinan Kefeli, Sarah A. Kernasovskiy, John M. Kovac, Chao-Lin Kuo, Kekoa Lasko, King Lau, Margaret Lautzenhiser, Erik M. Leitch, Amber Lennox, Tongtian Liu, Scott Mackey, Nolan Maher, Koko G. Megerian, Oliver Miller, Lorenzo Minutolo, Lorenzo Moncelsi, Yuka Nakato, Toshiya Namikawa, C. B. Netterfield, H. T. Nguyen, Roger O'Brient, R. Walter Ogburn, Scott Paine, Steven Palladino, Anika Patel, Matthew A. Petroff, Anna R. Polish, Nathan Precup, Thomas Prouve, Clement Pryke, Benjamin Racine, Carl D. Reintsema, Thibault Romand, Yann Sadou, Maria Salatino, Destiny Santalucia, Alessandro Schillaci, Benjamin Schmitt, Robert Schwarz, Chris D. Sheehy, Baibhav Singari, Ahmed Soliman, Tyler St Germaine, Aaron Steiger, Bryan Steinbach, Rashmi Sudiwala, Grant Teply, Keith L. Thompson, James E. Tolan, Calvin Tsai, Carole Tucker, Anthony D. Turner, Caterina Umilta, Clara Verges, Abigail G. Vieregg, Albert Wandui, Alexis C. Weber, Don Wiebe, Justin Willmert, Chin Lin Wong, Wai Ling K. Wu, Hung-I Yang, Ki Won Yoon, Edward Young, Cyndia Yu, Lingzhen Zeng, Cheng Zhang, Silvia Zhang, Michael Zito",
       "PaperNumber": "14156-111",
       "DateTimeLocationDataList": [
@@ -1118,9 +1016,9 @@
       "PaperNumber": "14149-245",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 7 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1144,7 +1042,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1413,40 +1311,6 @@
       "Abstract": "Wide-field telescopes such as the Vera C. Rubin are intrinsically difficult to shield from some unwanted stray and scattered light. The paper distills the experience of the Rubin commissioning for what concerns the stray light investigations, modeling, and mitigation in a wide system perspective embracing optical design, engineering, and commissioning aspects of the newest, large ground-based facility for astronomy.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/An-overview-of-the-stray-light-findings-and-interpretation-during/14147-146",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Elisa Radjabou, Damien Prêle, Manuel Gonzalez, Michel Piat, Shawn Henderson, Brianna Cantrall",
-      "PaperNumber": "14156-103",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "f79ee5a7-8fcf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "f79ee5a7-8fcf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Analytical modelling of TES noise: transfer functions across the superconducting transition",
-      "Description": null,
-      "Abstract": "This work addresses the critical need to characterize detector noise for future cosmology experiments focused on measuring the B-mode signal of the Cosmic Microwave Background (CMB). Like many CMB observatories, the model is based on Transition-Edge Sensors (TES) and SQUID-based Time-Domain Multiplexing (TDM) readout technology.  We present a new formalism developing transfer functions for phonon, TES, and shunt resistance current noises, clearly showing their characteristic frequencies. This formulation enables the prediction of total and individual noise shapes, comparison with measurements, and direct calculation of key parameters such as cut-off frequencies and maximum amplitude spectral density values. The superconducting to normal transition is modeled to be fed into the noise model. The analysis also examines how current noise amplitude model and measurements behave at various working points within the superconducting transition.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Analytical-modelling-of-TES-noise--transfer-functions-across-the/14156-103",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1724,6 +1588,142 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 7 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Giorgio Pariani, Luca Oggioni, Ernesto Oliva, Simone Doniselli, Marcello Scalera, Matteo De Magistris, Monica Rainer, Alessio Zanutta, Paolo Di Marcantonio",
+      "PaperNumber": "14149-280",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "972aa383-a4cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "972aa383-a4cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "ANDES, the high-resolution spectrograph for the ELT: optical design and performance estimation of the fiber routing subsystem",
+      "Description": null,
+      "Abstract": "The Fiber Routing (FR) subsystem of ANDES, the high-resolution spectrograph of the ELT, transfers, scrambles, and reformats the scientific and calibration light from the Front End to the spectrographs, ensuring étendue conservation, illumination stability and high throughput.  We will describe the FR optical design, which followed a process combining first-order modelling, tolerance analysis, and non-sequential simulations. We will show the details of the double scrambler, based on a ball lens, of the pupil slicer, based on a collimator and a micro-lenses array feeding a bundle of small fibers, and of the spectrometer slit, made of a linear array of fibers and micro-lenses. We will also present the full transmission budget —accounting for fiber attenuation, coatings, geometry transitions, and tolerances— across UBV, RIZ, and YJH bands.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/ANDES-the-high-resolution-spectrograph-for-the-ELT--optical/14149-280",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Philippe Bério, Christophe Bailet, Salvador Cuevas, Sébastien Ottogalli, Alain Spang, Mamadou N'Diaye, Andrea Chiavassa, Yan Caujolle, Gaël Chauvin, Omar Gabella, Patrice Martinez, Enrico Pinna, Edoardo Maria Alberto Redaelli, Julia Seidel, Chiara Selmi, Adrien Simonnin, Paolo Di Marcantonio",
+      "PaperNumber": "14149-243",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "8afbcb6c-06ca-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "8afbcb6c-06ca-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "ANDES, the high-resolution spectrograph for the ELT: opto-mechanical design of the coronagraph",
+      "Description": null,
+      "Abstract": "The ANDES coronagraph is a key subsystem of ANDES, the high-resolution spectrograph for the ESO   ELT. Developed in the SCAO sub-system, the coronagraph aims to enhance ANDES’s capability for high-contrast spectroscopy of exoplanets in reflected light, enabling the detection of temperate and rocky exoplanet atmospheres.  The coronagraph optical design is fully refractive. It includes two main arms: a science arm equipped with a Lyot-type coronagraph, and a wavefront sensing arm allowing Non-Common Path Aberration (NCPA) estimation and correction.   The ANDES coronagraph design achieves a contrast level of 3×10⁻³ at 20 mas, compliant with scientific requirements for exoplanet detection. This development represents a major step toward integrating high-contrast imaging and high-resolution spectroscopy on the ELT, bridging the gap between direct imaging and spectral characterization of exoplanets.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/ANDES-the-high-resolution-spectrograph-for-the-ELT--opto/14149-243",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "A. Khanbekyan, A. Tozzi, A. Brucalassi, D. Savio, A. Turchi, A. Marconi, M. Rainer, E. Oliva",
+      "PaperNumber": "14149-269",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "cfa6524f-f6ce-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "cfa6524f-f6ce-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "ANDES, the high-resolution spectrograph for the ELT: preliminary laboratory results of modal noise mitigation techniques for the fibre injection system of the ANDES-IFU module",
+      "Description": null,
+      "Abstract": "ANDES high-resolution spectrograph foreseen for the Extremely Large Telescope (ELT), covering the spectral range from 400 to 1800 nm (with K-band as a goal). It offers two observing modes: a seeing-limited mode, where target light is injected directly into a large fibre, and an IFU mode, where the ELT focal plane is reimaged at different spatial scales onto a microlens array feeding bundles of smaller fibres. In the seeing-limited mode, modal noise is controlled thanks to uniform illumination from natural seeing and fast tip-tilt mirrors. The IFU mode is more exposed to modal noise because the pupil entering each fibre is smaller than the fibre core, especially in the most expanded scale (~7 mas/spaxel), where it is about 18 times smaller. To reduce this, the IFU includes a fast XY piezo stage that moves the pupil during the exposure, improving illumination uniformity. We present preliminary measurements obtained with an ANDES-IFU prototype, testing different XY motions and fibre types.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/ANDES-the-high-resolution-spectrograph-for-the-ELT--preliminary/14149-269",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Davide Savio, Ernesto Oliva, Matteo Brogi, Lorenzo Pino, Alen Khanbekyan, Anna Brucalassi, Andrea Tozzi, Alessio Turchi, Monica Rainer, Marcello Scalera, Alessandro Marconi, Paolo Di Marcantonio, Alessio Zanutta",
+      "PaperNumber": "14149-263",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "ef10b9aa-a1ce-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "ef10b9aa-a1ce-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "ANDES, the high-resolution spectrograph for the ELT: quantifying the scientific impact of modal noise through laboratory-driven end-to-end simulations",
+      "Description": null,
+      "Abstract": "Modal noise in multimode fibres is a significant source of systematic error for next-generation fibre-fed spectrographs such as ANDES for the ESO-ELT. We present a study that combines controlled laboratory experiments with end-to-end simulations to quantify its impact on instrument performance. Laboratory measurements under different fibre configurations and illumination conditions provide empirical constraints on the temporal and spectral behaviour of modal noise. These results are used to build an empirical modal noise model integrated into a simulator of ANDES observations. As a case study, we evaluate the effect on exoplanet transmission spectroscopy, showing that modal noise can reduce detection significance and must be mitigated at the hardware level. The study provides quantitative guidance for defining acceptable modal noise levels during ANDES design.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/ANDES-the-high-resolution-spectrograph-for-the-ELT--quantifying/14149-263",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

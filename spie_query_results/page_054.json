@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Morgane Loquet Le Gall, Creidhe O'Sullivan, Bruno Borgo, Clémence De Jabrun, Valentin Sauvage, N. Trappe, Bruno Maffei",
-      "PaperNumber": "14156-189",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 9 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "7b89662f-9fce-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "7b89662f-9fce-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Optical development of the BISOU breadboard",
-      "Description": null,
-      "Abstract": "BISOU (Balloon Interferometer for Spectral Observations of the primordial Universe) is an astronomical balloon- borne pathfinder developed as part of a preparatory study for a future space mission aimed at measuring spectral distortions of the cosmic microwave background (CMB). A laboratory breadboard of the instrument is being developed at the Institut d’Astrophysique Spatiale (IAS), enabling the characterization of subsystems and in- strument systematic effects, particularly in the optical system. The optical system is based on a differential polarizing Fourier Transform Spectrometer (FTS) that receives inputs from both a sky-facing telescope and an internal calibration source. The full spectral band, spanning between 90 and 1500 GHz. The optical analysis first relies on ray-tracing simulations to establish the overall configuration of the system, before proceeding to more advanced Gaussian beam and physical optics analyses.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-development-of-the-BISOU-breadboard/14156-189",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Carmelo Arcidiacono, Fernando Pedichini, Marco Riva, Gianluca Di Rico, Elisa Portaluri, Demetrio Magrin",
-      "PaperNumber": "14148-163",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 9 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "6451e315-66d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "6451e315-66d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Optical heterodyne long-baseline interferometry: a concept study of feasibility, photon budget, and science requirements",
-      "Description": null,
-      "Abstract": "We explore the feasibility of Optical Heterodyne Long-Baseline Interferometry (OHLBI) for bright stellar and AGN science. Narrow-band heterodyne detection preserves phase beyond the atmospheric coherence time, enabling long integrations if photon-noise limits and Local Oscillator (LO) stability are controlled. Starting from the demonstrated performance of the Infrared Spatial Interferometer and earlier optical VLBI studies, we quantify expected SNR for key cases: surface imaging of bright O/B stars, time-resolved mapping of rapid rotators, eclipsing binaries, and kinematic studies of luminous AGN cores. We derive realistic photon budgets at visible and NIR wavelengths and identify regimes where heterodyne phase stability provides a scientific advantage over direct detection. We outline system requirements for a pathfinder, AO-fed receivers, comb-stabilized LOs and multi-site correlation, and define a roadmap toward future hybrid direct/heterodyne interferometry.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-heterodyne-long-baseline-interferometry--a-concept-study-of/14148-163",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "M. Ito, T. Ogawa, H. Kondo, T. Matsuo, S. Ikari, R. Funase",
       "PaperNumber": "14148-158",
       "DateTimeLocationDataList": [
@@ -876,7 +808,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Thomas Gascard, Valentin Sauvage, Jón Emil Guðmundsson, Bruno Maffei, Rustam Balafendiev, Morgane Loquet Le Gall, Anaïs Besnard",
+      "Authors": "Thomas Gascard, Valentin Sauvage, Rustam Balafendiev, Morgane Loquet Le Gall, Anaïs Besnard, Bruno Maffei, Jón E. Gudmundsson, Gaganpreet Singh",
       "PaperNumber": "14156-190",
       "DateTimeLocationDataList": [
         {
@@ -900,7 +832,7 @@
       "HTMLTitle": "",
       "Title": "Prototype design of an internal blackbody reference for BISOU",
       "Description": null,
-      "Abstract": "The CMB spectral distortions, minute variations from a pure blackbody response, encode crucial information about cosmic processes from inflation to galaxy formation, which the FOSSIL mission, currently in the second step of ESA Voyage 2050 selection process, aims at observing. The BISOU balloon mission will be demonstrating the instrument concept, a Fourier transform spectrometer carrying highly sensitive measurements of the spectral distortions, enabling the detection of y and μ components.  The FTS reference signal is provided by an internal blackbody reference, consisting of an array of absorbing elements backed by a thermally conductive plate with integrated temperature control. The present investigation focuses on the comparative analysis of two prototype design utlising broadband ultra-low reflectance absorber materials coupled with precision thermal control systems that enable homogeneous and stable temperatures within a few mK in precision over the whole reference.",
+      "Abstract": "The CMB spectral distortions, minute variations from a pure blackbody response, encode crucial information about cosmic processes from inflation to galaxy formation, which the FOSSIL mission, currently in the second step of ESA selection process, aims at observing. The BISOU balloon mission will be demonstrating the instrument concept, a Fourier transform spectrometer carrying highly sensitive measurements of the spectral distortions, enabling the detection of y and μ components.  The FTS reference signal is provided by an internal blackbody reference, consisting of an array of absorbing elements backed by a thermally conductive plate with integrated temperature control. The present investigation focuses on the analysis of a prototype design utlising broadband ultra-low reflectance absorber materials, focusing on a preliminary design approach towards homogeneous and stable temperatures gradients within a few mK in precision over the whole reference.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Prototype-design-of-an-internal-blackbody-reference-for-BISOU/14156-190",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -982,9 +914,9 @@
       "PaperNumber": "14147-200",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1008,7 +940,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1213,6 +1145,40 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Alex Thomas, Shreya Sutariya, Erin Healy, Claire Lessler, Jeffrey McMahon, Bugao Zou, Yuhan Wang, Michael Niemack",
+      "PaperNumber": "14156-205",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "01cddce6-18c7-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "01cddce6-18c7-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Scattering and absorption of infrared blocking foam filters for millimeter-wave cameras",
+      "Description": null,
+      "Abstract": "As the mechanisms governing the attenuation of IR-blocking foams used in Cosmic Microwave Background experiments were poorly understood, we present broadband (150 GHz to 1.5 THz) transmission spectroscopy of these foams, including Zotefoams (BICEP/Keck, SPT, CCAT, SO LAT) and Styroace-II (POLARBEAR, SO SATs). Our data are fit with a radiative transfer model incorporating Rayleigh scattering, Mie scattering, dielectric absorption, and higher-order scattering terms. We find that Zotefoams offer superior in-band transmission for mm and sub-mm bands. We also evaluate the tradeoff between Zotefoams, with lower densities offering increased transmission and decreased out-of-band attenuation. Finally, we estimate the scattering kernel and, therefore, the detector loading from blackbody radiation scattered at wide angles. In combination with our study of capacitive metal-mesh filters, we present quantitative recommendations for IR blocking filters for mm and sub-mm-wave observations.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Scattering-and-absorption-of-infrared-blocking-foam-filters-for-millimeter/14156-205",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
     },
     {
@@ -1692,7 +1658,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Tony Travouillon, Noelia Martinez-Rey, Hajime Ogane, Joschua Hellemeier, Grace McGinness, David Chandler, Gaston Gausachs, Jesse Cranney, Brian Taylor, Israel Vaughn, Rob Sharp, Celine D'Orgeville, Richard Demers, Bo Xin, Juan-Pablo Haddad, Hugo Chiquito, Patricio Schurter, Marcos Van Dam, Fernando Quiros",
+      "Authors": "Tony Travouillon, Noelia Martinez-Rey, Hajime Ogane, Joschua Hellemeier, Grace McGinness, David Chandler, Gaston Gausachs, Jesse Cranney, Brian Taylor, Israel Vaughn, Rob Sharp, Celine D'Orgeville, Richard Demers, Bo Xin, Juan-Pablo Haddad, Fernando Quiros, Hugo Chiquito, Patricio Schurter, Marcos Van Dam",
       "PaperNumber": "14150-334",
       "DateTimeLocationDataList": [
         {
@@ -1724,6 +1690,40 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Marianna Fulara, Piotr Wawer, Mateusz Sobiecki, Markus Czupalla, Mirosław Rataj, Konrad Skup",
+      "PaperNumber": "14149-448",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "dc8094ef-37d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "dc8094ef-37d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "STOP analysis for ESA ARIEL fine guidance system instrument",
+      "Description": null,
+      "Abstract": "The FGS instrument, built by a consortium led by the CBK PAN, will provide scientific data and guide ESA's ARIEL telescope to selected targets. It will be located at the L2 point and experiencing cryogenic temperatures at which it must maintain good optical performance. The instrument housing holds the cages and holders that support the optical elements in the correct configuration. The materials used in the design are aluminium, titanium, N-BK7 and SF6. Using STOP analysis, the influence of environmental conditions, especially extreme temperatures, on the optical performance of the instrument was checked. Displacements and deformations of the optical surfaces resulting from FEMAP/Nastran structural analyses were transferred to Ansys Zemax OpticsStudio using Matlab scripts. Parameters used for performance evaluation are line of sight, RMS spot, wavefront error, encircled energy and spectral resolution.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/STOP-analysis-for-ESA-ARIEL-fine-guidance-system-instrument/14149-448",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

@@ -26,142 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Daniel Bednarski, Carlos E. Fermino, Karim Kaismoune, Alan Uomoto, Jeffrey D. Crane, Solange Ramírez, Rafael A. S. Ribeiro",
-      "PaperNumber": "14155-119",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "555ee26a-8ad0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "555ee26a-8ad0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "ComCam preliminary software design: a systemic approach",
-      "Description": null,
-      "Abstract": "ComCam is a medium-field visible imager conceived as a test camera – and likely a science instrument – for the Giant Magellan Telescope (GMT). In terms of operation, the ComCam Device Control System (DCS) is responsible for all internal functionalities, responding to the Observatory Control System at the top level, which orchestrates each DCS among ~30 controllable subsystems. The GMT adopts a domain engineering approach, in which a metamodel describes the observatory-wide architecture and a Software Development Kit is provided for DCS implementation.    This work presents the systemic approach employed in developing the ComCam software design, suited to the compliance with GMT standards. A SysML model was developed using Visual Paradigm tool to capture the products from analysis to design, and to establish a partial representation of the ComCam DCS. Finally, the software components (e.g., controllers) and their properties could be transcribed into specification files.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/ComCam-preliminary-software-design-a-systemic-approach/14155-119",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Danielle N. Gurgew, Kirtan P. Dixit, Stephen Bongiorno, Nicholas Thomas, Panini Singam",
-      "PaperNumber": "14146-261",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "933a3825-92d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "933a3825-92d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Commissioning of a custom dual linear magnetron system for the development of high-energy multilayer coatings for full-shell x-ray optics",
-      "Description": null,
-      "Abstract": "A custom dual-linear magnetron assembly is undergoing commissioning to enable direct deposition of complex reflective coatings for full-shell X-ray optics at NASA Marshall Space Flight Center (MSFC). Designed to achieve +/- 2% non-uniformity along the nominal 600 mm shell lengths, these 32 in x 1.5 in magnetrons are mounted back-to-back with 180 degree separation, allowing for layer-by-layer deposition within a closed geometry. Shells with diameters ranging from ~190 mm to ~1.5 m can be accommodated. Custom collimators and masking are optimized for integration into the system alongside a cylindrical shutter system. This system dramatically increases MSFC’s end-to-end fabrication capabilities for high angular-resolution full-shell X-ray optics, particularly in the hard X-ray to soft gamma-ray bandpass. Initial results from the commissioning and optimization process for several current projects are presented along with a discussion on use for future mission concepts.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Commissioning-of-a-custom-dual-linear-magnetron-system-for-the/14146-261",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "E. A. K. Adams, S. Asayama, S. Bhandari, G. Heald, I. Heywood, J. Jonas, R. Laing, G. Macario, S. Mcsweeney, M. Serylak, A. Thomson, K. Trehaeven, R. Wayth, X. Zhang",
-      "PaperNumber": "14147-145",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "b4a11949-eece-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "b4a11949-eece-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Commissioning the SKA telescopes: results and plans towards science verification",
-      "Description": null,
-      "Abstract": "The SKA Observatory (SKAO) is commissioning two complementary next-generation radio telescopes: SKA-Low in Australia (50–350 MHz) and SKA-Mid in South Africa (350 MHz–15.4 GHz). Once completed, they will be the most sensitive facilities in their frequency ranges. SKA-Low is undergoing its Array Assembly 1 phase, with 15 (out of 16) stations available for science commissioning, enabling stability tests, calibration development, beamforming validation, pulsar detections, sensitivity measurements, and first interferometric images. SKA-Mid has achieved the first interferometric fringes milestone and entered its AA0.5 phase: four dishes under commissioning, focusing on interferometric and single-dish validation, calibration, and system stability.   We present an overview of science commissioning highlights from both telescopes and the path toward the AA2 Science Verification phase and the first science-ready data releases: a major milestone toward delivering transformational science.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Commissioning-the-SKA-telescopes--results-and-plans-towards-science/14147-145",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Risa Shimizu, Masayuki Hirabayashi, Bungo Ikenoue, Masaki Morita, Ryouhei Kano, Ko Hosokawa, Takehiko Wada, Kazuhisa Mitsuda, Chihiro Tokoku, Ichiro Mase, Fumihiko Usui, Hirokazu Kataza",
-      "PaperNumber": "14145-190",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "194a3410-1ad0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "194a3410-1ad0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Conceptual system design of the JASMINE Detector Box Unit and evaluation of its cooling components",
-      "Description": null,
-      "Abstract": "JASMINE (Japan Astrometry Satellite Mission for INfrared Exploration) aims for ultra-high-precision infrared astrometry. Its onboard instrument requires stringent stability, and the infrared detectors must be maintained at 173 K within a 273 K enclosure. The Detector Box Unit (DBU), under conceptual design at the Advanced Technology Center of the National Astronomical Observatory of Japan, provides the cooling function to keep the infrared detectors at required temperature, using a vibration-free thermo-electric cooler (TEC) and a graphite thermal strap with high conductance connecting the DBU and a radiator. The radiator interface limits heat rejection to 15 W at 200 K, with a target of 12 W, where the functionality of the TEC and thermal strap is not guaranteed. We are conducting device-level tests to evaluate their performance and incorporating the results into the DBU design. This presentation reports the design approach and findings from TEC and thermal characterization.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Conceptual-system-design-of-the-JASMINE-Detector-Box-Unit-and/14145-190",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Andres Pino Pavez, Claudia Cid, Steffen Mieske, Cristian Romero",
       "PaperNumber": "14151-105",
       "DateTimeLocationDataList": [
@@ -604,7 +468,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Matthew Werneken, Danielle Frostig, Phillip Cargile, Vedant Chandra, Liam Connor, Charlie Conroy, Peter Doherty, Daniel Fabricant, Benjamin Johnson, Mark Mueller, John J. Piotrowski, V. Ashley Villar",
+      "Authors": "Matthew Werneken, Danielle Frostig, John J. Piotrowski, Ana Bonaca, Phillip Cargile, Vedant Chandra, Liam Connor, Charlie Conroy, David Cruz, Peter Doherty, Daniel Fabricant, Julian Garcia, Benjamin Johnson, Hannah Levin, Mark Mueller, Hunter Snell, V. Ashley Villar",
       "PaperNumber": "14152-112",
       "DateTimeLocationDataList": [
         {
@@ -1724,6 +1588,142 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Mitsuyoshi Yamagishi, Shigeyuki Sako, Masahiro Konishi, Hiroaki Sameshima, Natsuko Kato, Yuki Mori, Sohei Kondo, Takashi Miyata, Kotaro Kohno, Kentaro Motohara, Takeo Minezaki, Fumi Egusa, Itsuki Sakon, Hidenori Takahashi, Takafumi Kamizuka, Kazuya Matsubayashi, Kana Morokuma-Matsui, Masataka Imai, Takashi Horiuchi, Yuki Hirao, Yuzuru Yoshii",
+      "PaperNumber": "14151-66",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "30def531-35c9-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "30def531-35c9-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Development of the summit information system for the TAO 6.5m telescope",
+      "Description": null,
+      "Abstract": "Real-time monitoring of site conditions is crucial to conduct observations safely. Such monitoring is, however, challenging for the TAO 6.5m telescope, which is located at Co. Chajnantor, Chile, with altitude of 5640m above sea level. By overcoming difficulties due to harsh environment of this site, we are developing a summit information system to obtain environmental data at the observation site and deliver them to observers. Up to date, we have achieved real-time monitoring of weather and web-camera data at the summit from anywhere in the world. In this presentation, we overview the current components of the summit information system and future plans.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-the-summit-information-system-for-the-TAO-65m/14151-66",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Yusuke Yoshida, Kazuki Ampuku, Koki Sakuta, Makoto Yoshihara, Keitoku Yoshihira, Ryoma Tanaka, Tetsuo Kano, Naoki Ishida, Wataru Kato, Yoshitaka Inoue, Keisuke Tamura, Takashi Okajima, Kikuko Miyata, Noriyuki Narukage, Gota Yamaguchi, Shutaro Mohri, Satoru Egawa, Hiroto Motoyama, Takehiro Kume, Yusuke Matsuzawa, Yoichi Imamura, Takahiro Saito, Kentaro Hiraguri, Hirokazu Hashizume, Hidekazu Mimura, Ikuyuki Mitsuishi",
+      "PaperNumber": "14146-282",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "63733de6-87c3-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "63733de6-87c3-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Development of x-ray optics for the solar flare sounding rocket FOXSI-5",
+      "Description": null,
+      "Abstract": "We have been developing X-ray optics for the 5th Focusing Optics X-ray Solar Imager (FOXSI-5), a Japan–U.S. joint solar sounding rocket experiment aimed at revealing particle acceleration and plasma heating mechanisms in solar flares. The previous mission, FOXSI-4, achieved the world's first X-ray imaging and spectroscopic observation of a solar flare using our soft and hard X-ray optics. For FOXSI-5, we have prepared the reused hard X-ray optics and a newly fabricated soft X-ray optics. As a result of evaluation of the hard X-ray optics, we obtained the imaging performance of HPD < 20 arcsec at 12 keV for off-axis angles up to 7.5 arcmin, and the effective area of ~ 40 mm^2 at 6 keV for on-axis rays. FOXSI-5 launched successfully on May 14th, 2026 and observed three active regions after C-class flares. We will report the latest status of our X-ray optics, which is a key to FOXSI-5.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-x-ray-optics-for-the-solar-flare-sounding/14146-282",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Dehua Yang, Xin He, Xiaofei Li, Yanlyu Yang, Hua Bai, Bo Li, Shihai Yang, Fanghua Jiang, Xuhao Wu, Shouwei Hu, Dongsheng Niu, Jinzhi Yu, Li Wang, Xiaoyu Kong, Shidong Shen, Yeping Li, Haikun Wen, Lingzhe Xu, Qishuai Lu, Yongjun Liang, Yuefei Wang, Xiang Jiang, Xianzhong Zheng, Xiaohu Yang",
+      "PaperNumber": "14147-134",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "4ceeb8ae-6ece-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "4ceeb8ae-6ece-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Development status of the 4m segmented Jiaotong University Spectroscopic Telescope (JUST)",
+      "Description": null,
+      "Abstract": "We present the current engineering development status of the Jiaotong University Spectroscopic Telescope (JUST), a 4-meter class optical telescope designed for high-efficiency spectral surveys and time-domain astronomy. JUST utilizes a segmented primary mirror architecture delivering competitive spectroscopic capabilities. This paper details the transition from conceptual design to the critical design and prototyping phases of the telescope structure systems.  The primary mirror (M1) consists of 18 hexagonal segments. The alt-azimuth mount design, and the site infrastructure development at the Lenghu observing station. The paper also describes the mechanical implementation of the Active Optics System using a Shack-Hartmann wavefront sensor.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-status-of-the-4m-segmented-Jiaotong-University-Spectroscopic-Telescope/14147-134",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Akihiro Fujie, Shota Narasaki, Yuto Owaki, Misaki Miyake, Junji Takaki, Tomoya Hattori, Koji Hirose, Teppe Ikezaki, Akihiro Ando, Deprez Maxime, Claire Lamour, Yukio Katsukawa, Yusuke Kawabata, Toshihiro Tsuzuki, Naoki Kohara, Yoshinori Suematsu, Fumihiro Uraguchi, Hirohisa Hara, Kota Miyoshi, Hideki Kato, Toshifumi Shimizu",
+      "PaperNumber": "14146-258",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "b58d2cf4-64ce-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "b58d2cf4-64ce-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Development status of the primary mirror and pre-coating optical measurement results for the SOLAR-C EUVST",
+      "Description": null,
+      "Abstract": "This report details the development status of the engineering model (EM) and flight model (FM) of the primary mirror for the SOLAR-C EUV Spectroscopic Telescope (EUVST), including measurements of surface figure error (SFE) with the mirror support mechanism. A bipod-based support with leaf springs was designed and implemented to minimize mirror deformation caused by mechanical and thermal loading. The validation with the EM primary mirror demonstrated that the predicted and measured astigmatism and coma abberations agreed well, confirming the robustness of the mirror support design. For the FM mirror, gravity-reversal measurements verified that the mirror’s SFE met the optical specifications.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-status-of-the-primary-mirror-and-pre-coating-optical/14146-258",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Kathleen Harrington, The Simons Observatory Collaboration",
-      "PaperNumber": "14156-60",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 11:40 - 12:00 CEST | Room B5-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "12adab2c-87d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "12adab2c-87d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The Simons Observatory: on-sky noise performance of the small aperture telescopes",
-      "Description": null,
-      "Abstract": "The Simons Observatory (SO) is a next generation cosmic microwave background (CMB) experiment now operating in the Chilean Atacama Desert. The initial SO configuration includes three 0.5-meter Small Aperture Telescopes (SATs) that are targeting observations of the larger angular scales of the CMB polarization anisotropy in a search for the B-mode polarization signature that would indicate the presence of inflation-sourced primordial gravitation waves. Each SAT contains over 12,000 transition edge sensor detectors; the two Mid-frequency SATs, observing in bands around 90 and 150 GHz, completed commissioning in the Fall of 2024 and the ultra-high frequency SAT, observing bands around 220 and 280 GHz, began commissioning in the Fall of 2025. I will discuss the efficiency calibrations and noise performance of deployed instruments as well as compare the achieved performance to forecasting and instrument modeling expectations.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-Simons-Observatory--on-sky-noise-performance-of-the/14156-60",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 11:40 - 12:00 CEST | Room B5-M3",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Krittapas Chanchaiworawit, Kantapong Tharawan, That Chomchuen, Jitsupa Paenoi, Thansita Thomrungpiyathan, Pakawat Prasit, Samattachai Tanun, Teerawat Kuha, Auychai Laoyang, Pathompong Butpan, Rungrit Anutarawiramkul, Anuphong Inpan, Suchinno Kanthum, Picha Ruenarrom, Tarathon Intaros, Manlika Pinkaew, Apichat Leckngam",
       "PaperNumber": "14149-84",
       "DateTimeLocationDataList": [
@@ -672,7 +638,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Simon Tartakovsky, Alexandre E. Adler, Jason E. Austermann, Steven J. Benton, Shannon M. Duff, Malcolm Durkin, Jeffrey P. Filippini, Aurelien A. Fraisse, Thomas Gascard, Sho M. Gibbs, Suren Gourapura, Jon E. Gudmundsson, Johannes Hubmayr, William C. Jones, Ashesh Khatua, Jared L. May, Darby McCauley, Johanna M. Nagy, Ivan L. Padilla, Ricardo R. Rodriguez, John E. Ruhl, M. Shaaf Sarwar, Joseph van der List, Michael R. Vissers, Philippe Voyer",
+      "Authors": "Simon Tartakovsky, Alexandre E. Adler, Jason E. Austermann, Steven J. Benton, Shannon M. Duff, Malcolm Durkin, Jeffrey P. Filippini, Aurelien A. Fraisse, Thomas J. L. J. Gascard, Sho M. Gibbs, Suren Gourapura, Jon E. Gudmundsson, Johannes Hubmayr, William C. Jones, Ashesh Khatua, Jared L. May, Darby McCauley, Johanna M. Nagy, Ivan L. Padilla, Ricardo R. Rodriguez, John E. Ruhl, M. Shaaf Sarwar, Joseph van der List, Michael R. Vissers, Philippe Voyer",
       "PaperNumber": "14156-63",
       "DateTimeLocationDataList": [
         {
@@ -873,6 +839,40 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "10 July 2026 • 13:55 - 14:10 CEST | Room B3-M2",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Elisa Radjabou, Damien Prêle, Manuel Gonzalez, Michel Piat, Shawn Henderson, Brianna Cantrall",
+      "PaperNumber": "14156-103",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 10 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "f79ee5a7-8fcf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "f79ee5a7-8fcf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Analytical modelling of TES noise: transfer functions across the superconducting transition",
+      "Description": null,
+      "Abstract": "This work addresses the critical need to characterize detector noise for future cosmology experiments focused on measuring the B-mode signal of the Cosmic Microwave Background (CMB). Like many CMB observatories, the model is based on Transition-Edge Sensors (TES) and SQUID-based Time-Domain Multiplexing (TDM) readout technology.  We present a new formalism developing transfer functions for phonon, TES, and shunt resistance current noises, clearly showing their characteristic frequencies. This formulation enables the prediction of total and individual noise shapes, comparison with measurements, and direct calculation of key parameters such as cut-off frequencies and maximum amplitude spectral density values. The superconducting to normal transition is modeled to be fed into the noise model. The analysis also examines how current noise amplitude model and measurements behave at various working points within the superconducting transition.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Analytical-modelling-of-TES-noise--transfer-functions-across-the/14156-103",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 10 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

@@ -26,142 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Giorgio Pariani, Luca Oggioni, Ernesto Oliva, Simone Doniselli, Marcello Scalera, Matteo De Magistris, Monica Rainer, Alessio Zanutta, Paolo Di Marcantonio",
-      "PaperNumber": "14149-280",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "972aa383-a4cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "972aa383-a4cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "ANDES, the high-resolution spectrograph for the ELT: optical design and performance estimation of the fiber routing subsystem",
-      "Description": null,
-      "Abstract": "The Fiber Routing (FR) subsystem of ANDES, the high-resolution spectrograph of the ELT, transfers, scrambles, and reformats the scientific and calibration light from the Front End to the spectrographs, ensuring étendue conservation, illumination stability and high throughput.  We will describe the FR optical design, which followed a process combining first-order modelling, tolerance analysis, and non-sequential simulations. We will show the details of the double scrambler, based on a ball lens, of the pupil slicer, based on a collimator and a micro-lenses array feeding a bundle of small fibers, and of the spectrometer slit, made of a linear array of fibers and micro-lenses. We will also present the full transmission budget —accounting for fiber attenuation, coatings, geometry transitions, and tolerances— across UBV, RIZ, and YJH bands.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/ANDES-the-high-resolution-spectrograph-for-the-ELT--optical/14149-280",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Philippe Bério, Christophe Bailet, Salvador Cuevas, Sébastien Ottogalli, Alain Spang, Mamadou N'Diaye, Andrea Chiavassa, Yan Caujolle, Gaël Chauvin, Omar Gabella, Patrice Martinez, Enrico Pinna, Edoardo Maria Alberto Redaelli, Julia Seidel, Chiara Selmi, Adrien Simonnin, Paolo Di Marcantonio",
-      "PaperNumber": "14149-243",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "8afbcb6c-06ca-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "8afbcb6c-06ca-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "ANDES, the high-resolution spectrograph for the ELT: opto-mechanical design of the coronagraph",
-      "Description": null,
-      "Abstract": "The ANDES coronagraph is a key subsystem of ANDES, the high-resolution spectrograph for the ESO   ELT. Developed in the SCAO sub-system, the coronagraph aims to enhance ANDES’s capability for high-contrast spectroscopy of exoplanets in reflected light, enabling the detection of temperate and rocky exoplanet atmospheres.  The coronagraph optical design is fully refractive. It includes two main arms: a science arm equipped with a Lyot-type coronagraph, and a wavefront sensing arm allowing Non-Common Path Aberration (NCPA) estimation and correction.   The ANDES coronagraph design achieves a contrast level of 3×10⁻³ at 20 mas, compliant with scientific requirements for exoplanet detection. This development represents a major step toward integrating high-contrast imaging and high-resolution spectroscopy on the ELT, bridging the gap between direct imaging and spectral characterization of exoplanets.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/ANDES-the-high-resolution-spectrograph-for-the-ELT--opto/14149-243",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "A. Khanbekyan, A. Tozzi, A. Brucalassi, D. Savio, A. Turchi, A. Marconi, M. Rainer, E. Oliva",
-      "PaperNumber": "14149-269",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "cfa6524f-f6ce-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "cfa6524f-f6ce-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "ANDES, the high-resolution spectrograph for the ELT: preliminary laboratory results of modal noise mitigation techniques for the fibre injection system of the ANDES-IFU module",
-      "Description": null,
-      "Abstract": "ANDES high-resolution spectrograph foreseen for the Extremely Large Telescope (ELT), covering the spectral range from 400 to 1800 nm (with K-band as a goal). It offers two observing modes: a seeing-limited mode, where target light is injected directly into a large fibre, and an IFU mode, where the ELT focal plane is reimaged at different spatial scales onto a microlens array feeding bundles of smaller fibres. In the seeing-limited mode, modal noise is controlled thanks to uniform illumination from natural seeing and fast tip-tilt mirrors. The IFU mode is more exposed to modal noise because the pupil entering each fibre is smaller than the fibre core, especially in the most expanded scale (~7 mas/spaxel), where it is about 18 times smaller. To reduce this, the IFU includes a fast XY piezo stage that moves the pupil during the exposure, improving illumination uniformity. We present preliminary measurements obtained with an ANDES-IFU prototype, testing different XY motions and fibre types.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/ANDES-the-high-resolution-spectrograph-for-the-ELT--preliminary/14149-269",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Davide Savio, Ernesto Oliva, Matteo Brogi, Lorenzo Pino, Alen Khanbekyan, Anna Brucalassi, Andrea Tozzi, Alessio Turchi, Monica Rainer, Marcello Scalera, Alessandro Marconi, Paolo Di Marcantonio, Alessio Zanutta",
-      "PaperNumber": "14149-263",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "ef10b9aa-a1ce-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "ef10b9aa-a1ce-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "ANDES, the high-resolution spectrograph for the ELT: quantifying the scientific impact of modal noise through laboratory-driven end-to-end simulations",
-      "Description": null,
-      "Abstract": "Modal noise in multimode fibres is a significant source of systematic error for next-generation fibre-fed spectrographs such as ANDES for the ESO-ELT. We present a study that combines controlled laboratory experiments with end-to-end simulations to quantify its impact on instrument performance. Laboratory measurements under different fibre configurations and illumination conditions provide empirical constraints on the temporal and spectral behaviour of modal noise. These results are used to build an empirical modal noise model integrated into a simulator of ANDES observations. As a case study, we evaluate the effect on exoplanet transmission spectroscopy, showing that modal noise can reduce detection significance and must be mitigated at the hardware level. The study provides quantitative guidance for defining acceptable modal noise levels during ANDES design.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/ANDES-the-high-resolution-spectrograph-for-the-ELT--quantifying/14149-263",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Philipp Huke, Léa Bonhomme, Christopher Broeg, Isabelle Boisse, Kamalesh Dadi, Michael Debus, Paolo Di Marcantonio, Omar Gabella, Wolfgang Gaessler, Enrico Giro, Jörg Knoche, Viljon Sekseni, Miriam Juliana Brandt, Michael Lehmitz, Jochen Liske, Madhusudan Malve, Piotr Maslowski, Richard McCracken, Christoph Mordasini, Derryck Reid, Ansgar Reiners, Sebastian Schäfer, Mirsad Sarajlic, Joackim Defigueirdo, Cheng Yuk Shan, Alessio Zanutta, Jennifer Zimara, Edoardo Redaelli, Michael Sigwarth, Eike Günther",
       "PaperNumber": "14149-289",
       "DateTimeLocationDataList": [
@@ -592,11 +456,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Assessing Reinforcement Learning in XAO Control for PCS",
+      "Title": "Assessing reinforcement learning in XAO control for PCS",
       "Description": null,
       "Abstract": "The European Extremely Large Telescope (E-ELT) will rely on the Planetary Camera and Spectrograph (PCS) to detect and study exoplanets, demanding an exceptionally fast and precise extreme adaptive optics (XAO) system. This work presents a machine-learning approach designed to ease these real-time control requirements of the PCS.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Assessing-Reinforcement-Learning-in-XAO-Control-for-PCS/14150-221",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Assessing-reinforcement-learning-in-XAO-control-for-PCS/14150-221",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -642,9 +506,9 @@
       "PaperNumber": "14157-116",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 7 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -660,15 +524,15 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Assessment of CMOS Detectors for the MOTHRA 1140-lens Array",
+      "Title": "Assessment of CMOS detectors for the MOTHRA 1140-lens array",
       "Description": null,
       "Abstract": "A new telephoto array based on the design of the 48-lens broadband Dragonfly Telephoto Array and the 120-lens  Narrowband Dragonfly Spectral Line Mapper is currently being constructed, with major hardware upgrades and  an order of magnitude increase in lens count. These hardware upgrades will greatly improve observing efficiency,  making it feasible to reach the surface-brightness depths required to directly image the Circumgalactic Medium  and Intergalactic Medium in emission. As part of this upgrade, we take advantage of recent improvements in  CMOS detector technology, and use Atik APX26 and APX60 cameras with Sony IMX571 and IMX455 detectors.  Here, we evaluate the read noise, fixed pattern noise, dark current, bias stability, and performance at varying  gain settings. We compare these measurements with the performance of past cameras used on the Dragonfly  arrays, specifically in the context of low surface brightness imaging with telescope arrays.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Assessment-of-CMOS-Detectors-for-the-MOTHRA-1140-lens-Array/14157-116",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Assessment-of-CMOS-detectors-for-the-MOTHRA-1140-lens-array/14157-116",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1522,13 +1386,13 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Prakamya Agrawal, SO Collaboration, Kam Arnold",
+      "Authors": "Prakamya Agrawal, Kam Arnold",
       "PaperNumber": "14156-81",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 7 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1552,7 +1416,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1658,7 +1522,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Laurent M. Mugnier, Alice Fontbonne, Pauline Trouvé, Olivier Herscovici-Schiller, Frédéric Champagnat, Yann Lucas, Yann Lai-Tim, Frédéric Cassaing",
+      "Authors": "Olivier Herscovici-Schiller, Laurent M. Mugnier, Alice Fontbonne, Pauline Trouvé, Frédéric Champagnat, Yann Lucas, Yann Lai-Tim, Frédéric Cassaing",
       "PaperNumber": "14148-111",
       "DateTimeLocationDataList": [
         {
@@ -1680,11 +1544,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Co-design approach to aperture masking",
+      "Title": "Co-design approach to aperture masking for imaging through  atmospheric turbulence",
       "Description": null,
       "Abstract": "Aperture masking interferometry is a technique originally designed to alleviate the influence of atmospheric turbulence on images recorded on ground-based telescopes.   In this communication we explore the optimization of the aperture mask by an optical/digital co-design approach in order to obtain diffraction-limited images of relatively bright objects imaged through turbulence.  We show that, with a few simplifying assumptions, it is possible to express the Mean Square Error of the restored image as a function of the chosen mask, of the spatial Power Spectral Density (PSD) of the observed object and of the noise level, without actually computing any image.   This allows us to optimize the aperture mask with a reduced computing cost.  We also implement a multi-frame blind deconvolution algorithm to estimate jointly the observed object and the piston in front of each subaperture, and check by simulations that the aperture masks obtained indeed allow a satisfactory image reconstruction.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Co-design-approach-to-aperture-masking/14148-111",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Co-design-approach-to-aperture-masking-for-imaging-throughatmospheric-turbulence/14148-111",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1724,6 +1588,142 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Daniel Bednarski, Carlos E. Fermino, Karim Kaismoune, Alan Uomoto, Jeffrey D. Crane, Solange Ramírez, Rafael A. S. Ribeiro",
+      "PaperNumber": "14155-119",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "555ee26a-8ad0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "555ee26a-8ad0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "ComCam preliminary software design: a systemic approach",
+      "Description": null,
+      "Abstract": "ComCam is a medium-field visible imager conceived as a test camera – and likely a science instrument – for the Giant Magellan Telescope (GMT). In terms of operation, the ComCam Device Control System (DCS) is responsible for all internal functionalities, responding to the Observatory Control System at the top level, which orchestrates each DCS among ~30 controllable subsystems. The GMT adopts a domain engineering approach, in which a metamodel describes the observatory-wide architecture and a Software Development Kit is provided for DCS implementation.    This work presents the systemic approach employed in developing the ComCam software design, suited to the compliance with GMT standards. A SysML model was developed using Visual Paradigm tool to capture the products from analysis to design, and to establish a partial representation of the ComCam DCS. Finally, the software components (e.g., controllers) and their properties could be transcribed into specification files.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/ComCam-preliminary-software-design-a-systemic-approach/14155-119",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Danielle N. Gurgew, Kirtan P. Dixit, Stephen Bongiorno, Nicholas Thomas, Panini Singam",
+      "PaperNumber": "14146-261",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "933a3825-92d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "933a3825-92d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Commissioning of a custom dual linear magnetron system for the development of high-energy multilayer coatings for full-shell x-ray optics",
+      "Description": null,
+      "Abstract": "A custom dual-linear magnetron assembly is undergoing commissioning to enable direct deposition of complex reflective coatings for full-shell X-ray optics at NASA Marshall Space Flight Center (MSFC). Designed to achieve +/- 2% non-uniformity along the nominal 600 mm shell lengths, these 32 in x 1.5 in magnetrons are mounted back-to-back with 180 degree separation, allowing for layer-by-layer deposition within a closed geometry. Shells with diameters ranging from ~190 mm to ~1.5 m can be accommodated. Custom collimators and masking are optimized for integration into the system alongside a cylindrical shutter system. This system dramatically increases MSFC’s end-to-end fabrication capabilities for high angular-resolution full-shell X-ray optics, particularly in the hard X-ray to soft gamma-ray bandpass. Initial results from the commissioning and optimization process for several current projects are presented along with a discussion on use for future mission concepts.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Commissioning-of-a-custom-dual-linear-magnetron-system-for-the/14146-261",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "E. A. K. Adams, S. Asayama, S. Bhandari, G. Heald, I. Heywood, J. Jonas, R. Laing, G. Macario, S. Mcsweeney, M. Serylak, A. Thomson, K. Trehaeven, R. Wayth, X. Zhang",
+      "PaperNumber": "14147-145",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "b4a11949-eece-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "b4a11949-eece-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Commissioning the SKA telescopes: results and plans towards science verification",
+      "Description": null,
+      "Abstract": "The SKA Observatory (SKAO) is commissioning two complementary next-generation radio telescopes: SKA-Low in Australia (50–350 MHz) and SKA-Mid in South Africa (350 MHz–15.4 GHz). Once completed, they will be the most sensitive facilities in their frequency ranges. SKA-Low is undergoing its Array Assembly 1 phase, with 15 (out of 16) stations available for science commissioning, enabling stability tests, calibration development, beamforming validation, pulsar detections, sensitivity measurements, and first interferometric images. SKA-Mid has achieved the first interferometric fringes milestone and entered its AA0.5 phase: four dishes under commissioning, focusing on interferometric and single-dish validation, calibration, and system stability.   We present an overview of science commissioning highlights from both telescopes and the path toward the AA2 Science Verification phase and the first science-ready data releases: a major milestone toward delivering transformational science.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Commissioning-the-SKA-telescopes--results-and-plans-towards-science/14147-145",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Risa Shimizu, Masayuki Hirabayashi, Bungo Ikenoue, Masaki Morita, Ryouhei Kano, Ko Hosokawa, Takehiko Wada, Kazuhisa Mitsuda, Chihiro Tokoku, Ichiro Mase, Fumihiko Usui, Hirokazu Kataza",
+      "PaperNumber": "14145-190",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "194a3410-1ad0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "194a3410-1ad0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Conceptual system design of the JASMINE Detector Box Unit and evaluation of its cooling components",
+      "Description": null,
+      "Abstract": "JASMINE (Japan Astrometry Satellite Mission for INfrared Exploration) aims for ultra-high-precision infrared astrometry. Its onboard instrument requires stringent stability, and the infrared detectors must be maintained at 173 K within a 273 K enclosure. The Detector Box Unit (DBU), under conceptual design at the Advanced Technology Center of the National Astronomical Observatory of Japan, provides the cooling function to keep the infrared detectors at required temperature, using a vibration-free thermo-electric cooler (TEC) and a graphite thermal strap with high conductance connecting the DBU and a radiator. The radiator interface limits heat rejection to 15 W at 200 K, with a target of 12 W, where the functionality of the TEC and thermal strap is not guaranteed. We are conducting device-level tests to evaluate their performance and incorporating the results into the DBU design. This presentation reports the design approach and findings from TEC and thermal characterization.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Conceptual-system-design-of-the-JASMINE-Detector-Box-Unit-and/14145-190",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

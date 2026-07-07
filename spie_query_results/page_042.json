@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Ye Chai, Shibo Shu, Yaqiong Li, Daikang Yan, Yuanhang He, Jiamin Sun, Zhouhui Liu, He Gao, Xufang Li, Yiwen Wang, Weijie Guo, Juexian Cao, Congzhan Liu",
-      "PaperNumber": "14156-133",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "6bc9f249-bfce-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "6bc9f249-bfce-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Developments of a 6-inch thermal kinetic inductance detector array for 90/150 GHz bands",
-      "Description": null,
-      "Abstract": "The highly sensitive millimeter-wave telescope is an important tool for accurately measuring cosmic microwave background (CMB) radiation, and its core component is a detector array located in a cryogenic focal plane. The feasibility of utilizing thermal kinetic inductance detectors (TKIDs) for CMB observations has been demonstrated. To improve observation efficiency and accuracy, we propose an array of research and development of TKIDs in a 6-inch wafer for observing CMB through atmospheric windows for observations in the 90/150 GHz bands. Two pairs of probes are designed on the pixel to divide the signal into two polarization directions. Orthogonal transducer and diplexer are used for signal conversion and frequency division. 456 detector pixels will be deployed on a single array, with each pixel containing two 90 GHz and two 150 GHz detectors, for a total of 1824 detectors.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Developments-of-a-6-inch-thermal-kinetic-inductance-detector-array/14156-133",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Rodrigo Zeledon, Antonio Magoncelli, Alain Carrier, Liz Osborne",
-      "PaperNumber": "14145-256",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "cb72565b-a8cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "cb72565b-a8cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Disturbance-free payload: next-generation vibration isolation technology for space-based precision-pointing missions",
-      "Description": null,
-      "Abstract": "Lockheed Martin’s Disturbance-Free Payload (DFP) is a precision-pointing and vibration isolation system that enables space-based payloads to achieve unprecedented levels of jitter stability. This paper presents an overview of DFP in the context of its application to Habitable Worlds Observatory (HWO), as well as its unique benefits over conventional vibration isolation systems. Recent advancements and enhancements to the DFP system are emphasized, including reduction of voice coil actuator noise and progress towards assessing the performance impact of cables that bridge the DFP interface. Remaining technology gaps to achieve Technology Readiness Level (TRL) 5 for DFP as a system can be closed with ground testbeds. Existing DFP testbeds will be modified to demonstrate operation with a flight-traceable computer architecture, contingency operations, and fail-safe relatching mechanisms.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Disturbance-free-payload--next-generation-vibration-isolation-technology-for/14145-256",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Nathan Amouroux, Parker Fagrelius, Thibault Guillemin, Fritz Mueller, Jérémy Neveu, Eli Rykoff, Thierry Souverin, Christopher W. Stubbs, Elana Urbach",
       "PaperNumber": "14149-358",
       "DateTimeLocationDataList": [
@@ -1220,9 +1152,9 @@
       "PaperNumber": "14154-367",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1246,7 +1178,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1724,6 +1656,74 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Thomas J. Mozdzen, Richard M. Scott, Isaac Smith, Phil D. Mauskopf, Mickey Martini, Mereia Perera-Gonzalez",
+      "PaperNumber": "14148-129",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "5db39aad-7cd0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "5db39aad-7cd0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Improved timing jitter in stellar intensity interferometry while observing Sirius with 0.25m telescopes",
+      "Description": null,
+      "Abstract": "We improve upon our intensity interferometry results from early 2024 of our observations of Sirius by using lower jitter firmware on our Swabian Time Tagger and a shorter fiber optics cable with a graded instead of a step index. We also present preliminary results showing the suppression of t=0 crosstalk noise in the Timetagger by using two Timetaggers and a Synchronizer unit, which replaces the need for coax delay cable on a single channel that is susceptible to timing variations and thus jitter. Preliminary work using a spectrometer and a linear SPAD array to decrease data collection time while maintaining a strong SNR will also be presented.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Improved-timing-jitter-in-stellar-intensity-interferometry-while-observing-Sirius/14148-129",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Saanika Choudhary, Dmitry Savransky, Clarissa R. Do O",
+      "PaperNumber": "14145-225",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "20e2503c-cdcf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "20e2503c-cdcf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Improving the efficiency of dynamic completeness calculations for exoplanet direct imaging",
+      "Description": null,
+      "Abstract": "Direct exoplanet imaging mission studies use dynamic completeness, the probability of detecting a planet given prior observations, to guide scheduling and estimate yield. Computing it is challenging: brute-force Monte Carlo is expensive, and common approximations often miss the true evolution of detectability. We analyze the numerical behavior of dynamic completeness, identifying cost- and accuracy-dominant steps, including repeated Kepler-equation solves and the mapping from orbital elements to observables. We further introduce a reduced-order uncertainty-propagation framework that carries orbital and photometric uncertainties through parameter distributions, enabling efficient, uncertainty-aware completeness estimates for the Roman Space Telescope Coronagraph Instrument.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Improving-the-efficiency-of-dynamic-completeness-calculations-for-exoplanet-direct/14145-225",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }

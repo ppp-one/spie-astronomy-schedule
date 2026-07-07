@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Binbin Xiang, Shike Mo, XueTong Yang, Wei Wang, Longfei Niu",
-      "PaperNumber": "14153-103",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "8a26358a-85cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "8a26358a-85cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Fault diagnosis technique for radio telescope antenna drive reducer gears based on the fused model",
-      "Description": null,
-      "Abstract": "Low-speed operation of antenna drive reducer gears suffers from reduced SNR, obscuring fault features under noise interference where traditional methods fail. This study proposes an RBMO-optimized SVMD-MCKD-CNN-LSTM fusion model (RSM-CL) for fault diagnosis. RBMO-optimized SVMD-MCKD first enhances raw signals via noise reduction and feature amplification. Subsequently, CNN extracts localized spatial features while LSTM captures temporal dependencies for deep fault characterization. Experimental validation demonstrates the model achieves >97% average classification accuracy, outperforming conventional single-decomposition/single-model approaches in both diagnostic precision and computational efficiency (reduced processing time). This framework establishes a novel solution for low-speed reducer gear fault diagnosis.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Fault-diagnosis-technique-for-radio-telescope-antenna-drive-reducer-gears/14153-103",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Luke M. Schmidt, Hudson Malone, Noah Siebersma, Erika Cook, Jennifer L. Marshall, Darren L. DePoy, Ryan J. Oelkers, Silvana Delgado Andrade, Enrique Gonzalez Vega, Shravan Menon, Chelsea Taylor, Lars Walker",
       "PaperNumber": "14154-396",
       "DateTimeLocationDataList": [
@@ -230,13 +196,13 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Valentin Sauvage, Nabila Aghanim, Anaïs Besnard, Ivan Charles, Clémence de Jabrun, Jean-Marc Duval, Bruno Maffei, Sylvain Martin, Bruno Borgo",
+      "Authors": "Valentin Sauvage, Clémence de Jabrun, Anaïs Besnard, Bruno Borgo, Ivan Charles, Jean-Marc Duval, Bruno Maffei, Sylvain Martin, Nabila Aghanim",
       "PaperNumber": "14156-182",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -260,7 +226,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -468,13 +434,13 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Arend Moerman, Nikita A. Soshnin, Stefanie A. Brackenhoff, Kenichi Karatsu, Louis H. Marting, Steven A. de Rooij, Bernhard R. Brandl, Akira Endo",
+      "Authors": "Arend Moerman, Nikita Soshnin, Stefanie Brackenhoff, Kenichi Karatsu, Louis Marting, Steven de Rooij, Bernhard Brandl, Akira Endo",
       "PaperNumber": "14156-164",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -490,7 +456,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "GPU-accelerated observational forecasting of superconducting (sub)millimeter integral field units",
+      "Title": "GPU-accelerated observational forecasting of superconducting (sub)millimeter integral field units with GATEAU",
       "Description": null,
       "Abstract": "Scientific interpretation of data obtained with superconducting (sub)millimeter integral field units (IFUs) requires careful design of reduction and analysis pipelines. However, the quality and behavior of the designed pipelines must be assessed before they are applied, requiring simulated observational data.  To this end, we have developed GATEAU, a GPU-accelerated software framework for simulating realistic (sub)millimeter observations of arbitrary astronomical sources with IFUs using MKIDs. The framework consists of a Python interface powered by a C/C++ backend, which achieves GPU-acceleration through Nvidia’s CUDA library. The output is stored in FITS format, which the user can feed to their pipeline.  We present the software implementation of GATEAU and several comparisons between GATEAU and on-sky DESHIMA 2.0 data, serving as validation tests. Finally, we present a use case focusing on the TIFUUN instrument, illustrating the kind of analysis that can be done with GATEAU.",
       "ImagePath": null,
@@ -498,7 +464,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -914,9 +880,9 @@
       "PaperNumber": "14149-433",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -940,7 +906,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1318,40 +1284,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Alex Thomas, Bugao Zou, Shreya Sutariya, Yuhan Wang, Erin Healy, Claire Lessler, Jeffrey McMahon, Michael Niemack",
-      "PaperNumber": "14156-205",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "01cddce6-18c7-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "01cddce6-18c7-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Infrared blocking foam filters for millimeter-wave cameras",
-      "Description": null,
-      "Abstract": "As the mechanisms governing the attenuation of IR-blocking foams used in Cosmic Microwave Background experiments were poorly understood, we present broadband (150 GHz to 1.5 THz) transmission spectroscopy of these foams, including Zotefoams (BICEP/Keck, SPT, CCAT, SO LAT) and Styroace-II (POLARBEAR, SO SATs). Our data are fit with a radiative transfer model incorporating Rayleigh scattering, Mie scattering, dielectric absorption, and higher-order scattering terms. We find that Zotefoams offer superior in-band transmission for mm and sub-mm bands. We also evaluate the tradeoff between Zotefoams, with lower densities offering increased transmission and decreased out-of-band attenuation. Finally, we estimate the scattering kernel and, therefore, the detector loading from blackbody radiation scattered at wide angles. In combination with our study of capacitive metal-mesh filters, we present quantitative recommendations for IR blocking filters for mm and sub-mm-wave observations.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Infrared-blocking-foam-filters-for-millimeter-wave-cameras/14156-205",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Andrew Shanahan, David Sheikh",
       "PaperNumber": "14146-164",
       "DateTimeLocationDataList": [
@@ -1594,9 +1526,9 @@
       "PaperNumber": "14149-456",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1620,7 +1552,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1724,6 +1656,74 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Rosario Cosentino, Luca Di Fabrizio, Guillermo González-de-Rivera, Álvaro Quintana, Marcos Hernández Díaz, Luis Riverol, Héctor Ventura Perez, Manuel González, Carmen Vélez, Kashif Buland, Juan Antonio Leñero Bardallo, Sergio López-Buedo, Ángel Rodríguez-Vázquez, Enrique Pérez, Ester Amou-Loumagne, Robert Content, Adriano Ghedina, Francisco Prada",
+      "PaperNumber": "14149-423",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "4315532c-91ce-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "4315532c-91ce-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "La Palma Quantum Interferometer (LPQI): integrated cryogenic SPAD camera head with thermal validation and FPGA-based acquisition architecture",
+      "Description": null,
+      "Abstract": "We present the latest developments of the LPQI SPAD sensor module, designed as a compact, thermally stabilized platform integrating the SPAD array, the readout FPGA, and the cooling system on a single PCB. A dedicated cryogenic chamber was characterized using the operational detector board, validating the Peltier-based thermal architecture with stable −20 °C operation and <±0.1 °C fluctuations under simulated 0–3 W loads. In parallel, the FPGA acquisition chain demonstrated reliable handling of asynchronous SPAD events, fine timestamping, and sub-nanosecond synchronization when disciplined by a White Rabbit clock. These results confirm the readiness of the integrated module for the upcoming electro-optical tests, including photon detection efficiency, dark count rate, and full timing performance.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/La-Palma-Quantum-Interferometer-LPQI--integrated-cryogenic-SPAD-camera/14149-423",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Michele Frangiamore, andrea bianco, claudia brambilla, luca oggioni",
+      "PaperNumber": "14154-394",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "5bc7724d-e1dc-f011-a9af-00505691c5e1---crmrecord",
+      "GUID": "5bc7724d-e1dc-f011-a9af-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Large size VPHGs@INAF: new facility and perspectives",
+      "Description": null,
+      "Abstract": "Volume Phase Holographic (VPH) technology is crucial in modern ground-based astronomical spectrographs due to high diffraction efficiency, tunability, and robustness. At INAF–Astronomical Observatory of Brera, we focus on the design and fabrication of VPHGs for diverse instruments.    Next-generation facilities require large-format VPHGs, up to half a meter, for instruments such as MOSAIC (ELT), HRMOS (VLT), and WST, demanding scalable, precise production processes.    At INAF–OABr, we developed a reliable manufacturing process ensuring control of diffraction efficiency, wavefront quality, and dispersion. A new holography laboratory, with a 450 mm aperture writing setup, allows production of VPHGs up to 450×600 mm (vertical and dispersion directions, respectively).     Initial results demonstrate the capabilities and future potential for large-format gratings in advanced spectrographs.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Large-size-VPHGsINAF-new-facility-and-perspectives/14154-394",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696015
+  "DLCount": 696051
 }
