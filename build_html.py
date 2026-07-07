@@ -2149,6 +2149,7 @@ function _applyState(el) {
   _buildScheduleDay(ALL_DAYS[initIdx]);
   updateStickyOffset();
   updateNowLine();
+  _scheduleScrollToNow(ALL_DAYS[initIdx].date_iso);
   setInterval(updateNowLine, 30000);
 
   // ── Drag-to-scroll on legend ──
@@ -2307,6 +2308,34 @@ function toggleMySchedule() {
   applyPosterSearch();
 }
 
+// Scroll the schedule view to "now" when the selected day is today and the
+// conference day is still running. Handles both layouts: desktop calendar
+// (scroll to the red now-line) and mobile agenda (first in-progress/upcoming row).
+function _scheduleScrollToNow(iso) {
+  const { dateIso, minutes } = getCopenhagenParts();
+  const day = ALL_DAYS.find(d => d.date_iso === iso);
+  if (!day || iso !== dateIso || minutes < day.day_start_min || minutes > day.day_end_min) return;
+  const scroller = document.getElementById('schedule-scroll');
+  const panel = document.getElementById('day-' + iso);
+  if (!scroller || !panel) return;
+  const agenda = panel.querySelector('.cal-agenda');
+  let top;
+  if (agenda && getComputedStyle(agenda).display !== 'none') {
+    const row = Array.from(agenda.querySelectorAll('.agenda-row'))
+      .find(r => parseInt(r.dataset.end, 10) > minutes);
+    if (!row) return;
+    // Keep the row clear of the sticky hour separator.
+    top = row.getBoundingClientRect().top - scroller.getBoundingClientRect().top +
+      scroller.scrollTop - 34;
+  } else {
+    const line = panel.querySelector('.cal-now-line');
+    if (!line || line.style.display === 'none') return;
+    top = line.getBoundingClientRect().top - scroller.getBoundingClientRect().top +
+      scroller.scrollTop - scroller.clientHeight / 3;
+  }
+  scroller.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+}
+
 function switchDay(iso) {
   const day = ALL_DAYS.find(d => d.date_iso === iso);
   if (day) _buildScheduleDay(day);
@@ -2315,6 +2344,7 @@ function switchDay(iso) {
   document.getElementById('day-' + iso).style.display = 'block';
   document.querySelector('#schedule-body [data-day="' + iso + '"]').classList.add('active');
   applySearch();
+  _scheduleScrollToNow(iso);
 }
 
 function applySearch() {
