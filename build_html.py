@@ -521,6 +521,8 @@ def build_talk_data(records: list[dict]) -> dict:
                 "abstract": r.get("abstract") or "",
                 "authors": r.get("authors") or "",
             }
+        if is_poster(r):
+            data[key]["poster"] = 1
     return data
 
 
@@ -1156,7 +1158,7 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   margin: 0 0 16px;
   color: #333;
 }
-#talk-modal-ext {
+#talk-modal-ext, #talk-modal-pdf {
   display: inline-flex;
   align-items: center;
   gap: 4px;
@@ -1164,7 +1166,7 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   color: #7eb8f7;
   text-decoration: none;
 }
-#talk-modal-ext:hover { text-decoration: underline; }
+#talk-modal-ext:hover, #talk-modal-pdf:hover { text-decoration: underline; }
 /* ── Swipe tip banner ── */
 #swipe-tip, #update-tip {
   position: fixed;
@@ -1411,6 +1413,8 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 }
 .poster-item-title a { color: inherit; text-decoration: none; }
 .poster-item-title a:hover { text-decoration: underline; }
+.poster-pdf-link { color: #7eb8f7; text-decoration: none; }
+.poster-pdf-link:hover { text-decoration: underline; }
 .poster-item-meta {
   font-size: 10px;
   color: #888;
@@ -1790,6 +1794,9 @@ function he(s) {
 
 function _talkId(t) { return t.paper || (t.conf + '-' + t.title); }
 function _talkHref(t) { return t.url ? 'https://spie.org' + t.url : ''; }
+function _posterPdfHref(paper) {
+  return paper ? 'https://spie.org/astronomical-telescopes-instrumentation/download-presentation-poster/' + encodeURIComponent(paper) : '';
+}
 
 function _modalAttrs(t, dayLabel='') {
   const id    = _talkId(t);
@@ -2070,7 +2077,9 @@ function _renderPosterItem(t, conf, date_iso, dayLabel) {
     `<div class="poster-item-body">` +
     `<div class="poster-item-title"><span class="talk-link" onclick="openTalkModal(this)">${he(t.title)}</span></div>` +
     `<div class="poster-item-meta"><span class="poster-item-conf" style="color:${color}">${he(short)}</span>` +
-    ` &middot; [${id}] ${he(t.author)}${t.room === 'On demand' ? ' &middot; On demand' : ''}</div></div>` +
+    ` &middot; [${id}] ${he(t.author)}${t.room === 'On demand' ? ' &middot; On demand' : ''}` +
+    (t.paper ? ` &middot; <a class="poster-pdf-link" href="${he(_posterPdfHref(t.paper))}" target="_blank" rel="noopener">PDF &#8599;</a>` : '') +
+    `</div></div>` +
     `<div class="poster-actions">` +
     `<button class="poster-skip-btn" onclick="togglePosterSkip(this)" title="Not interested">&#10005;</button>` +
     `<button class="poster-star-btn" onclick="togglePosterBookmark(this)" title="Save to My Schedule">&#9734;</button>` +
@@ -3415,6 +3424,10 @@ function openTalkModal(el) {
   const ext = document.getElementById('talk-modal-ext');
   ext.href = d.url || '#';
   ext.style.display = d.url ? '' : 'none';
+  const pdf = document.getElementById('talk-modal-pdf');
+  const pdfHref = td.poster ? _posterPdfHref(d.paper) : '';
+  pdf.href = pdfHref || '#';
+  pdf.style.display = pdfHref ? '' : 'none';
   updateModalBookmarkBtn();
   document.getElementById('talk-modal').classList.add('open');
   document.body.style.overflow = 'hidden';
@@ -3852,6 +3865,7 @@ def build_html(
         &#9734; Save to schedule
       </button>
       <a id="talk-modal-ext" href="#" target="_blank" rel="noopener">Open on SPIE &#8599;</a>
+      <a id="talk-modal-pdf" href="#" target="_blank" rel="noopener">Poster PDF &#8599;</a>
     </div>
   </div>
 </div>
