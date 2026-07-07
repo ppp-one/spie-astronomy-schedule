@@ -1035,7 +1035,7 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
 #my-schedule-btn:hover { border-color: #f5a623; color: #f5a623; }
 #my-schedule-btn.active { background: #f5a623; color: #1a1a2e; border-color: #f5a623; }
 #bookmark-count { font-size: 11px; color: #f5a623; padding-right: 8px; text-align: right; }
-#share-btn, #qr-btn {
+#share-btn, #qr-btn, #asteroids-btn {
   background: none;
   border: 1px solid #556;
   color: #aab;
@@ -1048,8 +1048,8 @@ body.my-schedule-mode .talk:not(.bookmarked) { display: none; }
   justify-content: center;
   transition: background .15s, border-color .15s, color .15s;
 }
-#share-btn:hover, #qr-btn:hover { background: rgba(126,184,247,.15); }
-#share-btn svg, #qr-btn svg { width: 15px; height: 15px; }
+#share-btn:hover, #qr-btn:hover, #asteroids-btn:hover { background: rgba(126,184,247,.15); }
+#share-btn svg, #qr-btn svg, #asteroids-btn svg { width: 15px; height: 15px; }
 #qr-modal-img {
   display: block;
   width: min(280px, 70vw);
@@ -3734,6 +3734,11 @@ def build_html(
     <button id="share-btn" onclick="openShareModal()" title="Sync &amp; Backup">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
         <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z" />
+      </svg>
+    </button>
+    <button id="asteroids-btn" onclick="window.location.href='asteroids/'" title="Asteroids">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m21 7.5-2.25-1.313M21 7.5v2.25m0-2.25-2.25 1.313M3 7.5l2.25-1.313M3 7.5l2.25 1.313M3 7.5v2.25m9 3 2.25-1.313M12 12.75l-2.25-1.313M12 12.75V15m0 6.75 2.25-1.313M12 21.75V19.5m0 2.25-2.25-1.313m0-16.875L12 2.25l2.25 1.313M21 14.25v2.25l-2.25 1.313m-13.5 0L3 16.5v-2.25" />
       </svg>
     </button>
     <button id="qr-btn" onclick="openQrModal()" title="Share this page">

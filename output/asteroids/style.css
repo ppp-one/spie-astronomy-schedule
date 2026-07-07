@@ -1,0 +1,186 @@
+/* Style for Asteroids.js
+ * Copyright (c) 2010 James Socol <me@jamessocol.com> + AI
+ * See LICENSE.txt for license.
+ */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    overscroll-behavior: none;
+    background-color: #000;
+    color: #fff;
+    font-family: "Calibri", "System", monospace;
+    font-size: 14px;
+}
+
+div#asteroids {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+}
+
+div#asteroids>* {
+    color: #fff;
+}
+
+div#asteroids>div {
+    font-family: "System", monospace;
+    font-size: 11px;
+    padding: 5px 10px;
+}
+
+div#asteroids>div>span {
+    float: right;
+    padding-left: 20px;
+}
+
+div#asteroids canvas {
+    display: block;
+    flex: 1;
+    min-height: 0;
+    width: 100%;
+}
+
+div#asteroids .keyboard-help {
+    text-align: center;
+    color: #999;
+}
+
+div#asteroids .touch-controls {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    pointer-events: none;
+}
+
+div#asteroids .buttons {
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+div#asteroids .joystick,
+div#asteroids .fire-button,
+div#asteroids .hyper-button {
+    pointer-events: auto;
+    border: 1px solid #666;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "System", monospace;
+    font-size: 11px;
+    color: #999;
+    touch-action: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+div#asteroids .joystick {
+    position: relative;
+    width: 130px;
+    height: 130px;
+}
+
+div#asteroids .joystick .knob {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 54px;
+    height: 54px;
+    margin: -27px 0 0 -27px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    transition: transform 0.15s ease-out;
+}
+
+div#asteroids .joystick.active .knob {
+    transition: none;
+    border-color: #fff;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+div#asteroids .fire-button {
+    width: 90px;
+    height: 90px;
+}
+
+div#asteroids .hyper-button {
+    width: 60px;
+    height: 60px;
+    font-size: 9px;
+}
+
+div#asteroids .fire-button.active,
+div#asteroids .hyper-button.active {
+    border-color: #fff;
+    color: #fff;
+}
+
+div#asteroids .initials {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 30px;
+    background: #000;
+    border: 1px solid #fff;
+    text-align: center;
+    font-family: "System", monospace;
+    font-size: 12px;
+}
+
+div#asteroids .initials p {
+    margin: 0 0 10px;
+}
+
+div#asteroids .initials input {
+    display: block;
+    margin: 10px auto;
+    width: 5ch;
+    background: #000;
+    color: #fff;
+    border: 1px solid #666;
+    font-family: "System", monospace;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-user-select: text;
+    user-select: text;
+}
+
+div#asteroids .initials button {
+    background: #000;
+    color: #fff;
+    border: 1px solid #666;
+    font-family: "System", monospace;
+    font-size: 12px;
+    padding: 5px 15px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 16px;
+}
