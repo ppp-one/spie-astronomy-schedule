@@ -46,6 +46,30 @@ div#asteroids>div>span {
     padding-left: 20px;
 }
 
+div#asteroids .back-btn {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 2px 10px 2px 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+div#asteroids .pause-btn {
+    cursor: pointer;
+    border: 1px solid #666;
+    border-radius: 3px;
+    padding: 2px 8px;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+}
+
+div#asteroids .pause-btn:active {
+    border-color: #fff;
+    color: #fff;
+}
+
 div#asteroids canvas {
     display: block;
     flex: 1;

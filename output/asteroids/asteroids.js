@@ -93,7 +93,15 @@ var Asteroids = function (home, startMode) {
 
 Asteroids.infoPane = function (game, home) {
     var pane = document.createElement('div');
-    pane.innerHTML = 'ASTEROIDS';
+
+    var back = document.createElement('a');
+    back.className = 'back-btn';
+    back.href = '../';
+    back.title = 'Back to schedule';
+    back.innerHTML = '&larr;';
+    pane.appendChild(back);
+
+    pane.appendChild(document.createTextNode(' ASTEROIDS'));
 
     var lives = document.createElement('span');
     lives.className = 'lives';
@@ -110,6 +118,22 @@ Asteroids.infoPane = function (game, home) {
     pane.appendChild(lives);
     pane.appendChild(score);
     pane.appendChild(level);
+
+    if (Asteroids.isMobile()) {
+        var pause = document.createElement('span');
+        pause.className = 'pause-btn';
+        pause.innerHTML = 'PAUSE';
+
+        pause.addEventListener('touchstart', function (e) {
+            e.preventDefault();
+            game.sound.unlock();
+            Asteroids.togglePause(game);
+            pause.innerHTML = game.paused ? 'RESUME' : 'PAUSE';
+        });
+
+        pane.appendChild(pause);
+    }
+
     home.appendChild(pane);
 
     return {
@@ -486,26 +510,13 @@ Asteroids.bullet = function (game, _pos, _dir) {
 Asteroids.saucer = function (game, small) {
     // implements IScreenObject
     var fromLeft = Math.random() < 0.5,
-        scale = small ? 0.7 : 1.3,
-        radius = small ? 7 : 13,
+        radius = small ? 10 : 16,
         position = [fromLeft ? -20 : GAME_WIDTH + 20,
         Math.random() * GAME_HEIGHT],
         velocity = [(small ? SAUCER_SPEED * 1.4 : SAUCER_SPEED) *
             (fromLeft ? 1 : -1), 0],
         nextTurn = Date.now(),
-        nextShot = Date.now() + SAUCER_FIRE_TIME,
-        path = [
-            [-9, 0],
-            [9, 0],
-            [4, 4],
-            [-4, 4],
-            [-9, 0],
-            [-4, -4],
-            [-2, -7],
-            [2, -7],
-            [4, -4],
-            [9, 0]
-        ];
+        nextShot = Date.now() + SAUCER_FIRE_TIME;
 
     return {
         getPosition: function () {
@@ -562,7 +573,14 @@ Asteroids.saucer = function (game, small) {
             return null;
         },
         draw: function (ctx) {
-            Asteroids.drawPath(ctx, position, 0, scale, path);
+            ctx.save();
+            ctx.setTransform(1, 0, 0, 1, 0, 0);
+            ctx.font = 'bold ' + (small ? 16 : 24) + 'px System, monospace';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillStyle = '#fff';
+            ctx.fillText('SPIE', position[0], position[1]);
+            ctx.restore();
         }
     }
 }
