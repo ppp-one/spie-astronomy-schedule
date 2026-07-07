@@ -34,7 +34,9 @@ SAUCER_FIRE_TIME = 1400; // Time between saucer shots. (ms)
 SAUCER_BULLET_AGE = 40;
 SAUCER_SCORE_BIG = 200;
 SAUCER_SCORE_SMALL = 1000;
-SAUCER_AIM_ERROR = 0.5; // The small saucer's aim error at level 1. (radians)
+SAUCER_AIM_ERROR = 0.4; // The small saucer's aim error at level 1. (radians)
+SAUCER_BIG_AIM_ERROR = 2.5; // The big saucer's aim error, relative to the small one.
+FRIENDLY_FIRE_AGE = 4; // Frames before a bullet can hit its own shooter.
 
 // Asteroid settings
 ASTEROID_COUNT = 3; // This + current level = number of asteroids...
@@ -315,6 +317,9 @@ Asteroids.player = function (game) {
         getRadius: function () {
             return radius;
         },
+        getWorldPath: function () {
+            return Asteroids.worldPath(path, position, direction, 1);
+        },
         getScore: function () {
             return score;
         },
@@ -460,13 +465,13 @@ Asteroids.player = function (game) {
     }
 }
 
-Asteroids.bullet = function (game, _pos, _dir) {
+Asteroids.bullet = function (game, _pos, _dir, _saucer) {
     // implements IScreenObject
     var position = [_pos[0], _pos[1]],
         velocity = [0, 0],
         direction = _dir,
         age = 0,
-        radius = 1,
+        radius = _saucer ? 2 : 1,
         path = [
             [0, 0],
             [-4, 0],
@@ -478,6 +483,12 @@ Asteroids.bullet = function (game, _pos, _dir) {
     return {
         getPosition: function () {
             return position;
+        },
+        getLastPosition: function () {
+            // Where the bullet was before this frame's move; collision
+            // tests sweep the segment between the two so fast bullets
+            // can't skip through things.
+            return [position[0] - velocity[0], position[1] - velocity[1]];
         },
         getVelocity: function () {
             return velocity;
@@ -498,7 +509,16 @@ Asteroids.bullet = function (game, _pos, _dir) {
             Asteroids.move(position, velocity);
         },
         draw: function (ctx) {
-            Asteroids.drawPath(ctx, position, direction, 1, path);
+            if (_saucer) {
+                // Saucer shots are little circles.
+                ctx.setTransform(1, 0, 0, 1, position[0], position[1]);
+                ctx.beginPath();
+                ctx.arc(0, 0, radius, 0, Math.PI * 2, false);
+                ctx.fill();
+            }
+            else {
+                Asteroids.drawPath(ctx, position, direction, 1, path);
+            }
         },
     }
 }
@@ -551,24 +571,21 @@ Asteroids.saucer = function (game, small) {
             else if (position[1] > GAME_HEIGHT)
                 position[1] -= GAME_HEIGHT;
 
-            // Take a shot when it's time.
+            // Take a shot when it's time. Both saucers aim at the
+            // player -- the big one sloppily -- and their aim
+            // sharpens at higher levels.
             if (game.mode == 'playing' && !game.player.isDead() &&
                 now > nextShot) {
                 nextShot = now + SAUCER_FIRE_TIME;
-                var dir;
-                if (small) {
-                    // Aim at the player, better at higher levels.
-                    var p = game.player.getPosition();
+                var p = game.player.getPosition(),
+                    error = SAUCER_AIM_ERROR *
+                        (small ? 1 : SAUCER_BIG_AIM_ERROR) /
+                        (1 + game.level.getLevel() / 2),
                     dir = Math.atan2(p[1] - position[1],
                         p[0] - position[0]) +
-                        (Math.random() - 0.5) * 2 * SAUCER_AIM_ERROR /
-                        (1 + game.level.getLevel() / 4);
-                }
-                else {
-                    dir = Math.random() * Math.PI * 2;
-                }
+                        (Math.random() - 0.5) * 2 * error;
                 return Asteroids.bullet(game,
-                    [position[0], position[1]], dir);
+                    [position[0], position[1]], dir, true);
             }
             return null;
         },
@@ -949,6 +966,10 @@ Asteroids.asteroid = function (game, _gen) {
         getRadius: function () {
             return radius * generation;
         },
+        getWorldPath: function () {
+            return Asteroids.worldPath(path, position, direction,
+                generation);
+        },
         getGeneration: function () {
             return generation;
         },
@@ -966,21 +987,90 @@ Asteroids.asteroid = function (game, _gen) {
     }
 }
 
-Asteroids.collision = function (a, b) {
-    // if a.getPosition() inside b.getBounds?
-    var a_pos = a.getPosition(),
-        b_pos = b.getPosition();
+/**
+ * Collision geometry. Ships and rocks are tested against their actual
+ * drawn outlines (not bounding circles), and bullets are swept along
+ * the segment they traveled this frame so they can't skip through a
+ * rock between frames.
+ */
 
-    function sq(x) {
-        return Math.pow(x, 2);
+// A path's points in world coordinates, matching drawPath's transform.
+Asteroids.worldPath = function (path, position, direction, scale) {
+    var cos = Math.cos(direction) * scale,
+        sin = Math.sin(direction) * scale,
+        world = [];
+    for (var i = 0; i < path.length; i++) {
+        world.push([position[0] + path[i][0] * cos - path[i][1] * sin,
+        position[1] + path[i][0] * sin + path[i][1] * cos]);
     }
+    return world;
+}
 
-    var distance = Math.sqrt(sq(a_pos[0] - b_pos[0]) +
-        sq(a_pos[1] - b_pos[1]));
+// Is a point inside a closed path? (Ray casting.)
+Asteroids.pointInPath = function (pt, path) {
+    var inside = false;
+    for (var i = 0, j = path.length - 1; i < path.length; j = i++) {
+        if ((path[i][1] > pt[1]) != (path[j][1] > pt[1]) &&
+            pt[0] < (path[j][0] - path[i][0]) * (pt[1] - path[i][1]) /
+            (path[j][1] - path[i][1]) + path[i][0])
+            inside = !inside;
+    }
+    return inside;
+}
 
-    if (distance <= a.getRadius() + b.getRadius())
-        return true;
-    return false;
+// Do segments a-b and c-d cross?
+Asteroids.segmentsIntersect = function (a, b, c, d) {
+    var cross = function (p, q, r) {
+        return (q[0] - p[0]) * (r[1] - p[1]) -
+            (q[1] - p[1]) * (r[0] - p[0]);
+    };
+    return (cross(c, d, a) > 0) != (cross(c, d, b) > 0) &&
+        (cross(a, b, c) > 0) != (cross(a, b, d) > 0);
+}
+
+// Does segment a-b pass within radius of center?
+Asteroids.segmentHitsCircle = function (a, b, center, radius) {
+    var dx = b[0] - a[0],
+        dy = b[1] - a[1],
+        len2 = dx * dx + dy * dy,
+        t = len2 ? ((center[0] - a[0]) * dx +
+            (center[1] - a[1]) * dy) / len2 : 0;
+    t = Math.max(0, Math.min(1, t));
+    var cx = a[0] + t * dx - center[0],
+        cy = a[1] + t * dy - center[1];
+    return cx * cx + cy * cy <= radius * radius;
+}
+
+// Does segment a-b cross into or end inside a closed path?
+Asteroids.segmentHitsPath = function (a, b, path) {
+    for (var i = 0; i < path.length - 1; i++) {
+        if (Asteroids.segmentsIntersect(a, b, path[i], path[i + 1]))
+            return true;
+    }
+    return Asteroids.pointInPath(b, path);
+}
+
+// Does a circle touch a closed path?
+Asteroids.circleHitsPath = function (center, radius, path) {
+    for (var i = 0; i < path.length - 1; i++) {
+        if (Asteroids.segmentHitsCircle(path[i], path[i + 1],
+            center, radius))
+            return true;
+    }
+    return Asteroids.pointInPath(center, path);
+}
+
+// Do two closed paths overlap?
+Asteroids.pathsCollide = function (p1, p2) {
+    for (var i = 0; i < p1.length - 1; i++) {
+        for (var j = 0; j < p2.length - 1; j++) {
+            if (Asteroids.segmentsIntersect(p1[i], p1[i + 1],
+                p2[j], p2[j + 1]))
+                return true;
+        }
+    }
+    return Asteroids.pointInPath(p1[0], p2) ||
+        Asteroids.pointInPath(p2[0], p1);
 }
 
 /**
@@ -1355,7 +1445,7 @@ Asteroids.drawPath = function (ctx, position, direction, scale, path, color) {
 
     ctx.beginPath();
     ctx.moveTo(path[0][0], path[0][1]);
-    for (i = 1; i < path.length; i++) {
+    for (var i = 1; i < path.length; i++) {
         ctx.lineTo(path[i][0], path[i][1]);
     }
     ctx.stroke();
@@ -1530,6 +1620,11 @@ Asteroids.play = function (game) {
         }
         game.sound.thrust(playerActive && game.player.isThrusting());
 
+        // The ship's outline in world coordinates, for collision
+        // tests. Null while the ship can't be hit.
+        var playerPath = playerActive && !game.player.isInvincible() ?
+            game.player.getWorldPath() : null;
+
         for (var k = 0; k < bullets.length; k++) {
             if (!bullets[k])
                 continue;
@@ -1541,6 +1636,17 @@ Asteroids.play = function (game) {
             bullets[k].birthday();
             bullets[k].move();
             bullets[k].draw(ctx);
+
+            // Friendly fire: your own shot can wrap around (or be
+            // chased down) and hit you.
+            if (playerPath && bullets[k].getAge() > FRIENDLY_FIRE_AGE &&
+                Asteroids.segmentHitsPath(bullets[k].getLastPosition(),
+                    bullets[k].getPosition(), playerPath)) {
+                game.log.debug('You shot yourself!');
+                kill_bullets.push(k);
+                game.player.die(game);
+                playerPath = null;
+            }
         }
 
         for (var r = kill_bullets.length - 1; r >= 0; r--) {
@@ -1579,7 +1685,9 @@ Asteroids.play = function (game) {
         // Shot the saucer?
         if (saucer) {
             for (var j = 0; j < bullets.length; j++) {
-                if (bullets[j] && Asteroids.collision(bullets[j], saucer)) {
+                if (bullets[j] && Asteroids.segmentHitsCircle(
+                    bullets[j].getLastPosition(), bullets[j].getPosition(),
+                    saucer.getPosition(), saucer.getRadius())) {
                     game.log.debug('You shot the saucer!');
                     game.player.addScore(saucer.getScore());
                     game.sound.explosion(3);
@@ -1591,12 +1699,14 @@ Asteroids.play = function (game) {
         }
 
         // Flew into the saucer?
-        if (saucer && playerActive && !game.player.isInvincible() &&
-            Asteroids.collision(saucer, game.player)) {
+        if (saucer && playerPath &&
+            Asteroids.circleHitsPath(saucer.getPosition(),
+                saucer.getRadius(), playerPath)) {
             game.player.addScore(saucer.getScore());
             game.sound.explosion(3);
             scheduleSaucer();
             game.player.die(game);
+            playerPath = null;
         }
 
         // The saucer's bullets fly, age, and menace the player.
@@ -1610,11 +1720,26 @@ Asteroids.play = function (game) {
             saucerBullets[k].move();
             saucerBullets[k].draw(ctx);
 
-            if (!game.player.isDead() && !game.player.isInvincible() &&
-                !game.player.isHyper() &&
-                Asteroids.collision(saucerBullets[k], game.player)) {
+            if (playerPath &&
+                Asteroids.segmentHitsPath(
+                    saucerBullets[k].getLastPosition(),
+                    saucerBullets[k].getPosition(), playerPath)) {
                 kill_saucer_bullets.push(k);
                 game.player.die(game);
+                playerPath = null;
+            }
+            // Friendly fire: a shot that wraps around can down its
+            // own saucer.
+            else if (saucer &&
+                saucerBullets[k].getAge() > FRIENDLY_FIRE_AGE &&
+                Asteroids.segmentHitsCircle(
+                    saucerBullets[k].getLastPosition(),
+                    saucerBullets[k].getPosition(),
+                    saucer.getPosition(), saucer.getRadius())) {
+                game.log.debug('The saucer shot itself!');
+                kill_saucer_bullets.push(k);
+                game.sound.explosion(3);
+                scheduleSaucer();
             }
         }
         for (var r = kill_saucer_bullets.length - 1; r >= 0; r--) {
@@ -1628,24 +1753,29 @@ Asteroids.play = function (game) {
             asteroids[i].move();
             asteroids[i].draw(ctx);
 
+            var rockPath = asteroids[i].getWorldPath();
+
             // Destroy the asteroid
             for (var j = 0; j < bullets.length; j++) {
                 if (!bullets[j])
                     continue;
-                if (Asteroids.collision(bullets[j], asteroids[i])) {
+                if (Asteroids.segmentHitsPath(bullets[j].getLastPosition(),
+                    bullets[j].getPosition(), rockPath)) {
                     game.log.debug('You shot an asteroid!');
                     // Destroy the bullet.
                     bullets.splice(j, 1);
-                    killit = true; // JS doesn't have "continue 2;"
+                    killit = true;
                     scoreit = true;
-                    continue;
+                    break;
                 }
             }
 
             // Saucer fire breaks rocks too, but pays nothing.
             if (!killit) {
                 for (var j = 0; j < saucerBullets.length; j++) {
-                    if (Asteroids.collision(saucerBullets[j], asteroids[i])) {
+                    if (Asteroids.segmentHitsPath(
+                        saucerBullets[j].getLastPosition(),
+                        saucerBullets[j].getPosition(), rockPath)) {
                         saucerBullets.splice(j, 1);
                         killit = true;
                         break;
@@ -1655,7 +1785,8 @@ Asteroids.play = function (game) {
 
             // So does the saucer itself, the hard way.
             if (!killit && saucer &&
-                Asteroids.collision(saucer, asteroids[i])) {
+                Asteroids.circleHitsPath(saucer.getPosition(),
+                    saucer.getRadius(), rockPath)) {
                 game.sound.explosion(3);
                 scheduleSaucer();
                 killit = true;
@@ -1689,12 +1820,10 @@ Asteroids.play = function (game) {
             }
 
             // Kill the player?
-            if (game.mode == 'playing' &&
-                !game.player.isDead() &&
-                !game.player.isInvincible() &&
-                !game.player.isHyper() &&
-                Asteroids.collision(game.player, asteroids[i])) {
+            if (playerPath &&
+                Asteroids.pathsCollide(playerPath, rockPath)) {
                 game.player.die(game);
+                playerPath = null;
             }
         }
 
