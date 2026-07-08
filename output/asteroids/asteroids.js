@@ -29,7 +29,9 @@ MAX_BULLET_AGE = 25;
 AMMO_LIMIT = 100; // Shots per level; refills when a new level starts.
 
 // Saucer settings
-SAUCER_TIME = 12000; // Rough time between saucer visits. (ms)
+SAUCER_TIME = 9000; // Rough time between saucer visits at level 1. (ms)
+SAUCER_TIME_STEP = 1000; // Visits get this much closer each level... (ms)
+SAUCER_TIME_MIN = 3000; // ...but never more often than this. (ms)
 SAUCER_SPEED = 2.5;
 SAUCER_FIRE_TIME = 1400; // Time between saucer shots. (ms)
 SAUCER_BULLET_AGE = 40;
@@ -609,11 +611,19 @@ Asteroids.saucer = function (game, small) {
         draw: function (ctx) {
             ctx.save();
             ctx.setTransform(1, 0, 0, 1, 0, 0);
-            ctx.font = 'bold ' + (small ? 16 : 24) + 'px System, monospace';
+            // The big saucer wears red so it reads as a threat at a glance.
+            ctx.font = (small ? 'bold 16' : '900 24') + 'px System, monospace';
             ctx.textAlign = 'center';
             ctx.textBaseline = 'middle';
-            ctx.fillStyle = '#fff';
+            ctx.fillStyle = small ? '#fff' : '#f43';
             ctx.fillText('SPIE', position[0], position[1]);
+            if (!small) {
+                // Stroke over the fill to fatten the glyphs beyond
+                // what font weight alone gives.
+                ctx.strokeStyle = '#f43';
+                ctx.lineWidth = 1.5;
+                ctx.strokeText('SPIE', position[0], position[1]);
+            }
             ctx.restore();
         }
     }
@@ -1534,12 +1544,18 @@ Asteroids.play = function (game) {
         beat_low = true,
         extra_lives = 0;
 
+    // Saucers visit more often as the levels climb.
+    var saucerTime = function () {
+        return Math.max(SAUCER_TIME_MIN,
+            SAUCER_TIME - (game.level.getLevel() - 1) * SAUCER_TIME_STEP);
+    };
+
     var startGame = function () {
         game.sound.unlock();
         game.mode = 'playing';
         game.asteroids.splice(0, game.asteroids.length);
         game.level.levelUp(game);
-        nextSaucer = Date.now() + SAUCER_TIME * (1 + Math.random());
+        nextSaucer = Date.now() + saucerTime() * (1 + Math.random());
         last_fire_state = true; // Don't fire off the starting keypress.
     };
 
@@ -1685,7 +1701,7 @@ Asteroids.play = function (game) {
 
         var scheduleSaucer = function () {
             saucer = null;
-            nextSaucer = now + SAUCER_TIME * (0.5 + Math.random());
+            nextSaucer = now + saucerTime() * (0.5 + Math.random());
         };
 
         if (saucer) {
