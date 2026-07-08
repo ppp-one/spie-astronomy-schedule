@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "John W. Appel, Kyuyoung Bae, Charles L. Bennett, Michael K. Brewer, Sarah Marie Bruno, Carol Yan Yan Chan, Joseph Cleary, Sumit Dahal, Jullianna Denes Couto, Kevin L. Denis, Shannon M. Duff, Joseph R. Eimer, Thomas Essinger-Hileman, Naina Gupta, Johannes Hubmayr, Gregory Jaehnig, John Karakla, Matthew Koc, Jeff van Lanen, Yunyang Li, Michael J. Link, Tammy Lucas, Tobias Marriage, Carolina Morales Perez, Matthew A. Petroff, Caleigh Ryan, Rui Shi, Deniz A. N. Valle, Edward J. Wollack",
-      "PaperNumber": "14156-55",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 09:30 - 09:50 CEST | Room B5-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "ed8270ee-dacf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "ed8270ee-dacf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Detectors for CLASS-W2: the second 90 GHz telescope of the cosmology large angular scale surveyor",
-      "Description": null,
-      "Abstract": "The Cosmology Large Angular Scale Surveyor (CLASS) studies degree-scale cosmic-microwave-background (CMB) polarization to probe cosmic inflation and reionization. In August 2025 we deployed CLASS-W2, a second 90 GHz receiver that houses four NIST-fabricated detector modules, each with 37 feedhorn-coupled, dual-polarization transition-edge-sensor (TES) bolometers, for a total of 296 optical detectors. Lab tests show uniform performance: critical temperature 184 ± 3 mK, thermal conductance 460 ± 47 pW K⁻¹, normal resistance 7.8 ± 0.3 mΩ, and 94 % yield. The array’s band center is 95.2 GHz with 28.3 GHz bandwidth. On-sky measurements give an average optical load of 3.3 pW, a beam solid angle of 124 µsr (FWHM 0.59°), and 37 % optical efficiency. A metal-mesh low-pass filter with a 157 GHz cutoff removes 0.9 pW of high-frequency “blue-leak” power. The four-module array reaches a noise-equivalent temperature of 16 µK √s, raising the CLASS 90 GHz mapping speed by 41 %.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Detectors-for-CLASS-W2--the-second-90-GHz-telescope/14156-55",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 09:30 - 09:50 CEST | Room B5-M3",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "J. Ruz, M. J. Pivovaroff, J. K. Vogel, V. Burwitz, G. Hartner, B. Budau, F. E. Christensen, C. J. Hailey, T. Decker, A. Jakobsen, R. Soufli, N. Brejnholt",
-      "PaperNumber": "14146-98",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 09:30 - 09:50 CEST | Room B4-M1",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "3a52b5e6-8ace-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "3a52b5e6-8ace-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The IAXO pathfinder: an x-ray telescope for axion detection",
-      "Description": null,
-      "Abstract": "The axion, a pseudo-scalar particle proposed to solve the strong CP problem, remains a prime dark matter candidate, driving increasingly sensitive searches across wide mass–coupling ranges. The International Axion Observatory (IAXO) aims to improve sensitivity to the axion–photon coupling by more than an order of magnitude over CAST, requiring high-performance X-ray optics to focus solar axion–induced photons onto ultra-low-background detectors. This work presents the design and characterization of the IAXO Pathfinder X-ray optic, with emphasis on its detailed evaluation at the PANTER X-ray Test Facility. The multilayer-coated, slumped-glass optic was measured for effective area, point-spread function, reflectivity, and throughput, validating the design through comparison with ray-tracing simulations. Deployed at CAST with Micromegas and GridPix detectors, it achieved record sensitivity to axion-photon and the axion–electron couplings.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-IAXO-pathfinder--an-x-ray-telescope-for-axion/14146-98",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 09:30 - 09:50 CEST | Room B4-M1",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Giorgia Sironi, Laura Proserpio, Giovanni Pareschi",
       "PaperNumber": "14147-73",
       "DateTimeLocationDataList": [
@@ -638,7 +570,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Hirokzu Ishino, Asuka Maeda, Tomotake Matsumura, Kosuke Aizawa, Hiroki Akamatsu, Ryosuke Akizawa, Erwan Allys, Avinash Anand, Damian Audley, Jonathan Aumont, Susanna Azzoni, Carlo Baccigalupi, Mario Ballardini, Anthony J. Banday, Giulia Barbieri Ripamonti, Rita B. Barreiro, Nicola Bartolo, Soumen Basak, Marco Bersanelli, Anaïs Besnard, Dmitry Blinov, François Bouchet, Francois Boulanger, Nicola Brancadori, Thejs Brinckmann, Erminia Calabrese, Paolo Campeti, Alessandro Carones, Florie Carralot, Francisco J Casas, Jyothis Chandran, Yuji Chinone, Michele Citran",
+      "Authors": "Hirokzu Ishino, Asuka Maeda, Tomotake Matsumura, Kosuke Aizawa, Hiroki Akamatsu, Ryosuke Akizawa, Erwan Allys, Avinash Anand, Damian Audley, Jonathan Aumont, Susanna Azzoni, Carlo Baccigalupi, Mario Ballardini, Anthony J. Banday, Giulia Barbieri Ripamonti, Rita B. Barreiro, Nicola Bartolo, Soumen Basak, Marco Bersanelli, Anaïs Besnard, Dmitry Blinov, François Bouchet, Francois Boulanger, Nicola Brancadori, Thejs Brinckmann, Erminia Calabrese, Paolo Campeti, Alessandro Carones, Florie Carralot, Francisco J. Casas, Jyothis Chandran, Yuji Chinone, Michele Citran, Fabio Columbro, Alessandro Coppolecchia, Francesco Cuttaia, Paolo Dal Bo, Paolo Bernardis, Tijmen de Haan, Elena de la Hoz, Mario De Lucia, Marco De Petris, Stefano Della Torre, Clive Dickinson, Patricia Diego-Palazuelos, José J. Díaz García, Tadayasu Dotani, Marian Douspis, Ken Ebisawa, Hans K. Eriksen, Josquin Errard, Elisa Ferreira, Fabio Finelli, Cristian Franceschet, Ryuichi Fujimoto, Unni Fuskeland, Giacomo Galloni, Mathew Galloway, Martina Gerbino, Massimo Gervasi, Ricardo T. Génova-Santos, Tommaso Ghigna, Serena Giardiello, Eirik Gjerløw, Miguel Gomes, Alessandro Gruppuso, Jon E. Gudmundsson, Peter Hargrave, Stuart Harper, Masaya Hasegawa, Masashi Hazumi, Sophie Henrot-Versillé, Lukas Hergt, Eric Hivon, Kiyotomo Ichiki, Kiyoshi Ikuma, Tanto L. Irikura, Baptiste Jost, Reijo Keskitalo, Kentaro Kikuno, Kazunori Kohri, Eiichiro Komatsu, Luca Lamagna, Massimiliano Lattanzi, Clément Leloup, Margherita Lembo, François Levrier, Jia Liu, Anto I. Lonappan, Marcos López-Caniego, Gemma Luzzi, Juan Macias-Perez, Bruno Maffei, Davide Maino, Vipul Prasad Maranchery, Enrique Martínez-González, Silvia Masi, Sabino Matarrese, Frederick T. Matsuda, Silvia Micheli, Marina Migliaccio, Marta Monelli, Ludovic Montier, Louise Mousset, Shoken Myozen, Hosei Nagano, Ryo Nagata, Kenichiro Nagayoshi, Mahdi Najafi, Toshiya Namikawa, Paolo Natoli, Fabio Noviello, Andrea Occhiuzzi, Kimihide Odagiri, Shugo Oguri, Hiroyuki Ohsaki, Satsuki Okumura, Luca Pagano, Alessandro Paiella, Daniela Paoletti, Simone Paradiso, Guillermo Pascual-Cisneros, Guillaume Patanchon, Vasiliki Pavlidou, Francesco Piacentini, Michel Piat, Giulia Piccirilli, Michele Pinchera, Giampaolo Pisano, Gianluca Polenta, Luca Porcelli, Frederick S. Porter, Martin Reinecke, Mathieu Remazeilles, Arianna Rizzieri, Jose A. Rubiño-Martín, Miguel Ruiz-Granda, Yuki Sakurai, Laura Salvati, Joy Kaushik Sanghavi, Giorgio Savini, Douglas Scott, Yutaro Sekimoto, Maresuke Shiraishi, Giovanni Signorelli, Simone Stellati, Radek Stompor, Créidhe Sullivan, Rion Takahashi, Ryota Takaku, Hayato Takakura, Yusuke Takase, Andrea Tartari, Konstantinos Tassis, Karen Tateoka, Luca Terenzi, Maurizio Tomasi, Matthieu Tristram, Davide Vaccaro, Léo Vacher, Bartjan van Tent, Patricio Vielva, Samy Vinzl, Kazuya Watanuki, Duncan J Watts, Ingunn K Wehus, Gilles Weymann-Despres, Berend Winter, Edward Wollack, Noriko Y Yamasaki, Keisuke Yoshihara, Andrea Zacchei, Mario Zannoni",
       "PaperNumber": "14145-89",
       "DateTimeLocationDataList": [
         {
@@ -658,7 +590,7 @@
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:136.89 Total:1439.16",
       "HTMLTitle": "",
       "Title": "LiteBIRD mission overview: concept-design update after mission reformation",
       "Description": null,
@@ -1724,13 +1656,81 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "10 July 2026 • 11:40 - 12:00 CEST | Room B5-M3",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Krittapas Chanchaiworawit, Kantapong Tharawan, That Chomchuen, Jitsupa Paenoi, Thansita Thomrungpiyathan, Pakawat Prasit, Samattachai Tanun, Teerawat Kuha, Auychai Laoyang, Pathompong Butpan, Rungrit Anutarawiramkul, Anuphong Inpan, Suchinno Kanthum, Picha Ruenarrom, Tarathon Intaros, Manlika Pinkaew, Apichat Leckngam",
+      "PaperNumber": "14149-84",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 11:50 - 12:10 CEST | Auditorium 15",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "4a531bdf-00d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "4a531bdf-00d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "LRS and CoLoRS: the next generation instruments for rapid spectroscopic follow-up for the Thai National Telescope and the Thai Robotic Telescopes Network",
+      "Description": null,
+      "Abstract": "NARIT is deploying a new generation of spectrographs on the Thai National Telescope (TNT) and the Thai Robotic Telescope Network (TRTs) to strengthen global time-domain astronomy. The Low Resolution Spectrograph (LRS) on the 2.4-m TNT delivers R≈375–1000 over 400–800 nm in long-slit and slitless modes, reaching surface-brightness limits of SB_r’≈20.5 mag/arcsec² in one hour. While CoLoRS at the TRTs provides rapid R=100–200 spectroscopy with S/N>100 for r’≈12 mag targets, and its forthcoming upgrade, CoLoRS-NEX, adds simultaneous NIR imaging across a ≥10′ field. Together, these systems enable rapid transient classification, exoplanet study, AGN characterization, and sensitive extragalactic surveys, positioning Thailand as a key contributor to next-generation time-domain science.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/LRS-and-CoLoRS--the-next-generation-instruments-for-rapid/14149-84",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 11:50 - 12:10 CEST | Auditorium 15",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Runa Briguglio, Marco Xompero, Giorgio Pariani, Nicolò Azzaroli, Luca Oggioni, Pietro Ferraiuolo, Matteo Menessini, Riccardo Grignaffini, Chiara Scandaglia, Armando Riccardi, Elise Vernet, Aglae Kellerer",
+      "PaperNumber": "14150-98",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 11:55 - 12:10 CEST | Room B3-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "1deaf6f6-8bd0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "1deaf6f6-8bd0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Optical calibration of the ELT-M4: automated testing procedure and results on the prototype",
+      "Description": null,
+      "Abstract": "In the ELT, the wavefront correction is demanded to a quaternary deformable mirror; the M4 will be the largest DM ever built, with 5000+ actuators controlling its optical surface 2.5 m in diameter, segmented into 6 petals. Given its size, high actuator counts and tight operational requirements, it is mandatory for the optical calibration procedure to implement a large degree of automation, from initial alignment to system monitoring and to final reporting.  In this contribution, we summarize the procedure we developed for the LBT and VLT adaptive secondaries and fine tuned for the segmented M4; the focus will be on the actors, interfaces, data flow, data tracking, segments management and automation. The procedure, tested on the M4 Demonstration prototype, includes Optical Test Tower alignment, preliminary segments shaping, noise evaluation, measurement of Influence Functions and flattening in closed loop, calibration of the M4 metrology and phasing.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-calibration-of-the-ELT-M4--automated-testing-procedure/14150-98",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 11:55 - 12:10 CEST | Room B3-M2",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

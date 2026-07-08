@@ -26,41 +26,7 @@
   },
   "Items": [
     {
-      "Authors": "Jason E. Austermann, The CCAT Collaboration",
-      "PaperNumber": "14156-5",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 11:50 - 12:10 CEST | Room B5-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "3cf85fc8-a5d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "3cf85fc8-a5d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "CCAT: The focal plane arrays of the prime-cam submillimeter receiver",
-      "Description": null,
-      "Abstract": "Prime-Cam is a multi-instrument receiver for the Fred Young Submillimeter Telescope (FYST). Prime-Cam hosts 7 independent instrument modules with unique focal planes that are designed and optimized for complementary mapping and spectral abilities. Each focal plane consists of large-format arrays of feedhorn-coupled microwave kinetic inductance detectors (MKIDs). When completed, Prime-Cam will contain over 100,000 MKIDs. Here we describe the designs, fabrication, and in-lab characterizations of completed deployment devices for each of four initial instrument modules. We compare and contrast the unique and differing design elements of each focal plane. We review available in-lab performance, and discuss yield and uniformity metrics for completed deployment arrays. We also describe the design, fabrication, and performance of the silicon-platelet feedhorn arrays used in most of the focal planes, including the very first silicon feedhorn arrays to operate fully in the submillimeter.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/CCAT--The-focal-plane-arrays-of-the-prime-cam/14156-5",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 11:50 - 12:10 CEST | Room B5-M3",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Solange Ramírez, Maren Cosens, Nicholas P. Konidaris, Francisco Garzón, Brian McLeod, Suzanne Ramsay, Leon Aslan, Robert Barkhouser, Christoph Birk, Julia Brady, Tyson Hare, Stephen C. Hope, Charlie Hull, Karim Kaismoune, Daniel D. Kelson, Gerrad Killion, Alicia Lanz, Jacob McCloskey, Andrew B. Newman, Gwen C. Rudie, William Schoenell, Patricio Schurter, Stephen A. Smee, Jason E. Williams",
+      "Authors": "Solange V. Ramírez, Maren Cosens, Nicholas P. Konidaris, Francisco Garzón, Brian McLeod, Suzanne Ramsay, Leon Aslan, Robert Barkhouser, Christoph Birk, Julia Brady, Tyson Hare, Stephen C. Hope, Charlie Hull, Karim Kaismoune, Daniel D. Kelson, Gerrad Killion, Alicia Lanz, Jacob McCloskey, Andrew B. Newman, Gwen C. Rudie, William Schoenell, Patricio Schurter, Stephen A. Smee, Jason E. Williams",
       "PaperNumber": "14152-30",
       "DateTimeLocationDataList": [
         {
@@ -740,7 +706,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Anna MacIver, Miguel Angel Cagigas García, Paula Bañares-Palacios, Elvio Hernández Suárez, Rafael Melgar Hernandez, Stephen Todd, Amelia Calderhead, Elizabeth George, Alberto Hernández-González, Eduard Muslimov",
+      "Authors": "A. MacIver, Miguel Ángel Cágigas García, Paula Bañares-Palacios, Elvio Hernández Suárez, Rafael Melgar Hernández, Stephen Todd, Amelia Calderhead, Elizabeth George, Alberto Hernández-González, Eduard Muslimov",
       "PaperNumber": "14152-32",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 14:20 - 14:35 CEST | Room B3-M2",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Shuji Matsuura, Kohji Takimoto, Kohji Tsumura, Kei Sano, Aoi Takahashi, Michael Zemcov, Andrew Poppe, Hajime Yano, Naoya Sakatani, Takeshi Imamura, Yuhito Shibaike, Hajime Kawahara, Ryu Funase, Naoya Ozaki, Kakeru Tokunaga, Yuki Kubo",
+      "PaperNumber": "14145-46",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 14:20 - 14:40 CEST | Room B4-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "a46cc502-14cd-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "a46cc502-14cd-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "OPENS-0: an outer planet exploration mission providing opportunities for multi-site observations of diffuse background light",
+      "Description": null,
+      "Abstract": "We are planning a new concept OPENS (Outer Planet Exploration by Novel Small Spacecraft) program that will explore the outer planet region with a series of small spacecraft in a shorter development time and at a lower cost than legacy spacecraft. OPENS-0, which was selected as a JAXA Eco & Fast Class candidate, is a technology demonstration mission to Saturn. During its cruise phase, OPENS-0 will provide astronomical science opportunities, including observations of the ZL, EBL, and other diffuse background light, using onboard multipurpose cameras. This paper presents an overview of the OPENS-0's instruments and scientific objectives, as well as an introduction to the OPENS program.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/OPENS-0--an-outer-planet-exploration-mission-providing-opportunities/14145-46",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 14:20 - 14:40 CEST | Room B4-M3",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

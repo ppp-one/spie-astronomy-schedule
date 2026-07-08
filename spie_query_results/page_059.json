@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Mohammad N. Islam, Tayron Dueck, Richard Hellyer, Gordon Lacy, Elena Bergeron, Brian Hoff, Julie Levesque-Robb, Bryan Schellenberg",
-      "PaperNumber": "14153-72",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 15:30 - 15:50 CEST | Room B2-M8",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "cdfbb82d-d6cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "cdfbb82d-d6cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "From concept to production: the making of composite reflectors for the Canadian Hydrogen Observatory and Radio-transient Detector",
-      "Description": null,
-      "Abstract": "This paper outlines the development and production of composite reflectors for the Canadian Hydrogen Observatory and Radio-transient Detector (CHORD) at the Dominion Radio Astrophysical Observatory in British Columbia. DRAO developed and now fabricates 512 six‑meter composite antennas using molds, custom jigs, fixtures, and optimized workflows to ensure manufacturing repeatability. The paper details the transition from R&D to full-scale production, addressing challenges in composite fabrication and highlighting innovations that improved reflector accuracy, reduced cost, and increased production efficiency.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/From-concept-to-production--the-making-of-composite-reflectors/14153-72",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 15:30 - 15:50 CEST | Room B2-M8",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Giovanni Isopi, Alessandro Attoli, Eleonora Barbavara, Elia Stefano Battistelli, Costanza Bellucci, Paolo de Bernardis, Federico Cacciotti, Giuseppe Carboni, Ettore Carretti, Daniele Ciccalotti, Fabio Columbro, Alessandro Coppolecchia, Angelo Cruciani, Giuseppe D'Alessandro, Giancarlo De Gasperis, Marco De Petris, Sofia Ferazzoli, Federica Govoni, Adelaide Ladu, Luca Lamagna, Pasqualino Marongiu, Davide Marsala, Silvia Masi, Matteo Murgia, Alessandro Navarrini, Alessandro Novelli, Andrea Occhiuzzi, Andrea Orlati, Alessandro Paiella, Giorgio Pettinari, Francesco Piacentini, Mauro Pili, Giampaolo Pisano, Tonino Pisanu, Sergio Poppi, Luca Schirru, Gian Paolo Vargiu, Chiara Volpe",
-      "PaperNumber": "14156-67",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 15:30 - 15:50 CEST | Room B5-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "7f6890ab-6acf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "7f6890ab-6acf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "MISTRAL: first light from the Sardinia Radio Telescope and status of the technical commissioning",
-      "Description": null,
-      "Abstract": "MISTRAL is a novel multi-beam cryogenic camera observing from the Sardinia Radio Telescope (SRT) in the W-band. It features a wide 4 arcminute field of view sampled by 415 KIDs, sensitive to continuum radiation in the 77-103 GHz band. Coupled to the 64m dish of SRT with a custom cold (4K) re-imaging system, it produces a beamwidth of 12 arcseconds. The high sensitivity and wide field of view makes MISTRAL suitable for wide area continuum surveys in the W band, capabilities shared by few instruments in the world installed on large radio telescopes. In this contribution, we report the status of the commissioning of MISTRAL after the first year of observations from the SRT, in preparation to the opening to proposals from the scientific community. We will report the on-sky performance of the instrument with the initial high-frequency configuration of the SRT, its resolution and wide area scanning capabilities, showing the first light maps from the commissioning runs.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/MISTRAL--first-light-from-the-Sardinia-Radio-Telescope-and/14156-67",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 15:30 - 15:50 CEST | Room B5-M3",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Kieran S. O'Brien, Paul J. Groot, Thomas Kupfer, Simone Scaringi, Boris Gänsicke",
       "PaperNumber": "14147-81",
       "DateTimeLocationDataList": [
@@ -196,7 +128,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Isaac Smith, Christopher Groppi, Paul Horton, Jose Siles, Christian Thompson",
+      "Authors": "Isaac Smith, Paul Horton, Jose Siles, Christian Thompson, Christopher Groppi",
       "PaperNumber": "14156-34",
       "DateTimeLocationDataList": [
         {
@@ -218,11 +150,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Fast Pointing Mode for NASA’s ASTHROS Submillimeter Balloon Mission",
+      "Title": "Fast pointing mode for NASA’s ASTHROS submillimeter balloon mission",
       "Description": null,
       "Abstract": "The ASTHROS balloon mission requires carefully designed observing modes that account for scan mechanics, pointing performance, Allan stability limits, and the behavior of its custom CMOS backend spectrometer. To support this effort, we conducted targeted spectrometer characterization and developed a complete suite of operational observing modes for the mission.Initial hardware tests demonstrated that FFT binning scales linearly with readout time and that integration times as short as ~2 ms are achievable when properly configured. These results significantly expand the feasible parameter space for fast scan modes, including rapid small-area rasters using only the secondary mirror.Building on this foundation, we developed and evaluated a full set of observing strategies: large on-the-fly raster mapping, position and beam switching, pointing refinement patterns, focusing procedures, and rapid stability-limited small-map modes. MATLAB tools were created to compute scan durations, dump",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Fast-Pointing-Mode-for-NASAs-ASTHROS-Submillimeter-Balloon-Mission/14156-34",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Fast-pointing-mode-for-NASAs-ASTHROS-submillimeter-balloon-mission/14156-34",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -809,10 +741,10 @@
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

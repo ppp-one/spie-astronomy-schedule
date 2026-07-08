@@ -26,45 +26,11 @@
   },
   "Items": [
     {
-      "Authors": "Andres Pino Pavez, Claudia Cid, Steffen Mieske, Cristian Romero",
-      "PaperNumber": "14151-105",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "dc413efe-73cc-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "dc413efe-73cc-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Continuous integration of operations and data quality: the TIO model at ESO’s Paranal Observatory",
-      "Description": null,
-      "Abstract": "As part of Paranal Observatory’s ongoing evolution toward more efficient and autonomous scientific operations, the Telescope and Instrument Operators (TIO) Group has played a key role in redefining how observations are executed and validated. This transformation has reshaped the operational model and strengthened the connection between technical expertise and scientific data quality.    The purpose of this talk is to present how the TIO Group at Paranal Observatory has evolved to meet the changing demands of scientific operations. It will describe the transition toward greater autonomy in nightly observing activities, the implementation of comprehensive training and certification programs, and the development of integrated processes that ensure scientific data quality. The talk will also highlight how these advancements are preparing the TIO team to operate the next-generation systems of the Extremely Large Telescope (ELT).",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Continuous-integration-of-operations-and-data-quality--the-TIO/14151-105",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Aaron Hunter, Philip Hinz, Gabriel Kruglikov",
       "PaperNumber": "14150-225",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -90,7 +56,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -98,7 +64,7 @@
       "PaperNumber": "14150-217",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -124,7 +90,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -132,7 +98,7 @@
       "PaperNumber": "14155-144",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -158,7 +124,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -200,7 +166,7 @@
       "PaperNumber": "14146-247",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -226,7 +192,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -234,7 +200,7 @@
       "PaperNumber": "14145-198",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -260,7 +226,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -268,7 +234,7 @@
       "PaperNumber": "14146-241",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -294,7 +260,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -302,7 +268,7 @@
       "PaperNumber": "14150-262",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -328,7 +294,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -336,9 +302,9 @@
       "PaperNumber": "14156-79",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -362,7 +328,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -404,7 +370,7 @@
       "PaperNumber": "14145-215",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -430,7 +396,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -438,7 +404,7 @@
       "PaperNumber": "14151-82",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -464,7 +430,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -608,7 +574,7 @@
       "PaperNumber": "14150-230",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -634,7 +600,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -642,7 +608,7 @@
       "PaperNumber": "14149-133",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -668,7 +634,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -710,7 +676,7 @@
       "PaperNumber": "14157-127",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -736,7 +702,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -744,7 +710,7 @@
       "PaperNumber": "14146-368",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -770,7 +736,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -808,11 +774,45 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Megan M. Dubay, Henry Corbett, Thomas Procter, Nicholas M. Law, Alex Bucheli, Jonathan Carney, James Dockery, Shannon Fitton, Lawrence Machia, William Marshall, Michael Ronco, Donovan G. Schlekat, Alan Vasquez Soto, Glenn Walters",
+      "PaperNumber": "14151-86",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "36faab43-96d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "36faab43-96d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Design of the Argus Array Operations Database and Hardware Management System",
+      "Description": null,
+      "Abstract": "The Argus Array is an 8m class all-sky survey instrument that will image 8,000sq-deg at 1.0”/scale as quickly as once a second. The 1200-telescope system presents challenges in hardware inventory management, real-time state monitoring, and operational coordination like those of global telescope networks, but at a scale of monitoring thousands of individual components. We have developed a PostgreSQL relational database serving as the central repository for hardware configuration, telemetry, and performance metrics. The database models complex relationships between device types and their specialized characteristics. The operations database integrates bidirectionally with the control system, providing configuration data at startup while receiving continuous state updates during operations. Hardware management is facilitated through an internal custom Jira Service Management integration. Here we discuss the database design and its implementation during the construction phase of the survey.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Design-of-the-Argus-Array-Operations-Database-and-Hardware-Management/14151-86",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Pruchaya Sonnapapat, Supachai Awiphan, Sasikan Suriyot, Warakon Sribunrueang, Kenwit Phimprasong, Weerapot Wanajaroen, Apirat Prasit, Pongpop Sukanunta, Thansita Thomrungpiyathan, Naphat Muangnin, Natthapong Sanwongwan, Picha Ruenarrom",
       "PaperNumber": "14147-152",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -838,7 +838,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -846,7 +846,7 @@
       "PaperNumber": "14147-141",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -872,7 +872,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -914,7 +914,7 @@
       "PaperNumber": "14146-272",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -940,7 +940,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1016,7 +1016,7 @@
       "PaperNumber": "14146-239",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1042,7 +1042,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1050,7 +1050,7 @@
       "PaperNumber": "14150-227",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1076,7 +1076,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1152,7 +1152,7 @@
       "PaperNumber": "14146-240",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1178,7 +1178,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1186,7 +1186,7 @@
       "PaperNumber": "14153-89",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1212,7 +1212,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1284,11 +1284,11 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Carla J. Baldovin Saveedra, Mark Ruiter, Paulus Kruger, Boudewijn Hut",
+      "Authors": "Carla Baldovin Saveedra, Boudewijn Hut, Paulus Kruger, Mark Ruiter",
       "PaperNumber": "14152-113",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1314,41 +1314,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Patricio Galeas, Rodrigo Seguel, Sebastian Carrasco, Rodrigo Augsburger, Fernando Huenupan, Ania Cravero, Jaime Guarda, Javier Valenzuela, Tzu-Chiang Shen",
-      "PaperNumber": "14150-270",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "2989d96b-8cc4-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "2989d96b-8cc4-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Development of a new motion control system for the SPHERE instrument of the Very Large Telescope",
-      "Description": null,
-      "Abstract": "This paper presents a project to upgrade the motion control of the SPHERE instrument at the VLT to the current Beckhoff PLC based motion control system. The new system has already been successfully used in all new instruments on both the VLT and the ELT. The original solution, developed in the 1990s, relied on the VMEbus and Motorola 68k CPUs with MACCON controllers for DC and stepper motors. However, since these products were discontinued over a decade ago, ESO developed the CANbus Remote Motion Controller (CAN-RMC) with external help. This controller has been successfully integrated into other instruments. Despite its satisfactory performance, the CAN-RMC has critical drawbacks that led to the development of a new solution based on open industrial standards to minimize obsolescence.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-a-new-motion-control-system-for-the-SPHERE/14150-270",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1356,7 +1322,7 @@
       "PaperNumber": "14146-243",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1382,7 +1348,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1424,7 +1390,7 @@
       "PaperNumber": "14157-126",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1444,13 +1410,13 @@
       "HTMLTitle": "",
       "Title": "Development of an FPGA-based readout system and functional characterization of a custom NSX1 ASIC for x-ray instrumentation",
       "Description": null,
-      "Abstract": "We develop an FPGA-based readout system for a front-end ASIC (NSX1) with 64 channels to read out a large-area silicon drift detector used in X-ray detection instruments such as the Wide Field Monitor module for the STROBE-X mission concept. The FPGA acts as a central controller for NSX1 configuration, implementing trigger handling and event sequencing, precise event timestamping, control of an external ADC for digitization, and data transfer to the host PC. The system enables comprehensive ASIC characterization; here, we demonstrate preliminary ASIC functionality and characterization tests using a calibrated pulser for two programmable linear gain responses of 375 mV/fC and 750 mV/fC, and achieve a noise performance of 11.5 e⁻ ENC as a function of input charge, input capacitance, and shaping time. These preliminary results validate the low-noise performance of the NSX1 ASIC and demonstrate successful DAQ system integration.",
+      "Abstract": "We develop an FPGA-based readout system for a front-end ASIC (NSX1) with 64 channels to read out a large-area silicon drift detector used in X-ray detection instruments such as the Wide Field Monitor module for the STROBE-X mission concept. The FPGA acts as a central controller for NSX1 configuration, implementing trigger handling and event sequencing, precise event timestamping, control of an external ADC for digitization, and data transfer to the host PC. The system enables comprehensive ASIC characterization; here, we demonstrate preliminary ASIC functionality and characterization tests using a calibrated pulser for two programmable linear gain responses of 375 mV/fC and 750 mV/fC. These preliminary results validate the low-noise performance of the NSX1 ASIC and demonstrate successful DAQ system integration.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-an-FPGA-based-readout-system-and-functional-characterization/14157-126",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1458,7 +1424,7 @@
       "PaperNumber": "14153-95",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1484,7 +1450,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1526,7 +1492,7 @@
       "PaperNumber": "14152-129",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1552,7 +1518,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1594,7 +1560,7 @@
       "PaperNumber": "14151-66",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1620,7 +1586,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1628,7 +1594,7 @@
       "PaperNumber": "14146-282",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1654,7 +1620,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1696,7 +1662,7 @@
       "PaperNumber": "14146-258",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 7 July 2026",
+          "date_time_location": "On demand | Presented live 7 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1722,15 +1688,49 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 7 July 2026",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Stephanie S. Guzman, James Hoag, Sarah Gajadhar",
+      "PaperNumber": "14152-130",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presented live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "0b211b84-a5cc-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "0b211b84-a5cc-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Discovering the need for dedicated CMMS support for the Daniel K. Inouye Solar Telescope",
+      "Description": null,
+      "Abstract": "A CMMS (Computerized Maintenance Management System) is a type of software that helps companies keep track of and organize maintenance work, track and monitor assets, control inventory, document procedures, and generate relevant reporting data.  In 2024, the Daniel K. Inouye Solar Telescope was faced with the task of migrating from a discontinued CMMS platform. During the process of preparing for the migration, inconsistencies among how staff members within different departments use the CMMS became apparent. The Inouye had roughly 30 employees that regularly used the CMMS. This team was made up of technicians, engineers, and supervisors, each of whom had different needs of what they got out of a CMMS. The need for a dedicated employee with experience in software tool configuration and administration to support an accurate and timely migration, maintain consistency of use, work as a liaison between staff and the vendor, and implement new or underutilized features became apparent.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Discovering-the-need-for-dedicated-CMMS-support-for-the-Daniel/14152-130",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
       "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

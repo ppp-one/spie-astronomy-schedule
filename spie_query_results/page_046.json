@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Lisa-Marie Mazzolo, Benoit Neichel, Guido Agapito, Arseniy Kuznetsov, Fabio Rossi, Cédric Plantet, Carlo Felice Manara, Romain Fetick, Alice Concas, Joël Vernet, Olivier Hainaut, Thomas Bierwirth, Giulia Carlà, Jean-Francois Sauvage, Michele Cirasuolo, Carlos Correia, Cédric Taissir Héritier, Thierry Fusco",
-      "PaperNumber": "14150-303",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "d7751989-5ccf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "d7751989-5ccf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "TipTop: a fast and versatile analytical tool for AO PSF prediction",
-      "Description": null,
-      "Abstract": "TipTop is an analytical adaptive-optics (AO) point spread function (PSF) modelling framework that has progressively evolved from a fast PSF prediction tool into a broader ecosystem supporting operational and scientific applications. This contribution presents recent developments aimed at improving computational performance, numerical robustness, software modularity, and scalability, enabling the integration of TipTop into ESO operational services such as the Exposure Time Calculator and observation-preparation tools. We also present recent advances in data-calibrated PSF reconstruction and Astro-TipTop Services, a community platform providing documentation, instrument configurations, interactive tools, and educational resources. More information is available at https://astro-tiptop-services.github.io/astro-tiptop-services/.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/TipTop--a-fast-and-versatile-analytical-tool-for-AO/14150-303",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Natalie R. Fullerman, Joseph M. Howard, Breann Sitarski",
-      "PaperNumber": "14145-258",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "b6d3c83c-d9d5-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "b6d3c83c-d9d5-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Tools for non-sequential ray tracing through segmented telescopes for Habitable Worlds Observatory",
-      "Description": null,
-      "Abstract": "Architectures are currently being explored for NASA’s upcoming flagship mission, Habitable Worlds Observatory (HWO). Similar to James Webb Space Telescope, the primary mirrors are being designed as segmented rather than monolithic. This introduces the need for non-sequential ray tracing in an optical model. In order to make this conversion process more efficient, a series of macros can be written in CODE V. The programs will turn surfaces from sequential to non-sequential, insert the appropriate number of segments, and automatically generate the required geometries for each part. Considerations include:  •Segment shape   •Gap size between segments   •Segment numbers & orientation composing the full mirror",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Tools-for-non-sequential-ray-tracing-through-segmented-telescopes-for/14145-258",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "John Mather, Ahmed Soliman, Stuart Shaklan, Eliad Peretz, Christine Gregg, Manan Arya, Markus Kasper, Jamila Taaki, Mario Damiano, Zahra Ahmed, Harsh Bhundiya, Aman Chandra, Jessie Christiansen, Richard Dekany, Juliana Garcia-Mejia, Jennifer Lopez, David Miller, Rhonda Morgan, Jalo Nousiainen, Sergio Pellegrino, Peter Plavchan, William Sanchez, Aniket Sanghi, Jonathan Sauder, Andrew Szentgyorgyi, Ronald Turner, Amber Young, Dmitry Savransky, Aiden Zelakiewicz, Sungeun Jeon, Shannon Brown, Jonathan Arenberg, Mark Silver, Christophe Lovis, Michel Mayor",
       "PaperNumber": "14145-223",
       "DateTimeLocationDataList": [
@@ -196,13 +128,13 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Rita F. Sonka, Karwan Rostem, Jake Connors, Shannon Duff, Johannes Hubmayr, Tuomas Puurtinen, Elmer H. Sharp, Edward J. Wollack",
+      "Authors": "Rita F. Sonka, Karwan Rostem, Jake Connors, Elmer Sharp, Ed. Wollack, Shannon Duff, Hannes Hubmayr, Tuomas Puurtinen",
       "PaperNumber": "14156-147",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -218,15 +150,15 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Ultra-low noise transition edge sensors with high pixel-filling fraction for far-infrared astronomy",
+      "Title": "Ultra-low-noise transition edge sensors (TES) with high pixel-filling fraction for far-infrared astronomy",
       "Description": null,
       "Abstract": "We present progress in absorber-coupled ultra-low noise transition edge sensor (TES) bolometers for suborbital and space-borne far-infrared instruments. The TESs are fabricated on a thin (~200 nm thick) silicon nitride membrane with compact (~50 µm long) suspending phononic-filtering legs. These filters’ non-uniform leg geometry (e.g. stubs) creates coherent phonon reflections within the leg, reducing the thermal conductance (G) more than straight uniform legs could in the same space. This enables high pixel filling fraction [>0.7] of the focal plane and ultra-low noise measured at ~3x10^-19 W/rtHz at 10 Hz and 50 mK bath temperature (Tb) with TESes biased to half their normal resistance. We present measurements of noise and responsivity versus Tb for pixels with different phononic filters. We also investigate the transport process in these low-dimensional mesoscopic structures by comparing the phononic filter G with predictions from elastic wave and boundary limited scattering models.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Ultra-low-noise-transition-edge-sensors-with-high-pixel-filling/14156-147",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Ultra-low-noise-transition-edge-sensors-TES-with-high-pixel/14156-147",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1724,13 +1656,81 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 11:10 - 11:30 CEST | Room B4-M5",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Johannes Wüthrich, Banan Yamani, Andrin Fazan, Léonard Lebrun, Sean MacBride, Felipe Andrade-Oliveira, Marcelle Soares-Santos, Guandi Zhao",
+      "PaperNumber": "14154-80",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 11:15 - 11:30 CEST | Room B2-M4",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "76be107b-9ccf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "76be107b-9ccf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Characterizing robotic positioners under the influence of changing gravity vectors for future spectroscopic surveys",
+      "Description": null,
+      "Abstract": "Future spectroscopic surveys will rely on highly multiplexed focal planes composed of robotic fiber positioners. To ensure science goals are met, a stringent testing of these positioners is of utmost importance during prototyping and quality assurance. We present a dynamical telescope simulator test stand, to characterize the positioners in terms of position, focus and angular tilt stability under the variation of the gravity vector. We discuss the design and characterization of our test stand, including calibration using fixed reference spots. Finally we present initial results with a prototype positioner module built by Orbray Co., Ltd. This setup offers an important platform for integrated testing of advanced focal-plane technologies in operations-like conditions.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Characterizing-robotic-positioners-under-the-influence-of-changing-gravity-vectors/14154-80",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 11:15 - 11:30 CEST | Room B2-M4",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Thomas Bertram, Olivier Absil, Daniel Ahrer, Peter Bizenberger, Bernhard Brandl, Wolfgang Brandner, Florian Briegel, M. Concepción Cárdenas Vázquez, Hugo Coppejans, Carlos Correia, Wim De Meester, Markus Feldt, Armin Huber, Martin Kulas, Werner Laun, Lars Mohr, Vianak Naranjo, Andreas Obereder, Gilles Orban de Xivry, Wim Pessemier, Raphaël Pourcelot, Gert Raskin, Ralf-Rainer Rohloff, Silvia Scheithauer, Horst Steuer, Roy van Boekel",
+      "PaperNumber": "14150-73",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 11:20 - 11:35 CEST | Room B3-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "2a2ee311-d3cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "2a2ee311-d3cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Putting METIS SCAO to the test",
+      "Description": null,
+      "Abstract": "METIS SCAO has entered the lab testing phase, where the wavefront control loop and key components are verified using a telescope simulator. The simulator introduces and compensates for wavefront disturbances and pupil drifts, allowing for extensive testing of the wavefront control loop. This presentation provides an update on the integration activities of the SCAO Module and the AO Control System as well as an update of the planned subsystem and system tests.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Putting-METIS-SCAO-to-the-test/14150-73",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 11:20 - 11:35 CEST | Room B3-M2",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Carmelo Arcidiacono, Matteo Simioni, Simone Zaggia, Patrizia Borin, Luca Cortese, Marco Dima, Rosanna Sordo, Marco Gullieuszik",
-      "PaperNumber": "14151-119",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "7f63daa2-cece-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "7f63daa2-cece-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Space surveillance awareness programme at Ekar Observatory",
-      "Description": null,
-      "Abstract": "The Cima Ekar Observatory (INAF–OAPd) has launched a new operational programme for Space Surveillance and Awareness, combining the robotic Schmidt telescope with the Copernico 1.82-m telescope equipped with AFOSC. Within the ASI–INAF agreement on space-debris monitoring, we are upgrading both sensors and developing coordinated photometric, astrometric, and spectroscopic workflows to characterise objects from LEO to GEO. The Schmidt provides wide-field, dynamically scheduled imaging for orbit determination and light-curve analysis, while AFOSC enables targeted spectroscopic and multi-band characterisation. We describe the operational model, data-flow integration with IA2 archives, early performance results, and the roadmap toward supporting national SSA activities and future Fly-Eye operations.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Space-surveillance-awareness-programme-at-Ekar-Observatory/14151-119",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Maurizio Oliviero, Roberto Speziali, Francesco Bianchi, Sergio Musmeci, Felice Pignatiello, Andrea Di Paola, Luciano Terranegra",
       "PaperNumber": "14154-343",
       "DateTimeLocationDataList": [
@@ -1590,40 +1556,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Mathieu Motte, Vincent Chambouleyron, Romain Fétick, Thierry Fusco, Benoît Neichel, Cedric Taïssir Heritier, Jean-François Sauvage, Nicolas Blind, Christophe Lovis",
-      "PaperNumber": "14150-301",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "9d14f9b6-29d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "9d14f9b6-29d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Theory, simulation, and correction of the atmospheric chromatic refraction effect on XAO instrument",
-      "Description": null,
-      "Abstract": "The RISTRETTO instrument aims for the observation and characterisation of the atmosphere of the exoplanet Proxima b. This requires an extreme adaptive optics system. At such a level of performance, finer effects emerge. One such phenomenon is the chromatic pupil shift (CPS). This is directly due to the chromatic refraction effect in the atmosphere. Usually, in astronomy, the wavefront sensing is performed at wavelengths different from those of the science path. Due to refraction, the light at the WFS wavelength does not follow the same atmospheric path as that at the science wavelength and therefore experiences slightly different turbulence, inducing an imperfect estimation and a small residual error in the correction.  We propose a direct theoretical model to quantify the impact of CPS on the XAO error budget for instruments such as RISTRETTO, confirm this model through simulations, and provide methods to measure and correct this effect",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Theory-simulation-and-correction-of-the-atmospheric-chromatic-refraction-effect/14150-301",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "David Smith, Tomasz Lis, Joshua Hopson, Conrad Wells, Bijan Nemati, H. Philip Stahl",
       "PaperNumber": "14145-252",
       "DateTimeLocationDataList": [
@@ -1724,13 +1656,81 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Lisa-Marie Mazzolo, Benoit Neichel, Guido Agapito, Arseniy Kuznetsov, Fabio Rossi, Cédric Plantet, Carlo F. Manara, Romain Fétick, Alice Concas, Joël Vernet, Olivier Hainaut, Thomas Bierwirth, Giulia Carlà, Jean-Francois Sauvage, Michele Cirasuolo, Carlos Correia, Cedric Taissir Héritier, Thierry Fusco",
+      "PaperNumber": "14150-303",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "d7751989-5ccf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "d7751989-5ccf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "TipTop: a fast and versatile analytical tool for AO PSF prediction",
+      "Description": null,
+      "Abstract": "TipTop is an analytical adaptive-optics (AO) point spread function (PSF) modelling framework that has progressively evolved from a fast PSF prediction tool into a broader ecosystem supporting operational and scientific applications. This contribution presents recent developments aimed at improving computational performance, numerical robustness, software modularity, and scalability, enabling the integration of TipTop into ESO operational services such as the Exposure Time Calculator and observation-preparation tools. We also present recent advances in data-calibrated PSF reconstruction and Astro-TipTop Services, a community platform providing documentation, instrument configurations, interactive tools, and educational resources. More information is available at https://astro-tiptop-services.github.io/astro-tiptop-services/.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/TipTop--a-fast-and-versatile-analytical-tool-for-AO/14150-303",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Natalie R. Fullerman, Joseph M. Howard, Breann Sitarski",
+      "PaperNumber": "14145-258",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "b6d3c83c-d9d5-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "b6d3c83c-d9d5-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Tools for non-sequential ray tracing through segmented telescopes for Habitable Worlds Observatory",
+      "Description": null,
+      "Abstract": "Architectures are currently being explored for NASA’s upcoming flagship mission, Habitable Worlds Observatory (HWO). Similar to James Webb Space Telescope, the primary mirrors are being designed as segmented rather than monolithic. This introduces the need for non-sequential ray tracing in an optical model. In order to make this conversion process more efficient, a series of macros can be written in CODE V. The programs will turn surfaces from sequential to non-sequential, insert the appropriate number of segments, and automatically generate the required geometries for each part. Considerations include:  •Segment shape   •Gap size between segments   •Segment numbers & orientation composing the full mirror",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Tools-for-non-sequential-ray-tracing-through-segmented-telescopes-for/14145-258",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

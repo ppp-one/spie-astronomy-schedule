@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "M. Ito, T. Ogawa, H. Kondo, T. Matsuo, S. Ikari, R. Funase",
-      "PaperNumber": "14148-158",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 9 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "78c9fcfe-d5cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "78c9fcfe-d5cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Optical path difference control method for SEIRIOS mission and its applicability to future formation flying space-based interferometers",
-      "Description": null,
-      "Abstract": "SEIRIOS is a formation flying micro-satellite mission for infrared interferometric observations using a densified pupil spectrograph. To obtain clear interference fringes, extremely strict optical path difference (OPD) control is required.  In this presentation, we propose a novel method that estimates the OPD from interference fringe images obtained by a densified pupil spectrograph and feeds it back to onboard actuators such as delay-line stages and tip–tilt mirrors. The effectiveness of this method is demonstrated through ground-based experiments and numerical simulations, showing that sub-micrometer-level OPD estimation and control can be achieved from a single image. Furthermore, by presenting the current OPD control sequence in the SEIRIOS mission, we demonstrate that the proposed method provides a highly promising approach for future OPD control in formation flying space-based interferometers.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-path-difference-control-method-for-SEIRIOS-mission-and-its/14148-158",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Qian Chen, Xufang Li",
-      "PaperNumber": "14156-196",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "566141f0-17d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "566141f0-17d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Optical performance of the AliCPT-1 Telescope",
-      "Description": null,
-      "Abstract": "Ali CMB Polarization Telescope (AliCPT) is a 72 cm on-axis retracting telescope located at an altitude of 5250 m in Ali (Nagri) area of Tibet, China. It is the first project in the northern hemisphere designed for CMB polarization observation. The first state of AliCPT (AliCPT-1) has been deployed in April, 2025. AliCPT-1 has about 1700 transition edge sensor bolometers and supports observation capabilities at 90 GHz and 150 GHz. This presentation will report the performance of AliCPT-1. We present results from calibration campaign in situ at Ali, including detector spectral response, optical efficiency, near-field beam (NFBM), far-field beam (FFBM) and far-side lobe (FSLM).",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-performance-of-the-AliCPT-1-Telescope/14156-196",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Yoko Tanaka, Yosuke Minowa, Nick Herrald, Noelia Martinez, Hajime Ogane, Yoshito Ono, Koki Terao",
       "PaperNumber": "14150-350",
       "DateTimeLocationDataList": [
@@ -298,40 +230,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Mathieu Motte, Vincent Chambouleyron, Romain Fétick, Mary Angelie Alagao, Eduard Muslimov, Arnaud Striffling, Mahawa Cissé, Benoît Neichel, Thierry Fusco, Jean-François Sauvage, Cédric Taïssir Héritier, Francisco Oyarzun, Edvardas Vinerskas, Mattéo Pasinetti, Sylvain Cetre, François Huppert, Marc Ferrari",
-      "PaperNumber": "14150-331",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "8ef0f916-23d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "8ef0f916-23d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "PAPYRUS @ OHP: a second adaptive optics stage with a vector Zernike wavefront sensor for PAPYRUS at the Observatoire de Haute Provence",
-      "Description": null,
-      "Abstract": "Characterising Earth-like exoplanets from ground-based telescopes requires reaching high contrast and hence the use of an extreme adaptive optics (AO) system. In such systems, temporal error is the main contributor to the error budget. One way to reduce it is to make the control loop run faster. This implies a drop in photons per frame, and, consequently, in SNR on the wavefront sensor (WFS) camera. Using more sensitive WFSs is therefore required, but their limited dynamic range makes it challenging to correct atmospheric turbulence. A solution is to deploy them in a second AO stage to correct low-order residuals from the first stage.   To test such concepts, we added a second stage based on a vector Zernike WFS on PAPYRUS which significantly improved its on-sky performance. We will present the bench and its performance as compared to simulations, and summarise the lessons learnt for the development of future XAO instruments.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/PAPYRUS--OHP--a-second-adaptive-optics-stage-with/14150-331",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Enrico Biancalani, Eduardo Bendek, Kevin Wagner, Edward Balaban",
       "PaperNumber": "14145-297",
       "DateTimeLocationDataList": [
@@ -499,6 +397,40 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "D. Scott Acton, Noah Schwartz, Charlotte Z. Bond, Ben Buky, Éamonn J. Harvey, Douglas Harvey",
+      "PaperNumber": "14150-173",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "58012a78-98cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "58012a78-98cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Phasing of small deployable optical telescope using phase retrieval: laboratory demonstration",
+      "Description": null,
+      "Abstract": "Segmented deployable telescopes require precise phasing to achieve diffraction-limited performance, yet conventional wavefront sensing is often impractical for compact systems. We demonstrate an end-to-end alignment and phasing strategy for a small Active Deployable Optical Telescope (ADOT) using a focal-plane approach based on phase retrieval. Validation through high-fidelity simulations and laboratory experiments shows robust correction of piston, tip, and tilt errors under realistic conditions. Overall, the method provides a low-complexity and robust solution for phasing deployable telescopes, with strong potential for space-based platforms where size, weight, and power constraints are critical, and is currently assessed at TRL‑3.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Phasing-of-small-deployable-optical-telescope-using-phase-retrieval/14150-173",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1012,13 +944,13 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Harrison M. Bradley, Kélian Sommer, Brock Parker, Ethan Potthoff, Peter Milne, Erika Hamden, Jacob Vider",
+      "Authors": "H. M. Bradley, K. Sommer, B. Parker, E. Potthoff, P. Milne, E. Hamden, J. Vider",
       "PaperNumber": "14147-205",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1034,15 +966,15 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Recommissioning of the Super-LOTIS remote telescope for enhanced Near UV detection",
+      "Title": "Recommissioning of the Super-LOTIS remote telescope for enhanced near UV detection",
       "Description": null,
       "Abstract": "For over two decades, the Livermore Optical Transient Imaging System (LOTIS) and its successor, Super-LOTIS has remotely observed transient objects at optical wavelengths at Kitt Peak National Observatory (KPNO). However, as similar systems have come online in that time, we now wish to adapt Super-LOTIS to track in a much less observed regime: the Near UV. In this proceeding we will discuss the progress of retrofitting and updating our telescope system to that end. This process includes the commissioning of a new Teledyne Princeton Instruments SOPHIA XO camera system coated for enhanced sensitivity in NUV down to 320 nm (the atmospheric cutoff for ground-based observing). Once completed, this system will allow us to quickly and regularly follow up on UV transients identified by survey missions like Swift UV/Optical Telescope (UVOT) and Vera C. Rubin’s (VRO) Legacy Survey of Space and Time (LSST).",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Recommissioning-of-the-Super-LOTIS-remote-telescope-for-enhanced-Near/14147-205",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Recommissioning-of-the-Super-LOTIS-remote-telescope-for-enhanced-near/14147-205",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1148,13 +1080,13 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Alex Thomas, Shreya Sutariya, Erin Healy, Claire Lessler, Jeffrey McMahon, Bugao Zou, Yuhan Wang, Michael Niemack",
+      "Authors": "Alex Thomas, Shreya Sutariya, Erin Healy, Claire Lessler, Jeffrey McMahon, Bugao Zou, Yuhan Wang, Mike Niemack, Ed Wollack",
       "PaperNumber": "14156-205",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1178,7 +1110,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1226,7 +1158,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -1724,13 +1656,81 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Maida Anwar, Jacopo Nanni, Federico Perini, Enrico Lenzi, Andrea Mattana, Luca Lepri, Giovanni Tartarini, Jader Monari",
+      "PaperNumber": "14153-111",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "8325af71-56d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "8325af71-56d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Study and design of 18GHz wideband analog optical link for the IF downlinks of INAF VLBI antennas (Medicina and Noto)",
+      "Description": null,
+      "Abstract": "The Italian VLBI antennas of Medicina and Noto, and Sardinia Radio telescope te have recently been upgraded with Compact Tri-band Korean Receivers, enabling millimeter-wave observations up to the W-band (about 110 GHz). This new capability requires wideband optical fiber connections in the 18 GHz range with exceptionally low noise figure (NF) and high dynamic range. In radio astronomy, telescopes capture extremely faint signals, high dynamic range is critical to prevent stronger in-band interference from saturating the receiver and distorting the signal of interest. This demands exceptionally high dynamic range and low NF from all components in the signal chain, including the optical links. To meet these requirements, we investigated commercial off-the-shelf (COTS) optical link components capable of delivering the necessary performance.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Study-and-design-of-18GHz-wideband-analog-optical-link-for/14153-111",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "David Díaz Martín, Alberto Hernández Fernández, Roger John Hoyland, José Alberto Rubiño-Martín, David Hernández Expósito, José Javier Díaz García, Luis Fernando Rodríguez Ramos",
+      "PaperNumber": "14156-180",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "3b72c362-69cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "3b72c362-69cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Study of RFI from Geostationary and LEO satellite constellations as precursor to QUIJOTE MFI2 Observations",
+      "Description": null,
+      "Abstract": "As part of the QUIJOTE (Q-U-I JOint TEnerife) Experiment, a Radio Interference Mapper (RIM) has been developed to map signals from geostationary and LEO satellite constellations in the 10.7–12.75 GHz band, and to evaluate their impact on future QUIJOTE MFI2 observations. Since QUIJOTE observes passively outside the ITU RAS protected bands, it must deal with interference from satellites legally operating in these frequencies. While geostationary satellites have been the main challenge so far, the deployment of ~9,000 LEO satellites for Starlink and OneWeb introduces a new and significant source of contamination. RIM uses a commercial 1.0 m offset parabola with an LNC providing four outputs across the band of interest. These four polar signals are injected into four channels of the QUIJOTE MFI2 FPGA-based data acquisition system. The collected data are then processed to quantify and assess the impact of the satellite interference.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Study-of-RFI-from-Geostationary-and-LEO-satellite-constellations-as/14156-180",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

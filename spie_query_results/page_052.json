@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Luke M. Schmidt, Hudson Malone, Noah Siebersma, Erika Cook, Jennifer L. Marshall, Darren L. DePoy, Ryan J. Oelkers, Silvana Delgado Andrade, Enrique Gonzalez Vega, Shravan Menon, Chelsea Taylor, Lars Walker",
-      "PaperNumber": "14154-396",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 9 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "d3d1cf5e-f7cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "d3d1cf5e-f7cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Fiber optic characterization for unprecedented sky subtraction (FOCUSS)",
-      "Description": null,
-      "Abstract": "Future massively multiplexed astronomical spectroscopic surveys will require accurate and repeatable removal of  the sky background. The Fiber Optic Characterization for Unprecedented Sky Subtraction (FOCUSS) project  aims to automate the characterization of fiber optic cables in order to determine their throughput efficiency  and focal ratio degradation (FRD). The laboratory setup is useful for fiber optic selection, fiber optic assembly  verification, and potentially inform the development of telescope facility calibration systems. The throughput  efficiency measures the fiber transmission as a function of wavelength, while the FRD test measures the angular  spread of light exiting the test fiber as a function of incident angle. FOCUSS operates between 350-1000 nm and  uses the Python programming language for data collection, reduction, and analysis.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Fiber-optic-characterization-for-unprecedented-sky-subtraction-FOCUSS/14154-396",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Valentina Viotto, Alessandro Ballone, Davide Greggio, Luca Marafatto, Carmelo Arcidiacono, Andrea Baruffolo, Maria Bergomi, Elena Carolo, Simonetta Chinellato, Simone Di Filippo, Marco Dima, Jacopo Farinato, Demetrio Magrin, Lorenzo Merli, Roberto Ragazzoni, Oleksandra Rebrysh, Kalyan Kumar Radhakrishnan Santhakumari, Daniele Vassallo, David Barr, Sylvain Cetre, Gabriele Umbriaco",
-      "PaperNumber": "14150-363",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 9 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "d966defb-3ecc-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "d966defb-3ecc-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Final design of the MATTO test bench",
-      "Description": null,
-      "Abstract": "The MATTO test bench, under development at INAF-OAPD, is a multi-purpose wide-field AO test facility, whose opto-mechanical design is aimed at simulating existing or future MCAO systems configurations with test or validation purposes. It will allow exploring a wide range of WFSs and sources combinations, thanks to the modularity of its design. It includes a reference source module, which simulates the atmospheric behaviour on natural and laser guide stars, a telescope simulator module, a MCAO correction module, allowing to mimic a number of optical configurations in which three DMs can be independently conjugated at various distances, and a sensing module, which allows to replicate the main properties of different types of WFSs. The DAO4MATTO Real-Time Control system, based on the DAO software solution, will provide MCAO loop control, keeping the system’s modular approach, for all possible configurations.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Final-design-of-the-MATTO-test-bench/14150-363",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Charlotte E. Guthery, Jacob Taylor, Mahawa Cisse, Scott Lilley, Eduardo Marin, Jonathan Steiner, Avinash Surendran, Edward Wetherell, Peter Wizinowich, Tatum Umiamaka, Marcos van Dam, Sylvain Cetre, Mike Bottom, Maria Vincent, Rebecca Jensen-Clem, Maissa Salama, Mayra Gutierrez, Antonin Bouchez",
       "PaperNumber": "14150-335",
       "DateTimeLocationDataList": [
@@ -1724,13 +1656,81 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Swati Ravi, Alan Garner, Jill Juneau, Elio Angile, Ralf K. Heilmann, Herman Marshall, Sarah Heine",
+      "PaperNumber": "14146-365",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "50b5a5b7-d7cb-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "50b5a5b7-d7cb-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Laser metrology for precision alignment of transmission gratings in the REDSoX soft x-ray polarimeter",
+      "Description": null,
+      "Abstract": "Precise alignment of transmission gratings is critical for the Rocket Experiment Demonstration of a Soft X-ray Polarimeter (REDSoX), a NASA sounding-rocket mission delivering the first sub-1 keV X-ray spectro-polarimetry. The instrument's laterally graded multilayer mirrors require dispersed light to land on precise positions of the mirror, with angular errors of ~0.1° reducing modulation efficiency and spectral response. We apply a dual-beam laser metrology method that measures surface slope with a normal-incidence beam and first-order diffraction with an oblique beam, enabling sensitive, non-contact extraction of yaw, pitch, roll, and in-plane period variations. We report on adapting this technique to REDSoX geometry, tolerances, and flight-qualification needs. This approach provides rapid assessment of grating alignment and local distortions without repeated X-ray tests and offers a scalable, mission-agnostic framework for future spectroscopic and spectropolarimetric instruments.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Laser-metrology-for-precision-alignment-of-transmission-gratings-in-the/14146-365",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "N. Brancadori, E. Boria, F. Cavaliere, C. Franceschet, E. Manzan, A. Mennella, F. Montonati, F. Pezzotta, F. Bassi, P. de Bernardis, M. Bersanelli, A. Coppolecchia, A. Favi, E. Gallus, M. Gervasi, L. Lamagna, S. Masi, A. Paiella, A. Passerini, G. Pettinari, F. Piacentini, E. Tommasi, A. Volpe, M. Zannoni",
+      "PaperNumber": "14156-186",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "93e6b1fa-cfca-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "93e6b1fa-cfca-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Laser-micromachined aluminum platelets applied to high-frequency microwave passive components for CMB applications",
+      "Description": null,
+      "Abstract": "This work presents an array of 77 corrugated feed horns coupled with waveguide orthomode transducers (OMTs) operating in the 200–280 GHz range, fabricated from aluminum platelets with laser micromachining. This low-cost, highly scalable process is well suited for the large focal planes required in CMB polarization experiments. The feed horns achieve typical CMB performance, with simulated cross-polarization and sidelobes level ≤ −25 dB, while the turnstile-junction OMTs reach simulated cross-polarization ≤ −60 dB. Metrological measurements show smooth profiles with 2 μm rms roughness and accurate features, with dimensional deviations from nominal of few microns; A systematic center shift, probably due to the platelet thermal expansion, yields rms relative misalignment from 16 μm to 33 μm. Simulations including these effects show negligible impact on the horns and a degradation of OMT return loss to −15 dB and cross-polarization to ~-25 dB, still suitable for CMB applications.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Laser-micromachined-aluminum-platelets-applied-to-high-frequency-microwave-passive/14156-186",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Monika G. Petr-Gotzens, Vincenzo Forchì, Andrea Mehner, Thomas Bierwirth, John Pritchard, Ahmed M. Khan, Kevin Knecht, Olivier Hainaut, Andre Graca",
-      "PaperNumber": "14151-38",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 16:30 - 16:50 CEST | Room B2-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "4bab4d58-55d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "4bab4d58-55d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Supporting users in their observation preparation - the ESO ObsPrep tool",
-      "Description": null,
-      "Abstract": "Ground based observatories are experiencing significant technological advances and telescopes are getting equipped with highly complex instruments to enable cutting-edge astronomical research. The increasing complexity of such instruments displays a challenge to their users when they want to plan and prepare specific observation programmes, that often request to define large amount of detailed instrument-specific information.  Therefore, at ESO we developed an Observation Preparation tool (in short ObsPrep tool), which provides a layer of abstraction over the instrument-specific technical details and tries to harmonize the users' experience when being faced with the preparation of observation blocks for different complex instruments. Here, we present the core functionalities of ObsPrep, as well as its special features and how the user interface integrates into ESO's generic phase2 observation preparation tool.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Supporting-users-in-their-observation-preparation---the-ESO/14151-38",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 16:30 - 16:50 CEST | Room B2-M2",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Guido Agapito, Fabio Rossi, Alfio Puglisi",
       "PaperNumber": "14150-66",
       "DateTimeLocationDataList": [
@@ -774,7 +740,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Mark H. Cunningham, Olga Bellido-Tirado, Roelof S. de Jong, Joar G. Brynnel, Steffen Frey, Genoveva Micheva, Roland Winkler, Weijia Sun, Allar Saviauk, Domenico Giannone, Andreas kelz, Isobel Hook, Jonathan irwin, Mike Irwin, Arto Jarvinen, Jens-Kristian Krogager, Johan Richard, Jake Laas, Jonathan Loveday, Hugo Mendez-Hernandez, Ignacio Del Moral Castro, Daniel Sablowski",
+      "Authors": "Mark Cunningham, Olga Bellido-Tirado, Roelof S. de Jong, Joar G. Brynnel, Genoveva Micheva, Steffen Frey, Weijia Sun, Roland Winkler, Allar Saviauk, Ignacio Del Moral Castro, Domenico Giannone, Isobel Hook, Jonathan Irwin, Mike Irwin, Arto Jarvinen, Andreas kelz, Jens-Kristian Krogager, Jake Laas, Jonathan Loveday, Hugo Mendez-Hernandez, Johan Richard, Daniel Sablowski",
       "PaperNumber": "14152-57",
       "DateTimeLocationDataList": [
         {
@@ -796,11 +762,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "System Verification of 4MOST: planning, execution, and lessons learned",
+      "Title": "System verification of 4MOST: planning, execution, and lessons learned",
       "Description": null,
       "Abstract": "4MOST is a new wide-field, fibre-fed spectroscopic survey facility for ESO’s VISTA telescope, delivering 2436 simultaneous spectra over a 4.2 deg² field of view through a tilting-spine fibre positioner and three dedicated spectrographs. Following integration and verification in Europe, the full system has now been successfully verified and commissioned at Paranal, achieving first light in October 2025. This paper outlines the verification methodology and key results from both pre-shipment and on-site campaigns, assessing performance in areas such as throughput, image quality, fibre positioning accuracy, spectral resolution, stability, and operational reliability. The findings confirm that 4MOST meets its scientific and technical requirements and is now fully operational as an ESO facility instrument. Lessons learned from the European and Chilean campaigns are discussed with a view to improving verification workflows for future large-scale spectroscopic instruments.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/System-Verification-of-4MOST-planning-execution-and-lessons-learned/14152-57",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/System-verification-of-4MOST-planning-execution-and-lessons-learned/14152-57",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1532,7 +1498,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Germain Garreau, Thomas Birbacher, L. Desdoigts, Lee D. Feinberg, Adrian M. Glauser, Jonah T. Hansen, M. Ireland, Julio Pino, Eckhart Spalding, A. K. Taras, Sascha P. Quanz",
+      "PaperNumber": "14148-120",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "11bdc26c-61cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "11bdc26c-61cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Achieving efficient broadband spatial filtering for LIFE: status and plan",
+      "Description": null,
+      "Abstract": "The Large Interferometer For Exoplanet (LIFE) project aims at implementing long-baseline nulling interferometry in space to image and characterize Earth-like exoplanets. To achieve deep null depths, a spatial filter is necessary to wash away the wavefront aberrations that would otherwise be a limiting factor for the contrast. However, efficient spatial filtering with high throughput (>95 %) is challenging to achieve over such a large bandwidth. In this  study, we explore the possibility of broadband spatial filtering using two step-index fibers: Te-As-Se chalcogenide (TAS) and silver halide (AgBr) fibers. Using ∂Lux, we also simulate the performance of PIAA with aspherical mirrors to improve its coupling efficiency. The results show that a broadband coupling efficiency of >95% can be achieved, with a manufacturing precision of <100nm for the PIAA mirrors.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Achieving-efficient-broadband-spatial-filtering-for-LIFE--status-and/14148-120",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

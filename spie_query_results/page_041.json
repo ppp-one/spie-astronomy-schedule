@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Alikhan Basheer, Devika Divakar, Pramod Panchal, Sanjeev Jha, Prasanna Deshmukh, Sudarsan Kambhala, Karthic Kumar, Sriram Sripadmanabhan",
-      "PaperNumber": "14154-53",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "e8cf7ecb-9fd5-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "e8cf7ecb-9fd5-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Comparative study of roundel support system for sub aperture metrology of segmented telescope mirrors",
-      "Description": null,
-      "Abstract": "As a partner of the Thirty Meter Telescope (TMT) project, India has agreed to supply 84 polished segments for the primary mirror, using the innovative Stressed Mirror Polishing (SMP) technology obtained from Coherent Inc., USA. Some of the metrology tools for the SMP process are designed and developed by India TMT (ITMT) team such as the 27-point whiffletree-based support system. This system acts as the support structure during the entire metrology activities of polished TMT Roundel.   The study focuses on a comparative analysis of Roundel Support systems used in one of the metrology processes, which is Sub Aperture Metrology to capture the Band 2-6 data. It contrasts results from the 43-point hydraulic-based support system at Coherent with the 27-point whiffletree-based support system developed by I-TMT. This analysis assesses efficacy and performance differences between the two support systems, involving a comprehensive examination of a 1520mm diameter polished glass roundel.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Comparative-study-of-roundel-support-system-for-sub-aperture-metrology/14154-53",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Reuben Neate, Tinus Stander",
       "PaperNumber": "14156-118",
       "DateTimeLocationDataList": [
@@ -1084,9 +1050,9 @@
       "PaperNumber": "14156-126",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1102,15 +1068,15 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Design of a six-band, 2.4-octave (80-420 GHz) hierarchically summed phased-array slot-dipole antenna array for NEW-MUSIC",
+      "Title": "Design of a six-band, 2.4-octave (80–420 GHz) hierarchically summed phased-array slot-dipole antenna array for NEW-MUSIC",
       "Description": null,
       "Abstract": "The Next-generation Extended Wavelength Multi-band Sub/millimeter Inductance Camera (NEW-MUSIC) is the first six-band trans-millimeter wave polarimeter mounted on the Leighton Chajnantor Telescope (LCT). To realize this innovative instrument, we propose a broadband, hierarchical phased-array antenna integrated with band-defining filters, covering a wide spectral range of 80~420 GHz (2.4 octaves)[1]. This design enables key scientific investigations, including studies of trans-millimeter emission from time-domain sources, hot plasmas in galaxy clusters and galaxies via the Sunyaev-Zeldovich effects, and dusty sources spanning from galactic star-forming regions to high-redshift star-forming galaxies. The integrated antenna-filter system provides a critical technical foundation for NEW-MUSIC’s high-performance detection capabilities.  [1] Huang X et al. Design of a Six-band, 2.4-Octave (80--420 GHz) Hierarchically Summed Phased-Array Slot-Dipole Antenna Array for NEW-MUSIC,arXiv:2511.08990",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Design-of-a-six-band-24-octave-80-420-GHz/14156-126",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Design-of-a-six-band-24-octave-80420-GHz-hierarchically/14156-126",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Nathan Amouroux, Parker Fagrelius, Thibault Guillemin, Fritz Mueller, Jérémy Neveu, Eli Rykoff, Thierry Souverin, Christopher W. Stubbs, Elana Urbach",
+      "PaperNumber": "14149-358",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "61daed78-94cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "61daed78-94cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Early throughput results from the collimated beam projector at the Vera C. Rubin Observatory",
+      "Description": null,
+      "Abstract": "The Vera C. Rubin Observatory’s LSST requires accurate photometric calibration to meet its science goals, particularly for cosmological measurements using Type Ia supernovae. The Collimated Beam Projector (CBP) has been developed to support this effort by emulating monochromatic point sources of known wavelength and flux to enable direct throughput measurements of the telescope system. Initial results demonstrate the capability in determining the instrumental response of the Simonyi Telescope and in characterizing LSSTCam filters throughput. The CBP also enables detailed mapping of shifts in filter bandpass edges across the focal plane, which can vary by several nanometers with angle of incidence. These early results validate the CBP as a powerful calibration tool and establish the foundation for ongoing photometric throughput monitoring throughout LSST operations.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Early-throughput-results-from-the-collimated-beam-projector-at-the/14149-358",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

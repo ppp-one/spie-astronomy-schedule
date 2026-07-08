@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Krittapas Chanchaiworawit, Kantapong Tharawan, That Chomchuen, Jitsupa Paenoi, Thansita Thomrungpiyathan, Pakawat Prasit, Samattachai Tanun, Teerawat Kuha, Auychai Laoyang, Pathompong Butpan, Rungrit Anutarawiramkul, Anuphong Inpan, Suchinno Kanthum, Picha Ruenarrom, Tarathon Intaros, Manlika Pinkaew, Apichat Leckngam",
-      "PaperNumber": "14149-84",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 11:50 - 12:10 CEST | Auditorium 15",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "4a531bdf-00d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "4a531bdf-00d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "LRS and CoLoRS: the next generation instruments for rapid spectroscopic follow-up for the Thai National Telescope and the Thai Robotic Telescopes Network",
-      "Description": null,
-      "Abstract": "NARIT is deploying a new generation of spectrographs on the Thai National Telescope (TNT) and the Thai Robotic Telescope Network (TRTs) to strengthen global time-domain astronomy. The Low Resolution Spectrograph (LRS) on the 2.4-m TNT delivers R≈375–1000 over 400–800 nm in long-slit and slitless modes, reaching surface-brightness limits of SB_r’≈20.5 mag/arcsec² in one hour. While CoLoRS at the TRTs provides rapid R=100–200 spectroscopy with S/N>100 for r’≈12 mag targets, and its forthcoming upgrade, CoLoRS-NEX, adds simultaneous NIR imaging across a ≥10′ field. Together, these systems enable rapid transient classification, exoplanet study, AGN characterization, and sensitive extragalactic surveys, positioning Thailand as a key contributor to next-generation time-domain science.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/LRS-and-CoLoRS--the-next-generation-instruments-for-rapid/14149-84",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 11:50 - 12:10 CEST | Auditorium 15",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Runa Briguglio, Marco Xompero, Giorgio Pariani, Nicolò Azzaroli, Luca Oggioni, Pietro Ferraiuolo, Matteo Menessini, Riccardo Grignaffini, Chiara Scandaglia, Armando Riccardi, Elise Vernet, Aglae Kellerer",
-      "PaperNumber": "14150-98",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 11:55 - 12:10 CEST | Room B3-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "1deaf6f6-8bd0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "1deaf6f6-8bd0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Optical calibration of the ELT-M4: automated testing procedure and results on the prototype",
-      "Description": null,
-      "Abstract": "In the ELT, the wavefront correction is demanded to a quaternary deformable mirror; the M4 will be the largest DM ever built, with 5000+ actuators controlling its optical surface 2.5 m in diameter, segmented into 6 petals. Given its size, high actuator counts and tight operational requirements, it is mandatory for the optical calibration procedure to implement a large degree of automation, from initial alignment to system monitoring and to final reporting.  In this contribution, we summarize the procedure we developed for the LBT and VLT adaptive secondaries and fine tuned for the segmented M4; the focus will be on the actors, interfaces, data flow, data tracking, segments management and automation. The procedure, tested on the M4 Demonstration prototype, includes Optical Test Tower alignment, preliminary segments shaping, noise evaluation, measurement of Influence Functions and flattening in closed loop, calibration of the M4 metrology and phasing.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-calibration-of-the-ELT-M4--automated-testing-procedure/14150-98",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 11:55 - 12:10 CEST | Room B3-M2",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Antonia Merdanevic Yáñez, Marilyn Cruces, Nicolás Seguel, Josefina Vera, Ignacio Wang, Javier Mora, Benjamín Ruz",
       "PaperNumber": "14153-66",
       "DateTimeLocationDataList": [
@@ -1724,13 +1656,81 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "10 July 2026 • 15:25 - 15:40 CEST | Room B3-M2",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Mohammad N. Islam, Tayron Dueck, Richard Hellyer, Gordon Lacy, Elena Bergeron, Brian Hoff, Julie Levesque-Robb, Bryan Schellenberg",
+      "PaperNumber": "14153-72",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 15:30 - 15:50 CEST | Room B2-M8",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "cdfbb82d-d6cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "cdfbb82d-d6cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "From concept to production: the making of composite reflectors for the Canadian Hydrogen Observatory and Radio-transient Detector",
+      "Description": null,
+      "Abstract": "This paper outlines the development and production of composite reflectors for the Canadian Hydrogen Observatory and Radio-transient Detector (CHORD) at the Dominion Radio Astrophysical Observatory in British Columbia. DRAO developed and now fabricates 512 six‑meter composite antennas using molds, custom jigs, fixtures, and optimized workflows to ensure manufacturing repeatability. The paper details the transition from R&D to full-scale production, addressing challenges in composite fabrication and highlighting innovations that improved reflector accuracy, reduced cost, and increased production efficiency.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/From-concept-to-production--the-making-of-composite-reflectors/14153-72",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 15:30 - 15:50 CEST | Room B2-M8",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Giovanni Isopi, Alessandro Attoli, Eleonora Barbavara, Elia Stefano Battistelli, Costanza Bellucci, Paolo de Bernardis, Federico Cacciotti, Giuseppe Carboni, Ettore Carretti, Daniele Ciccalotti, Fabio Columbro, Alessandro Coppolecchia, Angelo Cruciani, Giuseppe D'Alessandro, Giancarlo De Gasperis, Marco De Petris, Sofia Ferazzoli, Federica Govoni, Adelaide Ladu, Luca Lamagna, Pasqualino Marongiu, Davide Marsala, Silvia Masi, Matteo Murgia, Alessandro Navarrini, Alessandro Novelli, Andrea Occhiuzzi, Andrea Orlati, Alessandro Paiella, Giorgio Pettinari, Francesco Piacentini, Mauro Pili, Giampaolo Pisano, Tonino Pisanu, Sergio Poppi, Luca Schirru, Gian Paolo Vargiu, Chiara Volpe",
+      "PaperNumber": "14156-67",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 15:30 - 15:50 CEST | Room B5-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "7f6890ab-6acf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "7f6890ab-6acf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "MISTRAL: first light from the Sardinia Radio Telescope and status of the technical commissioning",
+      "Description": null,
+      "Abstract": "MISTRAL is a novel multi-beam cryogenic camera observing from the Sardinia Radio Telescope (SRT) in the W-band. It features a wide 4 arcminute field of view sampled by 415 KIDs, sensitive to continuum radiation in the 77-103 GHz band. Coupled to the 64m dish of SRT with a custom cold (4K) re-imaging system, it produces a beamwidth of 12 arcseconds. The high sensitivity and wide field of view makes MISTRAL suitable for wide area continuum surveys in the W band, capabilities shared by few instruments in the world installed on large radio telescopes. In this contribution, we report the status of the commissioning of MISTRAL after the first year of observations from the SRT, in preparation to the opening to proposals from the scientific community. We will report the on-sky performance of the instrument with the initial high-frequency configuration of the SRT, its resolution and wide area scanning capabilities, showing the first light maps from the commissioning runs.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/MISTRAL--first-light-from-the-Sardinia-Radio-Telescope-and/14156-67",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 15:30 - 15:50 CEST | Room B5-M3",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

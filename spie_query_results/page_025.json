@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Shuji Matsuura, Kohji Takimoto, Kohji Tsumura, Kei Sano, Aoi Takahashi, Michael Zemcov, Andrew Poppe, Hajime Yano, Naoya Sakatani, Takeshi Imamura, Yuhito Shibaike, Hajime Kawahara, Ryu Funase, Naoya Ozaki, Kakeru Tokunaga, Yuki Kubo",
-      "PaperNumber": "14145-46",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 14:20 - 14:40 CEST | Room B4-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "a46cc502-14cd-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "a46cc502-14cd-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "OPENS-0: an outer planet exploration mission providing opportunities for multi-site observations of diffuse background light",
-      "Description": null,
-      "Abstract": "We are planning a new concept OPENS (Outer Planet Exploration by Novel Small Spacecraft) program that will explore the outer planet region with a series of small spacecraft in a shorter development time and at a lower cost than legacy spacecraft. OPENS-0, which was selected as a JAXA Eco & Fast Class candidate, is a technology demonstration mission to Saturn. During its cruise phase, OPENS-0 will provide astronomical science opportunities, including observations of the ZL, EBL, and other diffuse background light, using onboard multipurpose cameras. This paper presents an overview of the OPENS-0's instruments and scientific objectives, as well as an introduction to the OPENS program.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/OPENS-0--an-outer-planet-exploration-mission-providing-opportunities/14145-46",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 14:20 - 14:40 CEST | Room B4-M3",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Joaquin Garcia",
       "PaperNumber": "14151-20",
       "DateTimeLocationDataList": [
@@ -218,7 +184,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "The MICADO first light imager for the ELT: from cold integration towards first light",
+      "Title": "The MICADO first light imager for the ELT: from cold integration towards science operations",
       "Description": null,
       "Abstract": "MICADO is now well into its assembly, integration, and test phase; and is on track for first light of the ELT at the end of the decade. This contribution will provide an overview of the instrument and its main sub-systems, describing the status of each of them, the milestones that have been achieved, and the progress in the current cold integration phase towards achieving first light through the fully assembled cryostat from the entrance window to the focal plane array. It will also provide a glimpse of how it might look to operate MICADO and prepare observations. It will finish with an outlook towards the next steps leading up to commissioning of the instrument at the ELT.",
       "ImagePath": null,
@@ -1158,7 +1124,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 16:00 - 16:15 CEST | Room B2-M4",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Juan Carlos Guerra, Sam Ragland",
+      "PaperNumber": "14152-38",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 16:00 - 16:20 CEST | Room B2-M6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "25b29477-b4d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "25b29477-b4d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Machine learning approaches to improve telescope efficiency and AO instrument strategies",
+      "Description": null,
+      "Abstract": "Efficient LBT operation requires each acquisition to start near the correct pointing and active-secondary collimation state. We present a telemetry-driven Random Forest/Quantile Regression Forest framework to predict residual CA/IE pointing terms and ASM hexapod coordinates for LUCI and LBTI. The models use azimuth, elevation, thermal telemetry, time of night, instrument, side, and collimation history within the operations window. We separate true cold-start predictions, using only pre-acquisition telemetry, from short-horizon updates that use recent same-instrument measurements. A strict 2026-06-16 HD116405 leave-one-day-out test compares pure CA/IE cold start, hexapod bootstrap, chained CA/IE using predicted hexapod state, and diagnostic CA/IE using measured hexapod state. The framework provides uncertainty-aware recommendations to reduce acquisition overhead and long-tail correction events without replacing the operator or analytical pointing model",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Machine-learning-approaches-to-improve-telescope-efficiency-and-AO-instrument/14152-38",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 16:00 - 16:20 CEST | Room B2-M6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

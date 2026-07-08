@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Germain Garreau, Thomas Birbacher, L. Desdoigts, Lee D. Feinberg, Adrian M. Glauser, Jonah T. Hansen, M. Ireland, Julio Pino, Eckhart Spalding, A. K. Taras, Sascha P. Quanz",
-      "PaperNumber": "14148-120",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "11bdc26c-61cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "11bdc26c-61cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Achieving efficient broadband spatial filtering for LIFE: status and plan",
-      "Description": null,
-      "Abstract": "The Large Interferometer For Exoplanet (LIFE) project aims at implementing long-baseline nulling interferometry in space to image and characterize Earth-like exoplanets. To achieve deep null depths, a spatial filter is necessary to wash away the wavefront aberrations that would otherwise be a limiting factor for the contrast. However, efficient spatial filtering with high throughput (>95 %) is challenging to achieve over such a large bandwidth. In this  study, we explore the possibility of broadband spatial filtering using two step-index fibers: Te-As-Se chalcogenide (TAS) and silver halide (AgBr) fibers. Using ∂Lux, we also simulate the performance of PIAA with aspherical mirrors to improve its coupling efficiency. The results show that a broadband coupling efficiency of >95% can be achieved, with a manufacturing precision of <100nm for the PIAA mirrors.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Achieving-efficient-broadband-spatial-filtering-for-LIFE--status-and/14148-120",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Marta Belío Asin, Javier León Gil, Nicolás Adrián Rodríguez Linares, Angel Mato, Alvaro Perez García, Miguel Núñez Cagigal, Mary Barreto, José Manuel González Cava, Juan Albino Méndez Pérez",
       "PaperNumber": "14155-186",
       "DateTimeLocationDataList": [
@@ -468,7 +434,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Marco Landoni, Manuel Monteiro, Paolo Di Marcantonio, Alessio Zanutta, Livia Origlia, Elena Mason, Roberto Cirami, Veronica Baldini, Andrea Balestra, Giorgio Calderone, Igor Coretti, Guido Cupani, Anna Feltre, Vincent Geers, Arto J¨arvinen, Adrian Kaminski, Jorg Knoche, Jochen Liske, Mike MacIntosh, Madhusudan Malve, Thomas Marquart, Alessandro Marconi, Matteo Porru, Nicoletta Sanna, Andrea Scaudo, Danuta Sosnowska",
+      "Authors": "M. Landoni, M. A. Monteiro, P. Di Marcantonio, A. Zanutta, L. Origlia, E. Mason, R. Cirami, V. Baldini, A. Balestra, G. Calderone, I. Coretti, G. Cupani, A. Feltre, V. C. Geers, A. A. Järvinen, A. Kaminski, J. Knoche, J. Liske, M. MacIntosh, M. Malve, T. Marquart, A. Marconi, M. Porru, N. Sanna, A. Scaudo, D. Sosnowska",
       "PaperNumber": "14155-176",
       "DateTimeLocationDataList": [
         {
@@ -490,7 +456,7 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "ANDES, the high resolution spectrograph for the ELT: the software ecosystem toward the Preliminary Design Review",
+      "Title": "ANDES, the high-resolution spectrograph for the ELT: the software ecosystem",
       "Description": null,
       "Abstract": "In this paper, we present an overview of the software architecture designed for the ArmazoNes high Dispersion Echelle Spectrograph (ANDES), developed in preparation for the instrument Preliminary Design Review (PDR). We provide a quick overview of the control software, as it is already presented in detail in another paper of this Conference, outlining how it has been conceived to ensure reliable operation of a complex, highly distributed instrument such as ANDES. Then, we describe the suite of science-oriented software tools that will accompany ANDES and support its use by scientists. These include the Exposure Time Calculator, the Observation Preparation tools, and the Data Reduction Library functionalities that are crucial for efficient planning and for the systematic processing of raw data produced by the instrument.",
       "ImagePath": null,
@@ -642,9 +608,9 @@
       "PaperNumber": "14156-148",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -668,7 +634,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Alikhan Basheer, Devika Divakar, Pramod Panchal, Sanjeev Jha, Prasanna Deshmukh, Sudarsan Kambhala, Karthic Kumar, Sriram Sripadmanabhan",
+      "PaperNumber": "14154-53",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "e8cf7ecb-9fd5-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "e8cf7ecb-9fd5-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Comparative study of roundel support system for sub aperture metrology of segmented telescope mirrors",
+      "Description": null,
+      "Abstract": "As a partner of the Thirty Meter Telescope (TMT) project, India has agreed to supply 84 polished segments for the primary mirror, using the innovative Stressed Mirror Polishing (SMP) technology obtained from Coherent Inc., USA. Some of the metrology tools for the SMP process are designed and developed by India TMT (ITMT) team such as the 27-point whiffletree-based support system. This system acts as the support structure during the entire metrology activities of polished TMT Roundel.   The study focuses on a comparative analysis of Roundel Support systems used in one of the metrology processes, which is Sub Aperture Metrology to capture the Band 2-6 data. It contrasts results from the 43-point hydraulic-based support system at Coherent with the 27-point whiffletree-based support system developed by I-TMT. This analysis assesses efficacy and performance differences between the two support systems, involving a comprehensive examination of a 1520mm diameter polished glass roundel.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Comparative-study-of-roundel-support-system-for-sub-aperture-metrology/14154-53",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

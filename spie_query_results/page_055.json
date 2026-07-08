@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Maida Anwar, Jacopo Nanni, Federico Perini, Enrico Lenzi, Andrea Mattana, Luca Lepri, Giovanni Tartarini, Jader Monari",
-      "PaperNumber": "14153-111",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 9 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "8325af71-56d0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "8325af71-56d0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Study and design of 18GHz wideband analog optical link for the IF downlinks of INAF VLBI antennas (Medicina and Noto)",
-      "Description": null,
-      "Abstract": "The Italian VLBI antennas of Medicina and Noto, and Sardinia Radio telescope te have recently been upgraded with Compact Tri-band Korean Receivers, enabling millimeter-wave observations up to the W-band (about 110 GHz). This new capability requires wideband optical fiber connections in the 18 GHz range with exceptionally low noise figure (NF) and high dynamic range. In radio astronomy, telescopes capture extremely faint signals, high dynamic range is critical to prevent stronger in-band interference from saturating the receiver and distorting the signal of interest. This demands exceptionally high dynamic range and low NF from all components in the signal chain, including the optical links. To meet these requirements, we investigated commercial off-the-shelf (COTS) optical link components capable of delivering the necessary performance.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Study-and-design-of-18GHz-wideband-analog-optical-link-for/14153-111",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "David Díaz Martín, Alberto Hernández Fernández, Roger John Hoyland, José Alberto Rubiño-Martín, David Hernández Expósito, José Javier Díaz García, Luis Fernando Rodríguez Ramos",
-      "PaperNumber": "14156-180",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "3b72c362-69cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "3b72c362-69cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Study of RFI from Geostationary and LEO satellite constellations as precursor to QUIJOTE MFI2 Observations",
-      "Description": null,
-      "Abstract": "As part of the QUIJOTE (Q-U-I JOint TEnerife) Experiment, a Radio Interference Mapper (RIM) has been developed to map signals from geostationary and LEO satellite constellations in the 10.7–12.75 GHz band, and to evaluate their impact on future QUIJOTE MFI2 observations. Since QUIJOTE observes passively outside the ITU RAS protected bands, it must deal with interference from satellites legally operating in these frequencies. While geostationary satellites have been the main challenge so far, the deployment of ~9,000 LEO satellites for Starlink and OneWeb introduces a new and significant source of contamination. RIM uses a commercial 1.0 m offset parabola with an LNC providing four outputs across the band of interest. These four polar signals are injected into four channels of the QUIJOTE MFI2 FPGA-based data acquisition system. The collected data are then processed to quantify and assess the impact of the satellite interference.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Study-of-RFI-from-Geostationary-and-LEO-satellite-constellations-as/14156-180",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Takumi Ogawa, Masaki Ito, Taro Matsuo, Satoshi Ikari",
       "PaperNumber": "14148-149",
       "DateTimeLocationDataList": [
@@ -1454,7 +1386,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "H. Salzmann, W. Jin, Y. Lyu, M. Escobar Godoy, L. Saha, F. M. Martinez-Mckinney, K.-W. T. Shin, V. V. Vassiliev, D. A. Williams",
+      "Authors": "H. Salzmann, W. Jin, Y. Lyu, M. Escobar Godoy, F. M. Martinez-Mckinney, L. Saha, K.-W. T. Shin, V. V. Vassiliev, D. A. Williams",
       "PaperNumber": "14147-189",
       "DateTimeLocationDataList": [
         {
@@ -1532,7 +1464,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -1724,13 +1656,81 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Alain Cournoyer, Hugo Bourque, Éric Carbonneau, Patrick Gilbert, Simon Houle, Jean-Alexis Boulet, Ian Silversides, Martin Larouche, Natalia Milaniak, Frédéric Grandmont, David Naylor, Brad Gom, Adam Christiansen, Matthew Buchan",
+      "PaperNumber": "14145-272",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "e412b49c-90d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "e412b49c-90d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "TRL-5 cryogenic test campaign for the SAFARI scanning mirror mechanism design adopted for the phase delay mechanism of the PRIMA FIRESS instrument",
+      "Description": null,
+      "Abstract": "We describe the Engineering Development Unit (EDU) of a novel cryogenic scanning mirror mechanism designed and built by ABB Inc. for SPICA and adopted for the Phase Delay Mechanism (PDM) of the Far-InfraRed Enhanced Survey Spectrometer (FIRESS) instrument on PRIMA. We report on TRL-5 demonstration results from the cryogenic EDU test campaign conducted by Blue Sky Spectroscopy Inc. (BSS) at the University of Lethbridge, verifying the compliance to the challenging SPICA and PRIMA requirements at 4 K (linear stroke, position and velocity stability, low heat dissipation, low magnetic emission, ultra-low photon leakage). The EDU was also integrated into a cryogenic far-infrared post-dispersed polarizing Fourier transform spectrometer designed and built by BSS and successfully tested at the University of Lethbridge to validate the scanning mechanism design.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/TRL-5-cryogenic-test-campaign-for-the-SAFARI-scanning-mirror/14145-272",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Jun Nishikawa, Naoshi Murakami, Kenta Yoneta, Yosuke Tanaka, Keigo Enya",
+      "PaperNumber": "14145-283",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "fa82f052-09cc-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "fa82f052-09cc-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Two-stage coronagraph for low scattered light and improved phase resolution control",
+      "Description": null,
+      "Abstract": "We propose a two-stage coronagraph for high-contrast imaging. The first stage, a Lyot mask coronagraph, reflects the light for tip-tilt control and eliminates most of the light, minimizing scattered light generated by downstream optical elements. The second stage is a vortex phase mask coronagraph equipped with two deformable mirrors. The attenuated electric field from the first stage effectively improves the phase resolution of the deformable mirrors, enabling higher contrast control than conventional single-stage systems.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Two-stage-coronagraph-for-low-scattered-light-and-improved-phase/14145-283",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

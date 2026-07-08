@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Erin Holdorf, Noelia Martínez Rey, Jesse Cranney, Domenico Bonaccini-Calia",
-      "PaperNumber": "14150-80",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 14:15 - 14:30 CEST | Room B3-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "ea44ba01-a4ca-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "ea44ba01-a4ca-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The performance of the Smartt-WFS with machine learning in simulation and lab bench testing",
-      "Description": null,
-      "Abstract": "Adaptive optics (AO) is a technique increasingly used in demanding applications such as free-space optical communication. In these cases, AO systems may be required to work in urban environments as well as during the daytime, where turbulence conditions worsen and scintillation increases. Traditional slope-based wavefront sensors (WFSs) degrade performance when strong scintillation is present. To overcome this challenge and achieve accurate phase estimation in strong turbulence, we are investigating the use of a new type of WFS, the Smartt-WFS (S-WFS). This WFS has been shown to have stable performance for increasing scintillation, however, at the cost of a smaller linear range. We have investigated machine learning as a method to overcome the small linear range and allow the WFS to operate in much stronger turbulence conditions. We will present the performance of the S-WFS using a machine learning reconstructor in both simulation and in lab bench testing.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-performance-of-the-Smartt-WFS-with-machine-learning-in/14150-80",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 14:15 - 14:30 CEST | Room B3-M2",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Dimitri P. Mawet, Clarissa R. Do Ó, Kane M. Sjoberg, Luke Lamitina, Susan F. Redmond, John G. Hagopian",
-      "PaperNumber": "14145-77",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 14:20 - 14:40 CEST | Room B4-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "453769a8-7ad0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "453769a8-7ad0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Advancing the apodized vortex coronagraph toward Habitable Worlds Observatory requirements",
-      "Description": null,
-      "Abstract": "The Apodized Vortex Coronagraph (AVC) is a leading architecture for high-contrast imaging on segmented telescopes and a key candidate for the Habitable Worlds Observatory (HWO). Building on our previous optimization of the Amplitude-Apodized Vortex Coronagraph (AAVC) for HWO’s Exploratory Cases 1 and 2, we now report progress from modeling to experiment. We present updated apodizer designs, refined sensitivity analyses, and the first laboratory implementation of the AAVC on a high-contrast testbed. Initial measurements show improved contrast performance and validate the expected error-budget trends toward the ~1e-10 requirement. We also provide updated yield estimates from FRIDAY across recent HWO aperture configurations. These results mark a key step in advancing the AAVC toward HWO requirements.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Advancing-the-apodized-vortex-coronagraph-toward-Habitable-Worlds-Observatory-requirements/14145-77",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 14:20 - 14:40 CEST | Room B4-M3",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "James Coulson, Brent Miszalski, Simon O'Toole, Christopher Lidman, Christopher Onken, Nuria P. F. Lorente",
       "PaperNumber": "14155-69",
       "DateTimeLocationDataList": [
@@ -1590,7 +1522,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Miska Le Louarn, Jose Acosta-Pulido, Julio A. Castro-Almazán, Donaji Esparza-Arredondo, Maria Begoña García-Lorenzo, Johann Kolb, Angel C. Otarola, Jerome Paufique, Camila de Sa Freitas",
+      "Authors": "Miska Le Louarn, J. A. Castro-Almazán, D. Esparza-Arredondo, M. B. García-Lorenzo, J. A. Acosta-Pulido, J. Kolb, A. Otarola, J. Paufique, C. de Sa Freitas",
       "PaperNumber": "14150-86",
       "DateTimeLocationDataList": [
         {
@@ -1692,7 +1624,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Leanne P. Guy, Connor Yablonski, Aaron Meisner, Guillem Megias Homar, Merlin Fisher-Levine, Eman E. Ali, Tiger J. Hu, Christopher W. Stubbs",
+      "Authors": "Leanne P. Guy, Connor Yablonski, Aaron M. Meisner, Guillem Megias Homar, Merlin Fisher-Levine, Eman E. Ali, Tiger J. Hu, Christopher W. Stubbs",
       "PaperNumber": "14151-51",
       "DateTimeLocationDataList": [
         {
@@ -1714,23 +1646,91 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Development of a Retrieval-Augmented Generation Chatbot for Enhanced Information Discovery at Rubin Observatory",
+      "Title": "Development of a retrieval-augmented generation chatbot for enhanced information discovery at Rubin Observatory",
       "Description": null,
       "Abstract": "The Vera C. Rubin Observatory’s LSST will produce petabytes of data supported by a large, heterogeneous set of technical documents, operational guides, and scientific notes. Because this material is distributed across numerous platforms and formats, including internal systems, users and general-purpose language models often find it difficult to locate reliable Rubin-specific information. To address this, we developed a Retrieval-Augmented Generation (RAG) virtual assistant that provides context-aware, factual access to Rubin’s documentation ecosystem. The system aggregates content from multiple sources and performs semantic search through a conversational interface, using Weaviate for embeddings, LangChain for query orchestration, and an OpenAI GPT model as the LLM backend. Grounding responses in domain-specific knowledge reduces hallucinations, improves accuracy, and demonstrates the potential of RAG to streamline workflows and support effective use of LSST data products.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-a-Retrieval-Augmented-Generation-Chatbot-for-Enhanced-Information/14151-51",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-a-retrieval-augmented-generation-chatbot-for-enhanced-information/14151-51",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 16:30 - 16:50 CEST | Room B2-M2",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Nuwanthika Fernando, Brent Miszalski, Nuria Lorente, Anthony Horton",
+      "PaperNumber": "14155-73",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 16:30 - 16:50 CEST | Room B4-M7",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "fb243686-9bd0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "fb243686-9bd0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "MAVIS- Final design of the data reduction pipeline",
+      "Description": null,
+      "Abstract": "MAVIS is the MCAO Assisted Visible Imager and Spectrograph, the first MCAO-facility instrument planned for the VLT which will provide a near diffraction-limited view of the visible wavelength. We present the final design for the Data Reduction Pipeline of the instrument, and describe the prototyping for the design of calibration methods and dataflows. For the spectrograph calibrations, the geometry of the slices is determined using a series of moving pinhole mask exposures. Prototyping the geometry recipe resulted in the change to the pinhole mask design. This also confirmed the need for etalons for the wavelength calibration, to achieve required accuracies in the low resolution blue mode. Early prototyping of the DRS has been beneficial to the design of the entire instrument. The critical algorithms used ESO’s PyCPL libraries, the GNU Scientific Library, and data workflows at each stage were drafted using the new EDPS (ESO Data Processing System) libraries.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/MAVIS--Final-design-of-the-data-reduction-pipeline/14155-73",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 16:30 - 16:50 CEST | Room B4-M7",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "S. Perez, M. Bonati, B. Cervantes, A. Lapi, A. Varela, E. Schiller, A. Drlica-Wagner, G. Damke, C. Chavez, J. Estrada, G. Pinaroli, G. Fernandez-Moroni, M. Makler, J. Tiffenberg",
+      "PaperNumber": "14149-74",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 16:30 - 16:50 CEST | Auditorium 15",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "48f11c38-89d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "48f11c38-89d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "SkipperCam: a wide-field skipper-CCD pathfinder for high-cadence imaging with sub-electron capabilities",
+      "Description": null,
+      "Abstract": "We present SkipperCam, a Skipper-CCD imager pathfinder demonstrating low-noise, high-cadence wide-field imaging. It deploys a 20-sensor Skipper-CCD focal plane (~27 Mpix) on the 0.6 m Curtis–Schmidt telescope at CTIO, reusing the PreCam camera body, shutter, and filter wheel. A massively parallel, MIDNA-based readout decouples the usual trade-off between low noise and slow readout, delivering a ~2 deg² field of view with ~2 s full-frame cadence and ~7 e⁻ noise in fast survey mode, while reaching sub-electron noise via multiple non-destructive sampling. Primarily a technology demonstrator, it is also optimized for early science through a high-cadence microlensing survey of the Large Magellanic Cloud targeting short-timescale events from low-mass compact objects, with opportunities in photometric variability, transient detection, blue-sensitive imaging, and stellar-occultation follow-ups. SkipperCam is the first on-sky demonstration of a multiplexed Skipper-CCD array in survey mode.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/SkipperCam--a-wide-field-skipper-CCD-pathfinder-for-high/14149-74",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 16:30 - 16:50 CEST | Auditorium 15",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

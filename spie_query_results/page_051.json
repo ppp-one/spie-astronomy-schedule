@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Arijit Maiti, Bhavesh Kumar Mistry, Mudit K. Srivastava",
-      "PaperNumber": "14149-416",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "Cancelled",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "93ae1776-08cd-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "93ae1776-08cd-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Design and development of a Prototype Integral Field Unit (Proto-IFU) for PRL 2.5m telescope",
-      "Description": null,
-      "Abstract": "Proto-IFU is an optical-fibre-based Integral Field Unit (IFU) which is being developed as a prototype subsystem to add two-dimensional spectroscopic capabilities to a low-resolution long-slit spectrograph. It is based on the concept of coupling the telescope focal plane with the spectrograph slit using a lenslet array + fibre unit assembly, to sample the incoming field of view spatially. A 2D matrix pinhole array at the input and a V-groove array at the output reroute the optical fibres from a 2D field to a 1D slit, which gets re-imaged on the spectrograph slit. Optimized for the visible spectrum, Proto-IFU offers spatial sampling scales of 0.75 arc-seconds per fibre, providing a field of view of 7.5 × 7.5 arc-seconds squared on the sky. In this proposed poster, the speaker shall demonstrate the design, development, and laboratory characterization of the instrument.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Design-and-development-of-a-Prototype-Integral-Field-Unit-Proto/14149-416",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Matteo Canzari, Thomas Juerges",
-      "PaperNumber": "14155-227",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 9 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "b0c75f5b-a5d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "b0c75f5b-a5d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Design and evolution of the SKA alarm management system",
-      "Description": null,
-      "Abstract": "The Square Kilometre Array Observatory (SKAO) requires an alarm management platform capable of supporting  a highly distributed control system while complying with the IEC 62682 alarm management standard. Following  a technology assessment based on the functional and architectural requirements previously identified for the  Observatory, an existing alarm management platform was selected as the foundation for the development of the  SKA Alarm Management System (SKA AMS).  This paper describes the engineering activities performed to integrate the selected platform into the SKA  software ecosystem and its evolution towards a production-ready solution. The work includes the adoption  of the SKAO software engineering standards for containerised deployment, the development of Docker images,  Kubernetes configurations, Helm Charts and CI/CD pipelines, allowing the system to be deployed on SKAO  Kubernetes clusters, including the SKA-MID Integration Test Facility in South Africa.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Design-and-evolution-of-the-SKA-alarm-management-system/14155-227",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Youming Guo, Lingxiao Li, Zibo Ke",
       "PaperNumber": "14150-354",
       "DateTimeLocationDataList": [
@@ -1724,13 +1656,81 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Luke M. Schmidt, Hudson Malone, Noah Siebersma, Erika Cook, Jennifer L. Marshall, Darren L. DePoy, Ryan J. Oelkers, Silvana Delgado Andrade, Enrique Gonzalez Vega, Shravan Menon, Chelsea Taylor, Lars Walker",
+      "PaperNumber": "14154-396",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "d3d1cf5e-f7cf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "d3d1cf5e-f7cf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Fiber optic characterization for unprecedented sky subtraction (FOCUSS)",
+      "Description": null,
+      "Abstract": "Future massively multiplexed astronomical spectroscopic surveys will require accurate and repeatable removal of  the sky background. The Fiber Optic Characterization for Unprecedented Sky Subtraction (FOCUSS) project  aims to automate the characterization of fiber optic cables in order to determine their throughput efficiency  and focal ratio degradation (FRD). The laboratory setup is useful for fiber optic selection, fiber optic assembly  verification, and potentially inform the development of telescope facility calibration systems. The throughput  efficiency measures the fiber transmission as a function of wavelength, while the FRD test measures the angular  spread of light exiting the test fiber as a function of incident angle. FOCUSS operates between 350-1000 nm and  uses the Python programming language for data collection, reduction, and analysis.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Fiber-optic-characterization-for-unprecedented-sky-subtraction-FOCUSS/14154-396",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Valentina Viotto, Alessandro Ballone, Davide Greggio, Luca Marafatto, Carmelo Arcidiacono, Andrea Baruffolo, Maria Bergomi, Elena Carolo, Simonetta Chinellato, Simone Di Filippo, Marco Dima, Jacopo Farinato, Demetrio Magrin, Lorenzo Merli, Roberto Ragazzoni, Oleksandra Rebrysh, Kalyan Kumar Radhakrishnan Santhakumari, Daniele Vassallo, David Barr, Sylvain Cetre, Gabriele Umbriaco",
+      "PaperNumber": "14150-363",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "d966defb-3ecc-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "d966defb-3ecc-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Final design of the MATTO test bench",
+      "Description": null,
+      "Abstract": "The MATTO test bench, under development at INAF-OAPD, is a multi-purpose wide-field AO test facility, whose opto-mechanical design is aimed at simulating existing or future MCAO systems configurations with test or validation purposes. It will allow exploring a wide range of WFSs and sources combinations, thanks to the modularity of its design. It includes a reference source module, which simulates the atmospheric behaviour on natural and laser guide stars, a telescope simulator module, a MCAO correction module, allowing to mimic a number of optical configurations in which three DMs can be independently conjugated at various distances, and a sensing module, which allows to replicate the main properties of different types of WFSs. The DAO4MATTO Real-Time Control system, based on the DAO software solution, will provide MCAO loop control, keeping the system’s modular approach, for all possible configurations.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Final-design-of-the-MATTO-test-bench/14150-363",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

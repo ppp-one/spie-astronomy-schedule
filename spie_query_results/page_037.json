@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Andrew W. Serio, Sandra Ortiz, Natalia McCarthy, Randy Gay, Hernan Chacana, Angelica Junco, Loreto Troncoso, Mei Starns",
-      "PaperNumber": "14152-47",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 11:50 - 12:10 CEST | Room B2-M6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "d301f6c4-b5d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "d301f6c4-b5d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "NOIRLab's business operations standardization effort",
-      "Description": null,
-      "Abstract": "NSF NOIRLab, funded by the U.S. National Science Foundation (NSF), was formed in 2019 by consolidating three observatories (NOAO, International Gemini Observatory, and NSF–DOE Vera C. Rubin Observatory). As a result, NOIRLab inherited disparate operational processes and toolsets leading to increased operational complexity and higher costs, creating inefficiencies that hinder effective, unified operations. We launched a business operations standardization effort with Atlassian(™) tools selected as the supporting software platform. We implemented a standardized Project Management framework for milestones and work packages, a service desk to standardize organizational processes like documentation registration, hiring, and project submission and evaluation, and a centralized database to consolidate operational data. This effort enables effective reporting, performance evaluation, and informed decision-making with data from a single source of truth. This paper details this initiative.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/NOIRLabs-business-operations-standardization-effort/14152-47",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 11:50 - 12:10 CEST | Room B2-M6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Robin Swanson, Suresh Sivanandam",
       "PaperNumber": "14150-56",
       "DateTimeLocationDataList": [
@@ -842,7 +808,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Paolo Petrinca, Andrea Cremonini, Roberta Zanin, Daniela Simone, Marco Rossi",
+      "Authors": "P. Petrinca, A. Cremonini, M. Rossi, D. Simone, R. Zanin",
       "PaperNumber": "14152-49",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 14:30 - 14:50 CEST | Room B2-M6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "David Le Mignant, Coralie Neiner, Jean-Claude Bouret, Luca Fossati, Pollux Consortium",
+      "PaperNumber": "14146-71",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 14:30 - 14:50 CEST | Room B4-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "ae7ed01c-0acf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "ae7ed01c-0acf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Pollux: high-resolution precision spectroscopy and polarimetry for the Habitable Worlds Observatory",
+      "Description": null,
+      "Abstract": "Pollux is a proposed high-resolution spectrograph (R>75,000–100,000) with polarimetry capabilities for NASA’s Habitable Worlds Observatory, covering 100–1888 nm across five echelle spectrographs. It enables simultaneous spectroscopy and polarimetry (Stokes I, Q, U, V), addressing key science: exoplanet atmospheres, star-planet interactions, galactic evolution, and cosmic magnetic fields.   Pollux aligns with HWO’s goals, supporting studies of habitable worlds, stellar magnetism, and intergalactic media. Its design includes UV/NIR polarimeters, advanced gratings, and space-qualified detectors. This paper presents Pollux’s science objectives, instrument architecture, and development roadmap, highlighting its potential as a transformative tool for astrophysics.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Pollux--high-resolution-precision-spectroscopy-and-polarimetry-for-the/14146-71",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 14:30 - 14:50 CEST | Room B4-M3",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Ryan Griffiths, Siddharth Maharana, Matthias Tecza",
-      "PaperNumber": "14154-41",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 10:30 - 10:45 CEST | Room B2-M4",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "0ab468f7-5ad0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "0ab468f7-5ad0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Comparing the contrast performance of two IFU technologies for exoplanet direct imaging with ELT-PCS",
-      "Description": null,
-      "Abstract": "The Planetary Camera and Spectrograph (PCS) is an upcoming, dedicated high-contrast imager for the Extremely Large Telescope. The primary goal of PCS is to leverage the resolution provided by the ELT to image rocky exoplanets around nearby stars, requiring an instrument contrast exceeding that of any existing direct imager. The choice of integral field unit (IFU) for PCS must therefore maximise the contrast delivered by the science instrument, and synergise effectively with post-processing techniques. In this paper, we present a direct comparison of a novel “twisted” image slicer with a lenslet array IFU, made using the Modular Oxford Integral Field Spectrograph. We compare the implemented calibration routines and the radial 5-sigma contrast delivered by each IFU. This will include results with and without post-processing, and in a variety of simulated atmospheric conditions. We discuss the implications of these results for the conceptual design of PCS.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Comparing-the-contrast-performance-of-two-IFU-technologies-for-exoplanet/14154-41",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 10:30 - 10:45 CEST | Room B2-M4",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "G. Barbieri Ripamonti, F. Columbro, P. de Bernardis, T. Iida, S. Masi, R. Akizawa, E. Battistelli, A. Coppolecchia, M. De Petris, L. Lamagna, E. Marchitelli, T. Matsumura, M. Najafi, A. Occhiuzzi, H. Ohsaki, S. Okumura, A. Paiella, F. Piacentini, G. Pisano, S. Stellati",
       "PaperNumber": "14156-1",
       "DateTimeLocationDataList": [
@@ -1658,7 +1624,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Gregory Y. Prigozhin, Marshall Bautz, Beverly LaMarr, Kevan Donlon, Christopher Leitz, Eric Miller, Michelle Gabutti, Jill Juneau, Sven Herrmann, Peter Orel, Tanmoy Chattopadhyay, Michael Cooper, Noah Pestana, Doug Yang, Ilya Prigozhin, Abigail Pan, Haley Stueber, Declan O'Neill, Glenn Morris, Steven Allen",
+      "Authors": "Gregory Prigozhin, Marshall Bautz, Beverly LaMarr, Kevan Donlon, Christopher Leitz, Eric Miller, Michelle Gabutti, Jill Juneau, Sven Herrmann, Peter Orel, Tanmoy Chattopadhyay, Michael Cooper, Noah Pestana, Douglas Yang, Ilya Prigozhin, Abigail Pan, Haley Stueber, Declan O'Neill, Glenn Morris, Steven Allen",
       "PaperNumber": "14157-39",
       "DateTimeLocationDataList": [
         {
@@ -1680,11 +1646,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Noise and charge transfer characteristics of Fast, Low-noise CCD Sensors for AXIS",
+      "Title": "Noise and charge transfer characteristics of fast, low-noise CCD sensors for AXIS",
       "Description": null,
       "Abstract": "A new CCD for the Advanced X-ray Imaging Satellite (AXIS), has been designed by the MIT Lincoln Laboratories. The device called CCID100 serves as a form/fit/function prototype for future X-ray missions and has a classic Frame Transfer architecture with 16 parallel output channels allowing for fast readout of the entire 1450x1455 24 micron pixel array. It is built on a high resistivity substrate with a single layer polysilicon gates and low noise pJFET outputs. As a part of a collaborative effort by MIT Kavli Institute and Stanford University, we have built a test camera that allows to evaluate the devices in a wide temperature range. Here we present the results of device testing, focusing mostly on charge transfer inefficiency (CTI) dependencies on frequency, clock amplitudes and temperature, and studying of detector noise as a function of multiple operational parameters. We utilized the device charge injection capability as a powerful tool for characterizing",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Noise-and-charge-transfer-characteristics-of-Fast-Low-noise-CCD/14157-39",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Noise-and-charge-transfer-characteristics-of-fast-low-noise-CCD/14157-39",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 11:45 - 12:00 CEST | Room B2-M4",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Jason E. Austermann, The CCAT Collaboration",
+      "PaperNumber": "14156-5",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "7 July 2026 • 11:50 - 12:10 CEST | Room B5-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "3cf85fc8-a5d0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "3cf85fc8-a5d0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "CCAT: The focal plane arrays of the prime-cam submillimeter receiver",
+      "Description": null,
+      "Abstract": "Prime-Cam is a multi-instrument receiver for the Fred Young Submillimeter Telescope (FYST). Prime-Cam hosts 7 independent instrument modules with unique focal planes that are designed and optimized for complementary mapping and spectral abilities. Each focal plane consists of large-format arrays of feedhorn-coupled microwave kinetic inductance detectors (MKIDs). When completed, Prime-Cam will contain over 100,000 MKIDs. Here we describe the designs, fabrication, and in-lab characterizations of completed deployment devices for each of four initial instrument modules. We compare and contrast the unique and differing design elements of each focal plane. We review available in-lab performance, and discuss yield and uniformity metrics for completed deployment arrays. We also describe the design, fabrication, and performance of the silicon-platelet feedhorn arrays used in most of the focal planes, including the very first silicon feedhorn arrays to operate fully in the submillimeter.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/CCAT--The-focal-plane-arrays-of-the-prime-cam/14156-5",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "7 July 2026 • 11:50 - 12:10 CEST | Room B5-M3",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696099
 }

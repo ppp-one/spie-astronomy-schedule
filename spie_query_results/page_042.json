@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Nathan Amouroux, Parker Fagrelius, Thibault Guillemin, Fritz Mueller, Jérémy Neveu, Eli Rykoff, Thierry Souverin, Christopher W. Stubbs, Elana Urbach",
-      "PaperNumber": "14149-358",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "61daed78-94cf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "61daed78-94cf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Early throughput results from the collimated beam projector at the Vera C. Rubin Observatory",
-      "Description": null,
-      "Abstract": "The Vera C. Rubin Observatory’s LSST requires accurate photometric calibration to meet its science goals, particularly for cosmological measurements using Type Ia supernovae. The Collimated Beam Projector (CBP) has been developed to support this effort by emulating monochromatic point sources of known wavelength and flux to enable direct throughput measurements of the telescope system. Initial results demonstrate the capability in determining the instrumental response of the Simonyi Telescope and in characterizing LSSTCam filters throughput. The CBP also enables detailed mapping of shifts in filter bandpass edges across the focal plane, which can vary by several nanometers with angle of incidence. These early results validate the CBP as a powerful calibration tool and establish the foundation for ongoing photometric throughput monitoring throughout LSST operations.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Early-throughput-results-from-the-collimated-beam-projector-at-the/14149-358",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Talia Saeid, Reinier M. Janssen, Hessel Schulte, Steve Hailey-Dunsheath, Shubh Agrawal, James E. Aguirre, Justin S. Bracks, Charles M. Bradford, Brockton S. Brendal, Jeffrey P. Filippini, Jianyang Fu, Karolina Garcia, Christopher E. Groppi, Dylan Joralmon, Garrett Keating, Ryan P. Keenan, Lun-Jun Liu, Ian N. Lowe, Alex Manduca, Daniel P. Marrone, Philip D. Mauskopf, Evan C. Mayer, Sydnee O'Donnell, Simon Tartakovsky, Mathilde Van Cuyck, Joaquin D. Vieira, Jessica A. Zebrowski",
       "PaperNumber": "14156-142",
       "DateTimeLocationDataList": [
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Chengkui Li, Shumei Jia, Juan Zhang, Yong Chen, Haisheng Zhao, Ju Guan, Xiaofan Zhao, Jingjing Xu",
+      "PaperNumber": "14146-305",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "fd32ea09-ebcf-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "fd32ea09-ebcf-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "In flight energy calibration of EP-FXT",
+      "Description": null,
+      "Abstract": "EP-FXT is a focusing soft X-ray telescope operating in the ~0.5–10 keV band, designed for sensitive follow-up imaging and spectroscopy of transient and variable sources. In orbit, we calibrate the energy–channel (EC) relation by fitting astrophysical emission lines and on-board calibration source. We construct and refine the response matrix files (RMFs). We also calibrate the grade distribution of events, quantifying the energy-dependent fractions of single- and multi-pixel grades. The calibration products ensure a stable spectral response, enabling reliable flux and spectral-parameter measurements for EP’s time-domain X-ray science.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/In-flight-energy-calibration-of-EP-FXT/14146-305",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

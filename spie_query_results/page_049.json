@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Nuwanthika Fernando, Brent Miszalski, Nuria Lorente, Anthony Horton",
-      "PaperNumber": "14155-73",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 16:30 - 16:50 CEST | Room B4-M7",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "fb243686-9bd0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "fb243686-9bd0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "MAVIS- Final design of the data reduction pipeline",
-      "Description": null,
-      "Abstract": "MAVIS is the MCAO Assisted Visible Imager and Spectrograph, the first MCAO-facility instrument planned for the VLT which will provide a near diffraction-limited view of the visible wavelength. We present the final design for the Data Reduction Pipeline of the instrument, and describe the prototyping for the design of calibration methods and dataflows. For the spectrograph calibrations, the geometry of the slices is determined using a series of moving pinhole mask exposures. Prototyping the geometry recipe resulted in the change to the pinhole mask design. This also confirmed the need for etalons for the wavelength calibration, to achieve required accuracies in the low resolution blue mode. Early prototyping of the DRS has been beneficial to the design of the entire instrument. The critical algorithms used ESO’s PyCPL libraries, the GNU Scientific Library, and data workflows at each stage were drafted using the new EDPS (ESO Data Processing System) libraries.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/MAVIS--Final-design-of-the-data-reduction-pipeline/14155-73",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 16:30 - 16:50 CEST | Room B4-M7",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "S. Perez, M. Bonati, B. Cervantes, A. Lapi, A. Varela, E. Schiller, A. Drlica-Wagner, G. Damke, C. Chavez, J. Estrada, G. Pinaroli, G. Fernandez-Moroni, M. Makler, J. Tiffenberg",
-      "PaperNumber": "14149-74",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 16:30 - 16:50 CEST | Auditorium 15",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "48f11c38-89d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "48f11c38-89d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "SkipperCam: a wide-field skipper-CCD pathfinder for high-cadence imaging with sub-electron capabilities",
-      "Description": null,
-      "Abstract": "We present SkipperCam, a Skipper-CCD imager pathfinder demonstrating low-noise, high-cadence wide-field imaging. It deploys a 20-sensor Skipper-CCD focal plane (~27 Mpix) on the 0.6 m Curtis–Schmidt telescope at CTIO, reusing the PreCam camera body, shutter, and filter wheel. A massively parallel, MIDNA-based readout decouples the usual trade-off between low noise and slow readout, delivering a ~2 deg² field of view with ~2 s full-frame cadence and ~7 e⁻ noise in fast survey mode, while reaching sub-electron noise via multiple non-destructive sampling. Primarily a technology demonstrator, it is also optimized for early science through a high-cadence microlensing survey of the Large Magellanic Cloud targeting short-timescale events from low-mass compact objects, with opportunities in photometric variability, transient detection, blue-sensitive imaging, and stellar-occultation follow-ups. SkipperCam is the first on-sky demonstration of a multiplexed Skipper-CCD array in survey mode.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/SkipperCam--a-wide-field-skipper-CCD-pathfinder-for-high/14149-74",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 16:30 - 16:50 CEST | Auditorium 15",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Takumi Hagiwara, Taku Nakayama, Subaru Shibai, Shoki Iwaguchi, Yutaro Enomoto, Kiwamu Izumi",
       "PaperNumber": "14145-82",
       "DateTimeLocationDataList": [
@@ -468,40 +400,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Zhenyuan Sun, Stafford Withington, Songyuan Zhao, Wei Chen",
-      "PaperNumber": "14156-50",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:00 - 17:20 CEST | Room B5-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "196dd0d5-53ce-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "196dd0d5-53ce-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Analysis of resonance circular distortions in superconducting resonators against two dissipative nonlinear models at low and high readout power regimes",
-      "Description": null,
-      "Abstract": "Experimental measurements of superconducting microwave resonators reveal distinct distortions of the resonance circle in the complex plane: a ‘teardrop’ shape at low readout power and a ‘squashed’ shape at high power. We compare these observations with two representative dissipative models—the two-level system (TLS) model at low power and quasiparticle heating (QPH) at high power. Both models show reasonable agreement with the measured distortions: TLS accurately reproduces the low-power teardrop, while QPH closely matches the high-power squashed morphology. Although other mechanisms may contribute in general at high power ranges, they are not necessary to explain the data presented here. These results demonstrate that resonance-circle morphology, when combined with dissipative models, serves as a practical diagnostic tool for identifying dominant loss behaviour in superconducting resonators for cryogenic detector and readout applications.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Analysis-of-resonance-circular-distortions-in-superconducting-resonators-against-two/14156-50",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:00 - 17:20 CEST | Room B5-M3",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Yuri Evangelista, Francesco Ceraudo, Giovanni Della Casa, Ettore Del Monte, Giuseppe Dilillo, Marco Feroci, Edoardo Giancarli, Alessio Nuti, Riccardo Campana, Mauro Fiorini, Giovanni Lombardi, Massimo Rapisarda, Ajay Sharma, Giuseppe Bertuccio, Filippo Mele, Yinhe Zhu, Marco Grassi, Piero Malcovati, Jacopo Giani, Marco Tambussi, Matias Antonelli, Alexandre Rachevski, Irina Rashevskaya, Gianluigi Zampa, Nicola Zampa, Evgeny Demenev, Giancarlo Pepponi, Francesco Ficorella, Nicola Zorzi, Francesca Esposito, Immacolata Donnarumma, Alessandro Turchi, Ugo Cortesi, Fabio D'Amico, Marco Gai, Andrea Argan",
       "PaperNumber": "14146-93",
       "DateTimeLocationDataList": [
@@ -533,6 +431,40 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 17:00 - 17:20 CEST | Room B4-M1",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Zhenyuan Sun, Stafford Withington, Songyuan Zhao, Wei Chen",
+      "PaperNumber": "14156-50",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:00 - 17:20 CEST | Room B5-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "196dd0d5-53ce-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "196dd0d5-53ce-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Resonance Circle Distortion in Superconducting Resonators at Low and High Readout Power Regimes",
+      "Description": null,
+      "Abstract": "Nonlinear dissipative effects in superconducting microwave resonators distort the resonance circle in the Argand plane. We compare measured distortions in two devices—a NbN quarter-wavelength microstrip resonator and a Nb half-wavelength CPW resonator—with predictions from two dissipative models: two-level systems (TLS) and quasiparticle heating (QPH). By analyzing S21 trajectories across a wide readout power range, we identify characteristic signatures for each mechanism. The NbN device exhibits a teardrop-shaped distortion at low powers, consistent with TLS saturation. The Nb CPW device exhibits an oval-shaped distortion at high powers, consistent with QPH, though kinetic inductance introduces hysteresis in the NbN device that complicates interpretation. Resonance-circle morphology thus serves as a practical diagnostic tool for identifying dominant loss behaviour in superconducting resonators, complementing traditional quality-factor measurements.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Resonance-Circle-Distortion-in-Superconducting-Resonators-at-Low-and-High/14156-50",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:00 - 17:20 CEST | Room B5-M3",
       "ErrorMessage": null
     },
     {
@@ -1724,13 +1656,81 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Jorge D. Llop-Sayson, Chaoyin Zhou, Anita M. Fisher, Garreth J. Ruane, Eugene Serabyn, Dimitri P. Mawet",
+      "PaperNumber": "14145-285",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "2a1451ac-9ed0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "2a1451ac-9ed0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Advancing vector vortex coronagraph technology for the Habitable Worlds Observatory",
+      "Description": null,
+      "Abstract": "The vortex coronagraph offers an efficient solution to starlight suppression: it provides high starlight suppression while maintaining excellent throughput for off-axis sources. The leading approach to fabricate a vortex coronagraph mask relies on liquid crystal polymers (LCPs), producing what is known as the vector vortex coronagraph (VVC). The main limitation of the VVC arises from mask fabrication errors, which result in a contrast floor above the requirements of HWO. Here, we report recent progress at JPL’s Microdevices Laboratory (MDL) toward fabricating VVC masks for HWO.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Advancing-vector-vortex-coronagraph-technology-for-the-Habitable-Worlds-Observatory/14145-285",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Thomas Essinger-Hileman, Alyssa Barlis, Charles Bennett, Yan Yan (Carol) Chan, Michael Chauby, Haiquan Guo, Kyle Helson, Adriana Macris, Sadeq Malakooti, Manuel Quijada, Maryam Rahmani, Evan Steinberg, Stephanie Vivod, Edward Wollack",
+      "PaperNumber": "14156-198",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 9 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "d57d1995-54d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "d57d1995-54d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Aerogels to reduce optical reflections",
+      "Description": null,
+      "Abstract": "We present initial demonstrations of electromagnetic absorbers to reduce optical reflections fabricated by incorporating carbon particles into polymer aerogel materials. Instruments in the microwave through far-IR are strongly affected by thermal emission from even rather cold surfaces, so careful control of stray light is required to avoid reduced instrument sensitivity. Polymer aerogels offer a unique material system featuring low mass density and index of refraction in addition to tunable optical properties through inclusion of particles. We present the design, fabrication, and characterization of stray-light reduction sheets and molded calibrator targets based on carbon-loaded aerogel material. This technology offers significant improvement in performance (reduced reflectance) as well as lower size and weight compared with current state of the art for stray light reduction or calibrator targets.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Aerogels-to-reduce-optical-reflections/14156-198",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

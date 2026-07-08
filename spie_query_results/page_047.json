@@ -26,74 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Johannes Wüthrich, Banan Yamani, Andrin Fazan, Léonard Lebrun, Sean MacBride, Felipe Andrade-Oliveira, Marcelle Soares-Santos, Guandi Zhao",
-      "PaperNumber": "14154-80",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 11:15 - 11:30 CEST | Room B2-M4",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "76be107b-9ccf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "76be107b-9ccf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Characterizing robotic positioners under the influence of changing gravity vectors for future spectroscopic surveys",
-      "Description": null,
-      "Abstract": "Future spectroscopic surveys will rely on highly multiplexed focal planes composed of robotic fiber positioners. To ensure science goals are met, a stringent testing of these positioners is of utmost importance during prototyping and quality assurance. We present a dynamical telescope simulator test stand, to characterize the positioners in terms of position, focus and angular tilt stability under the variation of the gravity vector. We discuss the design and characterization of our test stand, including calibration using fixed reference spots. Finally we present initial results with a prototype positioner module built by Orbray Co., Ltd. This setup offers an important platform for integrated testing of advanced focal-plane technologies in operations-like conditions.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Characterizing-robotic-positioners-under-the-influence-of-changing-gravity-vectors/14154-80",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 11:15 - 11:30 CEST | Room B2-M4",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Thomas Bertram, Daniel Ahrer, Peter Bizenberger, Wolfgang Brandner, Florian Briegel, M. Concepción Cárdenas Vázquez, Hugo Coppejans, Markus Feldt, Armin Huber, Martin Kulas, Werner Laun, Lars Mohr, Vianak Naranjo, Raphaël Pourcelot, Ralf-Rainer Rohloff, Silvia Scheithauer, Horst Steuer, Roy van Boekel, Carlos Correia, Bernhard Brandl, Olivier Absil, Gilles Orban de Xivry, Andreas Obereder, Wim De Meester, Wim Pessemier, Gert Raskin",
-      "PaperNumber": "14150-73",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 11:20 - 11:35 CEST | Room B3-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "2a2ee311-d3cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "2a2ee311-d3cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Putting METIS SCAO to the Test",
-      "Description": null,
-      "Abstract": "METIS SCAO has entered the lab testing phase, where the wavefront control loop and key components are verified using a telescope simulator. The simulator introduces and compensates for wavefront disturbances and pupil drifts, allowing for extensive testing of the wavefront control loop. This presentation provides an update on the integration activities of the SCAO Module and the AO Control System as well as an update of the planned subsystem and system tests.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Putting-METIS-SCAO-to-the-Test/14150-73",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 11:20 - 11:35 CEST | Room B3-M2",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Roberto Pizzo, Hanno Holties, Marco Iacobelli, Emanuela Orrú, Aras Bozkurt",
       "PaperNumber": "14151-43",
       "DateTimeLocationDataList": [
@@ -1206,7 +1138,7 @@
       "HTMLTitle": "",
       "Title": "All-Fiber Broadband Wavelength-Division Multiplexing using Heterogeneous Photonic Lanterns",
       "Description": null,
-      "Abstract": "This work introduces an all-fiber broadband wavelength-division multiplexing architecture utilizing $1\\times7$ heterogeneous photonic lanterns (PLs), specifically $\\text{PL}-{(6+1)}$ and $\\text{PL}-{(4+3)}$. By combining mismatched single-mode cores, such as $\\text{SM450}$ and $\\text{SMF28}$, the devices enable passive, wavelength-selective spatial routing. Experimental results show distinct dual-regime performance: in the visible band ($350\\text{--}740\\text{ nm}$), they act as multi-channel broadband collectors, while in the H-band ($1520\\text{--}1610\\text{ nm}$), core asymmetries break mode degeneracy, thereby enabling passive spectral sorting. These findings highlight the potential of heterogeneous fiber bundles for next-generation astronomical facilities that require simultaneous multi-wavelength capabilities to feed separate, band-optimized spectrographs.",
+      "Abstract": "This work introduces an all-fiber broadband wavelength-division multiplexing architecture utilizing 1×7 heterogeneous photonic lanterns (PLs), specifically PL-(6+1) and PL-(4+3). By combining mismatched single-mode cores, such as SM450 and SMF28, the devices enable passive, wavelength-selective spatial routing. Experimental results show distinct dual-regime performance: in the visible band (350--740 nm), they act as multi-channel broadband collectors, while in the H-band (1520--1610 nm), core asymmetries break mode degeneracy, thereby enabling passive spectral sorting. These findings highlight the potential of heterogeneous fiber bundles for next-generation astronomical facilities that require simultaneous multi-wavelength capabilities to feed separate, band-optimized spectrographs.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/All-Fiber-Broadband-Wavelength-Division-Multiplexing-using-Heterogeneous-Photonic-Lanterns/14154-87",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1724,13 +1656,81 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 14:15 - 14:30 CEST | Room B2-M4",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Erin Holdorf, Noelia Martínez Rey, Jesse Cranney, Domenico Bonaccini-Calia",
+      "PaperNumber": "14150-80",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 14:15 - 14:30 CEST | Room B3-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "ea44ba01-a4ca-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "ea44ba01-a4ca-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The performance of the Smartt-WFS with machine learning in simulation and lab bench testing",
+      "Description": null,
+      "Abstract": "Adaptive optics (AO) is a technique increasingly used in demanding applications such as free-space optical communication. In these cases, AO systems may be required to work in urban environments as well as during the daytime, where turbulence conditions worsen and scintillation increases. Traditional slope-based wavefront sensors (WFSs) degrade performance when strong scintillation is present. To overcome this challenge and achieve accurate phase estimation in strong turbulence, we are investigating the use of a new type of WFS, the Smartt-WFS (S-WFS). This WFS has been shown to have stable performance for increasing scintillation, however, at the cost of a smaller linear range. We have investigated machine learning as a method to overcome the small linear range and allow the WFS to operate in much stronger turbulence conditions. We will present the performance of the S-WFS using a machine learning reconstructor in both simulation and in lab bench testing.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-performance-of-the-Smartt-WFS-with-machine-learning-in/14150-80",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 14:15 - 14:30 CEST | Room B3-M2",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Dimitri P. Mawet, Clarissa R. Do Ó, Kane M. Sjoberg, Luke Lamitina, Susan F. Redmond, John G. Hagopian",
+      "PaperNumber": "14145-77",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 14:20 - 14:40 CEST | Room B4-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "453769a8-7ad0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "453769a8-7ad0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Advancing the apodized vortex coronagraph toward Habitable Worlds Observatory requirements",
+      "Description": null,
+      "Abstract": "The Apodized Vortex Coronagraph (AVC) is a leading architecture for high-contrast imaging on segmented telescopes and a key candidate for the Habitable Worlds Observatory (HWO). Building on our previous optimization of the Amplitude-Apodized Vortex Coronagraph (AAVC) for HWO’s Exploratory Cases 1 and 2, we now report progress from modeling to experiment. We present updated apodizer designs, refined sensitivity analyses, and the first laboratory implementation of the AAVC on a high-contrast testbed. Initial measurements show improved contrast performance and validate the expected error-budget trends toward the ~1e-10 requirement. We also provide updated yield estimates from FRIDAY across recent HWO aperture configurations. These results mark a key step in advancing the AAVC toward HWO requirements.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Advancing-the-apodized-vortex-coronagraph-toward-Habitable-Worlds-Observatory-requirements/14145-77",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 14:20 - 14:40 CEST | Room B4-M3",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

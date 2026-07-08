@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Juan Carlos Guerra, Sam Ragland",
-      "PaperNumber": "14152-38",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "7 July 2026 • 16:00 - 16:20 CEST | Room B2-M6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "25b29477-b4d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "25b29477-b4d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Machine learning approaches to improve telescope efficiency and AO instrument strategies",
-      "Description": null,
-      "Abstract": "Efficient LBT operation requires each acquisition to start near the correct pointing and active-secondary collimation state. We present a telemetry-driven Random Forest/Quantile Regression Forest framework to predict residual CA/IE pointing terms and ASM hexapod coordinates for LUCI and LBTI. The models use azimuth, elevation, thermal telemetry, time of night, instrument, side, and collimation history within the operations window. We separate true cold-start predictions, using only pre-acquisition telemetry, from short-horizon updates that use recent same-instrument measurements. A strict 2026-06-16 HD116405 leave-one-day-out test compares pure CA/IE cold start, hexapod bootstrap, chained CA/IE using predicted hexapod state, and diagnostic CA/IE using measured hexapod state. The framework provides uncertainty-aware recommendations to reduce acquisition overhead and long-tail correction events without replacing the operator or analytical pointing model",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Machine-learning-approaches-to-improve-telescope-efficiency-and-AO-instrument/14152-38",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "7 July 2026 • 16:00 - 16:20 CEST | Room B2-M6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Francisco Prada",
       "PaperNumber": "14148-23",
       "DateTimeLocationDataList": [
@@ -842,7 +808,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Nerea Castro, Armando Bilbao, Paula Sierra-Sésumaga, Arantza de Echenique, Bruce C. Bigelow, Eduardo Villar, Christopher Madden, Miroslav Vulinovic, Francisco Meza, Alberto Fernandez",
+      "Authors": "Arantza de Echenique, Paula Sierra-Sésumaga, Nerea Castro, Armando Bilbao, Bruce C. Bigelow, Eduardo Villar, Christopher Madden, Miroslav Vulinovic, Francisco Meza, Alberto Fernandez",
       "PaperNumber": "14152-40",
       "DateTimeLocationDataList": [
         {
@@ -1318,7 +1284,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jason Li, Toby Duffy, David Brodrick, Jesse Cranney, Nian Jiang, François Rigaut, Naomi McClure-Griffiths",
+      "Authors": "Toby Duffy, David Brodrick, Jesse Cranney, Nian Jiang, François Rigaut, Naomi McClure-Griffiths, Jason Li",
       "PaperNumber": "14152-41",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "7 July 2026 • 17:20 - 17:40 CEST | Room B5-M3",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Dinko Milaković, Guido Cupani, Bruce Bassett, Stefano Cristiani, Luca Pasquini",
+      "PaperNumber": "14155-90",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presented live 7 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "a018ff3d-61d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "a018ff3d-61d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "\"Perfect\" spectra for ESO’s HARPS spectrograph",
+      "Description": null,
+      "Abstract": "Harperfect is the first application of spectral perfectionism to a high-resolution echelle spectrograph, recon-  structing 1D spectra from 2D detector data via a forward model built on a calibration matrix of PSF shape,  wavelength, and order trace, built entirely from laser frequency comb (LFC) observations. HARPS cannot re-  solve individual LFC lines, so each of 21 148 identified lines directly samples the PSF. We modelled these with  a bivariate Gaussian, determining the PSF anywhere on the detector, calibrating wavelength, and tracing or-  ders more accurately than the standard HARPS pipeline. Applied to 52.5 hours of HARPS data on quasar  HE0515−4414, Harperfect gives S/N comparable to, though slightly lower than, the standard pipeline. Its  value lies in an exact resolution matrix and independent samples, properties standard extraction cannot guar-  antee for a non-separable PSF – a step toward better measurements of fundamental constants and exoplanet  atmospheres.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Perfect-spectra-for-ESOs-HARPS-spectrograph/14155-90",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presented live 7 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

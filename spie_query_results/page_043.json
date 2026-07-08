@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Chengkui Li, Shumei Jia, Juan Zhang, Yong Chen, Haisheng Zhao, Ju Guan, Xiaofan Zhao, Jingjing Xu",
-      "PaperNumber": "14146-305",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "fd32ea09-ebcf-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "fd32ea09-ebcf-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "In flight energy calibration of EP-FXT",
-      "Description": null,
-      "Abstract": "EP-FXT is a focusing soft X-ray telescope operating in the ~0.5–10 keV band, designed for sensitive follow-up imaging and spectroscopy of transient and variable sources. In orbit, we calibrate the energy–channel (EC) relation by fitting astrophysical emission lines and on-board calibration source. We construct and refine the response matrix files (RMFs). We also calibrate the grade distribution of events, quantifying the energy-dependent fractions of single- and multi-pixel grades. The calibration products ensure a stable spectral response, enabling reliable flux and spectral-parameter measurements for EP’s time-domain X-ray science.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/In-flight-energy-calibration-of-EP-FXT/14146-305",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Eliad Peretz, john C. Mather, Stuart B. Shaklan, Ahmed M. Mohamed, Marc Boucher, Jean T. Landry, Christine E. Gregg",
       "PaperNumber": "14145-222",
       "DateTimeLocationDataList": [
@@ -1458,9 +1424,9 @@
       "PaperNumber": "14156-160",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 8 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -1484,7 +1450,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1566,7 +1532,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "John J. Piotrowski, Danielle Frostig, Mark Mueller, David Cruz, Matthew Werneken, Julian Garcia, Daniel Fabricant, Ashley Villar, Ana Bonaca, Phillip A. Cargile, Vedant Chandra, Charles Conroy, Benjamin D. Johnson",
+      "PaperNumber": "14149-384",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "fc0da7fb-7ad0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "fc0da7fb-7ad0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Optical design of Boombox: a high-throughput optical spectrograph on dual-hemisphere 6.5-meter telescopes",
+      "Description": null,
+      "Abstract": "Boombox is a moderate-dispersion optical spectrograph currently being built for the 6.5-meter MMT and Magellan Clay telescope. Boombox, in synergy with the LSST, will provide rapid follow-up spectroscopy of LSST targets to classify the diverse array of expected transient astronomical phenomena and their host galaxies. In this paper, we present the optical design of Boombox and provide a detailed tolerance analysis to ensure manufacturability. Boombox achieves its scientific goals with a two-channel spectrograph covering 3550 to 10100 Å at R ~ 1000. The spectrograph uses 36 dedicated optical fibers (1.2\" core diameter) from the Via fiber positioning system distributed across a 1-degree field of view. Boombox leverages binary transmission gratings and a high QE deep-depleted CCD261-04 to achieve high throughput. Finally, we discuss the optical design challenges associated with minimizing spectral crosstalk and provide lessons learned for future spectrograph designs.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Optical-design-of-Boombox--a-high-throughput-optical-spectrograph/14149-384",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }

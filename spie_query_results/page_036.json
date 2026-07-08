@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Christian Ramirez, Constanza Araujo Hauck, Andres González, Gerardo Smith, Jindrich Martinu, Ahmed Miliani, Sébastien Adans, Jeroen Schotsaert",
-      "PaperNumber": "14154-62",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 10:30 - 10:45 CEST | Room B2-M4",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "08caa2fe-4fd0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "08caa2fe-4fd0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Engineering the ELT’s Reflective Surfaces.",
-      "Description": null,
-      "Abstract": "The ESO Extremely Large Telescope (ELT) requires a coating facility capable of processing all of its large mirrors—M2, M3, M4, and M5—within a single, industrial-scale system. The Large Coating Plant (LCP) has been designed to support mirrors with convex, concave, and flat geometries of M2, M3, and M5 in a single machine. The magnetron sputtering of a Protected Silver layer serves as the baseline for all ELT mirrors. Still, a dedicated process is implemented for M4, which features magnets on the rear side of its deformable mirror shells, affecting the homogeneity of magnetron sputtering. Hence, M4 receives an evaporated aluminium coating using a purpose-configured evaporation sub-system within the same LCP. This paper presents the capabilities of the LCP, including an overview of acceptance testing and coating performance results, and dedicated work to enhance the reflectivity of the aluminum layer for M4 in a specific band.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Engineering-the-ELTs-Reflective-Surfaces/14154-62",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 10:30 - 10:45 CEST | Room B2-M4",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Roberto Tamai, Bertrand Koehler, Joël Vernet, Fabio Biancat-Marchet, Mauro Tuti, Juan-Carlos González-Herrera",
       "PaperNumber": "14147-46",
       "DateTimeLocationDataList": [
@@ -434,7 +400,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Babak Sedghi, Ulrich Lampater, Pablo Zuluaga, Juan-Carlos González-Herrera, Yannick Lammen, Michael Müller, Gerd Jakob, Veronika Wimmer",
+      "Authors": "B. Sedghi, U. Lampater, P. Zuluaga-Ramirez, V. Wimmer, Y. Lammen, M. Müller, G. Jakob, J. C. González-Herrera",
       "PaperNumber": "14152-44",
       "DateTimeLocationDataList": [
         {
@@ -1114,7 +1080,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Angaraj Duara, Jesper Skottfelt, Chiaki Crews, David Hall, Ben Dryer, Joan Requena, Anabel Romero, Douglas Jordan",
+      "Authors": "Angaraj Duara, Jesper Skottfelt, David Hall, Chiaki Crews, Ben Dryer, Anabel Romero, Joan Requena, Douglas Jordan",
       "PaperNumber": "14157-54",
       "DateTimeLocationDataList": [
         {
@@ -1724,13 +1690,47 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "8 July 2026 • 11:50 - 12:10 CEST | Auditorium 15",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Andrew W. Serio, Sandra Ortiz, Natalia McCarthy, Randy Gay, Hernan Chacana, Angelica Junco, Loreto Troncoso, Mei Starns",
+      "PaperNumber": "14152-47",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 11:50 - 12:10 CEST | Room B2-M6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "d301f6c4-b5d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "d301f6c4-b5d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "NOIRLab's business operations standardization effort",
+      "Description": null,
+      "Abstract": "NSF NOIRLab, funded by the U.S. National Science Foundation (NSF), was formed in 2019 by consolidating three observatories (NOAO, International Gemini Observatory, and NSF–DOE Vera C. Rubin Observatory). As a result, NOIRLab inherited disparate operational processes and toolsets leading to increased operational complexity and higher costs, creating inefficiencies that hinder effective, unified operations. We launched a business operations standardization effort with Atlassian(™) tools selected as the supporting software platform. We implemented a standardized Project Management framework for milestones and work packages, a service desk to standardize organizational processes like documentation registration, hiring, and project submission and evaluation, and a centralized database to consolidate operational data. This effort enables effective reporting, performance evaluation, and informed decision-making with data from a single source of truth. This paper details this initiative.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/NOIRLabs-business-operations-standardization-effort/14152-47",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 11:50 - 12:10 CEST | Room B2-M6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
-  "Count": 2923,
+  "Count": 2921,
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH01",
-  "DLCount": 696051
+  "SearchServerName": "PRODSPSEARCH03",
+  "DLCount": 696099
 }
