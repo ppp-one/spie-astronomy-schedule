@@ -2061,7 +2061,9 @@ function _ensureSpecialsBuilt() {
   }
   body.innerHTML = `<div class="tabs">${tabs}</div>` + panels;
   _applyState(body);
-  updateSpecialsCount();
+  // Open on today's tab when today has special events, like the schedule.
+  const todayIso = getCopenhagenParts().dateIso;
+  switchSpecialsDay(ALL_SPECIAL_DAYS.some(d => d.date_iso === todayIso) ? todayIso : 'all');
   updateNowLine();
 }
 
@@ -2102,7 +2104,9 @@ function _ensurePosterBuilt() {
   }
   body.innerHTML = `<div class="tabs">${tabs}</div>` + panels;
   _applyState(body);
-  applyPosterSearch();
+  // Open on today's tab when today is a poster day, like the schedule.
+  const todayIso = getCopenhagenParts().dateIso;
+  switchPosterDay(ALL_POSTER_DAYS.some(d => d.date_iso === todayIso) ? todayIso : 'all');
 }
 
 // ── Apply bookmarks/skipped/filters to a freshly-built container ───────────
