@@ -77,6 +77,21 @@ div#asteroids canvas {
     width: 100%;
 }
 
+/* On desktop, cap the playfield at phone-like proportions so the
+ * game is as hard as on mobile (same asteroid density) and scores
+ * stay comparable. Mobile layouts are untouched. */
+@media (hover: hover) and (pointer: fine) {
+    div#asteroids {
+        max-width: 520px;
+        max-height: 900px;
+        margin: auto;
+    }
+
+    div#asteroids canvas {
+        border: 1px solid #333;
+    }
+}
+
 div#asteroids .keyboard-help {
     text-align: center;
     color: #999;

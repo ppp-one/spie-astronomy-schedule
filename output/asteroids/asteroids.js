@@ -26,6 +26,7 @@ HYPERSPACE_RISK = 1 / 6; // Chance that hyperspace destroys the ship.
 BULLET_SPEED = 20;
 MAX_BULLETS = 3;
 MAX_BULLET_AGE = 25;
+AMMO_LIMIT = 100; // Shots per level; refills when a new level starts.
 
 // Saucer settings
 SAUCER_TIME = 12000; // Rough time between saucer visits. (ms)
@@ -117,8 +118,13 @@ Asteroids.infoPane = function (game, home) {
     level.className = 'level';
     level.innerHTML = 'LEVEL: 1';
 
+    var ammo = document.createElement('span');
+    ammo.className = 'ammo';
+    ammo.innerHTML = 'AMMO: ' + AMMO_LIMIT;
+
     pane.appendChild(lives);
     pane.appendChild(score);
+    pane.appendChild(ammo);
     pane.appendChild(level);
 
     if (Asteroids.isMobile()) {
@@ -147,6 +153,9 @@ Asteroids.infoPane = function (game, home) {
         },
         setLevel: function (game, _level) {
             level.innerHTML = 'LEVEL: ' + _level;
+        },
+        setAmmo: function (game, a) {
+            ammo.innerHTML = 'AMMO: ' + a;
         },
         getPane: function () {
             return pane;
@@ -293,6 +302,7 @@ Asteroids.player = function (game) {
         lastRez = null,
         lives = PLAYER_LIVES,
         score = 0,
+        ammo = AMMO_LIMIT,
         radius = 3,
         path = [
             [10, 0],
@@ -334,6 +344,12 @@ Asteroids.player = function (game) {
         },
         getLives: function () {
             return lives;
+        },
+        getAmmo: function () {
+            return ammo;
+        },
+        resetAmmo: function () {
+            ammo = AMMO_LIMIT;
         },
         rotate: function (rad) {
             if (!dead && !hyper) {
@@ -452,11 +468,12 @@ Asteroids.player = function (game) {
             }
         },
         fire: function (game) {
-            if (!dead && !hyper) {
+            if (!dead && !hyper && ammo > 0) {
                 game.log.debug('You fired!');
                 var _pos = [position[0], position[1]],
                     _dir = direction;
 
+                ammo--;
                 this.lowerScore(POINTS_PER_SHOT);
 
                 return Asteroids.bullet(game, _pos, _dir);
@@ -1109,6 +1126,8 @@ Asteroids.level = function (game) {
         levelUp: function (game) {
             level++;
             game.log.debug('Congrats! On to level ' + level);
+
+            game.player.resetAmmo();
 
             // More rocks each wave (up to a cap), and a bit faster.
             var speed = Math.min(ASTEROID_SPEED * (1 + (level - 1) / 10),
@@ -1868,6 +1887,7 @@ Asteroids.play = function (game) {
         // Update the info pane.
         game.info.setLives(game, game.player.getLives());
         game.info.setScore(game, game.player.getScore());
+        game.info.setAmmo(game, game.player.getAmmo());
         game.info.setLevel(game, game.level.getLevel());
     }, FRAME_PERIOD);
 }
