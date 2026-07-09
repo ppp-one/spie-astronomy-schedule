@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Roberto Pizzo, Hanno Holties, Marco Iacobelli, Emanuela Orrú, Aras Bozkurt",
-      "PaperNumber": "14151-43",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 11:20 - 11:40 CEST | Room B2-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "e5b99612-72cf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "e5b99612-72cf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "The LOFAR2.0 data challenge and current solutions",
-      "Description": null,
-      "Abstract": "LOFAR is a high throughput data facility facing several non-trivial technical challenges in data processing, storage, and operations. The array is being upgraded to LOFAR2.0. The new system will offer several functionality improvements to the users, but will also pose unprecedented challenges related to the data handling, processing, storage and sustainable operations in general. In this talk, we will review these along with the solutions we have adopted to tackle them, including data compression, the retirement of the early LOFAR Cycle data, and the implementation of a LOFAR2.0 data lifecycle policy requiring the preservation of only advanced data products. Moreover, we will discuss the role of the community towards realizing more efficient data processing pipelines and scaling up the processing infrastructure. Eventually, we will review the actions undertaken to automate key areas of the intensive data handling chain to realize sustainable operations for the future.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/The-LOFAR20-data-challenge-and-current-solutions/14151-43",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 11:20 - 11:40 CEST | Room B2-M2",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Sébastien Pernecker, Tarik Ibrahimovic, Jean-Paul Kneib, Jonathan Wei, Maxime Rombach, Oliver Pineda Suárez",
       "PaperNumber": "14154-83",
       "DateTimeLocationDataList": [
@@ -1724,6 +1690,40 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 14:20 - 14:40 CEST | Room B4-M3",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "James Coulson, Brent Miszalski, Simon O'Toole, Christopher Lidman, Christopher Onken, Nuria P. F. Lorente",
+      "PaperNumber": "14155-69",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 14:20 - 14:40 CEST | Room B4-M7",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "931af190-cdd0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "931af190-cdd0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Automating data reduction and archival workflows using Apache NiFi",
+      "Description": null,
+      "Abstract": "Traditional data reduction pipelines are run on local or remote machines, that depend on user interaction for execution. This approach can lead to reproducibility and discoverability issues. Additionally, observatory sites face the challenge of facilitating secure site to site data transfer. Data Central's NiFi system aims to combine data transfer, archival workflows, and the triggering of pipeline execution to produce discoverable data products. The archive system also includes a frontend designed with a focus on user experience, with a simple permission control system to allow teams to easily control access to proprietary data. This presentation will cover the design and implementation of this system for Data Central's archive of the ANU 2.3m Telescope at Siding Spring Observatory and how we have designed our system to enable scalable data transfers, data transformation and pipeline execution for incoming observations whilst integrating archival processes and improving observability.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Automating-data-reduction-and-archival-workflows-using-Apache-NiFi/14155-69",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 14:20 - 14:40 CEST | Room B4-M7",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 696099
+  "DLCount": 696243
 }

@@ -332,7 +332,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "David Brodrick, Valentina Viotto, Anthony Horton, Pierre Haguenauer, Tristan Monnier, Hana Benhizia, Luca Marafatto, Dionne Haynes, Roger Haynes, Ulf Seemann, Jennifer Burgess, Trevor Mendel, Francois Rigaut, Gordon Banks",
+      "Authors": "David Brodrick, Valentina Viotto, Anthony Horton, Pierre Haguenauer, Tristan Monnier, Hana Benhizia, Luca Marafatto, Dionne Haynes, Ulf Seemann, Roger Haynes, Jennifer Burgess, Trevor Mendel, Francois Rigaut, Gordon Banks",
       "PaperNumber": "14152-53",
       "DateTimeLocationDataList": [
         {
@@ -978,7 +978,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Oriol Casamor, Miguel Redondo, Manuel Canchado, Albert Tomàs, Joan Manel Casalta, Patrick Caillier, Lluis Cavaller, Martin Dimmler",
+      "Authors": "Oriol Casamor, Manuel Canchado, Miguel Redondo, Albert Tomàs, Joan Manel Casalta, Patrick Caillier, Lluis Cavaller, Martin Dimmler",
       "PaperNumber": "14147-57",
       "DateTimeLocationDataList": [
         {
@@ -1328,7 +1328,7 @@
           "show_tz_converter": false
         }
       ],
-      "Status": "InProgram",
+      "Status": "Cancelled",
       "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
@@ -1352,7 +1352,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Kathryn Hartley, Timothy Morris, Timothy Butterley, Jurgen Schmoll, Emily Ronson, David Barr, John Connolly, Thomas Davies, Dirk Schmidt, Luke Johnson",
+      "Authors": "Kathryn Hartley, Timothy Morris, Timothy Butterley, Jurgen Schmoll, Emily Ronson, David Barr, John Connolly, Thomas Davies, Dirk Schmidt, Luke Johnson, Sofia Dimoudi",
       "PaperNumber": "14150-65",
       "DateTimeLocationDataList": [
         {
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 696099
+  "DLCount": 696243
 }

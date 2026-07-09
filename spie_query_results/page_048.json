@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "James Coulson, Brent Miszalski, Simon O'Toole, Christopher Lidman, Christopher Onken, Nuria P. F. Lorente",
-      "PaperNumber": "14155-69",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 14:20 - 14:40 CEST | Room B4-M7",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "931af190-cdd0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "931af190-cdd0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Automating data reduction and archival workflows using Apache NiFi",
-      "Description": null,
-      "Abstract": "Traditional data reduction pipelines are run on local or remote machines, that depend on user interaction for execution. This approach can lead to reproducibility and discoverability issues. Additionally, observatory sites face the challenge of facilitating secure site to site data transfer. Data Central's NiFi system aims to combine data transfer, archival workflows, and the triggering of pipeline execution to produce discoverable data products. The archive system also includes a frontend designed with a focus on user experience, with a simple permission control system to allow teams to easily control access to proprietary data. This presentation will cover the design and implementation of this system for Data Central's archive of the ANU 2.3m Telescope at Siding Spring Observatory and how we have designed our system to enable scalable data transfers, data transformation and pipeline execution for incoming observations whilst integrating archival processes and improving observability.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Automating-data-reduction-and-archival-workflows-using-Apache-NiFi/14155-69",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 14:20 - 14:40 CEST | Room B4-M7",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Manuel Díaz Alfaro, David Morris, Andres Parraguez, Alexandra Tritschler",
       "PaperNumber": "14151-46",
       "DateTimeLocationDataList": [
@@ -196,7 +162,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Michael J. Ireland, Qianhui Chen, Joice Mathew, Shan Liu, Tony Travouillon, Olivia Andersen, Chathura Bandutunga, Taro Matsuo",
+      "Authors": "Michael J. Ireland, Qianhui Chen, Joice Mathew, Taro Matsuo, Shan Liu, Tony Travouillon, Olivia Andersen, Chathura Bandutunga",
       "PaperNumber": "14148-47",
       "DateTimeLocationDataList": [
         {
@@ -910,7 +876,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Andres Parraguez",
+      "Authors": "Andres Parraguez Carcamo, Alexandra Tritschler, David Boboltz",
       "PaperNumber": "14151-48",
       "DateTimeLocationDataList": [
         {
@@ -932,11 +898,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Prototype of an AI agent for DKIST Science Operations",
+      "Title": "Prototype of an AI agent for DKIST science operations",
       "Description": null,
       "Abstract": "The Daniel K. Inouye Solar Telescope (DKIST) is moving out of its Operations Commissioning Phase (OCP). During the OCP (2022-2025), a considerable amount of information was generated to document various aspects of the telescope's operation. Some of this information was captured on Confluence webpages (a wiki system) documenting operational procedures and troubleshooting activities. In addition, Jira was used to report and track technical problems and document workaround procedures when these could be implemented by Science Operations. The DKIST experiments, a structured set of observing programs and metadata, are saved as JSON files. This paper elaborates on the results of a prototype AI agent that uses all available information to answer user questions in operations. The AI agent must have access to all available information, interpret it properly, and provide users with helpful, accurate information to better support operations.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Prototype-of-an-AI-agent-for-DKIST-Science-Operations/14151-48",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Prototype-of-an-AI-agent-for-DKIST-science-operations/14151-48",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1410,7 +1376,7 @@
       "HTMLTitle": "",
       "Title": "qCMOS single photon counting spectroscopy",
       "Description": null,
-      "Abstract": "Modern quantitative CMOS (qCMOS) detectors now achieve sub-electron readout noise, enabling photon-number-resolving performance in compact, room-temperature system without the complexity associated with superconducting or avalanche-photodiode detectors. We demonstrate single-photon counting spectroscopy using the Hamamatsu ORCA-Quest 2, a 4k qCMOS camera (~0.27 e⁻ RMS) integrated with a modest imaging spectrograph (380–750 nm, R≈2300). Per-pixel readout-noise maps and dark-current analysis define the operational limits of large-format qCMOS in the photon-counting regime. Low-flux tests show clear photon-number peak separation and linear spectral response at the single-photon level. These results establish qCMOS as a practical, accessible detector technology for next-generation photon-limited astronomical instruments.",
+      "Abstract": "Modern quantitative CMOS (qCMOS) detectors now achieve sub-electron readout noise, enabling photon-number-resolving performance in compact, room-temperature systems without the complexity associated with superconducting or avalanche-photodiode detectors. We present a single-photon-counting spectroscopy testbed based on the Hamamatsu ORCA-Quest 2, a 4k qCMOS camera (~0.29 e⁻ RMS) integrated with a modest imaging spectrograph (380–750 nm, R≈2300). The per-pixel readout-noise distribution helps define the operational limits of large-format qCMOS in the photon-counting regime. Low-flux tests show clear photon-number peak separation at the single-photon level. These initial results highlight the potential of qCMOS as a practical and accessible detector technology for future photon-limited astronomical instruments.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/qCMOS-single-photon-counting-spectroscopy/14149-73",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1646,11 +1612,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Development of a retrieval-augmented generation chatbot for enhanced information discovery at Rubin Observatory",
+      "Title": "Development of a retrieval-augmented generation virtual assistant for enhanced information discovery at Rubin Observatory",
       "Description": null,
       "Abstract": "The Vera C. Rubin Observatory’s LSST will produce petabytes of data supported by a large, heterogeneous set of technical documents, operational guides, and scientific notes. Because this material is distributed across numerous platforms and formats, including internal systems, users and general-purpose language models often find it difficult to locate reliable Rubin-specific information. To address this, we developed a Retrieval-Augmented Generation (RAG) virtual assistant that provides context-aware, factual access to Rubin’s documentation ecosystem. The system aggregates content from multiple sources and performs semantic search through a conversational interface, using Weaviate for embeddings, LangChain for query orchestration, and an OpenAI GPT model as the LLM backend. Grounding responses in domain-specific knowledge reduces hallucinations, improves accuracy, and demonstrates the potential of RAG to streamline workflows and support effective use of LSST data products.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-a-retrieval-augmented-generation-chatbot-for-enhanced-information/14151-51",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-a-retrieval-augmented-generation-virtual-assistant-for-enhanced/14151-51",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1724,6 +1690,40 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 16:30 - 16:50 CEST | Auditorium 15",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Takumi Hagiwara, Taku Nakayama, Subaru Shibai, Shoki Iwaguchi, Yutaro Enomoto, Kiwamu Izumi",
+      "PaperNumber": "14145-82",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 16:30 - 16:50 CEST | Room B4-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "35891213-7fce-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "35891213-7fce-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Telescope of lossless intersatellite laser ranging for the SILVIA formation flying mission",
+      "Description": null,
+      "Abstract": "This work proposes an optical telescope architecture for intersatellite laser interferometry missions SILVIA, where lossless intersatellite laser ranging is employed.    To simplify link acquisition and reduce reliance on satellite attitude control, we propose a non-cooperative laser link approach. However, this approach poses two major challenges: both retroreflection and mode matching must be simultaneously achieved, and sharing a single telescope for transmission and reception makes independent bidirectional alignment nontrivial.    To overcome these issues, we propose a new telescope design inspired by the cat’s-eye retroreflector and derive its parameters using ray-matrix analysis. Based on this design, we are currently developing an optical breadboard model (BBM). This talk presents the design concept and reports on the current BBM development status.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Telescope-of-lossless-intersatellite-laser-ranging-for-the-SILVIA-formation/14145-82",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 16:30 - 16:50 CEST | Room B4-M3",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 696099
+  "DLCount": 696243
 }

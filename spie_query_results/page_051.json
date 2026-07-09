@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Youming Guo, Lingxiao Li, Zibo Ke",
-      "PaperNumber": "14150-354",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "e5a8580d-ff00-f111-a9ae-005056914f1c---crmrecord",
-      "GUID": "e5a8580d-ff00-f111-a9ae-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Design and implementation of a 4.2-m telescope adaptive optics system for solar system object observations and laser guide star performance testing",
-      "Description": null,
-      "Abstract": "A spatiotemporal reference frame underpins human activity and science. The 4.2-m ground-based astrometric telescope will maintain high-precision Solar System ephemerides by tracking the orbits of planets, dwarf planets, satellites, and asteroids for space missions. Atmospheric turbulence limits large apertures, so adaptive optics (AO) is required for high resolution. To enable both narrow- and wide-field observing, we will develop conventional AO for near diffraction-limited imaging in narrow fields and ground-layer AO (GLAO) for wide fields. GLAO targets dominant near-ground turbulence: multiple sodium laser guide stars sample different directions and drive ground-layer wavefront correction, improving seeing over a larger field. A deformable secondary mirror will simplify the system, reduce residual wavefront error, and increase throughput and sky coverage. R&D covers sodium beacon lasers, multi-LGS wavefront sensing, high-density deformable secondaries, and wavefront control overall",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Design-and-implementation-of-a-42-m-telescope-adaptive-optics/14150-354",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Thomas Schweizer, Josef Eder, Holger Wetteskind, Christopher Jablonski, Robert Stadler, Masahiro Teshima, Razmik Mirzoyan, Armand Fiasson, Nicolas Geffroy, Guillaume Deleglise, Oscar Blanch, Julia Mundet, Rafael Garcia, Antonio Jose Penuela Lopez",
       "PaperNumber": "14147-185",
       "DateTimeLocationDataList": [
@@ -434,7 +400,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Robin Anthony-Petersen, Steven E. Boggs, Emily Broadbent, Julian Gerber, Felix Hagemann, Sophia E. Haight, Dieter Hartmann, Carolyn A. Kierans, Matthew Lassiter, Alex Lowell, Brent Mochizuki, Samer Al Nussirat, Jarred Roberts, Parshad Patel, Nicole Rodriguez Cavero, Field Rogers, Clio C. Sleator, John A. Tomsick, Andreas Zoglauer",
+      "Authors": "Robin Anthony-Petersen, Steven E. Boggs, Emily Broadbent, Julian Gerber, Felix Hagemann, Sophia E. Haight, Dieter Hartmann, Carolyn A. Kierans, Matthew Lassiter, Alex Lowell, Brent Mochizuki, Samer Al Nussirat, Parshad Patel, Jarred Roberts, Nicole Rodriguez Cavero, Field Rogers, Clio C. Sleator, John A. Tomsick, Andreas Zoglauer",
       "PaperNumber": "14146-338",
       "DateTimeLocationDataList": [
         {
@@ -506,9 +472,9 @@
       "PaperNumber": "14156-168",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -532,11 +498,11 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
-      "Authors": "Fabienne Mangelsdorff, Andreas Stoll, Kalaga Madhav, Martin M. Roth, Lars Zimmermann, Stefan Lischke, Riya Mary Pattery",
+      "Authors": "Fabienne Mangelsdorff, Andreas Stoll, Lars Zimmermann, Stefan Lischke, Riya M. Pattery, Kalaga Madhav, Martin M. Roth",
       "PaperNumber": "14149-426",
       "DateTimeLocationDataList": [
         {
@@ -699,6 +665,40 @@
       "Abstract": "We present a large-aperture x-ray irradiation system developed at the 30-m beam line facility of the Institute of Space and Astronautical Science to enable faster and more flexible calibration of x-ray telescope modules. The system uses an uncollimated, naturally diverging beam from an x-ray generator, reaching 270 mm in diameter at 27 m from the source. Beam baffles suppress scattered x-rays, and a new quadrupole slit assembly defines an illuminated area up to 140 mm × 140 mm within the beam. Beam uniformity measurements with a large-format CMOS detector show spatial variations within 3% for Al and Cu characteristic-line targets. This system supports efficient end-to-end testing of small, lightweight telescope modules for upcoming missions.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-a-large-aperture-x-ray-irradiation-system-at/14146-353",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Fernando Gutierrez Cabrera, Luis Carlos Alvarez Nuñez, Alejando Farah Simon, Jose Leonardo Garces Medina, Arturo Renteria Lartundo, Erika Maria Benitez Lizaola",
+      "PaperNumber": "14150-260",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "b1727855-d0d6-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "b1727855-d0d6-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Development of a monitor for estimating induced seeing at the National Astronomical Observatory of Tonantzintla",
+      "Description": null,
+      "Abstract": "The image quality obtained from telescopes can be affected not only by the external atmosphere but also by turbulence generated within the dome by thermal gradients and airflow. At the National Astronomical Observatory in Tonantzintla (OANTON), as in most astronomical facilities, available measurements are limited to external atmospheric seeing, so there is no quantitative information on the contribution of internal turbulence. To address this gap, we propose the design and installation of a monitoring system that uses a collimated beam propagated along an internal path parallel to the stellar optical path, allowing the measurement of fluctuations resulting from turbulence within the dome. This instrument will provide direct and continuous measurements of air behavior inside the telescope and will allow the evaluation of the impact of thermal and ventilation conditions on image quality.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Development-of-a-monitor-for-estimating-induced-seeing-at-the/14150-260",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -948,9 +948,9 @@
       "PaperNumber": "14156-184",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "date_time_location": "On demand | Presenting live 9 July 2026",
           "badge_icon": null,
-          "format_icon": null,
+          "format_icon": 1,
           "show_tz_converter": false
         }
       ],
@@ -974,7 +974,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1148,7 +1148,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Peter P. Pedersen, Clark E. Baker, Karolina Dziewiecka, Mathias Beck, Didier Queloz",
+      "Authors": "Peter P. Pedersen, Clark E. Baker, Karolina Dziewiecka, Mathias Beck, Didier Queloz, Michaël Gillon, Amaury Triaud",
       "PaperNumber": "14149-438",
       "DateTimeLocationDataList": [
         {
@@ -1172,7 +1172,7 @@
       "HTMLTitle": "",
       "Title": "DUET: design of a simultaneous InGaAs–CCD split-beam imager for ultra-cool dwarf exoplanet transit survey",
       "Description": null,
-      "Abstract": "We present the design of DUET, a dual-channel imager being built for the SPECULOOS-Southern Observatory (SSO) to detect and characterise transiting terrestrial exoplanets orbiting ultra-cool dwarfs. A dichroic beamsplitter at 955 nm directs visible light to a deeply-depleted silicon CCD and near-infrared light to a CMOS-based InGaAs detector, enabling fully simultaneous photometry with bandpasses from 0.4 to 1.7 microns. The near-infrared filters have been chosen to suppress sensitivity to atmospheric precipitable water vapour (PWV) variability, a dominant source of correlated noise in ground-based infrared photometry of cool stars. We describe the optical and mechanical architecture, the dichroic and filter selection, the choice of detectors, and the control system.",
+      "Abstract": "We present the design of DUET, a dual-channel imager being built for the SPECULOOS-Southern Observatory  (SSO) to detect and characterise transiting terrestrial exoplanets orbiting ultra-cool dwarfs. A dichroic beam-  splitter at 955 nm directs visible light to a deeply-depleted silicon CCD and near-infrared light to a CMOS-based  InGaAs detector, enabling fully simultaneous photometry with bandpasses from 0.4 to 1.7 µm. The near-infrared  filters have been chosen to suppress sensitivity to atmospheric precipitable water vapour (PWV) variability, a  dominant source of correlated noise in ground-based infrared photometry of cool stars. We describe the optical  and mechanical architecture, the dichroic and filter selection, the choice of detectors, and the control system.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/DUET--design-of-a-simultaneous-InGaAsCCD-split-beam-imager/14149-438",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 696099
+  "DLCount": 696243
 }

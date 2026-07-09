@@ -570,7 +570,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Simone D'Auria, Andrea Tozzi, Matteo Munari, Anna Brucalassi, Sofia Randich, Alen Khanbekyan, Roland Bacon, David Lee",
+      "Authors": "Simone D'Auria, Andrea Tozzi, Anna Brucalassi, Matteo Munari, Sofia Randich, Roland Bacon, David Lee, Alen Khanbekyan",
       "PaperNumber": "14149-429",
       "DateTimeLocationDataList": [
         {
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 696099
+  "DLCount": 696243
 }

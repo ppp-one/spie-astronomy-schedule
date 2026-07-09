@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Christophe S. Clergeon",
-      "PaperNumber": "14150-355",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "88dd4f97-ead0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "88dd4f97-ead0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "ALTAIR Gemini North SCAO: challenges & performances review",
-      "Description": null,
-      "Abstract": "ALTAIR, the facility Single-Conjugate Adaptive Optics (SCAO) system for the Gemini North Telescope, has been providing on-sky performance for over twenty years. While Gemini Observatory advances next-generation AO capabilities, High-Strehl ExAO, wide-field LTAO and MOAO concepts, and GLAO facilities, ALTAIR remains a critical asset. Despite the challenges associated with operating and maintaining an aging, first-generation SCAO instrument, it continues to support frontline science on Gemini North. In this contribution, we will present the current status of ALTAIR, outline the operational and technical challenges faced in the context of a maturing AO facility, and describe the ongoing strategy to sustain and enhance SCAO performance at Gemini North during this important transition periode",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/ALTAIR-Gemini-North-SCAO-challenges--performances-review/14150-355",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "David D. S. Hale, Prakriti Gupta",
       "PaperNumber": "14155-218",
       "DateTimeLocationDataList": [
@@ -1724,6 +1690,40 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Youming Guo, Lingxiao Li, Zibo Ke",
+      "PaperNumber": "14150-354",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "e5a8580d-ff00-f111-a9ae-005056914f1c---crmrecord",
+      "GUID": "e5a8580d-ff00-f111-a9ae-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Design and implementation of a 4.2-m telescope adaptive optics system for solar system object observations and laser guide star performance testing",
+      "Description": null,
+      "Abstract": "A spatiotemporal reference frame underpins human activity and science. The 4.2-m ground-based astrometric telescope will maintain high-precision Solar System ephemerides by tracking the orbits of planets, dwarf planets, satellites, and asteroids for space missions. Atmospheric turbulence limits large apertures, so adaptive optics (AO) is required for high resolution. To enable both narrow- and wide-field observing, we will develop conventional AO for near diffraction-limited imaging in narrow fields and ground-layer AO (GLAO) for wide fields. GLAO targets dominant near-ground turbulence: multiple sodium laser guide stars sample different directions and drive ground-layer wavefront correction, improving seeing over a larger field. A deformable secondary mirror will simplify the system, reduce residual wavefront error, and increase throughput and sky coverage. R&D covers sodium beacon lasers, multi-LGS wavefront sensing, high-density deformable secondaries, and wavefront control overall",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Design-and-implementation-of-a-42-m-telescope-adaptive-optics/14150-354",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 696099
+  "DLCount": 696243
 }

@@ -1284,7 +1284,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "José L. Ortiz, Jaime Robles, Jorge Avarias, Ricardo Carrasco, Johnny Reveco, Sebastian Rodriguez, Gastón Vélez, Jose Lobos, Baltasar Vila-Vilaro, Javier Rojas, Vicente Aitken, Jason Castro",
+      "Authors": "José L. Ortiz, Jaime L. Robles, Jorge Avarias, Ricardo Carrasco, Johnny Reveco, Sebastián Rodríguez, Gastón Velez, José Lobos, Baltasar Vila-Vilaro, Javier Rojas, Vicente Aitken, Jason Castro",
       "PaperNumber": "14152-46",
       "DateTimeLocationDataList": [
         {
@@ -1488,7 +1488,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "William J. Marshall, Henry Corbett, Shannon Fitton, Megan Dubay, Nicholas M. Law, Thomas Procter, Alan Vasquez Soto, Jonah L. Aponte, Alex Bucheli, Jonathan Carney, Thomas Cowart, James Dockery, Katie M. Fasbender, Collin H. Grimes, Amy S. Ishiguro, Lawrence Machia, Michael Ronco, Donovan Schlekat, Glenn Walters",
+      "Authors": "William J. Marshall, Henry Corbett, Shannon K. Fitton, Megan M. Dubay, Nicholas M. Law, Thomas Procter, Alan Vasquez Soto, Jonah Luis Aponte, Alex Bucheli, Jonathan Carney, Thomas Cowart, James A. Dockery, Katie M. Fasbender, Collin H. Grimes, Amy Sasha Ishiguro, Lawrence Machia, Michael Ronco, Donovan G. Schlekat, Glenn Walters",
       "PaperNumber": "14157-55",
       "DateTimeLocationDataList": [
         {
@@ -1510,11 +1510,11 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Electron umbrellas and photon rain: An investigation into several noise and charge effects in CMOS detectors",
+      "Title": "Electron umbrellas and photon rain: an investigation into several noise and charge effects in CMOS detectors",
       "Description": null,
       "Abstract": "Astronomical surveys like the upcoming Argus Array, a 1,200-telescope optical survey instrument which will image 8,000 square degrees every minute, rely on the combination of many images from CMOS detectors to meet their scientific objectives. It is therefore important to know exactly how the images from these detectors behave when stacked. Here, we show that certain artifacts, which may not cause issues in single frames, could become relevant when large numbers of these images are co-added for additional depth. We have conducted an investigation into the behavior of one such class of artifact, here referred to as “umbrellas” for their shape, and their potential impact on image calibration and co-addition. These artifacts appear 100s of times in every Sony IMX455 and IMX461 image we examined and pollute 10-15 nearby pixels each. We discuss hot pixel detection methods and calibration routines which will mitigate the impact of these artifacts on Argus science products.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Electron-umbrellas-and-photon-rain--An-investigation-into-several/14157-55",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Electron-umbrellas-and-photon-rain--an-investigation-into-several/14157-55",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 696099
+  "DLCount": 696243
 }

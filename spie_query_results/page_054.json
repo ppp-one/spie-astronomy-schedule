@@ -638,7 +638,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Surangkhana Rukdee, Sirinrat Sithajan, Daniel P. Sablowski, Matthew Leung, Bibiana Prinoth, Katja Poppenhaeger, Pakakaew Rittipruk",
+      "Authors": "Surangkhana Rukdee, Sirinrat Sithajan, Daniel P. Sablowski, Matthew Leung, Bibiana Prinoth, Katja Poppenhaeger, Pakakaew Rittipruk, Julia V. Seidel, Lisa Kaltenegger, Louise Nielsen",
       "PaperNumber": "14149-447",
       "DateTimeLocationDataList": [
         {
@@ -1624,7 +1624,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Marianna Fulara, Piotr Wawer, Mateusz Sobiecki, Markus Czupalla, Mirosław Rataj, Konrad Skup",
+      "Authors": "Marianna Fulara, Piotr Wawer, Mateusz Sobiecki, Markus Czupalla, Mirosław Rataj, Konrad R. Skup",
       "PaperNumber": "14149-448",
       "DateTimeLocationDataList": [
         {
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 696099
+  "DLCount": 696243
 }

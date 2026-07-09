@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "John Mather, Ahmed Soliman, Stuart Shaklan, Eliad Peretz, Christine Gregg, Manan Arya, Markus Kasper, Jamila Taaki, Mario Damiano, Zahra Ahmed, Harsh Bhundiya, Aman Chandra, Jessie Christiansen, Richard Dekany, Juliana Garcia-Mejia, Jennifer Lopez, David Miller, Rhonda Morgan, Jalo Nousiainen, Sergio Pellegrino, Peter Plavchan, William Sanchez, Aniket Sanghi, Jonathan Sauder, Andrew Szentgyorgyi, Ronald Turner, Amber Young, Dmitry Savransky, Aiden Zelakiewicz, Sungeun Jeon, Shannon Brown, Jonathan Arenberg, Mark Silver, Christophe Lovis, Michel Mayor",
-      "PaperNumber": "14145-223",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
-          "badge_icon": null,
-          "format_icon": 1,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "2447fbc3-a7d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "2447fbc3-a7d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Toward a hybrid ground-space exoplanet observatory: summary of Caltech Keck Institute for Space Studies (KISS) program",
-      "Description": null,
-      "Abstract": "The hybrid integration of ground-based telescopes with space-based optical components has the potential for unprecedented observational precision, opening new horizons for scientific discoveries in astronomy. We focus on the first hybrid ground-space observatory dedicated to the search for life beyond Earth-a top scientific priority in modern astronomy. In this talk, we present, on behalf of the KISS team, the findings of our recent study supported by the Caltech KISS program, which outlines a clear implementation plan, mission architecture and workflow for designing and deploying a shared 99 m orbiting starshade to work with large ground-based telescopes equipped with adaptive optics (AO) such as the 39 m ELT, 30 m TMT, 24 m GMT, and 10 m Keck to directly image the first Earth-like planet around a Sun-like star. This approach provides high-contrast imaging and high-resolution spectroscopy, enabling the search for potential biosignatures such as oxygen and water.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Toward-a-hybrid-ground-space-exoplanet-observatory--summary-of/14145-223",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Anusha Pai Asnodkar, Nemanja Jovanovic, Harry-Dean Kenchington-Goldsmith, Ahmed Sanny, Yoo Jung Kim, Hani Nejadriahi, Isabelle Rivera, Michael Fitzgerald, Dimitri Mawet, Pradip Gatkine",
       "PaperNumber": "14148-121",
       "DateTimeLocationDataList": [
@@ -98,7 +64,7 @@
       "PaperNumber": "14150-325",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -124,7 +90,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -132,7 +98,7 @@
       "PaperNumber": "14156-147",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -158,7 +124,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -166,7 +132,7 @@
       "PaperNumber": "14151-120",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -192,7 +158,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -200,7 +166,7 @@
       "PaperNumber": "14151-126",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -226,7 +192,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -234,7 +200,7 @@
       "PaperNumber": "14149-317",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -260,7 +226,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -268,7 +234,7 @@
       "PaperNumber": "14155-181",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -294,7 +260,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -302,7 +268,7 @@
       "PaperNumber": "14150-321",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -328,7 +294,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -336,7 +302,7 @@
       "PaperNumber": "14145-234",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -362,7 +328,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -370,7 +336,7 @@
       "PaperNumber": "14155-160",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -396,7 +362,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -438,7 +404,7 @@
       "PaperNumber": "14149-363",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -464,7 +430,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -472,7 +438,7 @@
       "PaperNumber": "14149-365",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -498,7 +464,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -506,7 +472,7 @@
       "PaperNumber": "14149-318",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -532,7 +498,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -540,7 +506,7 @@
       "PaperNumber": "14154-355",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -566,11 +532,11 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
-      "Authors": "Domenico Bonaccini Calia, Kathryn E. Hartley, David R. Jenkins, James Osborn",
+      "Authors": "Domenico Bonaccini Calia, Kathryn Hartley, David Jenkins, James Osborn",
       "PaperNumber": "14150-288",
       "DateTimeLocationDataList": [
         {
@@ -642,7 +608,7 @@
       "PaperNumber": "14149-335",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -668,7 +634,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1724,6 +1690,40 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 11:20 - 11:35 CEST | Room B3-M2",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Roberto Pizzo, Hanno Holties, Marco Iacobelli, Emanuela Orrú, Aras Bozkurt",
+      "PaperNumber": "14151-43",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 11:20 - 11:40 CEST | Room B2-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "e5b99612-72cf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "e5b99612-72cf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "The LOFAR2.0 data challenge and current solutions",
+      "Description": null,
+      "Abstract": "LOFAR is a high throughput data facility facing several non-trivial technical challenges in data processing, storage, and operations. The array is being upgraded to LOFAR2.0. The new system will offer several functionality improvements to the users, but will also pose unprecedented challenges related to the data handling, processing, storage and sustainable operations in general. In this talk, we will review these along with the solutions we have adopted to tackle them, including data compression, the retirement of the early LOFAR Cycle data, and the implementation of a LOFAR2.0 data lifecycle policy requiring the preservation of only advanced data products. Moreover, we will discuss the role of the community towards realizing more efficient data processing pipelines and scaling up the processing infrastructure. Eventually, we will review the actions undertaken to automate key areas of the intensive data handling chain to realize sustainable operations for the future.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/The-LOFAR20-data-challenge-and-current-solutions/14151-43",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 11:20 - 11:40 CEST | Room B2-M2",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 696099
+  "DLCount": 696243
 }

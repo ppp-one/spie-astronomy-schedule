@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Takumi Hagiwara, Taku Nakayama, Subaru Shibai, Shoki Iwaguchi, Yutaro Enomoto, Kiwamu Izumi",
-      "PaperNumber": "14145-82",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 16:30 - 16:50 CEST | Room B4-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "35891213-7fce-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "35891213-7fce-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Telescope of lossless intersatellite laser ranging for the SILVIA formation flying mission",
-      "Description": null,
-      "Abstract": "This work proposes an optical telescope architecture for intersatellite laser interferometry missions SILVIA, where lossless intersatellite laser ranging is employed.    To simplify link acquisition and reduce reliance on satellite attitude control, we propose a non-cooperative laser link approach. However, this approach poses two major challenges: both retroreflection and mode matching must be simultaneously achieved, and sharing a single telescope for transmission and reception makes independent bidirectional alignment nontrivial.    To overcome these issues, we propose a new telescope design inspired by the cat’s-eye retroreflector and derive its parameters using ray-matrix analysis. Based on this design, we are currently developing an optical breadboard model (BBM). This talk presents the design concept and reports on the current BBM development status.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Telescope-of-lossless-intersatellite-laser-ranging-for-the-SILVIA-formation/14145-82",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 16:30 - 16:50 CEST | Room B4-M3",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Boudewijn Hut, Carla J. Baldovin Saveedra, Cees Bassa, Ilse van Bemmel, André Gunst, Tom Kamphuis, Ronald Roelfsema, John Swinbank, Sander ter Veen",
       "PaperNumber": "14153-56",
       "DateTimeLocationDataList": [
@@ -264,7 +230,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Laurane Fréour, Anna Puglisi, Amelia Bayo, Fatemeh Zahra Majidi, Sabine Thater, Francesca Primas, Laurence Tresse, Umberto Rescigno, Maria Cristina Fortuna, Stéphanie Escoffier, Letizia P. Cassarà, Roland Bacon, Vincenzo Mainieri, Sofia Randich",
+      "Authors": "Laurane Fréour, Anna Puglisi, Amelia Bayo, Fatemeh Zahra Majidi, Sabine Thater, Francesca Primas, Laurence Tresse, Umberto Rescigno, Stéphanie Escoffier, Maria Cristina Fortuna, Letizia P. Cassarà, Roland Bacon, Vincenzo Mainieri, Sofia Randich",
       "PaperNumber": "14151-52",
       "DateTimeLocationDataList": [
         {
@@ -502,7 +468,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Ashley D. Baker, Nemanja Jovanovic, Dimitri Mawet, William Melby, Andrew Howard, Jake Zimmer, Samuel Halverson",
+      "Authors": "Ashley D. Baker, Nemanja Jovanovic, Dimitri Mawet, William Melby, Andrew Howard, Jake Zimmer, Samuel Halverson, Reston Nash, Lauren Fahey",
       "PaperNumber": "14149-90",
       "DateTimeLocationDataList": [
         {
@@ -638,7 +604,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Jaime Ruíz-Díaz-Soto, Jorge Fuentes-Fernandez, Fernando Angeles, José Leonardo Garces, Alejandro Farah, Sebastian F. Sanchez",
+      "Authors": "Jaime Ruíz-Díaz-Soto, Jorge Fuentes-Fernández, Sebastián F. Sánchez, Fernando Ángeles, Leonardo Garcés-Medina, Alejandro Farah",
       "PaperNumber": "14149-439",
       "DateTimeLocationDataList": [
         {
@@ -1724,6 +1690,40 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "On demand | Presenting live 9 July 2026",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Christophe S. Clergeon",
+      "PaperNumber": "14150-355",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "88dd4f97-ead0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "88dd4f97-ead0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "ALTAIR Gemini North SCAO: challenges & performances review",
+      "Description": null,
+      "Abstract": "ALTAIR, the facility Single-Conjugate Adaptive Optics (SCAO) system for the Gemini North Telescope, has been providing on-sky performance for over twenty years. While Gemini Observatory advances next-generation AO capabilities, High-Strehl ExAO, wide-field LTAO and MOAO concepts, and GLAO facilities, ALTAIR remains a critical asset. Despite the challenges associated with operating and maintaining an aging, first-generation SCAO instrument, it continues to support frontline science on Gemini North. In this contribution, we will present the current status of ALTAIR, outline the operational and technical challenges faced in the context of a maturing AO facility, and describe the ongoing strategy to sustain and enhance SCAO performance at Gemini North during this important transition periode",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/ALTAIR-Gemini-North-SCAO-challenges--performances-review/14150-355",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 696099
+  "DLCount": 696243
 }

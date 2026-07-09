@@ -64,7 +64,7 @@
       "PaperNumber": "14146-292",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -90,7 +90,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -132,7 +132,7 @@
       "PaperNumber": "14145-253",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -158,7 +158,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -166,7 +166,7 @@
       "PaperNumber": "14145-263",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -192,7 +192,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -200,7 +200,7 @@
       "PaperNumber": "14151-127",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -226,7 +226,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -268,7 +268,7 @@
       "PaperNumber": "14149-393",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -294,7 +294,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -302,7 +302,7 @@
       "PaperNumber": "14148-124",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -328,7 +328,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -336,7 +336,7 @@
       "PaperNumber": "14145-245",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -362,7 +362,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -404,9 +404,9 @@
       "PaperNumber": "14149-373",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
           "badge_icon": null,
-          "format_icon": 1,
+          "format_icon": null,
           "show_tz_converter": false
         }
       ],
@@ -430,7 +430,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
       "ErrorMessage": null
     },
     {
@@ -438,7 +438,7 @@
       "PaperNumber": "14149-386",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -464,41 +464,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Jordan D. Wheeler, Jason Austermann, Anna K. Vaskuri, Michael Vissers, Johannes Hubmayr, James Beall, Jeffrey van Lanen, Johnathon Gard, Douglas Bennett, Joel Ullom",
-      "PaperNumber": "14156-152",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "2a0f5c2b-7cd0-f011-a9ad-005056914f1c---crmrecord",
-      "GUID": "2a0f5c2b-7cd0-f011-a9ad-005056914f1c",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Low Tc KIDs for the far infrared",
-      "Description": null,
-      "Abstract": "Low Tc detector materials for Kinetic Inductance Detectors (KIDs) can enhance sensitivity by reducing the superconducting gap energy and achieving longer quasiparticle lifetimes. In addition, higher normal-state resistivity can enable free-space impedance matching with less detector volume, further increasing detector sensitivity. We explore titanium-based materials, specifically low Tc TiN/Ti multilayer films and Al/Ti multilayer films, to lower Tc and increase resistivity. The potential of these films is evaluated with measurements of optical efficiency and noise-equivalent power (NEP) for far-infrared detector prototypes at 350 μm. The designs aim to enable high-filling-factor pixels without focal plane focusing optics for future far-infrared space applications.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Low-Tc-KIDs-for-the-far-infrared/14156-152",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -506,7 +472,7 @@
       "PaperNumber": "14155-167",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -532,7 +498,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -563,6 +529,40 @@
       "Abstract": "The Low-resolution Fast Transient Spectrograph is a low-dispersion spectrograph jointly developed by the University of Science and Technology of China(USTC) and the Nanjing Institute of Astronomical Optics & Technology(NIAOT), for the 3.8-meter telescope at the Timau observation station in Indonesia. Its primary scientific objective is to conduct rapid and efficient spectroscopic follow-up observations of transient sources discovered in time-domain surveys. LOFTS covers a broad wavelength range from 370 nm to 1000 nm. When using a 1.3″ slit, the spectral resolution reaches R ≥ 750 at 495 nm and R ≥ 1000 at 750 nm; The peak optical efficiency of the spectrograph is no less than 35%, excluding losses from the slit and detector. This paper presents the detailed optical design of LOFTS and describes its mechanical structure and control system architecture.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/Low-resolution-Fast-Transient-spectrograph-for-38m-telescope/14149-346",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Jordan D. Wheeler, Jason Austermann, Michael Vissers, James Beall, Jeffrey van Lanen, Johannes Hubmayr, Johnathon Gard, Douglas Bennett, Anna K. Vaskuri, Joel Ullom",
+      "PaperNumber": "14156-152",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "8 July 2026 • 17:30 - 19:00 CEST | Hall B6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "2a0f5c2b-7cd0-f011-a9ad-005056914f1c---crmrecord",
+      "GUID": "2a0f5c2b-7cd0-f011-a9ad-005056914f1c",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Low-Tc KIDs for the far infrared",
+      "Description": null,
+      "Abstract": "Low Tc detector materials for Kinetic Inductance Detectors (KIDs) can enhance sensitivity by reducing the superconducting gap energy and achieving longer quasiparticle lifetimes. In addition, higher normal-state resistivity can enable free-space impedance matching with less detector volume, further increasing detector sensitivity. We explore titanium-based materials, specifically low Tc TiN/Ti multilayer films and Al/Ti multilayer films, to lower Tc and increase resistivity. The potential of these films is evaluated with measurements of optical efficiency and noise-equivalent power (NEP) for far-infrared detector prototypes at 350 μm. The designs aim to enable high-filling-factor pixels without focal plane focusing optics for future far-infrared space applications.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Low-Tc-KIDs-for-the-far-infrared/14156-152",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
@@ -642,7 +642,7 @@
       "PaperNumber": "14154-380",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -668,7 +668,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -676,7 +676,7 @@
       "PaperNumber": "14149-376",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -702,7 +702,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -710,7 +710,7 @@
       "PaperNumber": "14149-322",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -736,7 +736,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -744,7 +744,7 @@
       "PaperNumber": "14149-378",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -770,7 +770,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -778,7 +778,7 @@
       "PaperNumber": "14146-300",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -804,7 +804,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -812,7 +812,7 @@
       "PaperNumber": "14150-322",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -838,7 +838,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -846,7 +846,7 @@
       "PaperNumber": "14150-320",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -872,7 +872,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -880,7 +880,7 @@
       "PaperNumber": "14150-299",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -906,7 +906,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -948,7 +948,7 @@
       "PaperNumber": "14151-125",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -974,7 +974,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -982,7 +982,7 @@
       "PaperNumber": "14147-161",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1008,7 +1008,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1118,7 +1118,7 @@
       "PaperNumber": "14156-143",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1144,7 +1144,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1186,7 +1186,7 @@
       "PaperNumber": "14150-292",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1212,7 +1212,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1220,7 +1220,7 @@
       "PaperNumber": "14154-365",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1246,7 +1246,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1254,7 +1254,7 @@
       "PaperNumber": "14155-169",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1280,7 +1280,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1288,7 +1288,7 @@
       "PaperNumber": "14149-345",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1314,7 +1314,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1322,7 +1322,7 @@
       "PaperNumber": "14148-139",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1348,7 +1348,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1356,7 +1356,7 @@
       "PaperNumber": "14147-171",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1382,7 +1382,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1390,7 +1390,7 @@
       "PaperNumber": "14151-116",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1416,7 +1416,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1424,7 +1424,7 @@
       "PaperNumber": "14156-160",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1450,7 +1450,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1458,7 +1458,7 @@
       "PaperNumber": "14147-165",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1484,7 +1484,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1526,7 +1526,7 @@
       "PaperNumber": "14146-304",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1552,7 +1552,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1594,7 +1594,7 @@
       "PaperNumber": "14150-324",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1620,7 +1620,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1628,7 +1628,7 @@
       "PaperNumber": "14150-327",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1654,7 +1654,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1696,7 +1696,7 @@
       "PaperNumber": "14149-384",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 8 July 2026",
+          "date_time_location": "On demand | Presented live 8 July 2026",
           "badge_icon": null,
           "format_icon": 1,
           "show_tz_converter": false
@@ -1722,7 +1722,7 @@
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 8 July 2026",
+      "DisplayDateTime": "On demand | Presented live 8 July 2026",
       "ErrorMessage": null
     }
   ],
@@ -1732,5 +1732,5 @@
   "Error": null,
   "ContainsFacets": false,
   "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 696099
+  "DLCount": 696243
 }
