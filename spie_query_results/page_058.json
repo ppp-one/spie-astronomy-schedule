@@ -162,40 +162,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Adrian K. Sinclair, Chris Albert, C. Matt Bradford, Patrick Brown, Sean Bryan, Jesse Coldsmith, Jennifer Corekin, Sumit Dahal, Thomas K. Devlin, Thomas Essinger-Hileman, Logan Foote, Marc Foote, Draisy Friedman, Alessandro Geist, Jason Glenn, Christopher Green, Kyle Helson, Kevin Horgan, Tracee Jamison-Hooks, Elijah Kane, Jared Lucey, Philip Mauskopf, Lynn Miles, Sanetra Bailey Newman, Gerard Quilligan, Cody Roberson, Salman Sheikh, Manuel Vega, Eric Weeks, Christopher Wilson, Travis Wise",
-      "PaperNumber": "14156-61",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 13:00 - 13:20 CEST | Room B5-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "c0e35786-60d0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "c0e35786-60d0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "PRIMA prototype spaceflight KID readout electronics laboratory characterization",
-      "Description": null,
-      "Abstract": "We present the development and testing of prototype kinetic inductance detector (KID) readout electronics for the PRobe far-Infrared Mission for Astrophysics (PRIMA). PRIMA is a NASA Probe-class astrophysics mission concept with two science instruments, FIRESS and PRIMAger, which provide spectroscopic and polarimetric imaging from 24 to 261 um. We present measurements of the prototype readout coupled to prototype PRIMA/FIRESS detectors using a flight-like cryogenic RF chain with low-noise amplifiers at temperatures of 18K and 100K. We demonstrate cosmic ray pulse detection and real-time removal with an algorithm implemented in firmware. Finally, we discuss the crosstalk performance and investigate an optional dynamic range extension with multiple tones per resonance for viewing high contrast astrophysical scenes.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/PRIMA-prototype-spaceflight-KID-readout-electronics-laboratory-characterization/14156-61",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 13:00 - 13:20 CEST | Room B5-M3",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Rachel E. Morgan, Eduardo Bendek, Carson Valdez, Anne Kroo, Kevin Fogarty, Rus Belikov, Jonathan Lin, David A.B. Miller, Olav Solgaard, Dan Sirbu",
       "PaperNumber": "14145-94",
       "DateTimeLocationDataList": [
@@ -298,40 +264,6 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Darshan A. Patel, Cody J. Duell",
-      "PaperNumber": "14156-62",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 13:20 - 13:40 CEST | Room B5-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "9c8d2cc7-6bd0-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "9c8d2cc7-6bd0-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "CCAT: readout power and frequency optimization of the 280 GHz instrument module Al and TiN KID arrays",
-      "Description": null,
-      "Abstract": "The CCAT Observatory's Fred Young Submillimeter Telescope (FYST) is scheduled for deployment in 2026 with the Prime-Cam instrument. Prime-Cam will initially deploy with ~20,000 kinetic inductance detectors (KIDs) in the 280 and 350 GHz instrument modules. KIDs are high quality factor resonating circuits that are read out by monitoring the complex transmission of a superposition of probe tones between 0.5 - 1 GHz. Accurately and efficiently tuning the powers and frequencies of the probe tones to optimize the performance of individual detectors is a challenging problem for large detector arrays. We use a variable temperature, cryogenic blackbody source inside a testbed receiver to measure the noise of the 280 GHz module TiN and Al KIDs, allowing us to develop a pipeline for optimizing their readout powers and frequencies. We present the current status of the tuning pipeline while highlighting differences between the TiN and Al KID tuning procedures.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/CCAT--readout-power-and-frequency-optimization-of-the-280/14156-62",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 13:20 - 13:40 CEST | Room B5-M3",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Nicholas M. Law, Hank Corbett, Alan Vasquez Soto, Alexandra Bucheli, Jonathan Carney, James Dockery, Megan Dubay, Shannon Fitton, Lawrence Machia, William Marshall, Thomas Procter, Michael Ronco, Donovan Schlekat, Glenn Walters",
       "PaperNumber": "14147-78",
       "DateTimeLocationDataList": [
@@ -363,6 +295,40 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "10 July 2026 • 13:20 - 13:40 CEST | Room B3-M6",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Adrian K. Sinclair, Chris Albert, C. Matt Bradford, Patrick Brown, Sean Bryan, Jesse Coldsmith, Jennifer Corekin, Sumit Dahal, Thomas K. Devlin, Thomas Essinger-Hileman, Logan Foote, Marc Foote, Draisy Friedman, Alessandro Geist, Jason Glenn, Christopher Green, Kyle Helson, Kevin Horgan, Tracee Jamison-Hooks, Elijah Kane, Jared Lucey, Philip Mauskopf, Lynn Miles, Sanetra Bailey Newman, Gerard Quilligan, Cody Roberson, Salman Sheikh, Manuel Vega, Eric Weeks, Christopher Wilson, Travis Wise",
+      "PaperNumber": "14156-61",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 13:20 - 13:40 CEST | Room B5-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "c0e35786-60d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "c0e35786-60d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "PRIMA prototype spaceflight KID readout electronics laboratory characterization",
+      "Description": null,
+      "Abstract": "We present the development and testing of prototype kinetic inductance detector (KID) readout electronics for the PRobe far-Infrared Mission for Astrophysics (PRIMA). PRIMA is a NASA Probe-class astrophysics mission concept with two science instruments, FIRESS and PRIMAger, which provide spectroscopic and polarimetric imaging from 24 to 261 um. We present measurements of the prototype readout coupled to prototype PRIMA/FIRESS detectors using a flight-like cryogenic RF chain with low-noise amplifiers at temperatures of 18K and 100K. We demonstrate cosmic ray pulse detection and real-time removal with an algorithm implemented in firmware. Finally, we discuss the crosstalk performance and investigate an optional dynamic range extension with multiple tones per resonance for viewing high contrast astrophysical scenes.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/PRIMA-prototype-spaceflight-KID-readout-electronics-laboratory-characterization/14156-61",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 13:20 - 13:40 CEST | Room B5-M3",
       "ErrorMessage": null
     },
     {
@@ -468,6 +434,40 @@
       "ErrorMessage": null
     },
     {
+      "Authors": "Darshan A. Patel, Cody J. Duell",
+      "PaperNumber": "14156-62",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "10 July 2026 • 13:40 - 14:00 CEST | Room B5-M3",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "9c8d2cc7-6bd0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "9c8d2cc7-6bd0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "CCAT: readout power and frequency optimization of the 280 GHz instrument module Al and TiN KID arrays",
+      "Description": null,
+      "Abstract": "The CCAT Observatory's Fred Young Submillimeter Telescope (FYST) is scheduled for deployment in 2026 with the Prime-Cam instrument. Prime-Cam will initially deploy with ~20,000 kinetic inductance detectors (KIDs) in the 280 and 350 GHz instrument modules. KIDs are high quality factor resonating circuits that are read out by monitoring the complex transmission of a superposition of probe tones between 0.5 - 1 GHz. Accurately and efficiently tuning the powers and frequencies of the probe tones to optimize the performance of individual detectors is a challenging problem for large detector arrays. We use a variable temperature, cryogenic blackbody source inside a testbed receiver to measure the noise of the 280 GHz module TiN and Al KIDs, allowing us to develop a pipeline for optimizing their readout powers and frequencies. We present the current status of the tuning pipeline while highlighting differences between the TiN and Al KID tuning procedures.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/CCAT--readout-power-and-frequency-optimization-of-the-280/14156-62",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "10 July 2026 • 13:40 - 14:00 CEST | Room B5-M3",
+      "ErrorMessage": null
+    },
+    {
       "Authors": "Hiroshi Matsuo, Hajime Ezawa, Tomohiro Koseki, Shotaro Inoue, Tetsusaburo Seino",
       "PaperNumber": "14148-63",
       "DateTimeLocationDataList": [
@@ -567,40 +567,6 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "10 July 2026 • 13:40 - 13:55 CEST | Room B3-M2",
-      "ErrorMessage": null
-    },
-    {
-      "Authors": "Simon Tartakovsky, Alexandre E. Adler, Jason E. Austermann, Steven J. Benton, Shannon M. Duff, Malcolm Durkin, Jeffrey P. Filippini, Aurelien A. Fraisse, Thomas J. L. J. Gascard, Sho M. Gibbs, Suren Gourapura, Jon E. Gudmundsson, Johannes Hubmayr, William C. Jones, Ashesh Khatua, Jared L. May, Darby McCauley, Johanna M. Nagy, Ivan L. Padilla, Ricardo R. Rodriguez, John E. Ruhl, M. Shaaf Sarwar, Joseph van der List, Michael R. Vissers, Philippe Voyer",
-      "PaperNumber": "14156-63",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "10 July 2026 • 13:40 - 14:00 CEST | Room B5-M3",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "5326f09b-c7b8-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "5326f09b-c7b8-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "picoMUX: microcontroller based time-domain multiplexing readout for kilopixel TES arrays",
-      "Description": null,
-      "Abstract": "Advances in cryogenic SQUID-based time-domain multiplexing (TDM) have outpaced their warm readout electronics. Next generation CMB telescopes are baselining kilopixel TES arrays with few viable electronic options. We present picoMUX, a new TDM readout electronics architecture that replaces the FPGA typically used in such systems with a complement of modern microcontrollers. Designed around the current generation NIST multiplexer, it fully exploits its differential nature and two-level switching. The system achieves the desired timing metrics (sub microsecond row dwell time) while reducing cost, complexity, and power consumption over a comparable FPGA solution. Preliminary noise measurements are consistent with expectations and show no evidence that the novel architecture introduces excess noise. picoMUX demonstrates how recent advances in microcontrollers enable simpler, low-power, low-cost TDM readouts for kilopixel TES arrays.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/picoMUX--microcontroller-based-time-domain-multiplexing-readout-for-kilopixel/14156-63",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "10 July 2026 • 13:40 - 14:00 CEST | Room B5-M3",
       "ErrorMessage": null
     },
     {
@@ -774,13 +740,13 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Elisa Radjabou, Damien Prêle, Manuel Gonzalez, Michel Piat, Shawn Henderson, Brianna Cantrall",
-      "PaperNumber": "14156-103",
+      "Authors": "Simon Tartakovsky, Alexandre E. Adler, Jason E. Austermann, Steven J. Benton, Shannon M. Duff, Malcolm Durkin, Jeffrey P. Filippini, Aurelien A. Fraisse, Thomas J. L. J. Gascard, Sho M. Gibbs, Suren Gourapura, Jon E. Gudmundsson, Johannes Hubmayr, William C. Jones, Ashesh Khatua, Jared L. May, Darby McCauley, Johanna M. Nagy, Ivan L. Padilla, Ricardo R. Rodriguez, John E. Ruhl, M. Shaaf Sarwar, Joseph van der List, Michael R. Vissers, Philippe Voyer",
+      "PaperNumber": "14156-63",
       "DateTimeLocationDataList": [
         {
-          "date_time_location": "On demand | Presenting live 10 July 2026",
+          "date_time_location": "10 July 2026 • 14:00 - 14:20 CEST | Room B5-M3",
           "badge_icon": null,
-          "format_icon": 1,
+          "format_icon": null,
           "show_tz_converter": false
         }
       ],
@@ -789,22 +755,22 @@
       "SymposiumSeriesCode": "AS",
       "SuperSymposiumSeriesCode": "",
       "MatchingFrag": "",
-      "UniqueId": "f79ee5a7-8fcf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "f79ee5a7-8fcf-f011-a9ae-00505691c5e1",
+      "UniqueId": "5326f09b-c7b8-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "5326f09b-c7b8-f011-a9ae-00505691c5e1",
       "RecordType": "UpcomingPresentation",
       "RecordLabel": "Conference Presentation",
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "Analytical modelling of TES noise: transfer functions across the superconducting transition",
+      "Title": "picoMUX: microcontroller based time-domain multiplexing readout for kilopixel TES arrays",
       "Description": null,
-      "Abstract": "This work addresses the critical need to characterize detector noise for future cosmology experiments focused on measuring the B-mode signal of the Cosmic Microwave Background (CMB). Like many CMB observatories, the model is based on Transition-Edge Sensors (TES) and SQUID-based Time-Domain Multiplexing (TDM) readout technology.  We present a new formalism developing transfer functions for phonon, TES, and shunt resistance current noises, clearly showing their characteristic frequencies. This formulation enables the prediction of total and individual noise shapes, comparison with measurements, and direct calculation of key parameters such as cut-off frequencies and maximum amplitude spectral density values. The superconducting to normal transition is modeled to be fed into the noise model. The analysis also examines how current noise amplitude model and measurements behave at various working points within the superconducting transition.",
+      "Abstract": "Advances in cryogenic SQUID-based time-domain multiplexing (TDM) have outpaced their warm readout electronics. Next generation CMB telescopes are baselining kilopixel TES arrays with few viable electronic options. We present picoMUX, a new TDM readout electronics architecture that replaces the FPGA typically used in such systems with a complement of modern microcontrollers. Designed around the current generation NIST multiplexer, it fully exploits its differential nature and two-level switching. The system achieves the desired timing metrics (sub microsecond row dwell time) while reducing cost, complexity, and power consumption over a comparable FPGA solution. Preliminary noise measurements are consistent with expectations and show no evidence that the novel architecture introduces excess noise. picoMUX demonstrates how recent advances in microcontrollers enable simpler, low-power, low-cost TDM readouts for kilopixel TES arrays.",
       "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Analytical-modelling-of-TES-noise--transfer-functions-across-the/14156-103",
+      "URL": "/astronomical-telescopes-instrumentation/presentation/picoMUX--microcontroller-based-time-domain-multiplexing-readout-for-kilopixel/14156-63",
       "ModifiedOn": "0001-01-01T00:00:00",
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "On demand | Presenting live 10 July 2026",
+      "DisplayDateTime": "10 July 2026 • 14:00 - 14:20 CEST | Room B5-M3",
       "ErrorMessage": null
     },
     {
@@ -1111,6 +1077,40 @@
       "PublicationDate": null,
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "10 July 2026 • 14:15 - 14:30 CEST | Room B2-M4",
+      "ErrorMessage": null
+    },
+    {
+      "Authors": "Elisa Radjabou, Damien Prêle, Manuel Gonzalez, Michel Piat, Shawn Henderson, Brianna Cantrall",
+      "PaperNumber": "14156-103",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "On demand | Presenting live 10 July 2026",
+          "badge_icon": null,
+          "format_icon": 1,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "f79ee5a7-8fcf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "f79ee5a7-8fcf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Analytical modelling of TES noise: transfer functions across the superconducting transition",
+      "Description": null,
+      "Abstract": "This work addresses the critical need to characterize detector noise for future cosmology experiments focused on measuring the B-mode signal of the Cosmic Microwave Background (CMB). Like many CMB observatories, the model is based on Transition-Edge Sensors (TES) and SQUID-based Time-Domain Multiplexing (TDM) readout technology.  We present a new formalism developing transfer functions for phonon, TES, and shunt resistance current noises, clearly showing their characteristic frequencies. This formulation enables the prediction of total and individual noise shapes, comparison with measurements, and direct calculation of key parameters such as cut-off frequencies and maximum amplitude spectral density values. The superconducting to normal transition is modeled to be fed into the noise model. The analysis also examines how current noise amplitude model and measurements behave at various working points within the superconducting transition.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Analytical-modelling-of-TES-noise--transfer-functions-across-the/14156-103",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "On demand | Presenting live 10 July 2026",
       "ErrorMessage": null
     },
     {
@@ -1624,7 +1624,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Johan Mazoyer, Charles Goulas, Raphaël Galicher, Fabrice Vidal, Axel Potier, Florian Ferreira, Arnaud Sevin, Clémentine Béchet, Isaac Dinis, Anthony Boccaletti, Gaël Chauvin, Fausto Cortecchia, Nicolas Galland, Caroline Kulcsár, Maud Langlois, Matteo Lombini, Julien Milli, Mamadou N'Diaye, Henri-François Raynaud, Laura Schreiber, Michel Tallon, François Wildi",
+      "Authors": "Johan Mazoyer, Charles Goulas, Raphaël Galicher, Axel Potier, Fabrice Vidal, Florian Ferreira, Arnaud Sevin, Clémentine Béchet, Isaac Bernardino Dinis, Anthony Boccaletti, Gaël Chauvin, Fausto Cortecchia, Emiliano Diolaiti, Nicolas Galland, Caroline Kulcsár, Maud Langlois, Matteo Lombini, Julien Milli, Mamadou N'Diaye, Henri-François Raynaud, Laura Schreiber, Michel Tallon, Arthur Vigan, François Wildi",
       "PaperNumber": "14150-105",
       "DateTimeLocationDataList": [
         {
@@ -1646,9 +1646,9 @@
       "Score": "NaN",
       "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
       "HTMLTitle": "",
-      "Title": "SAXO+, the second-stage adaptive optics for SPHERE: NCPA compensation and dark hole loop with a pyramid wavefront sensing",
+      "Title": "SAXO+, the second-stage adaptive optics for SPHERE: NCPA compensation and dark hole loop with a pyramid wavefront sensor",
       "Description": null,
-      "Abstract": "High-contrast imaging aims to detect faint exoplanets close to their host stars. Coronagraphs suppress stellar diffraction but remain limited by optical aberrations. With advanced AO systems like SPHERE/SAXO, quasi-static speckles from non-common path aberrations (NCPA) often dominate ground-based coronagraphic images, while instrument-induced aberrations similarly limit space coronagraphs. The SAXO+ upgrade adds a second fast AO loop with a near-infrared pyramid WFS, making SPHERE the first multi-stage AO facility and a key demonstrator for future systems like ELT/PCS. We study two essential techniques: static NCPA compensation using Zernike wavefront sensing, and closed-loop dark-hole control using Pair-Wise Probing and Electric Field Conjugation. COMPASS simulations show NCPA correction restores AO-limited contrast, while dark-hole control yields up to ×100 speckle suppression. These results define the SAXO+ on-sky strategy and support future ground and space coronagraphs.",
+      "Abstract": "The SAXO+ upgrade for VLT/SPHERE’s adaptive optics introduces a near-infrared pyramid wavefront sensor, improving high-contrast imaging. Accurate calibration of non-common path aberrations (NCPAs) is critical to maximize performance. This work refines SAXO+’s expected NCPA levels, presents calibration procedures for static NCPA compensation and focal-plane dark-hole control, and uses Monte Carlo simulations (based on an updated Zemax model) to estimate the NCPA error budget. These simulations align with SPHERE measurements and earlier studies. A new calibration strategy offloads static aberrations to the first-stage deformable mirror, preserving the second-stage mirror for high-speed AO. Results validate SAXO+’s optical quality and provide a framework for efficient NCPA compensation and wavefront control during on-sky operations.",
       "ImagePath": null,
       "URL": "/astronomical-telescopes-instrumentation/presentation/SAXO-the-second-stage-adaptive-optics-for-SPHERE--NCPA/14150-105",
       "ModifiedOn": "0001-01-01T00:00:00",
@@ -1731,6 +1731,6 @@
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 696243
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696314
 }

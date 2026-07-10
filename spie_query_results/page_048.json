@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Manuel Díaz Alfaro, David Morris, Andres Parraguez, Alexandra Tritschler",
-      "PaperNumber": "14151-46",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 14:20 - 14:40 CEST | Room B2-M2",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "7c9edaf8-2fcf-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "7c9edaf8-2fcf-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "DKIST vent gate monitoring and exclusion pointing prediction tool for science operations",
-      "Description": null,
-      "Abstract": "The design of the heat stop of the U.S. National Science Foundation Daniel K. Inouye Solar Telescope imposes pointing limitations for targets located in the off-limb corona, which vary in different directions and with time. The telescope enclosure features four sectors of vent gates that can be opened independently and whose operation depends on weather constraints. The vent gates rotate with the enclosure as the telescope tracks the sun during the day and thus their position with respect to weather may change. We present an interactive tool that displays the evolution of these variables for a particular day to help the Science Operations team monitor the use of the vent gates as well as to know when science targets in the solar corona are not observable with the telescope, increasing observing efficiency.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/DKIST-vent-gate-monitoring-and-exclusion-pointing-prediction-tool-for/14151-46",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 14:20 - 14:40 CEST | Room B2-M2",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Yoichi Tamura, Akio Taniguchi, Kotaro Iwakami, Ichiro Jikuya, Shion Takeno, Sachiko Okumura, Masaki Sakakibara, Akinobu Miyake, Masato Hagimoto, Kianhong Lee, Chihiro Imamura, Sho Fujisawa, Shutaro Inui, Masato Kato, Ryohei Kawabe, Mikio Kurita, Nozomi Okada, Juri Yamanaka",
       "PaperNumber": "14147-68",
       "DateTimeLocationDataList": [
@@ -332,7 +298,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Celia Verdugo, Juan Cortes, Matias Radiszcz, Jorge Morgado, Kurt Plarre, Cristian Lopez, Gabriel Marinello, Andres Perez",
+      "Authors": "Celia Verdugo, Juan Cortés, Matías Radiszcz, Kurt Plarre, Jorge Morgado, Andrés Pérez, Cristian López, Gabriel Marinello",
       "PaperNumber": "14151-47",
       "DateTimeLocationDataList": [
         {
@@ -1724,6 +1690,40 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 16:30 - 16:50 CEST | Room B4-M3",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Boudewijn Hut, Carla J. Baldovin Saveedra, Cees Bassa, Ilse van Bemmel, André Gunst, Tom Kamphuis, Ronald Roelfsema, John Swinbank, Sander ter Veen",
+      "PaperNumber": "14153-56",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 16:30 - 16:50 CEST | Room B3-M6",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "ebe5a44e-78d0-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "ebe5a44e-78d0-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "Towards the LOFAR2.0 Observatory: Our Engineering Journey",
+      "Description": null,
+      "Abstract": "The world's largest low-frequency (10-240MHz) radio telescope is undergoing a major upgrade of its hardware, firmware and software to improve its unique observing capabilities. A variety of scientific use cases, ranging from galaxy evolution, transients and cosmic rays to space weather and lightning research is targeted. This pan-European Low-Frequency Array (LOFAR) is continuously improved by ASTRON and its partners to keep it a world class telescope.     Given the science goals of the LOFAR2.0 upgrade, we present an overview of the main design challenges and key solutions by our multi-disciplinary team: from antenna, mechanical, network and software to systems engineering and high-performance computing. We also present our approach to integrate the solutions into the new LOFAR2.0 Observatory.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/Towards-the-LOFAR20-Observatory-Our-Engineering-Journey/14153-56",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 16:30 - 16:50 CEST | Room B3-M6",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1731,6 +1731,6 @@
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 696243
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696314
 }

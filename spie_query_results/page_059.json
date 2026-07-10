@@ -745,6 +745,6 @@
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 696243
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696314
 }

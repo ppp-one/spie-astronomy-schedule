@@ -4,6 +4,17 @@
 
 An unofficial schedule viewer for [SPIE Astronomical Telescopes + Instrumentation 2026](https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation) (Copenhagen, Sun 5 – Fri 10 July 2026).
 
+UPDATE 10-07-2026:
+- Sun 5 Jul: 152 talks across 9 rooms
+- Mon 6 Jul: 175 talks across 13 rooms
+- Tue 7 Jul: 201 talks across 14 rooms
+- Wed 8 Jul: 180 talks across 14 rooms
+- Thu 9 Jul: 149 talks across 11 rooms
+- Fri 10 Jul: 146 talks across 9 rooms
+- 1003 talks across 6 days
+- 1877 poster entries across 6 poster days
+- 23 special/plenary events across 5 days
+
 UPDATE 09-07-2026:
 - Sun 5 Jul: 152 talks across 9 rooms
 - Mon 6 Jul: 175 talks across 13 rooms
@@ -75,8 +86,8 @@ UPDATE 01-07-2026:
 - Wed 8 Jul: 181 talks across 14 rooms
 - Thu 9 Jul: 149 talks across 11 rooms
 - Fri 10 Jul: 150 talks across 9 rooms
-- 1020 talks
-- 1908 poster entries
+- 1020 talks across 6 days
+- 1908 poster entries across 5 poster days
 
 12-05-2026:
 - Sun 5 Jul: 160 talks across 9 rooms
@@ -85,8 +96,8 @@ UPDATE 01-07-2026:
 - Wed 8 Jul: 187 talks across 14 rooms
 - Thu 9 Jul: 152 talks across 12 rooms
 - Fri 10 Jul: 157 talks across 9 rooms
-- 1051 talks
-- 2140 poster entries
+- 1051 talks across 6 days
+- 2140 poster entries across 5 poster days
 
 
 

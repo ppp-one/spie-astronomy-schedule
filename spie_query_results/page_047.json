@@ -26,40 +26,6 @@
   },
   "Items": [
     {
-      "Authors": "Sébastien Pernecker, Tarik Ibrahimovic, Jean-Paul Kneib, Jonathan Wei, Maxime Rombach, Oliver Pineda Suárez",
-      "PaperNumber": "14154-83",
-      "DateTimeLocationDataList": [
-        {
-          "date_time_location": "9 July 2026 • 11:30 - 11:45 CEST | Room B2-M4",
-          "badge_icon": null,
-          "format_icon": null,
-          "show_tz_converter": false
-        }
-      ],
-      "Status": "InProgram",
-      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
-      "SymposiumSeriesCode": "AS",
-      "SuperSymposiumSeriesCode": "",
-      "MatchingFrag": "",
-      "UniqueId": "a8bc8f39-abc9-f011-a9ae-00505691c5e1---crmrecord",
-      "GUID": "a8bc8f39-abc9-f011-a9ae-00505691c5e1",
-      "RecordType": "UpcomingPresentation",
-      "RecordLabel": "Conference Presentation",
-      "Score": "NaN",
-      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
-      "HTMLTitle": "",
-      "Title": "Advancing control electronics for next-generation astronomical fiber robotic positioners",
-      "Description": null,
-      "Abstract": "Next-generation spectroscopic surveys require compact, high-density fiber robotic positioner systems with 5μm precision, imposing strict size and power constraints on control electronics. We present a compact architecture driving 21 theta-phi SCARA positioners (42 BLDC motors) on a single board—a significant increase over current surveys like SDSS-V and DESI, where each positioner uses dedicated hardware. The design integrates power distribution, CAN communication, and synchronized motion control. It features sensorless Field-Oriented Control with collision detection and hard-stop calibration, reducing cost and complexity. We demonstrate that this module meets precision requirements while improving electronics densification and energy efficiency for future survey instruments.",
-      "ImagePath": null,
-      "URL": "/astronomical-telescopes-instrumentation/presentation/Advancing-control-electronics-for-next-generation-astronomical-fiber-robotic-positioners/14154-83",
-      "ModifiedOn": "0001-01-01T00:00:00",
-      "PublicationDate": null,
-      "PublicationDateTime": "0001-01-01T00:00:00",
-      "DisplayDateTime": "9 July 2026 • 11:30 - 11:45 CEST | Room B2-M4",
-      "ErrorMessage": null
-    },
-    {
       "Authors": "Shravan Menon, Kun Hu, Henric Krawczynski, Fabian Kislat",
       "PaperNumber": "14146-80",
       "DateTimeLocationDataList": [
@@ -196,7 +162,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Claudia V. Rodrigues, Clemens D. Gneiding, Leandro Almeida, André L. Alves, Laerte B. Andrade, Denis V. Bernardes, Jesulino B. dos Santos, Julio C. Campagnolo, Fernando Falkenberg, Ana C. Mattiuci, Luciano Fraga, Francisco J. Jablonski, René Laporte, Eder Martioli, Flávio F. Ribeiro, Francisco Rodrigues, Juliano Romao, Wagner Schlindwein, Orlando Verducci, Gustavo H. Santos",
+      "Authors": "Claudia V. Rodrigues, Clemens D. Gneiding, Leandro de Almeida, André L. M. Alves, Laerte B. Andrade, Denis Bernardes, Julio C. Campagnolo, Fernando Falkenberg, Ana C. Mattiuci, Luciano Fraga, Francisco J. Jablonski, Rene Laporte, Eder Martioli, Flavio F. Ribeiro, Francisco Rodrigues, Juliano Romão, Gustavo H. S. Santos, Jesulino B. Santos, Wagner Schlindwein, Orlando Verducci",
       "PaperNumber": "14149-64",
       "DateTimeLocationDataList": [
         {
@@ -1250,7 +1216,7 @@
       "ErrorMessage": null
     },
     {
-      "Authors": "Melissa L. Graham, Leanne P. Guy, Jeffrey L. Carlin, Christina L. Adair, Yumi Choi, Gloria Fonseca Alvarez, Shenming Fu, Sarah Greenstreet, Greg Madejski, Garreth Martin, Andrés A. Plazas Malagón, Aaron M. Meisner, James Edward Robinson, Douglas L. Tucker, Christina C. Williams, Jonathan Sick, Frossie Economou",
+      "Authors": "Melissa L. Graham, Leanne P. Guy, Jeffrey L. Carlin, Christina L. Adair, Yumi Choi, Gloria Fonseca Alvarez, Shenming Fu, Sarah Greenstreet, Greg M. Madejski, Garreth Martin, Andrés A. Plazas Malagón, Aaron M. Meisner, James Edward Robinson, Douglas L. Tucker, Christina C. Williams, Jonathan Sick, Frossie Economou",
       "PaperNumber": "14151-44",
       "DateTimeLocationDataList": [
         {
@@ -1724,6 +1690,40 @@
       "PublicationDateTime": "0001-01-01T00:00:00",
       "DisplayDateTime": "9 July 2026 • 14:20 - 14:40 CEST | Room B4-M7",
       "ErrorMessage": null
+    },
+    {
+      "Authors": "Manuel Díaz Alfaro, David Morris, Andres Parraguez, Alexandra Tritschler",
+      "PaperNumber": "14151-46",
+      "DateTimeLocationDataList": [
+        {
+          "date_time_location": "9 July 2026 • 14:20 - 14:40 CEST | Room B2-M2",
+          "badge_icon": null,
+          "format_icon": null,
+          "show_tz_converter": false
+        }
+      ],
+      "Status": "InProgram",
+      "SymposiumTitle": "SPIE Astronomical Telescopes + Instrumentation",
+      "SymposiumSeriesCode": "AS",
+      "SuperSymposiumSeriesCode": "",
+      "MatchingFrag": "",
+      "UniqueId": "7c9edaf8-2fcf-f011-a9ae-00505691c5e1---crmrecord",
+      "GUID": "7c9edaf8-2fcf-f011-a9ae-00505691c5e1",
+      "RecordType": "UpcomingPresentation",
+      "RecordLabel": "Conference Presentation",
+      "Score": "NaN",
+      "RecordWeight": "Default:5 Category:800 Date:497.28 RecordSize:200 Total:1502.28",
+      "HTMLTitle": "",
+      "Title": "DKIST vent gate monitoring and exclusion pointing prediction tool for science operations",
+      "Description": null,
+      "Abstract": "The design of the heat stop of the U.S. National Science Foundation Daniel K. Inouye Solar Telescope imposes pointing limitations for targets located in the off-limb corona, which vary in different directions and with time. The telescope enclosure features four sectors of vent gates that can be opened independently and whose operation depends on weather constraints. The vent gates rotate with the enclosure as the telescope tracks the sun during the day and thus their position with respect to weather may change. We present an interactive tool that displays the evolution of these variables for a particular day to help the Science Operations team monitor the use of the vent gates as well as to know when science targets in the solar corona are not observable with the telescope, increasing observing efficiency.",
+      "ImagePath": null,
+      "URL": "/astronomical-telescopes-instrumentation/presentation/DKIST-vent-gate-monitoring-and-exclusion-pointing-prediction-tool-for/14151-46",
+      "ModifiedOn": "0001-01-01T00:00:00",
+      "PublicationDate": null,
+      "PublicationDateTime": "0001-01-01T00:00:00",
+      "DisplayDateTime": "9 July 2026 • 14:20 - 14:40 CEST | Room B2-M2",
+      "ErrorMessage": null
     }
   ],
   "Facets": [],
@@ -1731,6 +1731,6 @@
   "Success": true,
   "Error": null,
   "ContainsFacets": false,
-  "SearchServerName": "PRODSPSEARCH03",
-  "DLCount": 696243
+  "SearchServerName": "PRODSPSEARCH02",
+  "DLCount": 696314
 }
